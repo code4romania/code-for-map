@@ -37,9 +37,9 @@ export default {
   name: "Legend",
   props: {
     legend: {
-      type: Object,
-    },
-  },
+      type: Object
+    }
+  }
 };
 </script>
 

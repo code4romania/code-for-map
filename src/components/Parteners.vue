@@ -16,8 +16,8 @@ export default {
   /** Recived object props from App. */
   props: {
     parteners: {
-      type: Object,
-    },
-  },
+      type: Object
+    }
+  }
 };
 </script>

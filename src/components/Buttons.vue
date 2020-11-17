@@ -17,9 +17,9 @@ export default {
   name: "Buttons",
   props: {
     button: {
-      type: Object,
-    },
-  },
+      type: Object
+    }
+  }
 };
 </script>
 
