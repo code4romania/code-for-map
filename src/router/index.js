@@ -1,16 +1,24 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import Home from "../views/Home.vue";
+// import Home from "../views/Home.vue";
 // import About from "../views/About.vue";
-import HighwayMap from "../components/map/HighwayMap.vue";
+// import HighwayMap from "../components/map/HighwayMap.vue";
+import Map from "../views/Map.vue";
+import Highway from "../views/Highway.vue";
 
 Vue.use(VueRouter);
 
 const routes = [
   {
     path: "/",
-    name: "Home",
-    component: Home
+    name: "Map",
+    component: Map
+  },
+  {
+    path: "/code4ro/:slug",
+    name: "Highway",
+    component: Highway,
+    props: true
   },
   // {
   //   path: "/about/:slug",
@@ -18,12 +26,12 @@ const routes = [
   //   component: About,
   //   props: true
   // },
-  {
-    path: "/code4ro/:slug",
-    name: "Highway",
-    component: HighwayMap,
-    props: true
-  }
+  // {
+  //   path: "/code4ro/:slug",
+  //   name: "Highway",
+  //   component: HighwayMap,
+  //   props: true
+  // }
 ];
 
 const router = new VueRouter({

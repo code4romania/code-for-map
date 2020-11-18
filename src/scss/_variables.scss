@@ -1,0 +1,56 @@
+/***********************************************
+******************** Colors ********************
+***********************************************/
+
+$primary:       #4267B2;
+$secondary:     #3A54A4;
+$success:       #65CC90;
+$warning:       #FFB61D;
+
+$theme-colors: () !default;
+$theme-colors: map-merge((
+        "purple":     #7937C4,
+        "red":        #F90000,
+        "blue":       #00B4CC,
+    ),
+$theme-colors);
+
+/***********************************************
+******************** Fonts *********************
+***********************************************/
+
+/** Fonts path. */
+// $titillium-web-font-path: "../assets/fonts/titillium-web/";
+
+/** Font family. */
+// $font-family-base:       'TitilliumWeb-Regular', sans-serif;
+
+/** Text small. */
+$small-font-size: 14px;
+
+/** Heading font size. */
+$h1-font-size: 34px;
+$h2-font-size: 24px;
+$h3-font-size: 20px;
+
+// Heading font family
+// $headings-font-family: $font-family-sans-serif;
+
+// Heading font weight
+$headings-font-weight: bold;
+
+/** Font weight */
+$font-weight-lighter: 300;
+$font-weight-light:   600;
+$font-weight-normal:  400;
+$font-weight-bold:    700;
+$font-weight-bolder:  800;
+
+/***********************************************
+************** Responsive text *****************
+***********************************************/
+
+$enable-responsive-font-sizes: true;
+
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+@import 'node_modules/bootstrap-vue/src/index.scss';
