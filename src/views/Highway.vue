@@ -1,16 +1,20 @@
 <template>
   <b-container fluid>
     <b-row>
-      <b-col cols="12" lg="4">legenda</b-col>
-      <b-col cols="12" sm="12" lg="8">
+      <b-col cols="12" lg="2">legenda</b-col>
+      <b-col cols="12" sm="12" lg="10">
+        <!-- Highway background as a link to main map -->
         <router-link :to="{ name: 'Map' }">
           <img class="img-fluid w-100" :src="code4ro_map.highway_bg.bg" />
         </router-link>
+        <!-- MapButton component -->
         <MapButton :highway="code4ro_map" />
+        <!-- Highway solutions buttons -->
         <div
           v-for="solution_button in code4ro_map.highway_solutions"
           :key="solution_button.id"
         >
+          <!-- Highway component -->
           <HighwayButton :solution_button="solution_button" />
         </div>
       </b-col>
@@ -19,29 +23,36 @@
 </template>
 
 <script>
+/** Imported components. */
 import MapButton from "../components/map/MapButton";
 import HighwayButton from "../components/map/HighwayButton";
 
 export default {
+  /** Component name. */
+  name: "Highway",
+  /** Recived props */
   props: {
     data: {
-      type: Object,
-    },
+      type: Object
+    }
   },
+  /** Registered components */
   components: {
     MapButton,
-    HighwayButton,
+    HighwayButton
   },
+  /** Component state. */
   data() {
     return {
       slug: this.$route.params.slug,
-      code4ro_map: [],
+      code4ro_map: []
     };
   },
+  /** Vue created life cycle initialize data for this route. */
   created() {
     this.code4ro_map = this.data.code4ro_map.find(
-      (item) => item.slug == this.slug
+      item => item.slug == this.slug
     );
-  },
+  }
 };
 </script>

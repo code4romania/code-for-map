@@ -1,40 +1,43 @@
 <template>
+  <!-- Main map button links to highway -->
   <router-link
     :to="{ name: 'Highway', params: { slug: highway.slug } }"
-    class="text-decoration-none button d-flex align-items-center badge-pill btn bg-white scale pr-lg-3 pl-lg-2"
+    class="badge-pill btn bg-white scale btn-fade py-0"
     :class="`btn-outline-${highway.btn.color}`"
     :style="{
       position: 'absolute',
       top: highway.btn.top,
-      left: highway.btn.left,
-      bottom: highway.btn.bottom,
-      right: highway.btn.right,
+      left: highway.btn.left
     }"
   >
-    <img class="img-fluid" :src="highway.logo" />
-    <div class="ml-lg-2 d-flex flex-column p-0 m-0">
-      <span class="align-self-start small text-dark font-weight-bold">
-        {{ highway.btn.text_1 }}
-      </span>
-      <span class="align-self-start small text-dark font-weight-bold">
-        {{ highway.btn.text_2 }}
-      </span>
+    <div class="d-flex align-items-center">
+      <img class="img-fluid mr-2" :src="highway.logo" />
+      <p class="small text-dark font-weight-bold p-0 m-0 text-left d-block">
+        {{ highway.title }}
+      </p>
     </div>
   </router-link>
 </template>
 
 <script>
 export default {
+  /** Component name. */
   name: "MapButtonAndHighway",
+  /** Recived props. */
   props: {
     highway: {
-      type: Object,
-    },
-  },
+      type: Object
+    }
+  }
 };
 </script>
+
 <style scoped>
+/** Map button styles specific ti this component. */
 .btn {
+  width: 100%;
+  max-width: 135px !important;
   border-width: 5px !important;
+  padding: 3px 5px !important;
 }
 </style>

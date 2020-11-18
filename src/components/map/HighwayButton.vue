@@ -1,4 +1,5 @@
 <template>
+  <!-- Map highway solutions button links -->
   <router-link
     :to="{ name: 'Highway' }"
     class="badge-pill btn bg-white scale btn-fade py-0"
@@ -6,13 +7,13 @@
     :style="{
       position: 'absolute',
       top: solution_button.btn.top,
-      left: solution_button.btn.left,
+      left: solution_button.btn.left
     }"
   >
     <div class="d-flex align-items-center">
       <img class="mx-1" :src="solution_button.icon" alt="" />
       <p class="small text-dark font-weight-bold p-0 m-0 text-left d-block">
-        {{ solution_button.btn.title }}
+        {{ solution_button.title }}
       </p>
     </div>
   </router-link>
@@ -20,15 +21,19 @@
 
 <script>
 export default {
+  /** Component name. */
+  name: "HighwayButton",
+  /** Recived props. */
   props: {
     solution_button: {
-      type: Object,
-    },
-  },
+      type: Object
+    }
+  }
 };
 </script>
 
 <style scoped>
+/** Buttons fade in animation */
 @keyframes example {
   0% {
     opacity: 0;
@@ -43,9 +48,10 @@ export default {
   animation-name: example;
   animation-duration: 0.35s;
 }
+/** Buttons styles specific to this component */
 .btn {
   width: 100%;
-  max-width: 180px !important;
+  max-width: 190px !important;
   border-width: 2px !important;
   padding: 3px 5px !important;
 }
