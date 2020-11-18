@@ -1,6 +1,7 @@
 <template>
   <b-container fluid>
     <b-row>
+      <b-col cols="12" lg="4">legenda</b-col>
       <b-col cols="12" lg="8">
         <img class="img-fluid" :src="data.map_bg" />
         <!-- Display map buttons on map -->

@@ -1,9 +1,10 @@
 <template>
   <b-container fluid>
     <b-row>
-      <b-col cols="12" lg="8">
+      <b-col cols="12" lg="4">legenda</b-col>
+      <b-col cols="12" sm="12" lg="8">
         <router-link :to="{ name: 'Map' }">
-          <img class="img-fluid" :src="code4ro_map.highway_bg.bg" />
+          <img class="img-fluid w-100" :src="code4ro_map.highway_bg.bg" />
         </router-link>
         <MapButton :highway="code4ro_map" />
         <div

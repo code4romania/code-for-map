@@ -1,7 +1,7 @@
 <template>
   <router-link
     :to="{ name: 'Highway' }"
-    class="text-decoration-none button d-flex align-items-center badge-pill btn bg-white scale pr-lg-3 pl-lg-2 fade1"
+    class="badge-pill btn bg-white scale btn-fade py-0"
     :class="`btn-outline-${solution_button.btn.color}`"
     :style="{
       position: 'absolute',
@@ -9,10 +9,11 @@
       left: solution_button.btn.left,
     }"
   >
-    <div class="ml-lg-2 d-flex flex-column p-0 m-0">
-      <span class="align-self-start small text-dark font-weight-bold">
+    <div class="d-flex align-items-center">
+      <img class="mx-1" :src="solution_button.icon" alt="" />
+      <p class="small text-dark font-weight-bold p-0 m-0 text-left d-block">
         {{ solution_button.btn.title }}
-      </span>
+      </p>
     </div>
   </router-link>
 </template>
@@ -27,7 +28,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 @keyframes example {
   0% {
     opacity: 0;
@@ -38,8 +39,14 @@ export default {
     transform: scale(1);
   }
 }
-.fade1 {
+.btn-fade {
   animation-name: example;
-  animation-duration: 0.3s;
+  animation-duration: 0.35s;
+}
+.btn {
+  width: 100%;
+  max-width: 180px !important;
+  border-width: 2px !important;
+  padding: 3px 5px !important;
 }
 </style>

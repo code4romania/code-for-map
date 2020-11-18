@@ -1,9 +1,6 @@
 .text-decoration-none {
     text-decoration: none;
 }
-.btn-outline {
-    background: #fff !important;
-}
-.btn-outline:hover{
-    background: red !important;
+.scale:hover {
+    transform: scale(1.05);
 }

@@ -33,10 +33,7 @@ export default {
   },
 };
 </script>
-<style >
-.scale:hover {
-  transform: scale(1.05);
-}
+<style scoped>
 .btn {
   border-width: 5px !important;
 }

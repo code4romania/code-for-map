@@ -12,7 +12,7 @@ const data = {
         text_1: "Care for",
         text_2: "Romania",
         color: 'purple',
-        top: '10.16%',
+        top: '9%',
         left: '49.78%',
       },
       highway_bg: {
@@ -24,15 +24,16 @@ const data = {
           id: 1,
           highway_slug: "",
           position: {},
-          title: "title",
+          title: "Fara trafic de persoane",
           image: "",
           btn: {
-            title: 'title',
+            title: 'Fara trafic de persoane',
             image: "",
             color: "purple",
-            top: "25%",
-            left: "52%"
+            top: "15%",
+            left: "46%"
           },
+          icon: require("../assets/images/care4ro/no-human-trafic/icon.svg"),
           projects: [
             {
               id: 1,
@@ -46,15 +47,16 @@ const data = {
           id: 2,
           highway_slug: "",
           position: {},
-          title: "title",
+          title: "Sanse pentru persoanele cu dizabilitati",
           image: "",
           btn: {
-            title: 'title',
+            title: 'Sanse pentru persoanele cu dizabilitati',
             image: "",
             color: "purple",
-            top: "30%",
-            left: "22%"
+            top: "20%",
+            left: "40%"
           },
+          icon: require("../assets/images/care4ro/no-human-trafic/icon.svg"),
           projects: [
             {
               id: 1,
@@ -68,15 +70,16 @@ const data = {
           id: 3,
           highway_slug: "",
           position: {},
-          title: "title",
+          title: "O viata buna pentru copiii abandonati",
           image: "",
           btn: {
-            title: 'title',
+            title: 'O viata buna pentru copiii abandonati',
             image: "",
             color: "purple",
-            top: "45%",
-            left: "22%"
+            top: "30%",
+            left: "45%"
           },
+          icon: require("../assets/images/care4ro/no-human-trafic/icon.svg"),
           projects: [
             {
               id: 1,
@@ -90,15 +93,16 @@ const data = {
           id: 4,
           highway_slug: "",
           position: {},
-          title: "title",
+          title: "Fara discriminare impotriva etniei rome",
           image: "",
           btn: {
-            title: 'title',
+            title: 'Fara discriminare impotriva etniei rome',
             image: "",
             color: "purple",
-            top: "60%",
-            left: "12%"
+            top: "19%",
+            left: "23%"
           },
+          icon: require("../assets/images/care4ro/no-human-trafic/icon.svg"),
           projects: [
             {
               id: 1,
@@ -112,15 +116,16 @@ const data = {
           id: 5,
           highway_slug: "",
           position: {},
-          title: "title",
+          title: "Incluziune pentru persoanele LGBTQ+",
           image: "",
           btn: {
-            title: 'title',
+            title: 'Incluziune pentru persoanele LGBTQ+',
             image: "",
             color: "purple",
-            top: "18%",
-            left: "52%"
+            top: "23%",
+            left: "10%"
           },
+          icon: require("../assets/images/care4ro/no-human-trafic/icon.svg"),
           projects: [
             {
               id: 1,
@@ -134,15 +139,39 @@ const data = {
           id: 6,
           highway_slug: "",
           position: {},
-          title: "title",
+          title: "Diaspora mai aproape de casa",
           image: "",
           btn: {
-            title: 'title',
+            title: 'Diaspora mai aproape de casa',
             image: "",
             color: "purple",
-            top: "18%",
-            left: "52%"
+            top: "32%",
+            left: "20%"
           },
+          icon: require("../assets/images/care4ro/no-human-trafic/icon.svg"),
+          projects: [
+            {
+              id: 1,
+              project_slug: "",
+              title: "",
+              description: "",
+            },
+          ],
+        },
+        {
+          id: 7,
+          highway_slug: "",
+          position: {},
+          title: "Fara violenta acasa",
+          image: "",
+          btn: {
+            title: 'Fara violenta acasa',
+            image: "",
+            color: "purple",
+            top: "43%",
+            left: "23%"
+          },
+          icon: require("../assets/images/care4ro/no-human-trafic/icon.svg"),
           projects: [
             {
               id: 1,
