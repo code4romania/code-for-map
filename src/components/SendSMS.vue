@@ -1,7 +1,7 @@
 <template>
   <b-row class="py-3">
     <!-- Text 'Trimite sms cu cuvantul' -->
-    <b-col cols="6" class="d-flex align-items-baseline">
+    <b-col cols="6" class="d-flex align-items-baseline justify-content-end">
       <p class="text-right text-dark font-weight-light p-0 m-0">
         {{ sms.title.text_1 }}
       </p>

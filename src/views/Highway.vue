@@ -9,7 +9,7 @@
         </div>
       </b-col>
       <!-- Map Legend displayed till 1024px-->
-      <b-col cols="12">
+      <b-col cols="12 d-block d-lg-none">
         <h1 class="my-3">{{ data.header.title }}</h1>
       </b-col>
       <b-col cols="12" lg="9">
@@ -28,8 +28,11 @@
             />
           </div>
           <!-- Back to map link displayed till 1024px -->
-          <BackToMapLink class="mb-4" :back="data.back_link" />
-          <b-row>
+          <BackToMapLink
+            class="mb-4 d-block d-lg-none"
+            :back="data.back_link"
+          />
+          <b-row class="d-block d-lg-none">
             <b-col cols="7" class="mb-4 d-flex align-items-center">
               <img width="80px" :src="code4ro_map.logo" />
               <h2 class="ml-2">{{ code4ro_map.title }}</h2>
@@ -49,8 +52,8 @@
               :solution_button="solution_button"
             />
             <!-- Highway solutions displayed till 1024px -->
-            <b-row>
-              <b-col cols="12" class="d-block d-none p-0 m-0">
+            <b-row class="d-block d-lg-none">
+              <b-col cols="12">
                 <router-link :to="{ name: 'Map' }">
                   <div
                     class="d-flex align-items-center justify-content-between border-top py-3"
