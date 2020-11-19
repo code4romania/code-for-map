@@ -10,11 +10,17 @@
       left: solution_button.btn.left
     }"
   >
-    <div class="d-flex align-items-center">
+    <div class="d-flex align-items-center" v-if="solution_button.icon_left">
       <img class="mx-1" :src="solution_button.icon" alt="" />
       <p class="small text-dark font-weight-bold p-0 m-0 text-left d-block">
         {{ solution_button.title }}
       </p>
+    </div>
+    <div class="d-flex align-items-center" v-else>
+      <span class="small text-dark font-weight-bold p-0 m-0 text-right">
+        {{ solution_button.title }}
+      </span>
+      <img class="mx-1" :src="solution_button.icon" />
     </div>
   </router-link>
 </template>
