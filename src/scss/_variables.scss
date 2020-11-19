@@ -2,18 +2,20 @@
 ******************** Colors ********************
 ***********************************************/
 
-$primary:       #4267B2;
+$primary:       #404366;
 $secondary:     #3A54A4;
 $success:       #65CC90;
 $warning:       #FFB61D;
+$dark:          #1E1E1E;
 
 $theme-colors: () !default;
 $theme-colors: map-merge((
-        "purple":     #7937C4,
-        "red":        #F90000,
-        "blue":       #00B4CC,
-        "yellow":     #FFA506,
-        "green":      #1B771B,
+        "purple":      #7937C4,
+        "red":         #F90000,
+        "blue":        #00B4CC,
+        "yellow":      #FFA506,
+        "green":       #1B771B,
+        "strong-blue": #0000FF,
     ),
 $theme-colors);
 
@@ -42,8 +44,8 @@ $h3-font-size: 20px;
 $headings-font-weight: bold;
 
 /** Displayes font variable. */
-// $display1-size:      25px;
-// $display1-weight:    400;
+$display1-size:      48px;
+$display1-weight:    600;
 // $display2-size:      20px;
 // $display2-weight:    400;
 // $display3-size:   24px;

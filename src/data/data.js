@@ -17,6 +17,32 @@ const data = {
     realizat: "Obiectiv relizat",
     planificat: "Obiectiv planificat"
   },
+  application_texts: {
+    map_page: {
+      text_1: "This is a placeholder text that should act as a call to action to help people understant why they need to be joining us in our journey.",
+    },
+    info_sms: {
+      title: {
+        text_1: "Trimite un SMS cu cuvantul",
+        text_2: "la"
+      },
+      msg_text: "PUTEM",
+      phone_number: "8864",
+      description: "Si contribuie la digitalizarea Romaniei. Cu un SMS recurent de 4 euro pe luna ajuti la construirea si mentinerea infrastructurii digitale de care avem nevoie in secolul XXI."
+    }
+  },
+  call_to_action: {
+    share: {
+      title: "DISTRIBUIE",
+      color: "primary",
+      link: "",
+    },
+    donate: {
+      title: "DONEAZA",
+      color: "success",
+      link: "",
+    }
+  },
   code4ro_map: [
     {
       id: 1,
@@ -28,6 +54,10 @@ const data = {
         color: "purple",
         top: "9%",
         left: "49.78%"
+      },
+      mobile_btn: {
+        top: "13%",
+        left: "22%"
       },
       highway_bg: require("../assets/images/care4ro/care4ro_bg.svg"),
       highway_solutions: [
@@ -184,6 +214,10 @@ const data = {
         top: "17.26%",
         left: "69.36%"
       },
+      mobile_btn: {
+        top: "31%",
+        left: "48%"
+      },
       highway_bg: require("../assets/images/health4ro/health4ro_bg.svg"),
       highway_solutions: [
         {
@@ -318,6 +352,10 @@ const data = {
         color: "blue",
         top: "67.97%",
         left: "82.61%"
+      },
+      mobile_btn: {
+        top: "52%",
+        left: "53%"
       },
       highway_bg: require("../assets/images/participation4ro/participation4ro_bg.svg"),
       highway_solutions: [
@@ -514,6 +552,10 @@ const data = {
         top: "54.61%",
         left: "35.36%"
       },
+      mobile_btn: {
+        top: "73%",
+        left: "31%"
+      },
       highway_bg: require("../assets/images/education4ro/education4ro_bg.svg"),
       highway_solutions: [
         {
@@ -648,6 +690,10 @@ const data = {
         color: "green",
         top: "42.91%",
         left: "2.75%"
+      },
+      mobile_btn: {
+        top: "47%",
+        left: "15%"
       },
       highway_bg: require("../assets/images/environment4ro/environment4ro_bg.svg"),
       highway_solutions: [
