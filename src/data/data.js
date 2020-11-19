@@ -1,6 +1,10 @@
 const data = {
   code4ro_logo: "",
   map_bg: require("../assets/images/map-bg.svg"),
+  back_link: {
+    icon: require("../assets/images/assets_svg/chevron_left.svg"),
+    text: "Înapoi la harta"
+  },
   header: {
     title: "Digitalizăm România împreună",
     description:
@@ -19,7 +23,8 @@ const data = {
   },
   application_texts: {
     map_page: {
-      text_1: "This is a placeholder text that should act as a call to action to help people understant why they need to be joining us in our journey.",
+      text_1:
+        "This is a placeholder text that should act as a call to action to help people understant why they need to be joining us in our journey."
     },
     info_sms: {
       title: {
@@ -28,27 +33,133 @@ const data = {
       },
       msg_text: "PUTEM",
       phone_number: "8864",
-      description: "Si contribuie la digitalizarea Romaniei. Cu un SMS recurent de 4 euro pe luna ajuti la construirea si mentinerea infrastructurii digitale de care avem nevoie in secolul XXI."
+      description:
+        "Si contribuie la digitalizarea Romaniei. Cu un SMS recurent de 4 euro pe luna ajuti la construirea si mentinerea infrastructurii digitale de care avem nevoie in secolul XXI."
     }
   },
   call_to_action: {
     share: {
       title: "DISTRIBUIE",
       color: "primary",
-      link: "",
+      link: ""
     },
     donate: {
       title: "DONEAZA",
       color: "success",
-      link: "",
+      link: ""
     }
+  },
+  parteners: {
+    title: "ÎMPREUNĂ",
+    description:
+      "Ei sunt arhitecții, constructorii și administratorii care ni s-au alăturat până acum în dezvoltarea infrastructurii digitale a României",
+    main_parteners: [
+      {
+        id: 1,
+        name: "test",
+        logo: require("../assets/images/parteners/main/partener_test.svg")
+      },
+      {
+        id: 2,
+        name: "test",
+        logo: require("../assets/images/parteners/main/partener_test.svg")
+      },
+      {
+        id: 3,
+        name: "test",
+        logo: require("../assets/images/parteners/main/partener_test.svg")
+      },
+      {
+        id: 4,
+        name: "test",
+        logo: require("../assets/images/parteners/main/partener_test.svg")
+      },
+      {
+        id: 5,
+        name: "test",
+        logo: require("../assets/images/parteners/main/partener_test.svg")
+      }
+    ],
+    secondary_parteners: [
+      {
+        id: 1,
+        name: "test",
+        logo: require("../assets/images/parteners/secondary/partener_test.svg")
+      },
+      {
+        id: 2,
+        name: "test",
+        logo: require("../assets/images/parteners/secondary/partener_test.svg")
+      },
+      {
+        id: 3,
+        name: "test",
+        logo: require("../assets/images/parteners/secondary/partener_test.svg")
+      },
+      {
+        id: 4,
+        name: "test",
+        logo: require("../assets/images/parteners/secondary/partener_test.svg")
+      },
+      {
+        id: 5,
+        name: "test",
+        logo: require("../assets/images/parteners/secondary/partener_test.svg")
+      },
+      {
+        id: 6,
+        name: "test",
+        logo: require("../assets/images/parteners/secondary/partener_test.svg")
+      },
+      {
+        id: 7,
+        name: "test",
+        logo: require("../assets/images/parteners/secondary/partener_test.svg")
+      },
+      {
+        id: 8,
+        name: "test",
+        logo: require("../assets/images/parteners/secondary/partener_test.svg")
+      },
+      {
+        id: 9,
+        name: "test",
+        logo: require("../assets/images/parteners/secondary/partener_test.svg")
+      },
+      {
+        id: 10,
+        name: "test",
+        logo: require("../assets/images/parteners/secondary/partener_test.svg")
+      },
+      {
+        id: 11,
+        name: "test",
+        logo: require("../assets/images/parteners/secondary/partener_test.svg")
+      },
+      {
+        id: 12,
+        name: "test",
+        logo: require("../assets/images/parteners/secondary/partener_test.svg")
+      },
+      {
+        id: 13,
+        name: "test",
+        logo: require("../assets/images/parteners/secondary/partener_test.svg")
+      },
+      {
+        id: 14,
+        name: "test",
+        logo: require("../assets/images/parteners/secondary/partener_test.svg")
+      }
+    ]
   },
   code4ro_map: [
     {
       id: 1,
       slug: "care4ro",
       title: "Care for Romania",
-      description: "",
+      description:
+        "Implicarea în viața comunității ne face pe toți mai bogați, mai împliniți și mai puternici. Implicându-ne, învățăm unii de la ceilalți și oferim ce avem mai bun, fiecare dintre noi, pentru mai binele tuturor. Dacă dorim sisteme puternice de educație, sănătate, protecția celor vulnerabili și a mediului, trebuie să fim conștienți de faptul că toate acestea nu sunt posibile fără o implicare reală a tuturor în viața societății. În plus, momentele de implicare sunt ferestre prin care vedem cât de puternici putem deveni atunci când suntem împreună. Ne continuăm misiunea de a încuraja participarea cetățenească în viața societății scoțând la iveală cele mai bune instrumente digitale pentru asta.",
       logo: require("../assets/images/care4ro/logo.svg"),
       btn: {
         color: "purple",

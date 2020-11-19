@@ -8,7 +8,7 @@
       :style="{
         position: 'absolute',
         top: highway.btn.top,
-        left: highway.btn.left,
+        left: highway.btn.left
       }"
     >
       <div class="d-flex align-items-center">
@@ -25,7 +25,7 @@
       :style="{
         position: 'absolute',
         top: highway.mobile_btn.top,
-        left: highway.mobile_btn.left,
+        left: highway.mobile_btn.left
       }"
     >
       <div class="d-flex align-items-center">
@@ -50,9 +50,9 @@ export default {
   /** Recived props. */
   props: {
     highway: {
-      type: Object,
-    },
-  },
+      type: Object
+    }
+  }
 };
 </script>
 
