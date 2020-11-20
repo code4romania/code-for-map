@@ -5,7 +5,7 @@
       <router-view :data="data" />
     </transition>
     <!-- Content displayed on all pages -->
-    <b-container>
+    <b-container fluid>
       <b-row>
         <!-- Text under the map -->
         <b-col cols="12" class="py-3">
@@ -15,7 +15,9 @@
       <!-- Call to action buttons -->
       <b-row>
         <b-col cols="12">
-          <div class="d-flex align-items-center justify-content-around">
+          <div
+            class="d-flex align-items-center justify-content-around justify-content-md-start"
+          >
             <CallToAction :action="data.call_to_action.share" />
             <CallToAction :action="data.call_to_action.donate" />
           </div>
@@ -44,18 +46,18 @@ export default {
   components: {
     CallToAction,
     SendSMS,
-    Parteners
+    Parteners,
   },
   /** App state. */
   data() {
     return {
-      data: {}
+      data: {},
     };
   },
   /** Initialize data object in vue created life cycle. */
   created() {
     this.data = data;
-  }
+  },
 };
 </script>
 

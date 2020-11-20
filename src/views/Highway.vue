@@ -32,6 +32,7 @@
             class="mb-4 d-block d-lg-none"
             :back="data.back_link"
           />
+          <!-- Highway name and logo till 1024px -->
           <b-row class="d-block d-lg-none">
             <b-col cols="7" class="mb-4 d-flex align-items-center">
               <img width="80px" :src="code4ro_map.logo" />
@@ -53,15 +54,32 @@
             />
             <!-- Highway solutions displayed till 1024px -->
             <b-row class="d-block d-lg-none">
-              <b-col cols="12">
-                <router-link :to="{ name: 'Map' }">
+              <b-col cols="12" class="p-0 m-0">
+                <router-link
+                  :to="{
+                    name: 'Solution',
+                    params: {
+                      slug: code4ro_map.slug,
+                      _slug: solution_button.highway_slug,
+                    },
+                  }"
+                >
                   <div
-                    class="d-flex align-items-center justify-content-between border-top py-3"
+                    class="d-flex align-items-center justify-content-between border-top last-child-border py-3"
                   >
                     <div class="d-flex align-items-center pl-3">
                       <img :src="solution_button.icon" alt="" />
-                      <p class="p-0 m-0 pl-2">{{ solution_button.title }}</p>
+                      <p class="p-0 m-0 pl-2 pl-md-3">
+                        {{ solution_button.title }}
+                      </p>
                     </div>
+                    <!-- Chevron left displayed till 1024px -->
+                    <h1
+                      class="px-3 font-weight-bold"
+                      :class="`text-${solution_button.btn.color}`"
+                    >
+                      &#62;
+                    </h1>
                   </div>
                 </router-link>
               </b-col>
@@ -87,8 +105,8 @@ export default {
   /** Recived props */
   props: {
     data: {
-      type: Object
-    }
+      type: Object,
+    },
   },
   /** Registered components */
   components: {
@@ -96,26 +114,29 @@ export default {
     HighwayButton,
     Header,
     Legend,
-    BackToMapLink
+    BackToMapLink,
   },
   /** Component state. */
   data() {
     return {
       slug: this.$route.params.slug,
-      code4ro_map: []
+      code4ro_map: [],
     };
   },
-  /** Vue created life cycle initialize data for this route. */
+  /** Vue mounted life cycle initialize data for this route. */
   mounted() {
     this.code4ro_map = this.data.code4ro_map.find(
-      item => item.slug == this.slug
+      (item) => item.slug == this.slug
     );
-  }
+  },
 };
 </script>
 
 <style>
 .btn-opacity {
   opacity: 0.5;
+}
+.last-child-border:last-child {
+  border-bottom: 1px solid #ddd;
 }
 </style>

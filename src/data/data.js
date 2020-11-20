@@ -78,7 +78,7 @@ const data = {
         id: 5,
         name: "test",
         logo: require("../assets/images/parteners/main/partener_test.svg")
-      }
+      },
     ],
     secondary_parteners: [
       {
@@ -170,12 +170,19 @@ const data = {
         top: "13%",
         left: "22%"
       },
+      color: "purple",
       highway_bg: require("../assets/images/care4ro/care4ro_bg.svg"),
+      solution_status: {
+        text: 'Descoperă mai jos care dintre segmentele din drumul nostru spre un mediu sănătos sunt deja executate și ce am proiectat.',
+        implemented: 'Soluție proiectată',
+        executed: 'Soluție executată'
+      },
       highway_solutions: [
         {
           id: 1,
-          highway_slug: "",
+          highway_slug: "fara-trafic-de-persoane",
           title: "Fara trafic de persoane",
+          description: "description",
           btn: {
             color: "purple",
             top: "15%",
@@ -187,15 +194,45 @@ const data = {
             {
               id: 1,
               project_slug: "",
-              title: "",
-              description: ""
+              title: "titlu proiect 1",
+              description: "",
+              executed: true,
+            },
+            {
+              id: 2,
+              project_slug: "",
+              title: "titlu proiect 2",
+              description: "",
+              executed: true,
+            },
+            {
+              id: 3,
+              project_slug: "",
+              title: "titlu proiect 3",
+              description: "",
+              executed: true,
+            },
+            {
+              id: 4,
+              project_slug: "",
+              title: "titlu proiect 4",
+              description: "",
+              executed: false,
+            },
+            {
+              id: 5,
+              project_slug: "",
+              title: "titlu proiect 5",
+              description: "",
+              executed: false,
             }
           ]
         },
         {
           id: 2,
-          highway_slug: "",
+          highway_slug: "sanse-pentru-persoanele-cu-dizabilitati",
           title: "Sanse pentru persoanele cu dizabilitati",
+          description: "description",
           btn: {
             color: "purple",
             top: "20%",
@@ -204,18 +241,14 @@ const data = {
           icon_left: true,
           icon: require("../assets/images/care4ro/chance-for-disability-persons/icon.svg"),
           projects: [
-            {
-              id: 1,
-              project_slug: "",
-              title: "",
-              description: ""
-            }
+
           ]
         },
         {
           id: 3,
-          highway_slug: "",
+          highway_slug: "o-viata-buna-pentru-copiii-abandonati",
           title: "O viata buna pentru copiii abandonati",
+          description: "description",
           btn: {
             color: "purple",
             top: "30%",
@@ -234,8 +267,9 @@ const data = {
         },
         {
           id: 4,
-          highway_slug: "",
+          highway_slug: "fara-discriminare-impotriva-etniei-rome",
           title: "Fara discriminare impotriva etniei rome",
+          description: "description",
           btn: {
             color: "purple",
             top: "19%",
@@ -254,8 +288,9 @@ const data = {
         },
         {
           id: 5,
-          highway_slug: "",
+          highway_slug: "incluziune-pentru-persoanele-LGBTQ+",
           title: "Incluziune pentru persoanele LGBTQ+",
+          description: "description",
           btn: {
             color: "purple",
             top: "23%",
@@ -274,8 +309,9 @@ const data = {
         },
         {
           id: 6,
-          highway_slug: "",
+          highway_slug: "diaspora-mai-aproape-de-casa",
           title: "Diaspora mai aproape de casa",
+          description: "description",
           btn: {
             color: "purple",
             top: "32%",
@@ -294,8 +330,9 @@ const data = {
         },
         {
           id: 7,
-          highway_slug: "",
+          highway_slug: "fara-violenta-acasa",
           title: "Fara violenta acasa",
+          description: "description",
           btn: {
             color: "purple",
             top: "43%",
@@ -330,6 +367,11 @@ const data = {
         left: "48%"
       },
       highway_bg: require("../assets/images/health4ro/health4ro_bg.svg"),
+      solution_status: {
+        info: "Descoperă mai jos care dintre segmentele din drumul nostru spre un mediu sănătos sunt deja executate și ce am proiectat.",
+        implemented: "",
+        executed: "",
+      },
       highway_solutions: [
         {
           id: 1,
@@ -469,6 +511,11 @@ const data = {
         left: "53%"
       },
       highway_bg: require("../assets/images/participation4ro/participation4ro_bg.svg"),
+      solution_status: {
+        info: "Descoperă mai jos care dintre segmentele din drumul nostru spre un mediu sănătos sunt deja executate și ce am proiectat.",
+        implemented: "",
+        executed: "",
+      },
       highway_solutions: [
         {
           id: 1,
@@ -668,6 +715,11 @@ const data = {
         left: "31%"
       },
       highway_bg: require("../assets/images/education4ro/education4ro_bg.svg"),
+      solution_status: {
+        info: "Descoperă mai jos care dintre segmentele din drumul nostru spre un mediu sănătos sunt deja executate și ce am proiectat.",
+        implemented: "",
+        executed: "",
+      },
       highway_solutions: [
         {
           id: 1,
@@ -806,12 +858,19 @@ const data = {
         top: "47%",
         left: "15%"
       },
+      color: "green",
       highway_bg: require("../assets/images/environment4ro/environment4ro_bg.svg"),
+      solution_status: {
+        info: "Descoperă mai jos care dintre segmentele din drumul nostru spre un mediu sănătos sunt deja executate și ce am proiectat.",
+        implemented: "234",
+        executed: "sdf",
+      },
       highway_solutions: [
         {
           id: 1,
           highway_slug: "paduri-protejate-si-sanatoase",
           title: "Paduri protejate si sanatoase",
+          description: "sad",
           btn: {
             color: "green",
             top: "55.09%",

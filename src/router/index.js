@@ -3,6 +3,7 @@ import VueRouter from "vue-router";
 /** Imported Views */
 import Map from "../views/Map.vue";
 import Highway from "../views/Highway.vue";
+import Solution from "../views/Solution.vue";
 
 Vue.use(VueRouter);
 
@@ -17,6 +18,12 @@ const routes = [
     path: "/code4ro/:slug",
     name: "Highway",
     component: Highway,
+    props: true
+  },
+  {
+    path: "/:slug/:_slug",
+    name: "Solution",
+    component: Solution,
     props: true
   }
 ];

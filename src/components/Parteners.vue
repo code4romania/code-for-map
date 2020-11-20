@@ -1,5 +1,5 @@
 <template>
-  <b-container>
+  <b-container fluid>
     <b-row>
       <b-col cols="12">
         <!-- Parteners title && description -->
@@ -9,6 +9,7 @@
         <b-row class="d-flex align-items-center justify-content-center">
           <b-col
             cols="4"
+            md="3"
             class="d-flex align-items-center justify-content-center py-3"
             v-for="main_partener in parteners.main_parteners"
             :key="main_partener.id"
@@ -20,6 +21,7 @@
         <b-row>
           <b-col
             cols="3"
+            md="2"
             class="d-flex align-items-center justify-content-center py-3"
             v-for="secondary_partener in parteners.secondary_parteners"
             :key="secondary_partener.id"
@@ -37,8 +39,8 @@ export default {
   name: "Parteners",
   props: {
     parteners: {
-      type: Object
-    }
-  }
+      type: Object,
+    },
+  },
 };
 </script>
