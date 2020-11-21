@@ -21,7 +21,7 @@
 <script>
 export default {
   /** Component name. */
-  name: "MapButtonAndHighway",
+  name: "MapButton",
   /** Recived props. */
   props: {
     highway: Object,

@@ -84,7 +84,7 @@
 
 <script>
 /** Imported compoents */
-import MobileHighwayNameAndLogo from "../components/MobileHighwayNameAndLogo";
+import MobileHighwayNameAndLogo from "../components/map/MobileHighwayNameAndLogo";
 import Delimiter from "../components/Delimiter";
 
 export default {

@@ -2,7 +2,7 @@
   <!-- Map highway solutions button links -->
   <router-link
     :to="{ name: 'Highway' }"
-    class="badge-pill btn bg-white scale btn-fade HighwayButton"
+    class="badge-pill btn bg-white scale btn-fade d-none d-lg-block HighwayButton"
     :class="`btn-outline-${color}`"
     :style="{ top: solution_button.btn.top, left: solution_button.btn.left }"
   >

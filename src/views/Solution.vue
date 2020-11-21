@@ -71,9 +71,9 @@
 
 <script>
 /** Imported components */
-import MobileHighwayNameAndLogo from "../components/MobileHighwayNameAndLogo";
+import MobileHighwayNameAndLogo from "../components/map/MobileHighwayNameAndLogo";
 import Delimiter from "../components/Delimiter";
-import MobileSolutionDescription from "../components/MobileSolutionDescription";
+import MobileSolutionDescription from "../components/map/MobileSolutionDescription";
 import SolutionStatus from "../components/map/SolutionStatus";
 import ProjectsList from "../components/map/ProjectsList";
 
