@@ -2,15 +2,4 @@
 @import "mixins";
 @import "utils";
 
-.MapContainer {
-  // background: #f00;
-
-  @include respond-above(md) {
-    min-height: 700px;
-  }
-
-  @include respond-above(xl) {
-    // min-height: 744px;
-  }
-}
-
+@import "map";

@@ -1,0 +1,17 @@
+.MapContainer-wrap {
+  @include respond-above(md) {
+    position: relative;
+    height: 0;
+    width: 100%;
+    padding-bottom: 68.0580762%; // 1500 / 2204 - map image size ratio
+  }
+}
+
+.MapContainer {
+  @include respond-above(md) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+}

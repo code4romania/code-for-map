@@ -8,14 +8,16 @@
           <Legend class="d-none d-md-block" :legend="data.map_legend" />
         </div>
       </b-col>
-      <b-col cols="12" xl=9>
-        <div class="MapContainer">
-          <!-- Map background -->
-          <img class="img-fluid" :src="data.map_bg" />
-          <!-- Display map buttons on map -->
-          <div v-for="highway in data.code4ro_map" :key="highway.id">
-            <!-- MapButton component -->
-            <MapButton :highway="highway" />
+      <b-col cols="12" xl="9">
+        <div class="MapContainer-wrap">
+          <div class="MapContainer">
+            <!-- Map background -->
+            <img class="img-fluid" :src="data.map_bg" />
+            <!-- Display map buttons on map -->
+            <div v-for="highway in data.code4ro_map" :key="highway.id">
+              <!-- MapButton component -->
+              <MapButton :highway="highway" />
+            </div>
           </div>
         </div>
       </b-col>
