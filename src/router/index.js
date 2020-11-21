@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import Vue from "vue";
 import VueRouter from "vue-router";
 /** Imported Views */

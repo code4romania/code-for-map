@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 const data = {
   code4ro_logo: "",
   map_bg: require("../assets/images/map-bg.svg"),
@@ -1019,7 +1021,7 @@ const data = {
             left: "43.08%"
           },
           icon_left: false,
-          icon: require("../assets/images/environment4ro/polution/icon.svg"),
+          icon: require("../assets/images/environment4ro/earthquake/icon.svg"),
           projects: [
             {
               id: 1,

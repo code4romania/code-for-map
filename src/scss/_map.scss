@@ -1,0 +1,49 @@
+.MapContainer-wrap {
+  @include respond-above(md) {
+    position: relative;
+    height: 0;
+    width: 100%;
+    padding-bottom: 68.0580762%; // 1500 / 2204 - map image size ratio
+  }
+}
+
+.MapContainer {
+  @include respond-above(md) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+}
+
+.MapButton {
+  border-width: 3px;
+  padding: 3px 8px;
+  max-width: 125px;
+
+  @include respond-above(sm) {
+    border-width: 5px;
+    padding: 5px 10px;
+    max-width: 150px;
+  }
+}
+
+.MapButton-icon {
+  width: 24px;
+  height: 24px;
+
+  @include respond-above(sm) {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+.MapButton-label {
+  line-height: 14px;
+}
+
+.HighwayButton {
+  border-width: 2px;
+  padding: 3px 15px;
+  max-width: 180px;
+}

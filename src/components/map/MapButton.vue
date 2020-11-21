@@ -3,7 +3,7 @@
     <!-- Main map button links to highway -->
     <router-link
       :to="{ name: 'Highway', params: { slug: highway.slug } }"
-      class="badge-pill btn bg-white scale btn-fade py-0"
+      class="badge-pill btn bg-white scale d-none d-md-block MapButton"
       :class="`btn-outline-${highway.color}`"
       :style="{
         position: 'absolute',
@@ -12,8 +12,10 @@
       }"
     >
       <div class="d-flex align-items-center">
-        <img class="img-fluid mr-1 mr-lg-2" :src="highway.logo" />
-        <p class="small text-dark font-weight-bold p-0 m-0 text-left d-block">
+        <img class="img mr-2 MapButton-icon" :src="highway.logo" />
+        <p
+          class="small text-dark font-weight-bold p-0 m-0 text-left d-block MapButton-label"
+        >
           {{ highway.title }}
         </p>
       </div>
@@ -34,21 +36,3 @@ export default {
   }
 };
 </script>
-
-<style scoped>
-/** Map button styles specific ti this component. */
-.btn {
-  width: 100%;
-  max-width: 135px !important;
-  border-width: 5px !important;
-  padding: 3px 5px !important;
-}
-@media screen and (max-width: 767px) {
-  .btn {
-    width: 100%;
-    max-width: 120px !important;
-    border-width: 3px !important;
-    padding: 3px 3px !important;
-  }
-}
-</style>

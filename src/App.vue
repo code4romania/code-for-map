@@ -1,9 +1,6 @@
 <template>
   <div id="app">
-    <!-- Vue router transition and initialize routes router -->
-    <transition name="fade">
-      <router-view :data="data" />
-    </transition>
+    <router-view :data="data" />
 
     <!--#####################################################
     ############# Content displayed on all pages ############
