@@ -4,6 +4,7 @@ import VueRouter from "vue-router";
 import Map from "../views/Map.vue";
 import Highway from "../views/Highway.vue";
 import Solution from "../views/Solution.vue";
+import Project from "../views/Project.vue";
 
 Vue.use(VueRouter);
 
@@ -24,6 +25,12 @@ const routes = [
     path: "/:slug/:_slug",
     name: "Solution",
     component: Solution,
+    props: true
+  },
+  {
+    path: "/:slug/:_slug/:__slug",
+    name: "Project",
+    component: Project,
     props: true
   }
 ];
