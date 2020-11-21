@@ -32,9 +32,9 @@ export default {
   name: "SolutionStatus",
   props: {
     status: {
-      type: Object,
-    },
-  },
+      type: Object
+    }
+  }
 };
 </script>
 
