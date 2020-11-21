@@ -4,29 +4,16 @@
     <transition name="fade">
       <router-view :data="data" />
     </transition>
-    <!-- Content displayed on all pages -->
-    <b-container fluid>
-      <b-row>
-        <!-- Text under the map -->
-        <b-col cols="12" class="py-3">
-          <p>{{ data.application_texts.map_page.text_1 }}</p>
-        </b-col>
-      </b-row>
-      <!-- Call to action buttons -->
-      <b-row>
-        <b-col cols="12">
-          <div
-            class="d-flex align-items-center justify-content-around justify-content-md-start"
-          >
-            <CallToAction :action="data.call_to_action.share" />
-            <CallToAction :action="data.call_to_action.donate" />
-          </div>
-        </b-col>
-      </b-row>
-      <!-- Send sms -->
-      <SendSMS :sms="data.application_texts.info_sms" />
-    </b-container>
-    <!-- Parteners -->
+
+    <!--#####################################################
+    ############# Content displayed on all pages ############
+    ######################################################-->
+
+    <!-- CallToActionComponent -->
+    <CallToAction :call_to_action="data.call_to_action" />
+    <!-- Send sms component -->
+    <SendSMS :sms="data.application_texts.info_sms" />
+    <!-- Parteners component -->
     <Parteners :parteners="data.parteners" />
   </div>
 </template>
@@ -35,9 +22,9 @@
 /** Import data object. */
 import data from "./data/data.js";
 /** Import components. */
-import CallToAction from "./components/CallToAction";
+import CallToAction from "./components/call-to-action/CallToAction";
 import SendSMS from "./components/SendSMS";
-import Parteners from "./components/Parteners";
+import Parteners from "./components/parteners/Parteners";
 
 export default {
   /** Component name. */
@@ -46,18 +33,18 @@ export default {
   components: {
     CallToAction,
     SendSMS,
-    Parteners,
+    Parteners
   },
   /** App state. */
   data() {
     return {
-      data: {},
+      data: {}
     };
   },
   /** Initialize data object in vue created life cycle. */
   created() {
     this.data = data;
-  },
+  }
 };
 </script>
 
