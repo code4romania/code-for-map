@@ -2,23 +2,6 @@
   <b-container fluid>
     <b-row>
       <!--###############################################
-      ############# Map Legend displayed ################
-      ############################################### -->
-      <b-col cols="12" lg="3" class="pt-5">
-        <div class="h-100 mr-lg-n5 d-flex flex-column justify-content-between">
-          <!-- Complete header dispalyed from 1024px -->
-          <Header :header="data.header" class="d-none d-lg-block" />
-          <!-- Only the title from header displayed till 1024px -->
-          <Title :title="data.header.title" class="d-block d-lg-none" />
-          <!-- Map legend displayed from 1024px -->
-          <Legend :legend="data.map_legend" class="d-none d-lg-block" />
-        </div>
-      </b-col>
-      <!--###############################################
-      ### Back to map link displayed till 10024px #######
-      ############################################### -->
-      <BackToMapLink class="mb-4 d-block d-lg-none" :back="data.back_link" />
-      <!--###############################################
       ## Highway name and logo displayed till 10024px ###
       ############################################### -->
       <MobileHighwayNameAndLogo
@@ -101,10 +84,6 @@
 
 <script>
 /** Imported compoents */
-import Header from "../components/header/Header";
-import Title from "../components/header/Title";
-import Legend from "../components/map/Legend";
-import BackToMapLink from "../components/BackToMapLink";
 import MobileHighwayNameAndLogo from "../components/MobileHighwayNameAndLogo";
 import Delimiter from "../components/Delimiter";
 
@@ -118,10 +97,6 @@ export default {
     }
   },
   components: {
-    Header,
-    Title,
-    Legend,
-    BackToMapLink,
     MobileHighwayNameAndLogo,
     Delimiter
   },

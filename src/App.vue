@@ -1,16 +1,13 @@
 <template>
   <div id="app">
+    <Header :header="data.header" />
+    <BackToMapLink class="d-inline-block" :back="data.back_link" />
+    <Legend class="d-none d-md-block" :legend="data.map_legend" />
+
     <router-view :data="data" />
 
-    <!--#####################################################
-    ############# Content displayed on all pages ############
-    ######################################################-->
-
-    <!-- CallToActionComponent -->
     <CallToAction :call_to_action="data.call_to_action" />
-    <!-- Send sms component -->
     <SendSMS :sms="data.application_texts.info_sms" />
-    <!-- Parteners component -->
     <Parteners :parteners="data.parteners" />
   </div>
 </template>
@@ -19,6 +16,9 @@
 /** Import data object. */
 import data from "./data/data.js";
 /** Import components. */
+import Header from "./components/header/Header";
+import BackToMapLink from "./components/header/BackToMapLink";
+import Legend from "./components/header/Legend";
 import CallToAction from "./components/call-to-action/CallToAction";
 import SendSMS from "./components/SendSMS";
 import Parteners from "./components/parteners/Parteners";
@@ -28,6 +28,9 @@ export default {
   name: "App",
   /** Registered components. */
   components: {
+    Header,
+    BackToMapLink,
+    Legend,
     CallToAction,
     SendSMS,
     Parteners
