@@ -1,8 +1,9 @@
 <template>
   <div id="app">
+    
     <Header :header="data.header" />
-    <BackToMapLink class="d-inline-block" :back="data.back_link" />
-    <Legend class="d-none d-md-block" :legend="data.map_legend" />
+    <BackToMapLink :back="data.back_link" />
+    <Legend :legend="data.map_legend" />
 
     <router-view :data="data" />
 

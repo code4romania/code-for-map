@@ -6,7 +6,8 @@ const data = {
   map_bg_mobile: require("../assets/images/map-bg.svg"),
   back_link: {
     icon: require("../assets/images/assets_svg/chevron_left.svg"),
-    text: "Înapoi la harta"
+    text: "Înapoi la harta",
+    visible: true
   },
   header: {
     title: "Digitalizăm România împreună",

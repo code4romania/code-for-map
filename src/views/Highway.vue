@@ -1,69 +1,65 @@
 <template>
-  <b-container fluid>
-    <b-row>
+  <div>
+    <!--###############################################
+    ## Highway name and logo displayed till 1024px ###
+    ############################################### -->
+    <MobileHighwayNameAndLogo
+      :logo="code4ro_map.logo"
+      :title="code4ro_map.title"
+      :description="code4ro_map.description"
+      class="d-block"
+    />
+    <!--###############################################
+    ######## Map Solutions desktop and mobiel #########
+    ############################################### -->
+    <div class="Highway">
       <!--###############################################
-      ## Highway name and logo displayed till 1024px ###
+      #### Highway Background displayed from 1024px #####
       ############################################### -->
-      <MobileHighwayNameAndLogo
-        :logo="code4ro_map.logo"
-        :title="code4ro_map.title"
-        :description="code4ro_map.description"
-        class="d-block d-lg-none"
-      />
+      <router-link :to="{ name: 'Map' }" class="d-none d-xl-block">
+        <img class="img-fluid w-100" :src="code4ro_map.highway_bg" />
+      </router-link>
       <!--###############################################
-      ######## Map Solutions desktop and mobiel #########
+      ################ Map Buttons ######################
       ############################################### -->
-      <b-col cols="12" lg="9">
-        <div class="ml-lg-n5">
-          <!--###############################################
-          #### Highway Background displayed from 1024px #####
-          ############################################### -->
-          <router-link :to="{ name: 'Map' }" class="d-none d-lg-block">
-            <img class="img-fluid w-100" :src="code4ro_map.highway_bg" />
-          </router-link>
-          <!--###############################################
-          ################ Map Buttons ######################
-          ############################################### -->
-          <div v-for="highway in data.code4ro_map" :key="highway.slug">
-            <!-- MapButton component displayed from 1024px -->
-            <MapButton
-              class="d-none d-lg-block"
-              :highway="highway"
-              :class="highway.slug !== slug ? 'btn-opacity' : ''"
-              :top="highway.btn.top"
-              :left="highway.btn.left"
-            />
-          </div>
-          <!--###############################################
-          ################ Highway solutions ################
-          ############################################### -->
-          <div
-            v-for="solution_button in code4ro_map.highway_solutions"
-            :key="solution_button.id"
-          >
-            <!-- Highway component with solutions button displayed from 1024px-->
-            <HighwayButton
-              class="d-none d-lg-block"
-              :solution_button="solution_button"
-              :color="code4ro_map.color"
-            />
+      <div v-for="highway in data.code4ro_map" :key="highway.slug">
+        <!-- MapButton component displayed from 1024px -->
+        <MapButton
+          class="d-none d-xl-block"
+          :highway="highway"
+          :class="highway.slug !== slug ? 'btn-opacity' : ''"
+          :top="highway.btn.top"
+          :left="highway.btn.left"
+        />
+      </div>
+      <!--###############################################
+      ################ Highway solutions ################
+      ############################################### -->
+      <div
+        v-for="solution_button in code4ro_map.highway_solutions"
+        :key="solution_button.id"
+      >
+        <!-- Highway component with solutions button displayed from 1024px-->
+        <HighwayButton
+          class="d-none d-xl-block"
+          :solution_button="solution_button"
+          :color="code4ro_map.color"
+        />
 
-            <!-- Highway solutions displayed till 1024px -->
-            <MobileHighwaySolutions
-              class="d-block d-lg-none"
-              :slug="code4ro_map.slug"
-              :highway_slug="solution_button.highway_slug"
-              :icon="solution_button.icon"
-              :title="solution_button.title"
-              :chevron="code4ro_map.chevron_right"
-            />
-          </div>
-        </div>
-      </b-col>
-      <!-- Bottom delimitator -->
-      <Delimiter :delimiter="code4ro_map.delimiter_2" class="mt-4" />
-    </b-row>
-  </b-container>
+        <!-- Highway solutions displayed till 1024px -->
+        <MobileHighwaySolutions
+          class="d-block"
+          :slug="code4ro_map.slug"
+          :highway_slug="solution_button.highway_slug"
+          :icon="solution_button.icon"
+          :title="solution_button.title"
+          :chevron="code4ro_map.chevron_right"
+        />
+      </div>
+    </div>
+    <!-- Bottom delimitator -->
+    <Delimiter :delimiter="code4ro_map.delimiter_2" class="mt-4" />
+  </div>
 </template>
 
 <script>
@@ -103,6 +99,8 @@ export default {
     this.code4ro_map = this.data.code4ro_map.find(
       item => item.slug == this.slug
     );
+
+    this.data.back_link.visible = true;
   }
 };
 </script>

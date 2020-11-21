@@ -1,10 +1,8 @@
 .MapContainer-wrap {
-  @include respond-above(md) {
-    position: relative;
-    height: 0;
-    width: 100%;
-    padding-bottom: 68.0580762%; // 1500 / 2204 - map image size ratio
-  }
+  position: relative;
+  height: 0;
+  width: 100%;
+  padding-bottom: 68.0580762%; // 1500 / 2204 - map image size ratio
 }
 
 .MapContainer {
@@ -14,6 +12,10 @@
     left: 0;
     width: 100%;
   }
+}
+
+.MapButton-wrap {
+  position: absolute;
 }
 
 .MapButton {

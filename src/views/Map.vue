@@ -1,30 +1,28 @@
 <template>
-  <b-container fluid>
-    <b-row>
-      <b-col cols="12" xl="9" class="p-0 m-0">
-        <div class="ml-xl-n5">
-          <img class="img-fluid" :src="data.map_bg" />
-          <!-- Display map buttons on map -->
-          <div v-for="highway in data.code4ro_map" :key="highway.id">
-            <!-- MapButton component displayed from 1024px -->
-            <MapButton
-              :highway="highway"
-              :top="highway.btn.top"
-              :left="highway.btn.left"
-              class="d-none d-md-block"
-            />
-            <!-- Mapbutton component displayed till 768px -->
-            <MapButton
-              :highway="highway"
-              :top="highway.mobile_btn.top"
-              :left="highway.mobile_btn.left"
-              class="d-block d-md-none"
-            />
-          </div>
-        </div>
-      </b-col>
-    </b-row>
-  </b-container>
+  <div class="MapContainer-wrap">
+    <div class="MapContainer">
+      <img class="img-fluid" :src="data.map_bg" />
+    </div>
+
+    <!-- Display map buttons on map -->
+    <template v-for="highway in data.code4ro_map">
+      <MapButton
+        :highway="highway"
+        :top="highway.btn.top"
+        :left="highway.btn.left"
+        class="d-none d-md-block"
+        v-bind:key="'map-btn-xl-' + highway.id"
+      />
+      <MapButton
+        :highway="highway"
+        :top="highway.mobile_btn.top"
+        :left="highway.mobile_btn.left"
+        class="d-md-none"
+        v-bind:key="'map-btn-' + highway.id"
+      />
+    </template>
+
+  </div>
 </template>
 
 <script>
@@ -43,6 +41,9 @@ export default {
   /** Registered components. */
   components: {
     MapButton
+  },
+  mounted() {
+    this.data.back_link.visible = false;
   }
 };
 </script>

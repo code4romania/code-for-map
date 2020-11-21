@@ -1,15 +1,10 @@
 <template>
-  <div>
+  <div class="MapButton-wrap" :style="{ top: top, left: left }">
     <!-- Main map button links to highway -->
     <router-link
       :to="{ name: 'Highway', params: { slug: highway.slug } }"
-      class="badge-pill btn bg-white scale d-none d-md-block MapButton"
+      class="badge-pill btn bg-white scale MapButton"
       :class="`btn-outline-${highway.color}`"
-      :style="{
-        position: 'absolute',
-        top: top,
-        left: left
-      }"
     >
       <div class="d-flex align-items-center">
         <img class="img mr-2 MapButton-icon" :src="highway.logo" />

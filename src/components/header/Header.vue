@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="Header">
     <Title :title="header.title" />
     <Description :description="header.description" />
   </div>
