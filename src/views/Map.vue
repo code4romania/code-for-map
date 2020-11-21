@@ -2,14 +2,14 @@
   <b-container fluid>
     <b-row>
       <!-- Map Legend -->
-      <b-col cols="12" lg="3" class="pt-5">
-        <div class="h-100 mr-lg-n5 d-flex flex-column justify-content-between">
+      <b-col cols="12" xl="3" class="pt-5">
+        <div class="d-flex flex-column justify-content-between">
           <Header :header="data.header" />
-          <Legend class="d-none d-lg-block" :legend="data.map_legend" />
+          <Legend class="d-none d-md-block" :legend="data.map_legend" />
         </div>
       </b-col>
-      <b-col cols="12" lg="9">
-        <div class="ml-lg-n5">
+      <b-col cols="12" xl=9>
+        <div class="MapContainer">
           <!-- Map background -->
           <img class="img-fluid" :src="data.map_bg" />
           <!-- Display map buttons on map -->

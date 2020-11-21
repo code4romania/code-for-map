@@ -39,8 +39,8 @@ export default {
   name: "Parteners",
   props: {
     parteners: {
-      type: Object,
-    },
-  },
+      type: Object
+    }
+  }
 };
 </script>

@@ -30,9 +30,9 @@ export default {
   name: "Projects",
   props: {
     solution: {
-      type: Object,
-    },
-  },
+      type: Object
+    }
+  }
 };
 </script>
 

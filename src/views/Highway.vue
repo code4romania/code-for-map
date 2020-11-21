@@ -2,38 +2,38 @@
   <b-container fluid>
     <b-row>
       <!-- Map Legend displayed from 1024px-->
-      <b-col cols="12" lg="3" class="pt-5 d-none d-lg-block">
-        <div class="h-100 mr-lg-n5 d-flex flex-column justify-content-between">
+      <b-col cols="12" xl="3" class="pt-5 d-none d-md-block">
+        <div class="d-flex flex-column justify-content-between">
           <Header :header="data.header" />
           <Legend :legend="data.map_legend" />
         </div>
       </b-col>
       <!-- Map Legend displayed till 1024px-->
-      <b-col cols="12 d-block d-lg-none">
+      <b-col cols="12 d-block d-md-none">
         <h1 class="my-3">{{ data.header.title }}</h1>
       </b-col>
-      <b-col cols="12" lg="9">
-        <div class="ml-lg-n5">
+      <b-col cols="12" xl="9">
+        <div class="MapContainer">
           <!-- Highway background as a link to main map displayed from 1024px -->
-          <router-link :to="{ name: 'Map' }" class="d-none d-lg-block">
+          <router-link :to="{ name: 'Map' }" class="d-none d-md-block">
             <img class="img-fluid w-100" :src="code4ro_map.highway_bg" />
           </router-link>
           <!-- Display map buttons on map displayed from 1024px-->
           <div v-for="highway in data.code4ro_map" :key="highway.slug">
             <!-- MapButton component displayed from 1024px -->
             <MapButton
-              class="d-none d-lg-block"
+              class="d-none d-md-block"
               :highway="highway"
               :class="highway.slug !== slug ? 'btn-opacity' : ''"
             />
           </div>
           <!-- Back to map link displayed till 1024px -->
           <BackToMapLink
-            class="mb-4 d-block d-lg-none"
+            class="mb-4 d-block d-md-none"
             :back="data.back_link"
           />
           <!-- Highway name and logo till 1024px -->
-          <b-row class="d-block d-lg-none">
+          <b-row class="d-block d-md-none">
             <b-col cols="7" class="mb-4 d-flex align-items-center">
               <img width="80px" :src="code4ro_map.logo" />
               <h2 class="ml-2">{{ code4ro_map.title }}</h2>
@@ -49,19 +49,19 @@
           >
             <!-- Highway component with solutions button displayed from 1024px-->
             <HighwayButton
-              class="d-none d-lg-block"
+              class="d-none d-md-block"
               :solution_button="solution_button"
             />
             <!-- Highway solutions displayed till 1024px -->
-            <b-row class="d-block d-lg-none">
+            <b-row class="d-block d-md-none">
               <b-col cols="12" class="p-0 m-0">
                 <router-link
                   :to="{
                     name: 'Solution',
                     params: {
                       slug: code4ro_map.slug,
-                      _slug: solution_button.highway_slug,
-                    },
+                      _slug: solution_button.highway_slug
+                    }
                   }"
                 >
                   <div
@@ -105,8 +105,8 @@ export default {
   /** Recived props */
   props: {
     data: {
-      type: Object,
-    },
+      type: Object
+    }
   },
   /** Registered components */
   components: {
@@ -114,21 +114,21 @@ export default {
     HighwayButton,
     Header,
     Legend,
-    BackToMapLink,
+    BackToMapLink
   },
   /** Component state. */
   data() {
     return {
       slug: this.$route.params.slug,
-      code4ro_map: [],
+      code4ro_map: []
     };
   },
   /** Vue mounted life cycle initialize data for this route. */
   mounted() {
     this.code4ro_map = this.data.code4ro_map.find(
-      (item) => item.slug == this.slug
+      item => item.slug == this.slug
     );
-  },
+  }
 };
 </script>
 

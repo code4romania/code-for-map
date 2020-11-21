@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 const data = {
   code4ro_logo: "",
   map_bg: require("../assets/images/map-bg.svg"),

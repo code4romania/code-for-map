@@ -1,9 +1,7 @@
 <template>
   <div id="app">
     <!-- Vue router transition and initialize routes router -->
-    <transition name="fade">
-      <router-view :data="data" />
-    </transition>
+    <router-view :data="data" />
     <!-- Content displayed on all pages -->
     <b-container fluid>
       <b-row>
@@ -46,18 +44,18 @@ export default {
   components: {
     CallToAction,
     SendSMS,
-    Parteners,
+    Parteners
   },
   /** App state. */
   data() {
     return {
-      data: {},
+      data: {}
     };
   },
   /** Initialize data object in vue created life cycle. */
   created() {
     this.data = data;
-  },
+  }
 };
 </script>
 

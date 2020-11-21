@@ -1,9 +1,10 @@
 <template>
   <div>
+
     <!-- Main map button links to highway -->
     <router-link
       :to="{ name: 'Highway', params: { slug: highway.slug } }"
-      class="badge-pill btn bg-white scale btn-fade py-0 d-none d-lg-block"
+      class="badge-pill btn bg-white scale btn-fade d-none d-md-block MapButton"
       :class="`btn-outline-${highway.btn.color}`"
       :style="{
         position: 'absolute',
@@ -12,15 +13,16 @@
       }"
     >
       <div class="d-flex align-items-center">
-        <img class="img-fluid mr-1 mr-lg-2" :src="highway.logo" />
-        <p class="small text-dark font-weight-bold p-0 m-0 text-left d-block">
+        <img class="img mr-2 MapButton-icon" :src="highway.logo" />
+        <p class="small text-dark font-weight-bold p-0 m-0 text-left d-block MapButton-label">
           {{ highway.title }}
         </p>
       </div>
     </router-link>
+
     <router-link
       :to="{ name: 'Highway', params: { slug: highway.slug } }"
-      class="badge-pill btn bg-white scale btn-fade py-0 d-block d-lg-none"
+      class="badge-pill btn bg-white scale btn-fade d-block d-md-none MapButton"
       :class="`btn-outline-${highway.btn.color}`"
       :style="{
         position: 'absolute',
@@ -29,17 +31,13 @@
       }"
     >
       <div class="d-flex align-items-center">
-        <img
-          class="img-fluid mr-1 mr-lg-2"
-          width="25px"
-          height="25px"
-          :src="highway.logo"
-        />
-        <p class="small text-dark font-weight-bold p-0 m-0 text-left d-block">
+        <img class="img mr-2 MapButton-icon" :src="highway.logo" />
+        <p class="small text-dark font-weight-bold p-0 m-0 text-left d-block MapButton-label">
           {{ highway.title }}
         </p>
       </div>
     </router-link>
+
   </div>
 </template>
 
@@ -57,19 +55,18 @@ export default {
 </script>
 
 <style scoped>
-/** Map button styles specific ti this component. */
-.btn {
-  width: 100%;
-  max-width: 135px !important;
-  border-width: 5px !important;
-  padding: 3px 5px !important;
+.MapButton {
+  border-width: 5px;
+  padding: 5px 10px;
+  max-width: 150px;
 }
-@media screen and (max-width: 767px) {
-  .btn {
-    width: 100%;
-    max-width: 120px !important;
-    border-width: 3px !important;
-    padding: 3px 3px !important;
-  }
+
+.MapButton-icon {
+  width: 32px;
+  height: 32px;
+}
+
+.MapButton-label {
+  line-height: 14px;
 }
 </style>
