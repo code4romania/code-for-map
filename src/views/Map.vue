@@ -21,7 +21,6 @@
         v-bind:key="'map-btn-' + highway.id"
       />
     </template>
-
   </div>
 </template>
 

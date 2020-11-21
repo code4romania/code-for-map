@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    
     <Header :header="data.header" />
     <BackToMapLink :back="data.back_link" />
     <Legend :legend="data.map_legend" />
