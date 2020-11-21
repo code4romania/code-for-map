@@ -4,11 +4,7 @@
     :to="{ name: 'Highway' }"
     class="badge-pill btn bg-white scale btn-fade HighwayButton"
     :class="`btn-outline-${color}`"
-    :style="{
-      position: 'absolute',
-      top: solution_button.btn.top,
-      left: solution_button.btn.left
-    }"
+    :style="{ top: solution_button.btn.top, left: solution_button.btn.left }"
   >
     <div class="d-flex align-items-center" v-if="solution_button.icon_left">
       <img class="mr-2" :src="solution_button.icon" alt="" />

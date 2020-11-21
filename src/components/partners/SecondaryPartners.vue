@@ -1,11 +1,11 @@
 <template>
-  <!-- Scondary parteners logo -->
+  <!-- Scondary Partners logo -->
   <b-row>
     <b-col
       cols="3"
       md="2"
       class="d-flex align-items-center justify-content-center py-3"
-      v-for="partener in secondary_parteners"
+      v-for="partener in secondary_Partners"
       :key="partener.id"
     >
       <img class="img-fluid" :src="partener.logo" :alt="partener.name" />
@@ -15,9 +15,9 @@
 
 <script>
 export default {
-  name: "SecondaryParteners",
+  name: "SecondaryPartners",
   props: {
-    secondary_parteners: {
+    secondary_Partners: {
       type: Array
     }
   }

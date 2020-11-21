@@ -4,3 +4,9 @@
 
 @import "map";
 @import "highway";
+
+.BackToMapLink {
+  > a {
+    text-decoration: none;
+  }
+}

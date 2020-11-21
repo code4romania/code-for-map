@@ -1,14 +1,16 @@
 <template>
   <div id="app">
-    <Header :header="data.header" />
-    <BackToMapLink :back="data.back_link" />
-    <Legend :legend="data.map_legend" />
+    <div class="Info px-4">
+      <Header :header="data.header" />
+      <BackToMapLink :back="data.back_link" />
+      <Legend :legend="data.map_legend" />
+    </div>
 
     <router-view :data="data" />
 
-    <CallToAction :call_to_action="data.call_to_action" />
+    <!-- <CallToAction :call_to_action="data.call_to_action" />
     <SendSMS :sms="data.application_texts.info_sms" />
-    <Parteners :parteners="data.parteners" />
+    <Partners :Partners="data.Partners" /> -->
   </div>
 </template>
 
@@ -19,9 +21,9 @@ import data from "./data/data.js";
 import Header from "./components/header/Header";
 import BackToMapLink from "./components/header/BackToMapLink";
 import Legend from "./components/header/Legend";
-import CallToAction from "./components/call-to-action/CallToAction";
-import SendSMS from "./components/SendSMS";
-import Parteners from "./components/parteners/Parteners";
+// import CallToAction from "./components/call-to-action/CallToAction";
+// import SendSMS from "./components/SendSMS";
+// import Partners from "./components/Partners/Partners";
 
 export default {
   /** Component name. */
@@ -30,10 +32,10 @@ export default {
   components: {
     Header,
     BackToMapLink,
-    Legend,
-    CallToAction,
-    SendSMS,
-    Parteners
+    Legend
+    // CallToAction,
+    // SendSMS,
+    // Partners
   },
   /** App state. */
   data() {
@@ -67,9 +69,5 @@ export default {
 }
 .container-fluid {
   max-width: 1450px !important;
-}
-/** Scale buttons on hover. */
-.scale:hover {
-  transform: scale(1.05);
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-  <div class="Lenged d-none d-lg-block">
+  <div class="Lenged d-none d-xl-block">
     <h2 class="mb-2">{{ legend.title }}</h2>
     <div class="d-flex align-items-center my-1">
       <div class="drum-continuu"></div>

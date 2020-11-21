@@ -10,14 +10,14 @@ $dark:          #1E1E1E;
 
 $theme-colors: () !default;
 $theme-colors: map-merge((
-        "purple":      #7937C4,
-        "red":         #F90000,
-        "blue":        #00B4CC,
-        "yellow":      #FFA506,
-        "green":       #1B771B,
-        "strong-blue": #0000FF,
-        "black":       #000000,
-    ),
+  "purple":      #7937C4,
+  "red":         #F90000,
+  "blue":        #00B4CC,
+  "yellow":      #FFA506,
+  "green":       #1B771B,
+  "strong-blue": #0000FF,
+  "black":       #000000,
+),
 $theme-colors);
 
 /***********************************************
@@ -79,5 +79,6 @@ $grid-breakpoints: (
 
 $enable-responsive-font-sizes: true;
 
+// TODO: only import what we use or just remove it completly and use tailwind (new code4 site uses tailwind)
 @import 'node_modules/bootstrap/scss/bootstrap.scss';
 @import 'node_modules/bootstrap-vue/src/index.scss';

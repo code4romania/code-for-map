@@ -7,16 +7,16 @@
       :logo="code4ro_map.logo"
       :title="code4ro_map.title"
       :description="code4ro_map.description"
-      class="d-block"
     />
+
     <!--###############################################
-    ######## Map Solutions desktop and mobiel #########
+    ######## Map Solutions desktop and mobile #########
     ############################################### -->
     <div class="Highway">
       <!--###############################################
       #### Highway Background displayed from 1024px #####
       ############################################### -->
-      <router-link :to="{ name: 'Map' }" class="d-none d-xl-block">
+      <router-link :to="{ name: 'Map' }" class="d-none d-lg-block">
         <img class="img-fluid w-100" :src="code4ro_map.highway_bg" />
       </router-link>
       <!--###############################################
@@ -25,7 +25,7 @@
       <div v-for="highway in data.code4ro_map" :key="highway.slug">
         <!-- MapButton component displayed from 1024px -->
         <MapButton
-          class="d-none d-xl-block"
+          class="d-none d-lg-block"
           :highway="highway"
           :class="highway.slug !== slug ? 'btn-opacity' : ''"
           :top="highway.btn.top"
@@ -41,7 +41,7 @@
       >
         <!-- Highway component with solutions button displayed from 1024px-->
         <HighwayButton
-          class="d-none d-xl-block"
+          class="d-none d-lg-block"
           :solution_button="solution_button"
           :color="code4ro_map.color"
         />

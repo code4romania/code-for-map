@@ -58,107 +58,107 @@ const data = {
       link: ""
     }
   },
-  parteners: {
+  partners: {
     title: "ÎMPREUNĂ",
     description:
       "Ei sunt arhitecții, constructorii și administratorii care ni s-au alăturat până acum în dezvoltarea infrastructurii digitale a României",
-    main_parteners: [
+    main_partners: [
       {
         id: 1,
         name: "test",
-        logo: require("../assets/images/parteners/main/partener_test.svg")
+        logo: require("../assets/images/partners/partener_test.svg")
       },
       {
         id: 2,
         name: "test",
-        logo: require("../assets/images/parteners/main/partener_test.svg")
+        logo: require("../assets/images/partners/partener_test.svg")
       },
       {
         id: 3,
         name: "test",
-        logo: require("../assets/images/parteners/main/partener_test.svg")
+        logo: require("../assets/images/partners/partener_test.svg")
       },
       {
         id: 4,
         name: "test",
-        logo: require("../assets/images/parteners/main/partener_test.svg")
+        logo: require("../assets/images/partners/partener_test.svg")
       },
       {
         id: 5,
         name: "test",
-        logo: require("../assets/images/parteners/main/partener_test.svg")
+        logo: require("../assets/images/partners/partener_test.svg")
       }
     ],
-    secondary_parteners: [
+    secondary_partners: [
       {
         id: 1,
         name: "test",
-        logo: require("../assets/images/parteners/secondary/partener_test.svg")
+        logo: require("../assets/images/partners/partener_test.svg")
       },
       {
         id: 2,
         name: "test",
-        logo: require("../assets/images/parteners/secondary/partener_test.svg")
+        logo: require("../assets/images/partners/partener_test.svg")
       },
       {
         id: 3,
         name: "test",
-        logo: require("../assets/images/parteners/secondary/partener_test.svg")
+        logo: require("../assets/images/partners/partener_test.svg")
       },
       {
         id: 4,
         name: "test",
-        logo: require("../assets/images/parteners/secondary/partener_test.svg")
+        logo: require("../assets/images/partners/partener_test.svg")
       },
       {
         id: 5,
         name: "test",
-        logo: require("../assets/images/parteners/secondary/partener_test.svg")
+        logo: require("../assets/images/partners/partener_test.svg")
       },
       {
         id: 6,
         name: "test",
-        logo: require("../assets/images/parteners/secondary/partener_test.svg")
+        logo: require("../assets/images/partners/partener_test.svg")
       },
       {
         id: 7,
         name: "test",
-        logo: require("../assets/images/parteners/secondary/partener_test.svg")
+        logo: require("../assets/images/partners/partener_test.svg")
       },
       {
         id: 8,
         name: "test",
-        logo: require("../assets/images/parteners/secondary/partener_test.svg")
+        logo: require("../assets/images/partners/partener_test.svg")
       },
       {
         id: 9,
         name: "test",
-        logo: require("../assets/images/parteners/secondary/partener_test.svg")
+        logo: require("../assets/images/partners/partener_test.svg")
       },
       {
         id: 10,
         name: "test",
-        logo: require("../assets/images/parteners/secondary/partener_test.svg")
+        logo: require("../assets/images/partners/partener_test.svg")
       },
       {
         id: 11,
         name: "test",
-        logo: require("../assets/images/parteners/secondary/partener_test.svg")
+        logo: require("../assets/images/partners/partener_test.svg")
       },
       {
         id: 12,
         name: "test",
-        logo: require("../assets/images/parteners/secondary/partener_test.svg")
+        logo: require("../assets/images/partners/partener_test.svg")
       },
       {
         id: 13,
         name: "test",
-        logo: require("../assets/images/parteners/secondary/partener_test.svg")
+        logo: require("../assets/images/partners/partener_test.svg")
       },
       {
         id: 14,
         name: "test",
-        logo: require("../assets/images/parteners/secondary/partener_test.svg")
+        logo: require("../assets/images/partners/partener_test.svg")
       }
     ]
   },
@@ -168,7 +168,7 @@ const data = {
       slug: "care4ro",
       title: "Care for Romania",
       description:
-        "Implicarea în viața comunității ne face pe toți mai bogați, mai împliniți și mai puternici. Implicându-ne, învățăm unii de la ceilalți și oferim ce avem mai bun, fiecare dintre noi, pentru mai binele tuturor. Dacă dorim sisteme puternice de educație, sănătate, protecția celor vulnerabili și a mediului, trebuie să fim conștienți de faptul că toate acestea nu sunt posibile fără o implicare reală a tuturor în viața societății. În plus, momentele de implicare sunt ferestre prin care vedem cât de puternici putem deveni atunci când suntem împreună. Ne continuăm misiunea de a încuraja participarea cetățenească în viața societății scoțând la iveală cele mai bune instrumente digitale pentru asta.",
+        "În jurul câte unui eveniment tragic, atenția societății se îndreaptă trecător spre problemele unor categorii sociale care au nevoie de sprijin. Dar incluziunea socială a persoanelor vulnerabile nu este o problemă care se tratează cu intenții pozitive punctuale, ci cu eforturi susținute și planuri bine gândite pentru viitor. Sărăcia, copiii instituționalizați, persoanele cu dizabilități, minoritățile, sunt zone vulnerabile ale societății românești.",
       logo: require("../assets/images/care4ro/logo.svg"),
       btn: {
         top: "9%",
@@ -366,7 +366,7 @@ const data = {
       slug: "health4ro",
       title: "Health for Romania",
       description:
-        "Implicarea în viața comunității ne face pe toți mai bogați, mai împliniți și mai puternici. Implicându-ne, învățăm unii de la ceilalți și oferim ce avem mai bun, fiecare dintre noi, pentru mai binele tuturor. Dacă dorim sisteme puternice de educație, sănătate, protecția celor vulnerabili și a mediului, trebuie să fim conștienți de faptul că toate acestea nu sunt posibile fără o implicare reală a tuturor în viața societății. În plus, momentele de implicare sunt ferestre prin care vedem cât de puternici putem deveni atunci când suntem împreună. Ne continuăm misiunea de a încuraja participarea cetățenească în viața societății scoțând la iveală cele mai bune instrumente digitale pentru asta.",
+        "În ultimii ani, a devenit tot mai evidentă nevoia unui sistem de sănătate performant, bine organizat, care să fie la dispoziția tuturor cetățenilor. Dreptul la sănătate, educația pentru sănătate, accesul la servicii medicale sunt lucruri care, într-o societate normală, sunt de domeniul firescului. Credem că acolo unde problemele sunt urgente, tehnologia și inovația pot vindeca.",
       logo: require("../assets/images/health4ro/logo.svg"),
       btn: {
         top: "17.26%",
@@ -711,7 +711,7 @@ const data = {
       slug: "education4ro",
       title: "Education for Romania",
       description:
-        "Implicarea în viața comunității ne face pe toți mai bogați, mai împliniți și mai puternici. Implicându-ne, învățăm unii de la ceilalți și oferim ce avem mai bun, fiecare dintre noi, pentru mai binele tuturor. Dacă dorim sisteme puternice de educație, sănătate, protecția celor vulnerabili și a mediului, trebuie să fim conștienți de faptul că toate acestea nu sunt posibile fără o implicare reală a tuturor în viața societății. În plus, momentele de implicare sunt ferestre prin care vedem cât de puternici putem deveni atunci când suntem împreună. Ne continuăm misiunea de a încuraja participarea cetățenească în viața societății scoțând la iveală cele mai bune instrumente digitale pentru asta.",
+        "Problemele educației nu sunt doar problemele celor care învață sau predau în școli și facultăți. Cu cât vedem educația ca pe o prioritate, cu atât înțelegem faptul că problemele societății românești au nevoie de soluții de durată, sustenabile, de schimbări fundamentale și îmbunătățiri consistente. În diferitele etape de formare ale individului, interacțiunile cu ceilalți sunt esențiale, dar tehnologia bine folosită poate reprezenta un instrument care să crească valoarea actului educațional.",
       logo: require("../assets/images/education4ro/logo.svg"),
       btn: {
         top: "54.61%",
@@ -855,7 +855,7 @@ const data = {
       slug: "environment4ro",
       title: "Environment for Romania",
       description:
-        "Implicarea în viața comunității ne face pe toți mai bogați, mai împliniți și mai puternici. Implicându-ne, învățăm unii de la ceilalți și oferim ce avem mai bun, fiecare dintre noi, pentru mai binele tuturor. Dacă dorim sisteme puternice de educație, sănătate, protecția celor vulnerabili și a mediului, trebuie să fim conștienți de faptul că toate acestea nu sunt posibile fără o implicare reală a tuturor în viața societății. În plus, momentele de implicare sunt ferestre prin care vedem cât de puternici putem deveni atunci când suntem împreună. Ne continuăm misiunea de a încuraja participarea cetățenească în viața societății scoțând la iveală cele mai bune instrumente digitale pentru asta.",
+        "Ca să putem trăi împreună în condiții bune, trebuie să gândim dincolo de noi înșine. Binele fiecăruia dintre noi nu poate fi separat de binele mediului în care trăim și în care planificăm viitorul nostru și al generațiilor de după noi. Pădurile, natura și spațiile verzi sunt primele lucruri la care gândul se duce atunci când vine vorba despre mediu. Dar tot aici vorbim și despre dezvoltarea urbană, infrastructură, zonele protejate, dezastrele naturale și strategii de protecție împotriva poluării de orice tip.În următorii cinci ani, ne uităm cu atenție în jur la problemele mediului și găsim cele mai bune soluții digitale prin care putem, protejând mediul înconjurător, să ne protejăm pe noi înșine.",
       logo: require("../assets/images/environment4ro/logo.svg"),
       btn: {
         color: "green",

@@ -1,15 +1,11 @@
 <template>
-  <b-col cols="12">
-    <b-row>
-      <b-col cols="7" class="mb-4 d-flex align-items-center">
-        <img width="80px" :src="logo" />
-        <h2 class="ml-2">{{ title }}</h2>
-      </b-col>
-      <b-col cols="12">
-        <p>{{ description }}</p>
-      </b-col>
-    </b-row>
-  </b-col>
+  <div class="HighwayName px-4">
+    <div class="d-flex align-items-center HighwayName-logo mb-4">
+      <img :src="logo" />
+      <h2 class="ml-2 mb-0">{{ title }}</h2>
+    </div>
+    <p>{{ description }}</p>
+  </div>
 </template>
 
 <script>
@@ -22,5 +18,3 @@ export default {
   }
 };
 </script>
-
-<style></style>
