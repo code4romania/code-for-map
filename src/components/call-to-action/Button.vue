@@ -9,7 +9,9 @@
 
 <script>
 export default {
-  name: "CallToAction",
+  /** Component name. */
+  name: "Button",
+  /** Recived props. */
   props: {
     action: {
       type: Object
@@ -17,5 +19,3 @@ export default {
   }
 };
 </script>
-
-<style></style>

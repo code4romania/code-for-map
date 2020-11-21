@@ -1,94 +1,86 @@
 <template>
   <b-container fluid>
     <b-row>
-      <!-- Map Legend displayed from 1024px-->
-      <b-col cols="12" xl="3" class="pt-5 d-none d-md-block">
-        <div class="d-flex flex-column justify-content-between">
-          <Header :header="data.header" />
-          <Legend :legend="data.map_legend" />
+      <!--###############################################
+      ############# Map Legend displayed ################
+      ############################################### -->
+      <b-col cols="12" lg="3" class="pt-5">
+        <div class="h-100 mr-lg-n5 d-flex flex-column justify-content-between">
+          <!-- Complete header dispalyed from 1024px -->
+          <Header :header="data.header" class="d-none d-lg-block" />
+          <!-- Only the title from header displayed till 1024px -->
+          <Title :title="data.header.title" class="d-block d-lg-none" />
+          <!-- Map legend displayed from 1024px -->
+          <Legend :legend="data.map_legend" class="d-none d-lg-block" />
         </div>
       </b-col>
-      <!-- Map Legend displayed till 1024px-->
-      <b-col cols="12 d-block d-md-none">
-        <h1 class="my-3">{{ data.header.title }}</h1>
-      </b-col>
-      <b-col cols="12" xl="9">
-        <div class="MapContainer-wrap">
-          <div class="MapContainer">
-            <!-- Highway background as a link to main map displayed from 1024px -->
-            <router-link :to="{ name: 'Map' }" class="d-none d-md-block">
-              <img class="img-fluid w-100" :src="code4ro_map.highway_bg" />
-            </router-link>
-            <!-- Display map buttons on map displayed from 1024px-->
-            <div v-for="highway in data.code4ro_map" :key="highway.slug">
-              <!-- MapButton component displayed from 1024px -->
-              <MapButton
-                class="d-none d-md-block"
-                :highway="highway"
-                :class="highway.slug !== slug ? 'btn-opacity' : ''"
-              />
-            </div>
-            <!-- Back to map link displayed till 1024px -->
-            <BackToMapLink
-              class="mb-4 d-block d-md-none"
-              :back="data.back_link"
+      <!--###############################################
+      ### Back to map link displayed till 10024px #######
+      ############################################### -->
+      <BackToMapLink class="mb-4 d-block d-lg-none" :back="data.back_link" />
+      <!--###############################################
+      ## Highway name and logo displayed till 10024px ###
+      ############################################### -->
+      <MobileHighwayNameAndLogo
+        :logo="code4ro_map.logo"
+        :title="code4ro_map.title"
+        :description="code4ro_map.description"
+        class="d-block d-lg-none"
+      />
+      <!-- Top delimitator -->
+      <Delimiter :delimiter="code4ro_map.delimiter_1" class="mb-4" />
+      <!--###############################################
+      ######## Map Solutions desktop and mobiel #########
+      ############################################### -->
+      <b-col cols="12" lg="9">
+        <div class="ml-lg-n5">
+          <!--###############################################
+          #### Highway Background displayed from 1024px #####
+          ############################################### -->
+          <router-link :to="{ name: 'Map' }" class="d-none d-lg-block">
+            <img class="img-fluid w-100" :src="code4ro_map.highway_bg" />
+          </router-link>
+          <!--###############################################
+          ################ Map Buttons ######################
+          ############################################### -->
+          <div v-for="highway in data.code4ro_map" :key="highway.slug">
+            <!-- MapButton component displayed from 1024px -->
+            <MapButton
+              class="d-none d-lg-block"
+              :highway="highway"
+              :class="highway.slug !== slug ? 'btn-opacity' : ''"
+              :top="highway.btn.top"
+              :left="highway.btn.left"
             />
-            <!-- Highway name and logo till 1024px -->
-            <b-row class="d-block d-md-none">
-              <b-col cols="7" class="mb-4 d-flex align-items-center">
-                <img width="80px" :src="code4ro_map.logo" />
-                <h2 class="ml-2">{{ code4ro_map.title }}</h2>
-              </b-col>
-              <b-col cols="12" class="mb-4">
-                <p>{{ code4ro_map.description }}</p>
-              </b-col>
-            </b-row>
-            <!-- Highway solutions -->
-            <div
-              v-for="solution_button in code4ro_map.highway_solutions"
-              :key="solution_button.id"
-            >
-              <!-- Highway component with solutions button displayed from 1024px-->
-              <HighwayButton
-                class="d-none d-md-block"
-                :solution_button="solution_button"
-              />
-              <!-- Highway solutions displayed till 1024px -->
-              <b-row class="d-block d-md-none">
-                <b-col cols="12" class="p-0 m-0">
-                  <router-link
-                    :to="{
-                      name: 'Solution',
-                      params: {
-                        slug: code4ro_map.slug,
-                        _slug: solution_button.highway_slug
-                      }
-                    }"
-                  >
-                    <div
-                      class="d-flex align-items-center justify-content-between border-top last-child-border py-3"
-                    >
-                      <div class="d-flex align-items-center pl-3">
-                        <img :src="solution_button.icon" alt="" />
-                        <p class="p-0 m-0 pl-2 pl-md-3">
-                          {{ solution_button.title }}
-                        </p>
-                      </div>
-                      <!-- Chevron left displayed till 1024px -->
-                      <h1
-                        class="px-3 font-weight-bold"
-                        :class="`text-${solution_button.btn.color}`"
-                      >
-                        &#62;
-                      </h1>
-                    </div>
-                  </router-link>
-                </b-col>
-              </b-row>
-            </div>
+          </div>
+          <!--###############################################
+          ################ Highway solutions ################
+          ############################################### -->
+          <div
+            v-for="solution_button in code4ro_map.highway_solutions"
+            :key="solution_button.id"
+          >
+            <!-- Highway component with solutions button displayed from 1024px-->
+            <HighwayButton
+              class="d-none d-lg-block"
+              :solution_button="solution_button"
+              :color="code4ro_map.color"
+            />
+
+            <!-- Highway solutions displayed till 1024px -->
+            <MobileHighwaySolutions
+              class="d-block d-lg-none"
+              :slug="code4ro_map.slug"
+              :highway_slug="solution_button.highway_slug"
+              :icon="solution_button.icon"
+              :title="solution_button.title"
+              :chevron="code4ro_map.chevron_right"
+            />
           </div>
         </div>
       </b-col>
+      <!-- Bottom delimitator -->
+      <Delimiter :delimiter="code4ro_map.delimiter_2" class="mt-4" />
     </b-row>
   </b-container>
 </template>
@@ -97,9 +89,13 @@
 /** Imported components. */
 import MapButton from "../components/map/MapButton";
 import HighwayButton from "../components/map/HighwayButton";
-import Header from "../components/Header";
+import Header from "../components/header/Header";
+import Title from "../components/header/Title";
 import Legend from "../components/map/Legend";
 import BackToMapLink from "../components/BackToMapLink";
+import MobileHighwayNameAndLogo from "../components/MobileHighwayNameAndLogo";
+import MobileHighwaySolutions from "../components/MobileHighwaySolutions";
+import Delimiter from "../components/Delimiter";
 
 export default {
   /** Component name. */
@@ -115,8 +111,12 @@ export default {
     MapButton,
     HighwayButton,
     Header,
+    Title,
     Legend,
-    BackToMapLink
+    BackToMapLink,
+    MobileHighwayNameAndLogo,
+    MobileHighwaySolutions,
+    Delimiter
   },
   /** Component state. */
   data() {
@@ -137,8 +137,5 @@ export default {
 <style>
 .btn-opacity {
   opacity: 0.5;
-}
-.last-child-border:last-child {
-  border-bottom: 1px solid #ddd;
 }
 </style>

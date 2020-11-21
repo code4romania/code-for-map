@@ -3,7 +3,7 @@
   <router-link
     :to="{ name: 'Highway' }"
     class="badge-pill btn bg-white scale btn-fade HighwayButton"
-    :class="`btn-outline-${solution_button.btn.color}`"
+    :class="`btn-outline-${color}`"
     :style="{
       position: 'absolute',
       top: solution_button.btn.top,
@@ -31,9 +31,8 @@ export default {
   name: "HighwayButton",
   /** Recived props. */
   props: {
-    solution_button: {
-      type: Object
-    }
+    solution_button: Object,
+    color: String
   }
 };
 </script>

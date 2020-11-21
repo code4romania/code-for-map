@@ -3,6 +3,7 @@
 const data = {
   code4ro_logo: "",
   map_bg: require("../assets/images/map-bg.svg"),
+  map_bg_mobile: require("../assets/images/map-bg-mobile.svg"),
   back_link: {
     icon: require("../assets/images/assets_svg/chevron_left.svg"),
     text: "Înapoi la harta"
@@ -36,10 +37,15 @@ const data = {
       msg_text: "PUTEM",
       phone_number: "8864",
       description:
-        "Si contribuie la digitalizarea Romaniei. Cu un SMS recurent de 4 euro pe luna ajuti la construirea si mentinerea infrastructurii digitale de care avem nevoie in secolul XXI."
+        "Si contribuie la digitalizarea Romaniei. Cu un SMS recurent de 4 euro pe luna ajuti la construirea si mentinerea infrastructurii digitale de care avem nevoie in secolul XXI.",
+      delimitator_1: require("../assets/images/assets_svg/delimitators/delimitator_1.png"),
+      delimitator_2: require("../assets/images/assets_svg/delimitators/delimitator_2.png")
     }
   },
   call_to_action: {
+    title: "",
+    description:
+      "This is a placeholder text that should act as a call to action to help people understant why they need to be joining us in our journey.",
     share: {
       title: "DISTRIBUIE",
       color: "primary",
@@ -80,7 +86,7 @@ const data = {
         id: 5,
         name: "test",
         logo: require("../assets/images/parteners/main/partener_test.svg")
-      },
+      }
     ],
     secondary_parteners: [
       {
@@ -164,7 +170,6 @@ const data = {
         "Implicarea în viața comunității ne face pe toți mai bogați, mai împliniți și mai puternici. Implicându-ne, învățăm unii de la ceilalți și oferim ce avem mai bun, fiecare dintre noi, pentru mai binele tuturor. Dacă dorim sisteme puternice de educație, sănătate, protecția celor vulnerabili și a mediului, trebuie să fim conștienți de faptul că toate acestea nu sunt posibile fără o implicare reală a tuturor în viața societății. În plus, momentele de implicare sunt ferestre prin care vedem cât de puternici putem deveni atunci când suntem împreună. Ne continuăm misiunea de a încuraja participarea cetățenească în viața societății scoțând la iveală cele mai bune instrumente digitale pentru asta.",
       logo: require("../assets/images/care4ro/logo.svg"),
       btn: {
-        color: "purple",
         top: "9%",
         left: "49.78%"
       },
@@ -175,10 +180,19 @@ const data = {
       color: "purple",
       highway_bg: require("../assets/images/care4ro/care4ro_bg.svg"),
       solution_status: {
-        text: 'Descoperă mai jos care dintre segmentele din drumul nostru spre un mediu sănătos sunt deja executate și ce am proiectat.',
-        implemented: 'Soluție proiectată',
-        executed: 'Soluție executată'
+        text:
+          "Descoperă mai jos care dintre segmentele din drumul nostru spre un mediu sănătos sunt deja executate și ce am proiectat.",
+        implemented: "Soluție proiectată",
+        executed: "Soluție executată"
       },
+      chevron_right: require("../assets/images/care4ro/chevron_right.svg"),
+      chevron_right_dark: require("../assets/images/assets_svg/chevron_right.svg"),
+      delimiter_1: require("../assets/images/assets_svg/delimitators/delimitator_1.png"),
+      delimiter_2: require("../assets/images/assets_svg/delimitators/delimitator_2.png"),
+      close_icon: require("../assets/images/assets_svg/close.svg"),
+      all_solution_text: "VEZI TOATE SOLUTIILE PENTRU",
+      vezi_solutia_text: "Vezi soluția",
+      vezi_solutia_icon: require("../assets/images/assets_svg/vezi_solutia.svg"),
       highway_solutions: [
         {
           id: 1,
@@ -186,7 +200,6 @@ const data = {
           title: "Fara trafic de persoane",
           description: "description",
           btn: {
-            color: "purple",
             top: "15%",
             left: "46%"
           },
@@ -195,38 +208,40 @@ const data = {
           projects: [
             {
               id: 1,
-              project_slug: "",
-              title: "titlu proiect 1",
-              description: "",
+              project_slug: "23",
+              title: "Expert consultation",
+              description: "project description",
               executed: true,
+              icon: require("../assets/images/care4ro/no-human-trafic/icon.svg"),
+              link: ""
             },
             {
               id: 2,
-              project_slug: "",
+              project_slug: "45",
               title: "titlu proiect 2",
               description: "",
-              executed: true,
+              executed: true
             },
             {
               id: 3,
-              project_slug: "",
+              project_slug: "4356",
               title: "titlu proiect 3",
               description: "",
-              executed: true,
+              executed: true
             },
             {
               id: 4,
-              project_slug: "",
+              project_slug: "456546",
               title: "titlu proiect 4",
               description: "",
-              executed: false,
+              executed: false
             },
             {
               id: 5,
-              project_slug: "",
+              project_slug: "546546",
               title: "titlu proiect 5",
               description: "",
-              executed: false,
+              executed: false
             }
           ]
         },
@@ -236,15 +251,12 @@ const data = {
           title: "Sanse pentru persoanele cu dizabilitati",
           description: "description",
           btn: {
-            color: "purple",
             top: "20%",
             left: "40%"
           },
           icon_left: true,
           icon: require("../assets/images/care4ro/chance-for-disability-persons/icon.svg"),
-          projects: [
-
-          ]
+          projects: []
         },
         {
           id: 3,
@@ -252,7 +264,6 @@ const data = {
           title: "O viata buna pentru copiii abandonati",
           description: "description",
           btn: {
-            color: "purple",
             top: "30%",
             left: "45%"
           },
@@ -261,7 +272,7 @@ const data = {
           projects: [
             {
               id: 1,
-              project_slug: "",
+              project_slug: "xfdsdfdsf",
               title: "",
               description: ""
             }
@@ -273,7 +284,6 @@ const data = {
           title: "Fara discriminare impotriva etniei rome",
           description: "description",
           btn: {
-            color: "purple",
             top: "19%",
             left: "23%"
           },
@@ -282,7 +292,7 @@ const data = {
           projects: [
             {
               id: 1,
-              project_slug: "",
+              project_slug: "adsafgdfgfdgdf",
               title: "",
               description: ""
             }
@@ -294,7 +304,6 @@ const data = {
           title: "Incluziune pentru persoanele LGBTQ+",
           description: "description",
           btn: {
-            color: "purple",
             top: "23%",
             left: "10%"
           },
@@ -303,7 +312,7 @@ const data = {
           projects: [
             {
               id: 1,
-              project_slug: "",
+              project_slug: "dfgdfgfdgdfgfdgdg",
               title: "",
               description: ""
             }
@@ -315,7 +324,6 @@ const data = {
           title: "Diaspora mai aproape de casa",
           description: "description",
           btn: {
-            color: "purple",
             top: "32%",
             left: "20%"
           },
@@ -324,7 +332,7 @@ const data = {
           projects: [
             {
               id: 1,
-              project_slug: "",
+              project_slug: "dfgfdgfdgdfgfdgfdg",
               title: "",
               description: ""
             }
@@ -336,7 +344,6 @@ const data = {
           title: "Fara violenta acasa",
           description: "description",
           btn: {
-            color: "purple",
             top: "43%",
             left: "23%"
           },
@@ -347,7 +354,7 @@ const data = {
               id: 1,
               project_slug: "",
               title: "",
-              description: ""
+              description: "dfgdfgfdgfdgfdg"
             }
           ]
         }
@@ -357,10 +364,10 @@ const data = {
       id: 2,
       slug: "health4ro",
       title: "Health for Romania",
-      description: "",
+      description:
+        "Implicarea în viața comunității ne face pe toți mai bogați, mai împliniți și mai puternici. Implicându-ne, învățăm unii de la ceilalți și oferim ce avem mai bun, fiecare dintre noi, pentru mai binele tuturor. Dacă dorim sisteme puternice de educație, sănătate, protecția celor vulnerabili și a mediului, trebuie să fim conștienți de faptul că toate acestea nu sunt posibile fără o implicare reală a tuturor în viața societății. În plus, momentele de implicare sunt ferestre prin care vedem cât de puternici putem deveni atunci când suntem împreună. Ne continuăm misiunea de a încuraja participarea cetățenească în viața societății scoțând la iveală cele mai bune instrumente digitale pentru asta.",
       logo: require("../assets/images/health4ro/logo.svg"),
       btn: {
-        color: "red",
         top: "17.26%",
         left: "69.36%"
       },
@@ -368,19 +375,24 @@ const data = {
         top: "31%",
         left: "48%"
       },
+      color: "red",
       highway_bg: require("../assets/images/health4ro/health4ro_bg.svg"),
       solution_status: {
-        info: "Descoperă mai jos care dintre segmentele din drumul nostru spre un mediu sănătos sunt deja executate și ce am proiectat.",
+        info:
+          "Descoperă mai jos care dintre segmentele din drumul nostru spre un mediu sănătos sunt deja executate și ce am proiectat.",
         implemented: "",
-        executed: "",
+        executed: ""
       },
+      chevron_right: require("../assets/images/health4ro/chevron_right.svg"),
+      delimiter_1: require("../assets/images/assets_svg/delimitators/delimitator_1.png"),
+      delimiter_2: require("../assets/images/assets_svg/delimitators/delimitator_2.png"),
+      close_icon: require("../assets/images/assets_svg/close.svg"),
       highway_solutions: [
         {
           id: 1,
           highway_slug: "sanatate-mintala-pentru-toti",
           title: "Sanatate mintala pentru toti",
           btn: {
-            color: "red",
             top: "29%",
             left: "60.5%"
           },
@@ -389,7 +401,7 @@ const data = {
           projects: [
             {
               id: 1,
-              project_slug: "",
+              project_slug: "dfgfdgfdgfdgfdg",
               title: "",
               description: ""
             }
@@ -400,7 +412,6 @@ const data = {
           highway_slug: "spitale-functionale",
           title: "Spitale functionale",
           btn: {
-            color: "red",
             top: "35.9%",
             left: "55.17%"
           },
@@ -420,7 +431,6 @@ const data = {
           highway_slug: "sprjin-nu-pedeapsa-pentru-dependenti",
           title: "Sprijin nu pedeapsa pentru dependenti",
           btn: {
-            color: "red",
             top: "42.42%",
             left: "78.25%"
           },
@@ -440,7 +450,6 @@ const data = {
           highway_slug: "servicii-de-sanatate-eficiente",
           title: "Servicii de sanatate eficiente",
           btn: {
-            color: "red",
             top: "47.27%",
             left: "63.58%"
           },
@@ -460,7 +469,6 @@ const data = {
           highway_slug: "sprijin-pentru-cei-grav-bolnavi",
           title: "Sprijin pentru cei grav bolnavi",
           btn: {
-            color: "red",
             top: "62.68%",
             left: "46.58%"
           },
@@ -480,7 +488,6 @@ const data = {
           highway_slug: "grija-pentru-sanatatea-mamei-si-a-copilului",
           title: "Grija pentru sanatatea mamei si a copilului",
           btn: {
-            color: "red",
             top: "76.07%",
             left: "31.67%"
           },
@@ -501,10 +508,10 @@ const data = {
       id: 3,
       slug: "participation4ro",
       title: "Participation for Romania",
-      description: "",
+      description:
+        "Implicarea în viața comunității ne face pe toți mai bogați, mai împliniți și mai puternici. Implicându-ne, învățăm unii de la ceilalți și oferim ce avem mai bun, fiecare dintre noi, pentru mai binele tuturor. Dacă dorim sisteme puternice de educație, sănătate, protecția celor vulnerabili și a mediului, trebuie să fim conștienți de faptul că toate acestea nu sunt posibile fără o implicare reală a tuturor în viața societății. În plus, momentele de implicare sunt ferestre prin care vedem cât de puternici putem deveni atunci când suntem împreună. Ne continuăm misiunea de a încuraja participarea cetățenească în viața societății scoțând la iveală cele mai bune instrumente digitale pentru asta.",
       logo: require("../assets/images/participation4ro/logo.svg"),
       btn: {
-        color: "blue",
         top: "67.97%",
         left: "82.61%"
       },
@@ -512,19 +519,24 @@ const data = {
         top: "52%",
         left: "53%"
       },
+      color: "blue",
       highway_bg: require("../assets/images/participation4ro/participation4ro_bg.svg"),
       solution_status: {
-        info: "Descoperă mai jos care dintre segmentele din drumul nostru spre un mediu sănătos sunt deja executate și ce am proiectat.",
+        info:
+          "Descoperă mai jos care dintre segmentele din drumul nostru spre un mediu sănătos sunt deja executate și ce am proiectat.",
         implemented: "",
-        executed: "",
+        executed: ""
       },
+      chevron_right: require("../assets/images/participation4ro/chevron_right.svg"),
+      delimiter_1: require("../assets/images/assets_svg/delimitators/delimitator_1.png"),
+      delimiter_2: require("../assets/images/assets_svg/delimitators/delimitator_2.png"),
+      close_icon: require("../assets/images/assets_svg/close.svg"),
       highway_solutions: [
         {
           id: 1,
           highway_slug: "acces-la-cultura",
           title: "Acces la cultura",
           btn: {
-            color: "blue",
             top: "80.98%",
             left: "82.79%"
           },
@@ -544,7 +556,6 @@ const data = {
           highway_slug: "jurnalisti-eficienti",
           title: "Jurnalisti eficienti",
           btn: {
-            color: "blue",
             top: "70.79%",
             left: "67.83%"
           },
@@ -564,7 +575,6 @@ const data = {
           highway_slug: "primarii-functionale",
           title: "Primarii functionale",
           btn: {
-            color: "blue",
             top: "76%",
             left: "60.75%"
           },
@@ -584,7 +594,6 @@ const data = {
           highway_slug: "institutii-centrale-functionale",
           title: "Institutii centrale functionale",
           btn: {
-            color: "blue",
             top: "68.07%",
             left: "49.67%"
           },
@@ -604,7 +613,6 @@ const data = {
           highway_slug: "o-mai-buna-relatie-cetetean-stat",
           title: "O mai buna relatie cetetean-stat",
           btn: {
-            color: "blue",
             top: "58.34%",
             left: "53.33%"
           },
@@ -624,7 +632,6 @@ const data = {
           highway_slug: "o-societate-civila-puternica",
           title: "O societate civila puternica",
           btn: {
-            color: "blue",
             top: "50%",
             left: "48.5%"
           },
@@ -644,7 +651,6 @@ const data = {
           highway_slug: "alegeri-corecte-alegatori-informati",
           title: "Alegeri corecte Alegatori informati",
           btn: {
-            color: "blue",
             top: "29.05%",
             left: "33%"
           },
@@ -664,7 +670,6 @@ const data = {
           highway_slug: "date-deschise",
           title: "Date deschise",
           btn: {
-            color: "blue",
             top: "28.1%",
             left: "20.92%"
           },
@@ -684,7 +689,6 @@ const data = {
           highway_slug: "legislatie-accesibila",
           title: "Legislatie accesibila",
           btn: {
-            color: "blue",
             top: "15.77%",
             left: "15.25%"
           },
@@ -705,10 +709,10 @@ const data = {
       id: 4,
       slug: "education4ro",
       title: "Education for Romania",
-      description: "",
+      description:
+        "Implicarea în viața comunității ne face pe toți mai bogați, mai împliniți și mai puternici. Implicându-ne, învățăm unii de la ceilalți și oferim ce avem mai bun, fiecare dintre noi, pentru mai binele tuturor. Dacă dorim sisteme puternice de educație, sănătate, protecția celor vulnerabili și a mediului, trebuie să fim conștienți de faptul că toate acestea nu sunt posibile fără o implicare reală a tuturor în viața societății. În plus, momentele de implicare sunt ferestre prin care vedem cât de puternici putem deveni atunci când suntem împreună. Ne continuăm misiunea de a încuraja participarea cetățenească în viața societății scoțând la iveală cele mai bune instrumente digitale pentru asta.",
       logo: require("../assets/images/education4ro/logo.svg"),
       btn: {
-        color: "yellow",
         top: "54.61%",
         left: "35.36%"
       },
@@ -716,19 +720,24 @@ const data = {
         top: "73%",
         left: "31%"
       },
+      color: "yellow",
       highway_bg: require("../assets/images/education4ro/education4ro_bg.svg"),
       solution_status: {
-        info: "Descoperă mai jos care dintre segmentele din drumul nostru spre un mediu sănătos sunt deja executate și ce am proiectat.",
+        info:
+          "Descoperă mai jos care dintre segmentele din drumul nostru spre un mediu sănătos sunt deja executate și ce am proiectat.",
         implemented: "",
-        executed: "",
+        executed: ""
       },
+      chevron_right: require("../assets/images/education4ro/chevron_right.svg"),
+      delimiter_1: require("../assets/images/assets_svg/delimitators/delimitator_1.png"),
+      delimiter_2: require("../assets/images/assets_svg/delimitators/delimitator_2.png"),
+      close_icon: require("../assets/images/assets_svg/close.svg"),
       highway_solutions: [
         {
           id: 1,
           highway_slug: "scoli-sigure-si-bine-administrate",
           title: "Scoli sigure si bine administrate",
           btn: {
-            color: "yellow",
             top: "64.34%",
             left: "30.5%"
           },
@@ -748,7 +757,6 @@ const data = {
           highway_slug: "invatamant-universitar-de-calitate",
           title: "Invatamant universitar de calitate",
           btn: {
-            color: "yellow",
             top: "45.26%",
             left: "15.75%"
           },
@@ -768,7 +776,6 @@ const data = {
           highway_slug: "invatamant-preuniversitar-de-calitate",
           title: "Invatamant preuniversitar de calitate",
           btn: {
-            color: "yellow",
             top: "41.82%",
             left: "35.67%"
           },
@@ -788,7 +795,6 @@ const data = {
           highway_slug: "acces-la-educatie",
           title: "Acces la educatie",
           btn: {
-            color: "yellow",
             top: "30.45%",
             left: "43.67%"
           },
@@ -808,7 +814,6 @@ const data = {
           highway_slug: "abilitati-pentru-viata-reala",
           title: "Abilitati pentru viata reala",
           btn: {
-            color: "yellow",
             top: "20.62%",
             left: "53%"
           },
@@ -828,7 +833,6 @@ const data = {
           highway_slug: "profesori-bine-pregatiti",
           title: "Profesori bine pregatiti",
           btn: {
-            color: "yellow",
             top: "12.2%",
             left: "66.17%"
           },
@@ -849,7 +853,8 @@ const data = {
       id: 5,
       slug: "environment4ro",
       title: "Environment for Romania",
-      description: "",
+      description:
+        "Implicarea în viața comunității ne face pe toți mai bogați, mai împliniți și mai puternici. Implicându-ne, învățăm unii de la ceilalți și oferim ce avem mai bun, fiecare dintre noi, pentru mai binele tuturor. Dacă dorim sisteme puternice de educație, sănătate, protecția celor vulnerabili și a mediului, trebuie să fim conștienți de faptul că toate acestea nu sunt posibile fără o implicare reală a tuturor în viața societății. În plus, momentele de implicare sunt ferestre prin care vedem cât de puternici putem deveni atunci când suntem împreună. Ne continuăm misiunea de a încuraja participarea cetățenească în viața societății scoțând la iveală cele mai bune instrumente digitale pentru asta.",
       logo: require("../assets/images/environment4ro/logo.svg"),
       btn: {
         color: "green",
@@ -863,10 +868,15 @@ const data = {
       color: "green",
       highway_bg: require("../assets/images/environment4ro/environment4ro_bg.svg"),
       solution_status: {
-        info: "Descoperă mai jos care dintre segmentele din drumul nostru spre un mediu sănătos sunt deja executate și ce am proiectat.",
+        info:
+          "Descoperă mai jos care dintre segmentele din drumul nostru spre un mediu sănătos sunt deja executate și ce am proiectat.",
         implemented: "234",
-        executed: "sdf",
+        executed: "sdf"
       },
+      chevron_right: require("../assets/images/environment4ro/chevron_right.svg"),
+      delimiter_1: require("../assets/images/assets_svg/delimitators/delimitator_1.png"),
+      delimiter_2: require("../assets/images/assets_svg/delimitators/delimitator_2.png"),
+      close_icon: require("../assets/images/assets_svg/close.svg"),
       highway_solutions: [
         {
           id: 1,
@@ -874,7 +884,6 @@ const data = {
           title: "Paduri protejate si sanatoase",
           description: "sad",
           btn: {
-            color: "green",
             top: "55.09%",
             left: "-2.67%"
           },
@@ -894,7 +903,6 @@ const data = {
           highway_slug: "protectia-naturii",
           title: "Protectia naturii",
           btn: {
-            color: "green",
             top: "58.53%",
             left: "21.92%"
           },
@@ -914,7 +922,6 @@ const data = {
           highway_slug: "sate-dezvoltate",
           title: "Sate dezvoltate",
           btn: {
-            color: "green",
             top: "71.21%",
             left: "10.67%"
           },
@@ -934,7 +941,6 @@ const data = {
           highway_slug: "orase-prietenoase",
           title: "Orase prietenoase",
           btn: {
-            color: "green",
             top: "69.67%",
             left: "28.5%"
           },
@@ -954,7 +960,6 @@ const data = {
           highway_slug: "reciclarea-si-managementul-deseurilor",
           title: "Reciclarea si managementul deseurilor",
           btn: {
-            color: "green",
             top: "88.51%",
             left: "24.92%"
           },
@@ -974,7 +979,6 @@ const data = {
           highway_slug: "reducerea-poluarii",
           title: "Reducerea poluarii",
           btn: {
-            color: "green",
             top: "92.89%",
             left: "48.92%"
           },
@@ -994,7 +998,6 @@ const data = {
           highway_slug: "reducerea-poluari",
           title: "Reducerea poluarii",
           btn: {
-            color: "green",
             top: "80.81%",
             left: "52.33%"
           },
@@ -1014,7 +1017,6 @@ const data = {
           highway_slug: "pregatiti-pentru-urmatorul-cutremur",
           title: "Pregatiti pentru urmatorul cutremur",
           btn: {
-            color: "green",
             top: "75.83%",
             left: "43.08%"
           },
@@ -1034,7 +1036,6 @@ const data = {
           highway_slug: "pregatiti-pentru-urmatorul-dezastru-natural",
           title: "Pregatiti pentru urmatorul dezastru natural",
           btn: {
-            color: "green",
             top: "60.55%",
             left: "68.08%"
           },
