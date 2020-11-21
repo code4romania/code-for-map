@@ -36,7 +36,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 .status {
   width: 25px;
   height: 25px;

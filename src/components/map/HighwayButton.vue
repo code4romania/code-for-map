@@ -37,11 +37,3 @@ export default {
   }
 };
 </script>
-
-<style scoped>
-.HighwayButton {
-  border-width: 2px;
-  padding: 3px 15px;
-  max-width: 180px;
-}
-</style>

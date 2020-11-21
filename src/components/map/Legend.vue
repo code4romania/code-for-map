@@ -43,7 +43,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 .drum-continuu {
   width: 20%;
   border-top: 4px solid #000;

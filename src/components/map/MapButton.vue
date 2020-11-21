@@ -3,7 +3,7 @@
     <!-- Main map button links to highway -->
     <router-link
       :to="{ name: 'Highway', params: { slug: highway.slug } }"
-      class="badge-pill btn bg-white scale btn-fade d-none d-md-block MapButton"
+      class="badge-pill btn bg-white scale d-none d-md-block MapButton"
       :class="`btn-outline-${highway.btn.color}`"
       :style="{
         position: 'absolute',
@@ -23,7 +23,7 @@
 
     <router-link
       :to="{ name: 'Highway', params: { slug: highway.slug } }"
-      class="badge-pill btn bg-white scale btn-fade d-block d-md-none MapButton"
+      class="badge-pill btn bg-white scale d-block d-md-none MapButton"
       :class="`btn-outline-${highway.btn.color}`"
       :style="{
         position: 'absolute',
@@ -55,20 +55,3 @@ export default {
   }
 };
 </script>
-
-<style scoped>
-.MapButton {
-  border-width: 5px;
-  padding: 5px 10px;
-  max-width: 150px;
-}
-
-.MapButton-icon {
-  width: 32px;
-  height: 32px;
-}
-
-.MapButton-label {
-  line-height: 14px;
-}
-</style>
