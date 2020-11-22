@@ -7,16 +7,16 @@
     :style="{ top: segment_button.btn.top, left: segment_button.btn.left }"
   >
     <div class="d-flex align-items-center" v-if="segment_button.icon_left">
-      <img class="mr-2" :src="segment_button.icon" alt="" />
-      <p class="small text-dark font-weight-bold p-0 m-0 text-left">
+      <svg class="icon"><use :xlink:href="'#icon-' + segment_button.highway_slug"></use></svg>
+      <div class="small text-dark font-weight-bold text-left ml-2">
         {{ segment_button.title }}
-      </p>
+      </div>
     </div>
     <div class="d-flex align-items-center" v-else>
-      <p class="small text-dark font-weight-bold p-0 m-0 text-right">
+      <div class="small text-dark font-weight-bold text-right mr-2">
         {{ segment_button.title }}
-      </p>
-      <img class="ml-2" :src="segment_button.icon" />
+      </div>
+      <svg class="icon"><use :xlink:href="'#icon-' + segment_button.highway_slug"></use></svg>
     </div>
   </router-link>
 </template>

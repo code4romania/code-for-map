@@ -1,5 +1,9 @@
 #app {
   position: relative;
+
+  img {
+    background: #f00;
+  }
 }
 
 .Info {
@@ -13,8 +17,3 @@
   }
 }
 
-.BackToMapLink {
-  > a {
-    text-decoration: none;
-  }
-}

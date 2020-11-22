@@ -7,12 +7,10 @@
       :class="`btn-outline-${highway.color}`"
     >
       <div class="d-flex align-items-center">
-        <img class="img mr-2 MapButton-icon" :src="highway.logo" />
-        <p
-          class="small text-dark font-weight-bold p-0 m-0 text-left d-block MapButton-label"
-        >
+        <svg class="icon"><use :xlink:href="'#logo-' + highway.slug"></use></svg>
+        <div class="small text-dark font-weight-bold text-left d-block ml-2 MapButton-label">
           {{ highway.title }}
-        </p>
+        </div>
       </div>
     </router-link>
   </div>

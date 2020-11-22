@@ -1,14 +1,12 @@
 <template>
-  <div class="BackToMapLink mb-4" :class="back.visible ? '' : 'd-none'">
-    <router-link :to="{ name: 'Map' }" class="d-inline-block">
-      <span class="d-flex align-items-center ">
-        <img :src="back.icon" alt="" />
-        <span class="p-0 m-0 ml-3 text-primary border-bottom border-primary">
-          {{ back.text }}
-        </span>
-      </span>
-    </router-link>
-  </div>
+  <router-link :to="{ name: 'Map' }" class="BackToMapLink mb-4 d-inline-block" v-if="back.visible">
+    <div class="d-flex align-items-center">
+      <svg class="icon"><use xlink:href="#chevron-left"></use></svg>
+      <div class="ml-2 text-primary border-bottom border-primary">
+        {{ back.text }}
+      </div>
+    </div>
+  </router-link>
 </template>
 
 <script>
@@ -21,3 +19,11 @@ export default {
   }
 };
 </script>
+
+<style lang="scss" scoped>
+.BackToMapLink {
+  &:hover {
+    text-decoration: none;
+  }
+}
+</style>

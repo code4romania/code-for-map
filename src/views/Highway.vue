@@ -4,7 +4,7 @@
     ## Highway name and logo displayed till 1024px ###
     ############################################### -->
     <HighwayHeader
-      :logo="code4ro_map.logo"
+      :logo="code4ro_map.slug"
       :title="code4ro_map.title"
       :description="code4ro_map.description"
     />
