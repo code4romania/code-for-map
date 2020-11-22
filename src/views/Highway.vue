@@ -12,51 +12,53 @@
     <!--###############################################
     ######## Map Solutions desktop and mobile #########
     ############################################### -->
-    <div class="Highway">
-      <!--###############################################
-      #### Highway Background displayed from 1024px #####
-      ############################################### -->
-      <router-link :to="{ name: 'Map' }" class="d-none d-lg-block">
-        <img class="img-fluid w-100" :src="code4ro_map.highway_bg" />
-      </router-link>
-      <!--###############################################
-      ################ Map Buttons ######################
-      ############################################### -->
-      <template v-for="highway in data.code4ro_map">
-        <!-- MapButton component displayed from 1024px -->
-        <MapButton
-          class="d-none d-lg-block"
-          :highway="highway"
-          :class="highway.slug !== slug ? 'btn-opacity' : ''"
-          :top="highway.btn.top"
-          :left="highway.btn.left"
-          v-bind:key="highway.slug"
-        />
-      </template>
-      <!--###############################################
-      ################ Highway segments ################
-      ############################################### -->
-      <template v-for="segment_button in code4ro_map.highway_segment">
-        <!-- Highway component with segments button displayed from 1024px-->
-        <HighwayButton
-          :segment_button="segment_button"
-          :color="code4ro_map.color"
-          v-bind:key="'highway-btn-lg-' + segment_button.id"
-        />
+    <div class="MapContainer-wrap">
+      <div class="MapContainer">
+        <div class="Highway">
+          <!--###############################################
+          #### Highway Background displayed from 1024px #####
+          ############################################### -->
+          <router-link :to="{ name: 'Map' }" class="d-none d-lg-block">
+            <img class="img-fluid" :src="code4ro_map.highway_bg" />
+          </router-link>
+          <!--###############################################
+          ################ Map Buttons ######################
+          ############################################### -->
+          <template v-for="highway in data.code4ro_map">
+            <!-- MapButton component displayed from 1024px -->
+            <MapButton
+              class="d-none d-lg-block"
+              :highway="highway"
+              :class="highway.slug !== slug ? 'btn-opacity' : ''"
+              :top="highway.btn.top"
+              :left="highway.btn.left"
+              v-bind:key="highway.slug"
+            />
+          </template>
+          <!--###############################################
+          ################ Highway segments ################
+          ############################################### -->
+          <template v-for="segment_button in code4ro_map.highway_segment">
+            <!-- Highway component with segments button displayed from 1024px-->
+            <HighwayButton
+              :segment_button="segment_button"
+              :color="code4ro_map.color"
+              v-bind:key="'highway-btn-lg-' + segment_button.id"
+            />
 
-        <!-- Highway segments displayed till 1024px -->
-        <SegmentButton
-          :slug="code4ro_map.slug"
-          :highway_slug="segment_button.highway_slug"
-          :icon="segment_button.icon"
-          :title="segment_button.title"
-          :chevron="code4ro_map.chevron_right"
-          v-bind:key="'highway-btn-' + segment_button.id"
-        />
-      </template>
+            <!-- Highway segments displayed till 1024px -->
+            <SegmentButton
+              :slug="code4ro_map.slug"
+              :highway_slug="segment_button.highway_slug"
+              :icon="segment_button.icon"
+              :title="segment_button.title"
+              :chevron="code4ro_map.chevron_right"
+              v-bind:key="'highway-btn-' + segment_button.id"
+            />
+          </template>
+        </div>
+      </div>
     </div>
-    <!-- Bottom delimitator -->
-    <Delimiter :delimiter="code4ro_map.delimiter_2" class="mt-4" />
   </div>
 </template>
 
@@ -66,7 +68,6 @@ import MapButton from "../components/map/MapButton";
 import HighwayButton from "../components/map/HighwayButton";
 import HighwayHeader from "../components/map/HighwayHeader";
 import SegmentButton from "../components/map/SegmentButton";
-import Delimiter from "../components/Delimiter";
 
 export default {
   /** Component name. */
@@ -82,8 +83,7 @@ export default {
     MapButton,
     HighwayButton,
     HighwayHeader,
-    SegmentButton,
-    Delimiter
+    SegmentButton
   },
   /** Component state. */
   data() {
