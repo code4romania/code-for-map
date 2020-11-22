@@ -184,8 +184,6 @@ const data = {
         implemented: "Soluție proiectată",
         executed: "Soluție executată"
       },
-      chevron_right: require("../assets/images/care4ro/chevron_right.svg"),
-      chevron_right_dark: require("../assets/images/assets_svg/chevron_right.svg"),
       delimiter_1: require("../assets/images/assets_svg/delimitators/delimitator_1.png"),
       delimiter_2: require("../assets/images/assets_svg/delimitators/delimitator_2.png"),
       close_icon: require("../assets/images/assets_svg/close.svg"),
@@ -373,7 +371,6 @@ const data = {
         implemented: "",
         executed: ""
       },
-      chevron_right: require("../assets/images/health4ro/chevron_right.svg"),
       delimiter_1: require("../assets/images/assets_svg/delimitators/delimitator_1.png"),
       delimiter_2: require("../assets/images/assets_svg/delimitators/delimitator_2.png"),
       close_icon: require("../assets/images/assets_svg/close.svg"),
@@ -510,7 +507,6 @@ const data = {
         implemented: "",
         executed: ""
       },
-      chevron_right: require("../assets/images/participation4ro/chevron_right.svg"),
       delimiter_1: require("../assets/images/assets_svg/delimitators/delimitator_1.png"),
       delimiter_2: require("../assets/images/assets_svg/delimitators/delimitator_2.png"),
       close_icon: require("../assets/images/assets_svg/close.svg"),
@@ -701,7 +697,6 @@ const data = {
         implemented: "",
         executed: ""
       },
-      chevron_right: require("../assets/images/education4ro/chevron_right.svg"),
       delimiter_1: require("../assets/images/assets_svg/delimitators/delimitator_1.png"),
       delimiter_2: require("../assets/images/assets_svg/delimitators/delimitator_2.png"),
       close_icon: require("../assets/images/assets_svg/close.svg"),
@@ -839,7 +834,6 @@ const data = {
         implemented: "234",
         executed: "sdf"
       },
-      chevron_right: require("../assets/images/environment4ro/chevron_right.svg"),
       delimiter_1: require("../assets/images/assets_svg/delimitators/delimitator_1.png"),
       delimiter_2: require("../assets/images/assets_svg/delimitators/delimitator_2.png"),
       close_icon: require("../assets/images/assets_svg/close.svg"),

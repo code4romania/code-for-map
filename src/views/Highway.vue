@@ -50,9 +50,7 @@
             <SegmentButton
               :slug="code4ro_map.slug"
               :highway_slug="segment_button.highway_slug"
-              :icon="segment_button.icon"
               :title="segment_button.title"
-              :chevron="code4ro_map.chevron_right"
               v-bind:key="'highway-btn-' + segment_button.id"
             />
           </template>
