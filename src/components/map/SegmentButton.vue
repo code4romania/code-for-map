@@ -10,10 +10,10 @@
     class="d-lg-none d-flex justify-content-between align-items-center SegmentButton"
   >
     <div class="SegmentButton-icon">
-      <img :src="icon" :alt="title" />
+      <svg class="icon icon-md"><use :xlink:href="'#icon-' + highway_slug"></use></svg>
     </div>
     <div class="flex-fill mx-2">{{ title }}</div>
-    <img class="icon" :src="chevron" alt="chevron right" />
+    <svg class="icon"><use xlink:href="#chevron-right"></use></svg>
   </router-link>
 </template>
 
@@ -23,9 +23,7 @@ export default {
   props: {
     slug: String,
     highway_slug: String,
-    icon: String,
-    title: String,
-    chevron: String
+    title: String
   }
 };
 </script>

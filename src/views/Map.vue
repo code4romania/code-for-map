@@ -43,6 +43,11 @@ export default {
   },
   mounted() {
     this.data.back_link.visible = false;
+  },
+  methods: {
+    setMapState(highway) {
+      console.log(highway)
+    }
   }
 };
 </script>

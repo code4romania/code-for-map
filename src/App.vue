@@ -1,10 +1,10 @@
 <template>
   <div id="app">
-    <!-- <div class="Info px-4">
+    <div class="Info px-4">
       <Header :header="data.header" />
       <BackToMapLink :back="data.back_link" />
       <Legend :legend="data.map_legend" />
-    </div> -->
+    </div>
 
     <!-- SAMPLE, NEED TO REPLACE ALL THE OTHERS & LAYER MAPS & HIGHWAYS -->
     <!-- TODO: try svgo on all files with sprite & see what's up -->
