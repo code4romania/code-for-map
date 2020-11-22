@@ -7,7 +7,7 @@
         _slug: highway_slug
       }
     }"
-    class="d-lg-none d-flex justify-content-between align-items-center SegmentButton"
+    class="d-lg-none d-flex justify-content-between align-items-center SegmentButton ListItem"
   >
     <div class="SegmentButton-icon">
       <svg class="icon icon-md"><use :xlink:href="'#icon-' + highway_slug"></use></svg>

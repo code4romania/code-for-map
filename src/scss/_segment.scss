@@ -1,0 +1,63 @@
+.Segment {
+  @include respond-above(lg) {
+    padding: 0 24px;
+  }
+}
+
+.SegmentButton-icon {
+  width: 40px;
+}
+
+.SegmentHeader {
+  text-align: center;
+  position: relative;
+  padding: 30px 24px 0;
+}
+
+.SegmentHeader-desc {
+  text-align: left;
+
+  p {
+    text-align: left;
+  }
+}
+
+.SegmentHeader-close {
+  position: absolute;
+  top: 0;
+  right: 24px;
+  padding: 5px;
+}
+
+.SegmentLegend {
+  padding: 10px 24px;
+}
+
+.SegmentLegend-status {
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 600;
+}
+
+.SegmentVisual-wrap {
+  position: relative;
+  height: 0;
+  width: 100%;
+  padding-bottom: 50%;
+}
+
+.SegmentVisual {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  > svg {
+    height: 100%;
+  }
+}

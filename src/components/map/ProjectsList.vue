@@ -1,55 +1,35 @@
 <template>
-  <b-col cols="12" class="px-4 m-0">
-    <router-link
-      :to="{
-        name: 'Project',
-        params: {
-          slug: slug,
-          _slug: highway_slug,
-          __slug: project_slug
-        }
-      }"
-      class="border-left border-3 d-flex align-items-center justify-content-between py-3"
-    >
-      <div class="d-flex align-items-center">
-        <div
-          v-if="executed"
-          class="status"
-          :style="`border: 4px solid ${color}`"
-        ></div>
-        <div v-else class="status"></div>
-        <p class="p-0 m-0">{{ title }}</p>
-      </div>
-      <img :src="chevron" />
-    </router-link>
-  </b-col>
+  <div class="ProjectsList">
+    <template v-for="project in list">
+      <router-link
+        :to="{
+          name: 'Project',
+          params: {
+            slug: slug,
+            _slug: highway_slug,
+            __slug: project.project_slug
+          }
+        }"
+        v-bind:key="'project-' + project.id"
+        class="d-flex align-items-center justify-content-between ListItem"
+      >
+        <i class="icon icon-circle" :class="'border-' + color"></i>
+        <div class="flex-fill mx-2">{{project.title}}</div>
+        <svg class="icon"><use xlink:href="#chevron-right"></use></svg>
+      </router-link>
+    </template>
+  </div>
 </template>
 
 <script>
 export default {
-  name: "Projects",
+  name: "ProjectsList",
   props: {
-    slug: String,
+    list: Array,
     highway_slug: String,
-    project_slug: String,
-    executed: Boolean,
-    color: String,
-    title: String,
-    chevron: String
+    slug: String,
+    color: String
   }
 };
 </script>
 
-<style scoped lang="scss">
-.status {
-  width: 25px;
-  height: 25px;
-  border-radius: 100%;
-  background: #fff;
-  transform: translate(-55%);
-  border: 4px solid #c8cedb;
-}
-.border-3 {
-  border-width: 3px !important;
-}
-</style>

@@ -1,22 +1,15 @@
 <template>
-  <b-col cols="12">
-    <b-row>
-      <b-col cols="10" class="d-flex justify-content-center">
-        <img class="ml-5" width="150px" :src="icon" />
-      </b-col>
-      <b-col cols="2" class="d-flex justify-content-center">
-        <router-link :to="{ name: 'Highway', params: { slug: slug } }">
-          <img :src="close" />
-        </router-link>
-      </b-col>
-    </b-row>
-    <div>
-      <h2 class="text-center font-weight-light py-3" :class="`text-${color}`">
-        {{ title }}
-      </h2>
-      <p>{{ description }}</p>
-    </div>
-  </b-col>
+  <div class="SegmentHeader">
+    <router-link :to="{ name: 'Highway', params: { slug: slug } }" class="SegmentHeader-close">
+      <svg class="icon icon-sm"><use xlink:href="#close"></use></svg>
+    </router-link>
+
+    <svg class="icon icon-yuge"><use :xlink:href="'#icon-' + icon"></use></svg>
+    <h2 class="text-center font-weight-light py-3" :class="`text-${color}`">
+      {{ title }}
+    </h2>
+    <div class="SegmentHeader-desc" v-if="description" v-html="description"></div>
+  </div>
 </template>
 
 <script>
@@ -27,8 +20,7 @@ export default {
     slug: String,
     color: String,
     title: String,
-    description: String,
-    close: String
+    description: String
   }
 };
 </script>

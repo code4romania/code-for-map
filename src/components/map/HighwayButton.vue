@@ -1,7 +1,13 @@
 <template>
   <!-- Map highway segments button links -->
   <router-link
-    :to="{ name: 'Highway' }"
+    :to="{
+      name: 'Segment',
+      params: {
+        slug: slug,
+        _slug: highway_slug
+      }
+    }"
     class="badge-pill btn bg-white scale btn-fade d-none d-lg-block HighwayButton"
     :class="`btn-outline-${color}`"
     :style="{ top: segment_button.btn.top, left: segment_button.btn.left }"
@@ -28,6 +34,8 @@ export default {
   /** Recived props. */
   props: {
     segment_button: Object,
+    slug: String,
+    highway_slug: String,
     color: String
   }
 };

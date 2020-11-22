@@ -12,6 +12,7 @@
     <!--###############################################
     ######## Map Solutions desktop and mobile #########
     ############################################### -->
+    <!-- TODO:fix small viewport to large viewport containers when doing maps layering -->
     <div class="MapContainer-wrap">
       <div class="MapContainer">
         <div class="Highway">
@@ -21,6 +22,7 @@
           <router-link :to="{ name: 'Map' }" class="d-none d-lg-block">
             <img class="img-fluid" :src="code4ro_map.highway_bg" />
           </router-link>
+
           <!--###############################################
           ################ Map Buttons ######################
           ############################################### -->
@@ -35,12 +37,15 @@
               v-bind:key="highway.slug"
             />
           </template>
+
           <!--###############################################
           ################ Highway segments ################
           ############################################### -->
           <template v-for="segment_button in code4ro_map.highway_segment">
             <!-- Highway component with segments button displayed from 1024px-->
             <HighwayButton
+              :slug="code4ro_map.slug"
+              :highway_slug="segment_button.highway_slug"
               :segment_button="segment_button"
               :color="code4ro_map.color"
               v-bind:key="'highway-btn-lg-' + segment_button.id"

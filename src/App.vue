@@ -1,16 +1,26 @@
 <template>
   <div id="app">
-    <div class="Info px-4">
-      <Header :header="data.header" />
-      <BackToMapLink :back="data.back_link" />
-      <Legend :legend="data.map_legend" />
-    </div>
+    <b-container fluid>
+      <b-row>
+        <b-col xs="12" lg="3" class="p-0">
+          <div class="Info px-4">
+            <Header :header="data.header" />
+            <BackToMapLink :back="data.back_link" />
+            <Legend :legend="data.map_legend" />
+          </div>
+        </b-col>
+        <b-col xs="12" lg="9" class="p-0">
+          <router-view :data="data" />
+        </b-col>
+      </b-row>
+
+    </b-container>
 
     <!-- SAMPLE, NEED TO REPLACE ALL THE OTHERS & LAYER MAPS & HIGHWAYS -->
     <!-- TODO: try svgo on all files with sprite & see what's up -->
     <!-- <svg><use xlink:href="#map-bg"></use></svg> -->
 
-    <router-view :data="data" />
+    
 
     <!-- <CallToAction :call_to_action="data.call_to_action" />
     <SendSMS :sms="data.application_texts.info_sms" />

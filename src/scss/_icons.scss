@@ -9,6 +9,11 @@
   }
 }
 
+.icon-sm {
+  width: 16px;
+  height: 16px;
+}
+
 .icon-md {
   width: 32px;
   height: 32px;
@@ -17,4 +22,17 @@
 .icon-lg {
   width: 48px;
   height: 48px;
+}
+
+.icon-yuge {
+  width: 96px;
+  height: 96px;
+}
+
+.icon-circle {
+  display: block;
+  border-radius: 100%;
+  border: 4px solid $gray;
+  min-width: 24px;
+  margin-right: 10px;
 }

@@ -1,7 +1,7 @@
 <template>
-  <b-col cols="12" class="p-0 m-0">
-    <img class="img-fluid w-100" :src="delimiter" />
-  </b-col>
+  <div class="Delimiter my-4">
+    <img class="img-fluid h-100" :src="delimiter" />
+  </div>
 </template>
 
 <script>
@@ -13,4 +13,9 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.Delimiter {
+  height: 50px;
+  width: 100%;
+}
+</style>
