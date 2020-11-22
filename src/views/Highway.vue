@@ -3,7 +3,7 @@
     <!--###############################################
     ## Highway name and logo displayed till 1024px ###
     ############################################### -->
-    <MobileHighwayNameAndLogo
+    <HighwayHeader
       :logo="code4ro_map.logo"
       :title="code4ro_map.title"
       :description="code4ro_map.description"
@@ -34,24 +34,24 @@
         />
       </template>
       <!--###############################################
-      ################ Highway solutions ################
+      ################ Highway segments ################
       ############################################### -->
-      <template v-for="solution_button in code4ro_map.highway_solutions">
-        <!-- Highway component with solutions button displayed from 1024px-->
+      <template v-for="segment_button in code4ro_map.highway_segment">
+        <!-- Highway component with segments button displayed from 1024px-->
         <HighwayButton
-          :solution_button="solution_button"
+          :segment_button="segment_button"
           :color="code4ro_map.color"
-          v-bind:key="'highway-btn-lg-' + solution_button.id"
+          v-bind:key="'highway-btn-lg-' + segment_button.id"
         />
 
-        <!-- Highway solutions displayed till 1024px -->
+        <!-- Highway segments displayed till 1024px -->
         <SegmentButton
           :slug="code4ro_map.slug"
-          :highway_slug="solution_button.highway_slug"
-          :icon="solution_button.icon"
-          :title="solution_button.title"
+          :highway_slug="segment_button.highway_slug"
+          :icon="segment_button.icon"
+          :title="segment_button.title"
           :chevron="code4ro_map.chevron_right"
-          v-bind:key="'highway-btn-' + solution_button.id"
+          v-bind:key="'highway-btn-' + segment_button.id"
         />
       </template>
     </div>
@@ -64,7 +64,7 @@
 /** Imported components. */
 import MapButton from "../components/map/MapButton";
 import HighwayButton from "../components/map/HighwayButton";
-import MobileHighwayNameAndLogo from "../components/map/MobileHighwayNameAndLogo";
+import HighwayHeader from "../components/map/HighwayHeader";
 import SegmentButton from "../components/map/SegmentButton";
 import Delimiter from "../components/Delimiter";
 
@@ -81,7 +81,7 @@ export default {
   components: {
     MapButton,
     HighwayButton,
-    MobileHighwayNameAndLogo,
+    HighwayHeader,
     SegmentButton,
     Delimiter
   },

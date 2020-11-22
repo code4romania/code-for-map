@@ -2,16 +2,14 @@
   position: relative;
   height: 0;
   width: 100%;
-  padding-bottom: 68.0580762%; // 1500 / 2204 - map image size ratio
+  padding-bottom: 70.3266788%; // 1550 / 2204 - map image size ratio
 }
 
 .MapContainer {
-  @include respond-above(md) {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-  }
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 .MapButton-wrap {
@@ -44,6 +42,10 @@
   line-height: 14px;
 }
 
+.Highway {
+  position: relative;
+}
+
 .HighwayButton {
   border-width: 2px;
   padding: 3px 15px;
@@ -54,7 +56,6 @@
 .SegmentButton {
   border-top: 1px solid $light-gray;
   padding: 20px 24px;
-  // position: relative;
 
   &:hover {
     text-decoration: none;
@@ -66,11 +67,5 @@
 }
 
 .SegmentButton-icon {
-  // position: absolute;
-  // top: 10px;
-  // left: 24px;
-}
-
-.SegmentButton-label {
-
+  width: 40px;
 }

@@ -194,7 +194,7 @@ const data = {
       all_solution_text: "VEZI TOATE SOLUTIILE PENTRU",
       vezi_solutia_text: "Vezi soluția",
       vezi_solutia_icon: require("../assets/images/assets_svg/vezi_solutia.svg"),
-      highway_solutions: [
+      highway_segment: [
         {
           id: 1,
           highway_slug: "fara-trafic-de-persoane",
@@ -388,7 +388,7 @@ const data = {
       delimiter_1: require("../assets/images/assets_svg/delimitators/delimitator_1.png"),
       delimiter_2: require("../assets/images/assets_svg/delimitators/delimitator_2.png"),
       close_icon: require("../assets/images/assets_svg/close.svg"),
-      highway_solutions: [
+      highway_segment: [
         {
           id: 1,
           highway_slug: "sanatate-mintala-pentru-toti",
@@ -532,7 +532,7 @@ const data = {
       delimiter_1: require("../assets/images/assets_svg/delimitators/delimitator_1.png"),
       delimiter_2: require("../assets/images/assets_svg/delimitators/delimitator_2.png"),
       close_icon: require("../assets/images/assets_svg/close.svg"),
-      highway_solutions: [
+      highway_segment: [
         {
           id: 1,
           highway_slug: "acces-la-cultura",
@@ -733,7 +733,7 @@ const data = {
       delimiter_1: require("../assets/images/assets_svg/delimitators/delimitator_1.png"),
       delimiter_2: require("../assets/images/assets_svg/delimitators/delimitator_2.png"),
       close_icon: require("../assets/images/assets_svg/close.svg"),
-      highway_solutions: [
+      highway_segment: [
         {
           id: 1,
           highway_slug: "scoli-sigure-si-bine-administrate",
@@ -878,7 +878,7 @@ const data = {
       delimiter_1: require("../assets/images/assets_svg/delimitators/delimitator_1.png"),
       delimiter_2: require("../assets/images/assets_svg/delimitators/delimitator_2.png"),
       close_icon: require("../assets/images/assets_svg/close.svg"),
-      highway_solutions: [
+      highway_segment: [
         {
           id: 1,
           highway_slug: "paduri-protejate-si-sanatoase",

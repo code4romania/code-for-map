@@ -21,7 +21,7 @@
 
 <script>
 export default {
-  name: "MobileSolutionDescription",
+  name: "SegmentHeader",
   props: {
     icon: String,
     slug: String,

@@ -1,0 +1,16 @@
+#app {
+  position: relative;
+}
+
+.Info {
+  @include respond-above(lg) {
+    position: absolute;
+    width: 400px;
+  }
+}
+
+.BackToMapLink {
+  > a {
+    text-decoration: none;
+  }
+}

@@ -2,11 +2,5 @@
 @import "mixins";
 @import "utils";
 
+@import "layout";
 @import "map";
-@import "highway";
-
-.BackToMapLink {
-  > a {
-    text-decoration: none;
-  }
-}

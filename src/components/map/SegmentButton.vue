@@ -1,7 +1,7 @@
 <template>
   <router-link
     :to="{
-      name: 'Solution',
+      name: 'Segment',
       params: {
         slug: slug,
         _slug: highway_slug
@@ -29,4 +29,3 @@ export default {
   }
 };
 </script>
-

@@ -4,7 +4,7 @@
       <!--###############################################
       ## Highway name and logo displayed till 10024px ###
       ############################################### -->
-      <MobileHighwayNameAndLogo
+      <HighwayHeader
         :logo="code4ro_map.logo"
         :title="code4ro_map.title"
         class="d-block d-lg-none"
@@ -15,19 +15,19 @@
       <Delimiter :delimiter="code4ro_map.delimiter_1" class="mb-5" />
     </b-row>
     <!--###############################################
-      ############ Back to solution page ##############
+      ############ Back to segment page ##############
       ############################################### -->
     <b-row>
       <b-col cols="12">
         <router-link
           :to="{
-            name: 'Solution',
+            name: 'Segment',
             params: { slug: slug, _slug: highway_slug }
           }"
         >
           <div class="d-flex align-items-center justify-content-between">
             <div class="d-flex align-items-center">
-              <img class="img-fluid" width="60px" :src="solution.icon" alt="" />
+              <img class="img-fluid" width="60px" :src="segment.icon" alt="" />
               <div class="d-flex flex-column ml-2">
                 <p
                   class="p-0 m-0 small font-weight-light"
@@ -39,7 +39,7 @@
                   class="p-0 m-0 font-weight-light"
                   :class="`text-${code4ro_map.color}`"
                 >
-                  {{ solution.title }}
+                  {{ segment.title }}
                 </p>
               </div>
             </div>
@@ -84,7 +84,7 @@
 
 <script>
 /** Imported compoents */
-import MobileHighwayNameAndLogo from "../components/map/MobileHighwayNameAndLogo";
+import HighwayHeader from "../components/map/HighwayHeader";
 import Delimiter from "../components/Delimiter";
 
 export default {
@@ -97,7 +97,7 @@ export default {
     }
   },
   components: {
-    MobileHighwayNameAndLogo,
+    HighwayHeader,
     Delimiter
   },
   data() {
@@ -106,7 +106,7 @@ export default {
       highway_slug: this.$route.params._slug,
       project_slug: this.$route.params.__slug,
       code4ro_map: [],
-      solution: [],
+      segment: [],
       project: []
     };
   },
@@ -115,10 +115,10 @@ export default {
     this.code4ro_map = this.data.code4ro_map.find(
       item => item.slug == this.slug
     );
-    this.solution = this.code4ro_map.highway_solutions.find(
+    this.segment = this.code4ro_map.highway_segment.find(
       item => item.highway_slug == this.highway_slug
     );
-    this.project = this.solution.projects.find(
+    this.project = this.segment.projects.find(
       item => item.project_slug == this.project_slug
     );
   }

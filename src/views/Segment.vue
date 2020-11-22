@@ -5,7 +5,7 @@
       <!--###############################################
       ## Highway name and logo displayed till 10024px ###
       ############################################### -->
-      <MobileHighwayNameAndLogo
+      <HighwayHeader
         :logo="code4ro_map.logo"
         :title="code4ro_map.title"
         class="d-block d-lg-none"
@@ -17,12 +17,12 @@
       <!--###############################################
       ### Solution description displayed till 10024px ###
       ############################################### -->
-      <MobileSolutionDescription
-        :icon="solution.icon"
+      <SegmentHeader
+        :icon="segment.icon"
         :slug="slug"
         :color="code4ro_map.color"
-        :title="solution.title"
-        :description="solution.description"
+        :title="segment.title"
+        :description="segment.description"
         :close="code4ro_map.close_icon"
       />
     </b-row>
@@ -46,7 +46,7 @@
     ################# Solution Projects ###############
     ############################################### -->
     <b-row
-      v-for="project in solution.projects"
+      v-for="project in segment.projects"
       :key="project.id"
       class="border-top border-bottom"
     >
@@ -71,9 +71,9 @@
 
 <script>
 /** Imported components */
-import MobileHighwayNameAndLogo from "../components/map/MobileHighwayNameAndLogo";
+import HighwayHeader from "../components/map/HighwayHeader";
 import Delimiter from "../components/Delimiter";
-import MobileSolutionDescription from "../components/map/MobileSolutionDescription";
+import SegmentHeader from "../components/map/SegmentHeader";
 import SolutionStatus from "../components/map/SolutionStatus";
 import ProjectsList from "../components/map/ProjectsList";
 
@@ -85,9 +85,9 @@ export default {
     }
   },
   components: {
-    MobileHighwayNameAndLogo,
+    HighwayHeader,
     Delimiter,
-    MobileSolutionDescription,
+    SegmentHeader,
     SolutionStatus,
     ProjectsList
   },
@@ -96,7 +96,7 @@ export default {
       slug: this.$route.params.slug,
       highway_slug: this.$route.params._slug,
       code4ro_map: [],
-      solution: []
+      segment: []
     };
   },
   /** Vue created life cycle initialize data for this route. */
@@ -104,10 +104,9 @@ export default {
     this.code4ro_map = this.data.code4ro_map.find(
       item => item.slug == this.slug
     );
-    this.solution = this.code4ro_map.highway_solutions.find(
+    this.segment = this.code4ro_map.highway_segment.find(
       item => item.highway_slug == this.highway_slug
     );
   }
 };
 </script>
-<style></style>

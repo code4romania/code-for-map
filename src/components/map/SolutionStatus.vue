@@ -1,3 +1,4 @@
+// TODO, also strings in data.js 
 <template>
   <b-row>
     <b-col cols="12">
