@@ -6,6 +6,10 @@
       <Legend :legend="data.map_legend" />
     </div>
 
+    <!-- SAMPLE, NEED TO REPLACE ALL THE OTHERS & LAYER MAPS & HIGHWAYS -->
+    <!-- TODO: try svgo on all files with sprite & see what's up -->
+    <!-- <svg><use xlink:href="#map-bg"></use></svg> -->
+
     <router-view :data="data" />
 
     <!-- <CallToAction :call_to_action="data.call_to_action" />
