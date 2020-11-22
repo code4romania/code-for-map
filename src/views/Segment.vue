@@ -39,6 +39,9 @@
     </div>
     <div class="Segment d-none d-lg-block">
       <div class="SegmentVisual-wrap my-4">
+        <router-link :to="{ name: 'Highway', params: { slug: slug } }" class="SegmentVisual-close">
+          <svg class="icon icon-sm"><use xlink:href="#close"></use></svg>
+        </router-link>
         <div class="SegmentVisual">
           <svg class="segment"><use :xlink:href="'#' + segment.segment_visual"></use></svg>
         </div>
