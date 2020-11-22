@@ -8,6 +8,19 @@
     <title><%= htmlWebpackPlugin.options.title %></title>
   </head>
   <body>
+    <script>
+      var ajax = new XMLHttpRequest();
+      ajax.open('GET', '<%= BASE_URL %>sprite.svg', true);
+      ajax.send();
+      ajax.onload = function(e) {
+        if (this.status === 404) {
+          return;
+        }
+        var div = document.createElement('div');
+        div.innerHTML = ajax.responseText;
+        document.body.insertBefore(div, document.body.childNodes[0]);
+      };
+    </script>
     <noscript>
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
