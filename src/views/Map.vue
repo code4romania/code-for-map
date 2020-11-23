@@ -1,7 +1,7 @@
 <template>
   <div class="MapContainer-wrap">
     <div class="MapContainer">
-      <img class="img-fluid" :src="data.map_bg" />
+      <svg class="w-100 h-100"><use xlink:href="#map-bg"></use></svg>
     </div>
 
     <!-- Display map buttons on map -->

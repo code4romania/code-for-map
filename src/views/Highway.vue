@@ -20,7 +20,10 @@
           #### Highway Background displayed from 1024px #####
           ############################################### -->
           <router-link :to="{ name: 'Map' }" class="d-none d-lg-block">
-            <img class="img-fluid" :src="code4ro_map.highway_bg" />
+            <!-- <img class="img-fluid" :src="code4ro_map.highway_bg" /> -->
+            <div class="MapContainer">
+              <svg class="w-100 h-100"><use :xlink:href="'#' + code4ro_map.highway_bg"></use></svg>
+            </div>
           </router-link>
 
           <!--###############################################
@@ -37,7 +40,6 @@
               v-bind:key="highway.slug"
             />
           </template>
-
           <!--###############################################
           ################ Highway segments ################
           ############################################### -->
