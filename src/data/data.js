@@ -529,6 +529,16 @@ const data = {
                 top: '41%',
                 left: '44%'
               }
+            },
+            {
+              id: 2,
+              project_slug: "project-slug1",
+              title: "proiect title fds",
+              description: "",
+              position: {
+                top: '61%',
+                left: '44%'
+              }
             }
           ]
         },
