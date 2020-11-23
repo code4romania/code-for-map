@@ -45,6 +45,52 @@
         <div class="SegmentVisual">
           <svg class="segment"><use :xlink:href="'#' + segment.segment_visual"></use></svg>
         </div>
+        <!-- Modal -->
+        <div class="d-none d-lg-block">
+          <div v-for="project in segment.projects" :key="project.id">
+          <a
+            v-b-modal="'myModal' + project.id"
+            :style="{
+              position: 'absolute',
+              top: project.position.top,
+              left: project.position.left,
+            }"
+            >{{ project.title }}</a
+          >
+          <b-modal
+            :id="'myModal' + project.id"
+            size="lg"
+            centered
+            hide-header
+            hide-footer
+          >
+            <div class="py-1" :class="`bg-${code4ro_map.color}`"></div>
+            <div class="p-3">
+              <div class="d-flex align-items-center justify-content-between">
+                <div
+                  class="SegmentLegend-status d-flex align-items-center mr-4"
+                >
+                  <i
+                    class="icon icon-circle"
+                    :class="'border-' + code4ro_map.color"
+                  ></i>
+                  {{ data.segment_legend.done }}
+                </div>
+                <svg
+                  @click="$bvModal.hide('myModal' + project.id)"
+                  class="icon icon-sm"
+                  style="cursor: pointer"
+                >
+                  <use xlink:href="#close"></use>
+                </svg>
+              </div>
+              <div>
+                {{ project.title }}
+              </div>
+            </div>
+          </b-modal>
+        </div>
+        </div>
       </div>
     </div>
   </div>
