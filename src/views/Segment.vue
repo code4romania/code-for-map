@@ -46,13 +46,6 @@
           <svg class="segment"><use :xlink:href="'#' + segment.segment_visual"></use></svg>
         </div>
       </div>
-      this is where we add the full segment and the projects on the segment
-      so, we'll need:<br/>
-      - coordinates for each of our project in data.js, we already have the projects, so we can just create another comp for this sort of rendering<br/>
-      - a segment svg (like the one you see here)<br/>
-      - a possible sponor (just a logo with a link that opens in a new tab)<br/>
-      - the segment icon and its title, also its coordinates on the segment svg as we want the icon to be near the destination circle<br/>
-      - when we click on a project we need to open a modal. this modal will take up the whole screen on small viewports and behave like a regular modal on larger viewports
     </div>
   </div>
 </template>
