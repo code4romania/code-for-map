@@ -183,7 +183,7 @@ const data = {
         left: "22%"
       },
       color: "purple",
-      highway_bg: require("../assets/images/care4ro/care4ro_bg.svg"),
+      highway_bg: "care4ro_bg",
       delimiter_1: require("../assets/images/assets_svg/delimitators/delimitator_1.png"),
       delimiter_2: require("../assets/images/assets_svg/delimitators/delimitator_2.png"),
       all_solution_text: "VEZI TOATE SOLUTIILE PENTRU",
@@ -370,7 +370,7 @@ const data = {
         left: "48%"
       },
       color: "red",
-      highway_bg: require("../assets/images/health4ro/health4ro_bg.svg"),
+      highway_bg: "health4ro_bg",
       delimiter_1: require("../assets/images/assets_svg/delimitators/delimitator_1.png"),
       delimiter_2: require("../assets/images/assets_svg/delimitators/delimitator_2.png"),
       highway_segment: [
@@ -505,7 +505,7 @@ const data = {
         left: "53%"
       },
       color: "blue",
-      highway_bg: require("../assets/images/participation4ro/participation4ro_bg.svg"),
+      highway_bg: "participation4ro_bg",
       delimiter_1: require("../assets/images/assets_svg/delimitators/delimitator_1.png"),
       delimiter_2: require("../assets/images/assets_svg/delimitators/delimitator_2.png"),
       highway_segment: [
@@ -522,9 +522,13 @@ const data = {
           projects: [
             {
               id: 1,
-              project_slug: "",
-              title: "",
-              description: ""
+              project_slug: "project-slug",
+              title: "proiect title",
+              description: "",
+              position: {
+                top: '41%',
+                left: '44%'
+              }
             }
           ]
         },
@@ -697,7 +701,7 @@ const data = {
         left: "31%"
       },
       color: "yellow",
-      highway_bg: require("../assets/images/education4ro/education4ro_bg.svg"),
+      highway_bg: "education4ro_bg",
       delimiter_1: require("../assets/images/assets_svg/delimitators/delimitator_1.png"),
       delimiter_2: require("../assets/images/assets_svg/delimitators/delimitator_2.png"),
       highway_segment: [
@@ -833,7 +837,7 @@ const data = {
         left: "15%"
       },
       color: "green",
-      highway_bg: require("../assets/images/environment4ro/environment4ro_bg.svg"),
+      highway_bg: "environment4ro_bg",
       delimiter_1: require("../assets/images/assets_svg/delimitators/delimitator_1.png"),
       delimiter_2: require("../assets/images/assets_svg/delimitators/delimitator_2.png"),
       highway_segment: [
