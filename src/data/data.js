@@ -28,12 +28,24 @@ const data = {
     text:
       "Descoperă mai jos care dintre segmentele din drumul nostru spre un mediu sănătos sunt deja executate și ce am proiectat.",
     designed: "Soluție proiectată",
-    done: "Soluție executată"
+    done: "Soluție executată",
+    adopted: "Segment de drum adoptat de",
+    neadoptat: "Vrei să finanțezi această soluție?"
   },
   application_texts: {
     map_page: {
       text_1:
         "This is a placeholder text that should act as a call to action to help people understant why they need to be joining us in our journey."
+    },
+    modal: {
+      redirect: "Redirectioneaza",
+
+      next: {
+        text: "Solutia urmatoare",
+      },
+      previous: {
+        text: "Solutia anterioara",
+      }
     },
     info_sms: {
       title: {
@@ -188,7 +200,7 @@ const data = {
       delimiter_2: require("../assets/images/assets_svg/delimitators/delimitator_2.png"),
       all_solution_text: "VEZI TOATE SOLUTIILE PENTRU",
       vezi_solutia_text: "Vezi soluția",
-      vezi_solutia_icon: require("../assets/images/assets_svg/vezi_solutia.svg"),
+      vezi_solutia_icon: 'icon-redirect',
       highway_segment: [
         {
           id: 1,
@@ -201,42 +213,53 @@ const data = {
             left: "46%"
           },
           icon_left: true,
-          projects: [
+          financed: true,
+          financed_by: [
             {
               id: 1,
-              project_slug: "23",
-              title: "titlu proiect",
-              description: "project description",
-              executed: true,
-              link: ""
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
             },
             {
               id: 2,
-              project_slug: "45",
-              title: "titlu proiect 2",
+              title: "",
               description: "",
-              executed: true
-            },
+              link: "",
+              logo: "icon-date-deschise"
+            }
+          ],
+          projects: [
             {
-              id: 3,
-              project_slug: "4356",
-              title: "titlu proiect 3",
-              description: "",
-              executed: true
-            },
-            {
-              id: 4,
-              project_slug: "456546",
-              title: "titlu proiect 4",
-              description: "",
-              executed: false
-            },
-            {
-              id: 5,
-              project_slug: "546546",
-              title: "titlu proiect 5",
-              description: "",
-              executed: false
+              id: 1,
+              project_slug: "project-slug",
+              title: "proiect title",
+              description: "description 1",
+              link: "",
+              link_text: "Vezi soluția",
+              icon: "icon-date-deschise",
+              position: {
+                top: '0',
+                left: '0'
+              },
+              adopted: true,
+              adopted_by: [
+                {
+                  id: 1,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                },
+                {
+                  id: 2,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                }
+              ],
             }
           ]
         },
@@ -251,7 +274,55 @@ const data = {
             left: "40%"
           },
           icon_left: true,
-          projects: []
+          financed: true,
+          financed_by: [
+            {
+              id: 1,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            },
+            {
+              id: 2,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            }
+          ],
+          projects: [
+            {
+              id: 1,
+              project_slug: "project-slug",
+              title: "proiect title",
+              description: "description 1",
+              link: "",
+              link_text: "Vezi soluția",
+              icon: "icon-date-deschise",
+              position: {
+                top: '0',
+                left: '0'
+              },
+              adopted: true,
+              adopted_by: [
+                {
+                  id: 1,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                },
+                {
+                  id: 2,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                }
+              ],
+            }
+          ]
         },
         {
           id: 3,
@@ -264,12 +335,53 @@ const data = {
             left: "45%"
           },
           icon_left: true,
+          financed: true,
+          financed_by: [
+            {
+              id: 1,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            },
+            {
+              id: 2,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            }
+          ],
           projects: [
             {
               id: 1,
-              project_slug: "xfdsdfdsf",
-              title: "",
-              description: ""
+              project_slug: "project-slug",
+              title: "proiect title",
+              description: "description 1",
+              link: "",
+              link_text: "Vezi soluția",
+              icon: "icon-date-deschise",
+              position: {
+                top: '0',
+                left: '0'
+              },
+              adopted: true,
+              adopted_by: [
+                {
+                  id: 1,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                },
+                {
+                  id: 2,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                }
+              ],
             }
           ]
         },
@@ -284,12 +396,53 @@ const data = {
             left: "23%"
           },
           icon_left: false,
+          financed: true,
+          financed_by: [
+            {
+              id: 1,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            },
+            {
+              id: 2,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            }
+          ],
           projects: [
             {
               id: 1,
-              project_slug: "adsafgdfgfdgdf",
-              title: "",
-              description: ""
+              project_slug: "project-slug",
+              title: "proiect title",
+              description: "description 1",
+              link: "",
+              link_text: "Vezi soluția",
+              icon: "icon-date-deschise",
+              position: {
+                top: '0',
+                left: '0'
+              },
+              adopted: true,
+              adopted_by: [
+                {
+                  id: 1,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                },
+                {
+                  id: 2,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                }
+              ],
             }
           ]
         },
@@ -304,12 +457,53 @@ const data = {
             left: "10%"
           },
           icon_left: false,
+          financed: true,
+          financed_by: [
+            {
+              id: 1,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            },
+            {
+              id: 2,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            }
+          ],
           projects: [
             {
               id: 1,
-              project_slug: "dfgdfgfdgdfgfdgdg",
-              title: "",
-              description: ""
+              project_slug: "project-slug",
+              title: "proiect title",
+              description: "description 1",
+              link: "",
+              link_text: "Vezi soluția",
+              icon: "icon-date-deschise",
+              position: {
+                top: '0',
+                left: '0'
+              },
+              adopted: true,
+              adopted_by: [
+                {
+                  id: 1,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                },
+                {
+                  id: 2,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                }
+              ],
             }
           ]
         },
@@ -324,12 +518,53 @@ const data = {
             left: "20%"
           },
           icon_left: true,
+          financed: true,
+          financed_by: [
+            {
+              id: 1,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            },
+            {
+              id: 2,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            }
+          ],
           projects: [
             {
               id: 1,
-              project_slug: "dfgfdgfdgdfgfdgfdg",
-              title: "",
-              description: ""
+              project_slug: "project-slug",
+              title: "proiect title",
+              description: "description 1",
+              link: "",
+              link_text: "Vezi soluția",
+              icon: "icon-date-deschise",
+              position: {
+                top: '0',
+                left: '0'
+              },
+              adopted: true,
+              adopted_by: [
+                {
+                  id: 1,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                },
+                {
+                  id: 2,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                }
+              ],
             }
           ]
         },
@@ -344,12 +579,53 @@ const data = {
             left: "23%"
           },
           icon_left: true,
+          financed: true,
+          financed_by: [
+            {
+              id: 1,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            },
+            {
+              id: 2,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            }
+          ],
           projects: [
             {
               id: 1,
-              project_slug: "",
-              title: "",
-              description: "dfgdfgfdgfdgfdg"
+              project_slug: "project-slug",
+              title: "proiect title",
+              description: "description 1",
+              link: "",
+              link_text: "Vezi soluția",
+              icon: "icon-date-deschise",
+              position: {
+                top: '0',
+                left: '0'
+              },
+              adopted: true,
+              adopted_by: [
+                {
+                  id: 1,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                },
+                {
+                  id: 2,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                }
+              ],
             }
           ]
         }
@@ -384,12 +660,53 @@ const data = {
             left: "60.5%"
           },
           icon_left: false,
+          financed: true,
+          financed_by: [
+            {
+              id: 1,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            },
+            {
+              id: 2,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            }
+          ],
           projects: [
             {
               id: 1,
-              project_slug: "dfgfdgfdgfdgfdg",
-              title: "",
-              description: ""
+              project_slug: "project-slug",
+              title: "proiect title",
+              description: "description 1",
+              link: "",
+              link_text: "Vezi soluția",
+              icon: "icon-date-deschise",
+              position: {
+                top: '0',
+                left: '0'
+              },
+              adopted: true,
+              adopted_by: [
+                {
+                  id: 1,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                },
+                {
+                  id: 2,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                }
+              ],
             }
           ]
         },
@@ -403,12 +720,53 @@ const data = {
             left: "78.25%"
           },
           icon_left: true,
+          financed: true,
+          financed_by: [
+            {
+              id: 1,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            },
+            {
+              id: 2,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            }
+          ],
           projects: [
             {
               id: 1,
-              project_slug: "",
-              title: "",
-              description: ""
+              project_slug: "project-slug",
+              title: "proiect title",
+              description: "description 1",
+              link: "",
+              link_text: "Vezi soluția",
+              icon: "icon-date-deschise",
+              position: {
+                top: '0',
+                left: '0'
+              },
+              adopted: true,
+              adopted_by: [
+                {
+                  id: 1,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                },
+                {
+                  id: 2,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                }
+              ],
             }
           ]
         },
@@ -422,12 +780,53 @@ const data = {
             left: "55.17%"
           },
           icon_left: false,
+          financed: true,
+          financed_by: [
+            {
+              id: 1,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            },
+            {
+              id: 2,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            }
+          ],
           projects: [
             {
               id: 1,
-              project_slug: "",
-              title: "",
-              description: ""
+              project_slug: "project-slug",
+              title: "proiect title",
+              description: "description 1",
+              link: "",
+              link_text: "Vezi soluția",
+              icon: "icon-date-deschise",
+              position: {
+                top: '0',
+                left: '0'
+              },
+              adopted: true,
+              adopted_by: [
+                {
+                  id: 1,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                },
+                {
+                  id: 2,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                }
+              ],
             }
           ]
         },
@@ -441,12 +840,53 @@ const data = {
             left: "63.58%"
           },
           icon_left: true,
+          financed: true,
+          financed_by: [
+            {
+              id: 1,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            },
+            {
+              id: 2,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            }
+          ],
           projects: [
             {
               id: 1,
-              project_slug: "",
-              title: "",
-              description: ""
+              project_slug: "project-slug",
+              title: "proiect title",
+              description: "description 1",
+              link: "",
+              link_text: "Vezi soluția",
+              icon: "icon-date-deschise",
+              position: {
+                top: '0',
+                left: '0'
+              },
+              adopted: true,
+              adopted_by: [
+                {
+                  id: 1,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                },
+                {
+                  id: 2,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                }
+              ],
             }
           ]
         },
@@ -460,12 +900,53 @@ const data = {
             left: "46.58%"
           },
           icon_left: true,
+          financed: true,
+          financed_by: [
+            {
+              id: 1,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            },
+            {
+              id: 2,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            }
+          ],
           projects: [
             {
               id: 1,
-              project_slug: "",
-              title: "",
-              description: ""
+              project_slug: "project-slug",
+              title: "proiect title",
+              description: "description 1",
+              link: "",
+              link_text: "Vezi soluția",
+              icon: "icon-date-deschise",
+              position: {
+                top: '0',
+                left: '0'
+              },
+              adopted: true,
+              adopted_by: [
+                {
+                  id: 1,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                },
+                {
+                  id: 2,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                }
+              ],
             }
           ]
         },
@@ -479,12 +960,53 @@ const data = {
             left: "31.67%"
           },
           icon_left: false,
+          financed: true,
+          financed_by: [
+            {
+              id: 1,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            },
+            {
+              id: 2,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            }
+          ],
           projects: [
             {
               id: 1,
-              project_slug: "",
-              title: "",
-              description: ""
+              project_slug: "project-slug",
+              title: "proiect title",
+              description: "description 1",
+              link: "",
+              link_text: "Vezi soluția",
+              icon: "icon-date-deschise",
+              position: {
+                top: '0',
+                left: '0'
+              },
+              adopted: true,
+              adopted_by: [
+                {
+                  id: 1,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                },
+                {
+                  id: 2,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                }
+              ],
             }
           ]
         }
@@ -519,26 +1041,53 @@ const data = {
             left: "82.79%"
           },
           icon_left: true,
+          financed: true,
+          financed_by: [
+            {
+              id: 1,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            },
+            {
+              id: 2,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            }
+          ],
           projects: [
             {
               id: 1,
               project_slug: "project-slug",
               title: "proiect title",
-              description: "",
+              description: "description 1",
+              link: "",
+              link_text: "Vezi soluția",
+              icon: "icon-date-deschise",
               position: {
-                top: '41%',
-                left: '44%'
-              }
-            },
-            {
-              id: 2,
-              project_slug: "project-slug1",
-              title: "proiect title fds",
-              description: "",
-              position: {
-                top: '61%',
-                left: '44%'
-              }
+                top: '0',
+                left: '0'
+              },
+              adopted: true,
+              adopted_by: [
+                {
+                  id: 1,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                },
+                {
+                  id: 2,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                }
+              ],
             }
           ]
         },
@@ -552,12 +1101,53 @@ const data = {
             left: "67.83%"
           },
           icon_left: false,
+          financed: true,
+          financed_by: [
+            {
+              id: 1,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            },
+            {
+              id: 2,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            }
+          ],
           projects: [
             {
               id: 1,
-              project_slug: "",
-              title: "",
-              description: ""
+              project_slug: "project-slug",
+              title: "proiect title",
+              description: "description 1",
+              link: "",
+              link_text: "Vezi soluția",
+              icon: "icon-date-deschise",
+              position: {
+                top: '0',
+                left: '0'
+              },
+              adopted: true,
+              adopted_by: [
+                {
+                  id: 1,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                },
+                {
+                  id: 2,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                }
+              ],
             }
           ]
         },
@@ -571,12 +1161,53 @@ const data = {
             left: "60.75%"
           },
           icon_left: false,
+          financed: true,
+          financed_by: [
+            {
+              id: 1,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            },
+            {
+              id: 2,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            }
+          ],
           projects: [
             {
               id: 1,
-              project_slug: "",
-              title: "",
-              description: ""
+              project_slug: "project-slug",
+              title: "proiect title",
+              description: "description 1",
+              link: "",
+              link_text: "Vezi soluția",
+              icon: "icon-date-deschise",
+              position: {
+                top: '0',
+                left: '0'
+              },
+              adopted: true,
+              adopted_by: [
+                {
+                  id: 1,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                },
+                {
+                  id: 2,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                }
+              ],
             }
           ]
         },
@@ -590,12 +1221,53 @@ const data = {
             left: "49.67%"
           },
           icon_left: false,
+          financed: true,
+          financed_by: [
+            {
+              id: 1,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            },
+            {
+              id: 2,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            }
+          ],
           projects: [
             {
               id: 1,
-              project_slug: "",
-              title: "",
-              description: ""
+              project_slug: "project-slug",
+              title: "proiect title",
+              description: "description 1",
+              link: "",
+              link_text: "Vezi soluția",
+              icon: "icon-date-deschise",
+              position: {
+                top: '0',
+                left: '0'
+              },
+              adopted: true,
+              adopted_by: [
+                {
+                  id: 1,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                },
+                {
+                  id: 2,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                }
+              ],
             }
           ]
         },
@@ -609,12 +1281,53 @@ const data = {
             left: "53.33%"
           },
           icon_left: true,
+          financed: true,
+          financed_by: [
+            {
+              id: 1,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            },
+            {
+              id: 2,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            }
+          ],
           projects: [
             {
               id: 1,
-              project_slug: "",
-              title: "",
-              description: ""
+              project_slug: "project-slug",
+              title: "proiect title",
+              description: "description 1",
+              link: "",
+              link_text: "Vezi soluția",
+              icon: "icon-date-deschise",
+              position: {
+                top: '0',
+                left: '0'
+              },
+              adopted: true,
+              adopted_by: [
+                {
+                  id: 1,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                },
+                {
+                  id: 2,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                }
+              ],
             }
           ]
         },
@@ -628,12 +1341,53 @@ const data = {
             left: "48.5%"
           },
           icon_left: true,
+          financed: true,
+          financed_by: [
+            {
+              id: 1,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            },
+            {
+              id: 2,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            }
+          ],
           projects: [
             {
               id: 1,
-              project_slug: "",
-              title: "",
-              description: ""
+              project_slug: "project-slug",
+              title: "proiect title",
+              description: "description 1",
+              link: "",
+              link_text: "Vezi soluția",
+              icon: "icon-date-deschise",
+              position: {
+                top: '0',
+                left: '0'
+              },
+              adopted: true,
+              adopted_by: [
+                {
+                  id: 1,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                },
+                {
+                  id: 2,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                }
+              ],
             }
           ]
         },
@@ -647,12 +1401,53 @@ const data = {
             left: "33%"
           },
           icon_left: true,
+          financed: true,
+          financed_by: [
+            {
+              id: 1,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            },
+            {
+              id: 2,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            }
+          ],
           projects: [
             {
               id: 1,
-              project_slug: "",
-              title: "",
-              description: ""
+              project_slug: "project-slug",
+              title: "proiect title",
+              description: "description 1",
+              link: "",
+              link_text: "Vezi soluția",
+              icon: "icon-date-deschise",
+              position: {
+                top: '0',
+                left: '0'
+              },
+              adopted: true,
+              adopted_by: [
+                {
+                  id: 1,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                },
+                {
+                  id: 2,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                }
+              ],
             }
           ]
         },
@@ -666,12 +1461,53 @@ const data = {
             left: "20.92%"
           },
           icon_left: false,
+          financed: true,
+          financed_by: [
+            {
+              id: 1,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            },
+            {
+              id: 2,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            }
+          ],
           projects: [
             {
               id: 1,
-              project_slug: "",
-              title: "",
-              description: ""
+              project_slug: "project-slug",
+              title: "proiect title",
+              description: "description 1",
+              link: "",
+              link_text: "Vezi soluția",
+              icon: "icon-date-deschise",
+              position: {
+                top: '0',
+                left: '0'
+              },
+              adopted: true,
+              adopted_by: [
+                {
+                  id: 1,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                },
+                {
+                  id: 2,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                }
+              ],
             }
           ]
         },
@@ -685,12 +1521,53 @@ const data = {
             left: "15.25%"
           },
           icon_left: false,
+          financed: true,
+          financed_by: [
+            {
+              id: 1,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            },
+            {
+              id: 2,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            }
+          ],
           projects: [
             {
               id: 1,
-              project_slug: "",
-              title: "",
-              description: ""
+              project_slug: "project-slug",
+              title: "proiect title",
+              description: "description 1",
+              link: "",
+              link_text: "Vezi soluția",
+              icon: "icon-date-deschise",
+              position: {
+                top: '0',
+                left: '0'
+              },
+              adopted: true,
+              adopted_by: [
+                {
+                  id: 1,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                },
+                {
+                  id: 2,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                }
+              ],
             }
           ]
         }
@@ -725,12 +1602,53 @@ const data = {
             left: "30.5%"
           },
           icon_left: true,
+          financed: true,
+          financed_by: [
+            {
+              id: 1,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            },
+            {
+              id: 2,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            }
+          ],
           projects: [
             {
               id: 1,
-              project_slug: "",
-              title: "",
-              description: ""
+              project_slug: "project-slug",
+              title: "proiect title",
+              description: "description 1",
+              link: "",
+              link_text: "Vezi soluția",
+              icon: "icon-date-deschise",
+              position: {
+                top: '0',
+                left: '0'
+              },
+              adopted: true,
+              adopted_by: [
+                {
+                  id: 1,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                },
+                {
+                  id: 2,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                }
+              ],
             }
           ]
         },
@@ -744,12 +1662,53 @@ const data = {
             left: "15.75%"
           },
           icon_left: false,
+          financed: true,
+          financed_by: [
+            {
+              id: 1,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            },
+            {
+              id: 2,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            }
+          ],
           projects: [
             {
               id: 1,
-              project_slug: "",
-              title: "",
-              description: ""
+              project_slug: "project-slug",
+              title: "proiect title",
+              description: "description 1",
+              link: "",
+              link_text: "Vezi soluția",
+              icon: "icon-date-deschise",
+              position: {
+                top: '0',
+                left: '0'
+              },
+              adopted: true,
+              adopted_by: [
+                {
+                  id: 1,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                },
+                {
+                  id: 2,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                }
+              ],
             }
           ]
         },
@@ -763,12 +1722,53 @@ const data = {
             left: "35.67%"
           },
           icon_left: true,
+          financed: true,
+          financed_by: [
+            {
+              id: 1,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            },
+            {
+              id: 2,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            }
+          ],
           projects: [
             {
               id: 1,
-              project_slug: "",
-              title: "",
-              description: ""
+              project_slug: "project-slug",
+              title: "proiect title",
+              description: "description 1",
+              link: "",
+              link_text: "Vezi soluția",
+              icon: "icon-date-deschise",
+              position: {
+                top: '0',
+                left: '0'
+              },
+              adopted: true,
+              adopted_by: [
+                {
+                  id: 1,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                },
+                {
+                  id: 2,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                }
+              ],
             }
           ]
         },
@@ -782,12 +1782,53 @@ const data = {
             left: "43.67%"
           },
           icon_left: false,
+          financed: true,
+          financed_by: [
+            {
+              id: 1,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            },
+            {
+              id: 2,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            }
+          ],
           projects: [
             {
               id: 1,
-              project_slug: "",
-              title: "",
-              description: ""
+              project_slug: "project-slug",
+              title: "proiect title",
+              description: "description 1",
+              link: "",
+              link_text: "Vezi soluția",
+              icon: "icon-date-deschise",
+              position: {
+                top: '0',
+                left: '0'
+              },
+              adopted: true,
+              adopted_by: [
+                {
+                  id: 1,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                },
+                {
+                  id: 2,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                }
+              ],
             }
           ]
         },
@@ -801,12 +1842,53 @@ const data = {
             left: "53%"
           },
           icon_left: false,
+          financed: true,
+          financed_by: [
+            {
+              id: 1,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            },
+            {
+              id: 2,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            }
+          ],
           projects: [
             {
               id: 1,
-              project_slug: "",
-              title: "",
-              description: ""
+              project_slug: "project-slug",
+              title: "proiect title",
+              description: "description 1",
+              link: "",
+              link_text: "Vezi soluția",
+              icon: "icon-date-deschise",
+              position: {
+                top: '0',
+                left: '0'
+              },
+              adopted: true,
+              adopted_by: [
+                {
+                  id: 1,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                },
+                {
+                  id: 2,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                }
+              ],
             }
           ]
         },
@@ -820,12 +1902,53 @@ const data = {
             left: "66.17%"
           },
           icon_left: true,
+          financed: true,
+          financed_by: [
+            {
+              id: 1,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            },
+            {
+              id: 2,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            }
+          ],
           projects: [
             {
               id: 1,
-              project_slug: "",
-              title: "",
-              description: ""
+              project_slug: "project-slug",
+              title: "proiect title",
+              description: "description 1",
+              link: "",
+              link_text: "Vezi soluția",
+              icon: "icon-date-deschise",
+              position: {
+                top: '0',
+                left: '0'
+              },
+              adopted: true,
+              adopted_by: [
+                {
+                  id: 1,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                },
+                {
+                  id: 2,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                }
+              ],
             }
           ]
         }
@@ -862,12 +1985,53 @@ const data = {
             left: "-2.67%"
           },
           icon_left: false,
+          financed: true,
+          financed_by: [
+            {
+              id: 1,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            },
+            {
+              id: 2,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            }
+          ],
           projects: [
             {
               id: 1,
-              project_slug: "",
-              title: "",
-              description: ""
+              project_slug: "project-slug",
+              title: "proiect title",
+              description: "description 1",
+              link: "",
+              link_text: "Vezi soluția",
+              icon: "icon-date-deschise",
+              position: {
+                top: '0',
+                left: '0'
+              },
+              adopted: true,
+              adopted_by: [
+                {
+                  id: 1,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                },
+                {
+                  id: 2,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                }
+              ],
             }
           ]
         },
@@ -882,30 +2046,143 @@ const data = {
             left: "21.92%"
           },
           icon_left: true,
+          financed: true,
+          financed_by: [
+            {
+              id: 1,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            },
+            {
+              id: 2,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            }
+          ],
           projects: [
             {
               id: 1,
               project_slug: "ceva",
               title: "un proiect",
-              description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!"
+              description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!",
+              link: "",
+              link_text: "Vezi soluția",
+              icon: "icon-date-deschise",
+              position: {
+                top: '0',
+                left: '0'
+              },
+              adopted: true,
+              adopted_by: [
+                {
+                  id: 1,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                },
+                {
+                  id: 2,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                }
+              ]
             },
             {
               id: 2,
               project_slug: "altceva",
               title: "alt proiect",
-              description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!"
+              description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!",
+              link: "",
+              link_text: "Vezi soluția",
+              icon: "icon-date-deschise",
+              position: {
+                top: '0',
+                left: '0'
+              },
+              adopted: true,
+              adopted_by: [
+                {
+                  id: 1,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                },
+                {
+                  id: 2,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                }
+              ]
             },
             {
               id: 3,
               project_slug: "altceva-bun",
               title: "alt alt proiect",
-              description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!"
+              description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!",
+              link: "",
+              link_text: "Vezi soluția",
+              icon: "icon-date-deschise",
+              position: {
+                top: '0',
+                left: '0'
+              },
+              adopted: true,
+              adopted_by: [
+                {
+                  id: 1,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                },
+                {
+                  id: 2,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                }
+              ]
             },
             {
               id: 4,
               project_slug: "altceva-misto",
               title: "alt proiect de mai multe ori",
-              description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!"
+              description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui dicta minus molestiae vel beatae natus eveniet ratione temporibus aperiam harum alias officiis assumenda officia quibusdam deleniti eos cupiditate dolore doloribus!",
+              link: "",
+              link_text: "Vezi soluția",
+              icon: "icon-date-deschise",
+              position: {
+                top: '0',
+                left: '0'
+              },
+              adopted: true,
+              adopted_by: [
+                {
+                  id: 1,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                },
+                {
+                  id: 2,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                }
+              ]
             }
           ]
         },
@@ -919,12 +2196,53 @@ const data = {
             left: "10.67%"
           },
           icon_left: false,
+          financed: true,
+          financed_by: [
+            {
+              id: 1,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            },
+            {
+              id: 2,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            }
+          ],
           projects: [
             {
               id: 1,
-              project_slug: "",
-              title: "",
-              description: ""
+              project_slug: "project-slug",
+              title: "proiect title",
+              description: "description 1",
+              link: "",
+              link_text: "Vezi soluția",
+              icon: "icon-date-deschise",
+              position: {
+                top: '0',
+                left: '0'
+              },
+              adopted: true,
+              adopted_by: [
+                {
+                  id: 1,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                },
+                {
+                  id: 2,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                }
+              ],
             }
           ]
         },
@@ -938,12 +2256,53 @@ const data = {
             left: "28.5%"
           },
           icon_left: true,
+          financed: true,
+          financed_by: [
+            {
+              id: 1,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            },
+            {
+              id: 2,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            }
+          ],
           projects: [
             {
               id: 1,
-              project_slug: "",
-              title: "",
-              description: ""
+              project_slug: "project-slug",
+              title: "proiect title",
+              description: "description 1",
+              link: "",
+              link_text: "Vezi soluția",
+              icon: "icon-date-deschise",
+              position: {
+                top: '0',
+                left: '0'
+              },
+              adopted: true,
+              adopted_by: [
+                {
+                  id: 1,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                },
+                {
+                  id: 2,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                }
+              ],
             }
           ]
         },
@@ -957,12 +2316,53 @@ const data = {
             left: "24.92%"
           },
           icon_left: false,
+          financed: true,
+          financed_by: [
+            {
+              id: 1,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            },
+            {
+              id: 2,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            }
+          ],
           projects: [
             {
               id: 1,
-              project_slug: "",
-              title: "",
-              description: ""
+              project_slug: "project-slug",
+              title: "proiect title",
+              description: "description 1",
+              link: "",
+              link_text: "Vezi soluția",
+              icon: "icon-date-deschise",
+              position: {
+                top: '0',
+                left: '0'
+              },
+              adopted: true,
+              adopted_by: [
+                {
+                  id: 1,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                },
+                {
+                  id: 2,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                }
+              ],
             }
           ]
         },
@@ -976,12 +2376,53 @@ const data = {
             left: "48.92%"
           },
           icon_left: true,
+          financed: true,
+          financed_by: [
+            {
+              id: 1,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            },
+            {
+              id: 2,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            }
+          ],
           projects: [
             {
               id: 1,
-              project_slug: "",
-              title: "",
-              description: ""
+              project_slug: "project-slug",
+              title: "proiect title",
+              description: "description 1",
+              link: "",
+              link_text: "Vezi soluția",
+              icon: "icon-date-deschise",
+              position: {
+                top: '0',
+                left: '0'
+              },
+              adopted: true,
+              adopted_by: [
+                {
+                  id: 1,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                },
+                {
+                  id: 2,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                }
+              ],
             }
           ]
         },
@@ -995,12 +2436,53 @@ const data = {
             left: "52.33%"
           },
           icon_left: true,
+          financed: true,
+          financed_by: [
+            {
+              id: 1,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            },
+            {
+              id: 2,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            }
+          ],
           projects: [
             {
               id: 1,
-              project_slug: "",
-              title: "",
-              description: ""
+              project_slug: "project-slug",
+              title: "proiect title",
+              description: "description 1",
+              link: "",
+              link_text: "Vezi soluția",
+              icon: "icon-date-deschise",
+              position: {
+                top: '0',
+                left: '0'
+              },
+              adopted: true,
+              adopted_by: [
+                {
+                  id: 1,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                },
+                {
+                  id: 2,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                }
+              ],
             }
           ]
         },
@@ -1014,12 +2496,53 @@ const data = {
             left: "43.08%"
           },
           icon_left: false,
+          financed: true,
+          financed_by: [
+            {
+              id: 1,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            },
+            {
+              id: 2,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            }
+          ],
           projects: [
             {
               id: 1,
-              project_slug: "",
-              title: "",
-              description: ""
+              project_slug: "project-slug",
+              title: "proiect title",
+              description: "description 1",
+              link: "",
+              link_text: "Vezi soluția",
+              icon: "icon-date-deschise",
+              position: {
+                top: '0',
+                left: '0'
+              },
+              adopted: true,
+              adopted_by: [
+                {
+                  id: 1,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                },
+                {
+                  id: 2,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                }
+              ],
             }
           ]
         },
@@ -1033,12 +2556,53 @@ const data = {
             left: "68.08%"
           },
           icon_left: true,
+          financed: true,
+          financed_by: [
+            {
+              id: 1,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            },
+            {
+              id: 2,
+              title: "",
+              description: "",
+              link: "",
+              logo: "icon-date-deschise"
+            }
+          ],
           projects: [
             {
               id: 1,
-              project_slug: "",
-              title: "",
-              description: ""
+              project_slug: "project-slug",
+              title: "proiect title",
+              description: "description 1",
+              link: "",
+              link_text: "Vezi soluția",
+              icon: "icon-date-deschise",
+              position: {
+                top: '0',
+                left: '0'
+              },
+              adopted: true,
+              adopted_by: [
+                {
+                  id: 1,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                },
+                {
+                  id: 2,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                }
+              ],
             }
           ]
         }
