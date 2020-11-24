@@ -19,8 +19,11 @@
           <!--###############################################
           #### Highway Background displayed from 1024px #####
           ############################################### -->
+          <div class="MapContainer d-none d-lg-block">
+            <svg class="w-100 h-100"><use xlink:href="#map-bw"></use></svg>
+          </div>
+
           <router-link :to="{ name: 'Map' }" class="d-none d-lg-block">
-            <!-- <img class="img-fluid" :src="code4ro_map.highway_bg" /> -->
             <div class="MapContainer">
               <svg class="w-100 h-100"><use :xlink:href="'#' + code4ro_map.highway_bg"></use></svg>
             </div>
