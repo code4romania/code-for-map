@@ -71,7 +71,7 @@
       </b-col>
       <b-col cols="12" class="my-3">
         <a :href="project.link" class="d-flex align-items-center">
-          <img :src="code4ro_map.vezi_solutia_icon" />
+          <svg class="icon"><use xlink:href="#open"></use></svg>
           <p class="p-0 m-0 ml-2">{{ code4ro_map.vezi_solutia_text }}</p>
         </a>
       </b-col>

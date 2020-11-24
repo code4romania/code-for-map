@@ -1,7 +1,7 @@
 <template>
   <div class="MapContainer-wrap">
     <div class="MapContainer">
-      <svg class="w-100 h-100"><use xlink:href="#map-bg"></use></svg>
+      <svg class="w-100 h-100"><use xlink:href="#map-color"></use></svg>
     </div>
 
     <!-- Display map buttons on map -->

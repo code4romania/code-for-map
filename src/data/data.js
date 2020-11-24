@@ -1,9 +1,6 @@
 /* eslint-disable */
 
 const data = {
-  code4ro_logo: "",
-  map_bg: require("../assets/images/map-bg.svg"),
-  map_bg_mobile: require("../assets/images/map-bg.svg"),
   back_link: {
     text: "Înapoi la harta",
     visible: false
@@ -56,8 +53,8 @@ const data = {
       phone_number: "8864",
       description:
         "Si contribuie la digitalizarea Romaniei. Cu un SMS recurent de 4 euro pe luna ajuti la construirea si mentinerea infrastructurii digitale de care avem nevoie in secolul XXI.",
-      delimitator_1: require("../assets/images/assets_svg/delimitators/delimitator_1.png"),
-      delimitator_2: require("../assets/images/assets_svg/delimitators/delimitator_2.png")
+      delimitator_1: require("../assets/images/delimitator_1.png"),
+      delimitator_2: require("../assets/images/delimitator_2.png")
     }
   },
   call_to_action: {
@@ -83,99 +80,99 @@ const data = {
       {
         id: 1,
         name: "test",
-        logo: require("../assets/images/partners/partener_test.svg")
+        logo: require("../assets/images/partener_test.svg")
       },
       {
         id: 2,
         name: "test",
-        logo: require("../assets/images/partners/partener_test.svg")
+        logo: require("../assets/images/partener_test.svg")
       },
       {
         id: 3,
         name: "test",
-        logo: require("../assets/images/partners/partener_test.svg")
+        logo: require("../assets/images/partener_test.svg")
       },
       {
         id: 4,
         name: "test",
-        logo: require("../assets/images/partners/partener_test.svg")
+        logo: require("../assets/images/partener_test.svg")
       },
       {
         id: 5,
         name: "test",
-        logo: require("../assets/images/partners/partener_test.svg")
+        logo: require("../assets/images/partener_test.svg")
       }
     ],
     secondary_partners: [
       {
         id: 1,
         name: "test",
-        logo: require("../assets/images/partners/partener_test.svg")
+        logo: require("../assets/images/partener_test.svg")
       },
       {
         id: 2,
         name: "test",
-        logo: require("../assets/images/partners/partener_test.svg")
+        logo: require("../assets/images/partener_test.svg")
       },
       {
         id: 3,
         name: "test",
-        logo: require("../assets/images/partners/partener_test.svg")
+        logo: require("../assets/images/partener_test.svg")
       },
       {
         id: 4,
         name: "test",
-        logo: require("../assets/images/partners/partener_test.svg")
+        logo: require("../assets/images/partener_test.svg")
       },
       {
         id: 5,
         name: "test",
-        logo: require("../assets/images/partners/partener_test.svg")
+        logo: require("../assets/images/partener_test.svg")
       },
       {
         id: 6,
         name: "test",
-        logo: require("../assets/images/partners/partener_test.svg")
+        logo: require("../assets/images/partener_test.svg")
       },
       {
         id: 7,
         name: "test",
-        logo: require("../assets/images/partners/partener_test.svg")
+        logo: require("../assets/images/partener_test.svg")
       },
       {
         id: 8,
         name: "test",
-        logo: require("../assets/images/partners/partener_test.svg")
+        logo: require("../assets/images/partener_test.svg")
       },
       {
         id: 9,
         name: "test",
-        logo: require("../assets/images/partners/partener_test.svg")
+        logo: require("../assets/images/partener_test.svg")
       },
       {
         id: 10,
         name: "test",
-        logo: require("../assets/images/partners/partener_test.svg")
+        logo: require("../assets/images/partener_test.svg")
       },
       {
         id: 11,
         name: "test",
-        logo: require("../assets/images/partners/partener_test.svg")
+        logo: require("../assets/images/partener_test.svg")
       },
       {
         id: 12,
         name: "test",
-        logo: require("../assets/images/partners/partener_test.svg")
+        logo: require("../assets/images/partener_test.svg")
       },
       {
         id: 13,
         name: "test",
-        logo: require("../assets/images/partners/partener_test.svg")
+        logo: require("../assets/images/partener_test.svg")
       },
       {
         id: 14,
         name: "test",
-        logo: require("../assets/images/partners/partener_test.svg")
+        logo: require("../assets/images/partener_test.svg")
       }
     ]
   },
@@ -195,9 +192,9 @@ const data = {
         left: "22%"
       },
       color: "purple",
-      highway_bg: "care4ro_bg",
-      delimiter_1: require("../assets/images/assets_svg/delimitators/delimitator_1.png"),
-      delimiter_2: require("../assets/images/assets_svg/delimitators/delimitator_2.png"),
+      highway_bg: "highway-care",
+      delimiter_1: require("../assets/images/delimitator_1.png"),
+      delimiter_2: require("../assets/images/delimitator_2.png"),
       all_solution_text: "VEZI TOATE SOLUTIILE PENTRU",
       vezi_solutia_text: "Vezi soluția",
       vezi_solutia_icon: 'icon-redirect',
@@ -646,9 +643,9 @@ const data = {
         left: "48%"
       },
       color: "red",
-      highway_bg: "health4ro_bg",
-      delimiter_1: require("../assets/images/assets_svg/delimitators/delimitator_1.png"),
-      delimiter_2: require("../assets/images/assets_svg/delimitators/delimitator_2.png"),
+      highway_bg: "highway-health",
+      delimiter_1: require("../assets/images/delimitator_1.png"),
+      delimiter_2: require("../assets/images/delimitator_2.png"),
       highway_segment: [
         {
           id: 1,
@@ -1027,9 +1024,9 @@ const data = {
         left: "53%"
       },
       color: "blue",
-      highway_bg: "participation4ro_bg",
-      delimiter_1: require("../assets/images/assets_svg/delimitators/delimitator_1.png"),
-      delimiter_2: require("../assets/images/assets_svg/delimitators/delimitator_2.png"),
+      highway_bg: "highway-participation",
+      delimiter_1: require("../assets/images/delimitator_1.png"),
+      delimiter_2: require("../assets/images/delimitator_2.png"),
       highway_segment: [
         {
           id: 1,
@@ -1588,9 +1585,9 @@ const data = {
         left: "31%"
       },
       color: "yellow",
-      highway_bg: "education4ro_bg",
-      delimiter_1: require("../assets/images/assets_svg/delimitators/delimitator_1.png"),
-      delimiter_2: require("../assets/images/assets_svg/delimitators/delimitator_2.png"),
+      highway_bg: "highway-education",
+      delimiter_1: require("../assets/images/delimitator_1.png"),
+      delimiter_2: require("../assets/images/delimitator_2.png"),
       highway_segment: [
         {
           id: 1,
@@ -1970,9 +1967,9 @@ const data = {
         left: "15%"
       },
       color: "green",
-      highway_bg: "environment4ro_bg",
-      delimiter_1: require("../assets/images/assets_svg/delimitators/delimitator_1.png"),
-      delimiter_2: require("../assets/images/assets_svg/delimitators/delimitator_2.png"),
+      highway_bg: "highway-environment",
+      delimiter_1: require("../assets/images/delimitator_1.png"),
+      delimiter_2: require("../assets/images/delimitator_2.png"),
       highway_segment: [
         {
           id: 1,
