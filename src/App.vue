@@ -2,10 +2,14 @@
   <div id="app">
     <b-container fluid>
       <b-row>
-        <b-col xs="12" lg="3" class="p-0">
-          <div class="Info px-4">
-            <Header :header="data.header" />
-            <BackToMapLink :back="data.back_link" />
+        <b-col xs="12" lg="3">
+          <div
+            class="Info px-4 d-flex justify-content-between flex-column h-100"
+          >
+            <div>
+              <Header :header="data.header" />
+              <BackToMapLink :back="data.back_link" />
+            </div>
             <Legend :legend="data.map_legend" />
           </div>
         </b-col>
@@ -13,14 +17,11 @@
           <router-view :data="data" />
         </b-col>
       </b-row>
-
     </b-container>
 
     <!-- SAMPLE, NEED TO REPLACE ALL THE OTHERS & LAYER MAPS & HIGHWAYS -->
     <!-- TODO: try svgo on all files with sprite & see what's up -->
     <!-- <svg><use xlink:href="#map-bg"></use></svg> -->
-
-    
 
     <!-- <CallToAction :call_to_action="data.call_to_action" />
     <SendSMS :sms="data.application_texts.info_sms" />
@@ -46,7 +47,7 @@ export default {
   components: {
     Header,
     BackToMapLink,
-    Legend
+    Legend,
     // CallToAction,
     // SendSMS,
     // Partners
@@ -54,13 +55,13 @@ export default {
   /** App state. */
   data() {
     return {
-      data: {}
+      data: {},
     };
   },
   /** Initialize data object in vue created life cycle. */
   created() {
     this.data = data;
-  }
+  },
 };
 </script>
 
