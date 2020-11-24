@@ -23,12 +23,25 @@
 
       <Delimiter :delimiter="code4ro_map.delimiter_2" />
 
-      <ProjectsList
+      <!-- <ProjectsList
         :list="segment.projects"
         :slug="slug"
         :highway_slug="highway_slug"
         :color="code4ro_map.color"
-      />
+      /> -->
+
+      <div class="ProjectsList">
+        <div v-for="(project, index) in segment.projects" :key="index">
+            <a
+            class="d-flex align-items-center justify-content-between ListItem"
+              :id="project.id"
+              @click="projectClicked(index)"
+              ><i class="icon icon-circle" :class="'border-' + code4ro_map.color"></i>
+              <div class="flex-fill mx-2">{{project.title}}</div>
+              <svg class="icon"><use xlink:href="#chevron-right"></use></svg></a
+            >
+        </div>
+      </div>
 
       <Delimiter :delimiter="code4ro_map.delimiter_2" />
     </div>
@@ -61,11 +74,60 @@
           </div>
         </div>
         <b-modal ref="myModal" size="lg" centered hide-header hide-footer>
-          <div>
-            {{ this.segment.projects[this.active_project_index].title }}
-            <p @click="next">next</p>
-             <p @click="previous">prev</p>
+          <div class="py-1" :class="`bg-` + code4ro_map.color"></div>
+          <div class="d-flex align-items-center justify-content-between p-3">
+            <div class="SegmentLegend-status d-flex align-items-center col-1">
+              <i class="icon icon-circle" :class="'border-' + code4ro_map.color"></i>
+              {{ data.segment_legend.done }}
+            </div>
+            <svg class="icon icon-sm" @click="hideModal" style="cursor: pointer"><use xlink:href="#close"></use></svg>
           </div>
+          <b-row class="p-3">
+            <b-col cols="6">
+              <p>{{data.application_texts.modal.redirect}}</p>
+            </b-col>
+            <b-col cols="6">
+              <svg class="icon icon-sm"><use xlink:href="#icon-redirect"></use></svg>
+              <a :href="segment.projects[active_project_index].link" class="ml-2" style="text-decoration:underline">{{segment.projects[active_project_index].link_text}}</a>
+            </b-col>
+            <b-col cols="12" lg="6">
+              <div class="border p-4 my-3 d-flex align-items-center justify-content-center">
+                <svg class="icon icon-lg"><use :xlink:href="`#` + segment.projects[active_project_index].icon"></use></svg>
+                {{ segment.projects[active_project_index].title }}
+              </div>
+                <div class="w-50 d-flex align-items-center">
+                  <svg class="icon icon-md mr-2"><use xlink:href="#icon-heart"></use></svg>
+                  <span v-if="segment.projects[active_project_index].adopted">{{ data.segment_legend.adopted }}</span>
+                  <span v-else>{{ data.segment_legend.neadoptat }}</span>
+                </div>
+                <b-row>
+                  <b-col cols="12">
+                    <b-row class="my-3">
+                      <template v-for="(partener, index) in segment.projects[active_project_index].adopted_by">
+                      <b-col cols="2" :key="index">
+                        <svg class="icon icon-lg"><use :xlink:href="`#` + partener.logo"></use></svg>
+                      </b-col>
+                    </template>
+                    </b-row>
+                  </b-col>
+                </b-row>
+            </b-col>
+            <b-col cols="6" class="my-3">
+              {{ segment.projects[active_project_index].description }}
+            </b-col>
+            <b-col cols="12" class="mt-5">
+              <div class="d-flex align-items-center justify-content-between">
+                <span @click="previous" v-if="segment.projects.length > 1">
+                  <svg class="icon icon-sm"><use xlink:href="#chevron-left"></use></svg>
+                  {{data.application_texts.modal.previous.text}}
+                </span>
+                <span @click="next" v-if="segment.projects.length > 1">
+                  {{data.application_texts.modal.next.text}}
+                  <svg class="icon icon-sm"><use xlink:href="#chevron-right"></use></svg>
+                </span>
+              </div>
+            </b-col>
+          </b-row>
         </b-modal>
       </div>
     </div>
@@ -118,6 +180,9 @@ export default {
     projectClicked(index) {
       this.active_project_index = index;
       this.$refs.myModal.show();
+    },
+    hideModal() {
+      this.$refs.myModal.hide();
     },
     next() {
       if (this.active_project_index === this.segment.projects.length - 1) {
