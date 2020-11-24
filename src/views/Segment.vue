@@ -23,24 +23,18 @@
 
       <Delimiter :delimiter="code4ro_map.delimiter_2" />
 
-      <!-- <ProjectsList
-        :list="segment.projects"
-        :slug="slug"
-        :highway_slug="highway_slug"
-        :color="code4ro_map.color"
-      /> -->
-
       <div class="ProjectsList">
-        <div v-for="(project, index) in segment.projects" :key="index">
-            <a
-            class="d-flex align-items-center justify-content-between ListItem"
-              :id="project.id"
-              @click="projectClicked(index)"
-              ><i class="icon icon-circle" :class="'border-' + code4ro_map.color"></i>
+        <template v-for="(project, index) in segment.projects">
+          <a class="d-flex align-items-center justify-content-between ListItem"
+            v-bind:key="'project-' + index"
+            :id="project.id"
+            @click="projectClicked(index)"
+          >
+              <i class="icon icon-circle" :class="'border-' + code4ro_map.color"></i>
               <div class="flex-fill mx-2">{{project.title}}</div>
-              <svg class="icon"><use xlink:href="#chevron-right"></use></svg></a
-            >
-        </div>
+              <svg class="icon"><use xlink:href="#chevron-right"></use></svg>
+          </a>
+        </template>
       </div>
 
       <Delimiter :delimiter="code4ro_map.delimiter_2" />
@@ -140,7 +134,6 @@ import HighwayHeader from "../components/map/HighwayHeader";
 import Delimiter from "../components/Delimiter";
 import SegmentHeader from "../components/map/SegmentHeader";
 import SegmentLegend from "../components/map/SegmentLegend";
-import ProjectsList from "../components/map/ProjectsList";
 
 export default {
   name: "Solution",
@@ -154,7 +147,6 @@ export default {
     Delimiter,
     SegmentHeader,
     SegmentLegend,
-    ProjectsList,
   },
   data() {
     return {
