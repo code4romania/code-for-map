@@ -1357,6 +1357,10 @@ const data = {
             top: "58.34%",
             left: "53.33%"
           },
+          icon_title_position: {
+            top: '75%',
+            left: '68%'
+          },
           icon_left: true,
           financed: true,
           financed_by: [
@@ -1589,6 +1593,10 @@ const data = {
           btn: {
             top: "50%",
             left: "48.5%"
+          },
+          icon_title_position: {
+            top: '75%',
+            left: '68%'
           },
           icon_left: true,
           financed: true,
@@ -1997,6 +2005,10 @@ const data = {
             top: "29.05%",
             left: "33%"
           },
+          icon_title_position: {
+            top: '80%',
+            left: '23%'
+          },
           icon_left: true,
           financed: false,
           financed_by: [],
@@ -2182,6 +2194,10 @@ const data = {
             top: "28.1%",
             left: "20.92%"
           },
+          icon_title_position: {
+            top: '90%',
+            left: '40%'
+          },
           icon_left: false,
           financed: true,
           financed_by: [
@@ -2327,6 +2343,10 @@ const data = {
           btn: {
             top: "15.77%",
             left: "15.25%"
+          },
+          icon_title_position: {
+            top: '55%',
+            left: '68%'
           },
           icon_left: false,
           financed: true,
