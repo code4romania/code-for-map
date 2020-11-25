@@ -8,7 +8,7 @@
         _slug: highway_slug
       }
     }"
-    class="badge-pill btn bg-white scale btn-fade d-none d-lg-block HighwayButton"
+    class="badge-pill btn bg-white d-none d-lg-block HighwayButton"
     :class="`btn-outline-${color}`"
     :style="{ top: segment_button.btn.top, left: segment_button.btn.left }"
   >
