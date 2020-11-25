@@ -3,7 +3,7 @@
     <!-- Main map button links to highway -->
     <router-link
       :to="{ name: 'Highway', params: { slug: highway.slug } }"
-      class="badge-pill btn bg-white scale MapButton"
+      class="badge-pill btn bg-white MapButton"
       :class="`btn-outline-${highway.color}`"
     >
       <div class="d-flex align-items-center">
