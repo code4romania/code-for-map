@@ -8,8 +8,9 @@
 
     <b-dropdown right :text="data.share.title" :variant="data.share.color" class="mr-2 text-white dropdown-custom">
       <b-dropdown-item class="text-center">item</b-dropdown-item>
-      <b-dropdown-item @click="facebookLink(pageUrl)" class="text-center">Facebook</b-dropdown-item>
-      <b-dropdown-item @click="linkedinLink(pageUrl)" class="text-center">Linkedin</b-dropdown-item>
+      <b-dropdown-item @click="facebookLink" class="text-center">Facebook</b-dropdown-item>
+      <b-dropdown-item @click="linkedinLink" class="text-center">Linkedin</b-dropdown-item>
+      <a @click:href="facebookLink"></a>
     </b-dropdown>
 
     <a :href="data.donate.link" :class="'btn btn-' + data.donate.color + ' btn-custom px-5 mx-2 text-white btn-lg'">
@@ -28,24 +29,25 @@ export default {
   },
   data(){
     return{
-      pageUrl: this.$route.fullPath
+      pageUrl: location.href
     }
   },
   methods: {
-    facebookLink(url) {
+    facebookLink() {
       window.open(
         `https://www.facebook.com/sharer/sharer.php` +
           objectToGetParams({
-            u: url,
+            u: this.pageUrl,
           }),
       );
+      console.log(this.$route)
     },
-    linkedinLink(url) {
+    linkedinLink() {
         window.open(
           'https://linkedin.com/shareArticle' +
             objectToGetParams({
               mini: true,
-              url: url
+              url: this.pageUrl
             })
         );
       }
