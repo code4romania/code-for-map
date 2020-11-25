@@ -97,13 +97,16 @@
                 </div>
                 <b-row>
                   <b-col cols="12">
-                    <b-row class="my-3">
+                    <b-row class="my-3" v-if="segment.projects[active_project_index].adopted">
                       <template v-for="(partner, index) in segment.projects[active_project_index].adopted_by">
                         <b-col cols="2" :key="index">
                           <svg class="icon icon-lg"><use :xlink:href="`#` + partner.logo"></use></svg>
                         </b-col>
                       </template>
                     </b-row>
+                    <a v-else :href="data.call_to_action.finance.link" :class="'btn btn-' + data.call_to_action.finance.color + ' btn-custom px-5 mx-2 my-2 text-white btn-lg'">
+                      {{data.call_to_action.finance.title}}
+                    </a>
                   </b-col>
                 </b-row>
             </b-col>
@@ -123,6 +126,19 @@
           </b-row>
         </b-modal>
       </div>
+      <!-- Highway portion financed by -->
+        <b-row v-if="segment.financed">
+          <b-col cols="12">
+            <p>{{ data.general.financed_by_general_text }}</p>
+            <b-row>
+              <template v-for="(financed, index) in segment.financed_by">
+              <b-col cols="2" :key="index">
+                <svg class="icon icon-lg"><use :xlink:href="`#` + financed.logo"></use></svg>
+              </b-col>
+            </template>
+            </b-row>
+          </b-col>
+        </b-row>
     </div>
   </div>
 </template>
