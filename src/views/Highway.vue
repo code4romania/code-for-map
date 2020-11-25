@@ -106,7 +106,7 @@ export default {
       item => item.slug == this.slug
     );
 
-    this.data.back_link.visible = true;
+    this.data.back_to_map.visible = true;
   }
 };
 </script>

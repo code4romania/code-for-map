@@ -1,39 +1,7 @@
 /* eslint-disable */
 
 const data = {
-  back_link: {
-    text: "Înapoi la harta",
-    visible: false
-  },
-  header: {
-    title: "Digitalizăm România împreună",
-    description:
-      "Navighează prin planul nostru de digitalizare a României cu ajutorul hărții de mai jos. Dă click pe oricare dintre destinațiile de mai jos pentru a descoperi soluțiile de care avem nevoie pentru a avea o țară funcțională. "
-  },
-  map_legend: {
-    title: "Legendă",
-    description: "",
-    drum_executat: "Drum executat",
-    drum_proiectat: "Drum proiectat",
-    drum_planificat: "Drum planificat",
-    destinatie: "Destinație",
-    tema: "Obiectiv temă",
-    realizat: "Obiectiv relizat",
-    planificat: "Obiectiv planificat"
-  },
-  segment_legend: {
-    text:
-      "Descoperă mai jos care dintre segmentele din drumul nostru spre un mediu sănătos sunt deja executate și ce am proiectat.",
-    designed: "Soluție proiectată",
-    done: "Soluție executată",
-    adopted: "Segment de drum adoptat de",
-    neadoptat: "Vrei să finanțezi această soluție?"
-  },
-  application_texts: {
-    map_page: {
-      text_1:
-        "This is a placeholder text that should act as a call to action to help people understant why they need to be joining us in our journey."
-    },
+  general: {
     modal: {
       redirect: "Redirectioneaza",
 
@@ -43,67 +11,84 @@ const data = {
       previous: {
         text: "Solutia anterioara",
       }
-    },
-    info_sms: {
-      title: {
-        text_1: "Trimite un SMS cu cuvantul",
-        text_2: "la"
-      },
-      msg_text: "PUTEM",
-      phone_number: "8864",
-      description:
-        "Si contribuie la digitalizarea Romaniei. Cu un SMS recurent de 4 euro pe luna ajuti la construirea si mentinerea infrastructurii digitale de care avem nevoie in secolul XXI.",
-      delimitator_1: require("../assets/images/delimitator_1.png"),
-      delimitator_2: require("../assets/images/delimitator_2.png")
     }
   },
+  back_to_map: {
+    text: "Înapoi la harta",
+    visible: false
+  },
+  header: {
+    title: "Digitalizăm România împreună",
+    description: "Navighează prin planul nostru de digitalizare a României cu ajutorul hărții de mai jos. Dă click pe oricare dintre destinațiile de mai jos pentru a descoperi soluțiile de care avem nevoie pentru a avea o țară funcțională. "
+  },
+  map_legend: {
+    title: "Legendă",
+    drum_executat: "Drum executat",
+    drum_proiectat: "Drum proiectat",
+    drum_planificat: "Drum planificat",
+    destinatie: "Destinație",
+    tema: "Obiectiv temă",
+    realizat: "Obiectiv relizat",
+    planificat: "Obiectiv planificat"
+  },
+  segment_legend: {
+    text: "Descoperă mai jos care dintre segmentele din drumul nostru spre un mediu sănătos sunt deja executate și ce am proiectat.",
+    designed: "Soluție proiectată",
+    done: "Soluție executată",
+    adopted: "Segment de drum adoptat de",
+    neadoptat: "Vrei să finanțezi această soluție?"
+  },
+  sms: {
+    title: {
+      text_1: "Trimite SMS cu",
+      text_2: "PUTEM",
+      text_3: "la",
+      text_4: "8864"
+    },
+    description: "Si contribuie la digitalizarea Romaniei. Cu un SMS recurent de <strong>4 EUR</strong> pe luna ajuti la construirea si mentinerea infrastructurii digitale de care avem nevoie in secolul XXI.",
+  },
   call_to_action: {
-    title: "",
-    description:
-      "This is a placeholder text that should act as a call to action to help people understant why they need to be joining us in our journey.",
+    description: "This is a placeholder text that should act as a call to action to help people understant why they need to be joining us in our journey.",
     share: {
-      title: "DISTRIBUIE",
-      color: "primary",
-      link: ""
+      title: "Distribuie",
+      color: "primary"
     },
     donate: {
-      title: "DONEAZA",
+      title: "Donează",
       color: "success",
       link: ""
     }
   },
+  more_info: {
+    title: "Content cu poza sau cu embed de Youtube",
+    description: "<p>Convallis tellus id interdum velit laoreet id donec ultrices. Arcu risus quis varius quam quisque id. Diam donec adipiscing tristique risus nec feugiat in. Faucibus turpis in eu mi bibendum neque egestas congue quisque. Elementum nibh tellus molestie nunc non. Condimentum vitae sapien pellentesque habitant.</p><p>tempor incididunt ut labore et dolore magna aliqua. Convallis tellus id interdum velit laoreet id donec ultrices. Arcu risus quis varius quam quisque id. Diam donec adipiscing tristique risus nec feugiat in. Faucibus turpis in eu mi bibendum neque egestas congue quisque. Elementum nibh tellus molestie nunc non. Condimentum vitae sapien pellentesque habitant. </p>",
+    youtube: "https://www.youtube.com/watch?v=tyYNP9IzfEY&ab_channel=MorningGlorycuR%C4%83zvanExarhu",
+    thumbnail: require("../assets/images/fpo.png")
+  },
   partners: {
-    title: "ÎMPREUNĂ",
-    description:
-      "Ei sunt arhitecții, constructorii și administratorii care ni s-au alăturat până acum în dezvoltarea infrastructurii digitale a României",
-    main_partners: [
+    title: "Împreună",
+    description: "Ei sunt arhitecții, constructorii și administratorii care ni s-au alăturat până acum în dezvoltarea infrastructurii digitale a României.",
+    main: [
       {
         id: 1,
         name: "test",
-        logo: require("../assets/images/partener_test.svg")
+        link: "#",
+        logo: require("../assets/images/partners/romanian-american-foundation.png")
       },
       {
         id: 2,
         name: "test",
-        logo: require("../assets/images/partener_test.svg")
+        link: "#",
+        logo: require("../assets/images/partners/ing.png")
       },
       {
         id: 3,
         name: "test",
-        logo: require("../assets/images/partener_test.svg")
-      },
-      {
-        id: 4,
-        name: "test",
-        logo: require("../assets/images/partener_test.svg")
-      },
-      {
-        id: 5,
-        name: "test",
-        logo: require("../assets/images/partener_test.svg")
+        link: "#",
+        logo: require("../assets/images/partners/lidl.png")
       }
     ],
-    secondary_partners: [
+    secondary: [
       {
         id: 1,
         name: "test",
@@ -1013,11 +998,10 @@ const data = {
       id: 3,
       slug: "participation4ro",
       title: "Participation for Romania",
-      description:
-        "Implicarea în viața comunității ne face pe toți mai bogați, mai împliniți și mai puternici. Implicându-ne, învățăm unii de la ceilalți și oferim ce avem mai bun, fiecare dintre noi, pentru mai binele tuturor. Dacă dorim sisteme puternice de educație, sănătate, protecția celor vulnerabili și a mediului, trebuie să fim conștienți de faptul că toate acestea nu sunt posibile fără o implicare reală a tuturor în viața societății. În plus, momentele de implicare sunt ferestre prin care vedem cât de puternici putem deveni atunci când suntem împreună. Ne continuăm misiunea de a încuraja participarea cetățenească în viața societății scoțând la iveală cele mai bune instrumente digitale pentru asta.",
+      description: "Implicarea în viața comunității ne face pe toți mai bogați, mai împliniți și mai puternici. Implicându-ne, învățăm unii de la ceilalți și oferim ce avem mai bun, fiecare dintre noi, pentru mai binele tuturor. Dacă dorim sisteme puternice de educație, sănătate, protecția celor vulnerabili și a mediului, trebuie să fim conștienți de faptul că toate acestea nu sunt posibile fără o implicare reală a tuturor în viața societății. În plus, momentele de implicare sunt ferestre prin care vedem cât de puternici putem deveni atunci când suntem împreună. Ne continuăm misiunea de a încuraja participarea cetățenească în viața societății scoțând la iveală cele mai bune instrumente digitale pentru asta.",
       btn: {
-        top: "67.97%",
-        left: "82.61%"
+        top: "65.97%",
+        left: "80.61%"
       },
       mobile_btn: {
         top: "52%",
@@ -1025,8 +1009,6 @@ const data = {
       },
       color: "blue",
       highway_bg: "highway-participation",
-      delimiter_1: require("../assets/images/delimitator_1.png"),
-      delimiter_2: require("../assets/images/delimitator_2.png"),
       highway_segment: [
         {
           id: 1,
@@ -1392,35 +1374,20 @@ const data = {
           id: 7,
           highway_slug: "alegeri-corecte-alegatori-informati",
           segment_visual: "segment-participation-03-alegeri-corecte-alegatori-informati",
-          title: "Alegeri corecte Alegatori informati",
+          title: "Alegeri corecte. Alegători informați.",
           btn: {
             top: "29.05%",
             left: "33%"
           },
           icon_left: true,
-          financed: true,
-          financed_by: [
-            {
-              id: 1,
-              title: "",
-              description: "",
-              link: "",
-              logo: "icon-date-deschise"
-            },
-            {
-              id: 2,
-              title: "",
-              description: "",
-              link: "",
-              logo: "icon-date-deschise"
-            }
-          ],
+          financed: false,
+          financed_by: [],
           projects: [
             {
               id: 1,
-              project_slug: "project-slug",
-              title: "proiect title",
-              description: "description 1",
+              project_slug: "vot-romania",
+              title: "Vot România",
+              description: "<p>Vot România este o platformă care simplifică pe înțelesul cetățenilor ghidul electoral al alegerilor, facilitând accesul la informație în timp ce contribuie la o mai mare transparență a procesului electoral. Accesând votromania.ro toți cetățenii vor putea să verifice, alături de documentele și procedurile necesare pentru a vota, și care este secția la care sunt arondați în funcție de statutul fiecăruia. Website-ul va fi disponibil cu informații actualizate la fiecare nouă rundă electorală. Conținutul prezent pe platforma Vot România este realizat în parteneriat cu experții electorali ai Observatorului Electoral.</p>",
               link: "",
               link_text: "Vezi soluția",
               icon: "icon-date-deschise",
@@ -1432,15 +1399,51 @@ const data = {
               adopted_by: [
                 {
                   id: 1,
-                  title: "",
-                  description: "",
+                  title: "Code for Romania",
                   link: "",
                   logo: "icon-date-deschise"
-                },
+                }
+              ],
+            },
+            {
+              id: 2,
+              project_slug: "vot-diaspora",
+              title: "Vot Diaspora",
+              description: "<p>Vot Diaspora este o platformă care simplifică pe înțelesul cetățenilor ghidul electoral al alegerilor, pentru a facilita accesul cetățenilor români de peste hotare la informație și a ajuta la o mai mare transparență a procesului electoral. La alegerile europarlamentare din 2019, aplicația a fost utilizată de 25% din totalul alegătorilor din diaspora, iar la ultima rundă a alegerilor prezidențiale, 185.000 alegători s-au informat via votdiaspora.ro. Prin platformă, toți cetățenii vor putea să verifice documentele și procedurile necesare pentru a vota în secție sau prin corespondență dacă se află în afara țării, dar și care este secția la care sunt arondați în funcție de statutul fiecăruia. Website-ul va fi disponibil cu informații actualizate la fiecare nouă rundă electorală.</p>",
+              link: "",
+              link_text: "Vezi soluția",
+              icon: "icon-date-deschise",
+              position: {
+                top: '0',
+                left: '0'
+              },
+              adopted: true,
+              adopted_by: [
                 {
-                  id: 2,
-                  title: "",
-                  description: "",
+                  id: 1,
+                  title: "Code for Romania",
+                  link: "",
+                  logo: "icon-date-deschise"
+                }
+              ],
+            },
+            {
+              id: 3,
+              project_slug: "count-us-in",
+              title: "Count Us In",
+              description: "<p>Vot Diaspora este o platformă care simplifică pe înțelesul cetățenilor ghidul electoral al alegerilor, pentru a facilita accesul cetățenilor români de peste hotare la informație și a ajuta la o mai mare transparență a procesului electoral. La alegerile europarlamentare din 2019, aplicația a fost utilizată de 25% din totalul alegătorilor din diaspora, iar la ultima rundă a alegerilor prezidențiale, 185.000 alegători s-au informat via votdiaspora.ro. Prin platformă, toți cetățenii vor putea să verifice documentele și procedurile necesare pentru a vota în secție sau prin corespondență dacă se află în afara țării, dar și care este secția la care sunt arondați în funcție de statutul fiecăruia. Website-ul va fi disponibil cu informații actualizate la fiecare nouă rundă electorală.</p>",
+              link: "",
+              link_text: "Vezi soluția",
+              icon: "icon-date-deschise",
+              position: {
+                top: '0',
+                left: '0'
+              },
+              adopted: true,
+              adopted_by: [
+                {
+                  id: 1,
+                  title: "Code for Romania",
                   link: "",
                   logo: "icon-date-deschise"
                 }

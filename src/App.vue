@@ -1,12 +1,16 @@
 <template>
   <div id="app">
     <b-container fluid>
-      <b-row>
-        <b-col xs="12" lg="3">
+
+      <b-row class="mb-5">
+        <b-col xs="12" lg="3" class="p-0">
           <div class="Info d-flex justify-content-between flex-column h-100">
             <div>
-              <Header :header="data.header" />
-              <BackToMapLink :back="data.back_link" />
+              <div class="Header">
+                <h1 class="text-strong-blue" v-html="data.header.title" />
+                <p v-html="data.header.description" />
+              </div>
+              <BackToMap :back="data.back_to_map" />
             </div>
             <Legend :legend="data.map_legend" />
           </div>
@@ -15,72 +19,73 @@
           <router-view :data="data" />
         </b-col>
       </b-row>
+
+      <b-row class="mb-5">
+        <b-col xs="12" md="6">
+          <SendSMS :data="data.sms" />
+        </b-col>
+        <div class="w-100 d-md-none"></div>
+        <b-col xs="12" md="6">
+          <Share :data="data.call_to_action" />
+        </b-col>
+      </b-row>
+
+      <b-row class="mb-5">
+        <b-col>
+          <h1 class="text-strong-blue">{{data.more_info.title}}</h1>
+          <div v-html="data.more_info.description" />
+        </b-col>
+        <div class="w-100 d-md-none"></div>
+        <b-col>
+          <!-- TODO: open youtube video in place  -->
+          <!-- data.more_info.youtube -->
+          <img class="img-fluid" :src="data.more_info.thumbnail" />
+        </b-col>
+      </b-row>
+      <b-row>
+        <b-col xs="12" lg="6">
+          <div class="Partners">
+            <div class="Partners-title mb-4">
+              <h3 class="text-strong-blue">{{data.partners.title}}</h3>
+              <p>{{data.partners.description}}</p>
+            </div>
+            <div class="Partners-list">
+              <PartnersList :list="data.partners.main" />
+              <PartnersList :list="data.partners.secondary" :col="4" />
+            </div>
+          </div>
+        </b-col>
+      </b-row>
+
     </b-container>
-
-    <!-- SAMPLE, NEED TO REPLACE ALL THE OTHERS & LAYER MAPS & HIGHWAYS -->
-    <!-- TODO: try svgo on all files with sprite & see what's up -->
-    <!-- <svg><use xlink:href="#map-bg"></use></svg> -->
-
-    <!-- <CallToAction :call_to_action="data.call_to_action" />
-    <SendSMS :sms="data.application_texts.info_sms" />
-    <Partners :Partners="data.Partners" /> -->
   </div>
 </template>
 
 <script>
-/** Import data object. */
 import data from "./data/data.js";
-/** Import components. */
-import Header from "./components/header/Header";
-import BackToMapLink from "./components/header/BackToMapLink";
-import Legend from "./components/header/Legend";
-// import CallToAction from "./components/call-to-action/CallToAction";
-// import SendSMS from "./components/SendSMS";
-// import Partners from "./components/Partners/Partners";
+
+import BackToMap from "./components/BackToMap";
+import Legend from "./components/Legend";
+import PartnersList from "./components/PartnersList";
+import SendSMS from "./components/SendSMS";
+import Share from "./components/Share";
 
 export default {
-  /** Component name. */
   name: "App",
-  /** Registered components. */
   components: {
-    Header,
-    BackToMapLink,
+    BackToMap,
     Legend,
-    // CallToAction,
-    // SendSMS,
-    // Partners
+    PartnersList,
+    SendSMS,
+    Share
   },
-  /** App state. */
   data() {
     return {
-      data: {},
+      data: {}
     };
   },
-  /** Initialize data object in vue created life cycle. */
   created() {
     this.data = data;
-  },
+  }
 };
 </script>
-
-<style>
-/** General app styles. */
-/** Vue router transition effect. */
-.fade-enter-active,
-.fade-leave-active {
-  transition-property: opacity;
-  transition-duration: 0.1s;
-}
-
-.fade-enter-active {
-  transition-delay: 0.1s;
-}
-
-.fade-enter,
-.fade-leave-active {
-  opacity: 0;
-}
-.container-fluid {
-  max-width: 1450px !important;
-}
-</style>

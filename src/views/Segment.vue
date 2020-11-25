@@ -54,8 +54,9 @@
         </div>
         <!-- Modal -->
         <div class="d-none d-lg-block">
-          <div v-for="(project, index) in segment.projects" :key="index">
+          <template v-for="(project, index) in segment.projects" >
             <a
+              v-bind:key="'project-label-' + index"
               :style="{
                 position: 'absolute',
                 top: project.position.top,
@@ -65,9 +66,9 @@
               @click="projectClicked(index)"
               >{{ project.title }}</a
             >
-          </div>
+          </template>
         </div>
-        <b-modal ref="myModal" size="lg" centered hide-header hide-footer>
+        <b-modal ref="myModal" size="lg" centered hide-header hide-footer no-fade>
           <div class="py-1" :class="`bg-` + code4ro_map.color"></div>
           <div class="d-flex align-items-center justify-content-between p-3">
             <div class="SegmentLegend-status d-flex align-items-center col-1">
@@ -78,7 +79,7 @@
           </div>
           <b-row class="p-3">
             <b-col cols="6">
-              <p>{{data.application_texts.modal.redirect}}</p>
+              <p>{{data.general.modal.redirect}}</p>
             </b-col>
             <b-col cols="6">
               <svg class="icon icon-sm"><use xlink:href="#icon-redirect"></use></svg>
@@ -97,11 +98,11 @@
                 <b-row>
                   <b-col cols="12">
                     <b-row class="my-3">
-                      <template v-for="(partener, index) in segment.projects[active_project_index].adopted_by">
-                      <b-col cols="2" :key="index">
-                        <svg class="icon icon-lg"><use :xlink:href="`#` + partener.logo"></use></svg>
-                      </b-col>
-                    </template>
+                      <template v-for="(partner, index) in segment.projects[active_project_index].adopted_by">
+                        <b-col cols="2" :key="index">
+                          <svg class="icon icon-lg"><use :xlink:href="`#` + partner.logo"></use></svg>
+                        </b-col>
+                      </template>
                     </b-row>
                   </b-col>
                 </b-row>
@@ -113,10 +114,10 @@
               <div class="d-flex align-items-center justify-content-between">
                 <span @click="previous" v-if="segment.projects.length > 1">
                   <svg class="icon icon-sm"><use xlink:href="#chevron-left"></use></svg>
-                  {{data.application_texts.modal.previous.text}}
+                  {{data.general.modal.previous.text}}
                 </span>
                 <span @click="next" v-if="segment.projects.length > 1">
-                  {{data.application_texts.modal.next.text}}
+                  {{data.general.modal.next.text}}
                   <svg class="icon icon-sm"><use xlink:href="#chevron-right"></use></svg>
                 </span>
               </div>
@@ -166,7 +167,7 @@ export default {
       (item) => item.highway_slug == this.highway_slug
     );
 
-    this.data.back_link.visible = true;
+    this.data.back_to_map.visible = true;
   },
   methods: {
     projectClicked(index) {

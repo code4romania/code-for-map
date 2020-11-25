@@ -14,12 +14,12 @@
   >
     <div class="d-flex align-items-center" v-if="segment_button.icon_left">
       <svg class="icon"><use :xlink:href="'#icon-' + segment_button.highway_slug"></use></svg>
-      <div class="small text-dark font-weight-bold text-left ml-2">
+      <div class="text-dark text-left ml-2">
         {{ segment_button.title }}
       </div>
     </div>
     <div class="d-flex align-items-center" v-else>
-      <div class="small text-dark font-weight-bold text-right mr-2">
+      <div class="text-dark text-right mr-2">
         {{ segment_button.title }}
       </div>
       <svg class="icon"><use :xlink:href="'#icon-' + segment_button.highway_slug"></use></svg>

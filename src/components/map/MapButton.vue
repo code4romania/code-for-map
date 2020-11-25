@@ -8,7 +8,7 @@
     >
       <div class="d-flex align-items-center">
         <svg class="icon"><use :xlink:href="'#logo-' + highway.slug"></use></svg>
-        <div class="small text-dark font-weight-bold text-left d-block ml-2 MapButton-label">
+        <div class="text-dark font-weight-bold text-left d-block ml-2 MapButton-label">
           {{ highway.title }}
         </div>
       </div>

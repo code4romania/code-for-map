@@ -1,5 +1,5 @@
 <template>
-  <router-link :to="{ name: 'Map' }" class="BackToMapLink mb-4 d-inline-block" v-if="back.visible">
+  <router-link :to="{ name: 'Map' }" class="BackToMap mb-4 d-inline-block" v-if="back.visible">
     <div class="d-flex align-items-center">
       <svg class="icon"><use xlink:href="#chevron-left"></use></svg>
       <div class="ml-2 text-primary border-bottom border-primary">
@@ -11,7 +11,7 @@
 
 <script>
 export default {
-  name: "BackToMapLink",
+  name: "BackToMap",
   props: {
     back: {
       type: Object
@@ -21,7 +21,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.BackToMapLink {
+.BackToMap {
   &:hover {
     text-decoration: none;
   }

@@ -1,0 +1,22 @@
+.SendSMS-msg,
+.SendSMS-no {
+  color: $strong-blue;
+  font-size: $h1-font-size;
+}
+
+.Partners {
+  h3 {
+    font-size: $h1-font-size;
+  }
+}
+
+.SendSMS-title {
+  height: 100px;
+}
+
+.Share {
+  @include respond-above(md) {
+    padding-top: 100px;
+  }
+}
+

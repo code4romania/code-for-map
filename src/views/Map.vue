@@ -42,7 +42,7 @@ export default {
     MapButton
   },
   mounted() {
-    this.data.back_link.visible = false;
+    this.data.back_to_map.visible = false;
   },
   methods: {
     setMapState(highway) {

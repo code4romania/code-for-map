@@ -7,8 +7,10 @@ $secondary:     #3A54A4;
 $success:       #65CC90;
 $warning:       #FFB61D;
 $dark:          #1E1E1E;
+$black:         #1E1E1E;
 $light-gray:    #E7EAEE;
 $gray:          #C8CEDB;
+$strong-blue:   #0000ff;
 
 $theme-colors: () !default;
 $theme-colors: map-merge((
@@ -19,8 +21,8 @@ $theme-colors: map-merge((
   "green":       #1B771B,
   "strong-blue": #0000FF,
   "black":       #000000,
-),
-$theme-colors);
+  "gray":        $gray
+), $theme-colors);
 
 /***********************************************
 ******************** Fonts *********************
@@ -30,15 +32,12 @@ $theme-colors);
 // $titillium-web-font-path: "../assets/fonts/titillium-web/";
 
 /** Font family. */
-// $font-family-base:       'TitilliumWeb-Regular', sans-serif;
-
-/** Text small. */
-$small-font-size: 11px;
+$font-family-base: 'Titillium Web', "Helvetica Neue", Helvetica, Arial, sans-serif;
 
 /** Heading font size. */
-$h1-font-size: 34px;
-$h2-font-size: 24px;
-$h3-font-size: 20px;
+$h1-font-size: 48px;
+$h2-font-size: 32px;
+$h3-font-size: 24px;
 
 /** Heading font family. */
 // $headings-font-family: $font-family-sans-serif;
@@ -75,11 +74,15 @@ $grid-breakpoints: (
   xl: 1200px
 );
 
-/***********************************************
-************** Responsive text *****************
-***********************************************/
+$grid-gutter-width: 40px;
 
-$enable-responsive-font-sizes: true;
+$z-index-base: 2020;
+$z-index-map: 2021;
+$z-index-highway: 2022;
+$z-index-buttons: 2023;
+$z-index-active: 2024;
+$z-index-overlay: 3000;
+$z-index-modal: 3001;
 
 // TODO: only import what we use or just remove it completly and use tailwind (new code4 site uses tailwind)
 @import 'node_modules/bootstrap/scss/bootstrap.scss';
