@@ -37,7 +37,6 @@
             <MapButton
               class="d-none d-lg-block"
               :highway="highway"
-              :class="highway.slug !== slug ? 'btn-opacity' : ''"
               :top="highway.btn.top"
               :left="highway.btn.left"
               v-bind:key="highway.slug"
@@ -120,12 +119,3 @@ export default {
 
 };
 </script>
-
-<style>
-.btn-opacity {
-  opacity: 0.5;
-}
-.btn-opacity:hover {
-  opacity: 1;
-}
-</style>
