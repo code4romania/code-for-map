@@ -4,7 +4,7 @@
     <router-link
       :to="{ name: 'Highway', params: { slug: highway.slug } }"
       class="badge-pill btn bg-white scale MapButton"
-      :class="`btn-outline-${highway.color}`"
+      :class="[`btn-outline-${highway.color}`, $route.name != 'Map' ? 'btn-opacity' : '']"
     >
       <div class="d-flex align-items-center">
         <svg class="icon"><use :xlink:href="'#logo-' + highway.slug"></use></svg>
@@ -29,3 +29,13 @@ export default {
   }
 };
 </script>
+
+<style>
+.btn-opacity {
+  opacity: 0.5;
+}
+.btn-opacity:hover,
+.router-link-active {
+  opacity: 1;
+}
+</style>
