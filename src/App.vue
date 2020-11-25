@@ -91,7 +91,7 @@ export default {
     parent.postMessage({
       some: "object",
       with: "data"
-    })
+    }, "http://d0abb63334f0.eu.ngrok.io/")
   }
 };
 </script>
