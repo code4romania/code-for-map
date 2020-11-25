@@ -3,8 +3,6 @@
 const data = {
   general: {
     modal: {
-      redirect: "Redirectioneaza",
-
       next: {
         text: "Solutia urmatoare",
       },
@@ -1387,6 +1385,7 @@ const data = {
               id: 1,
               project_slug: "vot-romania",
               title: "Vot România",
+              subtitle: "Ghidul complet al alegătorului din România",
               description: "<p>Vot România este o platformă care simplifică pe înțelesul cetățenilor ghidul electoral al alegerilor, facilitând accesul la informație în timp ce contribuie la o mai mare transparență a procesului electoral. Accesând votromania.ro toți cetățenii vor putea să verifice, alături de documentele și procedurile necesare pentru a vota, și care este secția la care sunt arondați în funcție de statutul fiecăruia. Website-ul va fi disponibil cu informații actualizate la fiecare nouă rundă electorală. Conținutul prezent pe platforma Vot România este realizat în parteneriat cu experții electorali ai Observatorului Electoral.</p>",
               link: "",
               link_text: "Vezi soluția",
@@ -1409,6 +1408,7 @@ const data = {
               id: 2,
               project_slug: "vot-diaspora",
               title: "Vot Diaspora",
+              subtitle: "Ghidul complet al alegătorului din diaspora",
               description: "<p>Vot Diaspora este o platformă care simplifică pe înțelesul cetățenilor ghidul electoral al alegerilor, pentru a facilita accesul cetățenilor români de peste hotare la informație și a ajuta la o mai mare transparență a procesului electoral. La alegerile europarlamentare din 2019, aplicația a fost utilizată de 25% din totalul alegătorilor din diaspora, iar la ultima rundă a alegerilor prezidențiale, 185.000 alegători s-au informat via votdiaspora.ro. Prin platformă, toți cetățenii vor putea să verifice documentele și procedurile necesare pentru a vota în secție sau prin corespondență dacă se află în afara țării, dar și care este secția la care sunt arondați în funcție de statutul fiecăruia. Website-ul va fi disponibil cu informații actualizate la fiecare nouă rundă electorală.</p>",
               link: "",
               link_text: "Vezi soluția",
@@ -1431,7 +1431,8 @@ const data = {
               id: 3,
               project_slug: "count-us-in",
               title: "Count Us In",
-              description: "<p>Vot Diaspora este o platformă care simplifică pe înțelesul cetățenilor ghidul electoral al alegerilor, pentru a facilita accesul cetățenilor români de peste hotare la informație și a ajuta la o mai mare transparență a procesului electoral. La alegerile europarlamentare din 2019, aplicația a fost utilizată de 25% din totalul alegătorilor din diaspora, iar la ultima rundă a alegerilor prezidențiale, 185.000 alegători s-au informat via votdiaspora.ro. Prin platformă, toți cetățenii vor putea să verifice documentele și procedurile necesare pentru a vota în secție sau prin corespondență dacă se află în afara țării, dar și care este secția la care sunt arondați în funcție de statutul fiecăruia. Website-ul va fi disponibil cu informații actualizate la fiecare nouă rundă electorală.</p>",
+              subtitle: "O estimare precisă a numărului românilor din diaspora",
+              description: "<p>Probabil cea mai mare criză a democrației românești din ultimii ani este incapacitatea statului de a asigura dreptul la vot al românilor care locuiesc în străinătate. Atât alegerile prezidențiale din 2014, cât și alegerile europarlamentare din 2019 au arătat cum români care trăiau în Europa au stat la coadă ore în șir pentru a vota la secțiile de votare înființate în țările lor de reședință, unora fiindu-le refuzat dreptul de vot din cauza lipsei de capacitate a secțiilor. Cauza fundamentală a acestui fenomen, indicată de majoritatea funcționarilor și instituțiilor publice, este incapacitatea statului de a evalua numărul potențialilor alegători care trăiesc în străinătate.</p><p>Count Us In este o aplicație web care va realiza o estimare mult mai precisă a numărului românilor din diaspora, printr-un proces de crowdsourcing care vizează datele oficiale din fiecare localitate.</p>",
               link: "",
               link_text: "Vezi soluția",
               icon: "icon-date-deschise",
@@ -1448,6 +1449,107 @@ const data = {
                   logo: "icon-date-deschise"
                 }
               ],
+            },
+            {
+              id: 4,
+              project_slug: "monitorizare-vot",
+              title: "Monitorizare Vot",
+              subtitle: "Digitalizarea procesului de observare a alegerilor",
+              description: "<p>Participarea politică e fundamentul reprezentării, care este la rândul său fundamentul unui stat care își respectă cetățenii. Vrem o lume în care fiecare vot e numărat și în care fiecare vot contează. De aceea credem că trebuie să avem întotdeauna soluțiile optime pentru a face sistemul de vot sigur și de încredere. Monitorizare Vot este soluția tehnologică utilizată de către toți observatorii independenți acreditați prin FiecareVot începând cu alegerile din 2016. O soluție simplă, dar care ne ajută să stăm cu ochii pe alegeri și să reacționăm la prima sesizare de fraudă în ziua votului.</p>",
+              link: "",
+              link_text: "Vezi soluția",
+              icon: "icon-date-deschise",
+              position: {
+                top: '0',
+                left: '0'
+              },
+              adopted: true,
+              adopted_by: [
+                {
+                  id: 1,
+                  title: "Code for Romania",
+                  link: "",
+                  logo: "icon-date-deschise"
+                }
+              ],
+            },
+            {
+              id: 5,
+              project_slug: "ochii-pe-vot",
+              title: "Ochii pe vot",
+              subtitle: "Un instrument pentru alegătorii care vor să raporteze nereguli în procesul de vot",
+              description: "<p>Cetățenii din România nu au un grad ridicat de implicare în procesul de votare, cei mai mulți fiind interesați și atenți doar în jurul campaniei electorale fără a depune un efort real de informare cu privire la opțiunile pe care le au la dispoziție. Ochii pe vot este o platformă dedicată cetățenilor români din țară și din diaspora prin care pot să raporteze nereguli cu privire la orice runda de alegeri atât în ziua votului, cât și în campania electorala. Scopul platformei este de a crește gradul de implicare al cetățenilor în procesul de votare, de atragere a unui număr cât mai mare de observatori pentru alegeri și de oferi metode simple și accesibile cetățenilor pentru a putea face sesizări.</p>",
+              link: "",
+              link_text: "Vezi soluția",
+              icon: "icon-date-deschise",
+              position: {
+                top: '0',
+                left: '0'
+              },
+              adopted: true,
+              adopted_by: [
+                {
+                  id: 1,
+                  title: "Code for Romania",
+                  link: "",
+                  logo: "icon-date-deschise"
+                }
+              ],
+            },
+            {
+              id: 6,
+              project_slug: "rezultate-vot",
+              title: "Rezultate Vot",
+              subtitle: "Rezultate puse în context pentru fiecare rundă electorală",
+              description: "<p>O democrație se sprijină pe cetățeni critici și informați. Rezultate Vot își propune să informeze și să dezvolte spiritul critic al alegătorilor prin contextualizarea informației electorale însoțite de analize apartinice ale acesteia. Această platformă este locul în care oricine poate accesa toate informațiile relevante ale alegerilor din România. Platforma conține: hărți detaliate cu prezența la vot la nivelul țării/județului, rezultatele parțiale ale alegerilor după închiderea urnelor, pe măsură ce ele sunt comunicate de autorități, informații din sistemul de monitorizare digitală a alegerilor, respectiv Monitorizare Vot, istoricul electoral al României pentru toate rundele de alegeri începând cu anul 1992 și un flux live de comentarii și analize realizate de sociologi din marile centre universitare din România.</p>",
+              link: "",
+              link_text: "Vezi soluția",
+              icon: "icon-date-deschise",
+              position: {
+                top: '0',
+                left: '0'
+              },
+              adopted: true,
+              adopted_by: [
+                {
+                  id: 1,
+                  title: "Code for Romania",
+                  link: "",
+                  logo: "icon-date-deschise"
+                }
+              ],
+            },
+            {
+              id: 7,
+              project_slug: "catalog-politic",
+              title: "Catalog Politic",
+              subtitle: "Catalogul persoanelor din funcții publice din România",
+              description: "<p>Catalog Politic este o platformă online care centralizează informațiile existente despre persoanele din funcții publice din România. Scopul este de a pune la dispoziția cetățenilor informații obiective cu privire la cei care le reprezintă interesele. Mai mult, prin baze de date complete și ușor de utilizat, proiectul oferă jurnaliștilor și cercetătorilor suport în activitățile de documentare. Sursele datelor sunt: ANI, DNA, site-urile candidaților și site-urile instituțiilor statului precum și date culese manual.</p>",
+              link: "",
+              link_text: "Vezi soluția",
+              icon: "icon-date-deschise",
+              position: {
+                top: '0',
+                left: '0'
+              },
+              adopted: false,
+              adopted_by: [],
+            },
+            {
+              id: 7,
+              project_slug: "swipe-politics",
+              title: "Swipe Politics",
+              subtitle: "Vezi cine sunt politicienii din orașul tău",
+              description: "<p>Pe modelul aplicațiilor de tip matchmaking, propunem construirea unei aplicații mobile prin care, în funcție de locație, să primești date despre politicienii din orașul în care te afli. De exemplu, o persoană care se află în Bacău va putea vedea fișe de politicieni locali sau naționali relevanți, date despre activitatea lor politică/administrativă și vor putea naviga din aplicație către alte platforme cu informații relevante. Scopul acestui proiect este de a implica tinerii cât mai mult în viața de zi cu zi a orașului lor și de a monitoriza facil politicienii care îi reprezintă aducând subiecte de interes către ei prin intermediul acestui joc de matchmaking.</p>",
+              link: "",
+              link_text: "Vezi soluția",
+              icon: "icon-date-deschise",
+              position: {
+                top: '0',
+                left: '0'
+              },
+              adopted: false,
+              adopted_by: [],
             }
           ]
         },

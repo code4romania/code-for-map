@@ -79,7 +79,7 @@
           </div>
           <b-row class="p-3">
             <b-col cols="6">
-              <p>{{data.general.modal.redirect}}</p>
+              <h3>{{segment.projects[active_project_index].title}}</h3>
             </b-col>
             <b-col cols="6">
               <svg class="icon icon-sm"><use xlink:href="#icon-redirect"></use></svg>
@@ -107,9 +107,7 @@
                   </b-col>
                 </b-row>
             </b-col>
-            <b-col cols="6" class="my-3">
-              {{ segment.projects[active_project_index].description }}
-            </b-col>
+            <b-col cols="6" class="my-3" v-html="segment.projects[active_project_index].description" />
             <b-col cols="12" class="mt-5">
               <div class="d-flex align-items-center justify-content-between">
                 <span @click="previous" v-if="segment.projects.length > 1">
