@@ -107,12 +107,25 @@ export default {
     );
 
     this.data.back_to_map.visible = true;
+  },
+  watch: {
+    $route(to, from) {
+      if(this.slug != to) {
+        this.code4ro_map = this.data.code4ro_map.find(
+        item => item.slug == to.params.slug
+        );
+      }
+    }
   }
+
 };
 </script>
 
 <style>
 .btn-opacity {
   opacity: 0.5;
+}
+.btn-opacity:hover {
+  opacity: 1;
 }
 </style>
