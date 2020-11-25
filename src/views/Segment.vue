@@ -51,6 +51,10 @@
           <svg class="segment">
             <use :xlink:href="'#' + segment.segment_visual"></use>
           </svg>
+            <div :style="{position: 'absolute', top: segment.icon_title_position.top, left: segment.icon_title_position.left}">
+              <svg class="icon icon-xl"><use :xlink:href="'#icon-' + highway_slug"></use></svg>
+              <p class="icon-text-container font-weight-light">{{segment.title}}</p>
+            </div>
         </div>
         <!-- Modal -->
         <div class="d-none d-lg-block">
@@ -208,3 +212,9 @@ export default {
   },
 };
 </script>
+
+<style>
+.icon-text-container {
+  width: 128px;
+}
+</style>
