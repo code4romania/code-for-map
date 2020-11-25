@@ -1407,7 +1407,7 @@ const data = {
         {
           id: 7,
           highway_slug: "alegeri-corecte-alegatori-informati",
-          segment_visual: "segment-participation-03-alegeri-corecte-alegatori-informati",
+          segment_visual: "segment-participation-01-alegeri-corecte-alegatori-informati",
           title: "Alegeri corecte. Alegători informați.",
           btn: {
             top: "29.05%",
@@ -1652,7 +1652,7 @@ const data = {
         {
           id: 9,
           highway_slug: "legislatie-accesibila",
-          segment_visual: "segment-participation-01-legislatie-accesibila",
+          segment_visual: "segment-participation-03-legislatie-accesibila",
           title: "Legislatie accesibila",
           btn: {
             top: "15.77%",
