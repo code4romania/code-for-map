@@ -148,7 +148,8 @@
 </template>
 
 <script>
-/** Imported components */
+import postMessage from "../utils/postMessage";
+
 import HighwayHeader from "../components/map/HighwayHeader";
 import Delimiter from "../components/Delimiter";
 import SegmentHeader from "../components/map/SegmentHeader";
@@ -186,6 +187,9 @@ export default {
     );
 
     this.data.back_to_map.visible = true;
+  },
+  mounted() {
+    postMessage({ height: document.body.scrollHeight });
   },
   methods: {
     projectClicked(index) {

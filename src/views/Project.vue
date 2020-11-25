@@ -83,7 +83,8 @@
 </template>
 
 <script>
-/** Imported compoents */
+import postMessage from "../utils/postMessage";
+
 import HighwayHeader from "../components/map/HighwayHeader";
 import Delimiter from "../components/Delimiter";
 
@@ -121,6 +122,8 @@ export default {
     this.project = this.segment.projects.find(
       item => item.project_slug == this.project_slug
     );
+
+    postMessage({ height: document.body.scrollHeight });
   }
 };
 </script>

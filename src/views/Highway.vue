@@ -70,7 +70,8 @@
 </template>
 
 <script>
-/** Imported components. */
+import postMessage from "../utils/postMessage";
+
 import MapButton from "../components/map/MapButton";
 import HighwayButton from "../components/map/HighwayButton";
 import HighwayHeader from "../components/map/HighwayHeader";
@@ -106,6 +107,8 @@ export default {
     );
 
     this.data.back_to_map.visible = true;
+
+    postMessage({ height: document.body.scrollHeight });
   },
   watch: {
     $route(to) {

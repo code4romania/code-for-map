@@ -92,11 +92,11 @@ export default {
     this.data = data;
   },
   mounted() {
-    postMessage({ height: document.body.scrollHeight })
+    postMessage({ height: document.body.scrollHeight });
 
     window.onresize = debouce(() => {
-      postMessage({ height: document.body.scrollHeight })
-    }, 500)
+      postMessage({ height: document.body.scrollHeight });
+    }, 500);
   }
 };
 </script>
