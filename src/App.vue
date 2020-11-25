@@ -86,7 +86,8 @@ export default {
   },
   created() {
     this.data = data;
-
+  },
+  mounted() {
     parent.postMessage({
       some: "object",
       with: "data"
