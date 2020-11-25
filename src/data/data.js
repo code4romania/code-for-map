@@ -9,7 +9,8 @@ const data = {
       previous: {
         text: "Solutia anterioara",
       }
-    }
+    },
+    financed_by_general_text: "Sustinut de:"
   },
   back_to_map: {
     text: "Înapoi la harta",
@@ -53,6 +54,11 @@ const data = {
     },
     donate: {
       title: "Donează",
+      color: "success",
+      link: ""
+    },
+    finance: {
+      title: "Trimite-ne un e-mail",
       color: "success",
       link: ""
     }
@@ -215,7 +221,7 @@ const data = {
               id: 1,
               project_slug: "project-slug",
               title: "proiect title",
-              description: "description 1",
+              description: "description 3",
               link: "",
               link_text: "Vezi soluția",
               icon: "icon-date-deschise",
@@ -224,6 +230,36 @@ const data = {
                 left: '0'
               },
               adopted: true,
+              adopted_by: [
+                {
+                  id: 1,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                },
+                {
+                  id: 2,
+                  title: "",
+                  description: "",
+                  link: "",
+                  logo: "icon-date-deschise"
+                }
+              ],
+            },
+            {
+              id: 2,
+              project_slug: "project-slug",
+              title: "proiect title",
+              description: "description 1",
+              link: "",
+              link_text: "Vezi soluția",
+              icon: "icon-date-deschise",
+              position: {
+                top: '0',
+                left: '0'
+              },
+              adopted: false,
               adopted_by: [
                 {
                   id: 1,
