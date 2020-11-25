@@ -62,7 +62,11 @@
 </template>
 
 <script>
+import debouce from "lodash.debounce"
+
 import data from "./data/data.js";
+
+import postMessage from "./utils/postMessage";
 
 import BackToMap from "./components/BackToMap";
 import Legend from "./components/Legend";
@@ -88,10 +92,11 @@ export default {
     this.data = data;
   },
   mounted() {
-    parent.postMessage({
-      some: "object",
-      with: "data"
-    }, "http://d0abb63334f0.eu.ngrok.io/")
+    postMessage({ height: document.body.scrollHeight })
+
+    window.onresize = debouce(() => {
+      postMessage({ height: document.body.scrollHeight })
+    }, 500)
   }
 };
 </script>

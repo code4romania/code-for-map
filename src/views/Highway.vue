@@ -108,10 +108,10 @@ export default {
     this.data.back_to_map.visible = true;
   },
   watch: {
-    $route(to, from) {
+    $route(to) {
       if(this.slug != to) {
         this.code4ro_map = this.data.code4ro_map.find(
-        item => item.slug == to.params.slug
+          item => item.slug == to.params.slug
         );
       }
     }
