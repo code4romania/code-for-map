@@ -86,6 +86,11 @@ export default {
   },
   created() {
     this.data = data;
+
+    parent.postMessage({
+      some: "object",
+      with: "data"
+    })
   }
 };
 </script>
