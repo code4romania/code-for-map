@@ -1,18 +1,26 @@
-<svg width="107" height="465" viewBox="0 0 107 465" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0)">
-<path d="M95.2944 384.793C93.749 396.161 90.6318 406.901 85.3406 416.54C81.2281 424.006 77.1418 431.209 73.2913 438.282" stroke="#C8CEDB" stroke-width="9.82781" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M93.5134 330.44C96.3686 348.907 97.6521 367.583 95.3208 384.819" stroke="#C8CEDB" stroke-width="9.82781" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M11.1582 65.6692C12.9918 70.1746 14.8778 74.68 16.0827 79.2902C19.5665 92.5707 26.0103 105.406 31.354 118.87C35.676 129.766 47.0967 137.075 50.7901 148.574C57.8101 170.42 64.6468 193.628 67.9473 216.365C70.4096 233.365 75.5436 249.527 79.5513 266.343C84.0829 285.334 90.0028 307.73 93.5129 330.44" stroke="#C8CEDB" stroke-width="9.82781" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M12.7043 4.92432C8.74894 13.0183 6.2081 21.6886 5.84138 30.0184C5.52705 37.379 4.89839 45.8135 6.6796 52.886C7.75356 57.208 9.45619 61.4253 11.1588 65.6687" stroke="#00B4CC" stroke-width="9.82781" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M70.4361 460.101C81.2427 460.101 90.0032 451.341 90.0032 440.534C90.0032 429.728 81.2427 420.967 70.4361 420.967C59.6295 420.967 50.869 429.728 50.869 440.534C50.869 451.341 59.6295 460.101 70.4361 460.101Z" fill="white" stroke="#00B4CC" stroke-width="9.82781" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M96.5258 376.49C101.951 376.49 106.349 372.092 106.349 366.667C106.349 361.242 101.951 356.844 96.5258 356.844C91.1008 356.844 86.703 361.242 86.703 366.667C86.703 372.092 91.1008 376.49 96.5258 376.49Z" fill="#404366"/>
-<path d="M50.2667 162.064C55.6917 162.064 60.0895 157.666 60.0895 152.241C60.0895 146.816 55.6917 142.418 50.2667 142.418C44.8417 142.418 40.4438 146.816 40.4438 152.241C40.4438 157.666 44.8417 162.064 50.2667 162.064Z" fill="#404366"/>
-<path d="M25.5915 118.424C31.0165 118.424 35.4144 114.026 35.4144 108.601C35.4144 103.176 31.0165 98.7783 25.5915 98.7783C20.1665 98.7783 15.7687 103.176 15.7687 108.601C15.7687 114.026 20.1665 118.424 25.5915 118.424Z" fill="#404366"/>
-<path d="M9.82284 75.0199C15.2478 75.0199 19.6457 70.6221 19.6457 65.1971C19.6457 59.7721 15.2478 55.3743 9.82284 55.3743C4.39783 55.3743 0 59.7721 0 65.1971C0 70.6221 4.39783 75.0199 9.82284 75.0199Z" fill="#404366"/>
-</g>
-<defs>
-<clipPath id="clip0">
-<rect width="106.349" height="465" fill="white"/>
-</clipPath>
-</defs>
+<svg width="560" height="648" viewBox="0 0 560 648" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M242.294 384.869C240.749 396.237 237.632 406.977 232.34 416.616C228.228 424.082 224.142 431.285 220.291 438.357" stroke="#C8CEDB" stroke-width="9.82781" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M240.514 330.516C243.369 348.983 244.652 367.659 242.321 384.895" stroke="#C8CEDB" stroke-width="9.82781" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M158.158 65.7449C159.992 70.2503 161.878 74.7557 163.083 79.3659C166.567 92.6464 173.01 105.482 178.354 118.945C182.676 129.842 194.097 137.15 197.79 148.65C204.81 170.496 211.647 193.704 214.947 216.44C217.41 233.44 222.544 249.602 226.551 266.419C231.083 285.41 237.003 307.806 240.513 330.516" stroke="#C8CEDB" stroke-width="9.82781" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M159.704 5C155.749 13.094 153.208 21.7643 152.841 30.0941C152.527 37.4547 151.898 45.8892 153.68 52.9616C154.754 57.2837 156.456 61.501 158.159 65.7444" stroke="#00B4CC" stroke-width="9.82781" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M217.436 460.177C228.243 460.177 237.003 451.417 237.003 440.61C237.003 429.804 228.243 421.043 217.436 421.043C206.63 421.043 197.869 429.804 197.869 440.61C197.869 451.417 206.63 460.177 217.436 460.177Z" fill="white" stroke="#00B4CC" stroke-width="9.82781" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M243.526 376.565C248.951 376.565 253.349 372.168 253.349 366.743C253.349 361.318 248.951 356.92 243.526 356.92C238.101 356.92 233.703 361.318 233.703 366.743C233.703 372.168 238.101 376.565 243.526 376.565Z" fill="#404366"/>
+<path d="M197.267 162.14C202.692 162.14 207.09 157.742 207.09 152.317C207.09 146.892 202.692 142.494 197.267 142.494C191.842 142.494 187.444 146.892 187.444 152.317C187.444 157.742 191.842 162.14 197.267 162.14Z" fill="#404366"/>
+<path d="M172.591 118.5C178.016 118.5 182.414 114.102 182.414 108.677C182.414 103.252 178.016 98.854 172.591 98.854C167.166 98.854 162.769 103.252 162.769 108.677C162.769 114.102 167.166 118.5 172.591 118.5Z" fill="#404366"/>
+<path d="M156.823 75.0956C162.248 75.0956 166.646 70.6978 166.646 65.2728C166.646 59.8478 162.248 55.45 156.823 55.45C151.398 55.45 147 59.8478 147 65.2728C147 70.6978 151.398 75.0956 156.823 75.0956Z" fill="#404366"/>
+<text fill="#1E1E1E" xml:space="preserve" style="white-space: pre" font-family="Titillium Web" font-size="20" font-weight="600" letter-spacing="0px"><tspan x="76" y="374.45">Banii din politica</tspan></text>
+<text fill="#1E1E1E" xml:space="preserve" style="white-space: pre" font-family="Titillium Web" font-size="20" font-weight="600" letter-spacing="0px"><tspan x="0" y="164.45">Declaratii de avere&#13;</tspan></text>
+<text fill="#1E1E1E" xml:space="preserve" style="white-space: pre" font-family="Titillium Web" font-size="20" font-weight="600" letter-spacing="0px"><tspan x="207" y="101.45">Data Scientists Hub&#13;</tspan></text>
+<text fill="#1E1E1E" xml:space="preserve" style="white-space: pre" font-family="Titillium Web" font-size="20" font-weight="600" letter-spacing="0px"><tspan x="25" y="75.45">Data Portal&#13;</tspan></text>
+<path d="M229.08 643.574L206.421 620.914V528.927L228.927 506.421L229.08 643.574Z" stroke="#00B4CC" stroke-width="4.06579" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M234.331 506.421V643.574" stroke="#00B4CC" stroke-width="4.06579" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M234.331 526.565H293.896V629.606H234.331" stroke="#00B4CC" stroke-width="4.06579" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M299.421 533.071V635.406H253.305" stroke="#00B4CC" stroke-width="4.06579" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M281.645 576.884H234.331" stroke="#00B4CC" stroke-width="4.06579" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M281.645 587.694H234.331" stroke="#00B4CC" stroke-width="4.06579" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M281.645 598.5H234.331" stroke="#00B4CC" stroke-width="4.06579" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M281.645 609.31H234.331" stroke="#00B4CC" stroke-width="4.06579" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M234.484 567.154C235.558 565.473 236.473 563.694 237.217 561.843C238.194 559.097 239.767 556.601 241.823 554.535C245.353 552.017 247.288 559.386 250.788 555.61C251.74 554.535 252.477 552.877 254.257 553.307C256.038 553.737 256.836 555.886 258.004 556.869C259.876 558.465 262.363 559.417 264.328 557.483C266.293 555.548 266.692 551.342 267.552 548.487C268.105 546.583 268.473 544.526 270.315 543.513C271.627 542.902 272.97 542.359 274.338 541.885C276.18 541.087 277.654 539.92 279.404 538.969" stroke="#00B4CC" stroke-width="4.06579" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M275.751 537.094L280.664 538.538L279.282 543.297" stroke="#00B4CC" stroke-width="4.06579" stroke-linecap="round" stroke-linejoin="round"/>
+<text fill="#1E1E1E" xml:space="preserve" style="white-space: pre" font-family="Titillium Web" font-size="40" font-weight="600" letter-spacing="0px"><tspan x="321" y="587.9">Date deschise</tspan></text>
 </svg>
