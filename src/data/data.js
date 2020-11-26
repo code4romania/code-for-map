@@ -220,10 +220,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":"icon-date-deschise",
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -250,10 +246,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":"icon-date-deschise",
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":false,
               "adopted_by":[
                 {
@@ -311,10 +303,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":"icon-date-deschise",
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -372,10 +360,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":"icon-date-deschise",
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -433,10 +417,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":"icon-date-deschise",
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -494,10 +474,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":"icon-date-deschise",
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -555,10 +531,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/care4ro-info-diaspora.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -585,10 +557,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":"icon-date-deschise",
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -615,10 +583,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/care4ro-inapoi-acasa.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -645,10 +609,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/care4ro-brain-gain.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -708,10 +668,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/care4ro-sunrise-management-caz-vd.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -738,10 +694,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/care4ro-sunshine-management-caz-integrat.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -768,10 +720,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/care4ro-sunshine-management-caz-integrat.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -798,10 +746,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/care4ro-banca-de-resurse.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -828,10 +772,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/care4ro-incognito-escape.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -858,10 +798,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/care4ro-website-chatbot.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -888,10 +824,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/care4ro-vorbesc.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -918,10 +850,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/care4ro-support-community.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -948,10 +876,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/care4ro-Widget-hub-violenta-domestica.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -978,10 +902,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/care4ro-banca-de-resurse.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -1008,10 +928,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/care4ro-banca-de-resurse.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -1038,10 +954,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
              "icon":require('../assets/images/projects/care4ro-personal-assessment-kit.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -1068,10 +980,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/care4ro-anger-management.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -1098,10 +1006,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/care4ro-violenta-domestica-media-kit.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -1177,10 +1081,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":"icon-date-deschise",
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -1238,10 +1138,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":"icon-date-deschise",
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -1299,10 +1195,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":"icon-date-deschise",
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -1360,10 +1252,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":"icon-date-deschise",
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -1421,10 +1309,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":"icon-date-deschise",
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -1482,10 +1366,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":"icon-date-deschise",
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -1590,25 +1470,8 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-romania-incognito.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
-              "adopted":true,
-              "adopted_by":[
-                {
-                  "id":1,
-                  "title":"Code for Romania",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                },
-                {
-                  "id":2,
-                  "title":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                }
-              ]
+              "adopted":false,
+              "adopted_by":[]
             }
           ]
         },
@@ -1624,53 +1487,8 @@ const data = {
           },
           "icon_left":false,
           "financed":true,
-          "financed_by":[
-            {
-              "id":1,
-              "title":"",
-              "description":"",
-              "link":"",
-              "logo":"icon-date-deschise"
-            },
-            {
-              "id":2,
-              "title":"",
-              "description":"",
-              "link":"",
-              "logo":"icon-date-deschise"
-            }
-          ],
-          "projects":[
-            {
-              "id":1,
-              "projectSlug":"project-slug",
-              "title":"proiect title",
-              "subtitle":"ceva frumows",
-              "description":"description 1",
-              "link":"",
-              "link_text":"Vezi soluția",
-              "icon":"icon-date-deschise",
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
-              "adopted":true,
-              "adopted_by":[
-                {
-                  "id":1,
-                  "title":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                },
-                {
-                  "id":2,
-                  "title":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                }
-              ]
-            }
-          ]
+          "financed_by":[],
+          "projects":[]
         },
         {
           "id":4,
@@ -1683,114 +1501,9 @@ const data = {
             "left":"49.67%"
           },
           "icon_left":false,
-          "financed":true,
-          "financed_by":[
-            {
-              "id":1,
-              "title":"",
-              "description":"",
-              "link":"",
-              "logo":"icon-date-deschise"
-            },
-            {
-              "id":2,
-              "title":"",
-              "description":"",
-              "link":"",
-              "logo":"icon-date-deschise"
-            }
-          ],
-          "projects":[
-            {
-              "id":1,
-              "projectSlug":"project-slug",
-              "title":"proiect title",
-              "subtitle":"ceva frumows",
-              "description":"description 1",
-              "link":"",
-              "link_text":"Vezi soluția",
-              "icon":"icon-date-deschise",
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
-              "adopted":true,
-              "adopted_by":[
-                {
-                  "id":1,
-                  "title":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                },
-                {
-                  "id":2,
-                  "title":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "id":5,
-          "segmentSlug":"institutii-centrale-functionale",
-          "segment_visual":"segment-participation-06-institutii-centrale-functionale",
-          "title":"Jurnaliști eficienți",
-          "description":"<p>Rolul fundamental al presei este acela de a monitoriza acțiunile factorilor de decizie, observând neregulile și informând publicul. „Câinele de pază al democrației” trece în ultimii ani printr-o perioadă de transformare și reinventare, fiind în căutarea acelor instrumente digitale prin care să poată răspunde exigențelor actuale.</p><p>Ne propunem să dezvoltăm soluții tehnologice care să vină în sprijinul jurnaliștilor, instrumente care pot fi utilizate în anchete, instrumente de comunicare sigură cu sursele sau de vizualizare a datelor.</p>",
-          "btn":{
-            "top":"68.07%",
-            "left":"49.67%"
-          },
-          "icon_left":false,
-          "financed":true,
-          "financed_by":[
-            {
-              "id":1,
-              "title":"",
-              "description":"",
-              "link":"",
-              "logo":"icon-date-deschise"
-            },
-            {
-              "id":2,
-              "title":"",
-              "description":"",
-              "link":"",
-              "logo":"icon-date-deschise"
-            }
-          ],
-          "projects":[
-            {
-              "id":1,
-              "projectSlug":"project-slug",
-              "title":"proiect title",
-              "subtitle":"ceva frumows",
-              "description":"description 1",
-              "link":"",
-              "link_text":"Vezi soluția",
-              "icon":"icon-date-deschise",
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
-              "adopted":true,
-              "adopted_by":[
-                {
-                  "id":1,
-                  "title":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                },
-                {
-                  "id":2,
-                  "title":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                }
-              ]
-            }
-          ]
+          "financed":false,
+          "financed_by":[],
+          "projects":[]
         },
         {
           "id":6,
@@ -1830,10 +1543,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-website-builder-minister.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -1859,10 +1568,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-website-builder-primarie.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -1888,10 +1593,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-acces-544.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -1917,10 +1618,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-biroul-de-propuneri.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -1946,10 +1643,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-bugetare-participativa.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -1975,10 +1668,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-pubic-report.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -2004,10 +1693,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-te-reprezinta.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -2064,10 +1749,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-registrul-national-ong.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -2093,10 +1774,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-onghub.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -2122,10 +1799,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-websitefactory.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -2151,10 +1824,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-redirectioneaza.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -2180,10 +1849,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-rohelp.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -2209,10 +1874,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-paul.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -2238,10 +1899,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-alex.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -2267,10 +1924,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-teo.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -2296,10 +1949,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-funding-call.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -2325,10 +1974,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-votong.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -2354,10 +1999,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-centru-civic.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -2383,10 +2024,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-dateong.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -2412,10 +2049,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-finantari-publice.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -2457,10 +2090,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-vot-romania.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -2480,10 +2109,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-vot-diaspora.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -2503,10 +2128,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-count-us-in.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -2526,10 +2147,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-monitorizare-vot.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -2549,10 +2166,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-ochii-pe-vot.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -2572,10 +2185,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-rezultate-vot.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -2595,10 +2204,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-catalog-politic.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":false,
               "adopted_by":[
                 
@@ -2613,10 +2218,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-swipe-politics.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":false,
               "adopted_by":[
                 
@@ -2662,10 +2263,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-data-portal.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -2691,10 +2288,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-data-scientists-hub.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -2720,10 +2313,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-declaratii-de-avere.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -2749,10 +2338,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-banii-din-politica.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -2809,10 +2394,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-draft-legislativ.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -2838,10 +2419,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-consultare-publica.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -2867,10 +2444,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-expert-consultation.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -2896,10 +2469,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-legi-in-lucru.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -2926,10 +2495,6 @@ const data = {
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-platforme-de-legislatie-locala.png'),
 
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -2955,10 +2520,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-legea-pe-bune.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -2984,10 +2545,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-ce-zice-legea.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -3013,10 +2570,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-edulex.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -3042,10 +2595,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-zi-de-zi.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -3119,10 +2668,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":"icon-date-deschise",
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -3180,10 +2725,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":"icon-date-deschise",
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -3241,10 +2782,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":"icon-date-deschise",
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -3302,10 +2839,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":"icon-date-deschise",
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -3363,10 +2896,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":"icon-date-deschise",
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -3849,10 +3378,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":"icon-date-deschise",
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -4006,10 +3531,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":"icon-date-deschise",
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -4067,10 +3588,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":"icon-date-deschise",
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -4128,10 +3645,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":"icon-date-deschise",
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -4189,10 +3702,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":"icon-date-deschise",
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -4250,10 +3759,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":"icon-date-deschise",
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
