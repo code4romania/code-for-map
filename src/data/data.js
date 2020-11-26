@@ -2522,6 +2522,163 @@ const data = {
                     }
                   ]
                 },
+            }
+          ]
+        },
+        {
+          "id":6,
+          "segmentSlug":"abilitati-pentru-viata-reala",
+          "segment_visual":"segment-education-02-abilitati-pentru-viata-reala",
+          "title":"Abilități pentru viața reală",
+          "description":"Rolul sistemului educațional este de a ne face cunoștință cu lumea, pentru a funcționa bine în ea și a o îmbunătăți și îmbogăți apoi la rândul nostru. Cu toate acestea, la noi, școala se concentrează aproape exclusiv pe științe și arte, nu și pe abilități. Multe dintre nevoile elevilor de a înțelege lumea nu se regăsesc în programele școlare (educație digitală, media, sanitară, financiară, sau pentru dezvoltarea de soft skills).",
+          "btn":{
+            "top":"20.62%",
+            "left":"53%"
+          },
+          "icon_left":false,
+          "financed":true,
+          "financed_by":[
+            {
+              "id":1,
+              "title":"",
+              "description":"",
+              "link":"",
+              "logo":"icon-date-deschise"
+            },
+            {
+              "id":2,
+              "title":"",
+              "description":"",
+              "link":"",
+              "logo":"icon-date-deschise"
+            }
+          ],
+          "projects":[
+            {
+              "id":1,
+                  "projectSlug":"ce-ma-fac",
+                  "title":"Ce Mă Fac",
+                  "subtitle":"O mână de ajutor în planificarea viitoarei cariere pentru elevi",
+                  "description":"<p>Pregătirea pentru cariera profesională de după terminarea studiilor trebuie să înceapă din timpul anilor de școală. Fiecare elev are abilități diferite, dar descoperirea și valorificarea acestora poate fi un proces dificil în condițiile în care serviciile de consiliere pentru carieră nu sunt accesibile tuturor. Ce mă fac este o platformă prin care elevii vor putea înțelege ce presupune fiecare opțiune de carieră. Detaliile care țin de responsabilități și previziuni financiare sunt însoțite de prezentarea beneficiilor și dezavantajelor posibile din fiecare tip de carieră propusă. Toate informațiile sunt prezentate prin tehnici de storytelling atrăgător categoriilor de vârstă cărora li se adresează această soluție.</p>",
+                  "link":"",
+                  "link_text":"Vezi soluția",
+                  "icon":require('../assets/images/projects/education4ro-ce-ma-fac.png'),
+                  "adopted":true,
+                  "adopted_by":[
+                    {
+                      "id":1,
+                      "title":"",
+                      "link":"",
+                      "logo":"icon-date-deschise"
+                    },
+                    {
+                      "id":2,
+                      "title":"",
+                      "link":"",
+                      "logo":"icon-date-deschise"
+                    }
+                  ]
+                },
+                {
+                  "id":2,
+                  "projectSlug":"micii-cetateni",
+                  "title":"Micii Cetățeni",
+                  "subtitle":"Povești despre cum putem construi o societate mai bună pentru toți",
+                  "description":"<p>Copiii învață prea târziu sau prea puțin în școală despre locul lor în societate, despre felul în care aceasta funcționează sau despre beneficiile pe care implicarea fiecăruia le poate aduce în viața tuturor. Pentru că felul în care cei mici învață cel mai bine este prin povești, am construit un portal care conține cărți de povești pentru grupele de vârstă preșcolare, din care să poată deprinde noțiuni care țin de civism și formarea unor cetățeni buni și implicați.</p>",
+                  "link":"",
+                  "link_text":"Vezi soluția",
+                  "icon":require('../assets/images/projects/education4ro-micii-cetateni.png'),
+                  "adopted":true,
+                  "adopted_by":[
+                    {
+                      "id":1,
+                      "title":"",
+                      "link":"",
+                      "logo":"icon-date-deschise"
+                    },
+                    {
+                      "id":2,
+                      "title":"",
+                      "link":"",
+                      "logo":"icon-date-deschise"
+                    }
+                  ]
+                },
+                {
+                  "id":3,
+                  "projectSlug":"civic-fitness",
+                  "title":"Civic Fitness",
+                  "subtitle":"Exerciții scurte pentru dezvoltarea de abilități civice și socio-emoționale",
+                  "description":"<p>Educația pe tot parcursul vieții este puțin răspândită și, în general, concentrată pe noțiuni ce țin de dezvoltarea punctuală a unor abilități profesionale. Civic Fitness este o aplicație mobilă care oferă adulților cu un ritm de viață alert posibilitatea de a dobândi, prin lecții sau exerciții scurte, abilități utile în  dezvoltarea lor continuă. Pe lângă abilități socio-emoționale utile în diverse contexte, aplicația oferă informații, cunoștințe și valori care să responsabilizeze utilizatorii și să îi pregătească pentru implicarea democratică informată în problemele societății.</p>",
+                  "link":"",
+                  "link_text":"Vezi soluția",
+                  "icon":require('../assets/images/projects/education4ro-civic-fitness.png'),
+                  "adopted":true,
+                  "adopted_by":[
+                    {
+                      "id":1,
+                      "title":"",
+                      "link":"",
+                      "logo":"icon-date-deschise"
+                    },
+                    {
+                      "id":2,
+                      "title":"",
+                      "link":"",
+                      "logo":"icon-date-deschise"
+                    }
+                  ]
+                },
+                {
+                  "id":4,
+                  "projectSlug":"descurca-tech",
+                  "title":"Descurcă-tech",
+                  "subtitle":"Sprijin pentru cei care fac primii pași în utilizarea tehnologiei",
+                  "description":"<p>O mare parte din populație, fie din cauza vârstei sau a condiției sociale, nu are noțiuni de bază de utilizare a tehnologiei. Pentru a beneficia de avantajele aduse de progresul tehnologic, mulți dintre ei au nevoie de sprijinul celor apropiați. Descurcă-tech este o platformă care oferă resurse celor care se oferă să îi învețe pe aceia care încă nu au astfel de abilități cum să folosească mai bine tehnologia în folosul lor. De exemplu, cei care vor să își învețe bunicii cum să folosească un smartphone pot primi aici resursele necesare, în diferite formate, inclusiv printabile, pentru a fi ușor înțelese și asimilate. În plus, platforma va pune la dispoziția celor care învață cum să utilizeze tehnologia un helpline prin care aceștia vor putea obține consiliere și sprijin rapid.</p>",
+                  "link":"",
+                  "link_text":"Vezi soluția",
+                  "icon":require('../assets/images/projects/education4ro-descurca-tech.png'),
+                  "adopted":true,
+                  "adopted_by":[
+                    {
+                      "id":1,
+                      "title":"",
+                      "link":"",
+                      "logo":"icon-date-deschise"
+                    },
+                    {
+                      "id":2,
+                      "title":"",
+                      "link":"",
+                      "logo":"icon-date-deschise"
+                    }
+                  ]
+                },
+                {
+                  "id":5,
+                  "projectSlug":"evalueaza-tech",
+                  "title":"Evaluează-tech",
+                  "subtitle":"Evaluarea competențelor digitale de bază",
+                  "description":"<p>Pentru a putea construi și dezvolta abilități digitale, e nevoie de o evaluare corectă a celor deja existente. Evaluează-tech este o platformă care oferă posibilitatea evaluării competențelor digitale de bază adresată în primul rând celor care lucrează în instituții publice, fiind însă deschisă tuturor. Pe lângă abilitățile de bază, platforma va evalua inclusiv optimizarea fluxurilor și eficientizarea lucrului cu instrumente digitale.</p>",
+                  "link":"",
+                  "link_text":"Vezi soluția",
+                  "icon":require('../assets/images/projects/education4ro-evalueaza-tech.png'),
+                  "adopted":true,
+                  "adopted_by":[
+                    {
+                      "id":1,
+                      "title":"",
+                      "link":"",
+                      "logo":"icon-date-deschise"
+                    },
+                    {
+                      "id":2,
+                      "title":"",
+                      "link":"",
+                      "logo":"icon-date-deschise"
+                    }
+                  ]
+                },
                 {
                   "id":6,
                   "projectSlug":"invata-tech",
@@ -2768,8 +2925,226 @@ const data = {
               ]
             }
           ]
-        }
-      ]
+        },
+        {
+        "id":7,
+        "segmentSlug":"profesori-bine-pregatiti",
+        "segment_visual":"segment-education-01-profesori-bine-pregatiti",
+        "title":"Profesori bine pregatiti",
+        "description":"România nu poate avea un sistem educațional funcțional fără profesori bine pregătiți. Cu cât vom avea profesori mai buni, vom avea elevi mai performanți, pasionați și bine instruiți. Indiferent dacă predau în ciclurile pre-universitare sau în învățământul superior, profesorii sunt repere, fiind principala interfață dintre sistemul educațional și elev. Drumul nostru începe cu ei, pentru că profesorii sunt factori multiplicatori. Mai mulți profesori bine pregătiți înseamnă de zeci de ori mai mulți elevi care primesc o educație de calitate.",
+        "btn":{
+          "top":"12.2%",
+          "left":"66.17%"
+        },
+        "icon_left":true,
+        "financed":true,
+        "financed_by":[
+          {
+            "id":1,
+            "title":"",
+            "description":"",
+            "link":"",
+            "logo":"icon-date-deschise"
+          },
+          {
+            "id":2,
+            "title":"",
+            "description":"",
+            "link":"",
+            "logo":"icon-date-deschise"
+            }
+              ],
+              "projects":[
+                {
+                  "id":1,
+                  "projectSlug":"scoala profesorilor",
+                  "title":"Școala Profesorilor",
+                  "subtitle":"Managementul carierei pentru profesori, simplificat",
+                  "description":"<p>Managementul carierei în educație este un concept destul de străin și profesorii sau învățătorii nu au instrumente la dispoziție pentru a-și planifica parcursul profesional corect și cu un consum minim de resurse. Școala profesorilor este o aplicație web în care profesorul își poate crea un cont și configura un parcurs profesional dorit, iar pe baza acestuia i se recomandă un plan de învățare (inclusiv cursuri recomandate, acreditate sau nu), iar școala își poate crea un cont unde își poate introduce toți profesorii și menține la zi informațiile despre gradele, cursurile și formările acestora, unde poate configura parcursul resurselor sale umane, estima costuri și organiza calendarul de training</p>",
+                  "link":"",
+                  "link_text":"Vezi soluția",
+                  "icon":require('../assets/images/projects/education4ro-scoala-profesorilor.png'),
+                  "adopted":true,
+                  "adopted_by":[
+                    {
+                      "id":1,
+                      "title":"Fundația Vodafone România",
+                      "description":"",
+                      "link":"",
+                      "logo":"icon-date-deschise"
+                    },
+                    {
+                      "id":2,
+                      "title":"",
+                      "description":"",
+                      "link":"",
+                      "logo":"icon-date-deschise"
+                    }
+                  ]
+                },
+                {
+                  "id":2,
+                  "projectSlug":"resurse profesorilor",
+                  "title":"Resurse Profesori",
+                  "subtitle":"Resurse educaționale gratuite pentru toți profesorii",
+                  "description":"<p>Fiecare cadru didactic, odată ajuns în învățământ, este pe cont propriu și își construiește lecțiile folosindu-se de resurse pe care le descoperă și adaptează singur, unica îndrumare venind de la alte cadre didactice tot la inițiativa independentă a profesorului. Resurse profesori este un set de instrumente de folosit la clasă pe care să și-l configureze și descarce din platformă orice profesor. Răspunzând la câteva întrebări legate de mediul în care predă, profesorul își poate personaliza un pachet de bază de resurse utile pentru predatul de zi cu zi. În același timp, aplicația poate recomanda o serie de alte instrumente administrative utile în managementul cursurilor: instrumente de monitorizare a progresului elevilor, de management personal al timpului, cataloage digitale etc.</p>",
+                  "link":"",
+                  "link_text":"Vezi soluția",
+                  "icon":require('../assets/images/projects/education4ro-resurse-profesori.png'),
+                  "adopted":true,
+                  "adopted_by":[
+                    {
+                      "id":1,
+                      "title":"Fundația Vodafone România",
+                      "description":"",
+                      "link":"",
+                      "logo":"icon-date-deschise"
+                    },
+                    {
+                      "id":2,
+                      "title":"",
+                      "description":"",
+                      "link":"",
+                      "logo":"icon-date-deschise"
+                    }
+                  ]
+                },
+                {
+                  "id":3,
+                  "projectSlug":"classroom-demo",
+                  "title":"Classroom Demo",
+                  "subtitle":"Mentorat video pentru profesorii la început de drum",
+                  "description":"<p>O problemă foarte mare în sistemul educațional din România e faptul că mentoratul și pregătirea inițială a cadrelor didactice nu asigură însușirea competențelor care permit mai apoi gestiunea socio-emoțională a copiilor și a tinerilor. În lipsa unui sistem funcțional de mentorat, cadrele didactice începătoare sunt lăsate pe cont propriu cu foarte puțin ghidaj din partea colegilor lor.</p> <p>Classroom Demo este o platformă care oferă acces la o colecție de materiale video pentru profesorii și învățătorii începători care au nevoie de ghidaj pentru a deveni mai buni la clasă. Materialele vor fi de mai multe tipuri - ore deja înregistrate de profesori metodiști pentru a permite începătorilor să analizeze desfășurarea unei ore la clasă, alături de alte materiale video utile construite de cadre didactice experimentate. În plus, platforma poate conține și materiale video în alte limbi, subtitrate în limba română.</p>",
+                  "link":"",
+                  "link_text":"Vezi soluția",
+                 "icon":require('../assets/images/projects/education4ro-classroom-demo.png'),
+                  "adopted":true,
+                  "adopted_by":[
+                    {
+                      "id":1,
+                      "title":"Fundația Vodafone România",
+                      "description":"",
+                      "link":"",
+                      "logo":"icon-date-deschise"
+                    },
+                    {
+                      "id":2,
+                      "title":"",
+                      "description":"",
+                      "link":"",
+                      "logo":"icon-date-deschise"
+                    }
+                  ]
+                },
+                {
+                  "id":4,
+                  "projectSlug":"teacher-workout",
+                  "title":"Teacher Workout",
+                  "subtitle":"Abilități socio-emoționale pentru profesori",
+                  "description":"<p>Educatorii joacă un rol covârșitor în dezvoltarea noastră, de aceea este important să înțelegem în profunzime cum putem să îi ajutăm și să îi echipăm cu toate instrumentele necesare ca ei să poată avea grijă de noi și de copiii noștri. Formarea inițială nu asigură însușirea competențelor care permit mai apoi gestiunea socio-emoțională a copiilor și a tinerilor. </p> <p>Teacher workout este o aplicație care oferă acces la cursuri scurte, interactive, pe subiecte care acoperă o gamă largă de tematici de la identificarea cu ușurință a copiilor cu dificultăți de învățare, până la gestiunea situațiilor complicate de la clasă, integrarea copiilor cu nevoi speciale în colectivul clasei și multe alte micro-cursuri de formare de obiceiuri pozitive pentru profesor.</p>",
+                  "link":"",
+                  "link_text":"Vezi soluția",
+                  "icon":require('../assets/images/projects/education4ro-teacher-workout.png'),
+                  "adopted":true,
+                  "adopted_by":[
+                    {
+                      "id":1,
+                      "title":"Fundația Vodafone România",
+                      "description":"",
+                      "link":"",
+                      "logo":"icon-date-deschise"
+                    },
+                    {
+                      "id":2,
+                      "title":"",
+                      "description":"",
+                      "link":"",
+                      "logo":"icon-date-deschise"
+                    }
+                  ]
+                },
+                {
+                  "id":5,
+                  "projectSlug":"profesor-in-spital",
+                  "title":"Profesor în Spital",
+                  "subtitle":"Acces la educație pentru copiii internați în spitale",
+                  "description":"<p>Copiii care sunt internați pentru mult timp rămân în urmă cu materiile predate în școală, ceea ce înseamnă că vor fi reintegrați în colectiv mult mai greu atunci când vor reveni în sala de clasă. Profesorii nu sunt pregătiți pentru astfel de situații și pentru mulți dintre ei ar fi extrem de dificil să se deplaseze să lucreze cu acești copii în spital. Platforma Profesor în spital centralizează ONG-urile care derulează programe de școală în spital. Datele sunt dispuse pe județe și orașe, iar pe pagina dedicată fiecărui ONG, un spital sau un părinte poate să aplice pentru a beneficia, în măsura disponibilității ONG-ului, de acest tip de serviciu. Platforma identifică inclusiv acele orașe în care în acest moment nu există ONG-uri active, dar unde apare această nevoie de sprijin educațional. În același timp, pentru a susține activitatea ONG-urilor, platforma este integrată și cu un sistem de plăți pentru a le oferi acestora posibilitatea de a strânge fonduri pentru extinderea programelor lor.</p>",
+                  "link":"",
+                  "link_text":"Vezi soluția",
+                  "icon":require('../assets/images/projects/education4ro-profesor-spital.png'),
+                  "adopted":true,
+                  "adopted_by":[
+                    {
+                      "id":1,
+                      "title":"Fundația Vodafone România",
+                      "description":"",
+                      "link":"",
+                      "logo":"icon-date-deschise"
+                    },
+                    {
+                      "id":2,
+                      "title":"",
+                      "description":"",
+                      "link":"",
+                      "logo":"icon-date-deschise"
+                    }
+                  ]
+                },
+                {
+                  "id":6,
+                  "projectSlug":"acces",
+                  "title":"Acces",
+                  "subtitle":"Resurse educaționale gratuite pentru profesorii care lucrează cu copii cu CES",
+                  "description":"<p>Resursele disponibile online pentru lucrul cu elevi în situații de risc sau pentru integrarea copiilor cu cerințe educaționale speciale adesea nu sunt relevante sau nu sunt în limba română și nu sunt adaptate la realitatea din România. AcCES este un centralizator digital de resurse educaționale gratuite pentru profesorii care lucrează cu copii cu CES, integrată și cu un helpline asigurat de psihologi cu care profesorii pot veni în contact pentru a discuta cazuri speciale și a obține sfaturi și ajutor. Platforma va deschide resursele pentru toți profesorii, iar pentru a intra în contact cu un terapeut, aceștia vor trebui să își creeze un cont și să posteze o cerere de ajutor pentru a putea fi preluați de un specialist.</p>",
+                  "link":"",
+                  "link_text":"Vezi soluția",
+                  "icon":require('../assets/images/projects/education4ro-acces.png'),
+                  "adopted":true,
+                  "adopted_by":[
+                    {
+                      "id":1,
+                      "title":"Fundația Vodafone România",
+                      "description":"",
+                      "link":"",
+                      "logo":"icon-date-deschise"
+                    },
+                    {
+                      "id":2,
+                      "title":"",
+                      "description":"",
+                      "link":"",
+                      "logo":"icon-date-deschise"
+                    }
+                  ]
+                },
+                {
+                  "id":7,
+                  "projectSlug":"e-sense",
+                  "title":"e-Sense",
+                  "subtitle":"Exerciții flexibile, adaptate pentru copiii cu surdocecitate",
+                  "description":"<p>Accesul la o educație de calitate pentru copiii cu surdocecitate depinde de accesul celor care se ocupă de formarea lor la resurse educaționale de calitate.  Copiii în această situație au nevoi speciale ce țin de comunicare, socializare, dezvoltare cognitivă și psihomotrică. eSense este o soluție adaptată nevoilor lor specifice date de combinația de deficiențe de vedere și de auz. Aplicația sprijină cadrele didactice în intervenția timpurie și nu numai, cu exerciții și jocuri flexibile, care urmează curriculumul în vigoare, fiind deschisă pentru toată lumea, open-source, replicabilă și reutilizabilă în toată lumea.</p>",
+                  "link":"",
+                  "link_text":"Vezi soluția",
+                  "icon":"icon-date-deschise",
+                  "adopted":true,
+                  "adopted_by":[
+                    {
+                      "id":1,
+                      "title":"Fundația Orange",
+                      "link":"",
+                      "logo":"icon-date-deschise"
+                    },
+                    {
+                      "id":2,
+                      "title":"",
+                      "link":"",
+                      "logo":"icon-date-deschise"
+                    }
+                  ]
+                }
+              ]
+          }
+        },
     },
     {
       "id":5,
