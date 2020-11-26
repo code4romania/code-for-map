@@ -82,7 +82,6 @@
 import postMessage from "../utils/postMessage";
 
 import HighwayHeader from "../components/map/HighwayHeader";
-import Delimiter from "../components/Delimiter";
 
 export default {
   /** Component name */
@@ -94,8 +93,7 @@ export default {
     }
   },
   components: {
-    HighwayHeader,
-    Delimiter
+    HighwayHeader
   },
   data() {
     return {

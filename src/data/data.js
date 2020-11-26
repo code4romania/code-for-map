@@ -185,9 +185,9 @@ const data = {
       "highway_segment":[
         {
           "id":1,
-          "highway_slug":"fara-trafic-de-persoane",
+          "highway_slug":"fara-violenta-acasa",
           "segment_visual":"segment-care-07-fara-trafic-de-persoane",
-          "title":"Fără trafic de persoane",
+          "title":"Fără violență acasă",
           "description":"<p>România rămâne o sursă primară de victime ale traficului în scopuri sexuale și de muncă, aspect ce ne-a plasat pe locul I într-un clasament ce vizează țările din Europa.</p><p>În timp ce datoria de bază a oricărei comunități este să ofere și să apere siguranța membrilor ei în fața oricăror amenințări, victimele traficului de persoane nu sunt protejate, iar eforturile de combatere a acestui fenomen sunt prea puțin semnificative.</p><p>Urmărim indicatori de trafic de persoane în rândul comunităților vulnerabile și modalități prin care împreună, prin intermediul tehnologiei, putem stopa creșterea numărului de victime, dar și construi pârghii pentru ocrotirea acestora.</p>",
           "btn":{
             "top":"15%",
@@ -573,9 +573,39 @@ const data = {
           "projects":[
             {
               "id":1,
-              "project_slug":"project-slug",
-              "title":"proiect title",
-              "description":"description 1",
+              "project_slug":"Diaspora-hub",
+              "title":"Diaspora Hub",
+              "description":"Una dintre problemele reale din societatea română contemporană este dezechilibrul informațional cauzat de accesul facil la surse de informare atractive de calitate îndoielnică și accesul greu la surse de informare de calitate. Diaspora Hub își propune să fie portalul prin care cetățenii români care trăiesc în afara granițelor țării să aibă acces într-un singur loc la toate informațiile de care au nevoie pentru a putea menține contactul cu instituțiile statului român și a beneficia de drepturile lor cetățenești.",
+              "link":"",
+              "link_text":"Vezi soluția",
+              "icon":require('../assets/images/projects/care4ro-info-diaspora.png'),
+              "position":{
+                "top":"0",
+                "left":"0"
+              },
+              "adopted":true,
+              "adopted_by":[
+                {
+                  "id":1,
+                  "title":"",
+                  "description":"",
+                  "link":"",
+                  "logo":"icon-date-deschise"
+                },
+                {
+                  "id":2,
+                  "title":"",
+                  "description":"",
+                  "link":"",
+                  "logo":"icon-date-deschise"
+                }
+              ]
+            },
+            {
+              "id":2,
+              "project_slug":"info-diaspora",
+              "title":"Info Diaspora",
+              "description":"O problemă recurentă a românilor din diaspora este lipsa accesului facil la diverse servicii oferite de instituțiile statului român. O suită de servicii administrative, de la emiterea actelor de identitate și călătorie până la autentificarea înscrisurilor și alte servicii de notariat sunt oferite exclusiv prin ambasadele și consulatele statului român. Info Diaspora simplifică interacțiunile cu statul român și oferă informații pentru situațiile în care cetățenii care nu mai locuiesc în România au nevoie de asistența instituțiilor românești.",
               "link":"",
               "link_text":"Vezi soluția",
               "icon":"icon-date-deschise",
@@ -600,24 +630,86 @@ const data = {
                   "logo":"icon-date-deschise"
                 }
               ]
+            },
+            {
+              "id":3,
+              "project_slug":"inapoi-acasă",
+              "title":"Înapoi acasă",
+              "description":"Pentru mulți dintre românii plecați din țară decizia relocării a fost una necesară și clar motivată, în ciuda confruntării cu necunoscutul. Întoarcerea acasă poate fi o perspectivă la fel de marcată de incertitudine, mulți dintre cei din diaspora neștiind dacă odată întorși își vor putea asigura aici un nivel mulțumitor al calității vieții. Portalul Înapoi Acasă le oferă informații și resurse care le sunt necesare celor care intenționează să se întoarcă - locuri de muncă, oportunități de carieră, informații practice privind costul vieții, documente etc.",
+              "link":"",
+              "link_text":"Vezi soluția",
+              "icon":require('../assets/images/projects/care4ro-inapoi-acasa.png'),
+              "position":{
+                "top":"0",
+                "left":"0"
+              },
+              "adopted":true,
+              "adopted_by":[
+                {
+                  "id":1,
+                  "title":"",
+                  "description":"",
+                  "link":"",
+                  "logo":"icon-date-deschise"
+                },
+                {
+                  "id":2,
+                  "title":"",
+                  "description":"",
+                  "link":"",
+                  "logo":"icon-date-deschise"
+                }
+              ]
+            },
+            {
+              "id":4,
+              "project_slug":"brain-gain",
+              "title":"Brain Gain",
+              "description":"Pentru mulți dintre românii plecați din țară decizia relocării a fost una necesară și clar motivată, în ciuda confruntării cu necunoscutul. Întoarcerea acasă poate fi o perspectivă la fel de marcată de incertitudine, mulți dintre cei din diaspora neștiind dacă odată întorși își vor putea asigura aici un nivel mulțumitor al calității vieții. Portalul Înapoi Acasă le oferă informații și resurse care le sunt necesare celor care intenționează să se întoarcă - locuri de muncă, oportunități de carieră, informații practice privind costul vieții, documente etc.",
+              "link":"",
+              "link_text":"Vezi soluția",
+              "icon":require('../assets/images/projects/care4ro-brain-gain.png'),
+              "position":{
+                "top":"0",
+                "left":"0"
+              },
+              "adopted":true,
+              "adopted_by":[
+                {
+                  "id":1,
+                  "title":"",
+                  "description":"",
+                  "link":"",
+                  "logo":"icon-date-deschise"
+                },
+                {
+                  "id":2,
+                  "title":"",
+                  "description":"",
+                  "link":"",
+                  "logo":"icon-date-deschise"
+                }
+              ]
             }
+
+
           ]
         },
         {
           "id":7,
           "highway_slug":"fara-violenta-acasa",
-          "segment_visual":"segment-care-01-fara-violenta-acasa",
-          "title":"Fără violență acasă",
-          "description":"<p>Pentru prea multe familii, acasă nu mai reprezintă locul în care găsesc echilibrul necesar și un refugiu în fața grijilor, iar nesiguranța resimțită în propria casă este un sentiment pe care nimeni nu ar trebui să-l trăiască.</p><p>Violența domestică, fie că vizează relația de cuplu, copiii sau persoanele în vârstă, are un trecut bogat în România, iar urmele lăsate în viața victimelor sunt greu de remediat.</p><p>Indiferent că vorbim despre violență verbală, psihologică, fizică, sexuală sau economică, am ales să analizăm acest domeniu pentru a  ne concentra  atenția asupra unui fenomen vitregit de atenția care i se cuvine, într-o societate care continuă să îl normalizeze.</p>",
+          "segment_visual":"segment-care-03-incluziune-pentru-persoanele-lgbtq",
+          "title":"Incluziune pentru persoanele LGBTQ+",
+          "description":"<p>Au trecut doar 20 de ani de când statul român pedepsea cu închisoarea relațiile de dragoste dintre persoanele de același sex. De atunci și până acum, societatea civilă luptă continuu pentru drepturilor și libertăților persoanelor LGBTQ+.</p><p>Deși lucrurile se îmbunătățesc într-un ritm lent, acceptarea și integrarea lor încă reprezintă o problemă în spațiul public, iar consecințele au un impact sever pentru membrii comunității, dar și pentru întreaga societate.</p><p>Ne uităm atent la fenomenul discriminării pe criterii de orientare sexuală și identitate de gen în vederea dezvoltării unor soluții de tehnologie civică menite să sprijine aceste comunități.</p>",
           "btn":{
-            "top":"43%",
-            "left":"23%"
+            "top":"23%",
+            "left":"10%"
           },
           "icon_title_position":{
-            "top":"0%",
+            "top":"20%",
             "left":"68%"
           },
-          "icon_left":true,
+          "icon_left":false,
           "financed":true,
           "financed_by":[
             {
@@ -638,12 +730,402 @@ const data = {
           "projects":[
             {
               "id":1,
-              "project_slug":"project-slug",
-              "title":"proiect title",
-              "description":"description 1",
+              "project_slug":"sunrise",
+              "title":"Sunrise - Software de management de caz pentru ONGuri",
+              "description":"Sistemul de management de caz permite ONG-urilor să administreze cazurile de violență domestică de care se ocupă și să își digitalizeze toate dosarele într-un singur spațiu securizat. În același timp, sistemul de management de caz, prin colectarea disponibilității ONG-urilor în ceea ce privește serviciile pe care le oferă, va permite crearea unei baze de date pe care fiecare organizație o poate accesa și redirecționa cazuri către alte asociații în funcție de nevoile din fiecare situație.",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":"icon-date-deschise",
+              "icon":require('../assets/images/projects/care4ro-sunrise-management-caz-vd.png'),
+              "position":{
+                "top":"0",
+                "left":"0"
+              },
+              "adopted":true,
+              "adopted_by":[
+                {
+                  "id":1,
+                  "title":"",
+                  "description":"",
+                  "link":"",
+                  "logo":"icon-date-deschise"
+                },
+                {
+                  "id":2,
+                  "title":"",
+                  "description":"",
+                  "link":"",
+                  "logo":"icon-date-deschise"
+                }
+              ]
+            },
+            {
+              "id":2,
+              "project_slug":"sunshine",
+              "title":"Sunshine",
+              "description" : "Institutul Est European pentru Sănătatea Reproducerii, organizație acreditată în oferirea de servicii pentru victimele violenței domestice, a pilotat un sistem informatic cu participarea tuturor actorilor relevanți la nivelul județului Mureș. Acest sistem a permis unificarea documentelor asociate unui caz de violență domestică între instituții și ONG precum și standardizarea raportării. Programul s-a derulat cu succes pentru o perioadă lungă de timp, dar a fost întrerupt din motive de mentenanță tehnică. Reconstruirea acestui sistem software și implementarea sa la nivel de județ, vor putea servi drept model și caz de referință pentru implementarea sa la nivel național. Soluția este modulară, cu componente dedicate fiecărui actor potențial, ceea ce oferă o flexibilitate foarte mare la nivelul fiecărui județ de a utiliza modulele în funcție de disponibilitatea și capacitatea instituțiilor și a organizațiilor de a utiliza acest instrument digital pentru o mai bună acoperire a cazurilor.",
+              "link":"",
+              "link_text":"Vezi soluția",
+              "icon":require('../assets/images/projects/care4ro-sunshine-management-caz-integrat.png'),
+              "position":{
+                "top":"0",
+                "left":"0"
+              },
+              "adopted":true,
+              "adopted_by":[
+                {
+                  "id":1,
+                  "title":"",
+                  "description":"",
+                  "link":"",
+                  "logo":"icon-date-deschise"
+                },
+                {
+                  "id":2,
+                  "title":"",
+                  "description":"",
+                  "link":"",
+                  "logo":"icon-date-deschise"
+                }
+              ]
+            },
+            {
+              "id":3,
+              "project_slug":"Hub-Violenta-Domestică",
+              "title":"Violență domestică Hub",
+              "description":"VD Hub este o platformă cu rol de colectare și centralizare a tuturor resurselor pe care le au la dispoziție atât victimele, cât și cei care oferă servicii pentru acestea. Platforma este construită în jurul unui motor de căutare care să indexeze și să returneze cele mai bune informații pentru utilizatori. Aceasta ar lista resurse atât din punct de vedere al celor care oferă servicii, cât și informații de ordin legislativ, administrativ sau alte instrumente utile. Cu ajutorul unor ghiduri simple de căutare, orice utilizator este îndreptat cu ușurință către acele seturi de informații de care are nevoie în funcție de situația sa.",
+              "link":"",
+              "link_text":"Vezi soluția",
+              "icon":require('../assets/images/projects/care4ro-sunshine-management-caz-integrat.png'),
+              "position":{
+                "top":"0",
+                "left":"0"
+              },
+              "adopted":true,
+              "adopted_by":[
+                {
+                  "id":1,
+                  "title":"",
+                  "description":"",
+                  "link":"",
+                  "logo":"icon-date-deschise"
+                },
+                {
+                  "id":2,
+                  "title":"",
+                  "description":"",
+                  "link":"",
+                  "logo":"icon-date-deschise"
+                }
+              ]
+            },
+            {
+              "id":4,
+              "project_slug":"Banca de resurse",
+              "title":"Banca de Resurse",
+              "description" : "VD Hub este o platformă cu rol de colectare și centralizare a tuturor resurselor pe care le au la dispoziție atât victimele, cât și cei care oferă servicii pentru acestea. Platforma este construită în jurul unui motor de căutare care să indexeze și să returneze cele mai bune informații pentru utilizatori. Aceasta ar lista resurse atât din punct de vedere al celor care oferă servicii, cât și informații de ordin legislativ, administrativ sau alte instrumente utile. Cu ajutorul unor ghiduri simple de căutare, orice utilizator este îndreptat cu ușurință către acele seturi de informații de care are nevoie în funcție de situația sa.",
+              "link":"",
+              "link_text":"Vezi soluția",
+              "icon":require('../assets/images/projects/care4ro-banca-de-resurse.png'),
+              "position":{
+                "top":"0",
+                "left":"0"
+              },
+              "adopted":true,
+              "adopted_by":[
+                {
+                  "id":1,
+                  "title":"",
+                  "description":"",
+                  "link":"",
+                  "logo":"icon-date-deschise"
+                },
+                {
+                  "id":2,
+                  "title":"",
+                  "description":"",
+                  "link":"",
+                  "logo":"icon-date-deschise"
+                }
+              ]
+            },
+            {
+              "id":5,
+              "project_slug":"Incognito-Escape",
+              "title":"Incognito Escape",
+              "description" : "În special în mediul urban, unde mecanismele de control ale agresorului sunt mult mai sofisticate (ex: urmărire a telefonului, control al calendarului victimei etc.) raportarea unui abuz este cu atât mai dificilă cu cât teama de a nu fi descoperită a victimei este mai mare. Soluția propusă este un sistem de comunicare securizat prin care victimele violenței domestice pot comunica ușor, fără a avea nevoie de cunoștințe avansate de tehnologie cu ONG-urile sau autoritățile care ar putea sa le ajute. Platforma web asistă victima pas cu pas prin procesul de transmitere securizată a informațiilor către ONG, ONG-ul primește o alertă atunci când are un mesaj de la o victimă și se autentifică într-un panou de administrare securizat în care poate vedea mesajul victimei și documentele pe care aceasta le-a transmis dacă este cazul. Toate documentele transmise (fotografii, acte etc.) sunt la rândul lor criptate, doar ONG-ul sau instituția fiind cei care dețin cheia de criptare a acestora.",
+              "link":"",
+              "link_text":"Vezi soluția",
+              "icon":require('../assets/images/projects/care4ro-incognito-escape.png'),
+              "position":{
+                "top":"0",
+                "left":"0"
+              },
+              "adopted":true,
+              "adopted_by":[
+                {
+                  "id":1,
+                  "title":"",
+                  "description":"",
+                  "link":"",
+                  "logo":"icon-date-deschise"
+                },
+                {
+                  "id":2,
+                  "title":"",
+                  "description":"",
+                  "link":"",
+                  "logo":"icon-date-deschise"
+                }
+              ]
+            },
+            {
+              "id":6,
+              "project_slug":"Website-Chatbot",
+              "title":"Website Chatbot",
+              "description" : "Lipsa metodelor diverse prin care victimele pot cere ajutor este o problemă pentru că nu toate victimele pot discuta telefonic cu o autoritate sau cu un ONG. De asemenea, comportamentele de comunicare ale publicului tânăr s-au schimbat, adesea aceștia preferând să discute în scris și căutându-și informația online, fără a dori un contact telefonic de la prima încercare de a raporta sau discuta despre o situație abuzivă. Un chatbot care poate fi conectat cu conturile sociale sau instalat pe website-urile organizațiilor poate să ajute victimele să comunice mai ușor și poate de multe ori să degreveze organizația de o serie de întrebări constante la care ei răspund mereu, individual fiecărei persoane care îi contactează. Uniformizarea informației va ajuta de asemenea pentru că așa ne asigurăm că, indiferent de organizația cu care discută victima, va primi aceleași sfaturi de bază, verificate și validate.",
+              "link":"",
+              "link_text":"Vezi soluția",
+              "icon":require('../assets/images/projects/care4ro-website-chatbot.png'),
+              "position":{
+                "top":"0",
+                "left":"0"
+              },
+              "adopted":true,
+              "adopted_by":[
+                {
+                  "id":1,
+                  "title":"",
+                  "description":"",
+                  "link":"",
+                  "logo":"icon-date-deschise"
+                },
+                {
+                  "id":2,
+                  "title":"",
+                  "description":"",
+                  "link":"",
+                  "logo":"icon-date-deschise"
+                }
+              ]
+            },
+            {
+              "id":7,
+              "project_slug":"Vorbesc-helpline-psihologic-gratuit",
+              "title":"Vorbesc: helpline psihologic gratuit",
+              "description" : "Modurile prin care o victimă poate solicita ajutor sunt adesea prea complicate ca aceasta să poată să beneficieze de ele. De exemplu, pentru a primi consiliere psihologică gratuită, victimele trebuie să solicite acest serviciu de la un ONG sau un alt provider, să încheie un contract și abia apoi să intre într-un program dedicat. Ajutorul psihologic în general este disponibil, dar contra cost, preț pe care multe dintre persoane nu își permit să îl achite. Există de asemenea și persoane care locuiesc în orașe mici unde fie nu există organizații în domeniu sau sunt foarte puține cabinete de terapie. <em>Vorbesc</em> este o aplicație care permite unei victime, unui martor sau unui agresor să solicite terapie în mod gratuit și consiliere pentru a putea depăși o situație în care se află. Conversațiile sunt confidențiale, terapeuții fiind cei care decid ce caz doresc să preia în limita disponibilității și a specializării lor. Acest app are un rol esențial în special în etapa inițială în care fie victima nu este încă pregătită pentru a apela la serviciile unui ONG și are nevoie de sprijin, fie agresorul realizează că are nevoie de ajutor pentru a-și controla furia sau pornirile violente.",
+              "link":"",
+              "link_text":"Vezi soluția",
+              "icon":require('../assets/images/projects/care4ro-vorbesc.png'),
+              "position":{
+                "top":"0",
+                "left":"0"
+              },
+              "adopted":true,
+              "adopted_by":[
+                {
+                  "id":1,
+                  "title":"",
+                  "description":"",
+                  "link":"",
+                  "logo":"icon-date-deschise"
+                },
+                {
+                  "id":2,
+                  "title":"",
+                  "description":"",
+                  "link":"",
+                  "logo":"icon-date-deschise"
+                }
+              ]
+            },
+            {
+              "id":8,
+              "project_slug":"Support-Community",
+              "title":"Support Community",
+              "description" : "În această epocă digitală, spațiile sigure menite să faciliteze comunicarea între victime în mod anonim, unde să împărtășească povești de succes, sfaturi, recomandări sau alte informații utile lipsesc. Support Community va fi un spațiu virtual de tip forum care permite comunicarea pe niveluri multiple, anonim sau autentificat, cu moderatori dedicați pe fiecare categorie în parte, care permite postarea de mesaje, cu thread-uri de conversație publice și/sau private, pe subiecte inițiate de participanți sau de moderatorii platformei. Spațiile sigure de comunicare de acest tip se mulează pe tiparele de comunicare și obiceiurile digitale în special ale generației tinere care navighează cu ușurință pe internet și care preferă să discute în scris, protejați de anonimat. În același timp, pentru persoanele care au ieșit din situații abuzive, dar care nu sunt confortabile să discute public despre situația lor, dar își doresc să sprijine alte victime, astfel de conversații pot avea rol de facilitator.",
+              "link":"",
+              "link_text":"Vezi soluția",
+              "icon":require('../assets/images/projects/care4ro-support-community.png'),
+              "position":{
+                "top":"0",
+                "left":"0"
+              },
+              "adopted":true,
+              "adopted_by":[
+                {
+                  "id":1,
+                  "title":"",
+                  "description":"",
+                  "link":"",
+                  "logo":"icon-date-deschise"
+                },
+                {
+                  "id":2,
+                  "title":"",
+                  "description":"",
+                  "link":"",
+                  "logo":"icon-date-deschise"
+                }
+              ]
+            },
+            {
+              "id":9,
+              "project_slug":"Widget-Hub-Violenta-Domestica",
+              "title":"Widget Hub Violență Domestică",
+              "description" : "Campaniile de informare din jurul violenței domestice sunt extrem de utile, dar ele angrenează un număr limitat de actori și sunt reduse ca timp de desfășurare. În același timp, este nevoie de o informare uniformă a populației cu privire la serviciile pe care le au la dispoziție dacă se află într-o situație de abuz. Pentru a ajunge la cât mai mulți oameni este nevoie ca un număr critic de publicații și website-uri administrative să vorbească despre violența domestică în mod corect. Widget Hub este un website-librărie care conține o colecție de widget-uri construite special pentru publicul larg, cu scopul de a identifica dacă te afli într-o relație abuzivă, a vedea ce opțiuni ai la dispoziție, chestionare pentru victime, agresori, martori etc. Toate aceste info box-uri pot fi integrate foarte ușor în orice website din România, cum ar fi site-uri de primării, site-urile altor autorități, reviste online, bloguri și publicații de orice tip.",
+              "link":"",
+              "link_text":"Vezi soluția",
+              "icon":require('../assets/images/projects/care4ro-Widget-hub-violenta-domestica.png'),
+              "position":{
+                "top":"0",
+                "left":"0"
+              },
+              "adopted":true,
+              "adopted_by":[
+                {
+                  "id":1,
+                  "title":"",
+                  "description":"",
+                  "link":"",
+                  "logo":"icon-date-deschise"
+                },
+                {
+                  "id":2,
+                  "title":"",
+                  "description":"",
+                  "link":"",
+                  "logo":"icon-date-deschise"
+                }
+              ]
+            },
+            {
+              "id":10,
+              "project_slug":"Daily-Assessment-Kit-scoli",
+              "title":"Daily Assessment Kit - școli",
+              "description" : "Identificarea cazurilor de violență domestică poate fi un proces dificil, mai ales dacă vorbim de forma de violență de tip social sau psihologică. Pentru potențialii martori semnele nu sunt evidente, iar aceștia nu au parte de nici un fel de instruire să recunoască semnele. Cel mai adesea, copiii sunt cei care sunt afectați de situațiile tensionate din casă și care, deși simt că ceva nu este în regulă, fie se tem, fie nu știu cum să vorbească despre asta. Daily Assessment Kit este un sistem care poate fi folosit de orice școală cu rol de early warning system. De exemplu, printr-o suită simplă de întrebări de tipul 'cum te simți astăzi' sau altele care au ca scop monitorizarea stării psihice a unui copil, se pot identifica acele pattern-uri care ar putea indica probleme în familie, tulburări emoționale și un consilier psihologic ar putea aborda elevul care dă semne că ar fi într-o situație dificilă pentru a-i putea oferi ajutor.",
+              "link":"",
+              "link_text":"Vezi soluția",
+              "icon":require('../assets/images/projects/care4ro-banca-de-resurse.png'),
+              "position":{
+                "top":"0",
+                "left":"0"
+              },
+              "adopted":true,
+              "adopted_by":[
+                {
+                  "id":1,
+                  "title":"",
+                  "description":"",
+                  "link":"",
+                  "logo":"icon-date-deschise"
+                },
+                {
+                  "id":2,
+                  "title":"",
+                  "description":"",
+                  "link":"",
+                  "logo":"icon-date-deschise"
+                }
+              ]
+            },
+            {
+              "id":11,
+              "project_slug":"Daily-Assessment-Kit-angajatori",
+              "title":"Daily Assessment Kit - angajatori",
+              "description" : "Identificarea cazurilor de violență domestică poate fi un proces dificil, mai ales dacă vorbim de forma de violență de tip social sau psihologică. Pentru potențialii martori semnele nu sunt evidente, iar aceștia nu au parte de nici un fel de instruire să recunoască semnele. Daily Assessment Kit este un sistem care poate fi folosit de orice angajator cu rol de early warning system. De exemplu, printr-o suită simplă de întrebări de tipul 'cum te simți astăzi' sau altele care au ca scop monitorizarea stării psihice a angajaților, se pot identifica acele pattern-uri care ar putea indica probleme în familie, tulburări emoționale și un consilier de resurse umane ar putea aborda angajatul care dă semne că ar fi într-o situație dificilă pentru a-i putea oferi ajutor. ",
+              "link":"",
+              "link_text":"Vezi soluția",
+              "icon":require('../assets/images/projects/care4ro-banca-de-resurse.png'),
+              "position":{
+                "top":"0",
+                "left":"0"
+              },
+              "adopted":true,
+              "adopted_by":[
+                {
+                  "id":1,
+                  "title":"",
+                  "description":"",
+                  "link":"",
+                  "logo":"icon-date-deschise"
+                },
+                {
+                  "id":2,
+                  "title":"",
+                  "description":"",
+                  "link":"",
+                  "logo":"icon-date-deschise"
+                }
+              ]
+            },
+            {
+              "id":12,
+              "project_slug":"Personal-Assessment-Kit-couples",
+              "title":"Personal-Assessment-Kit-couples",
+              "description" : "Identificarea cazurilor de violență domestică poate fi un proces dificil, mai ales dacă vorbim de forma de violență de tip social sau psihologică. Pentru potențialii martori semnele nu sunt evidente, iar aceștia nu au parte de nici un fel de instruire să recunoască semnele. Daily Assessment Kit este un sistem care poate fi folosit de orice angajator cu rol de early warning system. De exemplu, printr-o suită simplă de întrebări de tipul 'cum te simți astăzi' sau altele care au ca scop monitorizarea stării psihice a angajaților, se pot identifica acele pattern-uri care ar putea indica probleme în familie, tulburări emoționale și un consilier de resurse umane ar putea aborda angajatul care dă semne că ar fi într-o situație dificilă pentru a-i putea oferi ajutor. ",
+              "link":"",
+              "link_text":"Vezi soluția",
+             "icon":require('../assets/images/projects/care4ro-personal-assessment-kit.png'),
+              "position":{
+                "top":"0",
+                "left":"0"
+              },
+              "adopted":true,
+              "adopted_by":[
+                {
+                  "id":1,
+                  "title":"",
+                  "description":"",
+                  "link":"",
+                  "logo":"icon-date-deschise"
+                },
+                {
+                  "id":2,
+                  "title":"",
+                  "description":"",
+                  "link":"",
+                  "logo":"icon-date-deschise"
+                }
+              ]
+            },
+            {
+              "id":13,
+              "project_slug":"Anger_Management",
+              "title":"Anger Management",
+              "description" : "Având în vedere lipsa adăposturilor dedicate agresorilor și a serviciilor complete dedicate acestora, propunem crearea unor instrumente minime care să vină în sprijinul reabilitării acestora acolo unde ei conștientizează gravitatea faptelor lor și caută ajutor. Anger Management este un instrument digital care ajută persoanele cu probleme în controlul furiei să își recâștige calmul în situații tensionate. Cu o suită de notificări frecvente care îi cer agresorului să își conștientizeze starea și să evalueze care sunt factorii declanșatori ai unor sentimente de furie, acesta poate deveni mult mai rapid conștient de ce anume îl face agresiv și cum poate recâștiga controlul în situații de acest tip.",
+              "link":"",
+              "link_text":"Vezi soluția",
+              "icon":require('../assets/images/projects/care4ro-anger-management.png'),
+              "position":{
+                "top":"0",
+                "left":"0"
+              },
+              "adopted":true,
+              "adopted_by":[
+                {
+                  "id":1,
+                  "title":"",
+                  "description":"",
+                  "link":"",
+                  "logo":"icon-date-deschise"
+                },
+                {
+                  "id":2,
+                  "title":"",
+                  "description":"",
+                  "link":"",
+                  "logo":"icon-date-deschise"
+                }
+              ]
+            },
+            {
+              "id":13,
+              "project_slug":"Violenta-Domestică-Media-Kit",
+              "title":"Violența Domestică Media Kit",
+              "description" : "Chiar dacă în facultățile de jurnalism normele și regulile de scriitură sunt predate de către profesori, nu exista un ghid detaliat, actualizat, disponibil online pentru cum se poate realiza raportarea jurnalistică despre violența domestică în mass-media în mod corect. Media Kit este un ghid interactiv pentru jurnaliști prin care aceștia pot să își  analizeze textele înainte de publicare și pot învăța cele mai bune practici atunci când scriu despre acest subiect. Platforma prezintă, pe lângă lecții de referire corectă a cazurilor de violență domestică și alte informații utile cu privire la fenomen, și o componentă interactivă în care jurnalistul poate să supună un material spre review către un specialist care poate să corecteze acolo unde formulările pot naște impresii greșite, pot perpetua un stereotip etc.",
+              "link":"",
+              "link_text":"Vezi soluția",
+              "icon":require('../assets/images/projects/care4ro-violenta-domestica-media-kit.png'),
               "position":{
                 "top":"0",
                 "left":"0"
@@ -1135,7 +1617,7 @@ const data = {
               "description":"<p>Theater Hub este o platformă online pentru scena de teatru din România. Acest spațiu virtual îi susţine pe actori să îşi creeze o prezență online şi să își promoveze spectacolele, încurajând şi alți tineri să își urmeze pasiunea pentru arta teatrală. Mai mult, platforma își propune să reducă distanța dintre public și actori și să îi ajute să colaboreze. Actorii și trupele de teatru independent pot cere ajutor dacă au nevoie de specialiști în promovare, de resurse, decoruri etc., pentru a încuraja oamenii de business și freelancerii să contribuie activ la susținerea inițiativelor culturale. Prin integrarea cu alte platforme dezvoltate de Code for Romania, Theater Hub își dorește ca pe viitor să ofere și informații utile pentru profesioniștii din domeniul actoriei, cum ar fi resurse legislative sau referitoare la finanțări europene.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":"icon-date-deschise",
+              "icon":require('../assets/images/projects/participation4ro-theater-hub.png'),
               "position":{
                 "top":"0",
                 "left":"0"
@@ -1197,9 +1679,9 @@ const data = {
               "title":"România Incognito",
               "subtitle":"Comunicare securizată între jurnaliști și sursele lor protejate",
               "description":"<p>Lipsa unui canal de comunicare securizat,  care ar putea oferi anonimatul tuturor celor care doresc să trimită informații sensibile către mass-media, a descurajat sursele din România, făcându-i pe oameni să fie reticenți în raportarea faptelor de corupție sau a fraudelor. </p> <p>Romania Incognito este o platformă care funcționează ca o adresă de e-mail electronică securizată între surse și media sau ONG-ul către care se dorește trimiterea de informații. Nimeni, dacă nu se decide altfel, nu poate urmări activitatea unui cetățean în platformă. Singura persoană care deține cheia de comunicare cu jurnaliștii sau diversele ONG-uri este inițiatorul care poate fi contactat numai dacă el decide să continue conversația. Sperăm că, făcând acest instrument disponibil, mai mulți oameni, care nu sunt suficient de pricepuți pentru a utiliza metode complexe de criptare, vor raporta acum despre probleme grave. Încurajăm și jurnaliștii și ONG-urile să își protejeze sursele prin utilizarea Incognito. </p>",
-              "link":"https://www.bbc.com/",
+              "link":"",
               "link_text":"Vezi soluția",
-              "icon":"icon-date-deschise",
+              "icon":require('../assets/images/projects/participation4ro-romania-incognito.png'),
               "position":{
                 "top":"0",
                 "left":"0"
@@ -1455,7 +1937,7 @@ const data = {
               "description":"<p>În România, deși există standarde cu privire la conținutul obligatoriu, majoritatea website-urilor guvernamentale sunt greu de utilizat, făcând dificil accesul la informațiile și serviciile necesare cetățenilor. Website builder minister este soluția care va oferi tuturor ministerelor posibilitatea de a-și construi un site care să conțină informațiile esențiale și relevante la nivel național pentru o bună comunicare cu cetățenii.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":require('../assets/images/fpo.png'),
+              "icon":require('../assets/images/projects/participation4ro-website-builder-minister.png'),
               "position":{
                 "top":"0",
                 "left":"0"
@@ -1484,7 +1966,7 @@ const data = {
               "description":"<p>În România, deși există standarde cu privire la conținutul obligatoriu, majoritatea website-urilor primăriilor sunt greu de utilizat, făcând dificil accesul la informațiile și serviciile necesare cetățenilor.  Website builder primărie este soluția care va oferi tuturor primăriilor posibilitatea de a-și construi un site care să conțină informațiile esențiale și relevante la nivel local pentru o bună comunicare cu cetățenii.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":"icon-date-deschise",
+              "icon":require('../assets/images/projects/participation4ro-website-builder-primarie.png'),
               "position":{
                 "top":"0",
                 "left":"0"
@@ -1513,7 +1995,7 @@ const data = {
               "description":"<p>Accesul la informații publice prin legea 544 este una dintre marile victorii din istoria recentă în efortul de transparentizare a instituțiilor din România. Cu toate acestea, accesarea acestor informații poate fi în continuare o problemă, pentru cetățeni, procesul fiind unul dificil inclusiv pentru funcționarii care trebuie să le pună la dispoziție. în lipsa unei soluții unice care să transparentizeze și să eficientizeze procesul de cerere și livrare a acestor informații. Acces 544 este soluția care va îmbunătăți accesul cetățenilor la informațiile publice prevăzute de lege.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":"icon-date-deschise",
+              "icon":require('../assets/images/projects/participation4ro-acces-544.png'),
               "position":{
                 "top":"0",
                 "left":"0"
@@ -1542,7 +2024,7 @@ const data = {
               "description":"<p>Pentru cetățenii care vor să se implice în viața societății și să mențină o legătură cu autoritățile locale,  modalitatea și locul în care pot trimite în scris propuneri, sugestii, opinii cu valoare de recomandare nu sunt mereu la îndemână. Biroul de propuneri este platforma prin care cetățenii vor putea trimite sugestii de îmbunătățire a activității pentru administrația locală, le vor putea urmări și vor putea interacționa și dezbate propunerile făcute până în acel moment. Soluția urmărește modelul <em>Consul</em>, implementat deja în 135 de orașe din 35 de țări.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":"icon-date-deschise",
+              "icon":require('../assets/images/projects/participation4ro-biroul-de-propuneri.png'),
               "position":{
                 "top":"0",
                 "left":"0"
@@ -1571,7 +2053,7 @@ const data = {
               "description":"<p>Bugetul participativ permite cetăţenilor să se implice în mod direct în deciziile luate privind dezvoltarea localităţii lor. În fiecare an, primăria poate aloca o parte din bugetul anual al localității, după care toți locuitorii pot veni cu propuneri de utilizare a acestor sume. Bugetare Participativă va fi o platformă deschisă tuturor primăriilor care vor să își implice cetățenii în luarea acestor decizii importante. Soluția urmărește modelul <em>Consul</em>, implementat deja în 135 de orașe din 35 de țări.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":"icon-date-deschise",
+              "icon":require('../assets/images/projects/participation4ro-bugetare-participativa.png'),
               "position":{
                 "top":"0",
                 "left":"0"
@@ -1600,7 +2082,7 @@ const data = {
               "description":"<p>Deși multe dintre autoritățile locale se declară deschise raportării problemelor întâlnite de către cetățeni, în majoritatea localităților nu există un mod simplu și transparent prin care cetățenii pot semnala probleme și urmări răspunsul și stadiul soluționării problemei semnalate.  Public Report este aplicația web și mobilă prin care cetățenii vor putea semnala, printr-un ticket system, problemele întâmpinate către autoritățile locale. Câteva localități din România au implementat propriile soluții cu acest scop, dar ele pot fi îmbunătățite și transformate în instrumente mult mai puternice. Public Report urmărește modelul primăriei New York.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":"icon-date-deschise",
+              "icon":require('../assets/images/projects/participation4ro-pubic-report.png'),
               "position":{
                 "top":"0",
                 "left":"0"
@@ -1629,7 +2111,7 @@ const data = {
               "description":"<p>Pentru a putea avea o relație reală cu cei care îi reprezintă, este necesar ca, în primul rând, fiecare cetățean să poată vedea, plecând de la localitatea sa, care sunt reprezentanții săi în funcții publice. Te Reprezintă va fi locul unde fiecare va putea vedea cine sunt autoritățile care îl reprezintă de la nivel local până la cel mai înalt nivel. Tot aici, cei interesați vor putea să îi contacteze, să vadă programul lor și chiar să se înscrie pentru o audiență.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":"icon-date-deschise",
+              "icon":require('../assets/images/projects/participation4ro-te-reprezinta.png'),
               "position":{
                 "top":"0",
                 "left":"0"
@@ -1693,7 +2175,7 @@ const data = {
               "description":"<p>Registrul național al ONG-urilor este în acest moment un instrument nefuncțional, lucru care duce la absența unor date de încredere privind funcționarea sectorului nonprofit. Pentru ONG-uri, multe dintre procedurile birocratice care depind de interacțiuni cu acest registru sunt dificile și se confruntă cu erori.  Prin refacerea și îmbunătățirea sa, vom avea la dispoziție o soluție modernă, utilă, construită pentru a  oferi o imagine clară a societății civile românești.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":"icon-date-deschise",
+              "icon":require('../assets/images/projects/participation4ro-registrul-national-ong.png'),
               "position":{
                 "top":"0",
                 "left":"0"
@@ -1722,7 +2204,7 @@ const data = {
               "description":"<p>Nu toate ONG-urile dispun de resurse tehnice, materiale sau umane suficient de specializate și diverse care le sunt necesare pentru a-și putea desfășura în condiții bune activitatea. Iar sectorul ONG are nevoie de soluții specifice, simplificate și centralizate. ONG Hub va fi platforma unde sectorul non-profit va putea accesa dintr-un singur loc toată infrastructura de soluții digitale pe care Code for Romania le pune la dispoziția societății civile (Redirecționează, RoHelp, VotONG etc.).</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":"icon-date-deschise",
+              "icon":require('../assets/images/projects/participation4ro-onghub.png'),
               "position":{
                 "top":"0",
                 "left":"0"
@@ -1751,7 +2233,7 @@ const data = {
               "description":"<p>Pentru cele mai multe dintre ONG-uri nu există o soluție simplă, utilizabilă de către persoane fără aptitudini tehnice și adaptată nevoilor lor specifice. Website factory va fi o soluție care va permite oricărui ONG să își construiască ușor un website care să ofere principalele tipuri de conținut de care ONG-urile au nevoie, soluții pentru prezentarea rapoartelor, pentru strângere de fonduri și comunicare cu publicurile-țintă etc.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":"icon-date-deschise",
+              "icon":require('../assets/images/projects/participation4ro-websitefactory.png'),
               "position":{
                 "top":"0",
                 "left":"0"
@@ -1780,7 +2262,7 @@ const data = {
               "description":"<p>În fiecare an, orice cetățean poate alege să redirecționeze 3.5% din impozitul pe venit către o cauză în care crede și pe care vrea să o susțină. Cu toate aceste, majoritatea nu o fac niciodată din două motive: un proces greoi și lipsa informațiilor centralizate cu privire la ONG-urile pe care le-ar putea susține. Mai mult, și ONG-urile se confruntă cu dificultatea de a transmite mesajul legat de redirecționare către audiențe foarte largi, într-un mod simplu, fără consum de resurse suplimentare. Redirecționeaza.ro conține informații despre peste 1.200 de ONG-uri care pot fi susținute prin simpla redirecționare a 3.5% din impozitul pe venit. Prin digitalizarea formularului 230 am eliminat nevoia unui contact direct între organizații și susținători, multe organizații neavând la dispoziție resursele necesare pentru a desfășura acțiuni publice offline.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":"icon-date-deschise",
+              "icon":require('../assets/images/projects/participation4ro-redirectioneaza.png'),
               "position":{
                 "top":"0",
                 "left":"0"
@@ -1809,7 +2291,7 @@ const data = {
               "description":"<p>RoHelp este o platformă digitală completă pusă la dispoziția asociațiilor și ONG-urilor din România pentru a colecta resursele de care acestea au mare nevoie. Cu ajutorul acestei platforme utilizatorii pot vedea care sunt cele mai presante nevoi ale organizațiilor de pe teritoriul țării și pot putea alege către ce cauză să doneze sau la ce eforturi să contribuie.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":"icon-date-deschise",
+              "icon":require('../assets/images/projects/participation4ro-rohelp.png'),
               "position":{
                 "top":"0",
                 "left":"0"
@@ -1838,7 +2320,7 @@ const data = {
               "description":"<p>În funcție de specificul său, fiecare asociație lucrează cu instrumente multiple și baze de date care nu comunică între ele, fiind astfel dificil pentru cei care operează cu aceste date să extragă informații utile și să poată avea mai multă claritate în managementul publicurilor-țintă, al donatorilor și tuturor celorlalți stakeholderi. Paul este asistentul ONG-urilor, specializat în lucrul cu bazele de date, fiind un instrument open-source ușor de utilizat și adaptabilă nevoilor fiecărei organizații.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":"icon-date-deschise",
+              "icon":require('../assets/images/projects/participation4ro-paul.png'),
               "position":{
                 "top":"0",
                 "left":"0"
@@ -1867,7 +2349,7 @@ const data = {
               "description":"<p>În lipsa unor servicii specializate, pentru multe dintre ONG-urile din România, managementul și planificarea bugetelor poate fi o problemă consumatoare de resurse și timp. Alex este asistentul open-source care ajută societatea civilă să își gestioneze mai bine resursele financiare. Fiecare asociație va putea menține separat contabilitatea pentru fiecare contract de sponsorizare, având apoi posibilitatea de a face ușor raportarea bilanțului.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":"icon-date-deschise",
+              "icon":require('../assets/images/projects/participation4ro-alex.png'),
               "position":{
                 "top":"0",
                 "left":"0"
@@ -1896,7 +2378,7 @@ const data = {
               "description":"<p>În activitatea lor, ONG-urile lucrează cu numeroși voluntari cu abilități și disponibilități diverse. Voluntarii sunt o componentă esențială în viața societății civile, dar numai managementul lor poate fi o activitate consumatoare de timp și resurse prețioase. Teo este asistentul open-source care ajută societatea civilă să își gestioneze mai bine comunitățile de voluntari, contractele de voluntari și bazele de date care îi conțin.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":"icon-date-deschise",
+              "icon":require('../assets/images/projects/participation4ro-teo.png'),
               "position":{
                 "top":"0",
                 "left":"0"
@@ -1925,7 +2407,7 @@ const data = {
               "description":"<p>Mulți dintre finanțatorii care organizează call-uri de finanțare își construiesc sau administrează platforme complexe care au doar acest scop, unele dintre ele nefiind complet funcționale sau prezentând breșe de funcționare. Funding Call va fi o platformă de call-uri de finanțare deschisă oricărui finanțator, prin care aceștia vor putea, cu un minim de costuri, să organizeze aceste call-uri de în mod simplu, fără să fie nevoie să își construiască propriile soluții costisitoare și având la dispoziție toate funcționalitățile de care au nevoie.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":"icon-date-deschise",
+              "icon":require('../assets/images/projects/participation4ro-funding-call.png'),
               "position":{
                 "top":"0",
                 "left":"0"
@@ -1954,7 +2436,7 @@ const data = {
               "description":"<p>VotONG este o platformă care facilitează procesul de desemnare a reprezentanților societății civile în diferite instituții publice precum Consiliul Economic și Social, Consiliul Național pentru Combaterea Discriminării (CNCD), Consiliul Suprem al Magistraturii și alte instituții. În platformă se vor organiza runde electorale în care organizațiile neguvernamentale pot nominaliza proprii candidați, pot susține deschis o candidatură și pot vota în cadrul alegerilor deschise. </p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":"icon-date-deschise",
+              "icon":require('../assets/images/projects/participation4ro-votong.png'),
               "position":{
                 "top":"0",
                 "left":"0"
@@ -1983,7 +2465,7 @@ const data = {
               "description":"<p>Centru Civic este primul centralizator al serviciilor pe care societatea civilă le pune la dispoziția cetățenilor români. Soluția a pornit ca un agregator al tuturor aplicațiilor civice dezvoltate de ONG-uri, instituții sau cetăţeni din România. În noua versiune, Centru Civic va deveni locul unde, printr-o căutare simplă, fiecare cetățean va avea la dispoziție informațiile necesare despre toate serviciile care vizează o anumită problemă, scoțând în evidență importanța și amploarea sectorului non-profit în societatea românească.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":"icon-date-deschise",
+              "icon":require('../assets/images/projects/participation4ro-centru-civic.png'),
               "position":{
                 "top":"0",
                 "left":"0"
@@ -2012,7 +2494,7 @@ const data = {
               "description":"<p>Sectorul ONG este unul dintre principalii factori care au influențat, prin eforturi susținute, creșterea transparenței din partea instituțiilor publice. Principiul transparenței trebuie să se aplice inclusiv societății civile și, pentru aceasta, DateONG va fi platforma care va aduce într-un singur loc informațiile esențiale despre sectorul ONG din România.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":"icon-date-deschise",
+              "icon":require('../assets/images/projects/participation4ro-dateong.png'),
               "position":{
                 "top":"0",
                 "left":"0"
@@ -2041,7 +2523,7 @@ const data = {
               "description":"<p>Multe dintre instituțiile publice organizează call-uri de finanțare, însă organizarea acestora poate fi dificilă și costisitoare. Platforma Finanțări publice va permite tuturor instituțiilor publice să organizeze, fără expertiză tehnică și costuri nejustificate, astfel de call-uri transparente, ușor verificabile și  accesibile tuturor.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":"icon-date-deschise",
+              "icon":require('../assets/images/projects/participation4ro-finantari-publice.png'),
               "position":{
                 "top":"0",
                 "left":"0"
@@ -2092,7 +2574,7 @@ const data = {
               "description":"<p>Vot România este o platformă care facilitează accesul cetățenilor la informațiile privind alegerile, contribuind la o mai mare transparență a procesului electoral. Accesând votromania.ro toți cetățenii pot să verifice, alături de documentele și procedurile necesare pentru a vota, și care este secția la care sunt arondați în funcție de statutul fiecăruia. Website-ul va fi disponibil cu informații actualizate la fiecare nouă rundă electorală. Conținutul prezent pe platforma Vot România este realizat în parteneriat cu experții electorali ai Observatorului Electoral.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":"icon-date-deschise",
+              "icon":require('../assets/images/projects/participation4ro-vot-romania.png'),
               "position":{
                 "top":"0",
                 "left":"0"
@@ -2115,7 +2597,7 @@ const data = {
               "description":"<p>Vot Diaspora este un tutorial online de informare a românilor din străinătate cu privire la regulile de înscriere pentru a vota la alegerile parlamentare, prezidențiale și europarlamentare. Vot Diaspora a apărut din dorința de a prezenta într-o formă simplă și interactivă pașii pe care trebuie să îi urmeze românii pentru a putea vota din străinătate. La alegerile europarlamentare din 2019, aplicația a fost utilizată de mai mult de 25% din totalul alegătorilor din diaspora, iar la ultima rundă a alegerilor prezidențiale, peste 185.000 alegători s-au informat via votdiaspora.ro. Prin platformă, toți cetățenii vor putea să verifice documentele și procedurile necesare pentru a vota în secție sau prin corespondență dacă se află în afara țării, dar și care este secția la care sunt arondați în funcție de statutul fiecăruia. Website-ul va fi disponibil cu informații actualizate la fiecare nouă rundă electorală.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":"icon-date-deschise",
+              "icon":require('../assets/images/projects/participation4ro-vot-diaspora.png'),
               "position":{
                 "top":"0",
                 "left":"0"
@@ -2138,7 +2620,7 @@ const data = {
               "description":"<p>Probabil cea mai mare criză a democrației românești din ultimii ani este incapacitatea statului de a asigura dreptul la vot al românilor care locuiesc în străinătate. Atât alegerile prezidențiale din 2014, cât și alegerile europarlamentare din 2019 au arătat cum români care trăiau în Europa au stat la coadă ore în șir pentru a vota la secțiile de votare înființate în țările lor de reședință, unora fiindu-le refuzat dreptul de vot din cauza lipsei de capacitate a secțiilor. Cauza fundamentală a acestui fenomen, indicată de majoritatea funcționarilor și instituțiilor publice, este incapacitatea statului de a evalua numărul potențialilor alegători care trăiesc în străinătate. Count Us In este o aplicație web care va realiza o estimare mult mai precisă a numărului românilor din diaspora, printr-un proces de crowdsourcing care vizează datele oficiale din fiecare localitate.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":"icon-date-deschise",
+              "icon":require('../assets/images/projects/participation4ro-count-us-in.png'),
               "position":{
                 "top":"0",
                 "left":"0"
@@ -2161,7 +2643,7 @@ const data = {
               "description":"<p>Participarea politică e fundamentul reprezentării, care este la rândul său fundamentul unui stat care își respectă cetățenii. Vrem o lume în care fiecare vot e numărat și în care fiecare vot contează. De aceea credem că trebuie să avem întotdeauna soluțiile optime pentru a face sistemul de vot sigur și de încredere. Monitorizare Vot este soluția tehnologică utilizată de către aproape toți observatorii independenți acreditați începând cu alegerile din 2016. O soluție care a transformat felul în care sunt observate alegerile din România și care ne ajută să stăm cu ochii pe alegeri pentru a reacționa la prima sesizare de fraudă în ziua votului.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":"icon-date-deschise",
+              "icon":require('../assets/images/projects/participation4ro-monitorizare-vot.png'),
               "position":{
                 "top":"0",
                 "left":"0"
@@ -2184,7 +2666,7 @@ const data = {
               "description":"<p>Cetățenii din România nu au un grad ridicat de implicare în procesul de votare, cei mai mulți fiind interesați și atenți doar în jurul campaniei electorale fără a depune un efort real de informare cu privire la opțiunile pe care le au la dispoziție. Ochii pe vot este o platformă dedicată cetățenilor români din țară și din diaspora prin care pot să raporteze nereguli cu privire la orice runda de alegeri atât în ziua votului, cât și în campania electorala. Utilizatorii vor primi informații complete și corecte, având posibilitatea de a face ușor sesizări. Scopul platformei este de a crește gradul de implicare al cetățenilor în procesul de votare și de atragere a unui număr cât mai mare de observatori pentru alegeri, extinzând monitorizarea corectitudinii întregului proces pe durata campaniei electorale.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":"icon-date-deschise",
+              "icon":require('../assets/images/projects/participation4ro-ochii-pe-vot.png'),
               "position":{
                 "top":"0",
                 "left":"0"
@@ -2207,7 +2689,7 @@ const data = {
               "description":"<p>O democrație se sprijină pe cetățeni critici și informați. Rezultate Vot își propune să informeze și să dezvolte spiritul critic al alegătorilor prin contextualizarea informației electorale însoțite de analize apartinice ale acesteia. Această platformă este locul în care oricine poate accesa toate informațiile relevante ale alegerilor din România. Platforma conține: hărți detaliate cu prezența la vot la nivelul țării/județului, rezultatele parțiale ale alegerilor după închiderea urnelor, pe măsură ce ele sunt comunicate de autorități, informații din sistemul de monitorizare digitală a alegerilor, respectiv Monitorizare Vot, istoricul electoral al României pentru toate rundele de alegeri începând cu anul 1992 și un flux live de comentarii și analize realizate de sociologi din marile centre universitare din România.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":"icon-date-deschise",
+              "icon":require('../assets/images/projects/participation4ro-rezultate-vot.png'),
               "position":{
                 "top":"0",
                 "left":"0"
@@ -2230,7 +2712,7 @@ const data = {
               "description":"<p>Catalog Politic este o platformă online care centralizează informațiile existente despre persoanele din funcții publice înalte din România. Scopul este de a pune la dispoziția cetățenilor datele din declarațiile de avere și interese, date despre activitatea politică și cele din cazierul juridic, prezentate într-un format ușor de vizualizat și pus în context. Mai mult, prin baze de date complete și ușor de utilizat, proiectul oferă jurnaliștilor și cercetătorilor suport în activitățile de documentare. Sursele datelor sunt: ANI, DNA, site-urile candidaților și site-urile instituțiilor statului precum și date culese manual.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":"icon-date-deschise",
+              "icon":require('../assets/images/projects/participation4ro-catalog-politic.png'),
               "position":{
                 "top":"0",
                 "left":"0"
@@ -2248,7 +2730,7 @@ const data = {
               "description":"<p>Pe modelul aplicațiilor de tip matchmaking, propunem construirea unei aplicații mobile prin care, în funcție de locație, să primești date despre politicienii din orașul în care te afli. De exemplu, o persoană care se află în Bacău va putea vedea fișe de politicieni locali sau naționali relevanți, date despre activitatea lor politică/administrativă și vor putea naviga din aplicație către alte platforme cu informații relevante. Scopul acestui proiect este de a stimula implicarea cetățenilor cât mai mult în viața de zi cu zi a orașului lor și de a monitoriza facil politicienii care îi reprezintă aducând subiecte de interes către ei prin intermediul acestui <em>joc</em> de matchmaking.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":"icon-date-deschise",
+              "icon":require('../assets/images/projects/participation4ro-swipe-politics.png'),
               "position":{
                 "top":"0",
                 "left":"0"
@@ -2301,7 +2783,7 @@ const data = {
               "description":"<p>Data Portal este o platformă de date deschise care își propune să digitalizeze și automatizeze seturile de date din societatea civilă pentru a crește gradul de informare al cetățenilor, pentru a putea încuraja dezvoltarea de proiecte și programe comunitare având la bază seturi de date corecte și coerente. Venim în sprijinul mass-media cu date transformate în informații pentru a construi o platformă unică de stocare a informațiilor utile pentru cetățeni.</p> <p>Platforma este ușor replicabilă la nivel de instituții locale și/sau centrale și permite customizarea importului seturilor de date specifice fiecărui actor care dorește să deschidă date publice.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":"icon-date-deschise",
+              "icon":require('../assets/images/projects/participation4ro-data-portal.png'),
               "position":{
                 "top":"0",
                 "left":"0"
@@ -2330,7 +2812,7 @@ const data = {
               "description":"<p>În prezent nu există o comunitate de specialiști în lucrul cu date în România. Cu atât mai puțin grupuri care să se implice în curățarea de date de interes public de care ar putea beneficia, în egală măsură, mediul de business, cetățenii obișnuiți și administrația publică. Acești specialiști sunt prezenți în universități, companii de consultanță sau companii IT, dar nu au o platformă dedicată unde să lucreze împreună la proiecte relevante.</p> <p>Data Scientists Hub este o platformă specializată, care facilitează dezvoltarea unei comunități de analiști de date în România, loc în care aceștia să poată lucra împreună pe analizarea, curățarea și publicarea de seturi de date prin colaborarea în redactarea de politici și lucrări de specialitate.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":"icon-date-deschise",
+              "icon":require('../assets/images/projects/participation4ro-data-scientists-hub.png'),
               "position":{
                 "top":"0",
                 "left":"0"
@@ -2359,7 +2841,7 @@ const data = {
               "description":"<p>Platforma Declarații de avere este un proiect care își propune să digitalizeze întreaga arhivă de declarații de avere ale politicienilor care ocupă funcții importante. Cu ajutorul unor mecanisme interactive și cu sprijinul unor instrumente de colectare de date, cetățenii vor putea contribui la digitalizarea întregii arhive de declarații din România. Mecanismul de validare a datelor colectate este construit astfel încât să putem colecta date cât mai curate într-o bază de date complexă care poate fi integrată apoi cu multiple metode de vizualizare.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":"icon-date-deschise",
+              "icon":require('../assets/images/projects/participation4ro-declaratii-de-avere.png'),
               "position":{
                 "top":"0",
                 "left":"0"
@@ -2388,7 +2870,7 @@ const data = {
               "description":"<p>Conform legii, partidele politice sunt obligate să își deschidă datele cu privire la execuția lor bugetară. Aceste date sunt disponibile în Monitorul Oficial și pot fi consultate cu mare dificultate de cei interesați să le analizeze și să facă studii pe subiecte conexe. Banii din politică este un instrument de vizualizare de date prin care orice utilizator poate consulta toate informațiile disponibile public cu privire la bugetele partidelor și cum au fost cheltuite, în special în perioadele de campanie electorală. Proiectul va putea fi deschis pentru toți politicienii sau partidele care doresc să deschidă și mai multe informații către publicul larg.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":"icon-date-deschise",
+              "icon":require('../assets/images/projects/participation4ro-banii-din-politica.png'),
               "position":{
                 "top":"0",
                 "left":"0"
@@ -2452,7 +2934,7 @@ const data = {
               "description":"<p>Platforma Draft Legislativ este un instrument care are rolul de a ajuta instituțiile sau grupurile de experți în elaborarea de documente în mod colaborativ, de obținere facilă a avizărilor necesare, de a formata documentul după normele redactării de documente legislative și de publicare în formate multiple adecvate mai multor medii de stocare. Platforma poate fi integrată cu alte portaluri de legislație locală sau de consultare publică asigurând astfel rapiditate și ușurință în publicarea actelor normative.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":"icon-date-deschise",
+              "icon":require('../assets/images/projects/participation4ro-draft-legislativ.png'),
               "position":{
                 "top":"0",
                 "left":"0"
@@ -2481,7 +2963,7 @@ const data = {
               "description":"<p>Platforma de consultare publică este un instrument digital care asigură participarea cetățenilor în procesul de elaborare de acte normative. Dincolo de posibilitatea de a transmite opinii și a dezbate online pe marginea propunerilor legislative, platforma integrează și un modul de urmărire a dezbaterilor publice cu transmisii live ale ședințelor de consultare, transcrierile discuțiilor și alte observații direct legate de subiectele aflate în atenția publicului. Din punct de vedere al administratorului platformei, aceasta este prevăzută cu mecanisme de centralizare și de informații primite pentru a ușura procesul de consolidare.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":"icon-date-deschise",
+              "icon":require('../assets/images/projects/participation4ro-consultare-publica.png'),
               "position":{
                 "top":"0",
                 "left":"0"
@@ -2510,7 +2992,7 @@ const data = {
               "description":"<p>Expert Consultation este un instrument digital care le permite grupurilor de experți să lucreze direct pe textul de lege, să contribuie cu feedback, propuneri, comentarii, să voteze și să amendeze anumite propuneri, articole sau comentarii ale altor participanți și apoi să consolideze automat documentul final. Acest instrument va permite astfel eficientizarea consultării cu experți dând timp suficient tuturor să își exprime opinia, eliminând birocrația inutilă și permițând accesul în timp real la aceeași informație pentru mii de oameni care altfel ar dialoga exclusiv cu un singur punct de contact. În același timp elimină și toată perioadă petrecută pe formatarea textului de lege, pe consolidarea comentariilor similare și eliminarea celor inutile sau irelevante.</p> <p>Mai mult, pentru a putea emite păreri avizate și documentate, instrumentul digital le permite contributorilor consultarea altor legi relevante direct în platformă.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":"icon-date-deschise",
+              "icon":require('../assets/images/projects/participation4ro-expert-consultation.png'),
               "position":{
                 "top":"0",
                 "left":"0"
@@ -2539,7 +3021,7 @@ const data = {
               "description":"<p>Legi în Lucru e o aplicație web gândită să ajute cetățenii interesați de procesul legislativ. Cu ajutorul aplicației, utilizatorii pot urmări felul în care legea evoluează, de la momentul în care e propusă și până la varianta promulgată. Astfel devine mult mai ușor de monitorizat cum evoluează legile pe parcursul procesului legislativ prin identificarea eventualelor probleme înainte ca o propunere legislativă să devină lege.</p> <p>Platforma permite utilizatorului să se aboneze la anumite instituții inițiatoare sau să urmărească una sau mai multe legi prin procesul legislativ. Acesta va fi notificat cu privire la orice schimbări aduse și va putea să fie la curent cu momentele în care un proiect de lege intră în dezbatere publică sau este aprobat sau respins.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":"icon-date-deschise",
+              "icon":require('../assets/images/projects/participation4ro-legi-in-lucru.png'),
               "position":{
                 "top":"0",
                 "left":"0"
@@ -2568,7 +3050,8 @@ const data = {
               "description":"<p>Platforma de legislație locală este un portal de vizualizare și comunicare de informații care poate fi implementat la nivelul fiecărei primării pentru a crește accesul cetățenilor la normativele locale și la alte documente de interes local emise de autorități. Aceasta ajută de asemenea în corelarea documentelor legislative, construind astfel în timp și o arhivă de legislație locală care ulterior poate fi integrată cu alte sisteme naționale. Accesul facil la legislația locală, într-un mod structurat și interconectat va permite cetățenilor să rămână la zi cu reglementările din orașul de domiciliu sau reședință.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":"icon-date-deschise",
+              "icon":require('../assets/images/projects/participation4ro-platforme-de-legislatie-locala.png'),
+
               "position":{
                 "top":"0",
                 "left":"0"
@@ -2597,7 +3080,7 @@ const data = {
               "description":"<p>Legea pe bune este un website în care orice cetățean poate căuta explicații traduse pe înțelesul tuturor pentru termeni comuni legislativi. Baza de date a aplicației pleacă de la un set construit deja de termeni explicați de un grup de voluntari specializați, iar platforma permite publicului să contribuie la rândul lui cu definții care apoi sunt validate de experți și adăugate în platformă. Cu ajutorul eforturilor de crowdsourcing și a contribuției voluntare a comunităților de specialiști în legislație, acest website va putea să se îmbogățească în timp și va veni în sprijinul tuturor celor care se confruntă cu nevoia de a înțelege expresii complexe din legislația curentă.</p> <p>Participarea experților este esențială pentru a ne asigura că termenii sunt 'traduși' corect și sunt accesibili publicului larg, ca aceștia să poată să navigheze cu ușurință prin problemele comune cu care se confruntă.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":"icon-date-deschise",
+              "icon":require('../assets/images/projects/participation4ro-legea-pe-bune.png'),
               "position":{
                 "top":"0",
                 "left":"0"
@@ -2626,7 +3109,7 @@ const data = {
               "description":"<p>Proiectul își propune să reducă distanța dintre legislație și cetățeni, cauzată de dificultatea cu care la acest moment pot fi accesate și înțelese textele juridice care îi vizează în mod direct. Prin accesibilizarea acestor informații, Ce zice legea urmărește să crească interesul oamenilor pentru procesul legislativ, dar și să îi convingă să se implice în dezbaterile cu privire la legislația propusă. Utilizatorii vor avea acces la informațiile prezentate de Ce zice legea prin intermediul unei aplicații mobile  și a unei platforme web.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":"icon-date-deschise",
+              "icon":require('../assets/images/projects/participation4ro-ce-zice-legea.png'),
               "position":{
                 "top":"0",
                 "left":"0"
@@ -2655,7 +3138,7 @@ const data = {
               "description":"<p>Majoritatea tinerilor au o bază de cunoștințe juridice insuficientă pentru soluționarea diferitelor situații cu care s-ar putea confrunta (e.g. nedreptățirea de către profesori, răspunderea penală a minorilor, violența în familie, fenomenul de bullying etc.), motiv pentru care nu cunosc mijloacele legale de apărare pe care legea le pune la dispoziție. Prin EduLex, fiecare elev care are acces la un smartphone cu internet va avea un prieten digital, care să-l informeze corect și să-l îndrume atunci când are o problemă de natură juridică. În același timp, proiectul urmărește să construiască o bază de cunoștințe solidă pentru acești tineri, cu ajutorul unor activități interactive (inclusiv jocuri cu tematică juridică) și materiale de comunicare adaptate lor, pentru a-i familiariza într-o manieră atractivă cu concepte de drept și justiție.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":"icon-date-deschise",
+              "icon":require('../assets/images/projects/participation4ro-edulex.png'),
               "position":{
                 "top":"0",
                 "left":"0"
@@ -2684,7 +3167,7 @@ const data = {
               "description":"<p>O problemă pe care am depistat-o în rândul populației largi este lipsa de implicare în viața comunității și lipsa de reacție la legislația în dezbatere sau în vigoare. Acest lucru se datorează în special faptului că oamenii nu cunosc modul în care legile, administrația publică și instituțiile diverse ale statului au un impact direct asupra fiecărui aspect al vieții lor. Ca urmare a limbajului greoi și a informației disparate, nu realizăm cât de mult din deciziile legislative sau din activitatea administrației publice ne afectează în mod direct. ZideZi își propune să traducă pe înțelesul cetățenilor care este legislația care guvernează relaţia oricărei persoane cu furnizorii de servicii şi utilităţi publice. De asemenea, proiectul oferă o vizualizare interactivă a momentelor zilnice de intersecție cu serviciile și utilitățile publice. Construită ca o poveste în care fiecare utilizator își alege personajul cel mai similar cu sine însuși, aplicația web îi explică oricărei persoane care sunt drepturile și obligațiile sale în raport cu furnizorii de servicii și utilități publice, care este corpul legislativ responsabil de reglementarea contextului în care el beneficiază de aceste servicii și utilități, care sunt legile care îl influențează în mod direct și care este tipul acestora.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":"icon-date-deschise",
+              "icon":require('../assets/images/projects/participation4ro-zi-de-zi.png'),
               "position":{
                 "top":"0",
                 "left":"0"
@@ -3040,7 +3523,7 @@ const data = {
                   "description":"<p>Pregătirea pentru cariera profesională de după terminarea studiilor trebuie să înceapă din timpul anilor de școală. Fiecare elev are abilități diferite, dar descoperirea și valorificarea acestora poate fi un proces dificil în condițiile în care serviciile de consiliere pentru carieră nu sunt accesibile tuturor. Ce mă fac este o platformă prin care elevii vor putea înțelege ce presupune fiecare opțiune de carieră. Detaliile care țin de responsabilități și previziuni financiare sunt însoțite de prezentarea beneficiilor și dezavantajelor posibile din fiecare tip de carieră propusă. Toate informațiile sunt prezentate prin tehnici de storytelling atrăgător categoriilor de vârstă cărora li se adresează această soluție.</p>",
                   "link":"",
                   "link_text":"Vezi soluția",
-                  "icon":"icon-date-deschise",
+                  "icon":require('../assets/images/projects/education4ro-ce-ma-fac.png'),
                   "position":{
                     "top":"0",
                     "left":"0"
@@ -3069,7 +3552,7 @@ const data = {
                   "description":"<p>Copiii învață prea târziu sau prea puțin în școală despre locul lor în societate, despre felul în care aceasta funcționează sau despre beneficiile pe care implicarea fiecăruia le poate aduce în viața tuturor. Pentru că felul în care cei mici învață cel mai bine este prin povești, am construit un portal care conține cărți de povești pentru grupele de vârstă preșcolare, din care să poată deprinde noțiuni care țin de civism și formarea unor cetățeni buni și implicați.</p>",
                   "link":"",
                   "link_text":"Vezi soluția",
-                  "icon":"icon-date-deschise",
+                  "icon":require('../assets/images/projects/education4ro-micii-cetateni.png'),
                   "position":{
                     "top":"0",
                     "left":"0"
@@ -3098,7 +3581,7 @@ const data = {
                   "description":"<p>Educația pe tot parcursul vieții este puțin răspândită și, în general, concentrată pe noțiuni ce țin de dezvoltarea punctuală a unor abilități profesionale. Civic Fitness este o aplicație mobilă care oferă adulților cu un ritm de viață alert posibilitatea de a dobândi, prin lecții sau exerciții scurte, abilități utile în  dezvoltarea lor continuă. Pe lângă abilități socio-emoționale utile în diverse contexte, aplicația oferă informații, cunoștințe și valori care să responsabilizeze utilizatorii și să îi pregătească pentru implicarea democratică informată în problemele societății.</p>",
                   "link":"",
                   "link_text":"Vezi soluția",
-                  "icon":"icon-date-deschise",
+                  "icon":require('../assets/images/projects/education4ro-civic-fitness.png'),
                   "position":{
                     "top":"0",
                     "left":"0"
@@ -3127,7 +3610,7 @@ const data = {
                   "description":"<p>O mare parte din populație, fie din cauza vârstei sau a condiției sociale, nu are noțiuni de bază de utilizare a tehnologiei. Pentru a beneficia de avantajele aduse de progresul tehnologic, mulți dintre ei au nevoie de sprijinul celor apropiați. Descurcă-tech este o platformă care oferă resurse celor care se oferă să îi învețe pe aceia care încă nu au astfel de abilități cum să folosească mai bine tehnologia în folosul lor. De exemplu, cei care vor să își învețe bunicii cum să folosească un smartphone pot primi aici resursele necesare, în diferite formate, inclusiv printabile, pentru a fi ușor înțelese și asimilate. În plus, platforma va pune la dispoziția celor care învață cum să utilizeze tehnologia un helpline prin care aceștia vor putea obține consiliere și sprijin rapid.</p>",
                   "link":"",
                   "link_text":"Vezi soluția",
-                  "icon":"icon-date-deschise",
+                  "icon":require('../assets/images/projects/education4ro-descurca-tech.png'),
                   "position":{
                     "top":"0",
                     "left":"0"
@@ -3156,7 +3639,7 @@ const data = {
                   "description":"<p>Pentru a putea construi și dezvolta abilități digitale, e nevoie de o evaluare corectă a celor deja existente. Evaluează-tech este o platformă care oferă posibilitatea evaluării competențelor digitale de bază adresată în primul rând celor care lucrează în instituții publice, fiind însă deschisă tuturor. Pe lângă abilitățile de bază, platforma va evalua inclusiv optimizarea fluxurilor și eficientizarea lucrului cu instrumente digitale.</p>",
                   "link":"",
                   "link_text":"Vezi soluția",
-                  "icon":"icon-date-deschise",
+                  "icon":require('../assets/images/projects/education4ro-evalueaza-tech.png'),
                   "position":{
                     "top":"0",
                     "left":"0"
@@ -3185,7 +3668,7 @@ const data = {
                   "description":"<p>Abilitățile digitale au devenit o cerință fundamentală pentru orice persoană cre vrea să își desfășoare în bune condiții activitatea profesională sau personală. Învață-tech este o platformă cuprinzătoare care va ajuta utilizatorii să își dezvolte competențele digitale. Învățarea se va desfășura pe baza programului internațional dezvoltat de Mozilla Foundation (Mozilla Foundation Web Literacy), cuprinzând componente ce țin de  creativitate, colaborare, rezolvare de probleme, comunicare și siguranță pe internet. Pe lângă componenta de învățare, platforma va oferi accesibilizarea unor unelte digitale existente, oferind interfețe în limba română pentru acestea.</p>",
                   "link":"",
                   "link_text":"Vezi soluția",
-                  "icon":"icon-date-deschise",
+                  "icon":require('../assets/images/projects/education4ro-invata-tech.png'),
                   "position":{
                     "top":"0",
                     "left":"0"
@@ -3249,7 +3732,7 @@ const data = {
                   "description":"<p>Managementul carierei în educație este un concept destul de străin și profesorii sau învățătorii nu au instrumente la dispoziție pentru a-și planifica parcursul profesional corect și cu un consum minim de resurse. Școala profesorilor este o aplicație web în care profesorul își poate crea un cont și configura un parcurs profesional dorit, iar pe baza acestuia i se recomandă un plan de învățare (inclusiv cursuri recomandate, acreditate sau nu), iar școala își poate crea un cont unde își poate introduce toți profesorii și menține la zi informațiile despre gradele, cursurile și formările acestora, unde poate configura parcursul resurselor sale umane, estima costuri și organiza calendarul de training</p>",
                   "link":"",
                   "link_text":"Vezi soluția",
-                  "icon":"icon-date-deschise",
+                  "icon":require('../assets/images/projects/education4ro-scoala-profesorilor.png'),
                   "position":{
                     "top":"0",
                     "left":"0"
@@ -3280,7 +3763,7 @@ const data = {
                   "description":"<p>Fiecare cadru didactic, odată ajuns în învățământ, este pe cont propriu și își construiește lecțiile folosindu-se de resurse pe care le descoperă și adaptează singur, unica îndrumare venind de la alte cadre didactice tot la inițiativa independentă a profesorului. Resurse profesori este un set de instrumente de folosit la clasă pe care să și-l configureze și descarce din platformă orice profesor. Răspunzând la câteva întrebări legate de mediul în care predă, profesorul își poate personaliza un pachet de bază de resurse utile pentru predatul de zi cu zi. În același timp, aplicația poate recomanda o serie de alte instrumente administrative utile în managementul cursurilor: instrumente de monitorizare a progresului elevilor, de management personal al timpului, cataloage digitale etc.</p>",
                   "link":"",
                   "link_text":"Vezi soluția",
-                  "icon":"icon-date-deschise",
+                  "icon":require('../assets/images/projects/education4ro-resurse-profesori.png'),
                   "position":{
                     "top":"0",
                     "left":"0"
@@ -3311,7 +3794,7 @@ const data = {
                   "description":"<p>O problemă foarte mare în sistemul educațional din România e faptul că mentoratul și pregătirea inițială a cadrelor didactice nu asigură însușirea competențelor care permit mai apoi gestiunea socio-emoțională a copiilor și a tinerilor. În lipsa unui sistem funcțional de mentorat, cadrele didactice începătoare sunt lăsate pe cont propriu cu foarte puțin ghidaj din partea colegilor lor.</p> <p>Classroom Demo este o platformă care oferă acces la o colecție de materiale video pentru profesorii și învățătorii începători care au nevoie de ghidaj pentru a deveni mai buni la clasă. Materialele vor fi de mai multe tipuri - ore deja înregistrate de profesori metodiști pentru a permite începătorilor să analizeze desfășurarea unei ore la clasă, alături de alte materiale video utile construite de cadre didactice experimentate. În plus, platforma poate conține și materiale video în alte limbi, subtitrate în limba română.</p>",
                   "link":"",
                   "link_text":"Vezi soluția",
-                  "icon":"icon-date-deschise",
+                 "icon":require('../assets/images/projects/education4ro-classroom-demo.png'),
                   "position":{
                     "top":"0",
                     "left":"0"
@@ -3342,7 +3825,7 @@ const data = {
                   "description":"<p>Educatorii joacă un rol covârșitor în dezvoltarea noastră, de aceea este important să înțelegem în profunzime cum putem să îi ajutăm și să îi echipăm cu toate instrumentele necesare ca ei să poată avea grijă de noi și de copiii noștri. Formarea inițială nu asigură însușirea competențelor care permit mai apoi gestiunea socio-emoțională a copiilor și a tinerilor. </p> <p>Teacher workout este o aplicație care oferă acces la cursuri scurte, interactive, pe subiecte care acoperă o gamă largă de tematici de la identificarea cu ușurință a copiilor cu dificultăți de învățare, până la gestiunea situațiilor complicate de la clasă, integrarea copiilor cu nevoi speciale în colectivul clasei și multe alte micro-cursuri de formare de obiceiuri pozitive pentru profesor.</p>",
                   "link":"",
                   "link_text":"Vezi soluția",
-                  "icon":"icon-date-deschise",
+                  "icon":require('../assets/images/projects/education4ro-teacher-workout.png'),
                   "position":{
                     "top":"0",
                     "left":"0"
@@ -3373,7 +3856,7 @@ const data = {
                   "description":"<p>Copiii care sunt internați pentru mult timp rămân în urmă cu materiile predate în școală, ceea ce înseamnă că vor fi reintegrați în colectiv mult mai greu atunci când vor reveni în sala de clasă. Profesorii nu sunt pregătiți pentru astfel de situații și pentru mulți dintre ei ar fi extrem de dificil să se deplaseze să lucreze cu acești copii în spital. Platforma Profesor în spital centralizează ONG-urile care derulează programe de școală în spital. Datele sunt dispuse pe județe și orașe, iar pe pagina dedicată fiecărui ONG, un spital sau un părinte poate să aplice pentru a beneficia, în măsura disponibilității ONG-ului, de acest tip de serviciu. Platforma identifică inclusiv acele orașe în care în acest moment nu există ONG-uri active, dar unde apare această nevoie de sprijin educațional. În același timp, pentru a susține activitatea ONG-urilor, platforma este integrată și cu un sistem de plăți pentru a le oferi acestora posibilitatea de a strânge fonduri pentru extinderea programelor lor.</p>",
                   "link":"",
                   "link_text":"Vezi soluția",
-                  "icon":"icon-date-deschise",
+                  "icon":require('../assets/images/projects/education4ro-profesor-spital.png'),
                   "position":{
                     "top":"0",
                     "left":"0"
@@ -3398,13 +3881,13 @@ const data = {
                 },
                 {
                   "id":6,
-                  "project_slug":"profesor-in-spital",
+                  "project_slug":"acces",
                   "title":"Acces",
                   "subtitle":"Resurse educaționale gratuite pentru profesorii care lucrează cu copii cu CES",
                   "description":"<p>Resursele disponibile online pentru lucrul cu elevi în situații de risc sau pentru integrarea copiilor cu cerințe educaționale speciale adesea nu sunt relevante sau nu sunt în limba română și nu sunt adaptate la realitatea din România. AcCES este un centralizator digital de resurse educaționale gratuite pentru profesorii care lucrează cu copii cu CES, integrată și cu un helpline asigurat de psihologi cu care profesorii pot veni în contact pentru a discuta cazuri speciale și a obține sfaturi și ajutor. Platforma va deschide resursele pentru toți profesorii, iar pentru a intra în contact cu un terapeut, aceștia vor trebui să își creeze un cont și să posteze o cerere de ajutor pentru a putea fi preluați de un specialist.</p>",
                   "link":"",
                   "link_text":"Vezi soluția",
-                  "icon":"icon-date-deschise",
+                  "icon":require('../assets/images/projects/education4ro-acces.png'),
                   "position":{
                     "top":"0",
                     "left":"0"

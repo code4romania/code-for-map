@@ -89,7 +89,7 @@
 
           <b-row>
             <b-col xs="12" lg="6">
-              <div class="border border-gray mb-3">
+              <div class="border border-gray mb-3 text-center">
                 <img class="img-fluid" :src="segment.projects[active_project_index].icon" />
               </div>
               <div class="d-none d-lg-block">
@@ -166,7 +166,6 @@
 import postMessage from "../utils/postMessage";
 
 import HighwayHeader from "../components/map/HighwayHeader";
-import Delimiter from "../components/Delimiter";
 import SegmentHeader from "../components/map/SegmentHeader";
 import SegmentLegend from "../components/map/SegmentLegend";
 
@@ -179,7 +178,6 @@ export default {
   },
   components: {
     HighwayHeader,
-    Delimiter,
     SegmentHeader,
     SegmentLegend,
   },
