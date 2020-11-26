@@ -722,7 +722,7 @@ const data = {
               "description":"Una dintre problemele reale din societatea română contemporană este dezechilibrul informațional cauzat de accesul facil la surse de informare atractive de calitate îndoielnică și accesul greu la surse de informare de calitate. Diaspora Hub își propune să fie portalul prin care cetățenii români care trăiesc în afara granițelor țării să aibă acces într-un singur loc la toate informațiile de care au nevoie pentru a putea menține contactul cu instituțiile statului român și a beneficia de drepturile lor cetățenești.",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/care4ro-info-diaspora.png'),
+              "icon":require('../assets/images/projects/care4ro-diaspora-hub.png'),
               "position":{
                 "top":"0",
                 "left":"0"
