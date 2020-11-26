@@ -50,7 +50,22 @@ const data = {
     description: "This is a placeholder text that should act as a call to action to help people understant why they need to be joining us in our journey.",
     share: {
       title: "Distribuie",
-      color: "primary"
+      color: "primary",
+      facebook: {
+        title: "Facebook",
+        color: "",
+        icon: ""
+      },
+      linkedin: {
+        title: "Linkedin",
+        color: "",
+        icon: ""
+      },
+      twitter: {
+        title: "Twitter",
+        color: "",
+        icon: ""
+      }
     },
     donate: {
       title: "Donează",

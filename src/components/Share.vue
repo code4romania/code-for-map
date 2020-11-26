@@ -7,10 +7,9 @@
     </a> -->
 
     <b-dropdown right :text="data.share.title" :variant="data.share.color" class="mr-2 text-white dropdown-custom">
-      <b-dropdown-item class="text-center">item</b-dropdown-item>
-      <b-dropdown-item @click="facebookLink" class="text-center">Facebook</b-dropdown-item>
-      <b-dropdown-item @click="linkedinLink" class="text-center">Linkedin</b-dropdown-item>
-      <a @click:href="facebookLink"></a>
+      <b-dropdown-item @click="facebookLink" class="text-center">{{ data.share.facebook.title }}</b-dropdown-item>
+      <b-dropdown-item @click="linkedinLink" class="text-center">{{ data.share.linkedin.title }}</b-dropdown-item>
+      <b-dropdown-item @click="twitterLink" class="text-center">{{ data.share.twitter.title }}</b-dropdown-item>
     </b-dropdown>
 
     <a :href="data.donate.link" :class="'btn btn-' + data.donate.color + ' btn-custom px-5 mx-2 text-white btn-lg'">
@@ -40,17 +39,24 @@ export default {
             u: this.pageUrl,
           }),
       );
-      console.log(this.$route)
     },
     linkedinLink() {
-        window.open(
-          'https://linkedin.com/shareArticle' +
-            objectToGetParams({
-              mini: true,
-              url: this.pageUrl
-            })
-        );
-      }
+      window.open(
+        'https://linkedin.com/shareArticle' +
+          objectToGetParams({
+            mini: true,
+            url: this.pageUrl
+          })
+      );
+    },
+    twitterLink() {
+      window.open(
+        "https://www.twitter.com/share" +
+          objectToGetParams({
+            url: this.pageUrl,
+          })
+      );
+    },
   },
 };
 </script>
