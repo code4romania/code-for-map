@@ -32,7 +32,7 @@ export default {
 
 <style>
 .btn-opacity {
-  opacity: 0.5;
+  opacity: 0.35;
 }
 .btn-opacity:hover,
 .router-link-active {
