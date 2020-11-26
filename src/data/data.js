@@ -1877,7 +1877,7 @@ const data = {
               "description": "<p>Accesul la o educație de calitate pentru copiii cu surdocecitate depinde de accesul celor care se ocupă de formarea lor la resurse educaționale de calitate.  Copiii în această situație au nevoi speciale ce țin de comunicare, socializare, dezvoltare cognitivă și psihomotrică. eSense este o soluție adaptată nevoilor lor specifice date de combinația de deficiențe de vedere și de auz. Aplicația sprijină cadrele didactice în intervenția timpurie și nu numai, cu exerciții și jocuri flexibile, care urmează curriculumul în vigoare, fiind deschisă pentru toată lumea, open-source, replicabilă și reutilizabilă în toată lumea.</p>",
               "link": "",
               "link_text": "Vezi soluția",
-              "icon": "icon-date-deschise",
+              "icon": require('../assets/images/projects/education4ro-e-sense.png'),
               "adopted": true,
               "adopted_by": [
                 {

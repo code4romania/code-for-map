@@ -1,15 +1,16 @@
 <template>
-  <div class="Share">
-    <b-dropdown
-      right
-      :text="share.cta"
-      :variant="share.color"
-      size="lg"
-    >
-      <b-dropdown-item @click="facebookLink" class="text-center">Facebook</b-dropdown-item>
-      <b-dropdown-item @click="linkedinLink" class="text-center">Linkedin</b-dropdown-item>
-      <b-dropdown-item @click="twitterLink" class="text-center">Twitter</b-dropdown-item>
-    </b-dropdown>
+  <div class="Share d-flex">
+    <a @click="facebookLink" href="#" class="mr-4">
+      <svg class="icon icon-lg"><use xlink:href="#share-fb"></use></svg>
+    </a>
+
+    <a @click="twitterLink" href="#" class="mr-4">
+      <svg class="icon icon-lg"><use xlink:href="#share-tw"></use></svg>
+    </a>
+
+    <a @click="linkedinLink" href="#" class="mr-4">
+      <svg class="icon icon-lg"><use xlink:href="#share-li"></use></svg>
+    </a>
   </div>
 </template>
 
