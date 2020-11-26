@@ -51,26 +51,10 @@
           <svg class="segment">
             <use :xlink:href="'#' + segment.segment_visual"></use>
           </svg>
-            <div :style="{position: 'absolute', top: segment.icon_title_position.top, left: segment.icon_title_position.left}">
-              <svg class="icon icon-xl"><use :xlink:href="'#icon-' + highway_slug"></use></svg>
-              <p class="icon-text-container font-weight-light">{{segment.title}}</p>
-            </div>
-        </div>
-        <!-- Modal -->
-        <div class="d-none d-lg-block">
-          <template v-for="(project, index) in segment.projects" >
-            <a
-              v-bind:key="'project-label-' + index"
-              :style="{
-                position: 'absolute',
-                top: project.position.top,
-                left: project.position.left,
-              }"
-              :id="project.id"
-              @click="projectClicked(index)"
-              >{{ project.title }}</a
-            >
-          </template>
+          <!-- <div :style="{position: 'absolute', top: segment.icon_title_position.top, left: segment.icon_title_position.left}">
+            <svg class="icon icon-xl"><use :xlink:href="'#icon-' + highway_slug"></use></svg>
+            <p class="icon-text-container font-weight-light">{{segment.title}}</p>
+          </div> -->
         </div>
         <b-modal ref="myModal" size="lg" centered hide-header hide-footer no-fade>
           <div class="py-1" :class="`bg-` + code4ro_map.color"></div>
@@ -83,16 +67,16 @@
           </div>
           <b-row class="p-3">
             <b-col cols="6">
-              <h3>{{segment.projects[active_project_index].title}}</h3>
+              <!-- <h3>{{segment.projects[active_project_index].title}}</h3> -->
             </b-col>
             <b-col cols="6">
               <svg class="icon icon-sm"><use xlink:href="#icon-redirect"></use></svg>
-              <a :href="segment.projects[active_project_index].link" class="ml-2" style="text-decoration:underline">{{segment.projects[active_project_index].link_text}}</a>
+              <!-- <a :href="segment.projects[active_project_index].link" class="ml-2" style="text-decoration:underline">{{segment.projects[active_project_index].link_text}}</a> -->
             </b-col>
             <b-col cols="12" lg="6">
               <div class="border p-4 my-3 d-flex align-items-center justify-content-center">
-                <svg class="icon icon-lg"><use :xlink:href="`#` + segment.projects[active_project_index].icon"></use></svg>
-                {{ segment.projects[active_project_index].title }}
+                <!-- <svg class="icon icon-lg"><use :xlink:href="`#` + segment.projects[active_project_index].icon"></use></svg> -->
+                <!-- {{ segment.projects[active_project_index].title }} -->
               </div>
                 <div class="w-50 d-flex align-items-center">
                   <svg class="icon icon-md mr-2"><use xlink:href="#icon-heart"></use></svg>
@@ -108,9 +92,9 @@
                         </b-col>
                       </template>
                     </b-row>
-                    <a v-else :href="data.call_to_action.finance.link" :class="'btn btn-' + data.call_to_action.finance.color + ' btn-custom px-5 mx-2 my-2 text-white btn-lg'">
-                      {{data.call_to_action.finance.title}}
-                    </a>
+                    <!-- <a v-else :href="data.call_to_action.finance.link" :class="'btn btn-' + data.call_to_action.finance.color + ' btn-custom px-5 mx-2 my-2 text-white btn-lg'"> -->
+                      <!-- {{data.call_to_action.finance.title}} -->
+                    <!-- </a> -->
                   </b-col>
                 </b-row>
             </b-col>
@@ -190,17 +174,27 @@ export default {
   },
   mounted() {
     postMessage({ height: document.body.scrollHeight });
+
+    const projects = document.getElementsByClassName('btn-project');
+
+    projects.forEach(project => {
+      project.addEventListener('click', () => {
+        this.projectClicked(parseInt(project.getAttribute('projectid'), 10))
+      })
+    })
   },
   methods: {
     projectClicked(index) {
-      this.active_project_index = index;
+      // TODO: FIX PROJECT SELECTION BUG HERE
+      this.active_project_index = index - 1;
+
       this.$refs.myModal.show();
     },
     hideModal() {
       this.$refs.myModal.hide();
     },
     next() {
-      if (this.active_project_index === this.segment.projects.length - 1) {
+      if (this.active_project_index === this.segment.projects.length) {
         this.active_project_index = 0;
       } else {
         this.active_project_index++;
@@ -208,7 +202,7 @@ export default {
     },
     previous() {
       if (0 === this.active_project_index) {
-        this.active_project_index = this.segment.projects.length - 1;
+        this.active_project_index = this.segment.projects.length;
       } else {
         this.active_project_index--;
       }
