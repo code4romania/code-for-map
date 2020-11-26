@@ -30,7 +30,7 @@ const routes = [
   },
   {
     path: "/:slug/:segment/:solution",
-    name: "Project",
+    name: "Solution",
     component: Segment,
     props: true
   }

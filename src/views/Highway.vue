@@ -47,7 +47,7 @@
           <!--###############################################
           ################ Highway segments ################
           ############################################### -->
-          <template v-for="segment_button in code4ro_map.highway_segment">
+          <template v-for="segment_button in code4ro_map.highway_segments">
             <!-- Highway component with segments button displayed from 1024px-->
             <HighwayButton
               :slug="code4ro_map.slug"

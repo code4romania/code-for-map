@@ -234,10 +234,7 @@ const data = {
       },
       "color": "purple",
       "highway_bg": "highway-care",
-      "all_solution_text": "VEZI TOATE SOLUTIILE PENTRU",
-      "vezi_solutia_text": "Vezi soluția",
-      "vezi_solutia_icon": "icon-redirect",
-      "highway_segment": [
+      "highway_segments": [
         {
           "id": 1,
           "segmentSlug": "fara-violenta-acasa",
@@ -564,7 +561,7 @@ const data = {
       },
       "color": "red",
       "highway_bg": "highway-health",
-      "highway_segment": [
+      "highway_segments": [
         {
           "id": 1,
           "segmentSlug": "sanatate-mentala-pentru-toti",
@@ -866,7 +863,7 @@ const data = {
       },
       "color": "blue",
       "highway_bg": "highway-participation",
-      "highway_segment": [
+      "highway_segments": [
         {
           "id": 1,
           "segmentSlug": "acces-la-cultura",
@@ -1598,7 +1595,7 @@ const data = {
       },
       "color": "yellow",
       "highway_bg": "highway-education",
-      "highway_segment": [
+      "highway_segments": [
         {
           "id": 1,
           "segmentSlug": "scoli-sigure-si-bine-administrate",
@@ -1908,7 +1905,7 @@ const data = {
       },
       "color": "green",
       "highway_bg": "highway-environment",
-      "highway_segment": [
+      "highway_segments": [
         {
           "id": 1,
           "segmentSlug": "paduri-protejate-si-sanatoase",
