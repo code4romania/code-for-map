@@ -3,7 +3,6 @@
     <div class="py-1" :class="`bg-` + code4ro_map.color"></div>
 
     <div class="ProjectModal p-3">
-
       <div class="d-flex align-items-center justify-content-between my-4">
         <div class="SegmentLegend-status d-flex align-items-center">
           <i
@@ -67,8 +66,8 @@
                   :href="data.call_to_action.finance.link"
                   :class="
                     'btn btn-' +
-                    data.call_to_action.finance.color +
-                    ' btn-custom px-5 mx-2 my-2 text-white btn-lg'
+                      data.call_to_action.finance.color +
+                      ' btn-custom px-5 mx-2 my-2 text-white btn-lg'
                   "
                 >
                   {{ data.call_to_action.finance.title }}
@@ -105,8 +104,8 @@
                 :href="data.call_to_action.finance.link"
                 :class="
                   'btn btn-' +
-                  data.call_to_action.finance.color +
-                  ' btn-custom px-5 mx-2 my-2 text-white btn-lg'
+                    data.call_to_action.finance.color +
+                    ' btn-custom px-5 mx-2 my-2 text-white btn-lg'
                 "
               >
                 {{ data.call_to_action.finance.title }}
@@ -190,10 +189,16 @@ export default {
     }
 
     /** Extarct the previous project. */
-    this.previous_index = 0 == this.active_index ? this.segmentObject.projects.length - 1 : this.active_index - 1;
+    this.previous_index =
+      0 == this.active_index
+        ? this.segmentObject.projects.length - 1
+        : this.active_index - 1;
 
     /** Extarct the next project. */
-    this.next_index = this.segmentObject.projects.length - 1 == this.active_index ? 0 : this.active_index + 1;
+    this.next_index =
+      this.segmentObject.projects.length - 1 == this.active_index
+        ? 0
+        : this.active_index + 1;
   },
   mounted() {
     this.project = this.segmentObject.projects.find(
@@ -201,7 +206,7 @@ export default {
     );
   },
   watch: {
-    $route(to, from) {
+    $route(to) {
       if (this.solution_slug != to.params.solution) {
         this.project = this.segmentObject.projects.find(
           (item) => item.projectSlug == to.params.solution
@@ -212,15 +217,24 @@ export default {
   methods: {
     next() {
       /** Move to the next index. */
-      this.active_index = this.active_index + 1 == this.segmentObject.projects.length ? 0 : this.active_index + 1;
+      this.active_index =
+        this.active_index + 1 == this.segmentObject.projects.length
+          ? 0
+          : this.active_index + 1;
 
       /** Extarct the previous project. */
-      this.previous_index = 0 == this.active_index ? this.segmentObject.projects.length - 1 : this.active_index - 1;
+      this.previous_index =
+        0 == this.active_index
+          ? this.segmentObject.projects.length - 1
+          : this.active_index - 1;
 
       /** Extarct the next project. */
-      this.next_index = this.segmentObject.projects.length - 1 == this.active_index ? 0 : this.active_index + 1;
+      this.next_index =
+        this.segmentObject.projects.length - 1 == this.active_index
+          ? 0
+          : this.active_index + 1;
 
-      this.$router.replace({
+      this.$router.push({
         name: "ProjectModal",
         params: {
           solution: this.segmentObject.projects[this.next_index].projectSlug,
@@ -229,18 +243,28 @@ export default {
     },
     previous() {
       /** Move to the previous index. */
-      this.active_index = this.active_index - 1 < 0 ? this.segmentObject.projects.length - 1 : this.active_index - 1;
+      this.active_index =
+        this.active_index - 1 < 0
+          ? this.segmentObject.projects.length - 1
+          : this.active_index - 1;
 
       /** Extarct the previous project. */
-      this.previous_index = 0 == this.active_index ? this.segmentObject.projects.length - 1 : this.active_index - 1;
+      this.previous_index =
+        0 == this.active_index
+          ? this.segmentObject.projects.length - 1
+          : this.active_index - 1;
 
       /** Extarct the next project. */
-      this.next_index = this.segmentObject.projects.length - 1 == this.active_index ? 0 : this.active_index + 1;
+      this.next_index =
+        this.segmentObject.projects.length - 1 == this.active_index
+          ? 0
+          : this.active_index + 1;
 
-      this.$router.replace({
+      this.$router.push({
         name: "ProjectModal",
         params: {
-          solution: this.segmentObject.projects[this.previous_index].projectSlug,
+          solution: this.segmentObject.projects[this.previous_index]
+            .projectSlug,
         },
       });
     },
