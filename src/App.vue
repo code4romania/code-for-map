@@ -30,8 +30,8 @@
 
       <b-row class="mb-5">
         <b-col>
-          <h1 class="text-strong-blue">{{data.more_info.title}}</h1>
           <div v-html="data.more_info.description" />
+          <a :href="data.more_info.download_pdf_link" target="_blank">{{data.more_info.download_pdf_cta}}</a>
         </b-col>
         <div class="w-100 d-md-none"></div>
         <b-col>

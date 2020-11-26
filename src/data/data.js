@@ -63,7 +63,9 @@ const data = {
   },
   "more_info":{
     "title":"Content cu poza sau cu embed de Youtube",
-    "description":"<p>Convallis tellus id interdum velit laoreet id donec ultrices. Arcu risus quis varius quam quisque id. Diam donec adipiscing tristique risus nec feugiat in. Faucibus turpis in eu mi bibendum neque egestas congue quisque. Elementum nibh tellus molestie nunc non. Condimentum vitae sapien pellentesque habitant.</p><p>tempor incididunt ut labore et dolore magna aliqua. Convallis tellus id interdum velit laoreet id donec ultrices. Arcu risus quis varius quam quisque id. Diam donec adipiscing tristique risus nec feugiat in. Faucibus turpis in eu mi bibendum neque egestas congue quisque. Elementum nibh tellus molestie nunc non. Condimentum vitae sapien pellentesque habitant. </p>",
+    "description":"<p>Code for Romania este a doua cea mai mare comunitate de tehnologie civică din lume. Misiunea noastră este aceea de a găsi soluții digitale la problemele României. Am construit deja zeci de soluții folosite de milioane de români, iar în următorii cinci ani ne propunem să realizăm o veritabilă infrastructură digitală care să rezolve problemele României din cinci domenii-cheie. Ne-am propus, prin acest plan, să atingem 37 de obiective. Când vom ajunge la capătul lui, vom avea sute de soluții bine gândite și bine realizate care vor întregi cele cinci mari drumuri pe care le-am desenat pe această hartă. Sună ambițios? Este ambițios, dar în cei 4 ani de existență, Code for Romania a arătat că se poate. Iar pentru a rezolva problemele României un plan nu poate fi decât ambițios. Alături de partenerii noștri puternici, putem găsi soluții la mii de probleme ale societății românești. </p>",
+    "download_pdf_cta": "Descarcă planul nostru",
+    "download_pdf_link": "",
     "youtube":"https://www.youtube.com/watch?v=tyYNP9IzfEY&ab_channel=MorningGlorycuR%C4%83zvanExarhu",
     "thumbnail": require('../assets/images/fpo.png')
   },

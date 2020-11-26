@@ -17,7 +17,7 @@
 
       <SegmentLegend :status="data.segment_legend" :color="code4ro_map.color" />
 
-      <div class="ProjectsList">
+      <div class="ProjectsList" v-if="segment.projects.length">
         <template v-for="(project, index) in segment.projects">
           <a class="d-flex align-items-center justify-content-between ListItem"
             v-bind:key="'project-' + index"
@@ -79,7 +79,10 @@
           </div>
 
           <div class="d-flex align-items-center justify-content-between my-4">
-            <h3>{{segment.projects[active_project_index].title}}</h3>
+            <div>
+              <h3>{{segment.projects[active_project_index].title}}</h3>
+              <p>{{segment.projects[active_project_index].subtitle}}</p>
+            </div>
 
             <a :href="segment.projects[active_project_index].link" v-if="segment.projects[active_project_index].link">
               <svg class="icon icon-sm"><use xlink:href="#icon-redirect"></use></svg>
@@ -151,7 +154,7 @@ import SegmentHeader from "../components/map/SegmentHeader";
 import SegmentLegend from "../components/map/SegmentLegend";
 
 export default {
-  name: "Solution",
+  name: "Segment",
   props: {
     data: {
       type: Object,
