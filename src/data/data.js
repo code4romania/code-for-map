@@ -1935,19 +1935,7 @@ const data = {
             "left": "-2.67%"
           },
           "icon_left":false,
-          "projects":[
-            {
-              "id":1,
-              "projectSlug":"project-slug",
-              "title":"proiect title",
-              "description":"description 1",
-              "link":"",
-              "link_text":"Vezi soluția",
-              "icon":"icon-date-deschise",
-              "adopted":false,
-              "adopted_by":[]
-            }
-          ]
+          "projects":[]
         },
         {
           "id": 2,
@@ -2015,7 +2003,7 @@ const data = {
           "projects":[
             {
               "id":1,
-              "projectSlug":"fut_prind_calculez",
+              "projectSlug":"footprint-calculator",
               "title":"Footprint calculator",
               "subtitle":"Responsabilitate pentru mediu prin calcularea amprentei de carbon a produselor consumate",
               "description":"<p>În ultimii ani, mulți oameni își doresc să-și adapteze comportamentul de consum în așa fel încât să reducă amprenta de carbon reprezentată de totalul emisiilor de gaze cu efect de seră realizate pentru a produce bunurile consumate. Reducerea, compensarea sau neutralizarea amprentei de carbon (CO2) reprezintă acțiuni de schimbare a atitudinii față de societate și de creștere a responsabilității sociale. Footprint calculator este o aplicație mobilă prin care orice consumator va putea, scanând codul de bare de pe un produs, să afle amprenta de carbon a produsului respectiv. În felul acesta, fiecare va putea să aleagă să consume produse mai puțin dăunătoare pentru mediu. </p>",
@@ -2024,7 +2012,7 @@ const data = {
               "icon":require('../assets/images/projects/environment4ro-footprint-calculator.png'),
               "adopted":false,
               "adopted_by":[]
-            },
+            }
           ]
         },
         {
@@ -2041,12 +2029,37 @@ const data = {
           "projects":[
             {
               "id":1,
-              "projectSlug":"project-slug",
-              "title":"proiect title",
-              "description":"description 1",
+              "projectSlug":"reteaua-anti-poluare-aer",
+              "title":"Rețeaua anti-poluare: aer",
+              "subtitle":"O rețea de senzori low-cost, open source, disponibili oricui",
+              "description":"<p>Pentru a putea lua decizii bune pentru diminuarea poluării aerului, avem nevoie de date corecte și consistente. Deși în ultimii ani au apărut numeroase inițiative de monitorizare a poluării aerului, ele se adresează doar anumitor localități și utilizează un număr redus de senzori. Rețeaua anti-poluare: aer propune extinderea acestor sisteme printr-o rețea de senzori low-cost, open source, după modelul <strong>Sensor Community</strong>, care vor putea oferi mai multe date din mai multe zone geografice, astfel încât să avem o imagine clară asupra poluării aerului pe care îl respirăm.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":"icon-date-deschise",
+              "icon":require('../assets/images/projects/environment4ro-reteaua-antipoluare-aer.png'),
+              "adopted":false,
+              "adopted_by":[]
+            },
+            {
+              "id":2,
+              "projectSlug":"reteaua-anti-poluare-zgomot",
+              "title":"Rețeaua anti-poluare: zgomot",
+              "subtitle":"Rețea de senzori low cost pentru măsurarea poluării sonore",
+              "description":"<p>Pentru a putea lua decizii bune pentru diminuarea poluării sonore, avem nevoie de date corecte și consistente. Deși este un concept mai nou, poluarea sonoră reprezintă o realitate periculoasă în prezent, când zgomotul din trafic, transportul public și peisajul urban este omniprezent și poate avea un impact masiv asupra auzului și stării de sănătate în general. Rețeaua anti-poluare: zgomot propune realizarea unei rețele de senzori low-cost, open source, după modelul <strong>Sensor Community</strong>, care vor putea oferi mai multe date din mai multe zone geografice, astfel încât să avem o imagine clară asupra poluării sonore care ne poate afecta sănătatea.</p>",
+              "link":"",
+              "link_text":"Vezi soluția",
+              "icon":require('../assets/images/projects/environment4ro-reteaua-antipoluare-zgomot.png'),
+              "adopted":false,
+              "adopted_by":[]
+            },
+            {
+              "id":3,
+              "projectSlug":"date-poluare",
+              "title":"DatePoluare",
+              "subtitle":"Informații complete despre poluarea din România",
+              "description":"<p>Politicile publice care au în vedere reducerea poluării se bazează pe datele din teren, care uneori sunt incomplete, alteori nu sunt de încredere și în cele mai multe cazuri sunt greu de găsit și pus în context. DatePoluare va fi platforma care aduce într-un singur loc date și vizualizări despre poluarea din România, astfel încât acestea să fie ușor accesibile oricui și să prezinte o imagine completă și corectă a problemei, pentru a putea mai apoi, pe baze solide, construi soluția potrivită.</p>",
+              "link":"",
+              "link_text":"Vezi soluția",
+              "icon":require('../assets/images/projects/environment4ro-date-poluare.png'),
               "adopted":false,
               "adopted_by":[]
             }
@@ -2066,7 +2079,7 @@ const data = {
           "projects":[
             {
               "id":1,
-              "projectSlug":"RVM",
+              "projectSlug":"e-cutremur",
               "title":"eCutremur",
               "subtitle":"Punct unic de căutare și de centralizare a tuturor informațiilor în caz de cutremur.",
               "description":"<p>În momentele imediat următoare unui dezastru major se va instala panica. Va deveni foarte dificil pentru orice persoană să își amintească pe ce website sau pe ce platformă ar putea găsi informații despre punctele de adunare, unde să meargă pentru a primi ajutor, cu ce autorități pot vorbi etc. Victimele au nevoie de un instrument simplu, la îndemână, care să le permită să caute tot ce le trebuie și să primească informații simple, concise sau liste clare de ONG-uri, autorități sau alte entități care le pot oferi ajutor. eCutremur este un centralizator de resurse utile organizate în jurul unui motor de căutare care va ajuta pe oricine să găsească informații utile în caz de dezastru - de la spitale, centre de ajutor, adăposturi, proceduri legale, informații legate de eforturile de intervenție, alte aplicații digitale utile etc</p>",
@@ -2147,7 +2160,7 @@ const data = {
               "icon":require('../assets/images/projects/environment4ro-seismic-watchdog.png'),
               "adopted":false,
               "adopted_by":[]
-            },
+            }
           ]
         },
         {
@@ -2162,7 +2175,7 @@ const data = {
           },
           "icon_left":true,
           "projects":[
-             {
+            {
               "id":1,
               "projectSlug":"RVM",
               "title":"RVM",
@@ -2186,7 +2199,7 @@ const data = {
               "adopted":false,
               "adopted_by":[]
             },
-             {
+            {
               "id":3,
               "projectSlug":"stiri-oficiale",
               "title":"Știri Oficiale",
@@ -2235,7 +2248,7 @@ const data = {
               "adopted_by":[]
             },
             {
-              "id":6,
+              "id":7,
               "projectSlug":"ce-trebuie-sa-fac",
               "title":"Ce Trebuie Să Fac",
               "subtitle":"Ghid de informații adaptate la situația particulară a fiecărui utilizator",
@@ -2246,8 +2259,8 @@ const data = {
               "adopted":false,
               "adopted_by":[]
             },
-             {
-              "id":7,
+            {
+              "id":8,
               "projectSlug":"date-la-zi",
               "title":"Date la zi",
               "subtitle":"Ghid de informații adaptate la situația particulară a fiecărui utilizator",
@@ -2259,7 +2272,7 @@ const data = {
               "adopted_by":[]
             },
             {
-              "id":8,
+              "id":9,
               "projectSlug":"cine-ce-face",
               "title":"Cine ce face",
               "subtitle":"Informații clare despre rolul fiecărei instituții în situații de urgență",
@@ -2271,7 +2284,7 @@ const data = {
               "adopted_by":[]
             },
             {
-              "id":9,
+              "id":10,
               "projectSlug":"DRM-widget-hub",
               "title":"DRM Widget Hub",
               "subtitle":"Informații utile, simplu de integrat în orice platformă",
@@ -2283,7 +2296,7 @@ const data = {
               "adopted_by":[]
             },
             {
-              "id":10,
+              "id":11,
               "projectSlug":"house-to-home",
               "title":"House to Home",
               "subtitle":"Ajutor pentru persoanele rămase fără locuință",
@@ -2294,8 +2307,8 @@ const data = {
               "adopted":false,
               "adopted_by":[]
             },
-             {
-              "id":11,
+            {
+              "id":12,
               "projectSlug":"ABC-accesibilizare",
               "title":"ABC Accesibilizare",
               "subtitle":"Ghid pentru accesibilizarea transmiterii de informații pentru persoanele cu dizabilități",
@@ -2307,7 +2320,7 @@ const data = {
               "adopted_by":[]
             },
             {
-              "id":12,
+              "id":13,
               "projectSlug":"alerta-patrimoniu",
               "title":"Alertă Patrimoniu",
               "subtitle":"Platformă de vizualizare a patrimoniului cultural cu grad ridicat de risc",
