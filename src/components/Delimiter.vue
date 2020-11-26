@@ -1,6 +1,6 @@
 <template>
   <div class="Delimiter my-4">
-    <img class="img-fluid h-100" :src="delimiter" />
+    <svg class="delimiter"><use :xlink:href="'#delimiter-' + color ? color : 'default'"></use></svg>
   </div>
 </template>
 
@@ -8,7 +8,7 @@
 export default {
   name: "Delimiter",
   props: {
-    delimiter: String
+    color: String
   }
 };
 </script>

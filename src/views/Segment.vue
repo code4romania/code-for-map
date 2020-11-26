@@ -7,8 +7,6 @@
         class="d-block d-lg-none"
       />
 
-      <Delimiter :delimiter="code4ro_map.delimiter_1" />
-
       <SegmentHeader
         :icon="segment.highway_slug"
         :slug="slug"
@@ -17,11 +15,7 @@
         :description="segment.description"
       />
 
-      <Delimiter :delimiter="code4ro_map.delimiter_1" />
-
       <SegmentLegend :status="data.segment_legend" :color="code4ro_map.color" />
-
-      <Delimiter :delimiter="code4ro_map.delimiter_2" />
 
       <div class="ProjectsList">
         <template v-for="(project, index) in segment.projects">
@@ -36,8 +30,6 @@
           </a>
         </template>
       </div>
-
-      <Delimiter :delimiter="code4ro_map.delimiter_2" />
     </div>
 
     <div class="Segment d-none d-lg-block">
