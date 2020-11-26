@@ -24,15 +24,16 @@ export default {
   },
   data() {
     return {
-      pageUrl: location.href,
+      pageURL: location.href,
+      mapURL: "https://code4.ro/putem"
     };
   },
   methods: {
     facebookLink() {
       window.open(
-        `https://www.facebook.com/sharer/sharer.php` +
+        "https://www.facebook.com/sharer/sharer.php" +
           objectToGetParams({
-            u: this.pageUrl,
+            u: this.mapURL,
           })
       );
     },
@@ -41,7 +42,7 @@ export default {
         "https://linkedin.com/shareArticle" +
           objectToGetParams({
             mini: true,
-            url: this.pageUrl,
+            url: this.mapURL,
           })
       );
     },
@@ -49,7 +50,7 @@ export default {
       window.open(
         "https://www.twitter.com/share" +
           objectToGetParams({
-            url: this.pageUrl,
+            url: this.mapURL,
           })
       );
     },
