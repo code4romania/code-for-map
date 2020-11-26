@@ -87,7 +87,7 @@ const data = {
         "id":3,
         "name":"test",
         "link":"https://www.lidl.ro/",
-        "logo": "https://code4.ro/img/lidl.png?q=60&fit=crop&dpr=1&w=80&h=80&crop=500%2C500%2C0%2C0"
+        "logo": "https://code4.ro/img/lidl.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=500%2C500%2C0%2C0"
       }
     ],
     "secondary":[
@@ -95,19 +95,19 @@ const data = {
         "id":1,
         "name":"Fundația Vodafone România",
         "link": "https://www.fundatia-vodafone.ro/",
-        "logo": "https://code4.ro/img/2b09c533-e66b-484f-bc5c-b8c9816813a6/vodafone-logo.png?q=60&fit=crop&dpr=1&w=80&h=80&crop=312%2C312%2C0%2C0"
+        "logo": "https://code4.ro/img/fundatia-vodafone.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=500%2C500%2C0%2C0"
       },
       {
         "id":2,
         "name":"Jysk",
         "link":"http://jysk.ro/",
-        "logo": "https://code4.ro/img/2b09c533-e66b-484f-bc5c-b8c9816813a6/vodafone-logo.png?q=60&fit=crop&dpr=1&w=80&h=80&crop=312%2C312%2C0%2C0"
+        "logo": "https://code4.ro/img/2b09c533-e66b-484f-bc5c-b8c9816813a6/vodafone-logo.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=312%2C312%2C0%2C0"
       },
       {
         "id":3,
         "name":"Cloudflight",
         "link":"https://www.cloudflight.io/offices/cluj-napoca/",
-        "logo": "https://code4.ro/img/85ebcd58-6304-4862-9529-037e20d98d57/cloudflight.png?q=60&fit=crop&dpr=1&w=80&h=80&crop=500%2C500%2C0%2C0"
+        "logo": "https://code4.ro/img/85ebcd58-6304-4862-9529-037e20d98d57/cloudflight.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=500%2C500%2C0%2C0"
       },
       {
         "id":4,
@@ -205,23 +205,8 @@ const data = {
             "left":"46%"
           },
           "icon_left":true,
-          "financed":true,
-          "financed_by":[
-            {
-              "id":1,
-              "title":"",
-              "description":"",
-              "link":"",
-              "logo":"icon-date-deschise"
-            },
-            {
-              "id":2,
-              "title":"",
-              "description":"",
-              "link":"",
-              "logo":"icon-date-deschise"
-            }
-          ],
+          "financed":false,
+          "financed_by":[],
           "projects":[
             {
               "id":1,
@@ -623,7 +608,7 @@ const data = {
               ]
             },
             {
-              "id":13,
+              "id":14,
               "projectSlug":"Violenta-Domestică-Media-Kit",
               "title":"Violența Domestică Media Kit",
               "subtitle":"Ghid interactiv dedicat jurnaliștilor pentru o raportare corectă despre cazurile de violență domestică",
@@ -666,55 +651,9 @@ const data = {
             "left":"40%"
           },
           "icon_left":true,
-          "financed":true,
-          "financed_by":[
-            {
-              "id":1,
-              "title":"",
-              "description":"",
-              "link":"",
-              "logo":"icon-date-deschise"
-            },
-            {
-              "id":2,
-              "title":"",
-              "description":"",
-              "link":"",
-              "logo":"icon-date-deschise"
-            }
-          ],
-          "projects":[
-            {
-              "id":1,
-              "projectSlug":"project-slug",
-              "title":"proiect title",
-              "description":"Hello world",
-              "link":"",
-              "link_text":"Vezi soluția",
-              "icon":"icon-date-deschise",
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
-              "adopted":true,
-              "adopted_by":[
-                {
-                  "id":1,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                },
-                {
-                  "id":2,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                }
-              ]
-            }
-          ]
+          "financed":false,
+          "financed_by":[],
+          "projects":[]
         },
         {
           "id":3,
@@ -727,55 +666,9 @@ const data = {
             "left":"45%"
           },
           "icon_left":true,
-          "financed":true,
-          "financed_by":[
-            {
-              "id":1,
-              "title":"",
-              "description":"",
-              "link":"",
-              "logo":"icon-date-deschise"
-            },
-            {
-              "id":2,
-              "title":"",
-              "description":"",
-              "link":"",
-              "logo":"icon-date-deschise"
-            }
-          ],
-          "projects":[
-            {
-              "id":1,
-              "projectSlug":"project-slug",
-              "title":"proiect title",
-              "description":"description 1",
-              "link":"",
-              "link_text":"Vezi soluția",
-              "icon":"icon-date-deschise",
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
-              "adopted":true,
-              "adopted_by":[
-                {
-                  "id":1,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                },
-                {
-                  "id":2,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                }
-              ]
-            }
-          ]
+          "financed":false,
+          "financed_by":[],
+          "projects":[]
         },
         {
           "id":4,
@@ -788,55 +681,9 @@ const data = {
             "left":"23%"
           },
           "icon_left":false,
-          "financed":true,
-          "financed_by":[
-            {
-              "id":1,
-              "title":"",
-              "description":"",
-              "link":"",
-              "logo":"icon-date-deschise"
-            },
-            {
-              "id":2,
-              "title":"",
-              "description":"",
-              "link":"",
-              "logo":"icon-date-deschise"
-            }
-          ],
-          "projects":[
-            {
-              "id":1,
-              "projectSlug":"project-slug",
-              "title":"proiect title",
-              "description":"description 1",
-              "link":"",
-              "link_text":"Vezi soluția",
-              "icon":"icon-date-deschise",
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
-              "adopted":true,
-              "adopted_by":[
-                {
-                  "id":1,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                },
-                {
-                  "id":2,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                }
-              ]
-            }
-          ]
+          "financed":false,
+          "financed_by":[],
+          "projects":[]
         },
         {
           "id":5,
@@ -849,55 +696,9 @@ const data = {
             "left":"10%"
           },
           "icon_left":false,
-          "financed":true,
-          "financed_by":[
-            {
-              "id":1,
-              "title":"",
-              "description":"",
-              "link":"",
-              "logo":"icon-date-deschise"
-            },
-            {
-              "id":2,
-              "title":"",
-              "description":"",
-              "link":"",
-              "logo":"icon-date-deschise"
-            }
-          ],
-          "projects":[
-            {
-              "id":1,
-              "projectSlug":"project-slug",
-              "title":"proiect title",
-              "description":"description 1",
-              "link":"",
-              "link_text":"Vezi soluția",
-              "icon":"icon-date-deschise",
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
-              "adopted":true,
-              "adopted_by":[
-                {
-                  "id":1,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                },
-                {
-                  "id":2,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                }
-              ]
-            }
-          ]
+          "financed":false,
+          "financed_by":[],
+          "projects":[]
         },
         {
           "id":6,
@@ -910,23 +711,8 @@ const data = {
             "left":"20%"
           },
           "icon_left":true,
-          "financed":true,
-          "financed_by":[
-            {
-              "id":1,
-              "title":"",
-              "description":"",
-              "link":"",
-              "logo":"icon-date-deschise"
-            },
-            {
-              "id":2,
-              "title":"",
-              "description":"",
-              "link":"",
-              "logo":"icon-date-deschise"
-            }
-          ],
+          "financed":false,
+          "financed_by":[],
           "projects":[
             {
               "id":1,
@@ -1052,8 +838,6 @@ const data = {
                 }
               ]
             }
-
-
           ]
         },
         {
@@ -1068,23 +852,8 @@ const data = {
           },
           "icon_left":false,
           "financed":true,
-          "financed_by":[
-            {
-              "id":1,
-              "title":"",
-              "description":"",
-              "link":"",
-              "logo":"icon-date-deschise"
-            },
-            {
-              "id":2,
-              "title":"",
-              "description":"",
-              "link":"",
-              "logo":"icon-date-deschise"
-            }
-          ],
-          "projects":[  ],
+          "financed_by":[],
+          "projects":[],
         }
       ]
     },
