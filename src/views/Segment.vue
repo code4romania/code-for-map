@@ -32,7 +32,7 @@
         >
           <i
             class="icon icon-circle"
-            :class="'border-' + code4ro_map.color"
+            :class="project.adopted ? 'border-' + code4ro_map.color : 'border-gray'"
           ></i>
           <div class="flex-fill mx-2">{{ project.title }}</div>
           <svg class="icon"><use xlink:href="#chevron-right"></use></svg>
@@ -101,7 +101,6 @@ import postMessage from "../utils/postMessage";
 import HighwayHeader from "../components/map/HighwayHeader";
 import SegmentHeader from "../components/map/SegmentHeader";
 import SegmentLegend from "../components/map/SegmentLegend";
-import ProjectModal from "../components/ProjectModal";
 
 export default {
   name: "Segment",
@@ -113,8 +112,7 @@ export default {
   components: {
     HighwayHeader,
     SegmentHeader,
-    SegmentLegend,
-    ProjectModal,
+    SegmentLegend
   },
   data() {
     return {
@@ -139,7 +137,7 @@ export default {
   watch: {
     $route: {
       immediate: true,
-      handler: function (to, from) {
+      handler: function (to) {
         this.showModal = to.meta && to.meta.showModal;
       },
     },

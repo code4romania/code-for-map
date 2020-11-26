@@ -201,7 +201,7 @@ export default {
     );
   },
   watch: {
-    $route(to, from) {
+    $route(to) {
       if (this.solution_slug != to.params.solution) {
         this.project = this.segmentObject.projects.find(
           (item) => item.projectSlug == to.params.solution

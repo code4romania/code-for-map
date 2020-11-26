@@ -24,14 +24,14 @@ const data = {
     "drum_proiectat": "Drum proiectat",
     "drum_planificat": "Drum planificat",
     "destinatie": "Destinație",
-    "tema": "Obiectiv temă",
-    "realizat": "Obiectiv relizat",
-    "planificat": "Obiectiv planificat"
+    "tema": "Obiectiv",
+    "realizat": "Soluție realizată",
+    "planificat": "Soluție proiectată"
   },
   "segment_legend": {
     "text": "Descoperă mai jos care dintre segmentele din drumul nostru spre un mediu sănătos sunt deja executate și ce am proiectat.",
     "designed": "Soluție proiectată",
-    "done": "Soluție executată",
+    "done": "Soluție realizată",
     "adopted": "Segment de drum adoptat de:",
     "neadoptat": "Vrei să finanțezi această soluție?"
   },
@@ -254,8 +254,15 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/care4ro-sunrise-management-caz-vd.png'),
-              "adopted":false,
-              "adopted_by":[]
+              "adopted":true,
+              "adopted_by":[
+                {
+                  "id": 1,
+                  "title": "Code for Romania",
+                  "link": "https://code4.ro/",
+                  "logo": require('../assets/images/code4.png')
+                }
+              ]
             },
             {
               "id":2,
@@ -1127,8 +1134,15 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-redirectioneaza.png'),
-              "adopted":false,
-              "adopted_by":[]
+              "adopted":true,
+              "adopted_by":[
+                {
+                  "id":1,
+                  "title":"Code for Romania",
+                  "link":"https://code4.ro/",
+                  "logo":require('../assets/images/code4.png')
+                }
+              ]
             },
             {
               "id":5,
@@ -1287,8 +1301,8 @@ const data = {
                 {
                   "id":1,
                   "title":"Code for Romania",
-                  "link":"",
-                  "logo":"icon-date-deschise"
+                  "link":"https://code4.ro/",
+                  "logo":require('../assets/images/code4.png')
                 }
               ]
             },
@@ -1301,13 +1315,13 @@ const data = {
               "link": "",
               "link_text": "Vezi soluția",
               "icon": require('../assets/images/projects/participation4ro-vot-diaspora.png'),
-              "adopted": true,
-              "adopted_by": [
+              "adopted":true,
+              "adopted_by":[
                 {
-                  "id": 1,
-                  "title": "Code for Romania",
-                  "link": "",
-                  "logo": "icon-date-deschise"
+                  "id":1,
+                  "title":"Code for Romania",
+                  "link":"https://code4.ro/",
+                  "logo":require('../assets/images/code4.png')
                 }
               ]
             },
@@ -1320,15 +1334,8 @@ const data = {
               "link": "",
               "link_text": "Vezi soluția",
               "icon": require('../assets/images/projects/participation4ro-count-us-in.png'),
-              "adopted": true,
-              "adopted_by": [
-                {
-                  "id": 1,
-                  "title": "Code for Romania",
-                  "link": "",
-                  "logo": "icon-date-deschise"
-                }
-              ]
+              "adopted": false,
+              "adopted_by": []
             },
             {
               "id": 4,
@@ -1339,13 +1346,13 @@ const data = {
               "link": "",
               "link_text": "Vezi soluția",
               "icon": require('../assets/images/projects/participation4ro-monitorizare-vot.png'),
-              "adopted": true,
-              "adopted_by": [
+              "adopted":true,
+              "adopted_by":[
                 {
-                  "id": 1,
-                  "title": "Code for Romania",
-                  "link": "",
-                  "logo": "icon-date-deschise"
+                  "id":1,
+                  "title":"Code for Romania",
+                  "link":"https://code4.ro/",
+                  "logo":require('../assets/images/code4.png')
                 }
               ]
             },
@@ -1358,15 +1365,8 @@ const data = {
               "link": "",
               "link_text": "Vezi soluția",
               "icon": require('../assets/images/projects/participation4ro-ochii-pe-vot.png'),
-              "adopted": true,
-              "adopted_by": [
-                {
-                  "id": 1,
-                  "title": "Code for Romania",
-                  "link": "",
-                  "logo": "icon-date-deschise"
-                }
-              ]
+              "adopted": false,
+              "adopted_by": []
             },
             {
               "id": 6,
@@ -1377,13 +1377,13 @@ const data = {
               "link": "",
               "link_text": "Vezi soluția",
               "icon": require('../assets/images/projects/participation4ro-rezultate-vot.png'),
-              "adopted": true,
-              "adopted_by": [
+              "adopted":true,
+              "adopted_by":[
                 {
-                  "id": 1,
-                  "title": "Code for Romania",
-                  "link": "",
-                  "logo": "icon-date-deschise"
+                  "id":1,
+                  "title":"Code for Romania",
+                  "link":"https://code4.ro/",
+                  "logo":require('../assets/images/code4.png')
                 }
               ]
             },
@@ -1431,15 +1431,22 @@ const data = {
           "projects":[
             {
               "id":1,
-              "projectSlug":"data portal",
+              "projectSlug":"data-portal",
               "title":"Data Portal",
               "subtitle":"Platformă de date deschise  și vizualizare de seturi de date",
               "description":"<p>Data Portal este o platformă de date deschise care își propune să digitalizeze și automatizeze seturile de date din societatea civilă pentru a crește gradul de informare al cetățenilor, pentru a putea încuraja dezvoltarea de proiecte și programe comunitare având la bază seturi de date corecte și coerente. Venim în sprijinul mass-media cu date transformate în informații pentru a construi o platformă unică de stocare a informațiilor utile pentru cetățeni.</p> <p>Platforma este ușor replicabilă la nivel de instituții locale și/sau centrale și permite customizarea importului seturilor de date specifice fiecărui actor care dorește să deschidă date publice.</p>",
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-data-portal.png'),
-              "adopted":false,
-              "adopted_by":[]
+              "adopted":true,
+              "adopted_by":[
+                {
+                  "id":1,
+                  "title":"Code for Romania",
+                  "link":"https://code4.ro/",
+                  "logo":require('../assets/images/code4.png')
+                }
+              ]
             },
             {
               "id":2,
@@ -1524,8 +1531,15 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-expert-consultation.png'),
-              "adopted":false,
-              "adopted_by":[]
+              "adopted":true,
+              "adopted_by":[
+                {
+                  "id":1,
+                  "title":"Code for Romania",
+                  "link":"https://code4.ro/",
+                  "logo":require('../assets/images/code4.png')
+                }
+              ]
             },
             {
               "id":4,
@@ -1584,8 +1598,15 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-edulex.png'),
-              "adopted":false,
-              "adopted_by":[]
+              "adopted":true,
+              "adopted_by":[
+                {
+                  "id":1,
+                  "title":"Finastra",
+                  "link":"https://www.finastra.com/",
+                  "logo":"https://code4.ro/img/46d28102-8f0e-46c8-97ae-ad6aef101c25/finastra-logo.png?q=60&fit=crop&dpr=1&w=100&h=100&crop=1000%2C505%2C0%2C0"
+                }
+              ]
             },
             {
               "id":9,
