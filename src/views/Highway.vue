@@ -1,19 +1,23 @@
 <template>
   <div>
-
     <HighwayHeader
       :logo="code4ro_map.slug"
       :title="code4ro_map.title"
       :description="code4ro_map.description"
     />
-    
+
     <div class="Highway-wrap">
       <div class="HighwayContainer">
         <div class="Highway">
-
           <div class="Highway-partner" v-if="code4ro_map.sponsor">
-            <div class="d-inline-block mb-2">{{data.general.financed_by}}</div>
-            <a :href="code4ro_map.sponsor.link" target="_blank" class="d-block border border-gray">
+            <div class="d-inline-block mb-2">
+              {{ data.general.financed_by }}
+            </div>
+            <a
+              :href="code4ro_map.sponsor.link"
+              target="_blank"
+              class="d-block border border-gray"
+            >
               <img :src="code4ro_map.sponsor.logo" class="img-fluid" />
             </a>
           </div>
@@ -26,7 +30,9 @@
 
           <router-link :to="{ name: 'Map' }" class="d-none d-lg-block">
             <div class="MapContainer">
-              <svg class="w-100 h-100"><use :xlink:href="'#' + code4ro_map.highway_bg"></use></svg>
+              <svg class="w-100 h-100">
+                <use :xlink:href="'#' + code4ro_map.highway_bg"></use>
+              </svg>
             </div>
           </router-link>
 
@@ -76,27 +82,27 @@ export default {
   /** Recived props */
   props: {
     data: {
-      type: Object
-    }
+      type: Object,
+    },
   },
   /** Registered components */
   components: {
     MapButton,
     HighwayButton,
     HighwayHeader,
-    SegmentButton
+    SegmentButton,
   },
   /** Component state. */
   data() {
     return {
       slug: this.$route.params.slug,
-      code4ro_map: []
+      code4ro_map: [],
     };
   },
   /** Vue mounted life cycle initialize data for this route. */
   mounted() {
     this.code4ro_map = this.data.code4ro_map.find(
-      item => item.slug == this.slug
+      (item) => item.slug == this.slug
     );
 
     this.data.back_to_map.visible = true;
@@ -105,13 +111,12 @@ export default {
   },
   watch: {
     $route(to) {
-      if(this.slug != to) {
+      if (this.slug != to) {
         this.code4ro_map = this.data.code4ro_map.find(
-          item => item.slug == to.params.slug
+          (item) => item.slug == to.params.slug
         );
       }
-    }
-  }
-
+    },
+  },
 };
 </script>
