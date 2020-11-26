@@ -19,19 +19,9 @@
       </b-row>
 
       <b-row class="mb-5">
-        <b-col xs="12" md="6">
-          <SendSMS :data="data.sms" />
-        </b-col>
-        <div class="w-100 d-md-none"></div>
-        <b-col xs="12" md="6">
-          <Share :data="data.call_to_action" />
-        </b-col>
-      </b-row>
-
-      <b-row class="mb-5">
         <b-col>
-          <div v-html="data.more_info.description" class="mb-4" />
-          <a class="btn btn-primary btn-custom btn-lg mb-5" :href="data.more_info.download_pdf_link" target="_blank">{{data.more_info.download_pdf_cta}}</a>
+          <div v-html="data.more_info.description" class="mb-4 lead" />
+          <a class="btn btn-strong-blue btn-lg mb-5 px-5" :href="data.more_info.download_pdf_link" target="_blank">{{data.more_info.download_pdf_cta}}</a>
         </b-col>
         <div class="w-100 d-md-none"></div>
         <b-col>
@@ -41,14 +31,14 @@
         </b-col>
       </b-row>
 
-      <h1 class="text-strong-blue mb-3">{{data.more_info.work.title}}</h1>
+      <h1 class="text-strong-blue mb-5">{{data.more_info.work.title}}</h1>
 
       <b-row class="mb-5">
         <b-col
           xs="12" md="6" class="mb-4"
           v-for="(step, index) in data.more_info.work.steps"
           :key="'item-' + index">
-          <div class="d-flex align-items-center justify-content-start mb-2">
+          <div class="d-flex align-items-center justify-content-start mb-4">
             <svg class="icon icon-xl mr-4"><use :xlink:href="'#icon-' + step.icon"></use></svg>
             <h2 class="text-primary">{{step.title}}</h2>
           </div>
@@ -56,12 +46,28 @@
         </b-col>
       </b-row>
 
-      <h1 class="text-strong-blue mb-3">{{data.more_info.how.title}}</h1>
+      <h1 class="text-strong-blue mb-5">{{data.more_info.how.title}}</h1>
 
       <b-row class="mb-5">
+        <b-col xs="12" md="6" lg="3">
+          <h3 class="text-primary mb-4">{{data.call_to_action.donate.title}}</h3>
+          <SendSMS :data="data.sms" />
+        </b-col>
+        <b-col xs="12" md="6" lg="3">
+          <h3 class="text-primary mb-4">{{data.call_to_action.partner.title}}</h3>
+          <div v-html="data.call_to_action.partner.content" />
+        </b-col>
+        <b-col xs="12" md="6" lg="3">
+          <h3 class="text-primary mb-4">{{data.call_to_action.sponsor.title}}</h3>
+          <div v-html="data.call_to_action.sponsor.content" />
+        </b-col>
+        <b-col xs="12" md="6" lg="3">
+          <h3 class="text-primary mb-4">{{data.call_to_action.share.title}}</h3>
+          <Share :data="data.call_to_action.share" />
+        </b-col>
         <!-- <b-col
           xs="12" md="6" class="mb-4"
-          v-for="(item, index) in data.more_info.how.work"
+          v-for="(step, index) in data.more_info.how.steps"
           :key="'item-' + index">
           <div class="d-flex align-items-center justify-content-start mb-2">
             <svg class="icon icon-xl mr-4"><use :xlink:href="'#icon-' + item.icon"></use></svg>

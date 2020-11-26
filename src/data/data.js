@@ -45,15 +45,21 @@ const data = {
     "description":"Și contribuie la digitalizarea Romaniei. Cu un SMS recurent de <strong>4 EUR</strong> pe lună ajuți la construirea și menținerea infrastructurii digitale de care avem nevoie in secolul XXI."
   },
   "call_to_action":{
-    "description":"This is a placeholder text that should act as a call to action to help people understant why they need to be joining us in our journey.",
-    "share":{
-      "title":"Distribuie",
-      "color":"primary"
+    "donate": {
+      "title": "Donează"
     },
-    "donate":{
-      "title":"Donează",
-      "color":"success",
-      "link":"https://code4.ro/ro/doneaza"
+    "partner": {
+      "title": "Adoptă o porțiune de drum!",
+      "content": "<p>Investești într-o soluție digitală care va produce schimbare sustenabilă</p><p>Primești proiectul soluției pe care o alegi 'la cheie', deja realizat de Code for Romania</p><p>Oferim consultare ONG-ului care va administra soluția aleasă de tine</p><p>Te sprijinim monitorizând implementarea soluției</p>"
+    },
+    "sponsor": {
+      "title": "Fii partenerul nostru",
+      "content": "<p>Devii unul dintre sponsorii strategici ai programelor Code for Romania</p><p>Sau poți fi unul dintre sponsorii domeniilor noastre - Educație, Sănătate, Grupuri Vulnerabile, Mediu, Participare civică</p>"
+    },
+    "share": {
+      "title": "Dă vestea mai departe",
+      "cta": "Distribuie",
+      "color": "primary"
     },
     "finance":{
       "title":"Trimite-ne un e-mail",
