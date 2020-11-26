@@ -609,51 +609,9 @@ const data = {
             "left":"60.5%"
           },
           "icon_left":false,
-          "financed":true,
-          "financed_by":[
-            {
-              "id":1,
-              "title":"",
-              "description":"",
-              "link":"",
-              "logo":"icon-date-deschise"
-            },
-            {
-              "id":2,
-              "title":"",
-              "description":"",
-              "link":"",
-              "logo":"icon-date-deschise"
-            }
-          ],
-          "projects":[
-            {
-              "id":1,
-              "projectSlug":"project-slug",
-              "title":"proiect title",
-              "description":"description 1",
-              "link":"",
-              "link_text":"Vezi soluția",
-              "icon":"icon-date-deschise",
-              "adopted":true,
-              "adopted_by":[
-                {
-                  "id":1,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                },
-                {
-                  "id":2,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                }
-              ]
-            }
-          ]
+          "financed":false,
+          "financed_by":[],
+          "projects":[]
         },
         {
           "id":2,
@@ -666,51 +624,9 @@ const data = {
             "left":"78.25%"
           },
           "icon_left":true,
-          "financed":true,
-          "financed_by":[
-            {
-              "id":1,
-              "title":"",
-              "description":"",
-              "link":"",
-              "logo":"icon-date-deschise"
-            },
-            {
-              "id":2,
-              "title":"",
-              "description":"",
-              "link":"",
-              "logo":"icon-date-deschise"
-            }
-          ],
-          "projects":[
-            {
-              "id":1,
-              "projectSlug":"project-slug",
-              "title":"proiect title",
-              "description":"description 1",
-              "link":"",
-              "link_text":"Vezi soluția",
-              "icon":"icon-date-deschise",
-              "adopted":true,
-              "adopted_by":[
-                {
-                  "id":1,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                },
-                {
-                  "id":2,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                }
-              ]
-            }
-          ]
+          "financed":false,
+          "financed_by":[],
+          "projects":[]
         },
         {
           "id":3,
@@ -723,51 +639,9 @@ const data = {
             "left":"55.17%"
           },
           "icon_left":false,
-          "financed":true,
-          "financed_by":[
-            {
-              "id":1,
-              "title":"",
-              "description":"",
-              "link":"",
-              "logo":"icon-date-deschise"
-            },
-            {
-              "id":2,
-              "title":"",
-              "description":"",
-              "link":"",
-              "logo":"icon-date-deschise"
-            }
-          ],
-          "projects":[
-            {
-              "id":1,
-              "projectSlug":"project-slug",
-              "title":"proiect title",
-              "description":"description 1",
-              "link":"",
-              "link_text":"Vezi soluția",
-              "icon":"icon-date-deschise",
-              "adopted":true,
-              "adopted_by":[
-                {
-                  "id":1,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                },
-                {
-                  "id":2,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                }
-              ]
-            }
-          ]
+          "financed":false,
+          "financed_by":[],
+          "projects":[]
         },
         {
           "id":4,
@@ -780,51 +654,9 @@ const data = {
             "left":"63.58%"
           },
           "icon_left":true,
-          "financed":true,
-          "financed_by":[
-            {
-              "id":1,
-              "title":"",
-              "description":"",
-              "link":"",
-              "logo":"icon-date-deschise"
-            },
-            {
-              "id":2,
-              "title":"",
-              "description":"",
-              "link":"",
-              "logo":"icon-date-deschise"
-            }
-          ],
-          "projects":[
-            {
-              "id":1,
-              "projectSlug":"project-slug",
-              "title":"proiect title",
-              "description":"description 1",
-              "link":"",
-              "link_text":"Vezi soluția",
-              "icon":"icon-date-deschise",
-              "adopted":true,
-              "adopted_by":[
-                {
-                  "id":1,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                },
-                {
-                  "id":2,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                }
-              ]
-            }
-          ]
+          "financed":false,
+          "financed_by":[],
+          "projects":[]
         },
         {
           "id":5,
@@ -837,23 +669,8 @@ const data = {
             "left":"46.58%"
           },
           "icon_left":true,
-          "financed":true,
-          "financed_by":[
-            {
-              "id":1,
-              "title":"",
-              "description":"",
-              "link":"",
-              "logo":"icon-date-deschise"
-            },
-            {
-              "id":2,
-              "title":"",
-              "description":"",
-              "link":"",
-              "logo":"icon-date-deschise"
-            }
-          ],
+          "financed":false,
+          "financed_by":[],
           "projects":[
             {
               "id":1,
@@ -863,7 +680,7 @@ const data = {
               "description":"<p>Stopul cardiorespirator este una dintre principalele cauze de deces prematur, dar cu intervenții imediate, multe vieți pot fi salvate. Atunci când ritmul electric care controlează inima este înlocuit de un ritm haotic dezorganizat electric numit fibrilație ventriculară, cu cât mai repede se intervine printr-un defibrilator, cu atât sunt mai mari șansele de resuscitare cu succes. Secundele contează, iar serviciul de ambulanță este puțin probabil să ajungă suficient de repede pentru a resuscita majoritatea victimelor. De aceea, aplicația <em>Prim ajutor</em> va oferi tuturor o hartă a defibrilatoarelor din România, astfel încât va fi ușor pentru oricine să vadă care este cel mai apropiat defibrilator și să primească indicații despre cum poate fi corect folosit un astfel de instrument.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/participation4ro-theater-hub.png'),
+              "icon":require('../assets/images/projects/health4ro-prim-ajutor.png'),
               "adopted":false,
               "adopted_by":[]
             },
@@ -875,7 +692,7 @@ const data = {
               "description":"<p>Asistenții comunitari oferă  servicii medicale pentru a compensa lipsa asistenței medicale și accesul pacienților la acest fel de servicii medicale în zonele și regiunile care au cel mai mult nevoie de acestea (de ex. zonele rurale, izolate sau în care nu există un dispensar sau o policlinică etc.). În prezent nu există un mod simplu și eficient de a urmări activitatea asistenților comunitari și de a urmări impactul acestora în zonele vulnerabile. Soluția <em>Asistent comunitar</em> este un instrument de management de caz, fiind în același timp un instrument de management al asistenților comunitari.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/participation4ro-theater-hub.png'),
+              "icon":require('../assets/images/projects/health4ro-asistent-comunitar.png'),
               "adopted":false,
               "adopted_by":[]
             },
@@ -887,7 +704,7 @@ const data = {
               "description":"<p>Scleroza multiplă este o boală progresivă, care afecteaza sistemul nervos central și care nu poate fi vindecată, dar persoanele diagnosticate pot ține simptomele bolii sub control, dacă urmează tratamentul corect, care adesea include exerciții de recuperare. SMove este o aplicație mobilă prin care persoanele care suferă de scleroză multiplă pot primi indicații pentru a face exercițiile recomandate de medic, în funcție de vârsta fiecăruia și de tipul afecțiunii.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/participation4ro-theater-hub.png'),
+              "icon":require('../assets/images/projects/health4ro-smove.png'),
               "adopted":false,
               "adopted_by":[]
             },
@@ -899,7 +716,7 @@ const data = {
               "description":"<p>RecuperApp este o aplicație mobilă destinată celor ce, în urma unor varii accidente, au nevoie de ședințe de recuperare care să le mențină funcțiile motorii active sau chiar să le amelioreze. Fără a părăsi confortul propriei case și fără a plăti sesiuni de recuperare în instituții medicale, utilizatorii pot beneficia printr-o simplă aplicație de o gamă variată de exerciții împărțite în categorii de vârstă și atribuite diverselor leziuni ale organismului. Aplicația oferă și conectivitate între useri astfel încât aceștia să poată relaționa și exersa împreună în funcție de programul personal disponibil. </p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/participation4ro-theater-hub.png'),
+              "icon":require('../assets/images/projects/health4ro-recuperapp.png'),
               "adopted":false,
               "adopted_by":[]
             },
@@ -911,7 +728,7 @@ const data = {
               "description":"<p>Acțiunile prioritare se referă la totalitatea bolilor și a evenimentelor cu risc crescut de pericol care au loc brusc în viața unei persoane (e.g. marii arși) și pentru care e nevoie de îngrijire urgentă. Din cauza specificului imprevizibil al acestor situații, instituțiile nu pot trece prin fluxul de proceduri obișnuite pentru procurarea medicamentelor și a echipamentelor medicale necesare, motiv pentru care în aceste cazuri se fac excepții care să urgenteze intrarea în posesia necesarului cerut. Astfel de excepții, însă, lasă locul unui risc mai ridicat de corupție în ceea ce privește achizițiile. Acțiuni prioritare este o platformă digitală destinată Ministerului Sănătății, Institutului Național de Sănătate Publică (INSP) și tuturor spitalelor din țară care să faciliteze comunicarea între instituții și urmărirea parcursului pacientului din momentul în care acesta intră în spital. Platforma va exporta date direct din sistemele de management ale spitalelor astfel încât ele să ajungă la INSP și Ministerul Sănătății în timp real. Transparentizarea acestor date va ajuta organele abilitate să poată verifica validitatea situației din spitale, dar și să confrunte datele cu cele de la casele de asigurări pentru a putea urmări ce achiziții sunt făcute și în ce mod.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/participation4ro-theater-hub.png'),
+              "icon":require('../assets/images/projects/health4ro-actiuni-prioritare.png'),
               "adopted":false,
               "adopted_by":[]
             },
@@ -923,7 +740,7 @@ const data = {
               "description":"<p>Orice vizită la medic, indiferent că vorbim de medicii de familie sau de spitale, lasă în urmă o serie de documente reieșite în urma investigațiilor și a recomandărilor din partea doctorilor: radiografii, trimiteri, buletine de analize, rețete etc.  Fără o rigurozitate în procesul de clasificare și păstrare a acestor documente în format fizic, pacienții pierd un istoric important cu privire la sănătatea lor.</p><p>Sănătos este o aplicație mobilă prin care fiecare pacient își poate ține singur evidența stării de sănătate și a tuturor investigațiilor și rezultatelor reieșite în urma vizitelor la medic, într-un singur loc. Aplicația funcționează de asemenea și ca un reminder pentru o serie de investigații de rutină pe care cu toții trebuie să le repetăm ocazional astfel încât să prevenim posibile afecțiuni de sănătate.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/participation4ro-theater-hub.png'),
+              "icon":require('../assets/images/projects/health4ro-sanatos.png'),
               "adopted":false,
               "adopted_by":[]
             },
@@ -940,23 +757,8 @@ const data = {
             "left":"31.67%"
           },
           "icon_left":false,
-          "financed":true,
-          "financed_by":[
-            {
-              "id":1,
-              "title":"",
-              "description":"",
-              "link":"",
-              "logo":"icon-date-deschise"
-            },
-            {
-              "id":2,
-              "title":"",
-              "description":"",
-              "link":"",
-              "logo":"icon-date-deschise"
-            }
-          ],
+          "financed":false,
+          "financed_by":[],
           "projects":[
             {
               "id":1,
@@ -966,7 +768,7 @@ const data = {
               "description":"<p>Mamele din comunitățile defavorizate ajung la medic cel mai adesea abia în momentul nașterii. De multe ori, medicul o vede prima dată pe aceasta când este deja în travaliu și nu are la dispoziție niciun fel de istoric medical al acesteia. Dosarul Digital este un sistem de management al cazurilor în care asistenții sociali, comunitari, mediatorii sau ONG-urile își pot crea cont și menține jurnale despre mamele din comunitățile în care activează. La fiecare vizită, asistentul răspunde la câteva chestionare simple prin care evaluează starea acesteia. Fiecare mamă ar putea avea astfel o fișa online cu răspunsurile la aceste evaluări recurente, fișă care poate fi transmisă și medicului atunci când acesta o vede prima dată la momentul nașterii.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/participation4ro-theater-hub.png'),
+              "icon":require('../assets/images/projects/health4ro-dosarul-digital.png'),
               "adopted":false,
               "adopted_by":[]
             },
@@ -978,7 +780,7 @@ const data = {
               "description":"<p>Atât în perioada sarcinii, cât și în primul an de viață al copilului, mamele au nevoie de ajutor specializat pentru a putea lua cele mai bune decizii pentru ele și copilul lor. Tinerele mame au nevoie de consiliere permanentă pentru a putea beneficia de o sursă sigură de informare pe subiectul maternității. Asistent de sarcină este o aplicație mobilă care conține informații și liste de control pentru tinerii părinți pe perioada sarcinii, dar și imediat după. Pe lângă informațiile care țin de sănătatea mamei și a copilului, ea conține și informații de ordin legislativ. Aplicația oferă și o opțiune de salvare a unui istoric (un fel de jurnal al mamei unde să poată înregistra informații, documente scanate etc) pentru a le putea accesa foarte ușor când are nevoie de ele în relația cu medicul de familie sau cu alți medici specialiști.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/participation4ro-theater-hub.png'),
+              "icon":require('../assets/images/projects/health4ro-asistent-sarcina.png'),
               "adopted":false,
               "adopted_by":[]
             },
@@ -990,19 +792,19 @@ const data = {
               "description":"<p>Pe rețelele sociale și pe website-urile dedicate publicului feminin există foarte multe informații contradictorii, neverificate și periculoase pentru mamele aflate la prima sarcină sau pentru cele ușor influențabile. Forumurile și grupurile de discuții sunt dominate cel mai adesea de cele mai vocale dintre membrele acestora și de multe ori mamele nu intra în dezbateri pe subiecte și asimilează informație eronată cu potențial impact negativ asupra sa și a copilului. Pregnancy Fact Checker este un chatbot pentru Facebook și website-uri de verificare a informațiilor legate de sarcină și creșterea copilului. Structurat ca un sistem simplu de ”Întrebări frecvente”, mamele pot încărca știri, citate, informații descoperite online sau auzite pentru a primi un verdict direct de la un medic, asistent, moașă etc. Baza de date a aplicației se va construi în timp pe baza inputului din partea mamelor care verifica informații în sistem.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/participation4ro-theater-hub.png'),
+              "icon":require('../assets/images/projects/health4ro-preganancy-fact-checker.png'),
               "adopted":false,
               "adopted_by":[]
             },
             {
               "id":4,
-              "projectSlug":"theater-hub",
+              "projectSlug":"doctor-call",
               "title":"Doctor Call",
               "subtitle":"O bază de date cu medici la dispoziția mamelor și copiilor",
               "description":"<p>Doctor Call este o platformă în care medicii se pot înscrie voluntari pentru o anumită regiune și unde își marchează disponibilitatea de deplasare sau de a fi contactați de asistenți sau ONG-uri pentru a evalua starea de sănătate a unui pacient (mama sau copil). Baza de date cu medici va fi organizată pe specializări pentru o navigare ușoară, iar sistemul de apelare la serviciile unui medic va fi customizat după preferințele acestuia (text, telefon, e-mail). Acest sistem facilitează comunicarea dintre asistenți și doctori, iar mamele pot fi ajutate punctual pentru a putea preveni probleme de sănătate din timp.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/participation4ro-theater-hub.png'),
+              "icon":require('../assets/images/projects/health4ro-doctor-call.png'),
               "adopted":false,
               "adopted_by":[]
             },
@@ -1014,7 +816,7 @@ const data = {
               "description":"<p>În cazul copiilor internați pe perioade foarte lungi, aparținătorii care nu locuiesc în același oraș cu cel în care este tratat au nevoie de cazare, iar aceasta este un cost pe care mulți dintre ei nu și-l permit. Lucrurile sunt cu atât mai complicate atunci când părinții au nevoie de ajutor pentru a-și trata copilul în altă țară. Prin <em>Împreună pentru sănătate</em> creăm o platformă prin care orice părinte poate solicita sprijin în strângerea de fonduri, în găsirea unor clinici potrivite, consiliere juridică și psihologică și găzduire gratuită pentru cei care au nevoie de cazare pe durata tratamentului și nu au posibilitatea financiară de a închiria o locuință. Gazdele își pot marca disponibilitatea de cazare în platformă (se înscriu voluntar și sunt validați), iar pacienții și aparținătorii pot găsi online cazare temporară în orașele în care au nevoie.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/participation4ro-theater-hub.png'),
+              "icon":require('../assets/images/projects/health4ro-impreuna-pt-sanatate.png'),
               "adopted":false,
               "adopted_by":[]
             },
@@ -1026,7 +828,7 @@ const data = {
               "description":"<p>Deși mamele din zone defavorizate au dreptul legal la asistență medicală, acestea nu pot ajunge adesea la medic. Motivul este distanța foarte mare de primul spital sau de centrul medical de care au nevoie pentru problemele lor, corelat cu lipsa resurselor financiare necesare pentru a se deplasa.  MediRide este o aplicație mobilă de tip ride-sharing, gratuită pentru mame (și alți pacienți) din zonele defavorizate. Aplicația poate fi utilizată de către asistenți sociali, asistenții comunitari sau alte ONG-uri care derulează programe într-o anumită zonă. Șoferii se pot înscrie în aplicație și pot să răspundă la comenzi plasate de asistenți pentru a transporta mamele însărcinate la medic.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/participation4ro-theater-hub.png'),
+              "icon":require('../assets/images/projects/health4ro-mediride.png'),
               "adopted":false,
               "adopted_by":[]
             },
@@ -1038,7 +840,7 @@ const data = {
               "description":"<p>În prezent practicile care fac referire la abandonul nou-născuților în unitățile spitalicești sunt reactive. Mecanismele de asistență socială intră în funcțiune abia când abandonul deja a avut loc și nu există o procedură unitară de abordare a mamelor chiar dacă ele dau indicii că ar fi în poziție de risc de abandon. Prevenție abandon este o  aplicație cu formulare de evaluare care pot fi aplicate femeilor însărcinate care ajung în spital pentru a putea depista acele cazuri cu risc mare de abandon al copilului după naștere. Aceste evaluări ar putea fi aplicate de asistentele medicale,  asistenții sociali sau de ONG-uri. Scopul evaluărilor este de a putea genera un mecanism proactiv de prevenire a acestor cazuri, sau, dacă ele nu pot fi prevenite, de a informa mama cu privire la opțiunile pe care le are cu privire la soarta copilului ei. În același timp, conține și informații de ordin legislativ pe care persoana acreditată le poate transmite mamei pentru a o ajuta să ia decizia corectă.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/participation4ro-theater-hub.png'),
+              "icon":require('../assets/images/projects/health4ro-preventie-abandon.png'),
               "adopted":false,
               "adopted_by":[]
             },
@@ -1050,7 +852,7 @@ const data = {
               "description":"<p>Odată ce nou-născuții sunt stabilizați și pot pleca acasă împreună cu mama, comunicarea dintre părinte și medic se realizează prin canale agreate de ambele părți (telefon, e-mail, sms). Medicii nu au un sistem centralizat prin care să poată urmări în timp aceste cazuri după ce ele părăsesc spitalul, iar părinții care se află la sute de kilometri depărtare uneori nu au mereu disponibilitatea financiară de a ajunge la același medic. Crearea unei rețele de comunicare închise ar permite medicilor să ia legătura direct cu părinții la intervale regulate pentru a monitoriza starea copiilor. Platforma ar permite și transmiterea securizată de documente medicale între doctor și pacient (părinte/copil). De asemenea, ar permite crearea unei comunități de părinți din toate colțurile țării și nu numai, părinți care se confruntă cu aceleași probleme și care se pot sprijini reciproc.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/participation4ro-theater-hub.png'),
+              "icon":require('../assets/images/projects/health4ro-reteaua-boli-rare.png'),
               "adopted":false,
               "adopted_by":[]
             },
@@ -1062,7 +864,7 @@ const data = {
               "description":"<p>Medicii de familie au la dispoziție 15 minute per pacient. Munca lor este extrem de birocratică și de foarte multe ori pierd timp pe proceduri inutile sau din cauză că nu au instrumente de productivitate la îndemână. Monitorizarea și comunicarea cu pacienții pe care îi au în grijă, în cazul de față, a gravidelor și a nou-născuților, este realizată ad-hoc, prin telefon, mesaje text sau SMSuri, fără a avea nici un serviciu automatizat. Propunem construirea unui sistem pentru programările automate la cabinet în funcție de nevoile pacientului și de disponibilitatea calendarului medicului. Sistemul ar fi configurat și cu opțiunea de transmitere de notificări automate pentru paciente și cu o bază date de medici specialiști pe problematica sarcinii, nașterii și a copilului în primul an de viață care să fie disponibilă tuturor medicilor de familie.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/participation4ro-theater-hub.png'),
+              "icon":require('../assets/images/projects/health4ro-programare-doctor.png'),
               "adopted":false,
               "adopted_by":[]
             },
@@ -1074,7 +876,7 @@ const data = {
               "description":"<p>Dacă lipsa medicilor din regiuni defavorizate este o problemă mare în general, lipsa medicilor specializați pe boli rare este una prezentă indiferent de zonă. În România, 75% dintre pacienții cu boli rare sunt copii, iar aceste afecțiuni se manifestă de foarte devreme. Pentru nou-născuții cu probleme foarte grave de sănătate, primele câteva ore din viață sunt cruciale pentru supraviețuirea lor. De aceea este foarte important ca medicii să aibă la dispoziție și alt personal medical calificat să se ocupe de cazuri atât de specifice. Propunem crearea unei baze de date cu medici specializați și a unui canal direct de comunicare pentru a putea permite medicilor să consulte pacienții de urgență. Baza de date poate fi disponibilă pe o platformă securizată unde medicii pot face schimb și transfer de documente în siguranță, iar în timp tot în această platformă se poate construi și o bibliotecă de resurse disponibile tuturor medicilor cu lucrări de specialitate, articole academice și alte informații utile despre toate tipurile de boli rare specifice nou-născuților.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/participation4ro-theater-hub.png'),
+              "icon":require('../assets/images/projects/health4ro-sistem-securizat-medici.png'),
               "adopted":false,
               "adopted_by":[]
             },
@@ -1086,10 +888,10 @@ const data = {
               "description":"<p>Suportul din comunitate pentru mamele care lucrează este limitat. Mamele care au mai mulții copii se confruntă cu dificultăți în gestionarea activităților, iar sprijinul din partea comunității este esențial, în lipsa altor sisteme de suport instituționale. Însă mamele beneficiază de suport foarte diferit, în funcție de contextul de viață. Fie că este vorba despre o angajare formală sau muncă informală (cum ar fi agricultura de subzistență) acestea trebuie să găsească soluții pentru copiii lor. În multe alte cazuri, singura soluție este ca acești copii să rămână singuri acasă o parte din timp.Un sistem de tip bancă de resurse unde mamele se pot ajuta între ele, fie că vorbim despre resurse materiale pentru mame (scutece, lapte praf, haine etc) sau de micorservicii (de ex.: asistența în stat cu copilul atunci când e nevoie de un babysitter). Soluția este community driven și facilitează construirea de grupuri de mame cu impact pozitiv, departe de zgomotul inutil din grupurile sociale destinate mamelor.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/participation4ro-theater-hub.png'),
+              "icon":require('../assets/images/projects/health4ro-comunitati-pt-parinti.png'),
               "adopted":false,
               "adopted_by":[]
-            },
+            }
           ]
         }
       ]
