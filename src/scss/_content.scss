@@ -10,16 +10,6 @@
   }
 }
 
-.SendSMS-title {
-  height: 100px;
-}
-
-.Share {
-  @include respond-above(md) {
-    padding-top: 100px;
-  }
-}
-
 .PartnersList-itemWrap {
   padding-bottom: 100%;
   height: 0;
