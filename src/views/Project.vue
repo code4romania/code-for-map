@@ -9,10 +9,6 @@
         :title="code4ro_map.title"
         class="d-block d-lg-none"
       />
-      <!--###############################################
-      ################### Delimiter #####################
-      ############################################### -->
-      <Delimiter :delimiter="code4ro_map.delimiter_1" class="mb-5" />
     </b-row>
     <!--###############################################
       ############ Back to segment page ##############
@@ -22,7 +18,7 @@
         <router-link
           :to="{
             name: 'Segment',
-            params: { slug: slug, _slug: highway_slug }
+            params: { slug: slug, segment: segmentSlug }
           }"
         >
           <div class="d-flex align-items-center justify-content-between">
@@ -83,9 +79,9 @@
 </template>
 
 <script>
-/** Imported compoents */
+import postMessage from "../utils/postMessage";
+
 import HighwayHeader from "../components/map/HighwayHeader";
-import Delimiter from "../components/Delimiter";
 
 export default {
   /** Component name */
@@ -97,14 +93,13 @@ export default {
     }
   },
   components: {
-    HighwayHeader,
-    Delimiter
+    HighwayHeader
   },
   data() {
     return {
       slug: this.$route.params.slug,
-      highway_slug: this.$route.params._slug,
-      project_slug: this.$route.params.__slug,
+      segmentSlug: this.$route.params.segment,
+      projectSlug: this.$route.params.solution,
       code4ro_map: [],
       segment: [],
       project: []
@@ -116,11 +111,13 @@ export default {
       item => item.slug == this.slug
     );
     this.segment = this.code4ro_map.highway_segment.find(
-      item => item.highway_slug == this.highway_slug
+      item => item.segmentSlug == this.segmentSlug
     );
     this.project = this.segment.projects.find(
-      item => item.project_slug == this.project_slug
+      item => item.projectSlug == this.projectSlug
     );
+
+    postMessage({ height: document.body.scrollHeight });
   }
 };
 </script>

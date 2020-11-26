@@ -1,11 +1,40 @@
-<svg width="1005" height="542" viewBox="0 0 1005 542" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0)">
-<path d="M1000.23 3.06616C999.005 4.66726 997.919 6.2955 996.997 7.97801C990.701 19.3214 988.801 34.3554 983.591 46.4044C976.155 63.6094 963.156 68.657 950.619 81.9271C938.543 94.7087 926.711 107.707 914.798 120.136C904.35 131.046 892.03 144.18 879.764 152.891C874.608 156.555 869.533 162.009 863.671 163.963C857.05 166.188 851.432 165.89 844.268 169.255C831.134 175.415 821.066 184.18 809.342 192.24C799.817 198.78 789.912 207.518 780.143 213.38C772.463 217.993 767.225 216.501 759.491 218.265C750.916 220.246 742.259 222.552 733.602 224.913C722.747 227.871 711.838 230.911 700.929 233.462C665.379 241.711 630.725 255.85 595.881 263.34C576.912 267.41 559.218 275.416 540.873 282.77C510.507 294.928 477.291 299.731 448.661 315.85C439.353 321.088 430.832 323.585 420.52 326.57C393.844 334.304 370.18 349.094 345.784 361.929C338.348 365.837 333.735 370.559 326.977 375.607C321.767 379.46 313.3 380.166 307.683 383.504C283.558 397.832 259.813 412.296 232.838 420.193C205.565 428.172 178.292 418.321 151.264 425.268C127.953 431.265 103.936 423.667 84.0988 442.147C64.3429 460.546 64.3429 490.669 41.6561 507.467C36.4186 511.347 30.9369 514.414 25.3738 517.182" stroke="#FFA506" stroke-width="10.1816" stroke-miterlimit="10" stroke-linejoin="round" stroke-dasharray="12.73 12.73"/>
-<path d="M25.3731 536.395C36.5688 536.395 45.6446 527.319 45.6446 516.124C45.6446 504.928 36.5688 495.852 25.3731 495.852C14.1774 495.852 5.10156 504.928 5.10156 516.124C5.10156 527.319 14.1774 536.395 25.3731 536.395Z" fill="white" stroke="#FFA506" stroke-width="10.1816" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<svg width="1200" height="1000" viewBox="0 0 1200 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="segment-education-04-invatamant-preuniversitar-de-calitate">
+<g id="Group 1156">
+<g id="Group 1135">
+<path id="Vector" d="M1097.12 159C1095.9 160.601 1094.82 162.229 1093.89 163.912C1087.6 175.255 1085.7 190.289 1080.49 202.338C1073.05 219.543 1060.05 224.591 1047.52 237.861C1035.44 250.643 1023.61 263.641 1011.7 276.07C1001.25 286.979 988.927 300.114 976.661 308.825C971.505 312.488 966.431 317.943 960.569 319.897C953.947 322.122 948.33 321.824 941.166 325.189C928.031 331.349 917.963 340.114 906.24 348.174C896.715 354.714 886.81 363.452 877.04 369.314C869.361 373.927 864.123 372.435 856.389 374.199C847.814 376.18 839.157 378.486 830.5 380.847C819.645 383.805 808.736 386.845 797.827 389.395C762.277 397.645 727.623 411.784 692.778 419.274C673.809 423.344 656.116 431.35 637.771 438.704C607.404 450.861 574.188 455.665 545.559 471.784C536.251 477.022 527.729 479.518 517.417 482.503C490.741 490.238 467.078 505.027 442.681 517.863C435.246 521.771 430.632 526.493 423.875 531.541C418.665 535.394 410.198 536.1 404.581 539.437C380.455 553.766 356.71 568.23 329.736 576.127C302.463 584.105 275.19 574.255 248.161 581.202C224.85 587.199 200.834 579.601 180.997 598.081C161.241 616.48 161.241 646.603 138.554 663.401C133.316 667.281 127.835 670.348 122.271 673.116" stroke="#FFA506" stroke-width="10.1816" stroke-miterlimit="10" stroke-linejoin="round" stroke-dasharray="12.73 12.73"/>
+<path id="Vector_2" d="M122.272 692.329C133.467 692.329 142.543 683.253 142.543 672.058C142.543 660.862 133.467 651.786 122.272 651.786C111.076 651.786 102 660.862 102 672.058C102 683.253 111.076 692.329 122.272 692.329Z" fill="white" stroke="#FFA506" stroke-width="10.1816" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<defs>
-<clipPath id="clip0">
-<rect width="1004.27" height="541.47" fill="white"/>
-</clipPath>
-</defs>
+<g id="icon-invatamant-preuniversitar-de-calitate 1">
+<path id="Vector_3" d="M146.233 838.424C146.233 838.424 243.233 837.902 243.233 838.424H146.233Z" fill="white"/>
+<path id="Vector_4" d="M146.233 838.424C146.233 838.424 243.233 837.902 243.233 838.424" stroke="#FFA506" stroke-width="2.425" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_5" d="M166.136 838.063L174.611 789.442H200.819L192.344 838.063" fill="white"/>
+<path id="Vector_6" d="M166.136 838.063L174.611 789.442H200.819L192.344 838.063" stroke="#FFA506" stroke-width="2.425" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_7" d="M202.545 838.064L210.177 794.223" stroke="#FFA506" stroke-width="2.425" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_8" d="M216.984 838.062V776.468" stroke="#FFA506" stroke-width="2.425" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_9" d="M224.657 838.062V776.468H186.922V789.442" stroke="#FFA506" stroke-width="2.425" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_10" d="M210.178 794.223C209.31 794.611 208.356 794.764 207.411 794.665C206.466 794.566 205.564 794.22 204.795 793.661C203.942 793.257 203.191 792.666 202.596 791.933C202.002 791.2 201.58 790.342 201.361 789.424" fill="white"/>
+<path id="Vector_11" d="M210.178 794.223C209.31 794.611 208.356 794.764 207.411 794.665C206.466 794.566 205.564 794.22 204.795 793.661C203.942 793.257 203.191 792.666 202.596 791.933C202.002 791.2 201.58 790.342 201.361 789.424" stroke="#FFA506" stroke-width="2.425" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_12" d="M189.271 812.077L191.219 800.851H177.944L175.996 812.077H189.271Z" fill="white" stroke="#FFA506" stroke-width="2.425" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_13" d="M203.349 792.597L196.621 833.586" stroke="#FFA506" stroke-width="2.425" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_14" d="M206.643 794.687L199.072 837.644" stroke="#FFA506" stroke-width="2.425" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_15" d="M226.425 810.167L222.87 792.113L219.798 776.428L227.65 774.4L231.807 789.522L236.748 807.536" fill="white"/>
+<path id="Vector_16" d="M226.425 810.167L222.87 792.113L219.798 776.428L227.65 774.4L231.807 789.522L236.748 807.536" stroke="#FFA506" stroke-width="2.425" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_17" d="M237.531 807.336L242.612 827.198C243.736 831.576 243.736 836.657 238.997 837.862C234.257 839.067 232.149 834.528 230.964 830.171L225.883 810.288L237.531 807.336Z" fill="white" stroke="#FFA506" stroke-width="2.425" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_18" d="M223.796 794.163H224.137L232.291 792.155" fill="white"/>
+<path id="Vector_19" d="M223.796 794.163H224.137L232.291 792.155" stroke="#FFA506" stroke-width="2.425" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_20" d="M219.234 757.51L216.984 769.56C219.114 771.215 220.656 773.51 221.383 776.107" fill="white"/>
+<path id="Vector_21" d="M219.234 757.51L216.984 769.56C219.114 771.215 220.656 773.51 221.383 776.107" stroke="#FFA506" stroke-width="2.425" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_22" d="M219.232 757.51L226.985 766.989C225.157 770.002 226.262 774.842 226.262 774.842" fill="white"/>
+<path id="Vector_23" d="M219.232 757.51L226.985 766.989C225.157 770.002 226.262 774.842 226.262 774.842" stroke="#FFA506" stroke-width="2.425" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_24" d="M219.255 757.39L219.396 757.872L221.785 766.929" fill="white"/>
+<path id="Vector_25" d="M219.255 757.39L219.396 757.872L221.785 766.929" stroke="#FFA506" stroke-width="2.425" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_26" d="M222.068 769.342C222.623 769.342 223.073 768.892 223.073 768.338C223.073 767.783 222.623 767.333 222.068 767.333C221.514 767.333 221.064 767.783 221.064 768.338C221.064 768.892 221.514 769.342 222.068 769.342Z" fill="white" stroke="#FFA506" stroke-width="2.425" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_27" d="M228.853 762.172V753.496C228.853 753.496 152.157 753.115 152.157 753.496V805.973H171.738" stroke="#FFA506" stroke-width="2.425" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_28" d="M232.851 779.884V748.233H146.997V812.438H170.614" stroke="#FFA506" stroke-width="2.425" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_29" d="M169.189 820.512H146.997V815.29H170.112" stroke="#FFA506" stroke-width="2.425" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="&#195;&#142;nv&#196;&#131;&#200;&#155;&#196;&#131;m&#195;&#162;nt preuniversitar de calitate" fill="#1E1E1E" xml:space="preserve" style="white-space: pre" font-family="Titillium Web" font-size="40" font-weight="600" letter-spacing="0px"><tspan x="275" y="781.9">&#xce;nv&#x103;&#x21b;&#x103;m&#xe2;nt </tspan><tspan x="275" y="823.9">preuniversitar&#13;de calitate</tspan></text>
+</g>
+</g>
 </svg>

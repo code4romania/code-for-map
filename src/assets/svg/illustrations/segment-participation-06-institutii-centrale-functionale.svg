@@ -1,11 +1,42 @@
-<svg width="392" height="412" viewBox="0 0 392 412" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0)">
-<path d="M-9 -10.8086C-3.9298 -3.65831 0.984391 3.56997 5.79458 10.5902C15.987 25.4368 29.6635 40.0234 37.2558 56.326C45.5501 74.1367 51.9984 93.2215 59.9547 111.318C76.3874 148.578 103.688 180.455 129.273 212.046C141.286 226.867 156.887 237.943 168.301 254.194C179.611 270.288 186.814 287.293 201.218 301.152C226.907 325.827 268.977 338.541 302.414 349.332C333.771 359.446 354.858 372.082 376.075 391.011" stroke="#00B4CC" stroke-width="9.75532" stroke-miterlimit="10" stroke-linejoin="round" stroke-dasharray="12.19 12.19"/>
-<path d="M367.677 406.924C378.404 406.924 387.099 398.228 387.099 387.501C387.099 376.774 378.404 368.078 367.677 368.078C356.95 368.078 348.254 376.774 348.254 387.501C348.254 398.228 356.95 406.924 367.677 406.924Z" fill="white" stroke="#00B4CC" stroke-width="9.75532" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<svg width="1200" height="1000" viewBox="0 0 1200 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="segment-participation-06-institutii-centrale-functionale">
+<g id="Group 1160">
+<path id="Vector" d="M266 291C271.07 298.15 275.984 305.379 280.795 312.399C290.987 327.245 304.664 341.832 312.256 358.135C320.55 375.945 326.998 395.03 334.955 413.127C351.387 450.386 378.688 482.264 404.273 513.855C416.286 528.675 431.887 539.752 443.301 556.002C454.611 572.097 461.814 589.102 476.218 602.96C501.907 627.635 543.977 640.35 577.414 651.14C608.771 661.255 629.858 673.891 651.075 692.82" stroke="#00B4CC" stroke-width="9.75532" stroke-miterlimit="10" stroke-linejoin="round" stroke-dasharray="12.19 12.19"/>
+<path id="Vector_2" d="M642.677 708.732C653.404 708.732 662.099 700.037 662.099 689.31C662.099 678.583 653.404 669.887 642.677 669.887C631.95 669.887 623.254 678.583 623.254 689.31C623.254 700.037 631.95 708.732 642.677 708.732Z" fill="white" stroke="#00B4CC" stroke-width="9.75532" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<g id="icon-institutii-centrale-functionale 1">
+<path id="Vector_3" d="M634.625 516.622H734.136" stroke="#00B4CC" stroke-width="1.3125" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M643.895 516.053V512.838H724.867V516.053" stroke="#00B4CC" stroke-width="1.3125" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_5" d="M647.773 512.838V509.624H720.987V512.838" stroke="#00B4CC" stroke-width="1.3125" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_6" d="M653.967 509.625V471.605" stroke="#00B4CC" stroke-width="1.3125" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_7" d="M660.037 509.625V471.605" stroke="#00B4CC" stroke-width="1.3125" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_8" d="M671.577 509.625V471.605" stroke="#00B4CC" stroke-width="1.3125" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_9" d="M677.647 509.625V471.605" stroke="#00B4CC" stroke-width="1.3125" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_10" d="M689.176 509.625V471.605" stroke="#00B4CC" stroke-width="1.3125" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_11" d="M695.256 509.625V471.605" stroke="#00B4CC" stroke-width="1.3125" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_12" d="M706.784 509.625V471.605" stroke="#00B4CC" stroke-width="1.3125" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_13" d="M712.854 509.625V471.605" stroke="#00B4CC" stroke-width="1.3125" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_14" d="M661.007 469.042H652.859V471.591H661.007V469.042Z" stroke="#00B4CC" stroke-width="1.3125" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_15" d="M678.686 469.042H670.539V471.591H678.686V469.042Z" stroke="#00B4CC" stroke-width="1.3125" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_16" d="M696.228 469.042H688.081V471.591H696.228V469.042Z" stroke="#00B4CC" stroke-width="1.3125" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_17" d="M713.893 469.042H705.746V471.591H713.893V469.042Z" stroke="#00B4CC" stroke-width="1.3125" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_18" d="M716.388 464.899H650.588V469.042H716.388V464.899Z" stroke="#00B4CC" stroke-width="1.3125" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_19" d="M653.967 464.899V460.769H663.832V456.072H673.365V449.921H685.101" stroke="#00B4CC" stroke-width="1.3125" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_20" d="M713.894 464.899V460.769H704.028V456.072H694.496V449.921H682.76" stroke="#00B4CC" stroke-width="1.3125" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_21" d="M684.382 449.92V438.434" stroke="#00B4CC" stroke-width="1.3125" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_22" d="M684.382 438.434H696.478V447.301H684.382" stroke="#00B4CC" stroke-width="1.3125" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_23" d="M688.606 438.669V446.914" stroke="#00B4CC" stroke-width="1.3125" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_24" d="M692.432 438.669V446.914" stroke="#00B4CC" stroke-width="1.3125" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_25" d="M684.382 462.25C687.045 462.25 689.204 460.092 689.204 457.429C689.204 454.766 687.045 452.607 684.382 452.607C681.719 452.607 679.561 454.766 679.561 457.429C679.561 460.092 681.719 462.25 684.382 462.25Z" stroke="#00B4CC" stroke-width="1.3125" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_26" d="M682.372 455.74L684.312 457.832L687.831 456.252" stroke="#00B4CC" stroke-width="1.3125" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_27" d="M685.337 476.647H681.624V486.526H685.337V476.647Z" stroke="#00B4CC" stroke-width="1.3125" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_28" d="M685.337 489.77H681.624V499.649H685.337V489.77Z" stroke="#00B4CC" stroke-width="1.3125" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_29" d="M667.988 476.647H664.274V486.526H667.988V476.647Z" stroke="#00B4CC" stroke-width="1.3125" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_30" d="M703.086 476.647H699.373V486.526H703.086V476.647Z" stroke="#00B4CC" stroke-width="1.3125" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_31" d="M667.988 489.77H664.274V499.649H667.988V489.77Z" stroke="#00B4CC" stroke-width="1.3125" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_32" d="M703.363 489.77H698.319V499.649H703.363V489.77Z" stroke="#00B4CC" stroke-width="1.3125" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_33" d="M689.95 497.349C690.894 499.133 691.944 500.859 693.095 502.517C694.038 503.902 695.298 505.288 696.92 505.205C697.288 505.163 697.66 505.163 698.028 505.205C698.388 505.288 698.734 505.62 698.652 505.981C698.571 506.18 698.448 506.36 698.291 506.507C698.105 506.769 697.996 507.078 697.976 507.399C697.956 507.72 698.027 508.04 698.18 508.322C698.487 508.893 698.975 509.346 699.566 509.611C702.614 511.149 706.411 509.154 709.694 510.11C710.786 510.577 711.917 510.944 713.075 511.204C714.429 511.234 715.751 510.794 716.816 509.957C717.886 509.127 719.016 508.377 720.197 507.713C720.797 507.395 721.465 507.229 722.144 507.229C722.823 507.229 723.491 507.395 724.09 507.713C724.589 508.004 724.977 508.433 725.476 508.71C725.716 508.863 725.999 508.932 726.283 508.907C726.566 508.882 726.832 508.764 727.042 508.572C727.228 508.303 727.329 507.984 727.333 507.657C727.298 506.168 727.682 504.699 728.441 503.417C728.732 503.099 728.967 502.734 729.134 502.337C729.237 501.911 729.178 501.462 728.968 501.078C728.758 500.693 728.412 500.401 727.998 500.258C726.612 499.718 725.532 500.674 724.201 500.591C723.476 500.452 722.815 500.083 722.316 499.539C721.817 498.995 721.506 498.305 721.43 497.57C721.139 496.185 721.333 494.647 721.028 493.22C720.479 491.211 719.322 489.42 717.717 488.093C716.498 486.957 715.112 485.183 713.325 485.017C712.37 485.109 711.436 485.347 710.554 485.724C709.603 485.928 708.627 485.989 707.658 485.904C705.856 485.738 703.584 485.031 701.922 486.056C700.059 487.429 698.45 489.117 697.169 491.044C696.266 492.391 695.231 493.644 694.079 494.785C692.988 495.746 691.673 496.418 690.255 496.739C690.158 496.822 690.102 497.238 689.95 497.349Z" fill="white" stroke="#00B4CC" stroke-width="1.3125" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<defs>
-<clipPath id="clip0">
-<rect width="391.829" height="411.628" fill="white"/>
-</clipPath>
-</defs>
+<text id="Institu&#200;&#155;ii centrale func&#200;&#155;ionale" fill="#1E1E1E" xml:space="preserve" style="white-space: pre" font-family="Titillium Web" font-size="40" font-weight="600" letter-spacing="0px"><tspan x="632" y="577.709">Institu&#x21b;ii centrale </tspan><tspan x="632" y="619.709">func&#x21b;ionale</tspan></text>
+</g>
+</g>
 </svg>

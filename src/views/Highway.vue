@@ -12,15 +12,17 @@
     <!--###############################################
     ######## Map Solutions desktop and mobile #########
     ############################################### -->
-    <!-- TODO:fix small viewport to large viewport containers when doing maps layering -->
-    <div class="MapContainer-wrap">
-      <div class="MapContainer">
+    
+    <div class="Highway-wrap">
+      <div class="HighwayContainer">
         <div class="Highway">
           <!--###############################################
           #### Highway Background displayed from 1024px #####
           ############################################### -->
-          <div class="MapContainer d-none d-lg-block">
-            <svg class="w-100 h-100"><use xlink:href="#map-bw"></use></svg>
+          <div class="MapContainer-wrap d-none d-lg-block">
+            <div class="MapContainer">
+              <svg class="w-100 h-100"><use xlink:href="#map-bw"></use></svg>
+            </div>
           </div>
 
           <router-link :to="{ name: 'Map' }" class="d-none d-lg-block">
@@ -49,7 +51,7 @@
             <!-- Highway component with segments button displayed from 1024px-->
             <HighwayButton
               :slug="code4ro_map.slug"
-              :highway_slug="segment_button.highway_slug"
+              :segmentSlug="segment_button.segmentSlug"
               :segment_button="segment_button"
               :color="code4ro_map.color"
               v-bind:key="'highway-btn-lg-' + segment_button.id"
@@ -58,7 +60,7 @@
             <!-- Highway segments displayed till 1024px -->
             <SegmentButton
               :slug="code4ro_map.slug"
-              :highway_slug="segment_button.highway_slug"
+              :segmentSlug="segment_button.segmentSlug"
               :title="segment_button.title"
               v-bind:key="'highway-btn-' + segment_button.id"
             />
@@ -70,7 +72,8 @@
 </template>
 
 <script>
-/** Imported components. */
+import postMessage from "../utils/postMessage";
+
 import MapButton from "../components/map/MapButton";
 import HighwayButton from "../components/map/HighwayButton";
 import HighwayHeader from "../components/map/HighwayHeader";
@@ -106,12 +109,14 @@ export default {
     );
 
     this.data.back_to_map.visible = true;
+
+    postMessage({ height: document.body.scrollHeight });
   },
   watch: {
-    $route(to, from) {
+    $route(to) {
       if(this.slug != to) {
         this.code4ro_map = this.data.code4ro_map.find(
-        item => item.slug == to.params.slug
+          item => item.slug == to.params.slug
         );
       }
     }

@@ -25,7 +25,7 @@
 </template>
 
 <script>
-/** Import components. */
+import postMessage from "../utils/postMessage";
 import MapButton from "../components/map/MapButton";
 
 export default {
@@ -43,11 +43,8 @@ export default {
   },
   mounted() {
     this.data.back_to_map.visible = false;
-  },
-  methods: {
-    setMapState(highway) {
-      console.log(highway)
-    }
+
+    postMessage({ height: document.body.scrollHeight });
   }
 };
 </script>

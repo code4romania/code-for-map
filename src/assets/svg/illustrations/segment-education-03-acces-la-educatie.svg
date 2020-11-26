@@ -1,11 +1,29 @@
-<svg width="282" height="629" viewBox="0 0 282 629" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0)">
-<path d="M230.19 4.56006C211.074 14.3095 190.974 21.4918 178.193 39.5706C169.427 51.969 173.059 64.859 172.786 78.6775C172.458 94.7354 170 108.172 174.069 124.257C181.279 152.795 198.074 177.865 203.809 206.922C209.599 236.361 213.75 248.514 238.383 265.173C248.214 271.809 256.926 278.336 263.644 287.921C286.748 320.911 276.944 370.177 238.711 384.187C228.196 388.037 218.693 389.512 210.336 397.159C186.577 418.842 164.047 435.992 146.76 464.476C142.473 471.522 138.458 478.923 134.635 486.706C121.035 514.343 107.981 537.583 85.1504 557.464C68.6828 571.802 38.7245 584.364 25.0153 602.443" stroke="#FFA506" stroke-width="10.2462" stroke-miterlimit="10" stroke-linejoin="round" stroke-dasharray="12.81 12.81"/>
-<path d="M25.534 622.87C36.8006 622.87 45.934 613.737 45.934 602.47C45.934 591.204 36.8006 582.07 25.534 582.07C14.2673 582.07 5.13391 591.204 5.13391 602.47C5.13391 613.737 14.2673 622.87 25.534 622.87Z" fill="white" stroke="#FFA506" stroke-width="10.2462" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<svg width="1200" height="1000" viewBox="0 0 1200 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="segment-education-03-acces-la-educatie">
+<g id="Group 1154">
+<g id="Group 1134">
+<path id="Vector" d="M673.056 123C653.939 132.749 633.84 139.932 621.059 158.011C612.292 170.409 615.925 183.299 615.652 197.117C615.324 213.175 612.866 226.612 616.935 242.697C624.145 271.235 640.94 296.305 646.675 325.362C652.464 354.801 656.615 366.954 681.248 383.613C691.08 390.249 699.791 396.776 706.51 406.361C729.613 439.351 719.809 488.617 681.576 502.627C671.062 506.477 661.558 507.952 653.202 515.599C629.443 537.282 606.913 554.432 589.626 582.916C585.338 589.962 581.324 597.363 577.5 605.146C563.9 632.783 550.847 656.023 528.016 675.904C511.548 690.242 481.59 702.804 467.881 720.883" stroke="#FFA506" stroke-width="10.2462" stroke-miterlimit="10" stroke-linejoin="round" stroke-dasharray="12.81 12.81"/>
+<path id="Vector_2" d="M468.4 741.31C479.667 741.31 488.8 732.177 488.8 720.91C488.8 709.644 479.667 700.51 468.4 700.51C457.133 700.51 448 709.644 448 720.91C448 732.177 457.133 741.31 468.4 741.31Z" fill="white" stroke="#FFA506" stroke-width="10.2462" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<defs>
-<clipPath id="clip0">
-<rect width="281.149" height="628.005" fill="white"/>
-</clipPath>
-</defs>
+<g id="icon-acces-la-educatie 1">
+<path id="Vector_3" d="M495.259 799.755V855.423C495.259 855.423 494.303 855.003 492.442 854.366C487.414 852.69 475.546 849.539 457.778 849.539V793.889C482.1 793.889 495.259 799.755 495.259 799.755Z" stroke="#FFA506" stroke-width="2.16667" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M464.015 806.545C472.189 806.864 480.304 808.067 488.219 810.132" stroke="#FFA506" stroke-width="2.16667" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_5" d="M464.015 815.395C472.19 815.709 480.307 816.918 488.219 818.998" stroke="#FFA506" stroke-width="2.16667" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_6" d="M464.015 824.262C472.189 824.572 480.306 825.775 488.219 827.849" stroke="#FFA506" stroke-width="2.16667" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_7" d="M464.015 833.112C472.189 833.432 480.304 834.634 488.219 836.699" stroke="#FFA506" stroke-width="2.16667" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_8" d="M526.118 806.545C517.944 806.864 509.828 808.067 501.913 810.132" stroke="#FFA506" stroke-width="2.16667" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_9" d="M526.118 815.395C517.942 815.709 509.826 816.918 501.913 818.998" stroke="#FFA506" stroke-width="2.16667" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_10" d="M526.118 824.262C517.943 824.572 509.827 825.775 501.913 827.849" stroke="#FFA506" stroke-width="2.16667" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_11" d="M526.118 833.112C517.944 833.432 509.828 834.634 501.913 836.699" stroke="#FFA506" stroke-width="2.16667" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_12" d="M492.442 857.4V861.373C492.442 861.373 477.859 855.506 450.889 855.506V799.839C451.844 799.839 452.783 799.839 453.705 799.839V852.489C473.719 852.489 486.978 855.741 492.442 857.4Z" stroke="#FFA506" stroke-width="2.16667" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_13" d="M495.259 855.424V858.374C495.259 858.374 494.321 857.988 492.443 857.402C486.979 855.726 473.787 852.49 453.706 852.49V796.605C455.097 796.605 456.455 796.605 457.779 796.605V849.54C475.547 849.54 487.348 852.675 492.443 854.368C494.304 855.005 495.259 855.424 495.259 855.424Z" stroke="#FFA506" stroke-width="2.16667" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_14" d="M532.756 793.889V849.539C514.988 849.539 503.187 852.674 498.092 854.366C496.231 855.003 495.259 855.423 495.259 855.423V799.755C495.259 799.755 508.417 793.889 532.756 793.889Z" stroke="#FFA506" stroke-width="2.16667" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_15" d="M539.645 799.839V855.506C512.675 855.506 498.092 861.373 498.092 861.373V857.4C503.556 855.724 516.748 852.489 536.829 852.489V799.956C537.751 799.839 538.69 799.839 539.645 799.839Z" stroke="#FFA506" stroke-width="2.16667" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_16" d="M536.829 796.605V852.49C516.714 852.49 503.556 855.742 498.092 857.402C496.214 857.988 495.259 858.374 495.259 858.374V855.424C495.259 855.424 496.231 855.005 498.092 854.368C503.12 852.691 514.988 849.54 532.756 849.54V796.605C534.063 796.605 535.437 796.605 536.829 796.605Z" stroke="#FFA506" stroke-width="2.16667" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_17" d="M498.091 857.402V861.375C498.091 861.375 497.89 863.051 495.359 863.051C492.828 863.051 492.442 861.375 492.442 861.375V857.402C494.32 857.989 495.258 858.374 495.258 858.374C495.258 858.374 496.214 857.989 498.091 857.402Z" stroke="#FFA506" stroke-width="2.16667" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_18" d="M518.76 828.135L550.407 845.601L541.02 851.971L548.764 863.369L544.607 866.185L540.45 869.001L532.723 857.603L523.336 863.973L518.76 828.135Z" fill="white" stroke="#FFA506" stroke-width="2.16667" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<text id="Acces la educa&#200;&#155;ie" fill="#1E1E1E" xml:space="preserve" style="white-space: pre" font-family="Titillium Web" font-size="40" font-weight="600" letter-spacing="0px"><tspan x="573" y="819.9">Acces la </tspan><tspan x="573" y="861.9">educa&#x21b;ie</tspan></text>
+</g>
+</g>
 </svg>

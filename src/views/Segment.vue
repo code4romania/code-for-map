@@ -7,23 +7,17 @@
         class="d-block d-lg-none"
       />
 
-      <Delimiter :delimiter="code4ro_map.delimiter_1" />
-
       <SegmentHeader
-        :icon="segment.highway_slug"
+        :icon="segment.segmentSlug"
         :slug="slug"
         :color="code4ro_map.color"
         :title="segment.title"
         :description="segment.description"
       />
 
-      <Delimiter :delimiter="code4ro_map.delimiter_1" />
-
       <SegmentLegend :status="data.segment_legend" :color="code4ro_map.color" />
 
-      <Delimiter :delimiter="code4ro_map.delimiter_2" />
-
-      <div class="ProjectsList">
+      <div class="ProjectsList" v-if="segment.projects.length">
         <template v-for="(project, index) in segment.projects">
           <a class="d-flex align-items-center justify-content-between ListItem"
             v-bind:key="'project-' + index"
@@ -36,85 +30,93 @@
           </a>
         </template>
       </div>
-
-      <Delimiter :delimiter="code4ro_map.delimiter_2" />
     </div>
+
     <div class="Segment d-none d-lg-block">
-      <div class="SegmentVisual-wrap my-4">
+
+      <div class="SegmentVisual-wrap mt-4">
         <router-link
           :to="{ name: 'Highway', params: { slug: slug } }"
           class="SegmentVisual-close"
         >
-          <svg class="icon icon-sm"><use xlink:href="#close"></use></svg>
+          <svg class="icon icon-md"><use xlink:href="#close"></use></svg>
         </router-link>
         <div class="SegmentVisual">
           <svg class="segment">
             <use :xlink:href="'#' + segment.segment_visual"></use>
           </svg>
-            <div :style="{position: 'absolute', top: segment.icon_title_position.top, left: segment.icon_title_position.left}">
-              <svg class="icon icon-xl"><use :xlink:href="'#icon-' + highway_slug"></use></svg>
-              <p class="icon-text-container font-weight-light">{{segment.title}}</p>
-            </div>
         </div>
-        <!-- Modal -->
-        <div class="d-none d-lg-block">
-          <template v-for="(project, index) in segment.projects" >
-            <a
-              v-bind:key="'project-label-' + index"
-              :style="{
-                position: 'absolute',
-                top: project.position.top,
-                left: project.position.left,
-              }"
-              :id="project.id"
-              @click="projectClicked(index)"
-              >{{ project.title }}</a
-            >
-          </template>
-        </div>
-        <b-modal ref="myModal" size="lg" centered hide-header hide-footer no-fade>
-          <div class="py-1" :class="`bg-` + code4ro_map.color"></div>
-          <div class="d-flex align-items-center justify-content-between p-3">
-            <div class="SegmentLegend-status d-flex align-items-center col-1">
+      </div>
+
+      <div class="Segment-info d-none d-lg-block">
+        <b-row>
+          <b-col col="8" offset="4">
+            <div class="lead" v-html="segment.description" />
+          </b-col>
+        </b-row>
+      </div>
+
+      <b-modal ref="modalProject" size="xl" centered hide-header hide-footer no-fade>
+
+        <div class="py-1" :class="`bg-` + code4ro_map.color"></div>
+
+        <div class="ProjectModal p-3">
+
+          <div class="d-flex align-items-center justify-content-between my-4">
+            <div class="SegmentLegend-status d-flex align-items-center">
               <i class="icon icon-circle" :class="'border-' + code4ro_map.color"></i>
               {{ data.segment_legend.done }}
             </div>
             <svg class="icon icon-sm" @click="hideModal" style="cursor: pointer"><use xlink:href="#close"></use></svg>
           </div>
-          <b-row class="p-3">
-            <b-col cols="6">
+
+          <div class="d-flex align-items-center justify-content-between my-4">
+            <div>
               <h3>{{segment.projects[active_project_index].title}}</h3>
-            </b-col>
-            <b-col cols="6">
+              <p>{{segment.projects[active_project_index].subtitle}}</p>
+            </div>
+
+            <a :href="segment.projects[active_project_index].link" v-if="segment.projects[active_project_index].link">
               <svg class="icon icon-sm"><use xlink:href="#icon-redirect"></use></svg>
-              <a :href="segment.projects[active_project_index].link" class="ml-2" style="text-decoration:underline">{{segment.projects[active_project_index].link_text}}</a>
-            </b-col>
-            <b-col cols="12" lg="6">
-              <div class="border p-4 my-3 d-flex align-items-center justify-content-center">
-                <svg class="icon icon-lg"><use :xlink:href="`#` + segment.projects[active_project_index].icon"></use></svg>
-                {{ segment.projects[active_project_index].title }}
+              {{segment.projects[active_project_index].link_text}}
+            </a>
+          </div>
+
+          <b-row>
+            <b-col xs="12" lg="4">
+              <div class="border border-gray mb-3 text-center">
+                <img class="img-fluid" :src="segment.projects[active_project_index].icon" />
               </div>
-                <div class="w-50 d-flex align-items-center">
-                  <svg class="icon icon-md mr-2"><use xlink:href="#icon-heart"></use></svg>
-                  <span v-if="segment.projects[active_project_index].adopted">{{ data.segment_legend.adopted }}</span>
-                  <span v-else>{{ data.segment_legend.neadoptat }}</span>
-                </div>
-                <b-row>
-                  <b-col cols="12">
-                    <b-row class="my-3" v-if="segment.projects[active_project_index].adopted">
-                      <template v-for="(partner, index) in segment.projects[active_project_index].adopted_by">
-                        <b-col cols="2" :key="index">
-                          <svg class="icon icon-lg"><use :xlink:href="`#` + partner.logo"></use></svg>
-                        </b-col>
-                      </template>
-                    </b-row>
-                    <a v-else :href="data.call_to_action.finance.link" :class="'btn btn-' + data.call_to_action.finance.color + ' btn-custom px-5 mx-2 my-2 text-white btn-lg'">
-                      {{data.call_to_action.finance.title}}
-                    </a>
-                  </b-col>
-                </b-row>
             </b-col>
-            <b-col cols="6" class="my-3" v-html="segment.projects[active_project_index].description" />
+            <b-col xs="12" lg="8">
+              <div class="ProjectModal-desc mb-4" v-html="segment.projects[active_project_index].description"></div>
+
+              <div class="d-flex align-items-center">
+                <svg class="icon icon-md mr-2"><use xlink:href="#icon-heart"></use></svg>
+                <span v-if="segment.projects[active_project_index].adopted">{{ data.segment_legend.adopted }}</span>
+                <span v-else>{{ data.segment_legend.neadoptat }}</span>
+              </div>
+
+              <b-row>
+                <b-col cols="12">
+                  <b-row class="my-3" v-if="segment.projects[active_project_index].adopted">
+                    <template v-for="(partner, index) in segment.projects[active_project_index].adopted_by">
+                      <b-col cols="3" :key="index">
+                        <a :href="partner.link" target="_blank" class="d-block border border-gray">
+                          <img :src="partner.logo" class="img-fluid" />
+                        </a>
+                      </b-col>
+                    </template>
+                  </b-row>
+                  <a v-else :href="data.call_to_action.finance.link" :class="'btn btn-' + data.call_to_action.finance.color + ' btn-custom px-5 mx-2 my-2 text-white btn-lg'">
+                    {{data.call_to_action.finance.title}}
+                  </a>
+                </b-col>
+              </b-row>
+            </b-col>
+          </b-row>
+
+          <b-row>
             <b-col cols="12" class="mt-5">
               <div class="d-flex align-items-center justify-content-between">
                 <span @click="previous" v-if="segment.projects.length > 1">
@@ -128,34 +130,23 @@
               </div>
             </b-col>
           </b-row>
-        </b-modal>
-      </div>
-      <!-- Highway portion financed by -->
-        <b-row v-if="segment.financed">
-          <b-col cols="12">
-            <p>{{ data.general.financed_by_general_text }}</p>
-            <b-row>
-              <template v-for="(financed, index) in segment.financed_by">
-              <b-col cols="2" :key="index">
-                <svg class="icon icon-lg"><use :xlink:href="`#` + financed.logo"></use></svg>
-              </b-col>
-            </template>
-            </b-row>
-          </b-col>
-        </b-row>
+
+        </div>
+      </b-modal>
+
     </div>
   </div>
 </template>
 
 <script>
-/** Imported components */
+import postMessage from "../utils/postMessage";
+
 import HighwayHeader from "../components/map/HighwayHeader";
-import Delimiter from "../components/Delimiter";
 import SegmentHeader from "../components/map/SegmentHeader";
 import SegmentLegend from "../components/map/SegmentLegend";
 
 export default {
-  name: "Solution",
+  name: "Segment",
   props: {
     data: {
       type: Object,
@@ -163,14 +154,13 @@ export default {
   },
   components: {
     HighwayHeader,
-    Delimiter,
     SegmentHeader,
     SegmentLegend,
   },
   data() {
     return {
       slug: this.$route.params.slug,
-      highway_slug: this.$route.params._slug,
+      segmentSlug: this.$route.params.segment,
       code4ro_map: [],
       segment: [],
       active_project_index: 0,
@@ -182,21 +172,49 @@ export default {
       (item) => item.slug == this.slug
     );
     this.segment = this.code4ro_map.highway_segment.find(
-      (item) => item.highway_slug == this.highway_slug
+      (item) => item.segmentSlug == this.segmentSlug
     );
 
     this.data.back_to_map.visible = true;
   },
+  mounted() {
+    postMessage({ height: document.body.scrollHeight });
+
+    const projects = document.getElementsByClassName('btn-project');
+
+    projects.forEach(project => {
+      project.addEventListener('click', () => {
+        this.projectClicked(parseInt(project.getAttribute('projectid'), 10))
+      })
+    })
+
+    if (this.$route.params.solution) {
+      this.$refs.modalProject.show()
+    }
+  },
   methods: {
     projectClicked(index) {
-      this.active_project_index = index;
-      this.$refs.myModal.show();
+      // TODO: FIX PROJECT SELECTION BUG HERE
+      this.active_project_index = index - 1;
+
+      this.$refs.modalProject.show();
+
+      // this.$router.push({ name: 'Project', params: {
+      //   slug: 'participation4ro',
+      //   segment: 'acces-la-cultura',
+      //   solution: 'theater-hub'
+      // }})
     },
     hideModal() {
-      this.$refs.myModal.hide();
+      this.$refs.modalProject.hide();
+
+      // this.$router.push({ name: 'Segment', params: {
+      //   slug: 'participation4ro',
+      //   segment: 'acces-la-cultura'
+      // }})
     },
     next() {
-      if (this.active_project_index === this.segment.projects.length - 1) {
+      if (this.active_project_index === this.segment.projects.length) {
         this.active_project_index = 0;
       } else {
         this.active_project_index++;
@@ -204,7 +222,7 @@ export default {
     },
     previous() {
       if (0 === this.active_project_index) {
-        this.active_project_index = this.segment.projects.length - 1;
+        this.active_project_index = this.segment.projects.length;
       } else {
         this.active_project_index--;
       }

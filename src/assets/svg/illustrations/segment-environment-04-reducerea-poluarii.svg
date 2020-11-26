@@ -1,6 +1,34 @@
-<svg width="383" height="242" viewBox="0 0 383 242" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M377.712 4.70056C372.161 7.67605 366.611 10.6265 361.01 13.1019C356.334 15.1523 351.758 17.0776 347.232 18.9779C338.081 22.8786 329.254 26.7792 320.853 31.9801C316.502 34.6555 312.452 36.5308 308.326 38.3811" stroke="#C8CEDB" stroke-width="9.3813" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M306.5 41C303.224 44.7256 264.619 83.0891 261.568 87.0148C258.768 90.5904 256.418 94.416 254.242 98.3416C249.791 106.443 246.216 114.944 241.59 122.646C238.365 127.997 234.514 133.147 230.113 137.948C214.761 154.701 193.007 166.903 169.728 166.528C168.603 166.503 167.503 166.503 166.403 166.528C145.949 167.028 131.697 174.279 87.9398 199.333C74.8876 206.81 62.8607 213.786 47.1081 216.286C45.3078 216.586 40.3819 217.286 34.0559 217.761" stroke="#1B771B" stroke-width="9.3813" stroke-miterlimit="10" stroke-linejoin="round" stroke-dasharray="11.73 11.73"/>
-<path d="M23.3785 236.939C33.6941 236.939 42.0566 228.577 42.0566 218.261C42.0566 207.945 33.6941 199.583 23.3785 199.583C13.0629 199.583 4.70044 207.945 4.70044 218.261C4.70044 228.577 13.0629 236.939 23.3785 236.939Z" fill="white" stroke="#1B771B" stroke-width="9.3813" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M307.575 49.4076C312.754 49.4076 316.952 45.2096 316.952 40.0311C316.952 34.8526 312.754 30.6545 307.575 30.6545C302.397 30.6545 298.199 34.8526 298.199 40.0311C298.199 45.2096 302.397 49.4076 307.575 49.4076Z" fill="#404366"/>
+<svg width="1200" height="1000" viewBox="0 0 1200 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="segment-environment-04-reducerea-poluarii">
+<g id="Group 1176">
+<g id="Group 1121">
+<path id="Vector" d="M735.012 310C729.461 312.975 723.911 315.926 718.31 318.401C713.634 320.452 709.058 322.377 704.532 324.277C695.381 328.178 686.554 332.079 678.153 337.279C673.802 339.955 669.752 341.83 665.626 343.681" stroke="#C8CEDB" stroke-width="9.3813" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M663.8 346.299C660.524 350.025 621.918 388.389 618.868 392.314C616.067 395.89 613.717 399.715 611.542 403.641C607.091 411.742 603.515 420.244 598.89 427.945C595.664 433.296 591.813 438.447 587.413 443.248C572.06 460 550.307 472.202 527.028 471.827C525.903 471.802 524.802 471.802 523.702 471.827C503.249 472.327 488.997 479.579 445.239 504.633C432.187 512.109 420.16 519.085 404.408 521.585C402.607 521.886 397.682 522.586 391.355 523.061" stroke="#1B771B" stroke-width="9.3813" stroke-miterlimit="10" stroke-linejoin="round" stroke-dasharray="11.73 11.73"/>
+<path id="Vector_3" d="M380.678 542.239C390.994 542.239 399.356 533.876 399.356 523.561C399.356 513.245 390.994 504.882 380.678 504.882C370.362 504.882 362 513.245 362 523.561C362 533.876 370.362 542.239 380.678 542.239Z" fill="white" stroke="#1B771B" stroke-width="9.3813" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M664.876 354.707C670.054 354.707 674.252 350.509 674.252 345.331C674.252 340.152 670.054 335.954 664.876 335.954C659.697 335.954 655.499 340.152 655.499 345.331C655.499 350.509 659.697 354.707 664.876 354.707Z" fill="#404366"/>
+</g>
+<g id="icon-reducerea-poluarii 1" clip-path="url(#clip0)">
+<path id="Vector_5" d="M348.396 676.597V602.575C348.396 602.575 364.86 602.075 364.359 602.575C363.859 603.075 374.07 646.171 374.07 646.171L387.033 635.751V646.463L402.412 636.043V646.463L417.187 636.231V676.597" stroke="#1B771B" stroke-width="2.89286" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_6" d="M334.204 676.595H433.879" stroke="#1B771B" stroke-width="2.89286" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_7" d="M383.594 671.97V667.573C383.598 667.148 383.713 666.732 383.929 666.366C384.145 666 384.454 665.698 384.823 665.489L390.783 662.113L393.013 657.945C393.509 657.023 394.245 656.252 395.144 655.717C396.044 655.18 397.072 654.899 398.119 654.903H406.851C408.244 654.904 409.591 655.407 410.644 656.32L418.979 663.447H421.709C423.867 663.452 425.934 664.313 427.457 665.841C428.981 667.368 429.837 669.438 429.837 671.595V671.97H383.594Z" fill="white" stroke="#1B771B" stroke-width="2.89286" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_8" d="M395.365 676.596C397.529 676.596 399.283 674.842 399.283 672.678C399.283 670.515 397.529 668.76 395.365 668.76C393.201 668.76 391.447 670.515 391.447 672.678C391.447 674.842 393.201 676.596 395.365 676.596Z" fill="white" stroke="#1B771B" stroke-width="2.89286" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_9" d="M417.728 676.596C419.892 676.596 421.646 674.842 421.646 672.678C421.646 670.515 419.892 668.76 417.728 668.76C415.564 668.76 413.811 670.515 413.811 672.678C413.811 674.842 415.564 676.596 417.728 676.596Z" fill="white" stroke="#1B771B" stroke-width="2.89286" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_10" d="M379.632 668.03H371.317" stroke="#1B771B" stroke-width="2.89286" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_11" d="M377.132 671.97H366.421" stroke="#1B771B" stroke-width="2.89286" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_12" d="M349.979 597.427V583.798" stroke="#1B771B" stroke-width="2.89286" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_13" d="M361.772 597.427V583.798" stroke="#1B771B" stroke-width="2.89286" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_14" d="M354.292 597.426V575.503" stroke="#1B771B" stroke-width="2.89286" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_15" d="M358.044 591.78V569.857" stroke="#1B771B" stroke-width="2.89286" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_16" d="M413.156 592.442L383.891 621.707L389.534 627.35L418.8 598.085L413.156 592.442Z" fill="#1B771B"/>
+<path id="Vector_17" d="M357.265 654.517L328 683.782L333.644 689.426L362.909 660.161L357.265 654.517Z" fill="#1B771B"/>
+</g>
+<text id="Reducerea polu&#196;&#131;rii" fill="#1E1E1E" xml:space="preserve" style="white-space: pre" font-family="Titillium Web" font-size="40" font-weight="600" letter-spacing="0px"><tspan x="477" y="642.9">Reducerea polu&#x103;rii</tspan></text>
+<text id="Footprint calculator" fill="#1E1E1E" xml:space="preserve" style="white-space: pre" font-family="Titillium Web" font-size="20" font-weight="600" letter-spacing="0px"><tspan x="700" y="366.45">Footprint&#13;calculator&#13;</tspan></text>
+</g>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="108" height="123.429" fill="white" transform="translate(328 566)"/>
+</clipPath>
+</defs>
 </svg>

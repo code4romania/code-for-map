@@ -2,7 +2,7 @@
   <div class="SegmentLegend">
     <p>{{ status.text }}</p>
 
-    <div class="d-flex justify-content-start">
+    <div class="d-flex justify-content-start mb-4">
       <div class="SegmentLegend-status d-flex align-items-center mr-4">
         <i class="icon icon-circle" :class="'border-' + color"></i>
         {{status.done}}

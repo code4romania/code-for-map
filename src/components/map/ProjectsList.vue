@@ -6,8 +6,8 @@
           name: 'Project',
           params: {
             slug: slug,
-            _slug: highway_slug,
-            __slug: project.project_slug
+            segment: segmentSlug,
+            solution: project.projectSlug
           }
         }"
         v-bind:key="'project-' + project.id"
@@ -26,7 +26,7 @@ export default {
   name: "ProjectsList",
   props: {
     list: Array,
-    highway_slug: String,
+    segmentSlug: String,
     slug: String,
     color: String
   }
