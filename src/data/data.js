@@ -53,12 +53,12 @@ const data = {
     "donate":{
       "title":"Donează",
       "color":"success",
-      "link":""
+      "link":"https://code4.ro/ro/doneaza"
     },
     "finance":{
       "title":"Trimite-ne un e-mail",
       "color":"success",
-      "link":""
+      "link":"mailto:contact@code4.ro"
     }
   },
   "more_info":{
@@ -67,7 +67,38 @@ const data = {
     "download_pdf_cta": "Descarcă planul nostru",
     "download_pdf_link": "",
     "youtube":"https://www.youtube.com/watch?v=tyYNP9IzfEY&ab_channel=MorningGlorycuR%C4%83zvanExarhu",
-    "thumbnail": require('../assets/images/fpo.png')
+    "thumbnail": require('../assets/images/fpo.png'),
+    "work": {
+      "title": "Cum lucrăm",
+      "steps": [
+        {
+          "title": "PROIECTĂM",
+          "icon": "design",
+          "content": "Fiecare porțiune de drum este o soluție care, prin programul Civic Labs, a trecut prin luni de cercetare calitativă și cantitativă făcută de oameni de research cu experiență în zeci de interviuri în profunzime cu toți stakeholderii domeniului respectiv, cu seturi de date analizate și măcinate în detaliu. După ce identificăm problemele cu care se confruntă fiecare domeniu, urmează o etapă de sesiuni de ideație și apoi de prototipare prin care răspundem problemelor identificate cu soluții digitale. Gândim, imaginăm și propunem aplicații care să rezolve problemele respective. Nu oferim doar răspunsuri sumare, ci dezvoltăm prototipuri ale aplicațiilor propriu-zise. Fiecare prototip este testat cu grupuri de utilizatori reali și este însoțit de specificații tehnice detaliate. În acest punct, planul este clar, drumul mai trebuie doar construit. Doar proiectând corect, putem avea mai apoi drumuri bune."
+        },
+        {
+          "title": "CONSTRUIM",
+          "icon": "build",
+          "content": "Aproape 2000 de voluntari ai Code for Romania oferă din timpul și talentul lor pentru a construi soluțiile deja proiectate de noi. Implicarea lor în programul Tech for social Good a produs rezultate care ar fi însemnat investiții de milioane de euro. În plus, fiecare soluție propusă poate fi adoptată de un partener care susține dezvoltarea propriu-zisă a aplicațiilor (finanțator sau dezvoltator). Identificăm apoi partenerii potriviți din societatea civilă care să administreze soluțiile rezultate. Împreună, putem face ca planul nostru să se transforme în realitate."
+        },
+        {
+          "title": "ADMINISTRĂM",
+          "icon": "manage",
+          "content": "Drumul deja construit trebuie întreținut. Code for Romania se asigură că toate soluțiile executate rămân funcționale, că ajung la utilizatorii finali, își realizează potențialul și se dezvoltă. Prin programul Critical Civic Infrastructure ne asumăm responsabilitatea pentru toate aceste soluții de tehnologie civică, pe care nu doar le administrăm, dar le creștem de la an la an pentru a le multiplica efectul pozitiv. Dacă avem grijă de segmentele de drum executate, putem fi siguri că ele vor produce schimbare reală pe această hartă."
+        },
+        {
+          "title": "PREGĂTIM",
+          "icon": "prepare",
+          "content": "Pe lângă faptul că ajutăm societatea civilă să implementeze proiecte digitale care vin însoțite de un ghid de implementare și de sprijin specializat pe parcursul proiectului, le oferim asistență celor care se confruntă cu probleme tehnice prin programul Civic Tech 911. Consultanță și sprijin oferim inclusiv instituțiilor publice prin programul Update Romania. Împreună, putem da mai multă putere societății civile."
+        }
+      ]
+    },
+    "how": {
+      "title": "Cum putem digitaliza România împreună",
+      "steps": [
+
+      ]
+    }
   },
   "partners":{
     "title":"Împreună",

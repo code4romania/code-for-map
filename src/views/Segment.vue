@@ -50,17 +50,9 @@
 
       <div class="Segment-info d-none d-lg-block">
         <b-row>
-          <div class="col-2" v-if="segment.financed">
-            <p>{{ data.general.financed_by_general_text }}</p>
-            <template v-for="(financed, index) in segment.financed_by">
-              <div  :key="index">
-                <svg class="icon icon-lg"><use :xlink:href="`#` + financed.logo"></use></svg>
-              </div>
-            </template>
-          </div>
-          <div class="col-8" :class="segment.financed ? 'offset-2' : 'offset-4'">
-            <div v-html="segment.description" />
-          </div>
+          <b-col col="8" offset="4">
+            <div class="lead" v-html="segment.description" />
+          </b-col>
         </b-row>
       </div>
 

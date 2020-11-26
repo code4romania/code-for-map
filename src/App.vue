@@ -30,8 +30,8 @@
 
       <b-row class="mb-5">
         <b-col>
-          <div v-html="data.more_info.description" />
-          <a :href="data.more_info.download_pdf_link" target="_blank">{{data.more_info.download_pdf_cta}}</a>
+          <div v-html="data.more_info.description" class="mb-4" />
+          <a class="btn btn-primary btn-custom btn-lg mb-5" :href="data.more_info.download_pdf_link" target="_blank">{{data.more_info.download_pdf_cta}}</a>
         </b-col>
         <div class="w-100 d-md-none"></div>
         <b-col>
@@ -40,6 +40,37 @@
           <img class="img-fluid" :src="data.more_info.thumbnail" />
         </b-col>
       </b-row>
+
+      <h1 class="text-strong-blue mb-3">{{data.more_info.work.title}}</h1>
+
+      <b-row class="mb-5">
+        <b-col
+          xs="12" md="6" class="mb-4"
+          v-for="(step, index) in data.more_info.work.steps"
+          :key="'item-' + index">
+          <div class="d-flex align-items-center justify-content-start mb-2">
+            <svg class="icon icon-xl mr-4"><use :xlink:href="'#icon-' + step.icon"></use></svg>
+            <h2 class="text-primary">{{step.title}}</h2>
+          </div>
+          {{step.content}}
+        </b-col>
+      </b-row>
+
+      <h1 class="text-strong-blue mb-3">{{data.more_info.how.title}}</h1>
+
+      <b-row class="mb-5">
+        <!-- <b-col
+          xs="12" md="6" class="mb-4"
+          v-for="(item, index) in data.more_info.how.work"
+          :key="'item-' + index">
+          <div class="d-flex align-items-center justify-content-start mb-2">
+            <svg class="icon icon-xl mr-4"><use :xlink:href="'#icon-' + item.icon"></use></svg>
+            <h2 class="text-primary">{{item.title}}</h2>
+          </div>
+          {{item.content}}
+        </b-col> -->
+      </b-row>
+
       <b-row>
         <b-col xs="12" lg="6">
           <div class="Partners">
