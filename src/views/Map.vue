@@ -4,7 +4,6 @@
       <svg class="w-100 h-100"><use xlink:href="#map-color"></use></svg>
     </div>
 
-    <!-- Display map buttons on map -->
     <template v-for="highway in data.code4ro_map">
       <MapButton
         :highway="highway"

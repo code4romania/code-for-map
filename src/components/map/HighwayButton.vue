@@ -1,5 +1,4 @@
 <template>
-  <!-- Map highway segments button links -->
   <router-link
     :to="{
       name: 'Segment',
@@ -9,7 +8,7 @@
       }
     }"
     class="badge-pill btn bg-white d-none d-lg-block HighwayButton"
-    :class="`btn-outline-${color}`"
+    :class="`btn-outline-${color} ${hasProjects ? 'HighwayButton-hasProjects' : ''}`"
     :style="{ top: segment_button.btn.top, left: segment_button.btn.left }"
   >
     <div class="d-flex align-items-center" v-if="segment_button.icon_left">
@@ -36,7 +35,8 @@ export default {
     segment_button: Object,
     slug: String,
     segmentSlug: String,
-    color: String
+    color: String,
+    hasProjects: Boolean
   }
 };
 </script>

@@ -18,6 +18,10 @@
   }
 }
 
+.Map-bw {
+  opacity: 0.8;
+}
+
 .MapButton-wrap {
   position: absolute;
 }
@@ -77,6 +81,7 @@
   font-size: 14px;
   line-height: 16px;
   z-index: $z-index-buttons;
+  opacity: 0.6;
 
   .icon {
     min-width: 30px;
@@ -84,7 +89,12 @@
 
   &:hover {
     z-index: $z-index-active;
+    opacity: 1;
   }
+}
+
+.HighwayButton-hasProjects {
+  opacity: 1;
 }
 
 .Highway-partner {

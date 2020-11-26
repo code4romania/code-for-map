@@ -19,7 +19,7 @@
           </div>
 
           <div class="MapContainer-wrap d-none d-lg-block">
-            <div class="MapContainer">
+            <div class="MapContainer Map-bw">
               <svg class="w-100 h-100"><use xlink:href="#map-bw"></use></svg>
             </div>
           </div>
@@ -46,6 +46,7 @@
               :segmentSlug="segment_button.segmentSlug"
               :segment_button="segment_button"
               :color="code4ro_map.color"
+              :hasProjects="segment_button.projects.length > 0"
               v-bind:key="'highway-btn-lg-' + segment_button.id"
             />
 
