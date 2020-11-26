@@ -197,7 +197,7 @@ const data = {
         {
           "id":1,
           "segmentSlug":"fara-violenta-acasa",
-          "segment_visual":"segment-care-07-violenta-acasa",
+          "segment_visual":"segment-care-01-fara-violenta-acasa",
           "title":"Fără violență acasă",
           "description":"<p>Pentru prea multe familii, acasă nu mai reprezintă locul în care găsesc echilibrul necesar și un refugiu în fața grijilor, iar nesiguranța resimțită în propria casă este un sentiment pe care nimeni nu ar trebui să-l trăiască.</p><p>Violența domestică, fie că vizează relația de cuplu, copiii sau persoanele în vârstă, are un trecut bogat în România, iar urmele lăsate în viața victimelor sunt greu de remediat.</p><p>Indiferent că vorbim despre violență verbală, psihologică, fizică, sexuală sau economică, am ales să analizăm acest domeniu pentru a  ne concentra  atenția asupra unui fenomen vitregit de atenția care i se cuvine, într-o societate care continuă să îl normalizeze.</p>",
           "btn":{
@@ -1059,7 +1059,7 @@ const data = {
         {
           "id":7,
           "segmentSlug":"Fara-trafic-de-persoane",
-          "segment_visual":"Fara-trafic-de-persoane",
+          "segment_visual":"segment-care-07-fara-trafic-de-persoane",
           "title":"Fără trafic de persoane",
           "description":"<p>România rămâne o sursă primară de victime ale traficului în scopuri sexuale și de muncă, aspect ce ne-a plasat pe locul I într-un clasament ce vizează țările din Europa.</p><p>În timp ce datoria de bază a oricărei comunități este să ofere și să apere siguranța membrilor ei în fața oricăror amenințări, victimele traficului de persoane nu sunt protejate, iar eforturile de combatere a acestui fenomen sunt prea puțin semnificative.</p><p>Urmărim indicatori de trafic de persoane în rândul comunităților vulnerabile și modalități prin care împreună, prin intermediul tehnologiei, putem stopa creșterea numărului de victime, dar și construi pârghii pentru ocrotirea acestora.</p>",
           "btn":{
