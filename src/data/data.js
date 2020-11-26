@@ -32,7 +32,7 @@ const data = {
     "text":"Descoperă mai jos care dintre segmentele din drumul nostru spre un mediu sănătos sunt deja executate și ce am proiectat.",
     "designed":"Soluție proiectată",
     "done":"Soluție executată",
-    "adopted":"Segment de drum adoptat de",
+    "adopted":"Segment de drum adoptat de:",
     "neadoptat":"Vrei să finanțezi această soluție?"
   },
   "sms":{
@@ -73,93 +73,104 @@ const data = {
     "main":[
       {
         "id":1,
-        "name":"test",
-        "link":"#",
-        "logo": require('../assets/images/partners/romanian-american-foundation.png')
+        "name":"Romanian-American Foundation",
+        "link":"https://www.rafonline.org/",
+        "logo": "https://code4.ro/img/80ca17d3-88ed-40a1-bad8-4b579e48c72e/logo-raf.jpg?q=60&fit=crop&dpr=1&w=80&h=80&crop=1309%2C1000%2C0%2C0"
       },
       {
         "id":2,
-        "name":"test",
-        "link":"#",
-        "logo": require('../assets/images/partners/ing.png')
+        "name":"ING",
+        "link":"https://ing.ro/persoane-fizice",
+        "logo": "https://code4.ro/img/9dc5ce5d-08b5-4b33-a065-aec64cda7b42/ing-primary-logo-rgb.png?q=60&fit=crop&dpr=1&w=80&h=80&crop=1621%2C662%2C0%2C0"
       },
       {
         "id":3,
         "name":"test",
-        "link":"#",
-        "logo": require('../assets/images/partners/lidl.png')
+        "link":"https://www.lidl.ro/",
+        "logo": "https://code4.ro/img/lidl.png?q=60&fit=crop&dpr=1&w=80&h=80&crop=500%2C500%2C0%2C0"
       }
     ],
     "secondary":[
       {
         "id":1,
-        "name":"test",
-        "logo": require('../assets/images/partener_test.svg')
+        "name":"Fundația Vodafone România",
+        "link": "https://www.fundatia-vodafone.ro/",
+        "logo": "https://code4.ro/img/2b09c533-e66b-484f-bc5c-b8c9816813a6/vodafone-logo.png?q=60&fit=crop&dpr=1&w=80&h=80&crop=312%2C312%2C0%2C0"
       },
       {
         "id":2,
-        "name":"test",
-        "logo": require('../assets/images/partener_test.svg')
+        "name":"Jysk",
+        "link":"http://jysk.ro/",
+        "logo": "https://code4.ro/img/2b09c533-e66b-484f-bc5c-b8c9816813a6/vodafone-logo.png?q=60&fit=crop&dpr=1&w=80&h=80&crop=312%2C312%2C0%2C0"
       },
       {
         "id":3,
-        "name":"test",
-        "logo": require('../assets/images/partener_test.svg')
+        "name":"Cloudflight",
+        "link":"https://www.cloudflight.io/offices/cluj-napoca/",
+        "logo": "https://code4.ro/img/85ebcd58-6304-4862-9529-037e20d98d57/cloudflight.png?q=60&fit=crop&dpr=1&w=80&h=80&crop=500%2C500%2C0%2C0"
       },
       {
         "id":4,
         "name":"test",
-        "logo": require('../assets/images/partener_test.svg')
+        "logo": ""
       },
       {
         "id":5,
         "name":"test",
-        "logo": require('../assets/images/partener_test.svg')
+        "link":"",
+        "logo": ""
       },
       {
         "id":6,
         "name":"test",
-        "logo": require('../assets/images/partener_test.svg')
+        "link":"",
+        "logo": ""
       },
       {
         "id":7,
         "name":"test",
-        "logo": require('../assets/images/partener_test.svg')
+        "link":"",
+        "logo": ""
       },
       {
         "id":8,
         "name":"test",
-        "logo": require('../assets/images/partener_test.svg')
+        "link":"",
+        "logo": ""
       },
       {
         "id":9,
         "name":"test",
-        "logo": require('../assets/images/partener_test.svg')
+        "link":"",
+        "logo": ""
       },
       {
         "id":10,
         "name":"test",
-        "logo": require('../assets/images/partener_test.svg')
+        "link":"",
+        "logo": ""
       },
       {
         "id":11,
         "name":"test",
-        "logo": require('../assets/images/partener_test.svg')
+        "link":"",
+        "logo": ""
       },
       {
         "id":12,
         "name":"test",
-        "logo": require('../assets/images/partener_test.svg')
+        "link":"",
+        "logo": ""
       },
       {
         "id":13,
         "name":"test",
-        "logo": require('../assets/images/partener_test.svg')
+        "logo": ""
       },
       {
         "id":14,
         "name":"test",
-        "logo": require('../assets/images/partener_test.svg')
+        "logo": ""
       }
     ]
   },
@@ -1470,8 +1481,15 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-romania-incognito.png'),
-              "adopted":false,
-              "adopted_by":[]
+              "adopted":true,
+              "adopted_by":[
+                {
+                  "id":1,
+                  "title":"Code for Romania",
+                  "link":"https://code4.ro/",
+                  "logo":require('../assets/images/code4.png')
+                }
+              ]
             }
           ]
         },
@@ -1879,14 +1897,8 @@ const data = {
                 {
                   "id":1,
                   "title":"DOR",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                },
-                {
-                  "id":2,
-                  "title":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
+                  "link":"https://www.dor.ro/",
+                  "logo": "https://code4.ro/img/decat-o-revista.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=500%2C500%2C0%2C0"
                 }
               ]
             },
@@ -1979,14 +1991,8 @@ const data = {
                 {
                   "id":1,
                   "title":"Code for Romania",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                },
-                {
-                  "id":2,
-                  "title":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
+                  "link":"https://code4.ro/",
+                  "logo":require('../assets/images/code4.png')
                 }
               ]
             },
@@ -2004,14 +2010,8 @@ const data = {
                 {
                   "id":1,
                   "title":"Code for Romania",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                },
-                {
-                  "id":2,
-                  "title":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
+                  "link":"https://code4.ro/",
+                  "logo":require('../assets/images/code4.png')
                 }
               ]
             },
