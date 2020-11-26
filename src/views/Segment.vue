@@ -130,7 +130,7 @@ export default {
     this.code4ro_map = this.data.code4ro_map.find(
       (item) => item.slug == this.slug
     );
-    this.segmentObject = this.code4ro_map.highway_segment.find(
+    this.segmentObject = this.code4ro_map.highway_segments.find(
       (item) => item.segmentSlug == this.segmentSlug
     );
 
