@@ -50,7 +50,7 @@
 
       <div class="Segment-info d-none d-lg-block">
         <b-row>
-          <b-col col="8" offset="4">
+          <b-col cols="8" offset="4">
             <div class="lead" v-html="segment.description" />
           </b-col>
         </b-row>

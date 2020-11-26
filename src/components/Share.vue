@@ -1,9 +1,8 @@
 <template>
   <div class="Share">
-    <b-dropdown right :text="share.cta" :variant="share.color" class="mr-2 text-white dropdown-custom">
-      <b-dropdown-item class="text-center">item</b-dropdown-item>
-      <b-dropdown-item @click="facebookLink" class="text-center">Facebook</b-dropdown-item>
-      <b-dropdown-item @click="linkedinLink" class="text-center">Linkedin</b-dropdown-item>
+    <b-dropdown right :text="share.cta" :variant="share.color" size="lg">
+      <b-dropdown-item @click="facebookLink" class="btn-large">Facebook</b-dropdown-item>
+      <b-dropdown-item @click="linkedinLink" class="btn-large">Linkedin</b-dropdown-item>
       <a @click:href="facebookLink"></a>
     </b-dropdown>
   </div>
@@ -15,7 +14,7 @@ import objectToGetParams from "../utils/objectToGetParams";
 export default {
   name: "Share",
   props: {
-    data: Object
+    share: Object
   },
   data(){
     return{

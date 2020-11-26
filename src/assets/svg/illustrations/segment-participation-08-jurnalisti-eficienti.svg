@@ -35,7 +35,7 @@
 <path id="Vector_31" d="M636.401 449.866H630.261V452.706H636.401V449.866Z" fill="white" stroke="#00B4CC" stroke-width="2.41935" stroke-linecap="round" stroke-linejoin="round"/>
 <path id="Vector_32" d="M645.514 449.866H639.374V452.706H645.514V449.866Z" fill="white" stroke="#00B4CC" stroke-width="2.41935" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text class="btn-project" projectid="1" id="Incognito" fill="#404366" xml:space="preserve" style="white-space: pre" font-family="Titillium Web" font-size="20" font-weight="600" letter-spacing="0px"><tspan x="402.64" y="572.089">Incognito</tspan></text>
+<text class="btn-project" cursor="pointer" projectid="1" id="Incognito" fill="#404366" xml:space="preserve" style="white-space: pre" font-family="Titillium Web" font-size="20" font-weight="600" letter-spacing="0px"><tspan x="402.64" y="572.089">Incognito</tspan></text>
 <text id="Jurnalisti eficienti" fill="#212529" xml:space="preserve" style="white-space: pre" font-family="Titillium Web" font-size="40" font-weight="600" letter-spacing="0px"><tspan x="708.64" y="454.539">Jurnalisti </tspan><tspan x="708.64" y="496.539">eficienti</tspan></text>
 </g>
 </g>
