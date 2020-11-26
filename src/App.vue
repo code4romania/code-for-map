@@ -2,7 +2,7 @@
   <div id="app">
     <b-container fluid>
 
-      <b-row class="mb-5">
+      <b-row class="mb-5" no-gutters>
         <b-col xs="12" lg="3">
           <div class="Info d-flex justify-content-between flex-column h-100">
             <div>

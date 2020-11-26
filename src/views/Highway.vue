@@ -12,15 +12,17 @@
     <!--###############################################
     ######## Map Solutions desktop and mobile #########
     ############################################### -->
-    <!-- TODO:fix small viewport to large viewport containers when doing maps layering -->
-    <div class="MapContainer-wrap">
-      <div class="MapContainer">
+    
+    <div class="Highway-wrap">
+      <div class="HighwayContainer">
         <div class="Highway">
           <!--###############################################
           #### Highway Background displayed from 1024px #####
           ############################################### -->
-          <div class="MapContainer d-none d-lg-block">
-            <svg class="w-100 h-100"><use xlink:href="#map-bw"></use></svg>
+          <div class="MapContainer-wrap d-none d-lg-block">
+            <div class="MapContainer">
+              <svg class="w-100 h-100"><use xlink:href="#map-bw"></use></svg>
+            </div>
           </div>
 
           <router-link :to="{ name: 'Map' }" class="d-none d-lg-block">

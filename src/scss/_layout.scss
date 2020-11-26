@@ -8,8 +8,9 @@
 
 .Info {
   @include respond-above(lg) {
-    position: absolute;
-    z-index: 10;
+    height: 732px;
+    // position: absolute;
+    // z-index: 10;
   }
 
   p {

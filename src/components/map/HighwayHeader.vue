@@ -1,5 +1,5 @@
 <template>
-  <div class="HighwayHeader px-4 d-lg-none">
+  <div class="HighwayHeader d-lg-none">
     <div class="d-flex align-items-center HighwayHeader-logo mb-3">
       <svg class="icon icon-lg"><use :xlink:href="'#logo-' + logo"></use></svg>
       <h2 class="ml-3 mb-0">{{ title }}</h2>

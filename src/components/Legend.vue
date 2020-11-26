@@ -1,6 +1,6 @@
 <template>
-  <div class="Lenged d-none d-lg-block">
-    <h2 class="mb-2">{{ legend.title }}</h2>
+  <div class="Legend d-none d-lg-block">
+    <h3 class="mb-2">{{ legend.title }}</h3>
     <div class="d-flex align-items-center my-1">
       <div class="drum-continuu"></div>
       <span class="ml-2 display-4">{{ legend.drum_executat }}</span>
@@ -44,6 +44,10 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.Legend h3 {
+  font-size: 14px;
+  text-transform: uppercase;
+}
 .drum-continuu {
   width: 20%;
   border-top: 4px solid #000;
