@@ -66,7 +66,7 @@
               </div>
             </template>
           </div>
-          <div class="col-8 offset-2">
+          <div class="col-8" :class="segment.financed ? 'offset-2' : 'offset-4'">
             <div v-html="segment.description" />
           </div>
         </b-row>
