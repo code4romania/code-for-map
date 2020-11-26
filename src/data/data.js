@@ -645,7 +645,7 @@ const data = {
                   "logo":"icon-date-deschise"
                 }
               ]
-            
+            }
           ]
         },
         {
