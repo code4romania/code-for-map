@@ -1,31 +1,31 @@
 <template>
   <div class="Legend d-none d-lg-block">
     <h3 class="mb-2">{{ legend.title }}</h3>
-    <div class="d-flex align-items-center my-1">
+    <div class="d-flex align-items-center my-2">
       <div class="drum-continuu"></div>
       <span class="ml-2 display-4">{{ legend.drum_executat }}</span>
     </div>
-    <div class="d-flex align-items-center my-1">
+    <div class="d-flex align-items-center my-2">
       <div class="drum-proiectat"></div>
       <span class="ml-2 display-4">{{ legend.drum_proiectat }}</span>
     </div>
-    <div class="d-flex align-items-center my-1">
+    <div class="d-flex align-items-center my-2">
       <div class="drum-planificat"></div>
       <span class="ml-2 display-4">{{ legend.drum_planificat }}</span>
     </div>
-    <div class="d-flex align-items-center my-1">
+    <div class="d-flex align-items-center my-2">
       <div class="drum-circle-full"></div>
       <span class="ml-2 display-4">{{ legend.destinatie }}</span>
     </div>
-    <div class="d-flex align-items-center my-1">
+    <div class="d-flex align-items-center my-2">
       <div class="drum-circle-empty"></div>
       <span class="ml-2 display-4">{{ legend.tema }}</span>
     </div>
-    <div class="d-flex align-items-center my-1">
+    <div class="d-flex align-items-center my-2">
       <div class="drum-circle-empty-small"></div>
       <span class="ml-2 display-4">{{ legend.realizat }}</span>
     </div>
-    <div class="d-flex align-items-center my-1">
+    <div class="d-flex align-items-center my-2">
       <div class="drum-circle-full-small"></div>
       <span class="ml-2 display-4">{{ legend.planificat }}</span>
     </div>

@@ -1197,7 +1197,7 @@ const data = {
               "title":"România Incognito",
               "subtitle":"Comunicare securizată între jurnaliști și sursele lor protejate",
               "description":"<p>Lipsa unui canal de comunicare securizat,  care ar putea oferi anonimatul tuturor celor care doresc să trimită informații sensibile către mass-media, a descurajat sursele din România, făcându-i pe oameni să fie reticenți în raportarea faptelor de corupție sau a fraudelor. </p> <p>Romania Incognito este o platformă care funcționează ca o adresă de e-mail electronică securizată între surse și media sau ONG-ul către care se dorește trimiterea de informații. Nimeni, dacă nu se decide altfel, nu poate urmări activitatea unui cetățean în platformă. Singura persoană care deține cheia de comunicare cu jurnaliștii sau diversele ONG-uri este inițiatorul care poate fi contactat numai dacă el decide să continue conversația. Sperăm că, făcând acest instrument disponibil, mai mulți oameni, care nu sunt suficient de pricepuți pentru a utiliza metode complexe de criptare, vor raporta acum despre probleme grave. Încurajăm și jurnaliștii și ONG-urile să își protejeze sursele prin utilizarea Incognito. </p>",
-              "link":"",
+              "link":"https://www.bbc.com/",
               "link_text":"Vezi soluția",
               "icon":"icon-date-deschise",
               "position":{

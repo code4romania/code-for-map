@@ -4,15 +4,13 @@
 
       <b-row class="mb-5" no-gutters>
         <b-col xs="12" lg="3">
-          <div class="Info d-flex justify-content-between flex-column h-100">
-            <div>
-              <div class="Header">
-                <h1 class="text-strong-blue" v-html="data.header.title" />
-                <p v-html="data.header.description" />
-              </div>
-              <BackToMap :back="data.back_to_map" />
+          <div class="Info d-flex flex-column h-100">
+            <div class="Header">
+              <h1 class="text-strong-blue mb-3" v-html="data.header.title" />
+              <p v-html="data.header.description" />
             </div>
-            <Legend :legend="data.map_legend" />
+            <BackToMap :back="data.back_to_map" class="d-lg-none" />
+            <Legend :legend="data.map_legend" class="mt-4"/>
           </div>
         </b-col>
         <b-col xs="12" lg="9">
