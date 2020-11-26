@@ -2021,7 +2021,7 @@ const data = {
               "description":"<p>În ultimii ani, mulți oameni își doresc să-și adapteze comportamentul de consum în așa fel încât să reducă amprenta de carbon reprezentată de totalul emisiilor de gaze cu efect de seră realizate pentru a produce bunurile consumate. Reducerea, compensarea sau neutralizarea amprentei de carbon (CO2) reprezintă acțiuni de schimbare a atitudinii față de societate și de creștere a responsabilității sociale. Footprint calculator este o aplicație mobilă prin care orice consumator va putea, scanând codul de bare de pe un produs, să afle amprenta de carbon a produsului respectiv. În felul acesta, fiecare va putea să aleagă să consume produse mai puțin dăunătoare pentru mediu. </p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":require('../assets/images/environment4ro-footprint-calculator.png'),
+              "icon":require('../assets/images/projects/environment4ro-footprint-calculator.png'),
               "adopted":false,
               "adopted_by":[]
             },
@@ -2072,7 +2072,7 @@ const data = {
               "description":"<p>În momentele imediat următoare unui dezastru major se va instala panica. Va deveni foarte dificil pentru orice persoană să își amintească pe ce website sau pe ce platformă ar putea găsi informații despre punctele de adunare, unde să meargă pentru a primi ajutor, cu ce autorități pot vorbi etc. Victimele au nevoie de un instrument simplu, la îndemână, care să le permită să caute tot ce le trebuie și să primească informații simple, concise sau liste clare de ONG-uri, autorități sau alte entități care le pot oferi ajutor. eCutremur este un centralizator de resurse utile organizate în jurul unui motor de căutare care va ajuta pe oricine să găsească informații utile în caz de dezastru - de la spitale, centre de ajutor, adăposturi, proceduri legale, informații legate de eforturile de intervenție, alte aplicații digitale utile etc</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":require('../assets/images/environment4ro-rvm.png'),
+              "icon":require('../assets/images/projects/environment4ro-rvm.png'),
               "adopted":false,
               "adopted_by":[]
             },
@@ -2084,7 +2084,7 @@ const data = {
               "description":"<p>Gradul de interes cu privire la consolidarea clădirilor cu grad mare de risc este redus, ceea ce face mobilizarea proprietarilor foarte dificilă de către administratorii asociațiilor de locatari. În prezent, nu este clar pentru toți cei implicați ce eforturi trebuie făcute, la această situație contribuind și multe mituri care se învârt în jurul proceselor de consolidare care sporesc nivelul de dezinformare. Seismic Risc este o platformă de colectare și vizualizare de date despre clădirile cu risc seismic. Oferă detalii despre gradul de ocupare, informații utile despre consolidare, informații dedicate asociațiilor de proprietari și legislație explicată pe înțelesul tuturor.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":require('../assets/images/environment4ro-rvm.png'),
+              "icon":require('../assets/images/projects/environment4ro-rvm.png'),
               "adopted":false,
               "adopted_by":[]
             },
@@ -2096,7 +2096,7 @@ const data = {
               "description":"<p>Resursa umană de expertizare este una redusă, iar procesul de evaluare al clădirilor și marcarea lor este unul anevoios care va dura mult timp după un cutremur. Procesul este acum analog, iar populația de experți este redusă, în special la nivelul orașelor mici. Expertizare Digitală este o aplicație cu două componente, una mobilă și un web app prin care orice instituție care are nevoie să colecteze date pe baza unor formulare standardizate pot să o facă cu ușurință. Un administrator poate să creeze formularele de colectare și poate atribui conturi de agent pentru orice persoană care va face evaluarea în teritoriu.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":require('../assets/images/environment4ro-expertizare-digitala.png'),
+              "icon":require('../assets/images/projects/environment4ro-expertizare-digitala.png'),
               "adopted":false,
               "adopted_by":[]
             },
@@ -2108,10 +2108,9 @@ const data = {
               "description":"<p>În cazul unui cutremur, majoritatea familiilor sau a grupurilor de prieteni care locuiesc în orașele vulnerabile, nu au pregătit un plan de urgență sau măcar un rucsac de supraviețuire care le-ar permite să aibă un minim de resurse în cazul unui dezastru. Stay Together este o aplicație mobilă care te ajută să îți construiești un plan de urgență împreună cu cei apropiați, să ții evidența produselor din rucsac și a termenelor lor de valabilitate, oferă printr-un sistem de notificări și de puncte posibilitatea de a repeta informațiile cele mai utile în caz de cutremur sau altă calamitate și îți pune la dispoziție lista oficială a punctelor de întâlnire.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":require('../assets/images/environment4ro-stay-togather.png'),
+              "icon":require('../assets/images/projects/environment4ro-stay-together.png'),
               "adopted":false,
               "adopted_by":[]
-            },
             },
             {
               "id":5,
@@ -2121,7 +2120,7 @@ const data = {
               "description":"<p>Mai multe simulări spun că, în cazul unui seism major, în București, vor exista aproximativ 9.000 de potențiali răniți, dintre care aproximativ 4.000 vor fi direcționați spre serviciile de primiri urgențe. A găsi o persoană care a ajuns în oricare dintre aceste puncte sau într-un adăpost este imposibil pentru cetățeanul obișnuit imediat după un seism. Shelter People Database este o bază de date de imagini cu oamenii din adăposturi și spitale de campanie. La înregistrarea în adăpost pot fi montate camere de luat vederi care să fotografieze persoanele care intră și să le indexeze în baza de date. Utilizatorii care caută persoane apropiate dispărute vor putea accesa interfața web a aplicației. Aplicația va avea asociat un modul de căutare de imagini care va putea identifica, pe baza unei fotografii încărcate de către utilizator, poze similare aflate în baza de date.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":require('../assets/images/environment4ro-shelter-people-database.png'),
+              "icon":require('../assets/images/projects/environment4ro-shelter-people-database.png'),
               "adopted":false,
               "adopted_by":[]
             },
@@ -2133,19 +2132,19 @@ const data = {
               "description":"<p>n eventualitatea unui seism puternic una dintre problemele directe de care societatea se va lovi este lipsa unei infrastructuri de comunicare și absența unei evaluări rapide a infrastructurii. Brigada de Evaluare este o aplicație web cu ajutorul căreia oamenii vor putea transmite imagini foto și video din teren. Informațiile centralizate vor putea genera o serie de hărți care pot indica ce drumuri sunt blocate sau în pericol de colaps și ce clădiri sunt avariate sever.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":require('../assets/images/environment4ro-brigada-de-evaluare.png'),
+              "icon":require('../assets/images/projects/environment4ro-brigada-de-evaluare.png'),
               "adopted":false,
               "adopted_by":[]
             },
             {
               "id":7,
               "projectSlug":"seismic-watchdog",
-              "title":"Seismic Watchdog"
+              "title":"Seismic Watchdog",
               "subtitle":"Platformă de monitorizare a efectelor post-seism",
               "description":"<p>Conceptul de <i>data-driven activism </i> este abia la început, dar va deveni curând unul dintre cele mai importante instrumente în monitorizare și în creșterea gradului de implicare al populației în acțiuni comunitare. Pentru cei care își asumă rolul de analiști din societatea civilă în varii domenii, a avea suficiente date la dispoziție este esențial în formularea de propuneri și sesizări. Seismic Watchdog este o platformă de vizualizare de date care va urmări implementarea planurilor de intervenție și a celor de reconstrucție și de revenire la starea de normalitate după un cutremur puternic. Administratorul platformei va monitoriza, colecta și analiza răspunsul în caz de seism pe termen mediu și lung. Platforma web permite colectarea de informații și procesarea datelor cu privire la subiecte precum distribuția ajutoarelor financiare și materiale în teren, eforturile de salvare, reconstrucția clădirilor de patrimoniu și a celor rezidențiale etc. Aceste informații vor putea fi vizualizate simplu și pe înțelesul tuturor pentru a putea urmări implementarea acestor acțiuni.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":require('../assets/images/environment4ro-seismic-watchdog.png'),
+              "icon":require('../assets/images/projects/environment4ro-seismic-watchdog.png'),
               "adopted":false,
               "adopted_by":[]
             },
@@ -2171,7 +2170,7 @@ const data = {
               "description":"<p>Imediat după un cutremur principala preocupare a tuturor va fi să salveze cât mai multe vieți. Dincolo de suportul oferit de autorități, nu toate ONG-urile sunt conștiente că pot să se alăture acestui demers, iar statusul stocurilor de resurse este neclar, incomplet și neactualizat. Resource & Volunteer Management (RVM) este un instrument de administrare de voluntari și resurse pe care îl pune la dispoziție societatea civilă către Departamentul pentru Situații de Urgență în cazul unui seism major sau al unui alt dezastru natural. Aplicația permite managementul stocurilor de resurse disponibile, al cantității acestora, tipuri de materiale și locurile în care ele sunt depozitate, precum și statusul voluntarilor organizați pe specializări distincte.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":require('../assets/images/environment4ro-rvm.png'),
+              "icon":require('../assets/images/projects/environment4ro-rvm.png'),
               "adopted":false,
               "adopted_by":[]
             },
@@ -2183,7 +2182,7 @@ const data = {
               "description":"<p>Lipsa colectării centralizate a informațiilor cu privire la voluntarii specializați și lipsa unui sistem de alertare și alocare a acestora în zonele în care este nevoie de ei va duce la eforturi inegale de intervenție. Voluntar DRM este o aplicație mobilă dedicată Departamentului pentru Situații de Urgență care se conectează la baza de date de voluntari a DSU și care permite echipajelor de intervenție să valideze identitatea unui voluntar în teren care se oferă să ajute, să adauge voluntari spontani în sistem, să îi aloce în zone de intervenție și să solicite ajutor specializat prin alerte SMS a voluntarilor înregistrați. Aplicația este disponibilă și offline și poate fi utilizată exclusiv de echipele de intervenție.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":require('../assets/images/environment4ro-voluntar-drm.png'),
+              "icon":require('../assets/images/projects/environment4ro-voluntar-drm.png'),
               "adopted":false,
               "adopted_by":[]
             },
@@ -2195,7 +2194,7 @@ const data = {
               "description":"<p>Din panică și/sau din lipsă de cunoștințe, utilizatori care au fie intenții bune, fie rele pot răspândi informații eronate în media online sau cea tradițională (presă scrisă, radio, tv etc). În situații de urgență, acest lucru poate provoca luarea de acțiuni incorecte și poate duce la creșterea nivelului de teamă și de incertitudine în rândul populației. Știri oficiale reprezintă o sursă de informare corectă, nealimentată de panică oferind populației posibilitatea de a fi vigilentă în ceea ce privește modul în care accesează, asimilează și distribuie rafalele de știri prezentate în media. </p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":require('../assets/images/environment4ro-stiri-oficiale.png'),
+              "icon":require('../assets/images/projects/environment4ro-stiri-oficiale.png'),
               "adopted":false,
               "adopted_by":[]
             },
@@ -2207,7 +2206,7 @@ const data = {
               "description":"<p>HelpRo este o platformă digitală completă pusă la dispoziția organizațiilor implicate activ în limitarea efectelor epidemiei de Covid-19 pentru a colecta resursele de care acestea au mare nevoie. Cu ajutorul acestei platforme utilizatorii pot vedea care sunt cele mai presante nevoi ale organizațiilor de pe teritoriul țării și pot putea alege către ce cauză să doneze sau la ce eforturi să contribuie. </p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":require('../assets/images/environment4ro-HelpRo.png'),
+              "icon":require('../assets/images/projects/environment4ro-rohelp.png'),
               "adopted":false,
               "adopted_by":[]
             },
@@ -2219,7 +2218,7 @@ const data = {
               "description":"<p>Orice cetățean român care locuiește în străinătate care într-un context dificil sau într-o situație de urgență are nevoie de ajutor, poate găsi, cu ajutorul unui chestionar simplu în care configurează ce nevoi are, ajutor specific din partea grupurilor informale sau organizațiilor neguvernamentale înscrise în platformă. Mecanismul construit pune în legătură comunitățile de români pentru a-i aduce împreună și a-i ajuta să se sprijine în momente critice.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":require('../assets/images/environment4ro-sprijin-diaspora.png'),
+              "icon":require('../assets/images/projects/environment4ro-sprijin-diaspora.png'),
               "adopted":false,
               "adopted_by":[]
             },
@@ -2231,7 +2230,7 @@ const data = {
               "description":"<p>Jurnal Medical este o soluție digitală cu ajutorul căreia poate fi redusă suprasolicitarea numerelor de urgență, colectând rapid informații de la o populație foarte mare, monitorizând starea de sănătate a fiecăruia pentru a rămâne în siguranță. Datele completate de toți utilizatorii aplicației sunt centralizate și transmise zilnic către Institutul Național de Sănătate Publică și Direcțiile de Sănătate Publică pentru a putea gestiona potențiale focare și pentru a te putea proteja mai bine de pericol.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":require('../assets/images/environment4ro-jurnal-medical.png'),),
+              "icon":require('../assets/images/projects/environment4ro-jurnal-medical.png'),
               "adopted":false,
               "adopted_by":[]
             },
@@ -2243,7 +2242,7 @@ const data = {
               "description":"<p>Ce Trebuie Să Fac este un ghid simplu și practic bazat pe o varietate de scenarii posibile prin care populația poate trece în situații de urgență, oferind măsurile recomandate de autorități pentru o mai bună protejare a fiecăruia  și a comunității în perioade de urgență. O funcție importantă a soluției este chestionarul de evaluare al simptomelor pentru a identifica gradul de risc propriu cu scopul de a vedea următorii pași ce trebuie urmați. </p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":require('../assets/images/environment4ro-ce-trebuie-sa-fac.png'),
+              "icon":require('../assets/images/projects/environment4ro-ce-trebuie-sa-fac.png'),
               "adopted":false,
               "adopted_by":[]
             },
@@ -2255,7 +2254,7 @@ const data = {
               "description":"<p>Accesul la date din surse oficiale ce descriu evoluția cazurilor de COVID-19 în România este esențial în adoptarea măsurilor de sănătate publică împotriva pandemiei. Platforma Date la zi vine în sprijinul publicului și al mass-media din România prin accesibilizarea datelor punându-le într-o formă grafică ușor de parcurs, urmând modelul portalului de informare din Singapore. Infografiile se actualizează periodic și sunt centralizate în grafice.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":require('../assets/images/environment4ro-date-la-zi.png'),
+              "icon":require('../assets/images/projects/environment4ro-date-la-zi.png'),
               "adopted":false,
               "adopted_by":[]
             },
@@ -2267,7 +2266,7 @@ const data = {
               "description":"<p>Accesul la date din surse oficiale ce descriu evoluția cazurilor de COVID-19 în România este esențial în adoptarea măsurilor de sănătate publică împotriva pandemiei. Platforma Date la zi vine în sprijinul publicului și al mass-media din România prin accesibilizarea datelor punându-le într-o formă grafică ușor de parcurs, urmând modelul portalului de informare din Singapore. Infografiile se actualizează periodic și sunt centralizate în grafice.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":require('../assets/images/environment4ro-cine-ce-face.png'),
+              "icon":require('../assets/images/projects/environment4ro-cine-ce-face.png'),
               "adopted":false,
               "adopted_by":[]
             },
@@ -2279,7 +2278,7 @@ const data = {
               "description":"<p>Gradul redus de conștientizare al populației cu privire la procedurile pe care trebuie să le urmeze în caz de dezastru (locurile de siguranță, procesele de consolidare și expertiză, canalele de informare oficiale, etc) vine din lipsa unei informări constante pe subiect. DRM Widget Hub este o colecție de widgeturi cu informații verificate pentru uzul larg al populației care pot fi preluate și integrate în orice website al unei instituții, orice blog sau platformă media, pentru a disemina cât mai rapid și uniform informațiile relevante cu privire la riscul seismic sau la resursele disponibile post-seism.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":require('../assets/images/environment4ro-widgethub.png'),
+              "icon":require('../assets/images/projects/environment4ro-widgethub.png'),
               "adopted":false,
               "adopted_by":[]
             },
@@ -2291,7 +2290,7 @@ const data = {
               "description":"<p>House to Home este un serviciu de tip „AirBnb” care va ajuta persoanele care au rămas fără adăpost să primească sprijin în cazul în care și-au pierdut locuința. În platformă se pot înregistra persoane care pot pune la dispoziție camere sau spații de cazare pentru persoanele care locuiesc în adăposturile puse la dispoziție de autorități. Cei care se înregistrează drept gazde în sistem vor trebui validați de administratorul platformei, care este și cel care aprobă cereri de ajutor și realizează matching-ul dintre actori în funcție de disponibilitatea de spațiu, de timp și de alte criterii legate de preferințele gazdelor sau de nevoile de accesibilizare atunci când este vorba despre persoane cu dizabilități sau care au nevoie de tratamente speciale.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":require('../assets/images/environment4ro-house-to-home.png'),
+              "icon":require('../assets/images/projects/environment4ro-house-to-home.png'),
               "adopted":false,
               "adopted_by":[]
             },
@@ -2303,7 +2302,7 @@ const data = {
               "description":"<p>În prezent există foarte puține informații disponibile și deloc accesibile pentru toate tipurile de dizabilități. De asemenea, nu există o estimare clară a numărului și localizării exacte a tuturor persoanelor cu dizabilități din orașele vulnerabile. ABC Accesibilizare este un ghid destinat celor care transmit informații către publicuri formate din persoane cu dizabilități pentru a ajuta la o mai bună propagare a acestor comunicări. Ghidul ajută și a identificarea gradului de accesibilitate al unei platforme și prezintă cele mai simple măsuri pe care le poate lua orice dezvoltator de soluții în acest sens.</p>",
               "link":"",
               "link_text":"Vezi soluția",              
-              "icon":require('../assets/images/environment4ro-abc-accesibilizare.png'),
+              "icon":require('../assets/images/projects/environment4ro-abc-accesibilizare.png'),
               "adopted":false,
               "adopted_by":[]
             },
@@ -2315,7 +2314,7 @@ const data = {
               "description":"<p>O parte uriașă a patrimoniului cultural din România ar putea fi distrusă în urma unui seism major. Pentru a putea aduce acest subiect pe agenda publică și pentru a putea evalua dimensiunea reală a pierderilor dacă acest lucru s-ar întâmpla, avem nevoie de un loc în care toate aceste clădiri sau monumente să poată fi indexate, centralizate și evaluate ca importanță. Alertă Patrimoniu este un website dedicat centralizării acestor clădiri și a informațiilor relevante despre ele într-o manieră interactivă, simplu de parcurs, cu date ușor de înțeles și vizualizat pentru a crește interesul media, dar și al publicului larg care poate să acționeze pentru a le salva de la dezastru.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":require('../assets/images/environment4ro-alerta-patrimoniu.png'),              "adopted":false,
+              "icon":require('../assets/images/projects/environment4ro-alerta-patrimoniu.png'),              "adopted":false,
               "adopted_by":[]
             },
           ]
