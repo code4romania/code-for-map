@@ -1,9 +1,14 @@
 <template>
   <div class="Share">
-    <b-dropdown right :text="share.cta" :variant="share.color" size="lg">
-      <b-dropdown-item @click="facebookLink" class="btn-large">Facebook</b-dropdown-item>
-      <b-dropdown-item @click="linkedinLink" class="btn-large">Linkedin</b-dropdown-item>
-      <a @click:href="facebookLink"></a>
+    <b-dropdown
+      right
+      :text="share.cta"
+      :variant="share.color"
+      size="lg"
+    >
+      <b-dropdown-item @click="facebookLink" class="text-center">Facebook</b-dropdown-item>
+      <b-dropdown-item @click="linkedinLink" class="text-center">Linkedin</b-dropdown-item>
+      <b-dropdown-item @click="twitterLink" class="text-center">Twitter</b-dropdown-item>
     </b-dropdown>
   </div>
 </template>
@@ -14,12 +19,12 @@ import objectToGetParams from "../utils/objectToGetParams";
 export default {
   name: "Share",
   props: {
-    share: Object
+    share: Object,
   },
-  data(){
-    return{
-      pageUrl: location.href
-    }
+  data() {
+    return {
+      pageUrl: location.href,
+    };
   },
   methods: {
     facebookLink() {
@@ -27,19 +32,26 @@ export default {
         `https://www.facebook.com/sharer/sharer.php` +
           objectToGetParams({
             u: this.pageUrl,
-          }),
+          })
       );
-      console.log(this.$route)
     },
     linkedinLink() {
-        window.open(
-          'https://linkedin.com/shareArticle' +
-            objectToGetParams({
-              mini: true,
-              url: this.pageUrl
-            })
-        );
-      }
+      window.open(
+        "https://linkedin.com/shareArticle" +
+          objectToGetParams({
+            mini: true,
+            url: this.pageUrl,
+          })
+      );
+    },
+    twitterLink() {
+      window.open(
+        "https://www.twitter.com/share" +
+          objectToGetParams({
+            url: this.pageUrl,
+          })
+      );
+    },
   },
 };
 </script>
