@@ -64,32 +64,15 @@
       </div>
     </div>
 
-    <div class="">
-      <router-link
-        tag="div"
-        class="item"
-        :to="{
-          name: 'ProjectModal',
-          params: {
-            solution: project.projectSlug,
-          },
-        }"
-        v-for="(project, index) in segmentObject.projects"
-        :key="index"
-      >
-        <strong>{{ project.title }}</strong>
-      </router-link>
-
-      <div v-if="showModal" class="modal-route">
-        <div class="modal-content">
-          <router-view
-            :data="data"
-            :code4ro_map="code4ro_map"
-            :segmentObject="segmentObject"
-            :slug="slug"
-            :segmentSlug="segmentSlug"
-          ></router-view>
-        </div>
+    <div v-if="showModal" class="modal-route">
+      <div class="modal-content">
+        <router-view
+          :data="data"
+          :code4ro_map="code4ro_map"
+          :segmentObject="segmentObject"
+          :slug="slug"
+          :segmentSlug="segmentSlug"
+        ></router-view>
       </div>
     </div>
   </div>
@@ -146,7 +129,26 @@ export default {
   },
   mounted() {
     postMessage({ height: document.body.scrollHeight });
+
+    const projects = document.getElementsByClassName('btn-project');
+
+    projects.forEach(project => {
+      project.addEventListener('click', () => {
+        this.projectClicked(parseInt(project.getAttribute('projectid'), 10))
+      })
+    })
   },
+  methods: {
+  projectClicked(index) {
+    this.$router.push({
+      name: 'ProjectModal',
+      params: {
+      slug: this.slug,
+      segment: this.segmentSlug,
+      solution: this.segmentObject.projects[index - 1].projectSlug
+    }});
+  }
+  }
 };
 </script>
 
