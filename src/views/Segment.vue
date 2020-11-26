@@ -8,32 +8,39 @@
       />
 
       <SegmentHeader
-        :icon="segment.segmentSlug"
+        :icon="segmentObject.segmentSlug"
         :slug="slug"
         :color="code4ro_map.color"
-        :title="segment.title"
-        :description="segment.description"
+        :title="segmentObject.title"
+        :description="segmentObject.description"
       />
 
       <SegmentLegend :status="data.segment_legend" :color="code4ro_map.color" />
 
-      <div class="ProjectsList" v-if="segment.projects.length">
-        <template v-for="(project, index) in segment.projects">
-          <a class="d-flex align-items-center justify-content-between ListItem"
-            v-bind:key="'project-' + index"
-            :id="project.id"
-            @click="projectClicked(index)"
-          >
-              <i class="icon icon-circle" :class="'border-' + code4ro_map.color"></i>
-              <div class="flex-fill mx-2">{{project.title}}</div>
-              <svg class="icon"><use xlink:href="#chevron-right"></use></svg>
-          </a>
-        </template>
+      <div class="ProjectsList" v-if="segmentObject.projects.length">
+        <router-link
+          tag="div"
+          class="d-flex align-items-center justify-content-between ListItem"
+          :to="{
+            name: 'ProjectModal',
+            params: {
+              solution: project.projectSlug,
+            },
+          }"
+          v-for="(project, index) in segmentObject.projects"
+          :key="index"
+        >
+          <i
+            class="icon icon-circle"
+            :class="'border-' + code4ro_map.color"
+          ></i>
+          <div class="flex-fill mx-2">{{ project.title }}</div>
+          <svg class="icon"><use xlink:href="#chevron-right"></use></svg>
+        </router-link>
       </div>
     </div>
 
     <div class="Segment d-none d-lg-block">
-
       <div class="SegmentVisual-wrap mt-4">
         <router-link
           :to="{ name: 'Highway', params: { slug: slug } }"
@@ -43,19 +50,47 @@
         </router-link>
         <div class="SegmentVisual">
           <svg class="segment">
-            <use :xlink:href="'#' + segment.segment_visual"></use>
+            <use :xlink:href="'#' + segmentObject.segment_visual"></use>
           </svg>
         </div>
       </div>
 
       <div class="Segment-info d-none d-lg-block">
         <b-row>
-          <b-col cols="8" offset="4">
-            <div class="lead" v-html="segment.description" />
+          <b-col col="8" offset="4">
+            <div class="lead" v-html="segmentObject.description" />
           </b-col>
         </b-row>
       </div>
+    </div>
 
+    <div class="">
+      <router-link
+        tag="div"
+        class="item"
+        :to="{
+          name: 'ProjectModal',
+          params: {
+            solution: project.projectSlug,
+          },
+        }"
+        v-for="(project, index) in segmentObject.projects"
+        :key="index"
+      >
+        <strong>{{ project.title }}</strong>
+      </router-link>
+
+      <div v-if="showModal" class="modal-route">
+        <div class="modal-content">
+          <router-view
+            :data="data"
+            :code4ro_map="code4ro_map"
+            :segmentObject="segmentObject"
+            :slug="slug"
+            :segmentSlug="segmentSlug"
+          ></router-view>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -66,6 +101,7 @@ import postMessage from "../utils/postMessage";
 import HighwayHeader from "../components/map/HighwayHeader";
 import SegmentHeader from "../components/map/SegmentHeader";
 import SegmentLegend from "../components/map/SegmentLegend";
+import ProjectModal from "../components/ProjectModal";
 
 export default {
   name: "Segment",
@@ -78,14 +114,15 @@ export default {
     HighwayHeader,
     SegmentHeader,
     SegmentLegend,
+    ProjectModal,
   },
   data() {
     return {
       slug: this.$route.params.slug,
       segmentSlug: this.$route.params.segment,
       code4ro_map: [],
-      segment: [],
-      active_project_index: 0,
+      segmentObject: [],
+      showModal: false,
     };
   },
   /** Vue created life cycle initialize data for this route. */
@@ -93,62 +130,22 @@ export default {
     this.code4ro_map = this.data.code4ro_map.find(
       (item) => item.slug == this.slug
     );
-    this.segment = this.code4ro_map.highway_segment.find(
+    this.segmentObject = this.code4ro_map.highway_segment.find(
       (item) => item.segmentSlug == this.segmentSlug
     );
 
     this.data.back_to_map.visible = true;
   },
+  watch: {
+    $route: {
+      immediate: true,
+      handler: function (to, from) {
+        this.showModal = to.meta && to.meta.showModal;
+      },
+    },
+  },
   mounted() {
     postMessage({ height: document.body.scrollHeight });
-
-    const projects = document.getElementsByClassName('btn-project');
-
-    projects.forEach(project => {
-      project.addEventListener('click', () => {
-        this.projectClicked(parseInt(project.getAttribute('projectid'), 10))
-      })
-    })
-
-    if (this.$route.params.solution) {
-      this.$refs.modalProject.show()
-    }
-  },
-  methods: {
-    projectClicked(index) {
-      // TODO: FIX PROJECT SELECTION BUG HERE
-      this.active_project_index = index - 1;
-
-      this.$refs.modalProject.show();
-
-      // this.$router.push({ name: 'Project', params: {
-      //   slug: 'participation4ro',
-      //   segment: 'acces-la-cultura',
-      //   solution: 'theater-hub'
-      // }})
-    },
-    hideModal() {
-      this.$refs.modalProject.hide();
-
-      // this.$router.push({ name: 'Segment', params: {
-      //   slug: 'participation4ro',
-      //   segment: 'acces-la-cultura'
-      // }})
-    },
-    next() {
-      if (this.active_project_index === this.segment.projects.length) {
-        this.active_project_index = 0;
-      } else {
-        this.active_project_index++;
-      }
-    },
-    previous() {
-      if (0 === this.active_project_index) {
-        this.active_project_index = this.segment.projects.length;
-      } else {
-        this.active_project_index--;
-      }
-    },
   },
 };
 </script>
@@ -156,5 +153,27 @@ export default {
 <style>
 .icon-text-container {
   width: 128px;
+}
+.modal-route {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+}
+.modal-content {
+  position: absolute;
+  width: 100%;
+  max-width: 1024px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.3);
+}
+.item {
+  position: absolute;
+  z-index: 999;
 }
 </style>
