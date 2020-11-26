@@ -42,26 +42,26 @@
             <svg class="icon icon-xl mr-4"><use :xlink:href="'#icon-' + step.icon"></use></svg>
             <h2 class="text-primary">{{step.title}}</h2>
           </div>
-          {{step.content}}
+          <p>{{step.content}}</p>
         </b-col>
       </b-row>
 
       <h1 class="text-strong-blue mb-5">{{data.more_info.how.title}}</h1>
 
       <b-row class="mb-5">
-        <b-col xs="12" md="6" lg="3">
+        <b-col xs="12" md="6" lg="3" class="mb-4">
           <h3 class="text-primary mb-4">{{data.call_to_action.donate.title}}</h3>
           <SendSMS :data="data.sms" />
         </b-col>
-        <b-col xs="12" md="6" lg="3">
+        <b-col xs="12" md="6" lg="3" class="mb-4">
           <h3 class="text-primary mb-4">{{data.call_to_action.partner.title}}</h3>
           <div v-html="data.call_to_action.partner.content" />
         </b-col>
-        <b-col xs="12" md="6" lg="3">
+        <b-col xs="12" md="6" lg="3" class="mb-4">
           <h3 class="text-primary mb-4">{{data.call_to_action.sponsor.title}}</h3>
           <div v-html="data.call_to_action.sponsor.content" />
         </b-col>
-        <b-col xs="12" md="6" lg="3">
+        <b-col xs="12" md="6" lg="3" class="mb-4">
           <h3 class="text-primary mb-4">{{data.call_to_action.share.title}}</h3>
           <Share :data="data.call_to_action.share" />
         </b-col>
