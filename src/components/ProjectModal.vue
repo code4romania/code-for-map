@@ -3,6 +3,7 @@
     <div class="py-1" :class="`bg-` + code4ro_map.color"></div>
 
     <div class="ProjectModal p-3">
+
       <div class="d-flex align-items-center justify-content-between my-4">
         <div class="SegmentLegend-status d-flex align-items-center">
           <i

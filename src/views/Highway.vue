@@ -1,24 +1,23 @@
 <template>
   <div>
-    <!--###############################################
-    ## Highway name and logo displayed till 1024px ###
-    ############################################### -->
+
     <HighwayHeader
       :logo="code4ro_map.slug"
       :title="code4ro_map.title"
       :description="code4ro_map.description"
     />
-
-    <!--###############################################
-    ######## Map Solutions desktop and mobile #########
-    ############################################### -->
     
     <div class="Highway-wrap">
       <div class="HighwayContainer">
         <div class="Highway">
-          <!--###############################################
-          #### Highway Background displayed from 1024px #####
-          ############################################### -->
+
+          <div class="Highway-partner" v-if="code4ro_map.sponsor">
+            <div class="d-inline-block mb-2">{{data.general.financed_by}}</div>
+            <a :href="code4ro_map.sponsor.link" target="_blank" class="d-block border border-gray">
+              <img :src="code4ro_map.sponsor.logo" class="img-fluid" />
+            </a>
+          </div>
+
           <div class="MapContainer-wrap d-none d-lg-block">
             <div class="MapContainer">
               <svg class="w-100 h-100"><use xlink:href="#map-bw"></use></svg>
@@ -31,11 +30,7 @@
             </div>
           </router-link>
 
-          <!--###############################################
-          ################ Map Buttons ######################
-          ############################################### -->
           <template v-for="highway in data.code4ro_map">
-            <!-- MapButton component displayed from 1024px -->
             <MapButton
               class="d-none d-lg-block"
               :highway="highway"
@@ -44,11 +39,8 @@
               v-bind:key="highway.slug"
             />
           </template>
-          <!--###############################################
-          ################ Highway segments ################
-          ############################################### -->
+
           <template v-for="segment_button in code4ro_map.highway_segments">
-            <!-- Highway component with segments button displayed from 1024px-->
             <HighwayButton
               :slug="code4ro_map.slug"
               :segmentSlug="segment_button.segmentSlug"
@@ -57,7 +49,6 @@
               v-bind:key="'highway-btn-lg-' + segment_button.id"
             />
 
-            <!-- Highway segments displayed till 1024px -->
             <SegmentButton
               :slug="code4ro_map.slug"
               :segmentSlug="segment_button.segmentSlug"

@@ -87,6 +87,23 @@
   }
 }
 
+.Highway-partner {
+  width: 100px;
+  margin-bottom: 50px;
+
+  @include respond-above(lg) {
+    margin-bottom: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: $z-index-active;
+  }
+
+  a {
+    background: #fff;
+  }
+}
+
 .ListItem {
   border-top: 1px solid $light-gray;
   padding: 15px 0;

@@ -8,7 +8,7 @@ const data = {
         "text": "Soluția anterioara"
       }
     },
-    "financed_by_general_text": "Susținut de:"
+    "financed_by": "Susținut de:"
   },
   "back_to_map": {
     "text": "Înapoi la harta",
@@ -549,6 +549,10 @@ const data = {
       "slug": "health4ro",
       "title": "Health for Romania",
       "description": "În ultimii ani, a devenit tot mai evidentă nevoia unui sistem de sănătate performant, bine organizat, care să fie la dispoziția tuturor cetățenilor. Dreptul la sănătate, educația pentru sănătate, accesul la servicii medicale sunt lucruri care, într-o societate normală, sunt de domeniul firescului. Credem că acolo unde problemele sunt urgente, tehnologia și inovația pot vindeca.",
+      "sponsor": {
+        "link": "https://www.fundatia-vodafone.ro/",
+        "logo": "https://code4.ro/img/fundatia-vodafone.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=500%2C500%2C0%2C0"
+      },
       "btn": {
         "top": "17.26%",
         "left": "69.36%"
@@ -1604,6 +1608,10 @@ const data = {
       "slug": "education4ro",
       "title": "Education for Romania",
       "description": "Problemele educației nu sunt doar problemele celor care învață sau predau în școli și facultăți. Cu cât vedem educația ca pe o prioritate, cu atât înțelegem faptul că problemele societății românești au nevoie de soluții de durată, sustenabile, de schimbări fundamentale și îmbunătățiri consistente. În diferitele etape de formare ale individului, interacțiunile cu ceilalți sunt esențiale, dar tehnologia bine folosită poate reprezenta un instrument care să crească valoarea actului educațional.",
+      "sponsor": {
+        "link": "https://www.fundatia-vodafone.ro/",
+        "logo": "https://code4.ro/img/fundatia-vodafone.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=500%2C500%2C0%2C0"
+      },
       "btn": {
         "top": "54.61%",
         "left": "35.36%"
@@ -1879,6 +1887,10 @@ const data = {
       "slug": "environment4ro",
       "title": "Environment for Romania",
       "description": "Ca să putem trăi împreună în condiții bune, trebuie să gândim dincolo de noi înșine. Binele fiecăruia dintre noi nu poate fi separat de binele mediului în care trăim și în care planificăm viitorul nostru și al generațiilor de după noi. Pădurile, natura și spațiile verzi sunt primele lucruri la care gândul se duce atunci când vine vorba despre mediu. Dar tot aici vorbim și despre dezvoltarea urbană, infrastructură, zonele protejate, dezastrele naturale și strategii de protecție împotriva poluării de orice tip.În următorii cinci ani, ne uităm cu atenție în jur la problemele mediului și găsim cele mai bune soluții digitale prin care putem, protejând mediul înconjurător, să ne protejăm pe noi înșine.",
+      "sponsor": {
+        "link": "http://jysk.ro/",
+        "logo": "https://code4.ro/img/ebfcbce8-a473-4af3-b8cf-70da1f770e51/jysk.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=500%2C500%2C0%2C0"
+      },
       "btn": {
         "color": "green",
         "top": "42.91%",
