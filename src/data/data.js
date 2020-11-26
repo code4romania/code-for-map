@@ -186,9 +186,9 @@ const data = {
         {
           "id":1,
           "segmentSlug":"fara-violenta-acasa",
-          "segment_visual":"segment-care-07-fara-trafic-de-persoane",
+          "segment_visual":"segment-care-07-violenta-acasa",
           "title":"Fără violență acasă",
-          "description":"<p>România rămâne o sursă primară de victime ale traficului în scopuri sexuale și de muncă, aspect ce ne-a plasat pe locul I într-un clasament ce vizează țările din Europa.</p><p>În timp ce datoria de bază a oricărei comunități este să ofere și să apere siguranța membrilor ei în fața oricăror amenințări, victimele traficului de persoane nu sunt protejate, iar eforturile de combatere a acestui fenomen sunt prea puțin semnificative.</p><p>Urmărim indicatori de trafic de persoane în rândul comunităților vulnerabile și modalități prin care împreună, prin intermediul tehnologiei, putem stopa creșterea numărului de victime, dar și construi pârghii pentru ocrotirea acestora.</p>",
+          "description":"<p>Pentru prea multe familii, acasă nu mai reprezintă locul în care găsesc echilibrul necesar și un refugiu în fața grijilor, iar nesiguranța resimțită în propria casă este un sentiment pe care nimeni nu ar trebui să-l trăiască.</p><p>Violența domestică, fie că vizează relația de cuplu, copiii sau persoanele în vârstă, are un trecut bogat în România, iar urmele lăsate în viața victimelor sunt greu de remediat.</p><p>Indiferent că vorbim despre violență verbală, psihologică, fizică, sexuală sau economică, am ales să analizăm acest domeniu pentru a  ne concentra  atenția asupra unui fenomen vitregit de atenția care i se cuvine, într-o societate care continuă să îl normalizeze.</p>",
           "btn":{
             "top":"15%",
             "left":"46%"
@@ -214,12 +214,13 @@ const data = {
           "projects":[
             {
               "id":1,
-              "projectSlug":"project-slug",
-              "title":"proiect title",
-              "description":"description 3",
+              "projectSlug":"sunrise",
+              "title":"Sunrise - Software de management de caz pentru ONGuri",
+              "subtitle":"Date centralizate și sistem digital de referire a cazurilor de violență domestică",
+              "description":"Sistemul de management de caz permite ONG-urilor să administreze cazurile de violență domestică de care se ocupă și să își digitalizeze toate dosarele într-un singur spațiu securizat. În același timp, sistemul de management de caz, prin colectarea disponibilității ONG-urilor în ceea ce privește serviciile pe care le oferă, va permite crearea unei baze de date pe care fiecare organizație o poate accesa și redirecționa cazuri către alte asociații în funcție de nevoile din fiecare situație.",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":"icon-date-deschise",
+              "icon":require('../assets/images/projects/care4ro-sunrise-management-caz-vd.png'),
               "position":{
                 "top":"0",
                 "left":"0"
@@ -244,17 +245,18 @@ const data = {
             },
             {
               "id":2,
-              "projectSlug":"project-slug",
-              "title":"proiect title",
-              "description":"description 1",
+              "projectSlug":"sunshine",
+              "title":"Colectare eficientă de date, comunicare securizată între instituții și management digital de caz de violență domestică",
+              "subtitle":"Colectare eficientă de date, comunicare securizată între instituții și management digital de caz de violență domestică",
+              "description" : "Institutul Est European pentru Sănătatea Reproducerii, organizație acreditată în oferirea de servicii pentru victimele violenței domestice, a pilotat un sistem informatic cu participarea tuturor actorilor relevanți la nivelul județului Mureș. Acest sistem a permis unificarea documentelor asociate unui caz de violență domestică între instituții și ONG precum și standardizarea raportării. Programul s-a derulat cu succes pentru o perioadă lungă de timp, dar a fost întrerupt din motive de mentenanță tehnică. Reconstruirea acestui sistem software și implementarea sa la nivel de județ, vor putea servi drept model și caz de referință pentru implementarea sa la nivel național. Soluția este modulară, cu componente dedicate fiecărui actor potențial, ceea ce oferă o flexibilitate foarte mare la nivelul fiecărui județ de a utiliza modulele în funcție de disponibilitatea și capacitatea instituțiilor și a organizațiilor de a utiliza acest instrument digital pentru o mai bună acoperire a cazurilor.",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":"icon-date-deschise",
+              "icon":require('../assets/images/projects/care4ro-sunshine-management-caz-integrat.png'),
               "position":{
                 "top":"0",
                 "left":"0"
               },
-              "adopted":false,
+              "adopted":true,
               "adopted_by":[
                 {
                   "id":1,
@@ -271,7 +273,379 @@ const data = {
                   "logo":"icon-date-deschise"
                 }
               ]
-            }
+            },
+            {
+              "id":3,
+              "projectSlug":"Hub-Violenta-Domestică",
+              "title":"Hub Violență Domestică ",
+              "subtitle":"Platformă-ghid pentru orice persoană care are nevoie de servicii sau informații cu privire la cazuri de violență domestică",
+              "description":"VD Hub este o platformă cu rol de colectare și centralizare a tuturor resurselor pe care le au la dispoziție atât victimele, cât și cei care oferă servicii pentru acestea. Platforma este construită în jurul unui motor de căutare care să indexeze și să returneze cele mai bune informații pentru utilizatori. Aceasta ar lista resurse atât din punct de vedere al celor care oferă servicii, cât și informații de ordin legislativ, administrativ sau alte instrumente utile. Cu ajutorul unor ghiduri simple de căutare, orice utilizator este îndreptat cu ușurință către acele seturi de informații de care are nevoie în funcție de situația sa.",
+              "link":"",
+              "link_text":"Vezi soluția",
+              "icon":require('../assets/images/projects/care4ro-sunshine-management-caz-integrat.png'),
+              "position":{
+                "top":"0",
+                "left":"0"
+              },
+              "adopted":true,
+              "adopted_by":[
+                {
+                  "id":1,
+                  "title":"",
+                  "description":"",
+                  "link":"",
+                  "logo":"icon-date-deschise"
+                },
+                {
+                  "id":2,
+                  "title":"",
+                  "description":"",
+                  "link":"",
+                  "logo":"icon-date-deschise"
+                }
+              ]
+            },
+            {
+              "id":4,
+              "projectSlug":"Banca-de-resurse",
+              "title":"Banca de Resurse",
+              "subtitle":"Platformă de gestionare și alocare de resurse pentru victimele violenței domestice",
+              "description" : "VD Hub este o platformă cu rol de colectare și centralizare a tuturor resurselor pe care le au la dispoziție atât victimele, cât și cei care oferă servicii pentru acestea. Platforma este construită în jurul unui motor de căutare care să indexeze și să returneze cele mai bune informații pentru utilizatori. Aceasta ar lista resurse atât din punct de vedere al celor care oferă servicii, cât și informații de ordin legislativ, administrativ sau alte instrumente utile. Cu ajutorul unor ghiduri simple de căutare, orice utilizator este îndreptat cu ușurință către acele seturi de informații de care are nevoie în funcție de situația sa.",
+              "link":"",
+              "link_text":"Vezi soluția",
+              "icon":require('../assets/images/projects/care4ro-banca-de-resurse.png'),
+              "position":{
+                "top":"0",
+                "left":"0"
+              },
+              "adopted":true,
+              "adopted_by":[
+                {
+                  "id":1,
+                  "title":"",
+                  "description":"",
+                  "link":"",
+                  "logo":"icon-date-deschise"
+                },
+                {
+                  "id":2,
+                  "title":"",
+                  "description":"",
+                  "link":"",
+                  "logo":"icon-date-deschise"
+                }
+              ]
+            },
+            {
+              "id":5,
+              "projectSlug":"Incognito-Escape",
+              "title":"Incognito Escape",
+              "subtitle":"Canal digital securizat de raportare a cazurilor de violență domestică",
+              "description" : "În special în mediul urban, unde mecanismele de control ale agresorului sunt mult mai sofisticate (ex: urmărire a telefonului, control al calendarului victimei etc.) raportarea unui abuz este cu atât mai dificilă cu cât teama de a nu fi descoperită a victimei este mai mare. Soluția propusă este un sistem de comunicare securizat prin care victimele violenței domestice pot comunica ușor, fără a avea nevoie de cunoștințe avansate de tehnologie cu ONG-urile sau autoritățile care ar putea sa le ajute. Platforma web asistă victima pas cu pas prin procesul de transmitere securizată a informațiilor către ONG, ONG-ul primește o alertă atunci când are un mesaj de la o victimă și se autentifică într-un panou de administrare securizat în care poate vedea mesajul victimei și documentele pe care aceasta le-a transmis dacă este cazul. Toate documentele transmise (fotografii, acte etc.) sunt la rândul lor criptate, doar ONG-ul sau instituția fiind cei care dețin cheia de criptare a acestora.",
+              "link":"",
+              "link_text":"Vezi soluția",
+              "icon":require('../assets/images/projects/care4ro-incognito-escape.png'),
+              "position":{
+                "top":"0",
+                "left":"0"
+              },
+              "adopted":true,
+              "adopted_by":[
+                {
+                  "id":1,
+                  "title":"",
+                  "description":"",
+                  "link":"",
+                  "logo":"icon-date-deschise"
+                },
+                {
+                  "id":2,
+                  "title":"",
+                  "description":"",
+                  "link":"",
+                  "logo":"icon-date-deschise"
+                }
+              ]
+            },
+            {
+              "id":6,
+              "projectSlug":"Website-Chatbot",
+              "title":"Website Chatbot",
+              "subtitle":"Informație consolidată, accesibilă permanent pe canalele sociale",
+              "description" : "Lipsa metodelor diverse prin care victimele pot cere ajutor este o problemă pentru că nu toate victimele pot discuta telefonic cu o autoritate sau cu un ONG. De asemenea, comportamentele de comunicare ale publicului tânăr s-au schimbat, adesea aceștia preferând să discute în scris și căutându-și informația online, fără a dori un contact telefonic de la prima încercare de a raporta sau discuta despre o situație abuzivă. Un chatbot care poate fi conectat cu conturile sociale sau instalat pe website-urile organizațiilor poate să ajute victimele să comunice mai ușor și poate de multe ori să degreveze organizația de o serie de întrebări constante la care ei răspund mereu, individual fiecărei persoane care îi contactează. Uniformizarea informației va ajuta de asemenea pentru că așa ne asigurăm că, indiferent de organizația cu care discută victima, va primi aceleași sfaturi de bază, verificate și validate.",
+              "link":"",
+              "link_text":"Vezi soluția",
+              "icon":require('../assets/images/projects/care4ro-website-chatbot.png'),
+              "position":{
+                "top":"0",
+                "left":"0"
+              },
+              "adopted":true,
+              "adopted_by":[
+                {
+                  "id":1,
+                  "title":"",
+                  "description":"",
+                  "link":"",
+                  "logo":"icon-date-deschise"
+                },
+                {
+                  "id":2,
+                  "title":"",
+                  "description":"",
+                  "link":"",
+                  "logo":"icon-date-deschise"
+                }
+              ]
+            },
+            {
+              "id":7,
+              "projectSlug":"Vorbesc-helpline-psihologic-gratuit",
+              "title":"Vorbesc: helpline psihologic gratuit",
+              "subtitle":"Consiliere psihologică online gratuită pentru victime, martori sau agresori",
+              "description" : "Modurile prin care o victimă poate solicita ajutor sunt adesea prea complicate ca aceasta să poată să beneficieze de ele. De exemplu, pentru a primi consiliere psihologică gratuită, victimele trebuie să solicite acest serviciu de la un ONG sau un alt provider, să încheie un contract și abia apoi să intre într-un program dedicat. Ajutorul psihologic în general este disponibil, dar contra cost, preț pe care multe dintre persoane nu își permit să îl achite. Există de asemenea și persoane care locuiesc în orașe mici unde fie nu există organizații în domeniu sau sunt foarte puține cabinete de terapie. <em>Vorbesc</em> este o aplicație care permite unei victime, unui martor sau unui agresor să solicite terapie în mod gratuit și consiliere pentru a putea depăși o situație în care se află. Conversațiile sunt confidențiale, terapeuții fiind cei care decid ce caz doresc să preia în limita disponibilității și a specializării lor. Acest app are un rol esențial în special în etapa inițială în care fie victima nu este încă pregătită pentru a apela la serviciile unui ONG și are nevoie de sprijin, fie agresorul realizează că are nevoie de ajutor pentru a-și controla furia sau pornirile violente.",
+              "link":"",
+              "link_text":"Vezi soluția",
+              "icon":require('../assets/images/projects/care4ro-vorbesc.png'),
+              "position":{
+                "top":"0",
+                "left":"0"
+              },
+              "adopted":true,
+              "adopted_by":[
+                {
+                  "id":1,
+                  "title":"",
+                  "description":"",
+                  "link":"",
+                  "logo":"icon-date-deschise"
+                },
+                {
+                  "id":2,
+                  "title":"",
+                  "description":"",
+                  "link":"",
+                  "logo":"icon-date-deschise"
+                }
+              ]
+            },
+            {
+              "id":8,
+              "projectSlug":"Support-Community",
+              "title":"Support Community",
+              "subtitle":"Forum securizat și anonim pentru discuții pe subiectul violenței domestice",
+              "description" : "În această epocă digitală, spațiile sigure menite să faciliteze comunicarea între victime în mod anonim, unde să împărtășească povești de succes, sfaturi, recomandări sau alte informații utile lipsesc. Support Community va fi un spațiu virtual de tip forum care permite comunicarea pe niveluri multiple, anonim sau autentificat, cu moderatori dedicați pe fiecare categorie în parte, care permite postarea de mesaje, cu thread-uri de conversație publice și/sau private, pe subiecte inițiate de participanți sau de moderatorii platformei. Spațiile sigure de comunicare de acest tip se mulează pe tiparele de comunicare și obiceiurile digitale în special ale generației tinere care navighează cu ușurință pe internet și care preferă să discute în scris, protejați de anonimat. În același timp, pentru persoanele care au ieșit din situații abuzive, dar care nu sunt confortabile să discute public despre situația lor, dar își doresc să sprijine alte victime, astfel de conversații pot avea rol de facilitator.",
+              "link":"",
+              "link_text":"Vezi soluția",
+              "icon":require('../assets/images/projects/care4ro-support-community.png'),
+              "position":{
+                "top":"0",
+                "left":"0"
+              },
+              "adopted":true,
+              "adopted_by":[
+                {
+                  "id":1,
+                  "title":"",
+                  "description":"",
+                  "link":"",
+                  "logo":"icon-date-deschise"
+                },
+                {
+                  "id":2,
+                  "title":"",
+                  "description":"",
+                  "link":"",
+                  "logo":"icon-date-deschise"
+                }
+              ]
+            },
+            {
+              "id":9,
+              "projectSlug":"Widget-Hub-Violenta-Domestica",
+              "title":"Widget Hub Violență Domestică",
+              "subtitle":"Librărie de widget-uri pentru toate website-urile cu informații pentru victime",
+              "description" : "Campaniile de informare din jurul violenței domestice sunt extrem de utile, dar ele angrenează un număr limitat de actori și sunt reduse ca timp de desfășurare. În același timp, este nevoie de o informare uniformă a populației cu privire la serviciile pe care le au la dispoziție dacă se află într-o situație de abuz. Pentru a ajunge la cât mai mulți oameni este nevoie ca un număr critic de publicații și website-uri administrative să vorbească despre violența domestică în mod corect. Widget Hub este un website-librărie care conține o colecție de widget-uri construite special pentru publicul larg, cu scopul de a identifica dacă te afli într-o relație abuzivă, a vedea ce opțiuni ai la dispoziție, chestionare pentru victime, agresori, martori etc. Toate aceste info box-uri pot fi integrate foarte ușor în orice website din România, cum ar fi site-uri de primării, site-urile altor autorități, reviste online, bloguri și publicații de orice tip.",
+              "link":"",
+              "link_text":"Vezi soluția",
+              "icon":require('../assets/images/projects/care4ro-Widget-hub-violenta-domestica.png'),
+              "position":{
+                "top":"0",
+                "left":"0"
+              },
+              "adopted":true,
+              "adopted_by":[
+                {
+                  "id":1,
+                  "title":"",
+                  "description":"",
+                  "link":"",
+                  "logo":"icon-date-deschise"
+                },
+                {
+                  "id":2,
+                  "title":"",
+                  "description":"",
+                  "link":"",
+                  "logo":"icon-date-deschise"
+                }
+              ]
+            },
+            {
+              "id":10,
+              "projectSlug":"Daily-Assessment-Kit-scoli",
+              "title":"Daily Assessment Kit - școli",
+              "subtitle":"Instrument de evaluare și prevenție a potențialelor cazuri de violență domestică pentru școli",
+              "description" : "Identificarea cazurilor de violență domestică poate fi un proces dificil, mai ales dacă vorbim de forma de violență de tip social sau psihologică. Pentru potențialii martori semnele nu sunt evidente, iar aceștia nu au parte de nici un fel de instruire să recunoască semnele. Cel mai adesea, copiii sunt cei care sunt afectați de situațiile tensionate din casă și care, deși simt că ceva nu este în regulă, fie se tem, fie nu știu cum să vorbească despre asta. Daily Assessment Kit este un sistem care poate fi folosit de orice școală cu rol de early warning system. De exemplu, printr-o suită simplă de întrebări de tipul 'cum te simți astăzi' sau altele care au ca scop monitorizarea stării psihice a unui copil, se pot identifica acele pattern-uri care ar putea indica probleme în familie, tulburări emoționale și un consilier psihologic ar putea aborda elevul care dă semne că ar fi într-o situație dificilă pentru a-i putea oferi ajutor.",
+              "link":"",
+              "link_text":"Vezi soluția",
+              "icon":require('../assets/images/projects/care4ro-banca-de-resurse.png'),
+              "position":{
+                "top":"0",
+                "left":"0"
+              },
+              "adopted":true,
+              "adopted_by":[
+                {
+                  "id":1,
+                  "title":"",
+                  "description":"",
+                  "link":"",
+                  "logo":"icon-date-deschise"
+                },
+                {
+                  "id":2,
+                  "title":"",
+                  "description":"",
+                  "link":"",
+                  "logo":"icon-date-deschise"
+                }
+              ]
+            },
+            {
+              "id":11,
+              "projectSlug":"Daily-Assessment-Kit-angajatori",
+              "title":"Daily Assessment Kit - angajatori",
+              "subtitle":"Instrument de evaluare și prevenție a potențialelor cazuri de violență domestică pentru companii și organizații",
+              "description" : "Identificarea cazurilor de violență domestică poate fi un proces dificil, mai ales dacă vorbim de forma de violență de tip social sau psihologică. Pentru potențialii martori semnele nu sunt evidente, iar aceștia nu au parte de nici un fel de instruire să recunoască semnele. Daily Assessment Kit este un sistem care poate fi folosit de orice angajator cu rol de early warning system. De exemplu, printr-o suită simplă de întrebări de tipul 'cum te simți astăzi' sau altele care au ca scop monitorizarea stării psihice a angajaților, se pot identifica acele pattern-uri care ar putea indica probleme în familie, tulburări emoționale și un consilier de resurse umane ar putea aborda angajatul care dă semne că ar fi într-o situație dificilă pentru a-i putea oferi ajutor. ",
+              "link":"",
+              "link_text":"Vezi soluția",
+              "icon":require('../assets/images/projects/care4ro-banca-de-resurse.png'),
+              "position":{
+                "top":"0",
+                "left":"0"
+              },
+              "adopted":true,
+              "adopted_by":[
+                {
+                  "id":1,
+                  "title":"",
+                  "description":"",
+                  "link":"",
+                  "logo":"icon-date-deschise"
+                },
+                {
+                  "id":2,
+                  "title":"",
+                  "description":"",
+                  "link":"",
+                  "logo":"icon-date-deschise"
+                }
+              ]
+            },
+            {
+              "id":12,
+              "projectSlug":"Personal-Assessment-Kit-couples",
+              "title":"Personal-Assessment-Kit-couples",
+              "subtitle":"Instrument de evaluare și prevenție a potențialelor cazuri de violență domestică pentru cupluri",
+              "description" : "Identificarea cazurilor de violență domestică poate fi un proces dificil, mai ales dacă vorbim de forma de violență de tip social sau psihologică. Pentru potențialii martori semnele nu sunt evidente, iar aceștia nu au parte de nici un fel de instruire să recunoască semnele. Daily Assessment Kit este un sistem care poate fi folosit de orice angajator cu rol de early warning system. De exemplu, printr-o suită simplă de întrebări de tipul 'cum te simți astăzi' sau altele care au ca scop monitorizarea stării psihice a angajaților, se pot identifica acele pattern-uri care ar putea indica probleme în familie, tulburări emoționale și un consilier de resurse umane ar putea aborda angajatul care dă semne că ar fi într-o situație dificilă pentru a-i putea oferi ajutor. ",
+              "link":"",
+              "link_text":"Vezi soluția",
+             "icon":require('../assets/images/projects/care4ro-personal-assessment-kit.png'),
+              "position":{
+                "top":"0",
+                "left":"0"
+              },
+              "adopted":true,
+              "adopted_by":[
+                {
+                  "id":1,
+                  "title":"",
+                  "description":"",
+                  "link":"",
+                  "logo":"icon-date-deschise"
+                },
+                {
+                  "id":2,
+                  "title":"",
+                  "description":"",
+                  "link":"",
+                  "logo":"icon-date-deschise"
+                }
+              ]
+            },
+            {
+              "id":13,
+              "projectSlug":"Anger_Management",
+              "title":"Anger Management",
+              "subtitle":"Aplicație de management a furiei pentru agresori",
+              "description" : "Având în vedere lipsa adăposturilor dedicate agresorilor și a serviciilor complete dedicate acestora, propunem crearea unor instrumente minime care să vină în sprijinul reabilitării acestora acolo unde ei conștientizează gravitatea faptelor lor și caută ajutor. Anger Management este un instrument digital care ajută persoanele cu probleme în controlul furiei să își recâștige calmul în situații tensionate. Cu o suită de notificări frecvente care îi cer agresorului să își conștientizeze starea și să evalueze care sunt factorii declanșatori ai unor sentimente de furie, acesta poate deveni mult mai rapid conștient de ce anume îl face agresiv și cum poate recâștiga controlul în situații de acest tip.",
+              "link":"",
+              "link_text":"Vezi soluția",
+              "icon":require('../assets/images/projects/care4ro-anger-management.png'),
+              "position":{
+                "top":"0",
+                "left":"0"
+              },
+              "adopted":true,
+              "adopted_by":[
+                {
+                  "id":1,
+                  "title":"",
+                  "description":"",
+                  "link":"",
+                  "logo":"icon-date-deschise"
+                },
+                {
+                  "id":2,
+                  "title":"",
+                  "description":"",
+                  "link":"",
+                  "logo":"icon-date-deschise"
+                }
+              ]
+            },
+            {
+              "id":13,
+              "projectSlug":"Violenta-Domestică-Media-Kit",
+              "title":"Violența Domestică Media Kit",
+              "subtitle":"Ghid interactiv dedicat jurnaliștilor pentru o raportare corectă despre cazurile de violență domestică",
+              "description" : "Chiar dacă în facultățile de jurnalism normele și regulile de scriitură sunt predate de către profesori, nu exista un ghid detaliat, actualizat, disponibil online pentru cum se poate realiza raportarea jurnalistică despre violența domestică în mass-media în mod corect. Media Kit este un ghid interactiv pentru jurnaliști prin care aceștia pot să își  analizeze textele înainte de publicare și pot învăța cele mai bune practici atunci când scriu despre acest subiect. Platforma prezintă, pe lângă lecții de referire corectă a cazurilor de violență domestică și alte informații utile cu privire la fenomen, și o componentă interactivă în care jurnalistul poate să supună un material spre review către un specialist care poate să corecteze acolo unde formulările pot naște impresii greșite, pot perpetua un stereotip etc.",
+              "link":"",
+              "link_text":"Vezi soluția",
+              "icon":require('../assets/images/projects/care4ro-violenta-domestica-media-kit.png'),
+              "position":{
+                "top":"0",
+                "left":"0"
+              },
+              "adopted":true,
+              "adopted_by":[
+                {
+                  "id":1,
+                  "title":"",
+                  "description":"",
+                  "link":"",
+                  "logo":"icon-date-deschise"
+                },
+                {
+                  "id":2,
+                  "title":"",
+                  "description":"",
+                  "link":"",
+                  "logo":"icon-date-deschise"
+                }
+              ]
+            
           ]
         },
         {
@@ -551,6 +925,7 @@ const data = {
               "id":1,
               "projectSlug":"Diaspora-hub",
               "title":"Diaspora Hub",
+              "subtitle":"Un singur loc pentru toate informațiile necesare pentru românii din diaspora",
               "description":"Una dintre problemele reale din societatea română contemporană este dezechilibrul informațional cauzat de accesul facil la surse de informare atractive de calitate îndoielnică și accesul greu la surse de informare de calitate. Diaspora Hub își propune să fie portalul prin care cetățenii români care trăiesc în afara granițelor țării să aibă acces într-un singur loc la toate informațiile de care au nevoie pentru a putea menține contactul cu instituțiile statului român și a beneficia de drepturile lor cetățenești.",
               "link":"",
               "link_text":"Vezi soluția",
@@ -581,6 +956,7 @@ const data = {
               "id":2,
               "projectSlug":"info-diaspora",
               "title":"Info Diaspora",
+              "subtitle":"Acces la serviciile oferite de instituțiile statului român pentru cei din diaspora",
               "description":"O problemă recurentă a românilor din diaspora este lipsa accesului facil la diverse servicii oferite de instituțiile statului român. O suită de servicii administrative, de la emiterea actelor de identitate și călătorie până la autentificarea înscrisurilor și alte servicii de notariat sunt oferite exclusiv prin ambasadele și consulatele statului român. Info Diaspora simplifică interacțiunile cu statul român și oferă informații pentru situațiile în care cetățenii care nu mai locuiesc în România au nevoie de asistența instituțiilor românești.",
               "link":"",
               "link_text":"Vezi soluția",
@@ -611,6 +987,7 @@ const data = {
               "id":3,
               "projectSlug":"inapoi-acasă",
               "title":"Înapoi acasă",
+              "subtitle":"Informații și resurse pentru cei care vor să revină în România",
               "description":"Pentru mulți dintre românii plecați din țară decizia relocării a fost una necesară și clar motivată, în ciuda confruntării cu necunoscutul. Întoarcerea acasă poate fi o perspectivă la fel de marcată de incertitudine, mulți dintre cei din diaspora neștiind dacă odată întorși își vor putea asigura aici un nivel mulțumitor al calității vieții. Portalul Înapoi Acasă le oferă informații și resurse care le sunt necesare celor care intenționează să se întoarcă - locuri de muncă, oportunități de carieră, informații practice privind costul vieții, documente etc.",
               "link":"",
               "link_text":"Vezi soluția",
@@ -641,6 +1018,7 @@ const data = {
               "id":4,
               "projectSlug":"brain-gain",
               "title":"Brain Gain",
+              "subtitle":"Resursele de inteligență și competență ale românilor din diaspora, pentru România",
               "description":"Pentru mulți dintre românii plecați din țară decizia relocării a fost una necesară și clar motivată, în ciuda confruntării cu necunoscutul. Întoarcerea acasă poate fi o perspectivă la fel de marcată de incertitudine, mulți dintre cei din diaspora neștiind dacă odată întorși își vor putea asigura aici un nivel mulțumitor al calității vieții. Portalul Înapoi Acasă le oferă informații și resurse care le sunt necesare celor care intenționează să se întoarcă - locuri de muncă, oportunități de carieră, informații practice privind costul vieții, documente etc.",
               "link":"",
               "link_text":"Vezi soluția",
@@ -673,10 +1051,10 @@ const data = {
         },
         {
           "id":7,
-          "segmentSlug":"fara-violenta-acasa",
-          "segment_visual":"segment-care-03-incluziune-pentru-persoanele-lgbtq",
-          "title":"Incluziune pentru persoanele LGBTQ+",
-          "description":"<p>Au trecut doar 20 de ani de când statul român pedepsea cu închisoarea relațiile de dragoste dintre persoanele de același sex. De atunci și până acum, societatea civilă luptă continuu pentru drepturilor și libertăților persoanelor LGBTQ+.</p><p>Deși lucrurile se îmbunătățesc într-un ritm lent, acceptarea și integrarea lor încă reprezintă o problemă în spațiul public, iar consecințele au un impact sever pentru membrii comunității, dar și pentru întreaga societate.</p><p>Ne uităm atent la fenomenul discriminării pe criterii de orientare sexuală și identitate de gen în vederea dezvoltării unor soluții de tehnologie civică menite să sprijine aceste comunități.</p>",
+          "segmentSlug":"Fara-trafic-de-persoane",
+          "segment_visual":"Fara-trafic-de-persoane",
+          "title":"Fără trafic de persoane",
+          "description":"<p>România rămâne o sursă primară de victime ale traficului în scopuri sexuale și de muncă, aspect ce ne-a plasat pe locul I într-un clasament ce vizează țările din Europa.</p><p>În timp ce datoria de bază a oricărei comunități este să ofere și să apere siguranța membrilor ei în fața oricăror amenințări, victimele traficului de persoane nu sunt protejate, iar eforturile de combatere a acestui fenomen sunt prea puțin semnificative.</p><p>Urmărim indicatori de trafic de persoane în rândul comunităților vulnerabile și modalități prin care împreună, prin intermediul tehnologiei, putem stopa creșterea numărului de victime, dar și construi pârghii pentru ocrotirea acestora.</p>",
           "btn":{
             "top":"23%",
             "left":"10%"
@@ -699,428 +1077,7 @@ const data = {
               "logo":"icon-date-deschise"
             }
           ],
-          "projects":[
-            {
-              "id":1,
-              "projectSlug":"sunrise",
-              "title":"Sunrise - Software de management de caz pentru ONGuri",
-              "description":"Sistemul de management de caz permite ONG-urilor să administreze cazurile de violență domestică de care se ocupă și să își digitalizeze toate dosarele într-un singur spațiu securizat. În același timp, sistemul de management de caz, prin colectarea disponibilității ONG-urilor în ceea ce privește serviciile pe care le oferă, va permite crearea unei baze de date pe care fiecare organizație o poate accesa și redirecționa cazuri către alte asociații în funcție de nevoile din fiecare situație.",
-              "link":"",
-              "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/care4ro-sunrise-management-caz-vd.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
-              "adopted":true,
-              "adopted_by":[
-                {
-                  "id":1,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                },
-                {
-                  "id":2,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                }
-              ]
-            },
-            {
-              "id":2,
-              "projectSlug":"sunshine",
-              "title":"Sunshine",
-              "description" : "Institutul Est European pentru Sănătatea Reproducerii, organizație acreditată în oferirea de servicii pentru victimele violenței domestice, a pilotat un sistem informatic cu participarea tuturor actorilor relevanți la nivelul județului Mureș. Acest sistem a permis unificarea documentelor asociate unui caz de violență domestică între instituții și ONG precum și standardizarea raportării. Programul s-a derulat cu succes pentru o perioadă lungă de timp, dar a fost întrerupt din motive de mentenanță tehnică. Reconstruirea acestui sistem software și implementarea sa la nivel de județ, vor putea servi drept model și caz de referință pentru implementarea sa la nivel național. Soluția este modulară, cu componente dedicate fiecărui actor potențial, ceea ce oferă o flexibilitate foarte mare la nivelul fiecărui județ de a utiliza modulele în funcție de disponibilitatea și capacitatea instituțiilor și a organizațiilor de a utiliza acest instrument digital pentru o mai bună acoperire a cazurilor.",
-              "link":"",
-              "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/care4ro-sunshine-management-caz-integrat.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
-              "adopted":true,
-              "adopted_by":[
-                {
-                  "id":1,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                },
-                {
-                  "id":2,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                }
-              ]
-            },
-            {
-              "id":3,
-              "projectSlug":"Hub-Violenta-Domestică",
-              "title":"Violență domestică Hub",
-              "description":"VD Hub este o platformă cu rol de colectare și centralizare a tuturor resurselor pe care le au la dispoziție atât victimele, cât și cei care oferă servicii pentru acestea. Platforma este construită în jurul unui motor de căutare care să indexeze și să returneze cele mai bune informații pentru utilizatori. Aceasta ar lista resurse atât din punct de vedere al celor care oferă servicii, cât și informații de ordin legislativ, administrativ sau alte instrumente utile. Cu ajutorul unor ghiduri simple de căutare, orice utilizator este îndreptat cu ușurință către acele seturi de informații de care are nevoie în funcție de situația sa.",
-              "link":"",
-              "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/care4ro-sunshine-management-caz-integrat.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
-              "adopted":true,
-              "adopted_by":[
-                {
-                  "id":1,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                },
-                {
-                  "id":2,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                }
-              ]
-            },
-            {
-              "id":4,
-              "projectSlug":"Banca de resurse",
-              "title":"Banca de Resurse",
-              "description" : "VD Hub este o platformă cu rol de colectare și centralizare a tuturor resurselor pe care le au la dispoziție atât victimele, cât și cei care oferă servicii pentru acestea. Platforma este construită în jurul unui motor de căutare care să indexeze și să returneze cele mai bune informații pentru utilizatori. Aceasta ar lista resurse atât din punct de vedere al celor care oferă servicii, cât și informații de ordin legislativ, administrativ sau alte instrumente utile. Cu ajutorul unor ghiduri simple de căutare, orice utilizator este îndreptat cu ușurință către acele seturi de informații de care are nevoie în funcție de situația sa.",
-              "link":"",
-              "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/care4ro-banca-de-resurse.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
-              "adopted":true,
-              "adopted_by":[
-                {
-                  "id":1,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                },
-                {
-                  "id":2,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                }
-              ]
-            },
-            {
-              "id":5,
-              "projectSlug":"Incognito-Escape",
-              "title":"Incognito Escape",
-              "description" : "În special în mediul urban, unde mecanismele de control ale agresorului sunt mult mai sofisticate (ex: urmărire a telefonului, control al calendarului victimei etc.) raportarea unui abuz este cu atât mai dificilă cu cât teama de a nu fi descoperită a victimei este mai mare. Soluția propusă este un sistem de comunicare securizat prin care victimele violenței domestice pot comunica ușor, fără a avea nevoie de cunoștințe avansate de tehnologie cu ONG-urile sau autoritățile care ar putea sa le ajute. Platforma web asistă victima pas cu pas prin procesul de transmitere securizată a informațiilor către ONG, ONG-ul primește o alertă atunci când are un mesaj de la o victimă și se autentifică într-un panou de administrare securizat în care poate vedea mesajul victimei și documentele pe care aceasta le-a transmis dacă este cazul. Toate documentele transmise (fotografii, acte etc.) sunt la rândul lor criptate, doar ONG-ul sau instituția fiind cei care dețin cheia de criptare a acestora.",
-              "link":"",
-              "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/care4ro-incognito-escape.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
-              "adopted":true,
-              "adopted_by":[
-                {
-                  "id":1,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                },
-                {
-                  "id":2,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                }
-              ]
-            },
-            {
-              "id":6,
-              "projectSlug":"Website-Chatbot",
-              "title":"Website Chatbot",
-              "description" : "Lipsa metodelor diverse prin care victimele pot cere ajutor este o problemă pentru că nu toate victimele pot discuta telefonic cu o autoritate sau cu un ONG. De asemenea, comportamentele de comunicare ale publicului tânăr s-au schimbat, adesea aceștia preferând să discute în scris și căutându-și informația online, fără a dori un contact telefonic de la prima încercare de a raporta sau discuta despre o situație abuzivă. Un chatbot care poate fi conectat cu conturile sociale sau instalat pe website-urile organizațiilor poate să ajute victimele să comunice mai ușor și poate de multe ori să degreveze organizația de o serie de întrebări constante la care ei răspund mereu, individual fiecărei persoane care îi contactează. Uniformizarea informației va ajuta de asemenea pentru că așa ne asigurăm că, indiferent de organizația cu care discută victima, va primi aceleași sfaturi de bază, verificate și validate.",
-              "link":"",
-              "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/care4ro-website-chatbot.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
-              "adopted":true,
-              "adopted_by":[
-                {
-                  "id":1,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                },
-                {
-                  "id":2,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                }
-              ]
-            },
-            {
-              "id":7,
-              "projectSlug":"Vorbesc-helpline-psihologic-gratuit",
-              "title":"Vorbesc: helpline psihologic gratuit",
-              "description" : "Modurile prin care o victimă poate solicita ajutor sunt adesea prea complicate ca aceasta să poată să beneficieze de ele. De exemplu, pentru a primi consiliere psihologică gratuită, victimele trebuie să solicite acest serviciu de la un ONG sau un alt provider, să încheie un contract și abia apoi să intre într-un program dedicat. Ajutorul psihologic în general este disponibil, dar contra cost, preț pe care multe dintre persoane nu își permit să îl achite. Există de asemenea și persoane care locuiesc în orașe mici unde fie nu există organizații în domeniu sau sunt foarte puține cabinete de terapie. <em>Vorbesc</em> este o aplicație care permite unei victime, unui martor sau unui agresor să solicite terapie în mod gratuit și consiliere pentru a putea depăși o situație în care se află. Conversațiile sunt confidențiale, terapeuții fiind cei care decid ce caz doresc să preia în limita disponibilității și a specializării lor. Acest app are un rol esențial în special în etapa inițială în care fie victima nu este încă pregătită pentru a apela la serviciile unui ONG și are nevoie de sprijin, fie agresorul realizează că are nevoie de ajutor pentru a-și controla furia sau pornirile violente.",
-              "link":"",
-              "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/care4ro-vorbesc.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
-              "adopted":true,
-              "adopted_by":[
-                {
-                  "id":1,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                },
-                {
-                  "id":2,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                }
-              ]
-            },
-            {
-              "id":8,
-              "projectSlug":"Support-Community",
-              "title":"Support Community",
-              "description" : "În această epocă digitală, spațiile sigure menite să faciliteze comunicarea între victime în mod anonim, unde să împărtășească povești de succes, sfaturi, recomandări sau alte informații utile lipsesc. Support Community va fi un spațiu virtual de tip forum care permite comunicarea pe niveluri multiple, anonim sau autentificat, cu moderatori dedicați pe fiecare categorie în parte, care permite postarea de mesaje, cu thread-uri de conversație publice și/sau private, pe subiecte inițiate de participanți sau de moderatorii platformei. Spațiile sigure de comunicare de acest tip se mulează pe tiparele de comunicare și obiceiurile digitale în special ale generației tinere care navighează cu ușurință pe internet și care preferă să discute în scris, protejați de anonimat. În același timp, pentru persoanele care au ieșit din situații abuzive, dar care nu sunt confortabile să discute public despre situația lor, dar își doresc să sprijine alte victime, astfel de conversații pot avea rol de facilitator.",
-              "link":"",
-              "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/care4ro-support-community.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
-              "adopted":true,
-              "adopted_by":[
-                {
-                  "id":1,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                },
-                {
-                  "id":2,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                }
-              ]
-            },
-            {
-              "id":9,
-              "projectSlug":"Widget-Hub-Violenta-Domestica",
-              "title":"Widget Hub Violență Domestică",
-              "description" : "Campaniile de informare din jurul violenței domestice sunt extrem de utile, dar ele angrenează un număr limitat de actori și sunt reduse ca timp de desfășurare. În același timp, este nevoie de o informare uniformă a populației cu privire la serviciile pe care le au la dispoziție dacă se află într-o situație de abuz. Pentru a ajunge la cât mai mulți oameni este nevoie ca un număr critic de publicații și website-uri administrative să vorbească despre violența domestică în mod corect. Widget Hub este un website-librărie care conține o colecție de widget-uri construite special pentru publicul larg, cu scopul de a identifica dacă te afli într-o relație abuzivă, a vedea ce opțiuni ai la dispoziție, chestionare pentru victime, agresori, martori etc. Toate aceste info box-uri pot fi integrate foarte ușor în orice website din România, cum ar fi site-uri de primării, site-urile altor autorități, reviste online, bloguri și publicații de orice tip.",
-              "link":"",
-              "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/care4ro-Widget-hub-violenta-domestica.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
-              "adopted":true,
-              "adopted_by":[
-                {
-                  "id":1,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                },
-                {
-                  "id":2,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                }
-              ]
-            },
-            {
-              "id":10,
-              "projectSlug":"Daily-Assessment-Kit-scoli",
-              "title":"Daily Assessment Kit - școli",
-              "description" : "Identificarea cazurilor de violență domestică poate fi un proces dificil, mai ales dacă vorbim de forma de violență de tip social sau psihologică. Pentru potențialii martori semnele nu sunt evidente, iar aceștia nu au parte de nici un fel de instruire să recunoască semnele. Cel mai adesea, copiii sunt cei care sunt afectați de situațiile tensionate din casă și care, deși simt că ceva nu este în regulă, fie se tem, fie nu știu cum să vorbească despre asta. Daily Assessment Kit este un sistem care poate fi folosit de orice școală cu rol de early warning system. De exemplu, printr-o suită simplă de întrebări de tipul 'cum te simți astăzi' sau altele care au ca scop monitorizarea stării psihice a unui copil, se pot identifica acele pattern-uri care ar putea indica probleme în familie, tulburări emoționale și un consilier psihologic ar putea aborda elevul care dă semne că ar fi într-o situație dificilă pentru a-i putea oferi ajutor.",
-              "link":"",
-              "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/care4ro-banca-de-resurse.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
-              "adopted":true,
-              "adopted_by":[
-                {
-                  "id":1,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                },
-                {
-                  "id":2,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                }
-              ]
-            },
-            {
-              "id":11,
-              "projectSlug":"Daily-Assessment-Kit-angajatori",
-              "title":"Daily Assessment Kit - angajatori",
-              "description" : "Identificarea cazurilor de violență domestică poate fi un proces dificil, mai ales dacă vorbim de forma de violență de tip social sau psihologică. Pentru potențialii martori semnele nu sunt evidente, iar aceștia nu au parte de nici un fel de instruire să recunoască semnele. Daily Assessment Kit este un sistem care poate fi folosit de orice angajator cu rol de early warning system. De exemplu, printr-o suită simplă de întrebări de tipul 'cum te simți astăzi' sau altele care au ca scop monitorizarea stării psihice a angajaților, se pot identifica acele pattern-uri care ar putea indica probleme în familie, tulburări emoționale și un consilier de resurse umane ar putea aborda angajatul care dă semne că ar fi într-o situație dificilă pentru a-i putea oferi ajutor. ",
-              "link":"",
-              "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/care4ro-banca-de-resurse.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
-              "adopted":true,
-              "adopted_by":[
-                {
-                  "id":1,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                },
-                {
-                  "id":2,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                }
-              ]
-            },
-            {
-              "id":12,
-              "projectSlug":"Personal-Assessment-Kit-couples",
-              "title":"Personal-Assessment-Kit-couples",
-              "description" : "Identificarea cazurilor de violență domestică poate fi un proces dificil, mai ales dacă vorbim de forma de violență de tip social sau psihologică. Pentru potențialii martori semnele nu sunt evidente, iar aceștia nu au parte de nici un fel de instruire să recunoască semnele. Daily Assessment Kit este un sistem care poate fi folosit de orice angajator cu rol de early warning system. De exemplu, printr-o suită simplă de întrebări de tipul 'cum te simți astăzi' sau altele care au ca scop monitorizarea stării psihice a angajaților, se pot identifica acele pattern-uri care ar putea indica probleme în familie, tulburări emoționale și un consilier de resurse umane ar putea aborda angajatul care dă semne că ar fi într-o situație dificilă pentru a-i putea oferi ajutor. ",
-              "link":"",
-              "link_text":"Vezi soluția",
-             "icon":require('../assets/images/projects/care4ro-personal-assessment-kit.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
-              "adopted":true,
-              "adopted_by":[
-                {
-                  "id":1,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                },
-                {
-                  "id":2,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                }
-              ]
-            },
-            {
-              "id":13,
-              "projectSlug":"Anger_Management",
-              "title":"Anger Management",
-              "description" : "Având în vedere lipsa adăposturilor dedicate agresorilor și a serviciilor complete dedicate acestora, propunem crearea unor instrumente minime care să vină în sprijinul reabilitării acestora acolo unde ei conștientizează gravitatea faptelor lor și caută ajutor. Anger Management este un instrument digital care ajută persoanele cu probleme în controlul furiei să își recâștige calmul în situații tensionate. Cu o suită de notificări frecvente care îi cer agresorului să își conștientizeze starea și să evalueze care sunt factorii declanșatori ai unor sentimente de furie, acesta poate deveni mult mai rapid conștient de ce anume îl face agresiv și cum poate recâștiga controlul în situații de acest tip.",
-              "link":"",
-              "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/care4ro-anger-management.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
-              "adopted":true,
-              "adopted_by":[
-                {
-                  "id":1,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                },
-                {
-                  "id":2,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                }
-              ]
-            },
-            {
-              "id":13,
-              "projectSlug":"Violenta-Domestică-Media-Kit",
-              "title":"Violența Domestică Media Kit",
-              "description" : "Chiar dacă în facultățile de jurnalism normele și regulile de scriitură sunt predate de către profesori, nu exista un ghid detaliat, actualizat, disponibil online pentru cum se poate realiza raportarea jurnalistică despre violența domestică în mass-media în mod corect. Media Kit este un ghid interactiv pentru jurnaliști prin care aceștia pot să își  analizeze textele înainte de publicare și pot învăța cele mai bune practici atunci când scriu despre acest subiect. Platforma prezintă, pe lângă lecții de referire corectă a cazurilor de violență domestică și alte informații utile cu privire la fenomen, și o componentă interactivă în care jurnalistul poate să supună un material spre review către un specialist care poate să corecteze acolo unde formulările pot naște impresii greșite, pot perpetua un stereotip etc.",
-              "link":"",
-              "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/care4ro-violenta-domestica-media-kit.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
-              "adopted":true,
-              "adopted_by":[
-                {
-                  "id":1,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                },
-                {
-                  "id":2,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                }
-              ]
-            }
-          ]
+          "projects":[  ],
         }
       ]
     },
