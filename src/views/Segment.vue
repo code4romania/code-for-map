@@ -95,7 +95,7 @@ export default {
   components: {
     HighwayHeader,
     SegmentHeader,
-    SegmentLegend
+    SegmentLegend,
   },
   data() {
     return {
@@ -116,11 +116,27 @@ export default {
     );
 
     this.data.back_to_map.visible = true;
+
+    const segmentProjects = document.getElementsByClassName("btn-project");
+    segmentProjects.forEach((segmentProject) => {
+      segmentProject.addEventListener("click", () => {
+        const projectId = segmentProject.getAttribute("projectid");
+        const project = this.segmentObject.projects.find(
+          (segmentProject) => segmentProject.id == projectId
+        );
+        this.$router.push({
+          name: "ProjectModal",
+          params: {
+            solution: project.projectSlug,
+          },
+        });
+      });
+    });
   },
   watch: {
     $route: {
       immediate: true,
-      handler: function (to) {
+      handler: function(to) {
         this.showModal = to.meta && to.meta.showModal;
       },
     },
@@ -128,25 +144,26 @@ export default {
   mounted() {
     postMessage({ height: document.body.scrollHeight });
 
-    const projects = document.getElementsByClassName('btn-project');
+    const projects = document.getElementsByClassName("btn-project");
 
-    projects.forEach(project => {
-      project.addEventListener('click', () => {
-        this.projectClicked(parseInt(project.getAttribute('projectid'), 10))
-      })
-    })
+    projects.forEach((project) => {
+      project.addEventListener("click", () => {
+        this.projectClicked(parseInt(project.getAttribute("projectid"), 10));
+      });
+    });
   },
   methods: {
-  projectClicked(index) {
-    this.$router.push({
-      name: 'ProjectModal',
-      params: {
-      slug: this.slug,
-      segment: this.segmentSlug,
-      solution: this.segmentObject.projects[index - 1].projectSlug
-    }});
-  }
-  }
+    projectClicked(index) {
+      this.$router.push({
+        name: "ProjectModal",
+        params: {
+          slug: this.slug,
+          segment: this.segmentSlug,
+          solution: this.segmentObject.projects[index - 1].projectSlug,
+        },
+      });
+    },
+  },
 };
 </script>
 
