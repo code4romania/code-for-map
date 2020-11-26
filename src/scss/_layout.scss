@@ -1,3 +1,7 @@
+body {
+  background: url(../assets/images/bg.png) top center no-repeat;
+}
+
 #app {
   position: relative;
 }
@@ -10,6 +14,10 @@
   @include respond-above(lg) {
     max-height: 700px;
   }
+}
+
+.Header-wrap {
+  margin-bottom: 80px;
 }
 
 p {

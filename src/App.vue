@@ -2,9 +2,9 @@
   <div id="app">
     <b-container fluid>
 
-      <b-row class="mb-5" no-gutters>
+      <b-row class="Header-wrap" no-gutters>
         <b-col xs="12" lg="3">
-          <div class="Info d-flex flex-column h-100">
+          <div class="Info">
             <div class="Header">
               <h1 class="text-strong-blue mb-3" v-html="data.header.title" />
               <p v-html="data.header.description" />
@@ -18,20 +18,11 @@
         </b-col>
       </b-row>
 
-      <b-row class="mb-5">
-        <b-col>
-          <div v-html="data.more_info.description" class="mb-4 lead" />
-          <a class="btn btn-strong-blue btn-lg mb-5 px-5" :href="data.more_info.download_pdf_link" target="_blank">{{data.more_info.download_pdf_cta}}</a>
-        </b-col>
-        <div class="w-100 d-md-none"></div>
-        <b-col>
-          <!-- TODO: open youtube video in place  -->
-          <!-- data.more_info.youtube -->
-          <img class="img-fluid" :src="data.more_info.thumbnail" />
-        </b-col>
-      </b-row>
+      <div class="embed-responsive embed-responsive-16by9 my-5 mx-auto w-75">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/XHVvEhmrlkA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
 
-      <h1 class="text-strong-blue mb-5">{{data.more_info.work.title}}</h1>
+      <h1 class="text-strong-blue text-center mb-5">{{data.more_info.work.title}}</h1>
 
       <b-row class="mb-5">
         <b-col
@@ -44,9 +35,12 @@
           </div>
           <p>{{step.content}}</p>
         </b-col>
+        <b-col cols="12" class="text-center my-5">
+          <a class="btn btn-strong-blue btn-lg px-5" :href="data.more_info.download_pdf_link" target="_blank">{{data.more_info.download_pdf_cta}}</a>
+        </b-col>
       </b-row>
 
-      <h1 class="text-strong-blue mb-5">{{data.more_info.how.title}}</h1>
+      <h1 class="text-strong-blue text-center mb-5">{{data.more_info.how.title}}</h1>
 
       <b-row class="mb-5">
         <b-col xs="12" md="6" xl="3" class="mb-4">
