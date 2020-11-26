@@ -75,13 +75,13 @@ const data = {
         "id":1,
         "name":"Romanian-American Foundation",
         "link":"https://www.rafonline.org/",
-        "logo": "https://code4.ro/img/80ca17d3-88ed-40a1-bad8-4b579e48c72e/logo-raf.jpg?q=60&fit=crop&dpr=1&w=80&h=80&crop=1309%2C1000%2C0%2C0"
+        "logo": "https://code4.ro/img/80ca17d3-88ed-40a1-bad8-4b579e48c72e/logo-raf.jpg?q=80&fit=crop&dpr=1&w=200&h=80&crop=1309%2C1000%2C0%2C0"
       },
       {
         "id":2,
         "name":"ING",
         "link":"https://ing.ro/persoane-fizice",
-        "logo": "https://code4.ro/img/9dc5ce5d-08b5-4b33-a065-aec64cda7b42/ing-primary-logo-rgb.png?q=60&fit=crop&dpr=1&w=80&h=80&crop=1621%2C662%2C0%2C0"
+        "logo": "https://code4.ro/img/9dc5ce5d-08b5-4b33-a065-aec64cda7b42/ing-primary-logo-rgb.png?q=80&fit=crop&dpr=1&w=200&h=80&crop=1621%2C662%2C0%2C0"
       },
       {
         "id":3,
@@ -101,7 +101,7 @@ const data = {
         "id":2,
         "name":"Jysk",
         "link":"http://jysk.ro/",
-        "logo": "https://code4.ro/img/2b09c533-e66b-484f-bc5c-b8c9816813a6/vodafone-logo.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=312%2C312%2C0%2C0"
+        "logo": "https://code4.ro/img/ebfcbce8-a473-4af3-b8cf-70da1f770e51/jysk.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=500%2C500%2C0%2C0"
       },
       {
         "id":3,
@@ -111,66 +111,69 @@ const data = {
       },
       {
         "id":4,
-        "name":"test",
-        "logo": ""
+        "name":"3Pillar Global",
+        "link":"https://www.3pillarglobal.com/",
+        "logo": "https://code4.ro/img/3pillar.png?q=80&fit=crop&dpr=1&w=200&h=80&crop=500%2C500%2C0%2C0"
       },
       {
         "id":5,
-        "name":"test",
-        "link":"",
-        "logo": ""
+        "name":"Sustainalytics",
+        "link":"https://www.sustainalytics.com/about-us/",
+        "logo": "https://code4.ro/img/sustainalytics.png?q=80&fit=crop&dpr=1&w=200&h=80&crop=500%2C500%2C0%2C0"
       },
       {
         "id":6,
-        "name":"test",
-        "link":"",
-        "logo": ""
+        "name":"Cegeka",
+        "link":"https://www.cegeka.com/en/ro/",
+        "logo": "https://code4.ro/img/85ebcd58-6304-4862-9529-037e20d98d57/cegeka.png?q=80&fit=crop&dpr=1&w=200&h=80&crop=500%2C500%2C0%2C0"
       },
       {
         "id":7,
-        "name":"test",
-        "link":"",
-        "logo": ""
+        "name":"Amazon",
+        "link":"http://romania.amazon.com",
+        "logo": "https://code4.ro/img/85ebcd58-6304-4862-9529-037e20d98d57/amazon.png?q=80&fit=crop&dpr=1&w=200&h=80&crop=500%2C500%2C0%2C0"
       },
       {
         "id":8,
-        "name":"test",
-        "link":"",
-        "logo": ""
+        "name":"Evozon",
+        "link":"https://www.evozon.com/",
+        "logo": "https://code4.ro/img/evozon.png?q=80&fit=crop&dpr=1&w=200&h=80&crop=500%2C500%2C0%2C0"
       },
       {
         "id":9,
-        "name":"test",
-        "link":"",
-        "logo": ""
+        "name":"Bosch",
+        "link":"https://www.bosch.ro/",
+        "logo": "https://code4.ro/img/bosch.png?q=80&fit=crop&dpr=1&w=200&h=80&crop=500%2C500%2C0%2C0"
       },
       {
         "id":10,
-        "name":"test",
-        "link":"",
-        "logo": ""
+        "name":"Macademian",
+        "link":"https://www.macadamian.com/",
+        "logo": "https://code4.ro/img/85ebcd58-6304-4862-9529-037e20d98d57/macadamian.png?q=80&fit=crop&dpr=1&w=200&h=80&crop=500%2C500%2C0%2C0"
       },
       {
         "id":11,
-        "name":"test",
-        "link":"",
-        "logo": ""
+        "name":"Systematic",
+        "link":"https://systematic.com/contact/offices/romania/",
+        "logo": "https://code4.ro/img/bf815744-9a4e-4420-bf6e-26da91458250/systematic-bucuresti-tfsg.png?q=80&fit=crop&dpr=1&w=200&h=80&crop=400%2C51%2C0%2C0"
       },
       {
         "id":12,
-        "name":"test",
-        "link":"",
-        "logo": ""
+        "name":"Visma",
+        "link":"https://www.visma.ro/",
+        "logo": "https://code4.ro/img/bf815744-9a4e-4420-bf6e-26da91458250/visma-timisoara-tfsg.png?q=80&fit=crop&dpr=1&w=200&h=80&crop=1920%2C1080%2C0%2C0"
       },
       {
         "id":13,
-        "name":"test",
-        "logo": ""
+        "name":"Continental",
+        "link":"https://www.continental.com/ro-ro",
+        "logo": "https://code4.ro/img/continental.png?q=80&fit=crop&dpr=1&w=200&h=80&crop=500%2C500%2C0%2C0"
       },
       {
         "id":14,
-        "name":"test",
-        "logo": ""
+        "name":"Unifiedpost",
+        "link":"https://www.unifiedpost.com/",
+        "logo": "https://code4.ro/img/85ebcd58-6304-4862-9529-037e20d98d57/unified-post.png?q=80&fit=crop&dpr=1&w=200&h=80&crop=500%2C500%2C0%2C0"
       }
     ]
   },
@@ -842,7 +845,7 @@ const data = {
         },
         {
           "id":7,
-          "segmentSlug":"Fara-trafic-de-persoane",
+          "segmentSlug":"fara-trafic-de-persoane",
           "segment_visual":"segment-care-07-fara-trafic-de-persoane",
           "title":"Fără trafic de persoane",
           "description":"<p>România rămâne o sursă primară de victime ale traficului în scopuri sexuale și de muncă, aspect ce ne-a plasat pe locul I într-un clasament ce vizează țările din Europa.</p><p>În timp ce datoria de bază a oricărei comunități este să ofere și să apere siguranța membrilor ei în fața oricăror amenințări, victimele traficului de persoane nu sunt protejate, iar eforturile de combatere a acestui fenomen sunt prea puțin semnificative.</p><p>Urmărim indicatori de trafic de persoane în rândul comunităților vulnerabile și modalități prin care împreună, prin intermediul tehnologiei, putem stopa creșterea numărului de victime, dar și construi pârghii pentru ocrotirea acestora.</p>",
