@@ -193,10 +193,6 @@ const data = {
             "top":"15%",
             "left":"46%"
           },
-          "icon_title_position":{
-            "top":"5%",
-            "left":"45%"
-          },
           "icon_left":true,
           "financed":true,
           "financed_by":[
@@ -288,10 +284,6 @@ const data = {
             "top":"20%",
             "left":"40%"
           },
-          "icon_title_position":{
-            "top":"45%",
-            "left":"68%"
-          },
           "icon_left":true,
           "financed":true,
           "financed_by":[
@@ -352,10 +344,6 @@ const data = {
           "btn":{
             "top":"30%",
             "left":"45%"
-          },
-          "icon_title_position":{
-            "top":"55%",
-            "left":"68%"
           },
           "icon_left":true,
           "financed":true,
@@ -418,10 +406,6 @@ const data = {
             "top":"19%",
             "left":"23%"
           },
-          "icon_title_position":{
-            "top":"38%",
-            "left":"67%"
-          },
           "icon_left":false,
           "financed":true,
           "financed_by":[
@@ -483,10 +467,6 @@ const data = {
             "top":"23%",
             "left":"10%"
           },
-          "icon_title_position":{
-            "top":"20%",
-            "left":"68%"
-          },
           "icon_left":false,
           "financed":true,
           "financed_by":[
@@ -547,10 +527,6 @@ const data = {
           "btn":{
             "top":"32%",
             "left":"20%"
-          },
-          "icon_title_position":{
-            "top":"0%",
-            "left":"30%"
           },
           "icon_left":true,
           "financed":true,
@@ -704,10 +680,6 @@ const data = {
           "btn":{
             "top":"23%",
             "left":"10%"
-          },
-          "icon_title_position":{
-            "top":"20%",
-            "left":"68%"
           },
           "icon_left":false,
           "financed":true,
@@ -1178,10 +1150,6 @@ const data = {
             "top":"29%",
             "left":"60.5%"
           },
-          "icon_title_position":{
-            "top":"0%",
-            "left":"30%"
-          },
           "icon_left":false,
           "financed":true,
           "financed_by":[
@@ -1242,10 +1210,6 @@ const data = {
           "btn":{
             "top":"42.42%",
             "left":"78.25%"
-          },
-          "icon_title_position":{
-            "top":"43%",
-            "left":"66%"
           },
           "icon_left":true,
           "financed":true,
@@ -1308,10 +1272,6 @@ const data = {
             "top":"35.9%",
             "left":"55.17%"
           },
-          "icon_title_position":{
-            "top":"15%",
-            "left":"68%"
-          },
           "icon_left":false,
           "financed":true,
           "financed_by":[
@@ -1372,10 +1332,6 @@ const data = {
           "btn":{
             "top":"47.27%",
             "left":"63.58%"
-          },
-          "icon_title_position":{
-            "top":"18%",
-            "left":"68%"
           },
           "icon_left":true,
           "financed":true,
@@ -1438,10 +1394,6 @@ const data = {
             "top":"62.68%",
             "left":"46.58%"
           },
-          "icon_title_position":{
-            "top":"25%",
-            "left":"68%"
-          },
           "icon_left":true,
           "financed":true,
           "financed_by":[
@@ -1502,10 +1454,6 @@ const data = {
           "btn":{
             "top":"76.07%",
             "left":"31.67%"
-          },
-          "icon_title_position":{
-            "top":"0%",
-            "left":"63%"
           },
           "icon_left":false,
           "financed":true,
@@ -1586,28 +1534,9 @@ const data = {
             "top":"80.98%",
             "left":"82.79%"
           },
-          "icon_title_position":{
-            "top":"50%",
-            "left":"68%"
-          },
           "icon_left":true,
-          "financed":true,
-          "financed_by":[
-            {
-              "id":1,
-              "title":"",
-              "description":"",
-              "link":"",
-              "logo":"icon-date-deschise"
-            },
-            {
-              "id":2,
-              "title":"",
-              "description":"",
-              "link":"",
-              "logo":"icon-date-deschise"
-            }
-          ],
+          "financed":false,
+          "financed_by":[],
           "projects":[
             {
               "id":1,
@@ -1618,25 +1547,8 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-theater-hub.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
-              "adopted":true,
-              "adopted_by":[
-                {
-                  "id":1,
-                  "title":"Code for Romania",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                },
-                {
-                  "id":2,
-                  "title":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                }
-              ]
+              "adopted":false,
+              "adopted_by":[]
             }
           ]
         },
@@ -1649,10 +1561,6 @@ const data = {
           "btn":{
             "top":"70.79%",
             "left":"67.83%"
-          },
-          "icon_title_position":{
-            "top":"20%",
-            "left":"68%"
           },
           "icon_left":false,
           "financed":true,
@@ -1714,10 +1622,6 @@ const data = {
             "top":"76%",
             "left":"60.75%"
           },
-          "icon_title_position":{
-            "top":"48%",
-            "left":"66%"
-          },
           "icon_left":false,
           "financed":true,
           "financed_by":[
@@ -1777,10 +1681,6 @@ const data = {
           "btn":{
             "top":"68.07%",
             "left":"49.67%"
-          },
-          "icon_title_position":{
-            "top":"48%",
-            "left":"66%"
           },
           "icon_left":false,
           "financed":true,
@@ -1842,10 +1742,6 @@ const data = {
             "top":"68.07%",
             "left":"49.67%"
           },
-          "icon_title_position":{
-            "top":"48%",
-            "left":"66%"
-          },
           "icon_left":false,
           "financed":true,
           "financed_by":[
@@ -1905,10 +1801,6 @@ const data = {
           "btn":{
             "top":"58.34%",
             "left":"53.33%"
-          },
-          "icon_title_position":{
-            "top":"75%",
-            "left":"68%"
           },
           "icon_left":true,
           "financed":true,
@@ -2143,10 +2035,6 @@ const data = {
           "btn":{
             "top":"50%",
             "left":"48.5%"
-          },
-          "icon_title_position":{
-            "top":"75%",
-            "left":"68%"
           },
           "icon_left":true,
           "financed":true,
@@ -2556,10 +2444,6 @@ const data = {
             "top":"29.05%",
             "left":"33%"
           },
-          "icon_title_position":{
-            "top":"80%",
-            "left":"23%"
-          },
           "icon_left":true,
           "financed":false,
           "financed_by":[
@@ -2752,10 +2636,6 @@ const data = {
             "top":"28.1%",
             "left":"20.92%"
           },
-          "icon_title_position":{
-            "top":"90%",
-            "left":"40%"
-          },
           "icon_left":false,
           "financed":true,
           "financed_by":[
@@ -2902,10 +2782,6 @@ const data = {
           "btn":{
             "top":"15.77%",
             "left":"15.25%"
-          },
-          "icon_title_position":{
-            "top":"55%",
-            "left":"68%"
           },
           "icon_left":false,
           "financed":true,
@@ -3218,10 +3094,6 @@ const data = {
             "top":"64.34%",
             "left":"30.5%"
           },
-          "icon_title_position":{
-            "top":"83%",
-            "left":"67%"
-          },
           "icon_left":true,
           "financed":true,
           "financed_by":[
@@ -3282,10 +3154,6 @@ const data = {
           "btn":{
             "top":"45.26%",
             "left":"15.75%"
-          },
-          "icon_title_position":{
-            "top":"52%",
-            "left":"24%"
           },
           "icon_left":false,
           "financed":true,
@@ -3348,10 +3216,6 @@ const data = {
             "top":"41.82%",
             "left":"35.67%"
           },
-          "icon_title_position":{
-            "top":"60%",
-            "left":"24%"
-          },
           "icon_left":true,
           "financed":true,
           "financed_by":[
@@ -3413,10 +3277,6 @@ const data = {
             "top":"30.45%",
             "left":"43.67%"
           },
-          "icon_title_position":{
-            "top":"90%",
-            "left":"30%"
-          },
           "icon_left":false,
           "financed":true,
           "financed_by":[
@@ -3477,10 +3337,6 @@ const data = {
           "btn":{
             "top":"20.62%",
             "left":"53%"
-          },
-          "icon_title_position":{
-            "top":"55%",
-            "left":"24%"
           },
           "icon_left":false,
           "financed":true,
@@ -3700,10 +3556,6 @@ const data = {
               "btn":{
                 "top":"12.2%",
                 "left":"66.17%"
-              },
-              "icon_title_position":{
-                "top":"77%",
-                "left":"45%"
               },
               "icon_left":true,
               "financed":true,
@@ -3972,10 +3824,6 @@ const data = {
             "top":"55.09%",
             "left":"-2.67%"
           },
-          "icon_title_position":{
-            "top":"24%",
-            "left":"22%"
-          },
           "icon_left":false,
           "financed":true,
           "financed_by":[
@@ -4037,10 +3885,6 @@ const data = {
             "top":"58.53%",
             "left":"21.92%"
           },
-          "icon_title_position":{
-            "top":"0%",
-            "left":"23%"
-          },
           "icon_left":true,
           "financed":true,
           "financed_by":[
@@ -4072,10 +3916,6 @@ const data = {
           "btn":{
             "top":"71.21%",
             "left":"10.67%"
-          },
-          "icon_title_position":{
-            "top":"25%",
-            "left":"24%"
           },
           "icon_left":false,
           "financed":true,
@@ -4109,10 +3949,6 @@ const data = {
             "top":"69.67%",
             "left":"28.5%"
           },
-          "icon_title_position":{
-            "top":"20%",
-            "left":"23%"
-          },
           "icon_left":true,
           "financed":true,
           "financed_by":[
@@ -4144,10 +3980,6 @@ const data = {
           "btn":{
             "top":"88.51%",
             "left":"24.92%"
-          },
-          "icon_title_position":{
-            "top":"30%",
-            "left":"24%"
           },
           "icon_left":false,
           "financed":true,
@@ -4210,10 +4042,6 @@ const data = {
             "top":"92.89%",
             "left":"48.92%"
           },
-          "icon_title_position":{
-            "top":"68%",
-            "left":"30%"
-          },
           "icon_left":true,
           "financed":true,
           "financed_by":[
@@ -4274,10 +4102,6 @@ const data = {
           "btn":{
             "top":"80.81%",
             "left":"52.33%"
-          },
-          "icon_title_position":{
-            "top":"78%",
-            "left":"31%"
           },
           "icon_left":true,
           "financed":true,
@@ -4340,10 +4164,6 @@ const data = {
             "top":"75.83%",
             "left":"43.08%"
           },
-          "icon_title_position":{
-            "top":"77%",
-            "left":"30%"
-          },
           "icon_left":false,
           "financed":true,
           "financed_by":[
@@ -4404,10 +4224,6 @@ const data = {
           "btn":{
             "top":"60.55%",
             "left":"68.08%"
-          },
-          "icon_title_position":{
-            "top":"80%",
-            "left":"27%"
           },
           "icon_left":true,
           "financed":true,
