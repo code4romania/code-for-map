@@ -153,9 +153,6 @@ export default {
 </script>
 
 <style>
-.icon-text-container {
-  width: 128px;
-}
 .modal-route {
   width: 100%;
   height: 100%;
@@ -173,9 +170,5 @@ export default {
   left: 50%;
   transform: translate(-50%, -50%);
   background: rgba(0, 0, 0, 0.3);
-}
-.item {
-  position: absolute;
-  z-index: 999;
 }
 </style>
