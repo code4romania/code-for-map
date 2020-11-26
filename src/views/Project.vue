@@ -18,7 +18,7 @@
         <router-link
           :to="{
             name: 'Segment',
-            params: { slug: slug, _slug: highway_slug }
+            params: { slug: slug, segment: segmentSlug }
           }"
         >
           <div class="d-flex align-items-center justify-content-between">
@@ -98,8 +98,8 @@ export default {
   data() {
     return {
       slug: this.$route.params.slug,
-      highway_slug: this.$route.params._slug,
-      project_slug: this.$route.params.solution,
+      segmentSlug: this.$route.params.segment,
+      projectSlug: this.$route.params.solution,
       code4ro_map: [],
       segment: [],
       project: []
@@ -111,10 +111,10 @@ export default {
       item => item.slug == this.slug
     );
     this.segment = this.code4ro_map.highway_segment.find(
-      item => item.highway_slug == this.highway_slug
+      item => item.segmentSlug == this.segmentSlug
     );
     this.project = this.segment.projects.find(
-      item => item.project_slug == this.project_slug
+      item => item.projectSlug == this.projectSlug
     );
 
     postMessage({ height: document.body.scrollHeight });

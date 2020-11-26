@@ -45,7 +45,6 @@ export default {
 
 <style scoped lang="scss">
 .Legend h3 {
-  font-size: 14px;
   text-transform: uppercase;
 }
 .drum-continuu {

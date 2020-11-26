@@ -8,7 +8,7 @@
       />
 
       <SegmentHeader
-        :icon="segment.highway_slug"
+        :icon="segment.segmentSlug"
         :slug="slug"
         :color="code4ro_map.color"
         :title="segment.title"
@@ -163,7 +163,7 @@ export default {
   data() {
     return {
       slug: this.$route.params.slug,
-      highway_slug: this.$route.params._slug,
+      segmentSlug: this.$route.params.segment,
       code4ro_map: [],
       segment: [],
       active_project_index: 0,
@@ -175,7 +175,7 @@ export default {
       (item) => item.slug == this.slug
     );
     this.segment = this.code4ro_map.highway_segment.find(
-      (item) => item.highway_slug == this.highway_slug
+      (item) => item.segmentSlug == this.segmentSlug
     );
 
     this.data.back_to_map.visible = true;
@@ -204,7 +204,7 @@ export default {
 
       // this.$router.push({ name: 'Project', params: {
       //   slug: 'participation4ro',
-      //   _slug: 'acces-la-cultura',
+      //   segment: 'acces-la-cultura',
       //   solution: 'theater-hub'
       // }})
     },
@@ -213,7 +213,7 @@ export default {
 
       // this.$router.push({ name: 'Segment', params: {
       //   slug: 'participation4ro',
-      //   _slug: 'acces-la-cultura'
+      //   segment: 'acces-la-cultura'
       // }})
     },
     next() {

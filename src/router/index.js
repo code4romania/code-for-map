@@ -23,13 +23,13 @@ const routes = [
     props: true
   },
   {
-    path: "/:slug/:_slug",
+    path: "/:slug/:segment",
     name: "Segment",
     component: Segment,
     props: true
   },
   {
-    path: "/:slug/:_slug/:solution",
+    path: "/:slug/:segment/:solution",
     name: "Project",
     component: Segment,
     props: true

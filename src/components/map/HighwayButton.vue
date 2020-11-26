@@ -5,7 +5,7 @@
       name: 'Segment',
       params: {
         slug: slug,
-        _slug: highway_slug
+        segment: segmentSlug
       }
     }"
     class="badge-pill btn bg-white d-none d-lg-block HighwayButton"
@@ -13,7 +13,7 @@
     :style="{ top: segment_button.btn.top, left: segment_button.btn.left }"
   >
     <div class="d-flex align-items-center" v-if="segment_button.icon_left">
-      <svg class="icon"><use :xlink:href="'#icon-' + segment_button.highway_slug"></use></svg>
+      <svg class="icon"><use :xlink:href="'#icon-' + segment_button.segmentSlug"></use></svg>
       <div class="text-dark text-left ml-2">
         {{ segment_button.title }}
       </div>
@@ -22,7 +22,7 @@
       <div class="text-dark text-right mr-2">
         {{ segment_button.title }}
       </div>
-      <svg class="icon"><use :xlink:href="'#icon-' + segment_button.highway_slug"></use></svg>
+      <svg class="icon"><use :xlink:href="'#icon-' + segment_button.segmentSlug"></use></svg>
     </div>
   </router-link>
 </template>
@@ -35,7 +35,7 @@ export default {
   props: {
     segment_button: Object,
     slug: String,
-    highway_slug: String,
+    segmentSlug: String,
     color: String
   }
 };

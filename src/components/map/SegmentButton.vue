@@ -4,13 +4,13 @@
       name: 'Segment',
       params: {
         slug: slug,
-        _slug: highway_slug
+        segment: segmentSlug
       }
     }"
     class="d-lg-none d-flex justify-content-between align-items-center SegmentButton ListItem"
   >
     <div class="SegmentButton-icon">
-      <svg class="icon icon-md"><use :xlink:href="'#icon-' + highway_slug"></use></svg>
+      <svg class="icon icon-md"><use :xlink:href="'#icon-' + segmentSlug"></use></svg>
     </div>
     <div class="flex-fill mx-2">{{ title }}</div>
     <svg class="icon"><use xlink:href="#chevron-right"></use></svg>
@@ -22,7 +22,7 @@ export default {
   name: "SegmentButton",
   props: {
     slug: String,
-    highway_slug: String,
+    segmentSlug: String,
     title: String
   }
 };

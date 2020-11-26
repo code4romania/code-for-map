@@ -185,7 +185,7 @@ const data = {
       "highway_segment":[
         {
           "id":1,
-          "highway_slug":"fara-violenta-acasa",
+          "segmentSlug":"fara-violenta-acasa",
           "segment_visual":"segment-care-07-fara-trafic-de-persoane",
           "title":"Fără violență acasă",
           "description":"<p>România rămâne o sursă primară de victime ale traficului în scopuri sexuale și de muncă, aspect ce ne-a plasat pe locul I într-un clasament ce vizează țările din Europa.</p><p>În timp ce datoria de bază a oricărei comunități este să ofere și să apere siguranța membrilor ei în fața oricăror amenințări, victimele traficului de persoane nu sunt protejate, iar eforturile de combatere a acestui fenomen sunt prea puțin semnificative.</p><p>Urmărim indicatori de trafic de persoane în rândul comunităților vulnerabile și modalități prin care împreună, prin intermediul tehnologiei, putem stopa creșterea numărului de victime, dar și construi pârghii pentru ocrotirea acestora.</p>",
@@ -214,7 +214,7 @@ const data = {
           "projects":[
             {
               "id":1,
-              "project_slug":"project-slug",
+              "projectSlug":"project-slug",
               "title":"proiect title",
               "description":"description 3",
               "link":"",
@@ -244,7 +244,7 @@ const data = {
             },
             {
               "id":2,
-              "project_slug":"project-slug",
+              "projectSlug":"project-slug",
               "title":"proiect title",
               "description":"description 1",
               "link":"",
@@ -276,7 +276,7 @@ const data = {
         },
         {
           "id":2,
-          "highway_slug":"sanse-pentru-persoanele-cu-dizabilitati",
+          "segmentSlug":"sanse-pentru-persoanele-cu-dizabilitati",
           "segment_visual":"segment-care-05-sanse-pentru-persoane-cu-disabilitati",
           "title":"Șanse pentru persoanele cu dizabilități",
           "description":"<p>Infrastructura României în ceea ce privește persoanele cu dizabilități este una deficitară, așa că îmbunătățirea calității vieții acestei categorii sociale defavorizate este un proces complicat și lent.</p><p>Spectrul dizabilităților este unul larg, iar lipsurile și atitudinile cu care aceștia se confruntă îi împiedică să trăiască într-un mediu sigur, tolerant și prietenos.</p><p>Trebuie să construim o țară, comunități și orașe accesibile tuturor, motiv pentru care ne îndreptăm atenția către persoanele care suferă de dizabilități variate și relația dintre acestea și modul în care le sunt, sau nu, facilitate anumite procese.</p>",
@@ -305,7 +305,7 @@ const data = {
           "projects":[
             {
               "id":1,
-              "project_slug":"project-slug",
+              "projectSlug":"project-slug",
               "title":"proiect title",
               "description":"description 1",
               "link":"",
@@ -337,7 +337,7 @@ const data = {
         },
         {
           "id":3,
-          "highway_slug":"o-viata-buna-pentru-copiii-abandonati",
+          "segmentSlug":"o-viata-buna-pentru-copiii-abandonati",
           "segment_visual":"segment-care-06-o-viata-buna-pentru-copiii-adoptati",
           "title":"O viață bună pentru copiii abandonați",
           "description":"<p>În România, problema abandonului și a instituționalizării copiilor reprezintă o lungă luptă de a oferi o șansă la familie copiilor abandonați. Studiile arată că abandonul în primii ani după naștere poate duce la dificultăţi din punct de vedere al dezvoltării emoţionale şi comportamentale pe tot parcursul vieții.</p><p>Toți avem nevoie de ancora unei familii în viața noastră. Însă pentru cei care la început de drum nu au parte de ea, întreaga comunitate trebuie să constituie sprijinul necesar în lipsa unei familii. Susținem și dezvoltăm activ soluții tehnologice care să poată ameliora calitatea vieții și dezvoltarea acestora.</p>",
@@ -366,7 +366,7 @@ const data = {
           "projects":[
             {
               "id":1,
-              "project_slug":"project-slug",
+              "projectSlug":"project-slug",
               "title":"proiect title",
               "description":"description 1",
               "link":"",
@@ -398,7 +398,7 @@ const data = {
         },
         {
           "id":4,
-          "highway_slug":"fara-discriminare-impotriva-etniei-rome",
+          "segmentSlug":"fara-discriminare-impotriva-etniei-rome",
           "segment_visual":"segment-care-04-fara-discriminare-impotriva-etniei-rome",
           "title":"Fără discriminare împotriva etniei rome",
           "description":"<p>Discriminarea etnică a romilor este unul din principalele obstacole pentru integrarea lor în societate ca cetățeni cu drepturi depline, iar oferirea de șanse egale reprezintă o problemă structurală și istorică a României.</p><p>Nu putem avea o țară sănătoasă și prosperă decât dacă toți cetățenii ei sunt acceptați, sprijiniți și au acces la toate șansele posibile de dezvoltare. Din păcate, problemele generale ale societății românești sunt acutizate în cazul minorității rome, iar discriminarea duce la excluderea unor membri care pot aduce valoare întregii societăți.</p><p>Audităm toate aceste probleme și aducem în fața publicului larg soluții care sprijină integrarea comunității rome în colectivitate.</p>",
@@ -427,7 +427,7 @@ const data = {
           "projects":[
             {
               "id":1,
-              "project_slug":"project-slug",
+              "projectSlug":"project-slug",
               "title":"proiect title",
               "description":"description 1",
               "link":"",
@@ -459,7 +459,7 @@ const data = {
         },
         {
           "id":5,
-          "highway_slug":"incluziune-pentru-persoanele-lgbtq",
+          "segmentSlug":"incluziune-pentru-persoanele-lgbtq",
           "segment_visual":"segment-care-03-incluziune-pentru-persoanele-lgbtq",
           "title":"Incluziune pentru persoanele LGBTQ+",
           "description":"<p>Au trecut doar 20 de ani de când statul român pedepsea cu închisoarea relațiile de dragoste dintre persoanele de același sex. De atunci și până acum, societatea civilă luptă continuu pentru drepturilor și libertăților persoanelor LGBTQ+.</p><p>Deși lucrurile se îmbunătățesc într-un ritm lent, acceptarea și integrarea lor încă reprezintă o problemă în spațiul public, iar consecințele au un impact sever pentru membrii comunității, dar și pentru întreaga societate.</p><p>Ne uităm atent la fenomenul discriminării pe criterii de orientare sexuală și identitate de gen în vederea dezvoltării unor soluții de tehnologie civică menite să sprijine aceste comunități.</p>",
@@ -488,7 +488,7 @@ const data = {
           "projects":[
             {
               "id":1,
-              "project_slug":"project-slug",
+              "projectSlug":"project-slug",
               "title":"proiect title",
               "description":"description 1",
               "link":"",
@@ -520,7 +520,7 @@ const data = {
         },
         {
           "id":6,
-          "highway_slug":"diaspora-mai-aproape-de-casa",
+          "segmentSlug":"diaspora-mai-aproape-de-casa",
           "segment_visual":"segment-care-02-diaspora-mai-aproape-de-casa",
           "title":"Diaspora mai aproape de casă",
           "description":"<p>Statisticile recente ne pun față în față cu o realitate dură: peste 1 din 5 cetățeni români nu mai locuiesc în țară. Poate și mai îngrijorător este faptul că mulți dintre românii care au emigrat au luat această decizie în urma lipsurilor și a condițiilor de trai precare.</p><p>Ne îndreptăm atenția asupra unor fenomene des întâlnite precum: fragmentarea familiilor care duce inevitabil la vulnerabilitate din punct de vedere economic, social sau psihologic, dar și la limitarea accesului românilor din diaspora la serviciile statutului și protecția oferită de acesta.</p>",
@@ -549,7 +549,7 @@ const data = {
           "projects":[
             {
               "id":1,
-              "project_slug":"Diaspora-hub",
+              "projectSlug":"Diaspora-hub",
               "title":"Diaspora Hub",
               "description":"Una dintre problemele reale din societatea română contemporană este dezechilibrul informațional cauzat de accesul facil la surse de informare atractive de calitate îndoielnică și accesul greu la surse de informare de calitate. Diaspora Hub își propune să fie portalul prin care cetățenii români care trăiesc în afara granițelor țării să aibă acces într-un singur loc la toate informațiile de care au nevoie pentru a putea menține contactul cu instituțiile statului român și a beneficia de drepturile lor cetățenești.",
               "link":"",
@@ -579,7 +579,7 @@ const data = {
             },
             {
               "id":2,
-              "project_slug":"info-diaspora",
+              "projectSlug":"info-diaspora",
               "title":"Info Diaspora",
               "description":"O problemă recurentă a românilor din diaspora este lipsa accesului facil la diverse servicii oferite de instituțiile statului român. O suită de servicii administrative, de la emiterea actelor de identitate și călătorie până la autentificarea înscrisurilor și alte servicii de notariat sunt oferite exclusiv prin ambasadele și consulatele statului român. Info Diaspora simplifică interacțiunile cu statul român și oferă informații pentru situațiile în care cetățenii care nu mai locuiesc în România au nevoie de asistența instituțiilor românești.",
               "link":"",
@@ -609,7 +609,7 @@ const data = {
             },
             {
               "id":3,
-              "project_slug":"inapoi-acasă",
+              "projectSlug":"inapoi-acasă",
               "title":"Înapoi acasă",
               "description":"Pentru mulți dintre românii plecați din țară decizia relocării a fost una necesară și clar motivată, în ciuda confruntării cu necunoscutul. Întoarcerea acasă poate fi o perspectivă la fel de marcată de incertitudine, mulți dintre cei din diaspora neștiind dacă odată întorși își vor putea asigura aici un nivel mulțumitor al calității vieții. Portalul Înapoi Acasă le oferă informații și resurse care le sunt necesare celor care intenționează să se întoarcă - locuri de muncă, oportunități de carieră, informații practice privind costul vieții, documente etc.",
               "link":"",
@@ -639,7 +639,7 @@ const data = {
             },
             {
               "id":4,
-              "project_slug":"brain-gain",
+              "projectSlug":"brain-gain",
               "title":"Brain Gain",
               "description":"Pentru mulți dintre românii plecați din țară decizia relocării a fost una necesară și clar motivată, în ciuda confruntării cu necunoscutul. Întoarcerea acasă poate fi o perspectivă la fel de marcată de incertitudine, mulți dintre cei din diaspora neștiind dacă odată întorși își vor putea asigura aici un nivel mulțumitor al calității vieții. Portalul Înapoi Acasă le oferă informații și resurse care le sunt necesare celor care intenționează să se întoarcă - locuri de muncă, oportunități de carieră, informații practice privind costul vieții, documente etc.",
               "link":"",
@@ -673,7 +673,7 @@ const data = {
         },
         {
           "id":7,
-          "highway_slug":"fara-violenta-acasa",
+          "segmentSlug":"fara-violenta-acasa",
           "segment_visual":"segment-care-03-incluziune-pentru-persoanele-lgbtq",
           "title":"Incluziune pentru persoanele LGBTQ+",
           "description":"<p>Au trecut doar 20 de ani de când statul român pedepsea cu închisoarea relațiile de dragoste dintre persoanele de același sex. De atunci și până acum, societatea civilă luptă continuu pentru drepturilor și libertăților persoanelor LGBTQ+.</p><p>Deși lucrurile se îmbunătățesc într-un ritm lent, acceptarea și integrarea lor încă reprezintă o problemă în spațiul public, iar consecințele au un impact sever pentru membrii comunității, dar și pentru întreaga societate.</p><p>Ne uităm atent la fenomenul discriminării pe criterii de orientare sexuală și identitate de gen în vederea dezvoltării unor soluții de tehnologie civică menite să sprijine aceste comunități.</p>",
@@ -702,7 +702,7 @@ const data = {
           "projects":[
             {
               "id":1,
-              "project_slug":"sunrise",
+              "projectSlug":"sunrise",
               "title":"Sunrise - Software de management de caz pentru ONGuri",
               "description":"Sistemul de management de caz permite ONG-urilor să administreze cazurile de violență domestică de care se ocupă și să își digitalizeze toate dosarele într-un singur spațiu securizat. În același timp, sistemul de management de caz, prin colectarea disponibilității ONG-urilor în ceea ce privește serviciile pe care le oferă, va permite crearea unei baze de date pe care fiecare organizație o poate accesa și redirecționa cazuri către alte asociații în funcție de nevoile din fiecare situație.",
               "link":"",
@@ -732,7 +732,7 @@ const data = {
             },
             {
               "id":2,
-              "project_slug":"sunshine",
+              "projectSlug":"sunshine",
               "title":"Sunshine",
               "description" : "Institutul Est European pentru Sănătatea Reproducerii, organizație acreditată în oferirea de servicii pentru victimele violenței domestice, a pilotat un sistem informatic cu participarea tuturor actorilor relevanți la nivelul județului Mureș. Acest sistem a permis unificarea documentelor asociate unui caz de violență domestică între instituții și ONG precum și standardizarea raportării. Programul s-a derulat cu succes pentru o perioadă lungă de timp, dar a fost întrerupt din motive de mentenanță tehnică. Reconstruirea acestui sistem software și implementarea sa la nivel de județ, vor putea servi drept model și caz de referință pentru implementarea sa la nivel național. Soluția este modulară, cu componente dedicate fiecărui actor potențial, ceea ce oferă o flexibilitate foarte mare la nivelul fiecărui județ de a utiliza modulele în funcție de disponibilitatea și capacitatea instituțiilor și a organizațiilor de a utiliza acest instrument digital pentru o mai bună acoperire a cazurilor.",
               "link":"",
@@ -762,7 +762,7 @@ const data = {
             },
             {
               "id":3,
-              "project_slug":"Hub-Violenta-Domestică",
+              "projectSlug":"Hub-Violenta-Domestică",
               "title":"Violență domestică Hub",
               "description":"VD Hub este o platformă cu rol de colectare și centralizare a tuturor resurselor pe care le au la dispoziție atât victimele, cât și cei care oferă servicii pentru acestea. Platforma este construită în jurul unui motor de căutare care să indexeze și să returneze cele mai bune informații pentru utilizatori. Aceasta ar lista resurse atât din punct de vedere al celor care oferă servicii, cât și informații de ordin legislativ, administrativ sau alte instrumente utile. Cu ajutorul unor ghiduri simple de căutare, orice utilizator este îndreptat cu ușurință către acele seturi de informații de care are nevoie în funcție de situația sa.",
               "link":"",
@@ -792,7 +792,7 @@ const data = {
             },
             {
               "id":4,
-              "project_slug":"Banca de resurse",
+              "projectSlug":"Banca de resurse",
               "title":"Banca de Resurse",
               "description" : "VD Hub este o platformă cu rol de colectare și centralizare a tuturor resurselor pe care le au la dispoziție atât victimele, cât și cei care oferă servicii pentru acestea. Platforma este construită în jurul unui motor de căutare care să indexeze și să returneze cele mai bune informații pentru utilizatori. Aceasta ar lista resurse atât din punct de vedere al celor care oferă servicii, cât și informații de ordin legislativ, administrativ sau alte instrumente utile. Cu ajutorul unor ghiduri simple de căutare, orice utilizator este îndreptat cu ușurință către acele seturi de informații de care are nevoie în funcție de situația sa.",
               "link":"",
@@ -822,7 +822,7 @@ const data = {
             },
             {
               "id":5,
-              "project_slug":"Incognito-Escape",
+              "projectSlug":"Incognito-Escape",
               "title":"Incognito Escape",
               "description" : "În special în mediul urban, unde mecanismele de control ale agresorului sunt mult mai sofisticate (ex: urmărire a telefonului, control al calendarului victimei etc.) raportarea unui abuz este cu atât mai dificilă cu cât teama de a nu fi descoperită a victimei este mai mare. Soluția propusă este un sistem de comunicare securizat prin care victimele violenței domestice pot comunica ușor, fără a avea nevoie de cunoștințe avansate de tehnologie cu ONG-urile sau autoritățile care ar putea sa le ajute. Platforma web asistă victima pas cu pas prin procesul de transmitere securizată a informațiilor către ONG, ONG-ul primește o alertă atunci când are un mesaj de la o victimă și se autentifică într-un panou de administrare securizat în care poate vedea mesajul victimei și documentele pe care aceasta le-a transmis dacă este cazul. Toate documentele transmise (fotografii, acte etc.) sunt la rândul lor criptate, doar ONG-ul sau instituția fiind cei care dețin cheia de criptare a acestora.",
               "link":"",
@@ -852,7 +852,7 @@ const data = {
             },
             {
               "id":6,
-              "project_slug":"Website-Chatbot",
+              "projectSlug":"Website-Chatbot",
               "title":"Website Chatbot",
               "description" : "Lipsa metodelor diverse prin care victimele pot cere ajutor este o problemă pentru că nu toate victimele pot discuta telefonic cu o autoritate sau cu un ONG. De asemenea, comportamentele de comunicare ale publicului tânăr s-au schimbat, adesea aceștia preferând să discute în scris și căutându-și informația online, fără a dori un contact telefonic de la prima încercare de a raporta sau discuta despre o situație abuzivă. Un chatbot care poate fi conectat cu conturile sociale sau instalat pe website-urile organizațiilor poate să ajute victimele să comunice mai ușor și poate de multe ori să degreveze organizația de o serie de întrebări constante la care ei răspund mereu, individual fiecărei persoane care îi contactează. Uniformizarea informației va ajuta de asemenea pentru că așa ne asigurăm că, indiferent de organizația cu care discută victima, va primi aceleași sfaturi de bază, verificate și validate.",
               "link":"",
@@ -882,7 +882,7 @@ const data = {
             },
             {
               "id":7,
-              "project_slug":"Vorbesc-helpline-psihologic-gratuit",
+              "projectSlug":"Vorbesc-helpline-psihologic-gratuit",
               "title":"Vorbesc: helpline psihologic gratuit",
               "description" : "Modurile prin care o victimă poate solicita ajutor sunt adesea prea complicate ca aceasta să poată să beneficieze de ele. De exemplu, pentru a primi consiliere psihologică gratuită, victimele trebuie să solicite acest serviciu de la un ONG sau un alt provider, să încheie un contract și abia apoi să intre într-un program dedicat. Ajutorul psihologic în general este disponibil, dar contra cost, preț pe care multe dintre persoane nu își permit să îl achite. Există de asemenea și persoane care locuiesc în orașe mici unde fie nu există organizații în domeniu sau sunt foarte puține cabinete de terapie. <em>Vorbesc</em> este o aplicație care permite unei victime, unui martor sau unui agresor să solicite terapie în mod gratuit și consiliere pentru a putea depăși o situație în care se află. Conversațiile sunt confidențiale, terapeuții fiind cei care decid ce caz doresc să preia în limita disponibilității și a specializării lor. Acest app are un rol esențial în special în etapa inițială în care fie victima nu este încă pregătită pentru a apela la serviciile unui ONG și are nevoie de sprijin, fie agresorul realizează că are nevoie de ajutor pentru a-și controla furia sau pornirile violente.",
               "link":"",
@@ -912,7 +912,7 @@ const data = {
             },
             {
               "id":8,
-              "project_slug":"Support-Community",
+              "projectSlug":"Support-Community",
               "title":"Support Community",
               "description" : "În această epocă digitală, spațiile sigure menite să faciliteze comunicarea între victime în mod anonim, unde să împărtășească povești de succes, sfaturi, recomandări sau alte informații utile lipsesc. Support Community va fi un spațiu virtual de tip forum care permite comunicarea pe niveluri multiple, anonim sau autentificat, cu moderatori dedicați pe fiecare categorie în parte, care permite postarea de mesaje, cu thread-uri de conversație publice și/sau private, pe subiecte inițiate de participanți sau de moderatorii platformei. Spațiile sigure de comunicare de acest tip se mulează pe tiparele de comunicare și obiceiurile digitale în special ale generației tinere care navighează cu ușurință pe internet și care preferă să discute în scris, protejați de anonimat. În același timp, pentru persoanele care au ieșit din situații abuzive, dar care nu sunt confortabile să discute public despre situația lor, dar își doresc să sprijine alte victime, astfel de conversații pot avea rol de facilitator.",
               "link":"",
@@ -942,7 +942,7 @@ const data = {
             },
             {
               "id":9,
-              "project_slug":"Widget-Hub-Violenta-Domestica",
+              "projectSlug":"Widget-Hub-Violenta-Domestica",
               "title":"Widget Hub Violență Domestică",
               "description" : "Campaniile de informare din jurul violenței domestice sunt extrem de utile, dar ele angrenează un număr limitat de actori și sunt reduse ca timp de desfășurare. În același timp, este nevoie de o informare uniformă a populației cu privire la serviciile pe care le au la dispoziție dacă se află într-o situație de abuz. Pentru a ajunge la cât mai mulți oameni este nevoie ca un număr critic de publicații și website-uri administrative să vorbească despre violența domestică în mod corect. Widget Hub este un website-librărie care conține o colecție de widget-uri construite special pentru publicul larg, cu scopul de a identifica dacă te afli într-o relație abuzivă, a vedea ce opțiuni ai la dispoziție, chestionare pentru victime, agresori, martori etc. Toate aceste info box-uri pot fi integrate foarte ușor în orice website din România, cum ar fi site-uri de primării, site-urile altor autorități, reviste online, bloguri și publicații de orice tip.",
               "link":"",
@@ -972,7 +972,7 @@ const data = {
             },
             {
               "id":10,
-              "project_slug":"Daily-Assessment-Kit-scoli",
+              "projectSlug":"Daily-Assessment-Kit-scoli",
               "title":"Daily Assessment Kit - școli",
               "description" : "Identificarea cazurilor de violență domestică poate fi un proces dificil, mai ales dacă vorbim de forma de violență de tip social sau psihologică. Pentru potențialii martori semnele nu sunt evidente, iar aceștia nu au parte de nici un fel de instruire să recunoască semnele. Cel mai adesea, copiii sunt cei care sunt afectați de situațiile tensionate din casă și care, deși simt că ceva nu este în regulă, fie se tem, fie nu știu cum să vorbească despre asta. Daily Assessment Kit este un sistem care poate fi folosit de orice școală cu rol de early warning system. De exemplu, printr-o suită simplă de întrebări de tipul 'cum te simți astăzi' sau altele care au ca scop monitorizarea stării psihice a unui copil, se pot identifica acele pattern-uri care ar putea indica probleme în familie, tulburări emoționale și un consilier psihologic ar putea aborda elevul care dă semne că ar fi într-o situație dificilă pentru a-i putea oferi ajutor.",
               "link":"",
@@ -1002,7 +1002,7 @@ const data = {
             },
             {
               "id":11,
-              "project_slug":"Daily-Assessment-Kit-angajatori",
+              "projectSlug":"Daily-Assessment-Kit-angajatori",
               "title":"Daily Assessment Kit - angajatori",
               "description" : "Identificarea cazurilor de violență domestică poate fi un proces dificil, mai ales dacă vorbim de forma de violență de tip social sau psihologică. Pentru potențialii martori semnele nu sunt evidente, iar aceștia nu au parte de nici un fel de instruire să recunoască semnele. Daily Assessment Kit este un sistem care poate fi folosit de orice angajator cu rol de early warning system. De exemplu, printr-o suită simplă de întrebări de tipul 'cum te simți astăzi' sau altele care au ca scop monitorizarea stării psihice a angajaților, se pot identifica acele pattern-uri care ar putea indica probleme în familie, tulburări emoționale și un consilier de resurse umane ar putea aborda angajatul care dă semne că ar fi într-o situație dificilă pentru a-i putea oferi ajutor. ",
               "link":"",
@@ -1032,7 +1032,7 @@ const data = {
             },
             {
               "id":12,
-              "project_slug":"Personal-Assessment-Kit-couples",
+              "projectSlug":"Personal-Assessment-Kit-couples",
               "title":"Personal-Assessment-Kit-couples",
               "description" : "Identificarea cazurilor de violență domestică poate fi un proces dificil, mai ales dacă vorbim de forma de violență de tip social sau psihologică. Pentru potențialii martori semnele nu sunt evidente, iar aceștia nu au parte de nici un fel de instruire să recunoască semnele. Daily Assessment Kit este un sistem care poate fi folosit de orice angajator cu rol de early warning system. De exemplu, printr-o suită simplă de întrebări de tipul 'cum te simți astăzi' sau altele care au ca scop monitorizarea stării psihice a angajaților, se pot identifica acele pattern-uri care ar putea indica probleme în familie, tulburări emoționale și un consilier de resurse umane ar putea aborda angajatul care dă semne că ar fi într-o situație dificilă pentru a-i putea oferi ajutor. ",
               "link":"",
@@ -1062,7 +1062,7 @@ const data = {
             },
             {
               "id":13,
-              "project_slug":"Anger_Management",
+              "projectSlug":"Anger_Management",
               "title":"Anger Management",
               "description" : "Având în vedere lipsa adăposturilor dedicate agresorilor și a serviciilor complete dedicate acestora, propunem crearea unor instrumente minime care să vină în sprijinul reabilitării acestora acolo unde ei conștientizează gravitatea faptelor lor și caută ajutor. Anger Management este un instrument digital care ajută persoanele cu probleme în controlul furiei să își recâștige calmul în situații tensionate. Cu o suită de notificări frecvente care îi cer agresorului să își conștientizeze starea și să evalueze care sunt factorii declanșatori ai unor sentimente de furie, acesta poate deveni mult mai rapid conștient de ce anume îl face agresiv și cum poate recâștiga controlul în situații de acest tip.",
               "link":"",
@@ -1092,7 +1092,7 @@ const data = {
             },
             {
               "id":13,
-              "project_slug":"Violenta-Domestică-Media-Kit",
+              "projectSlug":"Violenta-Domestică-Media-Kit",
               "title":"Violența Domestică Media Kit",
               "description" : "Chiar dacă în facultățile de jurnalism normele și regulile de scriitură sunt predate de către profesori, nu exista un ghid detaliat, actualizat, disponibil online pentru cum se poate realiza raportarea jurnalistică despre violența domestică în mass-media în mod corect. Media Kit este un ghid interactiv pentru jurnaliști prin care aceștia pot să își  analizeze textele înainte de publicare și pot învăța cele mai bune practici atunci când scriu despre acest subiect. Platforma prezintă, pe lângă lecții de referire corectă a cazurilor de violență domestică și alte informații utile cu privire la fenomen, și o componentă interactivă în care jurnalistul poate să supună un material spre review către un specialist care poate să corecteze acolo unde formulările pot naște impresii greșite, pot perpetua un stereotip etc.",
               "link":"",
@@ -1142,7 +1142,7 @@ const data = {
       "highway_segment":[
         {
           "id":1,
-          "highway_slug":"sanatate-mentala-pentru-toti",
+          "segmentSlug":"sanatate-mentala-pentru-toti",
           "segment_visual":"segment-health-06-sanatate-mentala-pentru-toti",
           "title":"Sanatate mintala pentru toti",
           "description":"<p>Grija pentru sănătatea mintală ar trebui să fie la fel de firească precum preocuparea pentru un corp sănătos prin exerciții fizice și o alimentație corespunzătoare.</p><p>La nivel național, însă, infrastructura de prevenție și tratare a bolilor psihice este deficitară atât în ceea ce privește starea de bine a psihicului de zi cu zi, cât și pentru probleme grave și tot mai des întâlnite precum depresia, anxietatea sau afecțiunile psihiatrice.</p><p>Ne propunem să combatem stigmatul bolilor mintale și să apelăm la soluții digitale care să îmbunătățească fluxurile dintre instituțiile abilitate și pacienți.</p>",
@@ -1171,7 +1171,7 @@ const data = {
           "projects":[
             {
               "id":1,
-              "project_slug":"project-slug",
+              "projectSlug":"project-slug",
               "title":"proiect title",
               "description":"description 1",
               "link":"",
@@ -1203,7 +1203,7 @@ const data = {
         },
         {
           "id":2,
-          "highway_slug":"sprijin-nu-pedeapsa-pentru-dependenti",
+          "segmentSlug":"sprijin-nu-pedeapsa-pentru-dependenti",
           "segment_visual":"segment-health-05-sprijin-nu-pedeapsa-pentru-dependenti",
           "title":"Sprijin nu pedeapsa pentru dependenti",
           "description":"<p>Persoanele dependente au nevoie de sprijin pe termen lung, de înțelegere din partea comunității și de încredere în cei la care apelează.</p><p>Tulburările din sfera dependenței nu ar trebui să definească persoanele care trec prin astfel de greutăți, însă, scăpate de sub control, ele pot ajunge să le acapareze viața și să îi afecteze pe cei din jur.</p><p>Este o problemă deosebit de frecventă și, din păcate, foarte puțin înțeleasă. Dependența trebuie privită ca o tulburare mentală, nu ca o slăbiciune morală sau lipsă de voință, astfel că ne concentrăm atenția pe aspectele care pot fi schimbate și îmbunătățite în abordarea și tratarea dependenților.</p>",
@@ -1232,7 +1232,7 @@ const data = {
           "projects":[
             {
               "id":1,
-              "project_slug":"project-slug",
+              "projectSlug":"project-slug",
               "title":"proiect title",
               "description":"description 1",
               "link":"",
@@ -1264,7 +1264,7 @@ const data = {
         },
         {
           "id":3,
-          "highway_slug":"spitale-functionale",
+          "segmentSlug":"spitale-functionale",
           "segment_visual":"segment-health-04-spitale-functionale",
           "title":"Spitale funcționale",
           "description":"<p>Managementul spitalelor reprezintă o provocare instituțională complexă de ale cărei rezultate depinde buna tratare a pacienților. Un sistem funcțional este cel care poate prelua și trata eficient atât cazurile de zi cu zi, cât și situațiile critice apărute în urma producerii unui dezastru de orice natură.</p><p>Eficiența sistemului medical este o consecință firească a unor fluxuri interne corect executate care au loc dincolo de interfața cu pacientul.</p><p>În România, drumul către o asemenea eficacitate este unul anevoios și perfectibil, astfel că ne asumăm responsabilitatea de a cerceta și de a veni în sprijinul autorităților și al pacienților cu produse tehnologice destinate unei mai bune organizări între instituțiile sanitare.</p>",
@@ -1293,7 +1293,7 @@ const data = {
           "projects":[
             {
               "id":1,
-              "project_slug":"project-slug",
+              "projectSlug":"project-slug",
               "title":"proiect title",
               "description":"description 1",
               "link":"",
@@ -1325,7 +1325,7 @@ const data = {
         },
         {
           "id":4,
-          "highway_slug":"servicii-de-sanatate-eficiente",
+          "segmentSlug":"servicii-de-sanatate-eficiente",
           "segment_visual":"segment-health-03-servicii-de-sanatate-eficiente",
           "title":"Servicii de sănătate eficiente",
           "description":"<p>Accesul la servicii funcționale de sănătate reprezintă o nevoie fundamentală a oricărei societăți, indiferent că discutăm despre nivelul de prevenție, intervențiile de urgență sau tratamentele anevoioase pe termen lung.</p><p>În plan local, comunitățile au de parcurs un drum dificil chiar și în ceea ce privește accesul la servicii medicale de bază. Barierele geografice, financiare și de cunoaștere împiedică membri ai societății să beneficieze de servicii ce intră sub incidența drepturilor fiecărui cetățean.</p><p>Ne uităm la toate aceste aspecte și dezvoltăm instrumente tehnologice care să funcționeze în sprijinul pacienților pentru a fluidiza întregul sistem.</p>",
@@ -1354,7 +1354,7 @@ const data = {
           "projects":[
             {
               "id":1,
-              "project_slug":"project-slug",
+              "projectSlug":"project-slug",
               "title":"proiect title",
               "description":"description 1",
               "link":"",
@@ -1386,7 +1386,7 @@ const data = {
         },
         {
           "id":5,
-          "highway_slug":"sprijin-pentru-cei-grav-bolnavi",
+          "segmentSlug":"sprijin-pentru-cei-grav-bolnavi",
           "segment_visual":"segment-health-02-sprijin-pentru-cei-grav-bolnavi",
           "title":"Sprijin pentru cei grav bolnavi",
           "description":"<p>Persoanele care suferă de boli cronice, cum ar fi diabetul, cancerul, hepatita sau bolile cardiovasculare au nevoie de asistență medicală de lungă durată și de monitorizare permanentă. Specificul acestor boli și gravitatea simptomelor schimbă configurația vieții celor care suferă de ele, dar și a familiilor lor, ceea ce duce la vulnerabilități din punct de vedere psihic, emoțional și financiar. Analizăm întreaga infrastructură sanitară care se adresează nevoilor lor și ne propunem să aducem în discuție nevoia de resurse umane bine pregătite și necesitatea unor mecanisme funcționale și la îndemâna pacienților.</p>",
@@ -1415,7 +1415,7 @@ const data = {
           "projects":[
             {
               "id":1,
-              "project_slug":"project-slug",
+              "projectSlug":"project-slug",
               "title":"proiect title",
               "description":"description 1",
               "link":"",
@@ -1447,7 +1447,7 @@ const data = {
         },
         {
           "id":6,
-          "highway_slug":"grija-pentru-sanatatea-mamei-si-a-copilului",
+          "segmentSlug":"grija-pentru-sanatatea-mamei-si-a-copilului",
           "segment_visual":"segment-health-01-grija-pentru-sanatatea-mamei-si-a-copilului",
           "title":"Grija pentru sanatatea mamei si a copilului",
           "description":"<p>Sarcina și primele luni de viață ale unui copil reprezintă momente-cheie în viața oricărui părinte la început de drum. Provocările sunt numeroase: de la perioada de învățare accelerată pentru părinți și riscuri medicale până la vulnerabilități psihologice și financiare.</p><p>Sistemul sanitar ne-a pus adesea în fața unor imagini dezolante, însă lucrurile pot fi schimbate cu dedicare și cu soluții bine implementate care să ofere sprijinul și îndrumarea necesare pentru a remedia punctele cele mai dureroase pentru toți actorii implicați.</p>",
@@ -1476,7 +1476,7 @@ const data = {
           "projects":[
             {
               "id":1,
-              "project_slug":"project-slug",
+              "projectSlug":"project-slug",
               "title":"proiect title",
               "description":"description 1",
               "link":"",
@@ -1526,7 +1526,7 @@ const data = {
       "highway_segment":[
         {
           "id":1,
-          "highway_slug":"acces-la-cultura",
+          "segmentSlug":"acces-la-cultura",
           "segment_visual":"segment-participation-09-acces-la-cultura",
           "title":"Acces la cultura",
           "description":"<p>Cultura este un factor determinant în creșterea calității vieții, făcând-o mai plină de sens, mai frumoasă și mai armonioasă. Pentru creatori, uneltele digitale pot să asigure o gestionare mai bună a resurselor, în timp ce pentru consumatorii de cultură, tehnologia poate reprezenta o cale ușoară prin care pot avea acces la producții artistice.</p>",
@@ -1540,7 +1540,7 @@ const data = {
           "projects":[
             {
               "id":1,
-              "project_slug":"theater-hub",
+              "projectSlug":"theater-hub",
               "title":"Theater Hub",
               "subtitle":"Spațiu virtual pentru profesioniștii teatrului",
               "description":"<p>Theater Hub este o platformă online pentru scena de teatru din România. Acest spațiu virtual îi susţine pe actori să îşi creeze o prezență online şi să își promoveze spectacolele, încurajând şi alți tineri să își urmeze pasiunea pentru arta teatrală. Mai mult, platforma își propune să reducă distanța dintre public și actori și să îi ajute să colaboreze. Actorii și trupele de teatru independent pot cere ajutor dacă au nevoie de specialiști în promovare, de resurse, decoruri etc., pentru a încuraja oamenii de business și freelancerii să contribuie activ la susținerea inițiativelor culturale. Prin integrarea cu alte platforme dezvoltate de Code for Romania, Theater Hub își dorește ca pe viitor să ofere și informații utile pentru profesioniștii din domeniul actoriei, cum ar fi resurse legislative sau referitoare la finanțări europene.</p>",
@@ -1554,7 +1554,7 @@ const data = {
         },
         {
           "id":2,
-          "highway_slug":"jurnalisti-eficienti",
+          "segmentSlug":"jurnalisti-eficienti",
           "segment_visual":"segment-participation-08-jurnalisti-eficienti",
           "title":"Jurnalisti eficienti",
           "description":"<p>Rolul fundamental al presei este acela de a monitoriza acțiunile factorilor de decizie, observând neregulile și informând publicul. 'Câinele de pază al democrației' trece în ultimii ani printr-o perioadă de transformare și reinventare, fiind în căutarea acelor instrumente digitale prin care să poată răspunde exigențelor actuale.</p>",
@@ -1583,7 +1583,7 @@ const data = {
           "projects":[
             {
               "id":1,
-              "project_slug":"romania-incognito",
+              "projectSlug":"romania-incognito",
               "title":"România Incognito",
               "subtitle":"Comunicare securizată între jurnaliști și sursele lor protejate",
               "description":"<p>Lipsa unui canal de comunicare securizat,  care ar putea oferi anonimatul tuturor celor care doresc să trimită informații sensibile către mass-media, a descurajat sursele din România, făcându-i pe oameni să fie reticenți în raportarea faptelor de corupție sau a fraudelor. </p> <p>Romania Incognito este o platformă care funcționează ca o adresă de e-mail electronică securizată între surse și media sau ONG-ul către care se dorește trimiterea de informații. Nimeni, dacă nu se decide altfel, nu poate urmări activitatea unui cetățean în platformă. Singura persoană care deține cheia de comunicare cu jurnaliștii sau diversele ONG-uri este inițiatorul care poate fi contactat numai dacă el decide să continue conversația. Sperăm că, făcând acest instrument disponibil, mai mulți oameni, care nu sunt suficient de pricepuți pentru a utiliza metode complexe de criptare, vor raporta acum despre probleme grave. Încurajăm și jurnaliștii și ONG-urile să își protejeze sursele prin utilizarea Incognito. </p>",
@@ -1614,7 +1614,7 @@ const data = {
         },
         {
           "id":3,
-          "highway_slug":"primarii-functionale",
+          "segmentSlug":"primarii-functionale",
           "segment_visual":"segment-participation-07-primarii-functionale",
           "title":"Primării funcționale",
           "description":"<p>Primăriile și celelalte autorități locale sunt printre primele instituții cu care cetățenii au contact în relația lor cu statul. Nevoia bunei funcționări prin procese interne este cu atât mai intens resimțită. Funcționarea bună, în primul rând la nivel intern, va face în mod natural ca interacțiuni dificile ale cetățenilor cu primăriile să devină mai ușoare și mai eficiente.</p>",
@@ -1643,7 +1643,7 @@ const data = {
           "projects":[
             {
               "id":1,
-              "project_slug":"project-slug",
+              "projectSlug":"project-slug",
               "title":"proiect title",
               "subtitle":"ceva frumows",
               "description":"description 1",
@@ -1674,7 +1674,7 @@ const data = {
         },
         {
           "id":4,
-          "highway_slug":"institutii-centrale-functionale",
+          "segmentSlug":"institutii-centrale-functionale",
           "segment_visual":"segment-participation-06-institutii-centrale-functionale",
           "title":"Institutii centrale functionale",
           "description":"<p>Pentru a putea răspunde nevoilor cetățenilor și a oferi servicii publice de calitate, instituțiile centrale trebuie să aibă întâi procese clare și eficiente prin care să își gestioneze activitatea internă. Digitalizarea poate îmbunătăți felul în care instituțiile funcționează și comunică unele cu altele, făcându-le nu doar mai transparente, ci și mai apropiate de nevoile reale ale cetățenilor.</p>",
@@ -1703,7 +1703,7 @@ const data = {
           "projects":[
             {
               "id":1,
-              "project_slug":"project-slug",
+              "projectSlug":"project-slug",
               "title":"proiect title",
               "subtitle":"ceva frumows",
               "description":"description 1",
@@ -1734,7 +1734,7 @@ const data = {
         },
         {
           "id":5,
-          "highway_slug":"institutii-centrale-functionale",
+          "segmentSlug":"institutii-centrale-functionale",
           "segment_visual":"segment-participation-06-institutii-centrale-functionale",
           "title":"Jurnaliști eficienți",
           "description":"<p>Rolul fundamental al presei este acela de a monitoriza acțiunile factorilor de decizie, observând neregulile și informând publicul. „Câinele de pază al democrației” trece în ultimii ani printr-o perioadă de transformare și reinventare, fiind în căutarea acelor instrumente digitale prin care să poată răspunde exigențelor actuale.</p><p>Ne propunem să dezvoltăm soluții tehnologice care să vină în sprijinul jurnaliștilor, instrumente care pot fi utilizate în anchete, instrumente de comunicare sigură cu sursele sau de vizualizare a datelor.</p>",
@@ -1763,7 +1763,7 @@ const data = {
           "projects":[
             {
               "id":1,
-              "project_slug":"project-slug",
+              "projectSlug":"project-slug",
               "title":"proiect title",
               "subtitle":"ceva frumows",
               "description":"description 1",
@@ -1794,7 +1794,7 @@ const data = {
         },
         {
           "id":6,
-          "highway_slug":"o-mai-buna-relatie-cetatean-stat",
+          "segmentSlug":"o-mai-buna-relatie-cetatean-stat",
           "segment_visual":"segment-participation-05-o-mai-buna-relatie-cetatean-stat",
           "title":"O mai buna relatie cetetean-stat",
           "description":"<p>În relația cu statul care ar trebui să le servească interesele, mulți cetățeni se confruntă cu un sentiment de frustrare, generat adesea de ineficiența cu care autoritățile  își îndeplinesc misiunea misiunea.</p> <p>Pentru a avea un stat mai deschis și mai operativ în apărarea intereselor cetățenilor, ne propunem să digitalizăm procesele care, depinzând de procese bazate pe hârtie și dosare cu șină, consumă timp și resurse, deteriorînd relația dintre cetățeni și instituțiile statului</p>.",
@@ -1823,7 +1823,7 @@ const data = {
           "projects":[
             {
               "id":1,
-              "project_slug":"website-builder-minister",
+              "projectSlug":"website-builder-minister",
               "title":"Website Builder Minister",
               "subtitle":"Site-uri ușor de construit pentru toate ministerele",
               "description":"<p>În România, deși există standarde cu privire la conținutul obligatoriu, majoritatea website-urilor guvernamentale sunt greu de utilizat, făcând dificil accesul la informațiile și serviciile necesare cetățenilor. Website builder minister este soluția care va oferi tuturor ministerelor posibilitatea de a-și construi un site care să conțină informațiile esențiale și relevante la nivel național pentru o bună comunicare cu cetățenii.</p>",
@@ -1852,7 +1852,7 @@ const data = {
             },
             {
               "id":2,
-              "project_slug":"website-builder-primarie",
+              "projectSlug":"website-builder-primarie",
               "title":"Website Builder Primărie",
               "subtitle":"Site-uri ușor de construit pentru toate primăriile din România",
               "description":"<p>În România, deși există standarde cu privire la conținutul obligatoriu, majoritatea website-urilor primăriilor sunt greu de utilizat, făcând dificil accesul la informațiile și serviciile necesare cetățenilor.  Website builder primărie este soluția care va oferi tuturor primăriilor posibilitatea de a-și construi un site care să conțină informațiile esențiale și relevante la nivel local pentru o bună comunicare cu cetățenii.</p>",
@@ -1881,7 +1881,7 @@ const data = {
             },
             {
               "id":3,
-              "project_slug":"acces-544",
+              "projectSlug":"acces-544",
               "title":"Acces 544",
               "subtitle":"Acces ușor la informații publice",
               "description":"<p>Accesul la informații publice prin legea 544 este una dintre marile victorii din istoria recentă în efortul de transparentizare a instituțiilor din România. Cu toate acestea, accesarea acestor informații poate fi în continuare o problemă, pentru cetățeni, procesul fiind unul dificil inclusiv pentru funcționarii care trebuie să le pună la dispoziție. în lipsa unei soluții unice care să transparentizeze și să eficientizeze procesul de cerere și livrare a acestor informații. Acces 544 este soluția care va îmbunătăți accesul cetățenilor la informațiile publice prevăzute de lege.</p>",
@@ -1910,7 +1910,7 @@ const data = {
             },
             {
               "id":4,
-              "project_slug":"biroul-de-propuneri",
+              "projectSlug":"biroul-de-propuneri",
               "title":"Biroul de Propuneri",
               "subtitle":"Portalul unde cetățenii pot trimite sugestii administrației locale",
               "description":"<p>Pentru cetățenii care vor să se implice în viața societății și să mențină o legătură cu autoritățile locale,  modalitatea și locul în care pot trimite în scris propuneri, sugestii, opinii cu valoare de recomandare nu sunt mereu la îndemână. Biroul de propuneri este platforma prin care cetățenii vor putea trimite sugestii de îmbunătățire a activității pentru administrația locală, le vor putea urmări și vor putea interacționa și dezbate propunerile făcute până în acel moment. Soluția urmărește modelul <em>Consul</em>, implementat deja în 135 de orașe din 35 de țări.</p>",
@@ -1939,7 +1939,7 @@ const data = {
             },
             {
               "id":5,
-              "project_slug":"bugetare-participativa",
+              "projectSlug":"bugetare-participativa",
               "title":"Bugetare Participativă",
               "subtitle":"Portalul unde cetățenii au un cuvânt de spus privind bugetul local",
               "description":"<p>Bugetul participativ permite cetăţenilor să se implice în mod direct în deciziile luate privind dezvoltarea localităţii lor. În fiecare an, primăria poate aloca o parte din bugetul anual al localității, după care toți locuitorii pot veni cu propuneri de utilizare a acestor sume. Bugetare Participativă va fi o platformă deschisă tuturor primăriilor care vor să își implice cetățenii în luarea acestor decizii importante. Soluția urmărește modelul <em>Consul</em>, implementat deja în 135 de orașe din 35 de țări.</p>",
@@ -1968,7 +1968,7 @@ const data = {
             },
             {
               "id":6,
-              "project_slug":"public-report",
+              "projectSlug":"public-report",
               "title":"Public Report",
               "subtitle":"Semnalare de probleme către autoritățile locale",
               "description":"<p>Deși multe dintre autoritățile locale se declară deschise raportării problemelor întâlnite de către cetățeni, în majoritatea localităților nu există un mod simplu și transparent prin care cetățenii pot semnala probleme și urmări răspunsul și stadiul soluționării problemei semnalate.  Public Report este aplicația web și mobilă prin care cetățenii vor putea semnala, printr-un ticket system, problemele întâmpinate către autoritățile locale. Câteva localități din România au implementat propriile soluții cu acest scop, dar ele pot fi îmbunătățite și transformate în instrumente mult mai puternice. Public Report urmărește modelul primăriei New York.</p>",
@@ -1997,7 +1997,7 @@ const data = {
             },
             {
               "id":7,
-              "project_slug":"te-reprezinta",
+              "projectSlug":"te-reprezinta",
               "title":"Te reprezintă",
               "subtitle":"Află cine sunt toți reprezentanții tăi și intră în legătură cu ei",
               "description":"<p>Pentru a putea avea o relație reală cu cei care îi reprezintă, este necesar ca, în primul rând, fiecare cetățean să poată vedea, plecând de la localitatea sa, care sunt reprezentanții săi în funcții publice. Te Reprezintă va fi locul unde fiecare va putea vedea cine sunt autoritățile care îl reprezintă de la nivel local până la cel mai înalt nivel. Tot aici, cei interesați vor putea să îi contacteze, să vadă programul lor și chiar să se înscrie pentru o audiență.</p>",
@@ -2028,7 +2028,7 @@ const data = {
         },
         {
           "id":7,
-          "highway_slug":"o-societate-civila-puternica",
+          "segmentSlug":"o-societate-civila-puternica",
           "segment_visual":"segment-participation-04-societate-civila-puternica",
           "title":"O societate civila puternica",
           "description":"<p>ONG-urile lucrează zi de zi pentru ca societatea în care trăim să fie mai funcțională. Orice problemă a lor devine, implicit și o problemă a noastră. Instrumentele digitale pot veni în sprijinul societății civile, oferind nu doar eficiență, ci și transparență și reprezentativitate sectorului ONG.</p><p>Pe lângă îmbunătățirea proceselor interne ale asociațiilor și organizațiilor din societatea civilă, tehnologia poate facilita și accesul tuturor la serviciile oferite de către acestea.</p>",
@@ -2057,7 +2057,7 @@ const data = {
           "projects":[
             {
               "id":1,
-              "project_slug":"Registru-ONG",
+              "projectSlug":"Registru-ONG",
               "title":"Registrul Național ONG",
               "subtitle":"Modernizarea interfeței dintre stat și societatea civilă",
               "description":"<p>Registrul național al ONG-urilor este în acest moment un instrument nefuncțional, lucru care duce la absența unor date de încredere privind funcționarea sectorului nonprofit. Pentru ONG-uri, multe dintre procedurile birocratice care depind de interacțiuni cu acest registru sunt dificile și se confruntă cu erori.  Prin refacerea și îmbunătățirea sa, vom avea la dispoziție o soluție modernă, utilă, construită pentru a  oferi o imagine clară a societății civile românești.</p>",
@@ -2086,7 +2086,7 @@ const data = {
             },
             {
               "id":2,
-              "project_slug":"ONG-hub",
+              "projectSlug":"ONG-hub",
               "title":"ONG Hub",
               "subtitle":"Modernizarea interfeței dintre stat și societatea civilă",
               "description":"<p>Nu toate ONG-urile dispun de resurse tehnice, materiale sau umane suficient de specializate și diverse care le sunt necesare pentru a-și putea desfășura în condiții bune activitatea. Iar sectorul ONG are nevoie de soluții specifice, simplificate și centralizate. ONG Hub va fi platforma unde sectorul non-profit va putea accesa dintr-un singur loc toată infrastructura de soluții digitale pe care Code for Romania le pune la dispoziția societății civile (Redirecționează, RoHelp, VotONG etc.).</p>",
@@ -2115,7 +2115,7 @@ const data = {
             },
             {
               "id":3,
-              "project_slug":"website-factory",
+              "projectSlug":"website-factory",
               "title":"Website Factory",
               "subtitle":"Site-uri ușor de construit pentru toate ONG-urile din România",
               "description":"<p>Pentru cele mai multe dintre ONG-uri nu există o soluție simplă, utilizabilă de către persoane fără aptitudini tehnice și adaptată nevoilor lor specifice. Website factory va fi o soluție care va permite oricărui ONG să își construiască ușor un website care să ofere principalele tipuri de conținut de care ONG-urile au nevoie, soluții pentru prezentarea rapoartelor, pentru strângere de fonduri și comunicare cu publicurile-țintă etc.</p>",
@@ -2144,7 +2144,7 @@ const data = {
             },
             {
               "id":4,
-              "project_slug":"redirectioneaza",
+              "projectSlug":"redirectioneaza",
               "title":"Redirecționează",
               "subtitle":"Colectarea formularelor prin care poți redirecționa 3,5% din impozit, digitalizată",
               "description":"<p>În fiecare an, orice cetățean poate alege să redirecționeze 3.5% din impozitul pe venit către o cauză în care crede și pe care vrea să o susțină. Cu toate aceste, majoritatea nu o fac niciodată din două motive: un proces greoi și lipsa informațiilor centralizate cu privire la ONG-urile pe care le-ar putea susține. Mai mult, și ONG-urile se confruntă cu dificultatea de a transmite mesajul legat de redirecționare către audiențe foarte largi, într-un mod simplu, fără consum de resurse suplimentare. Redirecționeaza.ro conține informații despre peste 1.200 de ONG-uri care pot fi susținute prin simpla redirecționare a 3.5% din impozitul pe venit. Prin digitalizarea formularului 230 am eliminat nevoia unui contact direct între organizații și susținători, multe organizații neavând la dispoziție resursele necesare pentru a desfășura acțiuni publice offline.</p>",
@@ -2173,7 +2173,7 @@ const data = {
             },
             {
               "id":5,
-              "project_slug":"rohelp",
+              "projectSlug":"rohelp",
               "title":"RoHelp",
               "subtitle":"Platformă de colectare de resurse pentru toate ONG-urile din România",
               "description":"<p>RoHelp este o platformă digitală completă pusă la dispoziția asociațiilor și ONG-urilor din România pentru a colecta resursele de care acestea au mare nevoie. Cu ajutorul acestei platforme utilizatorii pot vedea care sunt cele mai presante nevoi ale organizațiilor de pe teritoriul țării și pot putea alege către ce cauză să doneze sau la ce eforturi să contribuie.</p>",
@@ -2202,7 +2202,7 @@ const data = {
             },
             {
               "id":6,
-              "project_slug":"paul",
+              "projectSlug":"paul",
               "title":"Paul",
               "subtitle":"Manager de baze de date pentru ONG-uri",
               "description":"<p>În funcție de specificul său, fiecare asociație lucrează cu instrumente multiple și baze de date care nu comunică între ele, fiind astfel dificil pentru cei care operează cu aceste date să extragă informații utile și să poată avea mai multă claritate în managementul publicurilor-țintă, al donatorilor și tuturor celorlalți stakeholderi. Paul este asistentul ONG-urilor, specializat în lucrul cu bazele de date, fiind un instrument open-source ușor de utilizat și adaptabilă nevoilor fiecărei organizații.</p>",
@@ -2231,7 +2231,7 @@ const data = {
             },
             {
               "id":7,
-              "project_slug":"alex",
+              "projectSlug":"alex",
               "title":"Alex",
               "subtitle":"Asistentul Open-Source pentru managementul bugetului organizațiilor",
               "description":"<p>În lipsa unor servicii specializate, pentru multe dintre ONG-urile din România, managementul și planificarea bugetelor poate fi o problemă consumatoare de resurse și timp. Alex este asistentul open-source care ajută societatea civilă să își gestioneze mai bine resursele financiare. Fiecare asociație va putea menține separat contabilitatea pentru fiecare contract de sponsorizare, având apoi posibilitatea de a face ușor raportarea bilanțului.</p>",
@@ -2260,7 +2260,7 @@ const data = {
             },
             {
               "id":8,
-              "project_slug":"teo",
+              "projectSlug":"teo",
               "title":"Teo",
               "subtitle":"Asistentul open-source pentru managementul comunităților de voluntari",
               "description":"<p>În activitatea lor, ONG-urile lucrează cu numeroși voluntari cu abilități și disponibilități diverse. Voluntarii sunt o componentă esențială în viața societății civile, dar numai managementul lor poate fi o activitate consumatoare de timp și resurse prețioase. Teo este asistentul open-source care ajută societatea civilă să își gestioneze mai bine comunitățile de voluntari, contractele de voluntari și bazele de date care îi conțin.</p>",
@@ -2289,7 +2289,7 @@ const data = {
             },
             {
               "id":9,
-              "project_slug":"funding-call",
+              "projectSlug":"funding-call",
               "title":"Funding Call",
               "subtitle":"Platformă de call-uri de finanțare deschisă tuturor",
               "description":"<p>Mulți dintre finanțatorii care organizează call-uri de finanțare își construiesc sau administrează platforme complexe care au doar acest scop, unele dintre ele nefiind complet funcționale sau prezentând breșe de funcționare. Funding Call va fi o platformă de call-uri de finanțare deschisă oricărui finanțator, prin care aceștia vor putea, cu un minim de costuri, să organizeze aceste call-uri de în mod simplu, fără să fie nevoie să își construiască propriile soluții costisitoare și având la dispoziție toate funcționalitățile de care au nevoie.</p>",
@@ -2318,7 +2318,7 @@ const data = {
             },
             {
               "id":10,
-              "project_slug":"vot-ong",
+              "projectSlug":"vot-ong",
               "title":"Vot ONG",
               "subtitle":"Alegeri transparente pentru reprezentanții societății civile",
               "description":"<p>VotONG este o platformă care facilitează procesul de desemnare a reprezentanților societății civile în diferite instituții publice precum Consiliul Economic și Social, Consiliul Național pentru Combaterea Discriminării (CNCD), Consiliul Suprem al Magistraturii și alte instituții. În platformă se vor organiza runde electorale în care organizațiile neguvernamentale pot nominaliza proprii candidați, pot susține deschis o candidatură și pot vota în cadrul alegerilor deschise. </p>",
@@ -2347,7 +2347,7 @@ const data = {
             },
             {
               "id":11,
-              "project_slug":"centru-civic",
+              "projectSlug":"centru-civic",
               "title":"Centru Civic",
               "subtitle":"Toate aplicațiile civice din România într-un singur loc",
               "description":"<p>Centru Civic este primul centralizator al serviciilor pe care societatea civilă le pune la dispoziția cetățenilor români. Soluția a pornit ca un agregator al tuturor aplicațiilor civice dezvoltate de ONG-uri, instituții sau cetăţeni din România. În noua versiune, Centru Civic va deveni locul unde, printr-o căutare simplă, fiecare cetățean va avea la dispoziție informațiile necesare despre toate serviciile care vizează o anumită problemă, scoțând în evidență importanța și amploarea sectorului non-profit în societatea românească.</p>",
@@ -2376,7 +2376,7 @@ const data = {
             },
             {
               "id":12,
-              "project_slug":"dateONG",
+              "projectSlug":"dateONG",
               "title":"DateONG",
               "subtitle":"Toate informațiile despre sectorul ONG din România",
               "description":"<p>Sectorul ONG este unul dintre principalii factori care au influențat, prin eforturi susținute, creșterea transparenței din partea instituțiilor publice. Principiul transparenței trebuie să se aplice inclusiv societății civile și, pentru aceasta, DateONG va fi platforma care va aduce într-un singur loc informațiile esențiale despre sectorul ONG din România.</p>",
@@ -2405,7 +2405,7 @@ const data = {
             },
             {
               "id":13,
-              "project_slug":"finantari-publice",
+              "projectSlug":"finantari-publice",
               "title":"Finanțări Publice",
               "subtitle":"Platformă de call-uri de finanțare deschisă instituțiilor publice",
               "description":"<p>Multe dintre instituțiile publice organizează call-uri de finanțare, însă organizarea acestora poate fi dificilă și costisitoare. Platforma Finanțări publice va permite tuturor instituțiilor publice să organizeze, fără expertiză tehnică și costuri nejustificate, astfel de call-uri transparente, ușor verificabile și  accesibile tuturor.</p>",
@@ -2436,7 +2436,7 @@ const data = {
         },
         {
           "id":8,
-          "highway_slug":"alegeri-corecte-alegatori-informati",
+          "segmentSlug":"alegeri-corecte-alegatori-informati",
           "segment_visual":"segment-participation-01-alegeri-corecte-alegatori-informati",
           "title":"Alegeri corecte. Alegători informați.",
           "description":"<p>Dacă vrem o democrație funcțională și reprezentativă, avem nevoie de o participare semnificativă și informată a unui număr cât mai mare de cetățeni la un proces transparent și corect de alegeri. Iar tehnologia poate oferi soluții care să asigure buna desfășurare a procesului de votare, precum și o mai bună informare a alegătorilor.</p><p>Fără alegeri libere și corecte, nu există democrație.</p>",
@@ -2450,7 +2450,7 @@ const data = {
           "projects":[
             {
               "id":1,
-              "project_slug":"vot-romania",
+              "projectSlug":"vot-romania",
               "title":"Vot România",
               "subtitle":"Ghidul complet al alegătorului din România",
               "description":"<p>Vot România este o platformă care facilitează accesul cetățenilor la informațiile privind alegerile, contribuind la o mai mare transparență a procesului electoral. Accesând votromania.ro toți cetățenii pot să verifice, alături de documentele și procedurile necesare pentru a vota, și care este secția la care sunt arondați în funcție de statutul fiecăruia. Website-ul va fi disponibil cu informații actualizate la fiecare nouă rundă electorală. Conținutul prezent pe platforma Vot România este realizat în parteneriat cu experții electorali ai Observatorului Electoral.</p>",
@@ -2473,7 +2473,7 @@ const data = {
             },
             {
               "id":2,
-              "project_slug":"vot-diaspora",
+              "projectSlug":"vot-diaspora",
               "title":"Vot Diaspora",
               "subtitle":"Ghidul complet al alegătorului din diaspora",
               "description":"<p>Vot Diaspora este un tutorial online de informare a românilor din străinătate cu privire la regulile de înscriere pentru a vota la alegerile parlamentare, prezidențiale și europarlamentare. Vot Diaspora a apărut din dorința de a prezenta într-o formă simplă și interactivă pașii pe care trebuie să îi urmeze românii pentru a putea vota din străinătate. La alegerile europarlamentare din 2019, aplicația a fost utilizată de mai mult de 25% din totalul alegătorilor din diaspora, iar la ultima rundă a alegerilor prezidențiale, peste 185.000 alegători s-au informat via votdiaspora.ro. Prin platformă, toți cetățenii vor putea să verifice documentele și procedurile necesare pentru a vota în secție sau prin corespondență dacă se află în afara țării, dar și care este secția la care sunt arondați în funcție de statutul fiecăruia. Website-ul va fi disponibil cu informații actualizate la fiecare nouă rundă electorală.</p>",
@@ -2496,7 +2496,7 @@ const data = {
             },
             {
               "id":3,
-              "project_slug":"count-us-in",
+              "projectSlug":"count-us-in",
               "title":"Count Us In",
               "subtitle":"O estimare precisă a numărului românilor din diaspora",
               "description":"<p>Probabil cea mai mare criză a democrației românești din ultimii ani este incapacitatea statului de a asigura dreptul la vot al românilor care locuiesc în străinătate. Atât alegerile prezidențiale din 2014, cât și alegerile europarlamentare din 2019 au arătat cum români care trăiau în Europa au stat la coadă ore în șir pentru a vota la secțiile de votare înființate în țările lor de reședință, unora fiindu-le refuzat dreptul de vot din cauza lipsei de capacitate a secțiilor. Cauza fundamentală a acestui fenomen, indicată de majoritatea funcționarilor și instituțiilor publice, este incapacitatea statului de a evalua numărul potențialilor alegători care trăiesc în străinătate. Count Us In este o aplicație web care va realiza o estimare mult mai precisă a numărului românilor din diaspora, printr-un proces de crowdsourcing care vizează datele oficiale din fiecare localitate.</p>",
@@ -2519,7 +2519,7 @@ const data = {
             },
             {
               "id":4,
-              "project_slug":"monitorizare-vot",
+              "projectSlug":"monitorizare-vot",
               "title":"Monitorizare Vot",
               "subtitle":"Digitalizarea procesului de observare a alegerilor",
               "description":"<p>Participarea politică e fundamentul reprezentării, care este la rândul său fundamentul unui stat care își respectă cetățenii. Vrem o lume în care fiecare vot e numărat și în care fiecare vot contează. De aceea credem că trebuie să avem întotdeauna soluțiile optime pentru a face sistemul de vot sigur și de încredere. Monitorizare Vot este soluția tehnologică utilizată de către aproape toți observatorii independenți acreditați începând cu alegerile din 2016. O soluție care a transformat felul în care sunt observate alegerile din România și care ne ajută să stăm cu ochii pe alegeri pentru a reacționa la prima sesizare de fraudă în ziua votului.</p>",
@@ -2542,7 +2542,7 @@ const data = {
             },
             {
               "id":5,
-              "project_slug":"ochii-pe-vot",
+              "projectSlug":"ochii-pe-vot",
               "title":"Ochii pe vot",
               "subtitle":"Un instrument pentru alegătorii care vor să raporteze nereguli în procesul de vot",
               "description":"<p>Cetățenii din România nu au un grad ridicat de implicare în procesul de votare, cei mai mulți fiind interesați și atenți doar în jurul campaniei electorale fără a depune un efort real de informare cu privire la opțiunile pe care le au la dispoziție. Ochii pe vot este o platformă dedicată cetățenilor români din țară și din diaspora prin care pot să raporteze nereguli cu privire la orice runda de alegeri atât în ziua votului, cât și în campania electorala. Utilizatorii vor primi informații complete și corecte, având posibilitatea de a face ușor sesizări. Scopul platformei este de a crește gradul de implicare al cetățenilor în procesul de votare și de atragere a unui număr cât mai mare de observatori pentru alegeri, extinzând monitorizarea corectitudinii întregului proces pe durata campaniei electorale.</p>",
@@ -2565,7 +2565,7 @@ const data = {
             },
             {
               "id":6,
-              "project_slug":"rezultate-vot",
+              "projectSlug":"rezultate-vot",
               "title":"Rezultate Vot",
               "subtitle":"Rezultate puse în context pentru fiecare rundă electorală",
               "description":"<p>O democrație se sprijină pe cetățeni critici și informați. Rezultate Vot își propune să informeze și să dezvolte spiritul critic al alegătorilor prin contextualizarea informației electorale însoțite de analize apartinice ale acesteia. Această platformă este locul în care oricine poate accesa toate informațiile relevante ale alegerilor din România. Platforma conține: hărți detaliate cu prezența la vot la nivelul țării/județului, rezultatele parțiale ale alegerilor după închiderea urnelor, pe măsură ce ele sunt comunicate de autorități, informații din sistemul de monitorizare digitală a alegerilor, respectiv Monitorizare Vot, istoricul electoral al României pentru toate rundele de alegeri începând cu anul 1992 și un flux live de comentarii și analize realizate de sociologi din marile centre universitare din România.</p>",
@@ -2588,7 +2588,7 @@ const data = {
             },
             {
               "id":7,
-              "project_slug":"catalog-politic",
+              "projectSlug":"catalog-politic",
               "title":"Catalog Politic",
               "subtitle":"Catalogul persoanelor din funcții publice din România",
               "description":"<p>Catalog Politic este o platformă online care centralizează informațiile existente despre persoanele din funcții publice înalte din România. Scopul este de a pune la dispoziția cetățenilor datele din declarațiile de avere și interese, date despre activitatea politică și cele din cazierul juridic, prezentate într-un format ușor de vizualizat și pus în context. Mai mult, prin baze de date complete și ușor de utilizat, proiectul oferă jurnaliștilor și cercetătorilor suport în activitățile de documentare. Sursele datelor sunt: ANI, DNA, site-urile candidaților și site-urile instituțiilor statului precum și date culese manual.</p>",
@@ -2606,7 +2606,7 @@ const data = {
             },
             {
               "id":8,
-              "project_slug":"swipe-politics",
+              "projectSlug":"swipe-politics",
               "title":"Swipe Politics",
               "subtitle":"Vezi cine sunt politicienii din orașul tău",
               "description":"<p>Pe modelul aplicațiilor de tip matchmaking, propunem construirea unei aplicații mobile prin care, în funcție de locație, să primești date despre politicienii din orașul în care te afli. De exemplu, o persoană care se află în Bacău va putea vedea fișe de politicieni locali sau naționali relevanți, date despre activitatea lor politică/administrativă și vor putea naviga din aplicație către alte platforme cu informații relevante. Scopul acestui proiect este de a stimula implicarea cetățenilor cât mai mult în viața de zi cu zi a orașului lor și de a monitoriza facil politicienii care îi reprezintă aducând subiecte de interes către ei prin intermediul acestui <em>joc</em> de matchmaking.</p>",
@@ -2626,7 +2626,7 @@ const data = {
         },
         {
           "id":9,
-          "highway_slug":"date-deschise",
+          "segmentSlug":"date-deschise",
           "segment_visual":"segment-participation-02-date-deschise",
           "title":"Date deschise",
           "description":"<p>Transparența presupune, în primul rând acces liber și neîngrădit la date de interes public. Fără acces la date nu îi putem verifica pe cei care ne conduc. La rândul lor, cei care elaborează politici publice nu o pot face fără a înțelege cu adevărat fenomenele pe care vrem să le corectăm. Deciziile bune se iau pe baza accesului la date și informații , fie că este vorba despre cetățeni obișnuiți, de primari sau miniștri.</p> <p>Ne propunem să echipăm societatea civilă, comunitățile și administrația publică cu acele instrumente digitale care să îi ajute să ia cele mai bune decizii pentru orașele în care locuiesc. Pentru a le face cu adevărat utile, traducem datele în informație ușor de înțeles și îmbunătățim sistemele de colectare de date.</p>",
@@ -2655,7 +2655,7 @@ const data = {
           "projects":[
             {
               "id":1,
-              "project_slug":"data portal",
+              "projectSlug":"data portal",
               "title":"Data Portal",
               "subtitle":"Platformă de date deschise  și vizualizare de seturi de date",
               "description":"<p>Data Portal este o platformă de date deschise care își propune să digitalizeze și automatizeze seturile de date din societatea civilă pentru a crește gradul de informare al cetățenilor, pentru a putea încuraja dezvoltarea de proiecte și programe comunitare având la bază seturi de date corecte și coerente. Venim în sprijinul mass-media cu date transformate în informații pentru a construi o platformă unică de stocare a informațiilor utile pentru cetățeni.</p> <p>Platforma este ușor replicabilă la nivel de instituții locale și/sau centrale și permite customizarea importului seturilor de date specifice fiecărui actor care dorește să deschidă date publice.</p>",
@@ -2684,7 +2684,7 @@ const data = {
             },
             {
               "id":2,
-              "project_slug":"data-scientists-hub",
+              "projectSlug":"data-scientists-hub",
               "title":"Data Scientists Hub",
               "subtitle":"Platformă colaborativă dedicată specialiștilor în analiza de date",
               "description":"<p>În prezent nu există o comunitate de specialiști în lucrul cu date în România. Cu atât mai puțin grupuri care să se implice în curățarea de date de interes public de care ar putea beneficia, în egală măsură, mediul de business, cetățenii obișnuiți și administrația publică. Acești specialiști sunt prezenți în universități, companii de consultanță sau companii IT, dar nu au o platformă dedicată unde să lucreze împreună la proiecte relevante.</p> <p>Data Scientists Hub este o platformă specializată, care facilitează dezvoltarea unei comunități de analiști de date în România, loc în care aceștia să poată lucra împreună pe analizarea, curățarea și publicarea de seturi de date prin colaborarea în redactarea de politici și lucrări de specialitate.</p>",
@@ -2713,7 +2713,7 @@ const data = {
             },
             {
               "id":3,
-              "project_slug":"declaratii-de-avere",
+              "projectSlug":"declaratii-de-avere",
               "title":"Declarații de Avere",
               "subtitle":"Digitalizare prin crowdsourcing a declarațiilor de avere",
               "description":"<p>Platforma Declarații de avere este un proiect care își propune să digitalizeze întreaga arhivă de declarații de avere ale politicienilor care ocupă funcții importante. Cu ajutorul unor mecanisme interactive și cu sprijinul unor instrumente de colectare de date, cetățenii vor putea contribui la digitalizarea întregii arhive de declarații din România. Mecanismul de validare a datelor colectate este construit astfel încât să putem colecta date cât mai curate într-o bază de date complexă care poate fi integrată apoi cu multiple metode de vizualizare.</p>",
@@ -2742,7 +2742,7 @@ const data = {
             },
             {
               "id":4,
-              "project_slug":"banii-din-politica",
+              "projectSlug":"banii-din-politica",
               "title":"Banii din Politică",
               "subtitle":"Vizualizare interactivă de date pe bugetele partidelor",
               "description":"<p>Conform legii, partidele politice sunt obligate să își deschidă datele cu privire la execuția lor bugetară. Aceste date sunt disponibile în Monitorul Oficial și pot fi consultate cu mare dificultate de cei interesați să le analizeze și să facă studii pe subiecte conexe. Banii din politică este un instrument de vizualizare de date prin care orice utilizator poate consulta toate informațiile disponibile public cu privire la bugetele partidelor și cum au fost cheltuite, în special în perioadele de campanie electorală. Proiectul va putea fi deschis pentru toți politicienii sau partidele care doresc să deschidă și mai multe informații către publicul larg.</p>",
@@ -2773,7 +2773,7 @@ const data = {
         },
         {
           "id":10,
-          "highway_slug":"legislatie-accesibila",
+          "segmentSlug":"legislatie-accesibila",
           "segment_visual":"segment-participation-03-legislatie-accesibila",
           "title":"Legislație accesibila",
           "description":"<p>Relația dintre stat și cetățean are la baza respectarea unui set de reguli, dar acest lucru nu se poate întâmpla în practică fără cunoașterea și înțelegerea legilor.</p> <p>Accesul liber la legislație este o nevoie, dar și un drept al cetățenilor. În același timp, simplul acces nu este suficient. Înțelegerea textului legii, deconstruirea procesului legislativ pentru publicul larg, creșterea transparenței și a gradului de participare a oamenilor la consultările publice, toate reprezintă  componente esențiale pentru un stat sănătos. Tehnologia ne poate ajuta pe toți să fim mai aproape de cei care construiesc sistemul și să înțelegem mai bine cum ne influențează viața și ce instrumente avem la dispoziție pentru a ne implica în luarea deciziilor la nivel legislativ.</p>",
@@ -2802,7 +2802,7 @@ const data = {
           "projects":[
             {
               "id":1,
-              "project_slug":"draft-legislativ",
+              "projectSlug":"draft-legislativ",
               "title":"Draft Legislativ",
               "subtitle":"Editare colaborativă și documentare în realizarea legilor",
               "description":"<p>Platforma Draft Legislativ este un instrument care are rolul de a ajuta instituțiile sau grupurile de experți în elaborarea de documente în mod colaborativ, de obținere facilă a avizărilor necesare, de a formata documentul după normele redactării de documente legislative și de publicare în formate multiple adecvate mai multor medii de stocare. Platforma poate fi integrată cu alte portaluri de legislație locală sau de consultare publică asigurând astfel rapiditate și ușurință în publicarea actelor normative.</p>",
@@ -2831,7 +2831,7 @@ const data = {
             },
             {
               "id":2,
-              "project_slug":"consultare-publica",
+              "projectSlug":"consultare-publica",
               "title":"Consultare Publică",
               "subtitle":"Consultare publică eficientă cu toți cetățenii unui oraș",
               "description":"<p>Platforma de consultare publică este un instrument digital care asigură participarea cetățenilor în procesul de elaborare de acte normative. Dincolo de posibilitatea de a transmite opinii și a dezbate online pe marginea propunerilor legislative, platforma integrează și un modul de urmărire a dezbaterilor publice cu transmisii live ale ședințelor de consultare, transcrierile discuțiilor și alte observații direct legate de subiectele aflate în atenția publicului. Din punct de vedere al administratorului platformei, aceasta este prevăzută cu mecanisme de centralizare și de informații primite pentru a ușura procesul de consolidare.</p>",
@@ -2860,7 +2860,7 @@ const data = {
             },
             {
               "id":3,
-              "project_slug":"expert-consultation",
+              "projectSlug":"expert-consultation",
               "title":"Expert Consultation",
               "subtitle":"Proces accesibil și eficient de consultare cu grupuri de experți",
               "description":"<p>Expert Consultation este un instrument digital care le permite grupurilor de experți să lucreze direct pe textul de lege, să contribuie cu feedback, propuneri, comentarii, să voteze și să amendeze anumite propuneri, articole sau comentarii ale altor participanți și apoi să consolideze automat documentul final. Acest instrument va permite astfel eficientizarea consultării cu experți dând timp suficient tuturor să își exprime opinia, eliminând birocrația inutilă și permițând accesul în timp real la aceeași informație pentru mii de oameni care altfel ar dialoga exclusiv cu un singur punct de contact. În același timp elimină și toată perioadă petrecută pe formatarea textului de lege, pe consolidarea comentariilor similare și eliminarea celor inutile sau irelevante.</p> <p>Mai mult, pentru a putea emite păreri avizate și documentate, instrumentul digital le permite contributorilor consultarea altor legi relevante direct în platformă.</p>",
@@ -2889,7 +2889,7 @@ const data = {
             },
             {
               "id":4,
-              "project_slug":"legi-in-lucru",
+              "projectSlug":"legi-in-lucru",
               "title":"Legi în Lucru",
               "subtitle":"Urmărirea proiectelor de lege, accesibilă fiecărui cetățean",
               "description":"<p>Legi în Lucru e o aplicație web gândită să ajute cetățenii interesați de procesul legislativ. Cu ajutorul aplicației, utilizatorii pot urmări felul în care legea evoluează, de la momentul în care e propusă și până la varianta promulgată. Astfel devine mult mai ușor de monitorizat cum evoluează legile pe parcursul procesului legislativ prin identificarea eventualelor probleme înainte ca o propunere legislativă să devină lege.</p> <p>Platforma permite utilizatorului să se aboneze la anumite instituții inițiatoare sau să urmărească una sau mai multe legi prin procesul legislativ. Acesta va fi notificat cu privire la orice schimbări aduse și va putea să fie la curent cu momentele în care un proiect de lege intră în dezbatere publică sau este aprobat sau respins.</p>",
@@ -2918,7 +2918,7 @@ const data = {
             },
             {
               "id":5,
-              "project_slug":"platforma-legislatie-locala",
+              "projectSlug":"platforma-legislatie-locala",
               "title":"Platforma de legislație locală",
               "subtitle":"Legislația de zi cu zi, accesibilă întregii comunități",
               "description":"<p>Platforma de legislație locală este un portal de vizualizare și comunicare de informații care poate fi implementat la nivelul fiecărei primării pentru a crește accesul cetățenilor la normativele locale și la alte documente de interes local emise de autorități. Aceasta ajută de asemenea în corelarea documentelor legislative, construind astfel în timp și o arhivă de legislație locală care ulterior poate fi integrată cu alte sisteme naționale. Accesul facil la legislația locală, într-un mod structurat și interconectat va permite cetățenilor să rămână la zi cu reglementările din orașul de domiciliu sau reședință.</p>",
@@ -2948,7 +2948,7 @@ const data = {
             },
             {
               "id":6,
-              "project_slug":"legea-pe-bune",
+              "projectSlug":"legea-pe-bune",
               "title":"Legea(Pe Bune)",
               "subtitle":"Dicționar simplu de legislație pentru toți cetățenii",
               "description":"<p>Legea pe bune este un website în care orice cetățean poate căuta explicații traduse pe înțelesul tuturor pentru termeni comuni legislativi. Baza de date a aplicației pleacă de la un set construit deja de termeni explicați de un grup de voluntari specializați, iar platforma permite publicului să contribuie la rândul lui cu definții care apoi sunt validate de experți și adăugate în platformă. Cu ajutorul eforturilor de crowdsourcing și a contribuției voluntare a comunităților de specialiști în legislație, acest website va putea să se îmbogățească în timp și va veni în sprijinul tuturor celor care se confruntă cu nevoia de a înțelege expresii complexe din legislația curentă.</p> <p>Participarea experților este esențială pentru a ne asigura că termenii sunt 'traduși' corect și sunt accesibili publicului larg, ca aceștia să poată să navigheze cu ușurință prin problemele comune cu care se confruntă.</p>",
@@ -2977,7 +2977,7 @@ const data = {
             },
             {
               "id":7,
-              "project_slug":"ce-zice-legea",
+              "projectSlug":"ce-zice-legea",
               "title":"Ce zice Legea",
               "subtitle":"Informații accesibile despre legile care ne influențează viața",
               "description":"<p>Proiectul își propune să reducă distanța dintre legislație și cetățeni, cauzată de dificultatea cu care la acest moment pot fi accesate și înțelese textele juridice care îi vizează în mod direct. Prin accesibilizarea acestor informații, Ce zice legea urmărește să crească interesul oamenilor pentru procesul legislativ, dar și să îi convingă să se implice în dezbaterile cu privire la legislația propusă. Utilizatorii vor avea acces la informațiile prezentate de Ce zice legea prin intermediul unei aplicații mobile  și a unei platforme web.</p>",
@@ -3006,7 +3006,7 @@ const data = {
             },
             {
               "id":8,
-              "project_slug":"edulex",
+              "projectSlug":"edulex",
               "title":"EduLex",
               "subtitle":"Educație juridică și ajutor legal pentru adolescenți",
               "description":"<p>Majoritatea tinerilor au o bază de cunoștințe juridice insuficientă pentru soluționarea diferitelor situații cu care s-ar putea confrunta (e.g. nedreptățirea de către profesori, răspunderea penală a minorilor, violența în familie, fenomenul de bullying etc.), motiv pentru care nu cunosc mijloacele legale de apărare pe care legea le pune la dispoziție. Prin EduLex, fiecare elev care are acces la un smartphone cu internet va avea un prieten digital, care să-l informeze corect și să-l îndrume atunci când are o problemă de natură juridică. În același timp, proiectul urmărește să construiască o bază de cunoștințe solidă pentru acești tineri, cu ajutorul unor activități interactive (inclusiv jocuri cu tematică juridică) și materiale de comunicare adaptate lor, pentru a-i familiariza într-o manieră atractivă cu concepte de drept și justiție.</p>",
@@ -3035,7 +3035,7 @@ const data = {
             },
             {
               "id":9,
-              "project_slug":"zi-de-zi",
+              "projectSlug":"zi-de-zi",
               "title":"Zi de Zi",
               "subtitle":"Platformă de storytelling pentru implicare civică",
               "description":"<p>O problemă pe care am depistat-o în rândul populației largi este lipsa de implicare în viața comunității și lipsa de reacție la legislația în dezbatere sau în vigoare. Acest lucru se datorează în special faptului că oamenii nu cunosc modul în care legile, administrația publică și instituțiile diverse ale statului au un impact direct asupra fiecărui aspect al vieții lor. Ca urmare a limbajului greoi și a informației disparate, nu realizăm cât de mult din deciziile legislative sau din activitatea administrației publice ne afectează în mod direct. ZideZi își propune să traducă pe înțelesul cetățenilor care este legislația care guvernează relaţia oricărei persoane cu furnizorii de servicii şi utilităţi publice. De asemenea, proiectul oferă o vizualizare interactivă a momentelor zilnice de intersecție cu serviciile și utilitățile publice. Construită ca o poveste în care fiecare utilizator își alege personajul cel mai similar cu sine însuși, aplicația web îi explică oricărei persoane care sunt drepturile și obligațiile sale în raport cu furnizorii de servicii și utilități publice, care este corpul legislativ responsabil de reglementarea contextului în care el beneficiază de aceste servicii și utilități, care sunt legile care îl influențează în mod direct și care este tipul acestora.</p>",
@@ -3084,7 +3084,7 @@ const data = {
       "highway_segment":[
         {
           "id":1,
-          "highway_slug":"scoli-sigure-si-bine-administrate",
+          "segmentSlug":"scoli-sigure-si-bine-administrate",
           "segment_visual":"segment-education-06-scoli-sigure-si-bine-administrate",
           "title":"Școli sigure și bine administrate",
           "description":"Mediul în care un elev se formează are o importanță determinantă pentru viitorul lui, nu doar prin ceea ce se întâmplă la ore ci și prin felul în care școala trebuie să reprezinte un loc sigur, adecvat și gândit pentru a sprijini procesul de învățare. Felul în care școlile sunt administrate poate fi îmbunătățit cu ajutorul tehnologiei, pentru a le face să fie spații mai sigure, ferite de amenințări pentru elevi, în care bullying-ul nu este tolerat, iar atmosfera generală încurajează învățarea în spirit colegial.",
@@ -3113,7 +3113,7 @@ const data = {
           "projects":[
             {
               "id":1,
-              "project_slug":"project-slug",
+              "projectSlug":"project-slug",
               "title":"proiect title",
               "description":"description 1",
               "link":"",
@@ -3145,7 +3145,7 @@ const data = {
         },
         {
           "id":2,
-          "highway_slug":"invatamant-universitar-de-calitate",
+          "segmentSlug":"invatamant-universitar-de-calitate",
           "segment_visual":"segment-education-05-invatamant-universitar-de-calitate",
           "title":"Învățământ universitar de calitate",
           "description":"Universitățile din România pregătesc generațiile noi de profesioniști care construiesc societatea românească. Tehnologia poate aduce un plus de valoare în procesul de învățare, de cercetare sau în activitățile practice desfășurate în facultate, oferind acces ușor la resurse și crescând calitatea actului formator.",
@@ -3174,7 +3174,7 @@ const data = {
           "projects":[
             {
               "id":1,
-              "project_slug":"project-slug",
+              "projectSlug":"project-slug",
               "title":"proiect title",
               "description":"description 1",
               "link":"",
@@ -3206,7 +3206,7 @@ const data = {
         },
         {
           "id":3,
-          "highway_slug":"invatamant-preuniversitar-de-calitate",
+          "segmentSlug":"invatamant-preuniversitar-de-calitate",
           "segment_visual":"segment-education-04-invatamant-preuniversitar-de-calitate",
           "title":"Învățământ preuniverisitar de calitate",
           "description":"Tehnologia poate aduce un suflu nou în felul în care sunt predate în școli și licee materiile din programele școlare. Pentru multe dintre disciplinele studiate, putem găsi metode îmbunătățite, diversificate, interactive și atractive de predare cu ajutorul tehnologiei.",
@@ -3235,7 +3235,7 @@ const data = {
           "projects":[
             {
               "id":1,
-              "project_slug":"project-slug",
+              "projectSlug":"project-slug",
               "title":"proiect title",
               "description":"description 1",
               "link":"",
@@ -3267,7 +3267,7 @@ const data = {
         },
         {
           "id":4,
-          "highway_slug":"acces-la-educatie",
+          "segmentSlug":"acces-la-educatie",
           "segment_visual":"segment-education-03-acces-la-educatie",
           "title":"Acces la educație",
           "description":"Accesul tuturor copiilor la sistemul de educație, deși este prevăzut în documentele și statisticile instituționale, nu este o realitate pentru mulți dintre copiii României. Acest lucru se întâmplă fie pentru că resursa umană este deficitară sau insuficient pregătită, fie pentru că în multe zone defavorizate, infrastructura proastă sau inexistentă e o piedică în calea actului educațional. Pentru foarte mulți copii, accesul la educație și la infrastructura educațională necesară (inclusiv consiliere psihologică sau educațională) este doar formal. Anul 2020 a arătat cu atât mai mult că sistemul educațional nu este pregătit să ofere tuturor elevilor acces la servicii educaționale de calitate.",
@@ -3296,7 +3296,7 @@ const data = {
           "projects":[
             {
               "id":1,
-              "project_slug":"project-slug",
+              "projectSlug":"project-slug",
               "title":"proiect title",
               "description":"description 1",
               "link":"",
@@ -3328,7 +3328,7 @@ const data = {
         },
         {
           "id":5,
-          "highway_slug":"abilitati-pentru-viata-reala",
+          "segmentSlug":"abilitati-pentru-viata-reala",
           "segment_visual":"segment-education-02-abilitati-pentru-viata-reala",
           "title":"Abilități pentru viața reală",
           "description":"Rolul sistemului educațional este de a ne face cunoștință cu lumea, pentru a funcționa bine în ea și a o îmbunătăți și îmbogăți apoi la rândul nostru. Cu toate acestea, la noi, școala se concentrează aproape exclusiv pe științe și arte, nu și pe abilități. Multe dintre nevoile elevilor de a înțelege lumea nu se regăsesc în programele școlare (educație digitală, media, sanitară, financiară, sau pentru dezvoltarea de soft skills).",
@@ -3357,7 +3357,7 @@ const data = {
           "projects":[
             {
               "id":1,
-              "project_slug":"project-slug",
+              "projectSlug":"project-slug",
               "title":"proiect title",
               "description":"description 1",
               "link":"",
@@ -3371,7 +3371,7 @@ const data = {
               "adopted_by":[
                 {
                   "id":1,
-                  "project_slug":"ce-ma-fac",
+                  "projectSlug":"ce-ma-fac",
                   "title":"Ce Mă Fac",
                   "subtitle":"O mână de ajutor în planificarea viitoarei cariere pentru elevi",
                   "description":"<p>Pregătirea pentru cariera profesională de după terminarea studiilor trebuie să înceapă din timpul anilor de școală. Fiecare elev are abilități diferite, dar descoperirea și valorificarea acestora poate fi un proces dificil în condițiile în care serviciile de consiliere pentru carieră nu sunt accesibile tuturor. Ce mă fac este o platformă prin care elevii vor putea înțelege ce presupune fiecare opțiune de carieră. Detaliile care țin de responsabilități și previziuni financiare sunt însoțite de prezentarea beneficiilor și dezavantajelor posibile din fiecare tip de carieră propusă. Toate informațiile sunt prezentate prin tehnici de storytelling atrăgător categoriilor de vârstă cărora li se adresează această soluție.</p>",
@@ -3400,7 +3400,7 @@ const data = {
                 },
                 {
                   "id":2,
-                  "project_slug":"micii-cetateni",
+                  "projectSlug":"micii-cetateni",
                   "title":"Micii Cetățeni",
                   "subtitle":"Povești despre cum putem construi o societate mai bună pentru toți",
                   "description":"<p>Copiii învață prea târziu sau prea puțin în școală despre locul lor în societate, despre felul în care aceasta funcționează sau despre beneficiile pe care implicarea fiecăruia le poate aduce în viața tuturor. Pentru că felul în care cei mici învață cel mai bine este prin povești, am construit un portal care conține cărți de povești pentru grupele de vârstă preșcolare, din care să poată deprinde noțiuni care țin de civism și formarea unor cetățeni buni și implicați.</p>",
@@ -3429,7 +3429,7 @@ const data = {
                 },
                 {
                   "id":3,
-                  "project_slug":"civic-fitness",
+                  "projectSlug":"civic-fitness",
                   "title":"Civic Fitness",
                   "subtitle":"Exerciții scurte pentru dezvoltarea de abilități civice și socio-emoționale",
                   "description":"<p>Educația pe tot parcursul vieții este puțin răspândită și, în general, concentrată pe noțiuni ce țin de dezvoltarea punctuală a unor abilități profesionale. Civic Fitness este o aplicație mobilă care oferă adulților cu un ritm de viață alert posibilitatea de a dobândi, prin lecții sau exerciții scurte, abilități utile în  dezvoltarea lor continuă. Pe lângă abilități socio-emoționale utile în diverse contexte, aplicația oferă informații, cunoștințe și valori care să responsabilizeze utilizatorii și să îi pregătească pentru implicarea democratică informată în problemele societății.</p>",
@@ -3458,7 +3458,7 @@ const data = {
                 },
                 {
                   "id":4,
-                  "project_slug":"descurca-tech",
+                  "projectSlug":"descurca-tech",
                   "title":"Descurcă-tech",
                   "subtitle":"Sprijin pentru cei care fac primii pași în utilizarea tehnologiei",
                   "description":"<p>O mare parte din populație, fie din cauza vârstei sau a condiției sociale, nu are noțiuni de bază de utilizare a tehnologiei. Pentru a beneficia de avantajele aduse de progresul tehnologic, mulți dintre ei au nevoie de sprijinul celor apropiați. Descurcă-tech este o platformă care oferă resurse celor care se oferă să îi învețe pe aceia care încă nu au astfel de abilități cum să folosească mai bine tehnologia în folosul lor. De exemplu, cei care vor să își învețe bunicii cum să folosească un smartphone pot primi aici resursele necesare, în diferite formate, inclusiv printabile, pentru a fi ușor înțelese și asimilate. În plus, platforma va pune la dispoziția celor care învață cum să utilizeze tehnologia un helpline prin care aceștia vor putea obține consiliere și sprijin rapid.</p>",
@@ -3487,7 +3487,7 @@ const data = {
                 },
                 {
                   "id":5,
-                  "project_slug":"evalueaza-tech",
+                  "projectSlug":"evalueaza-tech",
                   "title":"Evaluează-tech",
                   "subtitle":"Evaluarea competențelor digitale de bază",
                   "description":"<p>Pentru a putea construi și dezvolta abilități digitale, e nevoie de o evaluare corectă a celor deja existente. Evaluează-tech este o platformă care oferă posibilitatea evaluării competențelor digitale de bază adresată în primul rând celor care lucrează în instituții publice, fiind însă deschisă tuturor. Pe lângă abilitățile de bază, platforma va evalua inclusiv optimizarea fluxurilor și eficientizarea lucrului cu instrumente digitale.</p>",
@@ -3516,7 +3516,7 @@ const data = {
                 },
                 {
                   "id":6,
-                  "project_slug":"invata-tech",
+                  "projectSlug":"invata-tech",
                   "title":"Învață-tech",
                   "subtitle":"Platforma care dezvoltă competențe digitale",
                   "description":"<p>Abilitățile digitale au devenit o cerință fundamentală pentru orice persoană cre vrea să își desfășoare în bune condiții activitatea profesională sau personală. Învață-tech este o platformă cuprinzătoare care va ajuta utilizatorii să își dezvolte competențele digitale. Învățarea se va desfășura pe baza programului internațional dezvoltat de Mozilla Foundation (Mozilla Foundation Web Literacy), cuprinzând componente ce țin de  creativitate, colaborare, rezolvare de probleme, comunicare și siguranță pe internet. Pe lângă componenta de învățare, platforma va oferi accesibilizarea unor unelte digitale existente, oferind interfețe în limba română pentru acestea.</p>",
@@ -3547,7 +3547,7 @@ const data = {
             },
             {
               "id":7,
-              "highway_slug":"profesori-bine-pregatiti",
+              "segmentSlug":"profesori-bine-pregatiti",
               "segment_visual":"segment-education-01-profesori-bine-pregatiti",
               "title":"Profesori bine pregatiti",
               "description":"România nu poate avea un sistem educațional funcțional fără profesori bine pregătiți. Cu cât vom avea profesori mai buni, vom avea elevi mai performanți, pasionați și bine instruiți. Indiferent dacă predau în ciclurile pre-universitare sau în învățământul superior, profesorii sunt repere, fiind principala interfață dintre sistemul educațional și elev. Drumul nostru începe cu ei, pentru că profesorii sunt factori multiplicatori. Mai mulți profesori bine pregătiți înseamnă de zeci de ori mai mulți elevi care primesc o educație de calitate.",
@@ -3576,7 +3576,7 @@ const data = {
               "projects":[
                 {
                   "id":1,
-                  "project_slug":"scoala profesorilor",
+                  "projectSlug":"scoala profesorilor",
                   "title":"Școala Profesorilor",
                   "subtitle":"Managementul carierei pentru profesori, simplificat",
                   "description":"<p>Managementul carierei în educație este un concept destul de străin și profesorii sau învățătorii nu au instrumente la dispoziție pentru a-și planifica parcursul profesional corect și cu un consum minim de resurse. Școala profesorilor este o aplicație web în care profesorul își poate crea un cont și configura un parcurs profesional dorit, iar pe baza acestuia i se recomandă un plan de învățare (inclusiv cursuri recomandate, acreditate sau nu), iar școala își poate crea un cont unde își poate introduce toți profesorii și menține la zi informațiile despre gradele, cursurile și formările acestora, unde poate configura parcursul resurselor sale umane, estima costuri și organiza calendarul de training</p>",
@@ -3607,7 +3607,7 @@ const data = {
                 },
                 {
                   "id":2,
-                  "project_slug":"resurse profesorilor",
+                  "projectSlug":"resurse profesorilor",
                   "title":"Resurse Profesori",
                   "subtitle":"Resurse educaționale gratuite pentru toți profesorii",
                   "description":"<p>Fiecare cadru didactic, odată ajuns în învățământ, este pe cont propriu și își construiește lecțiile folosindu-se de resurse pe care le descoperă și adaptează singur, unica îndrumare venind de la alte cadre didactice tot la inițiativa independentă a profesorului. Resurse profesori este un set de instrumente de folosit la clasă pe care să și-l configureze și descarce din platformă orice profesor. Răspunzând la câteva întrebări legate de mediul în care predă, profesorul își poate personaliza un pachet de bază de resurse utile pentru predatul de zi cu zi. În același timp, aplicația poate recomanda o serie de alte instrumente administrative utile în managementul cursurilor: instrumente de monitorizare a progresului elevilor, de management personal al timpului, cataloage digitale etc.</p>",
@@ -3638,7 +3638,7 @@ const data = {
                 },
                 {
                   "id":3,
-                  "project_slug":"classroom-demo",
+                  "projectSlug":"classroom-demo",
                   "title":"Classroom Demo",
                   "subtitle":"Mentorat video pentru profesorii la început de drum",
                   "description":"<p>O problemă foarte mare în sistemul educațional din România e faptul că mentoratul și pregătirea inițială a cadrelor didactice nu asigură însușirea competențelor care permit mai apoi gestiunea socio-emoțională a copiilor și a tinerilor. În lipsa unui sistem funcțional de mentorat, cadrele didactice începătoare sunt lăsate pe cont propriu cu foarte puțin ghidaj din partea colegilor lor.</p> <p>Classroom Demo este o platformă care oferă acces la o colecție de materiale video pentru profesorii și învățătorii începători care au nevoie de ghidaj pentru a deveni mai buni la clasă. Materialele vor fi de mai multe tipuri - ore deja înregistrate de profesori metodiști pentru a permite începătorilor să analizeze desfășurarea unei ore la clasă, alături de alte materiale video utile construite de cadre didactice experimentate. În plus, platforma poate conține și materiale video în alte limbi, subtitrate în limba română.</p>",
@@ -3669,7 +3669,7 @@ const data = {
                 },
                 {
                   "id":4,
-                  "project_slug":"teacher-workout",
+                  "projectSlug":"teacher-workout",
                   "title":"Teacher Workout",
                   "subtitle":"Abilități socio-emoționale pentru profesori",
                   "description":"<p>Educatorii joacă un rol covârșitor în dezvoltarea noastră, de aceea este important să înțelegem în profunzime cum putem să îi ajutăm și să îi echipăm cu toate instrumentele necesare ca ei să poată avea grijă de noi și de copiii noștri. Formarea inițială nu asigură însușirea competențelor care permit mai apoi gestiunea socio-emoțională a copiilor și a tinerilor. </p> <p>Teacher workout este o aplicație care oferă acces la cursuri scurte, interactive, pe subiecte care acoperă o gamă largă de tematici de la identificarea cu ușurință a copiilor cu dificultăți de învățare, până la gestiunea situațiilor complicate de la clasă, integrarea copiilor cu nevoi speciale în colectivul clasei și multe alte micro-cursuri de formare de obiceiuri pozitive pentru profesor.</p>",
@@ -3700,7 +3700,7 @@ const data = {
                 },
                 {
                   "id":5,
-                  "project_slug":"profesor-in-spital",
+                  "projectSlug":"profesor-in-spital",
                   "title":"Profesor în Spital",
                   "subtitle":"Acces la educație pentru copiii internați în spitale",
                   "description":"<p>Copiii care sunt internați pentru mult timp rămân în urmă cu materiile predate în școală, ceea ce înseamnă că vor fi reintegrați în colectiv mult mai greu atunci când vor reveni în sala de clasă. Profesorii nu sunt pregătiți pentru astfel de situații și pentru mulți dintre ei ar fi extrem de dificil să se deplaseze să lucreze cu acești copii în spital. Platforma Profesor în spital centralizează ONG-urile care derulează programe de școală în spital. Datele sunt dispuse pe județe și orașe, iar pe pagina dedicată fiecărui ONG, un spital sau un părinte poate să aplice pentru a beneficia, în măsura disponibilității ONG-ului, de acest tip de serviciu. Platforma identifică inclusiv acele orașe în care în acest moment nu există ONG-uri active, dar unde apare această nevoie de sprijin educațional. În același timp, pentru a susține activitatea ONG-urilor, platforma este integrată și cu un sistem de plăți pentru a le oferi acestora posibilitatea de a strânge fonduri pentru extinderea programelor lor.</p>",
@@ -3731,7 +3731,7 @@ const data = {
                 },
                 {
                   "id":6,
-                  "project_slug":"acces",
+                  "projectSlug":"acces",
                   "title":"Acces",
                   "subtitle":"Resurse educaționale gratuite pentru profesorii care lucrează cu copii cu CES",
                   "description":"<p>Resursele disponibile online pentru lucrul cu elevi în situații de risc sau pentru integrarea copiilor cu cerințe educaționale speciale adesea nu sunt relevante sau nu sunt în limba română și nu sunt adaptate la realitatea din România. AcCES este un centralizator digital de resurse educaționale gratuite pentru profesorii care lucrează cu copii cu CES, integrată și cu un helpline asigurat de psihologi cu care profesorii pot veni în contact pentru a discuta cazuri speciale și a obține sfaturi și ajutor. Platforma va deschide resursele pentru toți profesorii, iar pentru a intra în contact cu un terapeut, aceștia vor trebui să își creeze un cont și să posteze o cerere de ajutor pentru a putea fi preluați de un specialist.</p>",
@@ -3762,7 +3762,7 @@ const data = {
                 },
                 {
                   "id":7,
-                  "project_slug":"e-sense",
+                  "projectSlug":"e-sense",
                   "title":"e-Sense",
                   "subtitle":"Exerciții flexibile, adaptate pentru copiii cu surdocecitate",
                   "description":"<p>Accesul la o educație de calitate pentru copiii cu surdocecitate depinde de accesul celor care se ocupă de formarea lor la resurse educaționale de calitate.  Copiii în această situație au nevoi speciale ce țin de comunicare, socializare, dezvoltare cognitivă și psihomotrică. eSense este o soluție adaptată nevoilor lor specifice date de combinația de deficiențe de vedere și de auz. Aplicația sprijină cadrele didactice în intervenția timpurie și nu numai, cu exerciții și jocuri flexibile, care urmează curriculumul în vigoare, fiind deschisă pentru toată lumea, open-source, replicabilă și reutilizabilă în toată lumea.</p>",
@@ -3814,7 +3814,7 @@ const data = {
       "highway_segment":[
         {
           "id":1,
-          "highway_slug":"paduri-protejate-si-sanatoase",
+          "segmentSlug":"paduri-protejate-si-sanatoase",
           "segment_visual":"segment-environment-09-paduri-protejate-si-sanatoase",
           "title":"Păduri protejate și sănătoase",
           "description":"<p>Pădurile sunt una dintre cele mai importante resurse pe care România le deține. Dar sănătatea pădurilor este amenințată de exploatări forestiere ilegale care pun sub asediu zone care ar trebui, de altfel, să fie protejate prin lege.</p><p>Mutilarea pădurilor are efecte de durată asupra mediului, sănătății și siguranței populației. În plus, discutăm despre o resursă foarte prețioasă al cărei proces de regenerare durează zeci de ani, în timp ce defrișările ilegale pun la pământ sute de copaci în doar câteva zile.</p><p>Ne propunem să generăm soluții digitale care să contribuie la menținerea și protejarea pădurilor din România astfel încât să diminuăm riscul dispariției teritoriului împădurit al țării.</p>",
@@ -3843,7 +3843,7 @@ const data = {
           "projects":[
             {
               "id":1,
-              "project_slug":"project-slug",
+              "projectSlug":"project-slug",
               "title":"proiect title",
               "description":"description 1",
               "link":"",
@@ -3875,7 +3875,7 @@ const data = {
         },
         {
           "id":2,
-          "highway_slug":"protectia-naturii",
+          "segmentSlug":"protectia-naturii",
           "segment_visual":"segment-environment-08-protectia-naturii",
           "title":"Protectia naturii",
           "description":"<p>România are una dintre cele mai bogate biodiversități din Europa, iar datorită poziției geografice beneficiem de un capital natural impresionant. Cu toate astea, perioada de dezvoltare și tranziție economică pe care o parcurgem prezintă un risc în lipsa unei strategii coerente și asumate de protecție a naturii.</p><p>Stilul de viață actual și deciziile cu privire la ocrotirea mediului înconjurător influențează negativ patrimoniul natural al țării, având consecințe pe termen lung care vizează direct generațiile viitoare.</p><p>Alături de instituțiile responsabile, de partenerii și voluntarii noștri, căutăm să reducem impactul nociv al degradării mediului înconjurător prin dezvoltarea unor unelte digitale care să contribuie la protejarea naturii în toate formele ei.</p>",
@@ -3907,7 +3907,7 @@ const data = {
         },
         {
           "id":3,
-          "highway_slug":"sate-dezvoltate",
+          "segmentSlug":"sate-dezvoltate",
           "segment_visual":"segment-environment-07-sate-dezvoltate",
           "title":"Sate dezvoltate",
           "description":"<p>Peste jumătate din populația României locuiește în mediul rural sau în condiții echivalente traiului în mediul rural.</p><p>Calitatea vieții la sate se măsoară atât prin veniturile pe cap de locuitor, cât și prin accesul populației la condiții de trai civilizate, aliniate cu cele din mediul urban. Tocmai de aceea, nu poate exista o strategie de dezvoltare a României care să nu includă intervenții în tot ceea ce intră sub incidența infrastructurii rurale. De aceea, căutăm soluții de tehnologie civică menite să îmbunătățească nivelul de trai și indicii de progres.</p>",
@@ -3939,7 +3939,7 @@ const data = {
         },
         {
           "id":4,
-          "highway_slug":"orase-prietenoase",
+          "segmentSlug":"orase-prietenoase",
           "segment_visual":"segment-environment-06-orase-prietenoase",
           "title":"Orașe prietenoase",
           "description":"<p>Deși dezvoltarea orașelor are ca prim obiectiv deservirea locuitorilor, în România zona urbană nu a fost concepută având în minte cetățenii. Mai mult decât atât, ne lovim tot mai des de improvizații care nu sunt sustenabile sau decizii care afectează și chiar înrăutățesc calitatea vieții.</p><p>Tehnologia este unul dintre cele mai eficiente instrumente care pot fi utilizate în transformarea orașelor în spații locuibile, accesibile și prietenoase, dezvoltate în mod responsabil și inteligent.</p>",
@@ -3971,7 +3971,7 @@ const data = {
         },
         {
           "id":5,
-          "highway_slug":"reciclarea-si-managementul-deseurilor",
+          "segmentSlug":"reciclarea-si-managementul-deseurilor",
           "segment_visual":"segment-environment-05-reciclarea-si-managementul-deseurilor",
           "title":"Reciclarea și managementul deșeurilor",
           "description":"<p>În 2019, umanitatea a produs un număr record de deșeuri dintre care nici măcar un sfert nu au fost reciclate. Practic, am produs o cantitate de deșeuri care, cumulată, este mai mare decât greutatea tuturor oamenilor adulți din Europa.</p><p>Sustenabilitatea vieții pe pământ depinde în mod direct de identificarea celor mai bune metode de reciclare și management al deșeurilor și gunoiului.</p><p>Este probabil una dintre cele mai mari provocări ale generației noastre, motiv pentru care ne propunem să contribuim prin instrumente digitale la procesele de reciclare și administrare a deșeurilor rezultate în urma reciclării.</p>",
@@ -4000,7 +4000,7 @@ const data = {
           "projects":[
             {
               "id":1,
-              "project_slug":"project-slug",
+              "projectSlug":"project-slug",
               "title":"proiect title",
               "description":"description 1",
               "link":"",
@@ -4032,7 +4032,7 @@ const data = {
         },
         {
           "id":6,
-          "highway_slug":"reducerea-poluarii",
+          "segmentSlug":"reducerea-poluarii",
           "segment_visual":"segment-environment-04-reducerea-poluarii",
           "title":"Reducerea poluarii",
           "description":"<p>Reducerea poluării este una dintre cele mai mari provocări cu care umanitatea se confruntă în ultimele zeci de ani. Diminuarea efectelor nocive asupra planetei și a calității vieții este un demers care poate fi aplicat cu succes doar dacă se implementează măsuri concrete de control și reducere a factorilor poluanți.</p><p>Studiem diferitele tipuri de reducere a nivelului de poluare precum: procese de repunere în uz, producție curată, eficiență energetică, eficiență în infrastructura de transport sau reducerea deșeurilor și generăm soluții cu impact la nivel sistemic pentru combaterea efectelor pe termen lung.</p>",
@@ -4061,7 +4061,7 @@ const data = {
           "projects":[
             {
               "id":1,
-              "project_slug":"project-slug",
+              "projectSlug":"project-slug",
               "title":"proiect title",
               "description":"description 1",
               "link":"",
@@ -4093,7 +4093,7 @@ const data = {
         },
         {
           "id":7,
-          "highway_slug":"masurarea-poluarii",
+          "segmentSlug":"masurarea-poluarii",
           "segment_visual":"segment-environment-03-masurarea-poluarii",
           "title":"Măsurarea poluării",
           "description":"<p>România este una dintre țările cu cele mai multe victime provocate de poluare din Uniunea Europeană. Singura modalitate de a acționa împotriva acestei amenințări este să înțelegem magnitudinea fenomenului prin extragerea și analizarea unor date corecte și complete legate de modul în care aceasta se manifestă la nivel național.</p><p>Cercetăm extensiv și dezvoltăm soluții tehnologice care să vizeze toate sursele de poluare care pot afecta serios mediul înconjurător, dar și calitatea vieții: poluarea aerului, a apei, a solului, poluarea fonică și luminoasă.</p>",
@@ -4122,7 +4122,7 @@ const data = {
           "projects":[
             {
               "id":1,
-              "project_slug":"project-slug",
+              "projectSlug":"project-slug",
               "title":"proiect title",
               "description":"description 1",
               "link":"",
@@ -4154,7 +4154,7 @@ const data = {
         },
         {
           "id":8,
-          "highway_slug":"pregatiti-pentru-urmatorul-cutremur",
+          "segmentSlug":"pregatiti-pentru-urmatorul-cutremur",
           "segment_visual":"segment-environment-02-pregatiti-pentru-urmatorul-cutremur",
           "title":"Pregătiți pentru următorul cutremur",
           "description":"<p>Un cutremur în România nu reprezintă un pericol ipotetic, ci o certitudine. Și despre el știm un singur lucru: este cel mai imprevizibil dezastru de amploare care ni se poate întâmpla.</p><p>Am ales să ne îndreptăm atenția spre domeniul pregătirii și răspunsului în caz de seism deoarece ne dorim să înțelegem concret care este capacitatea noastră de a răspunde unui asemenea eveniment și cât de pregătiți suntem, la nivel individual, să facem față unui cutremur.</p>",
@@ -4183,7 +4183,7 @@ const data = {
           "projects":[
             {
               "id":1,
-              "project_slug":"project-slug",
+              "projectSlug":"project-slug",
               "title":"proiect title",
               "description":"description 1",
               "link":"",
@@ -4215,7 +4215,7 @@ const data = {
         },
         {
           "id":9,
-          "highway_slug":"pregatiti-pentru-urmatorul-dezastru-natural",
+          "segmentSlug":"pregatiti-pentru-urmatorul-dezastru-natural",
           "segment_visual":"segment-environment-01-pregatiti-pentru-urmatorul-dezastru-natural",
           "title":"Pregătiți pentru următorul dezastru natural",
           "description":"<p>În fața dezastrelor naturale suntem vulnerabili, unele dintre daunele și pierderile de vieți cauzate de acestea fiind inevitabile. În schimb, pagubele cauzate de dezastrele imprevizibile pot fi multiplicate de neștiința și lipsa noastră de pregătire. Tehnologia ne poate face mai siguri pe noi, sprijinindu-ne în momentele în care panica pune stăpânire pe noi sau ajutându-ne să ne organizăm eficient și să răspundem nevoilor de ajutor cât de repede cu putință.</p>",
@@ -4244,7 +4244,7 @@ const data = {
           "projects":[
             {
               "id":1,
-              "project_slug":"project-slug",
+              "projectSlug":"project-slug",
               "title":"proiect title",
               "description":"description 1",
               "link":"",
