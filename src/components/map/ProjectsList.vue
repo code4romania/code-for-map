@@ -7,7 +7,7 @@
           params: {
             slug: slug,
             _slug: highway_slug,
-            __slug: project.project_slug
+            solution: project.project_slug
           }
         }"
         v-bind:key="'project-' + project.id"

@@ -2439,16 +2439,14 @@ const data = {
           "highway_slug":"alegeri-corecte-alegatori-informati",
           "segment_visual":"segment-participation-01-alegeri-corecte-alegatori-informati",
           "title":"Alegeri corecte. Alegători informați.",
-          "description":"<p>Dacă vrem o democrație funcțională și reprezentativă, avem nevoie de o participare semnificativă și informată a unui număr cât mai mare de cetățeni la un proces transparent și corect de alegeri. Iar tehnologia poate oferi soluții care să asigure buna desfășurare a procesului de votare, precum și o mai bună informare a alegătorilor.</p><p>DFără alegeri libere și corecte, nu există democrație. </p>",
+          "description":"<p>Dacă vrem o democrație funcțională și reprezentativă, avem nevoie de o participare semnificativă și informată a unui număr cât mai mare de cetățeni la un proces transparent și corect de alegeri. Iar tehnologia poate oferi soluții care să asigure buna desfășurare a procesului de votare, precum și o mai bună informare a alegătorilor.</p><p>Fără alegeri libere și corecte, nu există democrație.</p>",
           "btn":{
             "top":"29.05%",
             "left":"33%"
           },
           "icon_left":true,
           "financed":false,
-          "financed_by":[
-            
-          ],
+          "financed_by":[],
           "projects":[
             {
               "id":1,

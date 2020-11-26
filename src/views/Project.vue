@@ -99,7 +99,7 @@ export default {
     return {
       slug: this.$route.params.slug,
       highway_slug: this.$route.params._slug,
-      project_slug: this.$route.params.__slug,
+      project_slug: this.$route.params.solution,
       code4ro_map: [],
       segment: [],
       project: []

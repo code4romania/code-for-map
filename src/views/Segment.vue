@@ -64,7 +64,7 @@
         </b-row>
       </div>
 
-      <b-modal ref="myModal" size="lg" centered hide-header hide-footer no-fade>
+      <b-modal ref="modalProject" size="xl" centered hide-header hide-footer no-fade>
 
         <div class="py-1" :class="`bg-` + code4ro_map.color"></div>
 
@@ -88,36 +88,15 @@
           </div>
 
           <b-row>
-            <b-col xs="12" lg="6">
+            <b-col xs="12" lg="4">
               <div class="border border-gray mb-3 text-center">
                 <img class="img-fluid" :src="segment.projects[active_project_index].icon" />
               </div>
-              <div class="d-none d-lg-block">
-                <div class="w-50 d-flex align-items-center">
-                  <svg class="icon icon-md mr-2"><use xlink:href="#icon-heart"></use></svg>
-                  <span v-if="segment.projects[active_project_index].adopted">{{ data.segment_legend.adopted }}</span>
-                  <span v-else>{{ data.segment_legend.neadoptat }}</span>
-                </div>
-
-                <b-row>
-                  <b-col cols="12">
-                    <b-row class="my-3" v-if="segment.projects[active_project_index].adopted">
-                      <template v-for="(partner, index) in segment.projects[active_project_index].adopted_by">
-                        <b-col cols="2" :key="index">
-                          <svg class="icon icon-lg"><use :xlink:href="`#` + partner.logo"></use></svg>
-                        </b-col>
-                      </template>
-                    </b-row>
-                    <a v-else :href="data.call_to_action.finance.link" :class="'btn btn-' + data.call_to_action.finance.color + ' btn-custom px-5 mx-2 my-2 text-white btn-lg'">
-                      {{data.call_to_action.finance.title}}
-                    </a>
-                  </b-col>
-                </b-row>
-              </div>
             </b-col>
-            <b-col xs="12" lg="6" v-html="segment.projects[active_project_index].description" />
-            <b-col cols="12" lg="6" class="d-lg-none">
-              <div class="w-50 d-flex align-items-center">
+            <b-col xs="12" lg="8">
+              <div class="ProjectModal-desc mb-4" v-html="segment.projects[active_project_index].description"></div>
+
+              <div class="d-flex align-items-center">
                 <svg class="icon icon-md mr-2"><use xlink:href="#icon-heart"></use></svg>
                 <span v-if="segment.projects[active_project_index].adopted">{{ data.segment_legend.adopted }}</span>
                 <span v-else>{{ data.segment_legend.neadoptat }}</span>
@@ -211,16 +190,31 @@ export default {
         this.projectClicked(parseInt(project.getAttribute('projectid'), 10))
       })
     })
+
+    if (this.$route.params.solution) {
+      this.$refs.modalProject.show()
+    }
   },
   methods: {
     projectClicked(index) {
       // TODO: FIX PROJECT SELECTION BUG HERE
-      this.active_project_index = index;
+      this.active_project_index = index - 1;
 
-      this.$refs.myModal.show();
+      this.$refs.modalProject.show();
+
+      // this.$router.push({ name: 'Project', params: {
+      //   slug: 'participation4ro',
+      //   _slug: 'acces-la-cultura',
+      //   solution: 'theater-hub'
+      // }})
     },
     hideModal() {
-      this.$refs.myModal.hide();
+      this.$refs.modalProject.hide();
+
+      // this.$router.push({ name: 'Segment', params: {
+      //   slug: 'participation4ro',
+      //   _slug: 'acces-la-cultura'
+      // }})
     },
     next() {
       if (this.active_project_index === this.segment.projects.length) {
