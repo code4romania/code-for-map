@@ -106,8 +106,10 @@
                 <b-col cols="12">
                   <b-row class="my-3" v-if="segment.projects[active_project_index].adopted">
                     <template v-for="(partner, index) in segment.projects[active_project_index].adopted_by">
-                      <b-col cols="2" :key="index">
-                        <svg class="icon icon-lg"><use :xlink:href="`#` + partner.logo"></use></svg>
+                      <b-col cols="3" :key="index">
+                        <a :href="partner.link" target="_blank" class="d-block border border-gray">
+                          <img :src="partner.logo" class="img-fluid" />
+                        </a>
                       </b-col>
                     </template>
                   </b-row>
