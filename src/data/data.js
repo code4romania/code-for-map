@@ -1760,7 +1760,7 @@ const data = {
               "id":2,
               "projectSlug":"ONG-hub",
               "title":"ONG Hub",
-              "subtitle":"Modernizarea interfeței dintre stat și societatea civilă",
+              "subtitle":"Toate soluțiile puse de Code for Romania la dispoziția sectorului non-profit, într-un singur loc.",
               "description":"<p>Nu toate ONG-urile dispun de resurse tehnice, materiale sau umane suficient de specializate și diverse care le sunt necesare pentru a-și putea desfășura în condiții bune activitatea. Iar sectorul ONG are nevoie de soluții specifice, simplificate și centralizate. ONG Hub va fi platforma unde sectorul non-profit va putea accesa dintr-un singur loc toată infrastructura de soluții digitale pe care Code for Romania le pune la dispoziția societății civile (Redirecționează, RoHelp, VotONG etc.).</p>",
               "link":"",
               "link_text":"Vezi soluția",
@@ -2333,7 +2333,7 @@ const data = {
           "id":10,
           "segmentSlug":"legislatie-accesibila",
           "segment_visual":"segment-participation-03-legislatie-accesibila",
-          "title":"Legislație accesibila",
+          "title":"Acces la legislație",
           "description":"<p>Relația dintre stat și cetățean are la baza respectarea unui set de reguli, dar acest lucru nu se poate întâmpla în practică fără cunoașterea și înțelegerea legilor.</p> <p>Accesul liber la legislație este o nevoie, dar și un drept al cetățenilor. În același timp, simplul acces nu este suficient. Înțelegerea textului legii, deconstruirea procesului legislativ pentru publicul larg, creșterea transparenței și a gradului de participare a oamenilor la consultările publice, toate reprezintă  componente esențiale pentru un stat sănătos. Tehnologia ne poate ajuta pe toți să fim mai aproape de cei care construiesc sistemul și să înțelegem mai bine cum ne influențează viața și ce instrumente avem la dispoziție pentru a ne implica în luarea deciziilor la nivel legislativ.</p>",
           "btn":{
             "top":"15.77%",
