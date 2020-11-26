@@ -220,27 +220,8 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/care4ro-sunrise-management-caz-vd.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
-              "adopted":true,
-              "adopted_by":[
-                {
-                  "id":1,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                },
-                {
-                  "id":2,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                }
-              ]
+              "adopted":false,
+              "adopted_by":[]
             },
             {
               "id":2,
@@ -251,27 +232,8 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/care4ro-sunshine-management-caz-integrat.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
-              "adopted":true,
-              "adopted_by":[
-                {
-                  "id":1,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                },
-                {
-                  "id":2,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                }
-              ]
+              "adopted":false,
+              "adopted_by":[]
             },
             {
               "id":3,
@@ -282,27 +244,8 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/care4ro-sunshine-management-caz-integrat.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
-              "adopted":true,
-              "adopted_by":[
-                {
-                  "id":1,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                },
-                {
-                  "id":2,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                }
-              ]
+              "adopted":false,
+              "adopted_by":[]
             },
             {
               "id":4,
@@ -313,27 +256,8 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/care4ro-banca-de-resurse.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
-              "adopted":true,
-              "adopted_by":[
-                {
-                  "id":1,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                },
-                {
-                  "id":2,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                }
-              ]
+              "adopted":false,
+              "adopted_by":[]
             },
             {
               "id":5,
@@ -344,27 +268,8 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/care4ro-incognito-escape.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
-              "adopted":true,
-              "adopted_by":[
-                {
-                  "id":1,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                },
-                {
-                  "id":2,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                }
-              ]
+              "adopted":false,
+              "adopted_by":[]
             },
             {
               "id":6,
@@ -375,27 +280,8 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/care4ro-website-chatbot.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
-              "adopted":true,
-              "adopted_by":[
-                {
-                  "id":1,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                },
-                {
-                  "id":2,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                }
-              ]
+              "adopted":false,
+              "adopted_by":[]
             },
             {
               "id":7,
@@ -406,27 +292,8 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/care4ro-vorbesc.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
-              "adopted":true,
-              "adopted_by":[
-                {
-                  "id":1,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                },
-                {
-                  "id":2,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                }
-              ]
+              "adopted":false,
+              "adopted_by":[]
             },
             {
               "id":8,
@@ -437,27 +304,8 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/care4ro-support-community.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
-              "adopted":true,
-              "adopted_by":[
-                {
-                  "id":1,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                },
-                {
-                  "id":2,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                }
-              ]
+              "adopted":false,
+              "adopted_by":[]
             },
             {
               "id":9,
@@ -468,27 +316,8 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/care4ro-Widget-hub-violenta-domestica.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
-              "adopted":true,
-              "adopted_by":[
-                {
-                  "id":1,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                },
-                {
-                  "id":2,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                }
-              ]
+              "adopted":false,
+              "adopted_by":[]
             },
             {
               "id":10,
@@ -499,23 +328,8 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/care4ro-daily-assessment-kit-schools.png'),
-              "adopted":true,
-              "adopted_by":[
-                {
-                  "id":1,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                },
-                {
-                  "id":2,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                }
-              ]
+              "adopted":false,
+              "adopted_by":[]
             },
             {
               "id":11,
@@ -526,27 +340,8 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/care4ro-daily-assessment-kit-angajator.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
-              "adopted":true,
-              "adopted_by":[
-                {
-                  "id":1,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                },
-                {
-                  "id":2,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                }
-              ]
+              "adopted":false,
+              "adopted_by":[]
             },
             {
               "id":12,
@@ -556,28 +351,9 @@ const data = {
               "description" : "Identificarea cazurilor de violență domestică poate fi un proces dificil, mai ales dacă vorbim de forma de violență de tip social sau psihologică. Pentru potențialii martori semnele nu sunt evidente, iar aceștia nu au parte de nici un fel de instruire să recunoască semnele. Daily Assessment Kit este un sistem care poate fi folosit de orice angajator cu rol de early warning system. De exemplu, printr-o suită simplă de întrebări de tipul 'cum te simți astăzi' sau altele care au ca scop monitorizarea stării psihice a angajaților, se pot identifica acele pattern-uri care ar putea indica probleme în familie, tulburări emoționale și un consilier de resurse umane ar putea aborda angajatul care dă semne că ar fi într-o situație dificilă pentru a-i putea oferi ajutor. ",
               "link":"",
               "link_text":"Vezi soluția",
-             "icon":require('../assets/images/projects/care4ro-personal-assessment-kit.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
-              "adopted":true,
-              "adopted_by":[
-                {
-                  "id":1,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                },
-                {
-                  "id":2,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                }
-              ]
+              "icon":require('../assets/images/projects/care4ro-personal-assessment-kit.png'),
+              "adopted":false,
+              "adopted_by":[]
             },
             {
               "id":13,
@@ -588,27 +364,8 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/care4ro-anger-management.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
-              "adopted":true,
-              "adopted_by":[
-                {
-                  "id":1,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                },
-                {
-                  "id":2,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                }
-              ]
+              "adopted":false,
+              "adopted_by":[]
             },
             {
               "id":14,
@@ -619,27 +376,8 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/care4ro-violenta-domestica-media-kit.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
-              "adopted":true,
-              "adopted_by":[
-                {
-                  "id":1,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                },
-                {
-                  "id":2,
-                  "title":"",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
-                }
-              ]
+              "adopted":false,
+              "adopted_by":[]
             }
           ]
         },
@@ -726,10 +464,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/care4ro-diaspora-hub.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -757,10 +491,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/care4ro-info-diaspora.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -788,10 +518,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/care4ro-inapoi-acasa.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
@@ -819,10 +545,6 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/care4ro-brain-gain.png'),
-              "position":{
-                "top":"0",
-                "left":"0"
-              },
               "adopted":true,
               "adopted_by":[
                 {
