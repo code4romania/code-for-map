@@ -1,4 +1,4 @@
-const targetOrigin = "http://d0abb63334f0.eu.ngrok.io";
+const targetOrigin = "*";
 
 export default function postMessage(object) {
   parent.postMessage(object, targetOrigin)
