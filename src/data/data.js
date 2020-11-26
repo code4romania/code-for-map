@@ -70,8 +70,6 @@ const data = {
     }
   },
   "more_info": {
-    "title": "Content cu poza sau cu embed de Youtube",
-    "description": "<p>Code for Romania este a doua cea mai mare comunitate de tehnologie civică din lume. Misiunea noastră este aceea de a găsi soluții digitale la problemele României. Am construit deja zeci de soluții folosite de milioane de români, iar în următorii cinci ani ne propunem să realizăm o veritabilă infrastructură digitală care să rezolve problemele României din cinci domenii-cheie. Ne-am propus, prin acest plan, să atingem 37 de obiective. Când vom ajunge la capătul lui, vom avea sute de soluții bine gândite și bine realizate care vor întregi cele cinci mari drumuri pe care le-am desenat pe această hartă. Sună ambițios? Este ambițios, dar în cei 4 ani de existență, Code for Romania a arătat că se poate. Iar pentru a rezolva problemele României un plan nu poate fi decât ambițios. Alături de partenerii noștri puternici, putem găsi soluții la mii de probleme ale societății românești. </p>",
     "download_pdf_cta": "Descarcă planul nostru",
     "download_pdf_link": "",
     "youtube": "https://www.youtube.com/watch?v=tyYNP9IzfEY&ab_channel=MorningGlorycuR%C4%83zvanExarhu",
@@ -490,7 +488,7 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/care4ro-diaspora-hub.png'),
-              "adopted":true,
+              "adopted":false,
               "adopted_by":[]
             },
             {
@@ -502,7 +500,7 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/care4ro-info-diaspora.png'),
-              "adopted":true,
+              "adopted":false,
               "adopted_by":[]
             },
             {
@@ -514,7 +512,7 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/care4ro-inapoi-acasa.png'),
-              "adopted":true,
+              "adopted":false,
               "adopted_by":[]
             },
             {
@@ -526,7 +524,7 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/care4ro-brain-gain.png'),
-              "adopted":true,
+              "adopted":false,
               "adopted_by":[]
             }
           ]
@@ -721,8 +719,15 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/health4ro-dosarul-digital.png'),
-              "adopted":false,
-              "adopted_by":[]
+              "adopted":true,
+              "adopted_by":[
+                {
+                  "id":1,
+                  "title": "Fundația Vodafone România",
+                  "link": "https://www.fundatia-vodafone.ro/",
+                  "logo": "https://code4.ro/img/fundatia-vodafone.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=500%2C500%2C0%2C0"
+                }
+              ]
             },
             {
               "id":2,
@@ -769,8 +774,15 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/health4ro-impreuna-pt-sanatate.png'),
-              "adopted":false,
-              "adopted_by":[]
+              "adopted":true,
+              "adopted_by":[
+                {
+                  "id":1,
+                  "title": "Fundația Vodafone România",
+                  "link": "https://www.fundatia-vodafone.ro/",
+                  "logo": "https://code4.ro/img/fundatia-vodafone.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=500%2C500%2C0%2C0"
+                }
+              ]
             },
             {
               "id":6,
@@ -885,8 +897,15 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-theater-hub.png'),
-              "adopted":false,
-              "adopted_by":[]
+              "adopted":true,
+              "adopted_by":[
+                {
+                  "id":1,
+                  "title":"Code for Romania",
+                  "link":"https://code4.ro/",
+                  "logo":require('../assets/images/code4.png')
+                }
+              ]
             }
           ]
         },
@@ -970,7 +989,7 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-website-builder-minister.png'),
-              "adopted":true,
+              "adopted":false,
               "adopted_by":[]
             },
             {
@@ -982,7 +1001,7 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-website-builder-primarie.png'),
-              "adopted":true,
+              "adopted":false,
               "adopted_by":[]
             },
             {
@@ -994,7 +1013,7 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-acces-544.png'),
-              "adopted":true,
+              "adopted":false,
               "adopted_by":[]
             },
             {
@@ -1006,7 +1025,7 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-biroul-de-propuneri.png'),
-              "adopted":true,
+              "adopted":false,
               "adopted_by":[]
             },
             {
@@ -1018,7 +1037,7 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-bugetare-participativa.png'),
-              "adopted":true,
+              "adopted":false,
               "adopted_by":[]
             },
             {
@@ -1030,7 +1049,7 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-pubic-report.png'),
-              "adopted":true,
+              "adopted":false,
               "adopted_by":[]
             },
             {
@@ -1042,7 +1061,7 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-te-reprezinta.png'),
-              "adopted":true,
+              "adopted":false,
               "adopted_by":[]
             }
           ]
@@ -1068,7 +1087,7 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-registrul-national-ong.png'),
-              "adopted":true,
+              "adopted":false,
               "adopted_by":[]
             },
             {
@@ -1080,7 +1099,7 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-onghub.png'),
-              "adopted":true,
+              "adopted":false,
               "adopted_by":[]
             },
             {
@@ -1092,7 +1111,7 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-websitefactory.png'),
-              "adopted":true,
+              "adopted":false,
               "adopted_by":[]
             },
             {
@@ -1104,7 +1123,7 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-redirectioneaza.png'),
-              "adopted":true,
+              "adopted":false,
               "adopted_by":[]
             },
             {
@@ -1116,7 +1135,7 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-rohelp.png'),
-              "adopted":true,
+              "adopted":false,
               "adopted_by":[]
             },
             {
@@ -1147,7 +1166,7 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-alex.png'),
-              "adopted":true,
+              "adopted":false,
               "adopted_by":[]
             },
             {
@@ -1159,7 +1178,7 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-teo.png'),
-              "adopted":true,
+              "adopted":false,
               "adopted_by":[]
             },
             {
@@ -1171,7 +1190,7 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-funding-call.png'),
-              "adopted":true,
+              "adopted":false,
               "adopted_by":[]
             },
             {
@@ -1221,7 +1240,7 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-dateong.png'),
-              "adopted":true,
+              "adopted":false,
               "adopted_by":[]
             },
             {
@@ -1233,7 +1252,7 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-finantari-publice.png'),
-              "adopted":true,
+              "adopted":false,
               "adopted_by":[]
             }
           ]
@@ -1415,7 +1434,7 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-data-portal.png'),
-              "adopted":true,
+              "adopted":false,
               "adopted_by":[]
             },
             {
@@ -1427,7 +1446,7 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-data-scientists-hub.png'),
-              "adopted":true,
+              "adopted":false,
               "adopted_by":[]
             },
             {
@@ -1439,7 +1458,7 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-declaratii-de-avere.png'),
-              "adopted":true,
+              "adopted":false,
               "adopted_by":[]
             },
             {
@@ -1451,7 +1470,7 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-banii-din-politica.png'),
-              "adopted":true,
+              "adopted":false,
               "adopted_by":[]
             }
           ]
@@ -1477,7 +1496,7 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-draft-legislativ.png'),
-              "adopted":true,
+              "adopted":false,
               "adopted_by":[]
             },
             {
@@ -1489,7 +1508,7 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-consultare-publica.png'),
-              "adopted":true,
+              "adopted":false,
               "adopted_by":[]
             },
             {
@@ -1501,7 +1520,7 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-expert-consultation.png'),
-              "adopted":true,
+              "adopted":false,
               "adopted_by":[]
             },
             {
@@ -1513,7 +1532,7 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-legi-in-lucru.png'),
-              "adopted":true,
+              "adopted":false,
               "adopted_by":[]
             },
             {
@@ -1525,7 +1544,7 @@ const data = {
               "link": "",
               "link_text": "Vezi soluția",
               "icon": require('../assets/images/projects/participation4ro-platforme-de-legislatie-locala.png'),
-              "adopted":true,
+              "adopted":false,
               "adopted_by":[]
             },
             {
@@ -1537,7 +1556,7 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-legea-pe-bune.png'),
-              "adopted":true,
+              "adopted":false,
               "adopted_by":[]
             },
             {
@@ -1549,7 +1568,7 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-ce-zice-legea.png'),
-              "adopted":true,
+              "adopted":false,
               "adopted_by":[]
             },
             {
@@ -1561,7 +1580,7 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-edulex.png'),
-              "adopted":true,
+              "adopted":false,
               "adopted_by":[]
             },
             {
@@ -1573,7 +1592,7 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/participation4ro-zi-de-zi.png'),
-              "adopted":true,
+              "adopted":false,
               "adopted_by":[]
             }
           ]
@@ -1669,7 +1688,7 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/education4ro-ce-ma-fac.png'),
-              "adopted":true,
+              "adopted":false,
               "adopted_by":[]
             },
             {
@@ -1681,7 +1700,7 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/education4ro-micii-cetateni.png'),
-              "adopted":true,
+              "adopted":false,
               "adopted_by":[]
             },
             {
@@ -1693,7 +1712,7 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/education4ro-civic-fitness.png'),
-              "adopted":true,
+              "adopted":false,
               "adopted_by":[]
             },
             {
@@ -1705,7 +1724,7 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/education4ro-descurca-tech.png'),
-              "adopted":true,
+              "adopted":false,
               "adopted_by":[]
             },
             {
@@ -1717,7 +1736,7 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/education4ro-evalueaza-tech.png'),
-              "adopted":true,
+              "adopted":false,
               "adopted_by":[]
             },
             {
@@ -1729,7 +1748,7 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/education4ro-invata-tech.png'),
-              "adopted":true,
+              "adopted":false,
               "adopted_by":[]
             }
           ]
@@ -1759,10 +1778,9 @@ const data = {
               "adopted_by":[
                 {
                   "id":1,
-                  "title":"Fundația Vodafone România",
-                  "description":"",
-                  "link":"",
-                  "logo":"icon-date-deschise"
+                  "title": "Fundația Vodafone România",
+                  "link": "https://www.fundatia-vodafone.ro/",
+                  "logo": "https://code4.ro/img/fundatia-vodafone.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=500%2C500%2C0%2C0"
                 }
               ]
             },
@@ -1776,15 +1794,7 @@ const data = {
               "link_text": "Vezi soluția",
               "icon": require('../assets/images/projects/education4ro-resurse-profesori.png'),
               "adopted": true,
-              "adopted_by": [
-                {
-                  "id": 1,
-                  "title": "Fundația Vodafone România",
-                  "description": "",
-                  "link": "",
-                  "logo": "icon-date-deschise"
-                }
-              ]
+              "adopted_by": []
             },
             {
               "id": 3,
@@ -1796,15 +1806,7 @@ const data = {
               "link_text": "Vezi soluția",
               "icon": require('../assets/images/projects/education4ro-classroom-demo.png'),
               "adopted": true,
-              "adopted_by": [
-                {
-                  "id": 1,
-                  "title": "Fundația Vodafone România",
-                  "description": "",
-                  "link": "",
-                  "logo": "icon-date-deschise"
-                }
-              ]
+              "adopted_by": []
             },
             {
               "id": 4,
@@ -1816,15 +1818,7 @@ const data = {
               "link_text": "Vezi soluția",
               "icon": require('../assets/images/projects/education4ro-teacher-workout.png'),
               "adopted": true,
-              "adopted_by": [
-                {
-                  "id": 1,
-                  "title": "Fundația Vodafone România",
-                  "description": "",
-                  "link": "",
-                  "logo": "icon-date-deschise"
-                }
-              ]
+              "adopted_by": []
             },
             {
               "id": 5,
@@ -1836,15 +1830,7 @@ const data = {
               "link_text": "Vezi soluția",
               "icon": require('../assets/images/projects/education4ro-profesor-spital.png'),
               "adopted": true,
-              "adopted_by": [
-                {
-                  "id": 1,
-                  "title": "Fundația Vodafone România",
-                  "description": "",
-                  "link": "",
-                  "logo": "icon-date-deschise"
-                }
-              ]
+              "adopted_by": []
             },
             {
               "id": 6,
@@ -1858,11 +1844,10 @@ const data = {
               "adopted": true,
               "adopted_by": [
                 {
-                  "id": 1,
+                  "id":1,
                   "title": "Fundația Vodafone România",
-                  "description": "",
-                  "link": "",
-                  "logo": "icon-date-deschise"
+                  "link": "https://www.fundatia-vodafone.ro/",
+                  "logo": "https://code4.ro/img/fundatia-vodafone.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=500%2C500%2C0%2C0"
                 }
               ]
             },
@@ -1878,10 +1863,10 @@ const data = {
               "adopted": true,
               "adopted_by": [
                 {
-                  "id": 1,
+                  "id":1,
                   "title": "Fundația Orange",
-                  "link": "",
-                  "logo": "icon-date-deschise"
+                  "link": "https://www.fundatiaorange.ro/",
+                  "logo": "https://code4.ro/img/0445a784-b1d7-43bf-a5ef-b72528c03181/logo-fundatia-orange.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=160%2C60%2C0%2C0"
                 }
               ]
             }
@@ -1926,7 +1911,7 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":"icon-date-deschise",
-              "adopted":true,
+              "adopted":false,
               "adopted_by":[]
             }
           ]
@@ -2003,7 +1988,7 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":"icon-date-deschise",
-              "adopted":true,
+              "adopted":false,
               "adopted_by":[]
             }
           ]
@@ -2028,7 +2013,7 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":"icon-date-deschise",
-              "adopted":true,
+              "adopted":false,
               "adopted_by":[]
             }
           ]
@@ -2053,7 +2038,7 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":"icon-date-deschise",
-              "adopted":true,
+              "adopted":false,
               "adopted_by":[]
             }
           ]
@@ -2078,7 +2063,7 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":"icon-date-deschise",
-              "adopted":true,
+              "adopted":false,
               "adopted_by":[]
             }
           ]
