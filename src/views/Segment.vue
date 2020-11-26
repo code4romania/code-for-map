@@ -72,8 +72,8 @@
 
           <div class="d-flex align-items-center justify-content-between my-4">
             <div>
-              <h3>{{segment.projects[active_project_index].title}}</h3>
-              <p>{{segment.projects[active_project_index].subtitle}}</p>
+              <h2>{{segment.projects[active_project_index].title}}</h2>
+              <p class="lead">{{segment.projects[active_project_index].subtitle}}</p>
             </div>
 
             <a :href="segment.projects[active_project_index].link" v-if="segment.projects[active_project_index].link">
