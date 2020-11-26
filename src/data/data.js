@@ -307,7 +307,7 @@ const data = {
               "id":1,
               "projectSlug":"project-slug",
               "title":"proiect title",
-              "description":"description 1",
+              "description":"Hello world",
               "link":"",
               "link_text":"Vezi soluția",
               "icon":"icon-date-deschise",
