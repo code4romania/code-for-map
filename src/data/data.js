@@ -2331,7 +2331,7 @@ const data = {
           "projects":[
             {
               "id":1,
-              "projectSlug":"scoala profesorilor",
+              "projectSlug":"scoala-profesorilor",
               "title":"Școala Profesorilor",
               "subtitle":"Managementul carierei pentru profesori, simplificat",
               "description":"<p>Managementul carierei în educație este un concept destul de străin și profesorii sau învățătorii nu au instrumente la dispoziție pentru a-și planifica parcursul profesional corect și cu un consum minim de resurse. Școala profesorilor este o aplicație web în care profesorul își poate crea un cont și configura un parcurs profesional dorit, iar pe baza acestuia i se recomandă un plan de învățare (inclusiv cursuri recomandate, acreditate sau nu), iar școala își poate crea un cont unde își poate introduce toți profesorii și menține la zi informațiile despre gradele, cursurile și formările acestora, unde poate configura parcursul resurselor sale umane, estima costuri și organiza calendarul de training</p>",
@@ -2351,7 +2351,7 @@ const data = {
             },
             {
               "id":2,
-              "projectSlug":"resurse profesorilor",
+              "projectSlug":"resurse-profesori",
               "title":"Resurse Profesori",
               "subtitle":"Resurse educaționale gratuite pentru toți profesorii",
               "description":"<p>Fiecare cadru didactic, odată ajuns în învățământ, este pe cont propriu și își construiește lecțiile folosindu-se de resurse pe care le descoperă și adaptează singur, unica îndrumare venind de la alte cadre didactice tot la inițiativa independentă a profesorului. Resurse profesori este un set de instrumente de folosit la clasă pe care să și-l configureze și descarce din platformă orice profesor. Răspunzând la câteva întrebări legate de mediul în care predă, profesorul își poate personaliza un pachet de bază de resurse utile pentru predatul de zi cu zi. În același timp, aplicația poate recomanda o serie de alte instrumente administrative utile în managementul cursurilor: instrumente de monitorizare a progresului elevilor, de management personal al timpului, cataloage digitale etc.</p>",
