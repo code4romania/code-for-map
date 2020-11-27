@@ -15,9 +15,8 @@
         :description="segmentObject.description"
       />
 
-      <SegmentLegend :status="data.segment_legend" :color="code4ro_map.color" />
-
       <div class="ProjectsList" v-if="segmentObject.projects.length">
+        <SegmentLegend :status="data.segment_legend" :color="code4ro_map.color" />
         <router-link
           tag="div"
           class="d-flex align-items-center justify-content-between ListItem"
@@ -171,23 +170,3 @@ export default {
 };
 </script>
 
-<style>
-.modal-route {
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  background: rgba(0, 0, 0, 0.6);
-  z-index: 10000;
-}
-.modal-content {
-  position: absolute;
-  width: 100%;
-  max-width: 1024px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background: rgba(0, 0, 0, 0.6);
-}
-</style>

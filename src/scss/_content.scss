@@ -48,10 +48,28 @@
 
 .BackToMap,
 .ProjectModal-nav {
-  font-size: 20px;
+  font-size: 18px;
 
   &:hover {
     text-decoration: none;
   }
+}
+
+.modal-route {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 10000;
+}
+.modal-content {
+  position: absolute;
+  width: 100%;
+  max-width: 1024px;
+  top: 50px;
+  left: 50%;
+  transform: translate(-50%, 0);
 }
 

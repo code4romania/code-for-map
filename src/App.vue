@@ -64,8 +64,6 @@
         </b-col>
       </b-row>
 
-      <h1 class="text-strong-blue text-center mb-5">FAQ</h1>
-
       <b-row>
         <b-col xs="12" lg="6">
           <div class="Partners">
