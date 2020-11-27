@@ -2,8 +2,8 @@
   <div>
     <div class="py-1" :class="`bg-` + code4ro_map.color"></div>
 
-    <div class="ProjectModal px-4 pb-3">
-      <div class="d-flex align-items-center justify-content-between my-4">
+    <div class="ProjectModal px-2 px-lg-4 pb-3">
+      <div class="d-flex align-items-center justify-content-between my-4 px-2 p-lg-0">
         <div class="SegmentLegend-status d-flex align-items-center">
           <i
             class="icon icon-circle"
@@ -134,7 +134,7 @@
             > -->
             <a href="#" @click.prevent="previous" v-if="segmentObject.projects.length > 1" class="ProjectModal-nav">
               <svg class="icon icon-md"><use xlink:href="#chevron-left"></use></svg>
-              <span class="ml-2 text-primary border-bottom border-primary">
+              <span class="ml-lg-2 text-primary border-bottom border-primary">
                 {{ data.general.modal.previous.text }}
               </span>
             </a>
@@ -147,7 +147,7 @@
               }"
             > -->
             <a href="#" @click.prevent="next" v-if="segmentObject.projects.length > 1" class="ProjectModal-nav">
-              <span class="mr-2 text-primary border-bottom border-primary">
+              <span class="mr-lg-2 text-primary border-bottom border-primary">
                 {{ data.general.modal.next.text }}
               </span>
               <svg class="icon icon-md"><use xlink:href="#chevron-right"></use></svg>

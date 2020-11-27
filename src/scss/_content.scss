@@ -50,6 +50,10 @@
 .ProjectModal-nav {
   font-size: 18px;
 
+  @include respond-below(lg){
+    font-size: 15px;
+  }
+
   &:hover {
     text-decoration: none;
   }
@@ -63,6 +67,11 @@
   left: 0;
   background: rgba(0, 0, 0, 0.6);
   z-index: 10000;
+  overflow-y: scroll;
+  @include respond-above(lg){
+    padding-right: 17px;
+    box-sizing: content-box;
+  }
 }
 .modal-content {
   position: absolute;
@@ -72,4 +81,3 @@
   left: 50%;
   transform: translate(-50%, 0);
 }
-
