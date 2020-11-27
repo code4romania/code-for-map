@@ -243,8 +243,8 @@ const data = {
           "title": "Fără violență acasă",
           "description": "<p>Pentru prea multe familii, acasă nu mai reprezintă locul în care găsesc echilibrul necesar și un refugiu în fața grijilor, iar nesiguranța resimțită în propria casă este un sentiment pe care nimeni nu ar trebui să-l trăiască.</p><p>Violența domestică, fie că vizează relația de cuplu, copiii sau persoanele în vârstă, are un trecut bogat în România, iar urmele lăsate în viața victimelor sunt greu de remediat.</p><p>Indiferent că vorbim despre violență verbală, psihologică, fizică, sexuală sau economică, am ales să analizăm acest domeniu pentru a  ne concentra  atenția asupra unui fenomen vitregit de atenția care i se cuvine, într-o societate care continuă să îl normalizeze.</p>",
           "btn": {
-            "top": "15%",
-            "left": "46%"
+            "top": "53%",
+            "left": "13%"
           },
           "icon_left":true,
           "projects":[
@@ -432,8 +432,8 @@ const data = {
           "title": "Șanse pentru persoanele cu dizabilități",
           "description": "<p>Infrastructura României în ceea ce privește persoanele cu dizabilități este una deficitară, așa că îmbunătățirea calității vieții acestei categorii sociale defavorizate este un proces complicat și lent.</p><p>Spectrul dizabilităților este unul larg, iar lipsurile și atitudinile cu care aceștia se confruntă îi împiedică să trăiască într-un mediu sigur, tolerant și prietenos.</p><p>Trebuie să construim o țară, comunități și orașe accesibile tuturor, motiv pentru care ne îndreptăm atenția către persoanele care suferă de dizabilități variate și relația dintre acestea și modul în care le sunt, sau nu, facilitate anumite procese.</p>",
           "btn": {
-            "top": "20%",
-            "left": "40%"
+            "top": "12%",
+            "left": "18%"
           },
           "icon_left":true,
           "projects":[]
@@ -446,7 +446,7 @@ const data = {
           "description": "<p>În România, problema abandonului și a instituționalizării copiilor reprezintă o lungă luptă de a oferi o șansă la familie copiilor abandonați. Studiile arată că abandonul în primii ani după naștere poate duce la dificultăţi din punct de vedere al dezvoltării emoţionale şi comportamentale pe tot parcursul vieții.</p><p>Toți avem nevoie de ancora unei familii în viața noastră. Însă pentru cei care la început de drum nu au parte de ea, întreaga comunitate trebuie să constituie sprijinul necesar în lipsa unei familii. Susținem și dezvoltăm activ soluții tehnologice care să poată ameliora calitatea vieții și dezvoltarea acestora.</p>",
           "btn": {
             "top": "30%",
-            "left": "45%"
+            "left": "38%"
           },
           "icon_left":true,
           "projects":[]
@@ -458,8 +458,8 @@ const data = {
           "title": "Fără discriminare împotriva etniei rome",
           "description": "<p>Discriminarea etnică a romilor este unul din principalele obstacole pentru integrarea lor în societate ca cetățeni cu drepturi depline, iar oferirea de șanse egale reprezintă o problemă structurală și istorică a României.</p><p>Nu putem avea o țară sănătoasă și prosperă decât dacă toți cetățenii ei sunt acceptați, sprijiniți și au acces la toate șansele posibile de dezvoltare. Din păcate, problemele generale ale societății românești sunt acutizate în cazul minorității rome, iar discriminarea duce la excluderea unor membri care pot aduce valoare întregii societăți.</p><p>Audităm toate aceste probleme și aducem în fața publicului larg soluții care sprijină integrarea comunității rome în colectivitate.</p>",
           "btn": {
-            "top": "19%",
-            "left": "23%"
+            "top": "21%",
+            "left": "2%"
           },
           "icon_left":false,
           "projects":[]
@@ -471,8 +471,8 @@ const data = {
           "title": "Incluziune pentru persoanele LGBTQ+",
           "description": "<p>Au trecut doar 20 de ani de când statul român pedepsea cu închisoarea relațiile de dragoste dintre persoanele de același sex. De atunci și până acum, societatea civilă luptă continuu pentru drepturilor și libertăților persoanelor LGBTQ+.</p><p>Deși lucrurile se îmbunătățesc într-un ritm lent, acceptarea și integrarea lor încă reprezintă o problemă în spațiul public, iar consecințele au un impact sever pentru membrii comunității, dar și pentru întreaga societate.</p><p>Ne uităm atent la fenomenul discriminării pe criterii de orientare sexuală și identitate de gen în vederea dezvoltării unor soluții de tehnologie civică menite să sprijine aceste comunități.</p>",
           "btn": {
-            "top": "23%",
-            "left": "10%"
+            "top": "31%",
+            "left": "4%"
           },
           "icon_left":false,
           "projects":[]
@@ -484,8 +484,8 @@ const data = {
           "title": "Diaspora mai aproape de casă",
           "description": "<p>Statisticile recente ne pun față în față cu o realitate dură: peste 1 din 5 cetățeni români nu mai locuiesc în țară. Poate și mai îngrijorător este faptul că mulți dintre românii care au emigrat au luat această decizie în urma lipsurilor și a condițiilor de trai precare.</p><p>Ne îndreptăm atenția asupra unor fenomene des întâlnite precum: fragmentarea familiilor care duce inevitabil la vulnerabilitate din punct de vedere economic, social sau psihologic, dar și la limitarea accesului românilor din diaspora la serviciile statutului și protecția oferită de acesta.</p>",
           "btn": {
-            "top": "32%",
-            "left": "20%"
+            "top": "41%",
+            "left": "19%"
           },
           "icon_left":true,
           "projects":[
@@ -546,8 +546,8 @@ const data = {
           "title": "Fără trafic de persoane",
           "description": "<p>România rămâne o sursă primară de victime ale traficului în scopuri sexuale și de muncă, aspect ce ne-a plasat pe locul I într-un clasament ce vizează țările din Europa.</p><p>În timp ce datoria de bază a oricărei comunități este să ofere și să apere siguranța membrilor ei în fața oricăror amenințări, victimele traficului de persoane nu sunt protejate, iar eforturile de combatere a acestui fenomen sunt prea puțin semnificative.</p><p>Urmărim indicatori de trafic de persoane în rândul comunităților vulnerabile și modalități prin care împreună, prin intermediul tehnologiei, putem stopa creșterea numărului de victime, dar și construi pârghii pentru ocrotirea acestora.</p>",
           "btn": {
-            "top": "23%",
-            "left": "10%"
+            "top": "21%",
+            "left": "46%"
           },
           "icon_left":false,
           "projects":[],
@@ -594,8 +594,8 @@ const data = {
           "title": "Sprijin nu pedeapsa pentru dependenti",
           "description": "<p>Persoanele dependente au nevoie de sprijin pe termen lung, de înțelegere din partea comunității și de încredere în cei la care apelează.</p><p>Tulburările din sfera dependenței nu ar trebui să definească persoanele care trec prin astfel de greutăți, însă, scăpate de sub control, ele pot ajunge să le acapareze viața și să îi afecteze pe cei din jur.</p><p>Este o problemă deosebit de frecventă și, din păcate, foarte puțin înțeleasă. Dependența trebuie privită ca o tulburare mentală, nu ca o slăbiciune morală sau lipsă de voință, astfel că ne concentrăm atenția pe aspectele care pot fi schimbate și îmbunătățite în abordarea și tratarea dependenților.</p>",
           "btn": {
-            "top": "42.42%",
-            "left": "78.25%"
+            "top": "42%",
+            "left": "75%"
           },
           "icon_left":true,
           "projects":[]
@@ -607,8 +607,8 @@ const data = {
           "title": "Spitale funcționale",
           "description": "<p>Managementul spitalelor reprezintă o provocare instituțională complexă de ale cărei rezultate depinde buna tratare a pacienților. Un sistem funcțional este cel care poate prelua și trata eficient atât cazurile de zi cu zi, cât și situațiile critice apărute în urma producerii unui dezastru de orice natură.</p><p>Eficiența sistemului medical este o consecință firească a unor fluxuri interne corect executate care au loc dincolo de interfața cu pacientul.</p><p>În România, drumul către o asemenea eficacitate este unul anevoios și perfectibil, astfel că ne asumăm responsabilitatea de a cerceta și de a veni în sprijinul autorităților și al pacienților cu produse tehnologice destinate unei mai bune organizări între instituțiile sanitare.</p>",
           "btn": {
-            "top": "35.9%",
-            "left": "55.17%"
+            "top": "38%",
+            "left": "51%"
           },
           "icon_left":false,
           "projects":[]
@@ -620,8 +620,8 @@ const data = {
           "title": "Servicii de sănătate eficiente",
           "description": "<p>Accesul la servicii funcționale de sănătate reprezintă o nevoie fundamentală a oricărei societăți, indiferent că discutăm despre nivelul de prevenție, intervențiile de urgență sau tratamentele anevoioase pe termen lung.</p><p>În plan local, comunitățile au de parcurs un drum dificil chiar și în ceea ce privește accesul la servicii medicale de bază. Barierele geografice, financiare și de cunoaștere împiedică membri ai societății să beneficieze de servicii ce intră sub incidența drepturilor fiecărui cetățean.</p><p>Ne uităm la toate aceste aspecte și dezvoltăm instrumente tehnologice care să funcționeze în sprijinul pacienților pentru a fluidiza întregul sistem.</p>",
           "btn": {
-            "top": "47.27%",
-            "left": "63.58%"
+            "top": "46%",
+            "left": "43%"
           },
           "icon_left":true,
           "projects":[]
@@ -897,8 +897,8 @@ const data = {
           "title": "Acces la cultura",
           "description": "<p>Cultura este un factor determinant în creșterea calității vieții, făcând-o mai plină de sens, mai frumoasă și mai armonioasă. Pentru creatori, uneltele digitale pot să asigure o gestionare mai bună a resurselor, în timp ce pentru consumatorii de cultură, tehnologia poate reprezenta o cale ușoară prin care pot avea acces la producții artistice.</p>",
           "btn": {
-            "top": "80.98%",
-            "left": "82.79%"
+            "top": "80%",
+            "left": "82%"
           },
           "icon_left":true,
           "projects":[
@@ -930,8 +930,8 @@ const data = {
           "title": "Jurnalisti eficienti",
           "description": "<p>Rolul fundamental al presei este acela de a monitoriza acțiunile factorilor de decizie, observând neregulile și informând publicul. 'Câinele de pază al democrației' trece în ultimii ani printr-o perioadă de transformare și reinventare, fiind în căutarea acelor instrumente digitale prin care să poată răspunde exigențelor actuale.</p>",
           "btn": {
-            "top": "70.79%",
-            "left": "67.83%"
+            "top": "70%",
+            "left": "61%"
           },
           "icon_left":false,
           "projects":[
@@ -963,8 +963,8 @@ const data = {
           "title": "Primării funcționale",
           "description": "<p>Primăriile și celelalte autorități locale sunt printre primele instituții cu care cetățenii au contact în relația lor cu statul. Nevoia bunei funcționări prin procese interne este cu atât mai intens resimțită. Funcționarea bună, în primul rând la nivel intern, va face în mod natural ca interacțiuni dificile ale cetățenilor cu primăriile să devină mai ușoare și mai eficiente.</p>",
           "btn": {
-            "top": "76%",
-            "left": "60.75%"
+            "top": "80%",
+            "left": "52%"
           },
           "icon_left":false,
           "projects":[]
@@ -977,7 +977,7 @@ const data = {
           "description": "<p>Pentru a putea răspunde nevoilor cetățenilor și a oferi servicii publice de calitate, instituțiile centrale trebuie să aibă întâi procese clare și eficiente prin care să își gestioneze activitatea internă. Digitalizarea poate îmbunătăți felul în care instituțiile funcționează și comunică unele cu altele, făcându-le nu doar mai transparente, ci și mai apropiate de nevoile reale ale cetățenilor.</p>",
           "btn": {
             "top": "68.07%",
-            "left": "49.67%"
+            "left": "32%"
           },
           "icon_left":false,
           "projects":[]
@@ -989,8 +989,8 @@ const data = {
           "title": "O mai buna relatie cetetean-stat",
           "description": "<p>În relația cu statul care ar trebui să le servească interesele, mulți cetățeni se confruntă cu un sentiment de frustrare, generat adesea de ineficiența cu care autoritățile  își îndeplinesc misiunea misiunea.</p> <p>Pentru a avea un stat mai deschis și mai operativ în apărarea intereselor cetățenilor, ne propunem să digitalizăm procesele care, depinzând de procese bazate pe hârtie și dosare cu șină, consumă timp și resurse, deteriorînd relația dintre cetățeni și instituțiile statului</p>.",
           "btn": {
-            "top": "58.34%",
-            "left": "53.33%"
+            "top": "57%",
+            "left": "40%"
           },
           "icon_left":true,
           "projects":[
@@ -1087,8 +1087,8 @@ const data = {
           "title": "O societate civila puternica",
           "description": "<p>ONG-urile lucrează zi de zi pentru ca societatea în care trăim să fie mai funcțională. Orice problemă a lor devine, implicit și o problemă a noastră. Instrumentele digitale pot veni în sprijinul societății civile, oferind nu doar eficiență, ci și transparență și reprezentativitate sectorului ONG.</p><p>Pe lângă îmbunătățirea proceselor interne ale asociațiilor și organizațiilor din societatea civilă, tehnologia poate facilita și accesul tuturor la serviciile oferite de către acestea.</p>",
           "btn": {
-            "top": "50%",
-            "left": "48.5%"
+            "top": "47%",
+            "left": "42%"
           },
           "icon_left":true,
           "projects":[
@@ -1427,8 +1427,8 @@ const data = {
           "title": "Date deschise",
           "description": "<p>Transparența presupune, în primul rând acces liber și neîngrădit la date de interes public. Fără acces la date nu îi putem verifica pe cei care ne conduc. La rândul lor, cei care elaborează politici publice nu o pot face fără a înțelege cu adevărat fenomenele pe care vrem să le corectăm. Deciziile bune se iau pe baza accesului la date și informații , fie că este vorba despre cetățeni obișnuiți, de primari sau miniștri.</p> <p>Ne propunem să echipăm societatea civilă, comunitățile și administrația publică cu acele instrumente digitale care să îi ajute să ia cele mai bune decizii pentru orașele în care locuiesc. Pentru a le face cu adevărat utile, traducem datele în informație ușor de înțeles și îmbunătățim sistemele de colectare de date.</p>",
           "btn": {
-            "top": "28.1%",
-            "left": "20.92%"
+            "top": "26%",
+            "left": "14%"
           },
           "icon_left":false,
           "projects":[
@@ -1654,8 +1654,8 @@ const data = {
           "title": "Școli sigure și bine administrate",
           "description": "Mediul în care un elev se formează are o importanță determinantă pentru viitorul lui, nu doar prin ceea ce se întâmplă la ore ci și prin felul în care școala trebuie să reprezinte un loc sigur, adecvat și gândit pentru a sprijini procesul de învățare. Felul în care școlile sunt administrate poate fi îmbunătățit cu ajutorul tehnologiei, pentru a le face să fie spații mai sigure, ferite de amenințări pentru elevi, în care bullying-ul nu este tolerat, iar atmosfera generală încurajează învățarea în spirit colegial.",
           "btn": {
-            "top": "64.34%",
-            "left": "30.5%"
+            "top": "65.34%",
+            "left": "14.5%"
           },
           "icon_left":true,
           "projects":[]
@@ -1680,7 +1680,7 @@ const data = {
           "title": "Învățământ preuniverisitar de calitate",
           "description": "Tehnologia poate aduce un suflu nou în felul în care sunt predate în școli și licee materiile din programele școlare. Pentru multe dintre disciplinele studiate, putem găsi metode îmbunătățite, diversificate, interactive și atractive de predare cu ajutorul tehnologiei.",
           "btn": {
-            "top": "41.82%",
+            "top": "36.82%",
             "left": "35.67%"
           },
           "icon_left":true,
@@ -1693,7 +1693,7 @@ const data = {
           "title": "Acces la educație",
           "description": "Accesul tuturor copiilor la sistemul de educație, deși este prevăzut în documentele și statisticile instituționale, nu este o realitate pentru mulți dintre copiii României. Acest lucru se întâmplă fie pentru că resursa umană este deficitară sau insuficient pregătită, fie pentru că în multe zone defavorizate, infrastructura proastă sau inexistentă e o piedică în calea actului educațional. Pentru foarte mulți copii, accesul la educație și la infrastructura educațională necesară (inclusiv consiliere psihologică sau educațională) este doar formal. Anul 2020 a arătat cu atât mai mult că sistemul educațional nu este pregătit să ofere tuturor elevilor acces la servicii educaționale de calitate.",
           "btn": {
-            "top": "30.45%",
+            "top": "29.45%",
             "left": "43.67%"
           },
           "icon_left":false,
@@ -1934,8 +1934,8 @@ const data = {
           "title": "Păduri protejate și sănătoase",
           "description": "<p>Pădurile sunt una dintre cele mai importante resurse pe care România le deține. Dar sănătatea pădurilor este amenințată de exploatări forestiere ilegale care pun sub asediu zone care ar trebui, de altfel, să fie protejate prin lege.</p><p>Mutilarea pădurilor are efecte de durată asupra mediului, sănătății și siguranței populației. În plus, discutăm despre o resursă foarte prețioasă al cărei proces de regenerare durează zeci de ani, în timp ce defrișările ilegale pun la pământ sute de copaci în doar câteva zile.</p><p>Ne propunem să generăm soluții digitale care să contribuie la menținerea și protejarea pădurilor din România astfel încât să diminuăm riscul dispariției teritoriului împădurit al țării.</p>",
           "btn": {
-            "top": "55.09%",
-            "left": "-2.67%"
+            "top": "54.09%",
+            "left": "-3.67%"
           },
           "icon_left":false,
           "projects":[]
@@ -1947,8 +1947,8 @@ const data = {
           "title": "Protectia naturii",
           "description": "<p>România are una dintre cele mai bogate biodiversități din Europa, iar datorită poziției geografice beneficiem de un capital natural impresionant. Cu toate astea, perioada de dezvoltare și tranziție economică pe care o parcurgem prezintă un risc în lipsa unei strategii coerente și asumate de protecție a naturii.</p><p>Stilul de viață actual și deciziile cu privire la ocrotirea mediului înconjurător influențează negativ patrimoniul natural al țării, având consecințe pe termen lung care vizează direct generațiile viitoare.</p><p>Alături de instituțiile responsabile, de partenerii și voluntarii noștri, căutăm să reducem impactul nociv al degradării mediului înconjurător prin dezvoltarea unor unelte digitale care să contribuie la protejarea naturii în toate formele ei.</p>",
           "btn": {
-            "top": "58.53%",
-            "left": "21.92%"
+            "top": "61.53%",
+            "left": "20.92%"
           },
           "icon_left":true,
           "projects":[]
@@ -1973,8 +1973,8 @@ const data = {
           "title": "Orașe prietenoase",
           "description": "<p>Deși dezvoltarea orașelor are ca prim obiectiv deservirea locuitorilor, în România zona urbană nu a fost concepută având în minte cetățenii. Mai mult decât atât, ne lovim tot mai des de improvizații care nu sunt sustenabile sau decizii care afectează și chiar înrăutățesc calitatea vieții.</p><p>Tehnologia este unul dintre cele mai eficiente instrumente care pot fi utilizate în transformarea orașelor în spații locuibile, accesibile și prietenoase, dezvoltate în mod responsabil și inteligent.</p>",
           "btn": {
-            "top": "69.67%",
-            "left": "28.5%"
+            "top": "70%",
+            "left": "31%"
           },
           "icon_left":true,
           "projects":[]
@@ -1986,8 +1986,8 @@ const data = {
           "title": "Reciclarea și managementul deșeurilor",
           "description": "<p>În 2019, umanitatea a produs un număr record de deșeuri dintre care nici măcar un sfert nu au fost reciclate. Practic, am produs o cantitate de deșeuri care, cumulată, este mai mare decât greutatea tuturor oamenilor adulți din Europa.</p><p>Sustenabilitatea vieții pe pământ depinde în mod direct de identificarea celor mai bune metode de reciclare și management al deșeurilor și gunoiului.</p><p>Este probabil una dintre cele mai mari provocări ale generației noastre, motiv pentru care ne propunem să contribuim prin instrumente digitale la procesele de reciclare și administrare a deșeurilor rezultate în urma reciclării.</p>",
           "btn": {
-            "top": "88.51%",
-            "left": "24.92%"
+            "top": "84%",
+            "left": "24%"
           },
           "icon_left":false,
           "projects":[]
@@ -2075,8 +2075,8 @@ const data = {
           "title": "Pregătiți pentru următorul cutremur",
           "description": "<p>Un cutremur în România nu reprezintă un pericol ipotetic, ci o certitudine. Și despre el știm un singur lucru: este cel mai imprevizibil dezastru de amploare care ni se poate întâmpla.</p><p>Am ales să ne îndreptăm atenția spre domeniul pregătirii și răspunsului în caz de seism deoarece ne dorim să înțelegem concret care este capacitatea noastră de a răspunde unui asemenea eveniment și cât de pregătiți suntem, la nivel individual, să facem față unui cutremur.</p>",
           "btn": {
-            "top": "75.83%",
-            "left": "43.08%"
+            "top": "71%",
+            "left": "54%"
           },
           "icon_left":false,
           "projects":[
