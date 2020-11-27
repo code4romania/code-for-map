@@ -79,7 +79,11 @@
     </div>
 
     <div v-if="showModal" class="modal-route">
-      <div id="projectModal" class="modal-content">
+      <div
+        id="projectModal"
+        class="modal-content"
+        v-bind:style="{ top: modalTop, left: modalLeft }"
+      >
         <router-view
           :data="data"
           :code4ro_map="code4ro_map"
