@@ -31,8 +31,10 @@
           v-for="(project, index) in segmentObject.projects"
           :key="index"
         >
-          <div @click="mobileProjectClicked" class="d-flex align-items-center justify-content-between ListItem">
-              <i
+          <div
+            class="d-flex align-items-center justify-content-between ListItem"
+          >
+            <i
               class="icon icon-circle"
               :class="
                 project.adopted ? 'border-' + code4ro_map.color : 'border-gray'
@@ -77,11 +79,7 @@
     </div>
 
     <div v-if="showModal" class="modal-route">
-      <div
-        id="projectModal"
-        class="modal-content"
-        v-bind:style="{ top: modalTop, left: modalLeft }"
-      >
+      <div id="projectModal" class="modal-content">
         <router-view
           :data="data"
           :code4ro_map="code4ro_map"
