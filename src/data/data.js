@@ -11,6 +11,9 @@ const data = {
     "financed_by": "Susținut de:",
     "back_to_map": "Înapoi la harta"
   },
+  "back_to_map": {
+    "visible": false
+  },
   "header": {
     "title": "Digitalizăm România împreună",
     "description": "Navighează prin planul nostru de digitalizare a României cu ajutorul hărții de mai jos. Dă click pe oricare dintre destinațiile de mai jos pentru a descoperi soluțiile de care avem nevoie pentru a avea o țară funcțională. "
