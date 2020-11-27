@@ -32,6 +32,7 @@
           :key="index"
         >
           <div
+            @click="mobileProjectClicked"
             class="d-flex align-items-center justify-content-between ListItem"
           >
             <i
