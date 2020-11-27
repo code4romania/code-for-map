@@ -42,6 +42,8 @@ export default {
   },
   mounted() {
     postMessage({ height: document.body.scrollHeight });
+
+    this.data.back_to_map.visible = false;
   }
 };
 </script>

@@ -9,6 +9,14 @@
               <h1 class="text-strong-blue mb-3" v-html="data.header.title" />
               <p v-html="data.header.description" />
             </div>
+            <router-link :to="{ name: 'Map' }" class="BackToMap mb-4 d-inline-block d-lg-none" v-if="back.visible">
+              <div class="d-flex align-items-center">
+                <svg class="icon"><use xlink:href="#chevron-left"></use></svg>
+                <div class="ml-2 text-primary border-bottom border-primary">
+                  {{ data.general.back_to_map }}
+                </div>
+              </div>
+            </router-link>
             <Legend :legend="data.map_legend" class="mt-4"/>
           </div>
         </b-col>

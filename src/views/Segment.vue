@@ -120,6 +120,8 @@ export default {
       (item) => item.segmentSlug == this.segmentSlug
     );
 
+    this.data.back_to_map.visible = true;
+
     const segmentProjects = document.getElementsByClassName("btn-project");
     segmentProjects.forEach((segmentProject) => {
       segmentProject.addEventListener("click", () => {

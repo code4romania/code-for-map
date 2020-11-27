@@ -106,6 +106,8 @@ export default {
       (item) => item.slug == this.slug
     );
 
+    this.data.back_to_map.visible = true;
+
     postMessage({ height: document.body.scrollHeight });
   },
   watch: {
