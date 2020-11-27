@@ -147,7 +147,7 @@ export default {
     },
   },
   mounted() {
-    postMessage({ height: document.body.scrollHeight });
+    postMessage({ height: document.documentElement.scrollHeight });
 
     const projects = document.getElementsByClassName("btn-project");
 
