@@ -122,10 +122,10 @@ export default {
     this.data = data;
   },
   mounted() {
-    postMessage({ height: document.body.scrollHeight });
+    postMessage({ height: document.documentElement.scrollHeight });
 
     window.onresize = debouce(() => {
-      postMessage({ height: document.body.scrollHeight });
+      postMessage({ height: document.documentElement.scrollHeight });
     }, 500);
   }
 };

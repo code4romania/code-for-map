@@ -108,7 +108,7 @@ export default {
 
     this.data.back_to_map.visible = true;
 
-    postMessage({ height: document.body.scrollHeight });
+    postMessage({ height: document.documentElement.scrollHeight });
   },
   watch: {
     $route(to) {
