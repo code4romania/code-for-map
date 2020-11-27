@@ -183,6 +183,7 @@
             solution: this.segmentObject.projects[index - 1].projectSlug,
           },
         });
+        this.modalTop = "0px";
       },
       mobileProjectClicked(event) {
         this.modalTop = event.target.getBoundingClientRect().top + "px";
