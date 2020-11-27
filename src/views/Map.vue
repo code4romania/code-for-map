@@ -41,8 +41,6 @@ export default {
     MapButton
   },
   mounted() {
-    this.data.back_to_map.visible = false;
-
     postMessage({ height: document.body.scrollHeight });
   }
 };

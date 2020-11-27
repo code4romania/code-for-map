@@ -8,11 +8,8 @@ const data = {
         "text": "Soluția anterioara"
       }
     },
-    "financed_by": "Susținut de:"
-  },
-  "back_to_map": {
-    "text": "Înapoi la harta",
-    "visible": false
+    "financed_by": "Susținut de:",
+    "back_to_map": "Înapoi la harta"
   },
   "header": {
     "title": "Digitalizăm România împreună",

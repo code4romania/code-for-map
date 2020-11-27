@@ -7,9 +7,10 @@
         <div class="SegmentLegend-status d-flex align-items-center">
           <i
             class="icon icon-circle"
-            :class="'border-' + code4ro_map.color"
+            :class="project.adopted ? 'border-' + code4ro_map.color : 'border-gray'"
           ></i>
-          {{ data.segment_legend.done }}
+
+          {{ project.adopted ? data.segment_legend.done : data.segment_legend.designed }}
         </div>
         <router-link
           :to="{
@@ -17,21 +18,22 @@
             params: { slug: slug, segment: segmentSlug },
           }"
         >
-          <svg class="icon icon-sm" style="cursor: pointer">
-            <use xlink:href="#close"></use>
-          </svg>
+          <svg class="icon"><use xlink:href="#close"></use></svg>
         </router-link>
       </div>
 
       <div class="d-flex align-items-center justify-content-between my-4">
-        <h3>{{ project.title }}</h3>
+        <div>
+          <h3>{{ project.title }}</h3>
+          <p class="lead">{{ project.subtitle }}</p>
+        </div>
 
-        <a :href="project.link" v-if="project.link">
+        <!-- <a :href="project.link" v-if="project.link">
           <svg class="icon icon-sm">
             <use xlink:href="#icon-redirect"></use>
           </svg>
           {{ project.link_text }}
-        </a>
+        </a> -->
       </div>
 
       <b-row>
@@ -40,7 +42,7 @@
             <img class="img-fluid" :src="project.icon" />
           </div>
           <div class="d-none d-lg-block">
-            <div class="w-50 d-flex align-items-center">
+            <div class="w-75 d-flex align-items-center">
               <svg class="icon icon-md mr-2">
                 <use xlink:href="#icon-heart"></use>
               </svg>
@@ -80,7 +82,7 @@
         </b-col>
         <b-col xs="12" lg="6" v-html="project.description" class="mb-4" />
         <b-col cols="12" lg="6" class="d-lg-none">
-          <div class="w-50 d-flex align-items-center">
+          <div class="w-75 d-flex align-items-center">
             <svg class="icon icon-md mr-2">
               <use xlink:href="#icon-heart"></use>
             </svg>
@@ -130,10 +132,12 @@
                 },
               }"
             > -->
-            <span @click="previous" v-if="segmentObject.projects.length > 1">
-              <svg class="icon icon-sm"><use xlink:href="#chevron-left"></use></svg>
-              {{ data.general.modal.previous.text }}
-            </span>
+            <a href="#" @click.prevent="previous" v-if="segmentObject.projects.length > 1" class="ProjectModal-nav">
+              <svg class="icon icon-md"><use xlink:href="#chevron-left"></use></svg>
+              <span class="ml-2 text-primary border-bottom border-primary">
+                {{ data.general.modal.previous.text }}
+              </span>
+            </a>
             <!-- </router-link> -->
 
             <!-- <router-link
@@ -142,10 +146,12 @@
                 params: { __slug: segment.projects[next_index].project_slug },
               }"
             > -->
-            <span @click="next" v-if="segmentObject.projects.length > 1">
-              {{ data.general.modal.next.text }}
-              <svg class="icon icon-sm"><use xlink:href="#chevron-right"></use></svg>
-            </span>
+            <a href="#" @click.prevent="next" v-if="segmentObject.projects.length > 1" class="ProjectModal-nav">
+              <span class="mr-2 text-primary border-bottom border-primary">
+                {{ data.general.modal.next.text }}
+              </span>
+              <svg class="icon icon-md"><use xlink:href="#chevron-right"></use></svg>
+            </a>
             <!-- </router-link> -->
 
             <!-- <span v-if="segment.projects.length > 1" @click="goToNextRoute">

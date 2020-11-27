@@ -44,9 +44,14 @@
       <div class="SegmentVisual-wrap mt-4">
         <router-link
           :to="{ name: 'Highway', params: { slug: slug } }"
-          class="SegmentVisual-close"
+          class="SegmentVisual-close mb-4 d-inline-block"
         >
-          <svg class="icon icon-md"><use xlink:href="#close"></use></svg>
+          <div class="d-flex align-items-center">
+            <svg class="icon icon-md"><use xlink:href="#chevron-left"></use></svg>
+            <div class="ml-2 text-primary border-bottom border-primary">
+              {{ data.general.back_to_map }}
+            </div>
+          </div>
         </router-link>
         <div class="SegmentVisual">
           <svg class="segment">
@@ -75,6 +80,7 @@
         ></router-view>
       </div>
     </div>
+
   </div>
 </template>
 
@@ -114,8 +120,6 @@ export default {
     this.segmentObject = this.code4ro_map.highway_segments.find(
       (item) => item.segmentSlug == this.segmentSlug
     );
-
-    this.data.back_to_map.visible = true;
 
     const segmentProjects = document.getElementsByClassName("btn-project");
     segmentProjects.forEach((segmentProject) => {
@@ -175,7 +179,7 @@ export default {
   top: 0;
   left: 0;
   background: rgba(0, 0, 0, 0.3);
-  z-index: 1000;
+  z-index: 10000;
 }
 .modal-content {
   position: absolute;

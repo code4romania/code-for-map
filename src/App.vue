@@ -9,7 +9,6 @@
               <h1 class="text-strong-blue mb-3" v-html="data.header.title" />
               <p v-html="data.header.description" />
             </div>
-            <BackToMap :back="data.back_to_map" />
             <Legend :legend="data.map_legend" class="mt-4"/>
           </div>
         </b-col>
@@ -95,7 +94,6 @@ import data from "./data/data.js";
 
 import postMessage from "./utils/postMessage";
 
-import BackToMap from "./components/BackToMap";
 import Legend from "./components/Legend";
 import PartnersList from "./components/PartnersList";
 import SendSMS from "./components/SendSMS";
@@ -104,7 +102,6 @@ import Share from "./components/Share";
 export default {
   name: "App",
   components: {
-    BackToMap,
     Legend,
     PartnersList,
     SendSMS,
