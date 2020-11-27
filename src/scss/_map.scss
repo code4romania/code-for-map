@@ -117,6 +117,7 @@
 .ListItem {
   border-top: 1px solid $light-gray;
   padding: 15px 0;
+  cursor: pointer;
 
   &:hover {
     text-decoration: none;

@@ -18,7 +18,7 @@
         </b-col>
       </b-row>
 
-      <div class="embed-responsive embed-responsive-16by9 my-5 mx-auto w-75">
+      <div class="embed-responsive embed-responsive-16by9 Video">
         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/XHVvEhmrlkA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
 
@@ -45,14 +45,18 @@
       <b-row class="mb-5">
         <b-col xs="12" md="6" xl="3" class="mb-4">
           <SendSMS :data="data.sms" />
+          <div class="mb-3">{{data.call_to_action.donate.spacer}}</div>
+          <a :href="data.call_to_action.donate.link" class="btn btn-lg btn-green px-5">{{data.call_to_action.donate.title}}</a>
         </b-col>
         <b-col xs="12" md="6" xl="3" class="mb-4">
           <h3 class="text-primary mb-4">{{data.call_to_action.partner.title}}</h3>
           <div v-html="data.call_to_action.partner.content" />
+          <a :href="data.call_to_action.partner.link" class="btn btn-lg btn-primary px-5">{{data.call_to_action.partner.label}}</a>
         </b-col>
         <b-col xs="12" md="6" xl="3" class="mb-4">
           <h3 class="text-primary mb-4">{{data.call_to_action.sponsor.title}}</h3>
           <div v-html="data.call_to_action.sponsor.content" />
+          <a :href="data.call_to_action.sponsor.link" class="btn btn-lg btn-primary px-5">{{data.call_to_action.sponsor.label}}</a>
         </b-col>
         <b-col xs="12" md="6" xl="3" class="mb-4">
           <h3 class="text-primary mb-4">{{data.call_to_action.share.title}}</h3>
@@ -60,6 +64,8 @@
           <Share :share="data.call_to_action.share" />
         </b-col>
       </b-row>
+
+      <h1 class="text-strong-blue text-center mb-5">FAQ</h1>
 
       <b-row>
         <b-col xs="12" lg="6">
@@ -75,6 +81,8 @@
           </div>
         </b-col>
       </b-row>
+
+      <p class="Disclaimer"><small><strong>*</strong> Valoarea Donaţiei este de 4 EUR/lună. Suma alocată cauzei este de 4 Euro. Nu se percepe TVA pentru donaţiile de pe abonament. În reţelele Digi Mobil, Orange şi Telekom România Mobile, pentru cartelele preplătite, TVA-ul a fost reţinut la achiziţionarea creditului. Pentru donaţiile de pe cartele preplătite, în reţeaua Vodafone utilizatorii nu plătesc TVA.Campanie realizată cu sprijinul Digi Mobil, Orange Romania, Telekom Romania Mobile şi Vodafone Romania.</small></p>
 
     </b-container>
   </div>

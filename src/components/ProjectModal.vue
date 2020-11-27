@@ -54,10 +54,12 @@
               <b-col cols="12">
                 <b-row class="my-3" v-if="project.adopted">
                   <template v-for="(partner, index) in project.adopted_by">
-                    <b-col cols="2" :key="index">
-                      <svg class="icon icon-lg">
-                        <use :xlink:href="`#` + partner.logo"></use>
-                      </svg>
+                    <b-col cols="3" :key="index">
+                      <a :href="partner.link" target="_blank" class="d-block border border-gray PartnersList-itemWrap">
+                        <div class="PartnersList-item">
+                          <img :src="partner.logo" class="img-fluid" />
+                        </div>
+                      </a>
                     </b-col>
                   </template>
                 </b-row>
@@ -76,7 +78,7 @@
             </b-row>
           </div>
         </b-col>
-        <b-col xs="12" lg="6" v-html="project.description" />
+        <b-col xs="12" lg="6" v-html="project.description" class="mb-4" />
         <b-col cols="12" lg="6" class="d-lg-none">
           <div class="w-50 d-flex align-items-center">
             <svg class="icon icon-md mr-2">
@@ -92,10 +94,12 @@
             <b-col cols="12">
               <b-row class="my-3" v-if="project.adopted">
                 <template v-for="(partner, index) in project.adopted_by">
-                  <b-col cols="2" :key="index">
-                    <svg class="icon icon-lg">
-                      <use :xlink:href="`#` + partner.logo"></use>
-                    </svg>
+                  <b-col cols="3" :key="index">
+                    <a :href="partner.link" target="_blank" class="d-block border border-gray PartnersList-itemWrap">
+                      <div class="PartnersList-item">
+                        <img :src="partner.logo" class="img-fluid" />
+                      </div>
+                    </a>
                   </b-col>
                 </template>
               </b-row>
@@ -127,7 +131,7 @@
               }"
             > -->
             <span @click="previous" v-if="segmentObject.projects.length > 1">
-              <!-- /<svg class="icon icon-sm"><use xlink:href="#chevron-left"></use></svg> -->
+              <svg class="icon icon-sm"><use xlink:href="#chevron-left"></use></svg>
               {{ data.general.modal.previous.text }}
             </span>
             <!-- </router-link> -->
@@ -139,8 +143,8 @@
               }"
             > -->
             <span @click="next" v-if="segmentObject.projects.length > 1">
-              <!-- <svg class="icon icon-sm"><use xlink:href="#chevron-left"></use></svg> -->
               {{ data.general.modal.next.text }}
+              <svg class="icon icon-sm"><use xlink:href="#chevron-right"></use></svg>
             </span>
             <!-- </router-link> -->
 

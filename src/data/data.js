@@ -29,7 +29,7 @@ const data = {
     "planificat": "Soluție proiectată"
   },
   "segment_legend": {
-    "text": "Descoperă mai jos care dintre segmentele din drumul nostru spre un mediu sănătos sunt deja executate și ce am proiectat.",
+    "text": "Descoperă mai jos care dintre segmentele din drumul nostru spre digitalizare sunt deja realizate și ce am proiectat.",
     "designed": "Soluție proiectată",
     "done": "Soluție realizată",
     "adopted": "Segment de drum adoptat de:",
@@ -42,20 +42,26 @@ const data = {
       "text_3": "la",
       "text_4": "8864"
     },
-    "description": "Și contribuie la digitalizarea Romaniei. Cu un SMS recurent de <strong>4 EUR</strong> pe lună ajuți la construirea și menținerea infrastructurii digitale de care avem nevoie in secolul XXI."
+    "description": "Și contribuie la digitalizarea Romaniei. Cu un SMS recurent de <strong>4 EUR*</strong> pe lună ajuți la construirea și menținerea infrastructurii digitale de care avem nevoie in secolul XXI."
   },
   "call_to_action": {
     "description": "This is a placeholder text that should act as a call to action to help people understant why they need to be joining us in our journey.",
     "donate": {
-      "title": "Donează"
+      "spacer": "sau",
+      "title": "Donează",
+      "link": "https://code4.ro/ro/doneaza"
     },
     "partner": {
       "title": "Adoptă o porțiune de drum!",
-      "content": "<p>Investești într-o soluție digitală care va produce schimbare sustenabilă.</p><p>Primești proiectul soluției pe care o alegi 'la cheie', deja realizat de Code for Romania.</p><p>Oferim consultare ONG-ului care va administra soluția aleasă de tine.</p><p>Te sprijinim monitorizând implementarea soluției.</p>"
+      "content": "<p>Investești într-o soluție digitală care va produce schimbare sustenabilă.</p><p>Primești proiectul soluției pe care o alegi 'la cheie', deja realizat de Code for Romania.</p><p>Oferim consultare ONG-ului care va administra soluția aleasă de tine.</p><p>Te sprijinim monitorizând implementarea soluției.</p>",
+      "label": "Adoptă o soluție",
+      "link": "mailto:contact: contact@code4.ro"
     },
     "sponsor": {
       "title": "Fii partenerul nostru",
-      "content": "<p>Devii unul dintre sponsorii strategici ai programelor Code for Romania.</p><p>Sau poți fi unul dintre sponsorii domeniilor noastre - Educație, Sănătate, Grupuri Vulnerabile, Mediu, Participare civică.</p>"
+      "content": "<p>Devii unul dintre sponsorii strategici ai programelor Code for Romania.</p><p>Sau poți fi unul dintre sponsorii domeniilor noastre - Educație, Sănătate, Grupuri Vulnerabile, Mediu, Participare civică.</p>",
+      "label": "Scrie-ne un e-mail",
+      "link": "mailto:contact: contact@code4.ro"
     },
     "share": {
       "title": "Dă vestea mai departe",
@@ -257,10 +263,10 @@ const data = {
               "adopted":true,
               "adopted_by":[
                 {
-                  "id": 1,
-                  "title": "Code for Romania",
-                  "link": "https://code4.ro/",
-                  "logo": require('../assets/images/code4.png')
+                  "id":4,
+                  "title": "TFSG by Code for Romania",
+                  "link": "https://tfsg.code4.ro/ro/",
+                  "logo": "https://code4.ro/img/e906b7f2-af18-4388-933e-e365173c7e35/logo-tfsg-01.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=2084%2C1178%2C0%2C0"
                 }
               ]
             },
@@ -1223,10 +1229,10 @@ const data = {
               "adopted": true,
               "adopted_by": [
                 {
-                  "id": 1,
-                  "title": "Code for Romania",
-                  "link": "https://code4.ro/",
-                  "logo": require('../assets/images/code4.png')
+                  "id":4,
+                  "title": "TFSG by Code for Romania",
+                  "link": "https://tfsg.code4.ro/ro/",
+                  "logo": "https://code4.ro/img/e906b7f2-af18-4388-933e-e365173c7e35/logo-tfsg-01.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=2084%2C1178%2C0%2C0"
                 }
               ]
             },
@@ -1242,10 +1248,10 @@ const data = {
               "adopted": true,
               "adopted_by": [
                 {
-                  "id": 1,
-                  "title": "Code for Romania",
-                  "link": "https://code4.ro/",
-                  "logo": require('../assets/images/code4.png')
+                  "id":4,
+                  "title": "TFSG by Code for Romania",
+                  "link": "https://tfsg.code4.ro/ro/",
+                  "logo": "https://code4.ro/img/e906b7f2-af18-4388-933e-e365173c7e35/logo-tfsg-01.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=2084%2C1178%2C0%2C0"
                 }
               ]
             },
@@ -2086,8 +2092,15 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/environment4ro-rvm.png'),
-              "adopted":false,
-              "adopted_by":[]
+              "adopted":true,
+              "adopted_by":[
+                {
+                  "id":4,
+                  "title": "Fundatia Comunitara Bucuresti",
+                  "link": "https://fundatiacomunitarabucuresti.ro/",
+                  "logo": "https://code4.ro/img/962e0a9a-2eb0-41f9-b2ae-daed710c1d23/fundatia-comunitara-bucuresti.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=240%2C227%2C0%2C0"
+                }
+              ]
             },
             {
               "id":2,
@@ -2184,8 +2197,15 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/environment4ro-rvm.png'),
-              "adopted":false,
-              "adopted_by":[]
+              "adopted":true,
+              "adopted_by":[
+                {
+                  "id":4,
+                  "title": "World Bank",
+                  "link": "https://www.worldbank.org/",
+                  "logo": "https://code4.ro/img/0459bbe0-d75b-46ea-95ed-de63135f0fd7/the-world-bank-logo-500x281.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=500%2C281%2C0%2C0"
+                }
+              ]
             },
             {
               "id":2,
@@ -2196,20 +2216,52 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/environment4ro-voluntar-drm.png'),
-              "adopted":false,
-              "adopted_by":[]
+              "adopted":true,
+              "adopted_by":[
+                {
+                  "id":4,
+                  "title": "World Bank",
+                  "link": "https://www.worldbank.org/",
+                  "logo": "https://code4.ro/img/0459bbe0-d75b-46ea-95ed-de63135f0fd7/the-world-bank-logo-500x281.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=500%2C281%2C0%2C0"
+                }
+              ]
             },
             {
               "id":3,
               "projectSlug":"stiri-oficiale",
               "title":"Știri Oficiale",
-              "subtitle":"Platformă de știri verificate, din surse oficiale",
-              "description":"<p>Din panică și/sau din lipsă de cunoștințe, utilizatori care au fie intenții bune, fie rele pot răspândi informații eronate în media online sau cea tradițională (presă scrisă, radio, tv etc). În situații de urgență, acest lucru poate provoca luarea de acțiuni incorecte și poate duce la creșterea nivelului de teamă și de incertitudine în rândul populației. Știri oficiale reprezintă o sursă de informare corectă, nealimentată de panică oferind populației posibilitatea de a fi vigilentă în ceea ce privește modul în care accesează, asimilează și distribuie rafalele de știri prezentate în media. </p>",
+              "subtitle":"Platformă de informații din surse oficiale",
+              "description":"<p>În situații de criză, comportamentele de consum de informații se schimbă în mod radical. În astfel de perioade, propagarea știrilor false în media online sau cea tradițională (presă scrisă, radio, tv etc) este foarte nocivă și devine, din nefericire foarte accelerată. Pe fondul panicii populației, acest lucru poate cauza luarea de decizii radicale și poate duce la creșterea nivelului de teamă și de incertitudine în rândul oamenilor. Știri oficiale reprezintă o sursă de informare corectă oferind populației posibilitatea de a fi vigilentă în ceea ce privește modul în care accesează, asimilează și distribuie rafalele de știri prezentate în media. Soluția este completată de două extensii de browser (Chrome și Firefox) care ajută oamenii să identifice sursele oficiale de date și informații pentru verificarea conținutului pe care îl consultă.</p>",
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/environment4ro-stiri-oficiale.png'),
-              "adopted":false,
-              "adopted_by":[]
+              "adopted":true,
+              "adopted_by":[
+                {
+                  "id":1,
+                  "title": "ING",
+                  "link": "https://ing.ro/persoane-fizice",
+                  "logo": "https://code4.ro/img/9dc5ce5d-08b5-4b33-a065-aec64cda7b42/ing-primary-logo-rgb.png?q=80&fit=crop&dpr=1&w=200&h=80&crop=1621%2C662%2C0%2C0"
+                },
+                {
+                  "id":2,
+                  "title": "Fundația Vodafone România",
+                  "link": "https://www.fundatia-vodafone.ro/",
+                  "logo": "https://code4.ro/img/fundatia-vodafone.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=500%2C500%2C0%2C0"
+                },
+                {
+                  "id":3,
+                  "title": "Romanian-American Foundation",
+                  "link": "https://www.rafonline.org/",
+                  "logo": "https://code4.ro/img/80ca17d3-88ed-40a1-bad8-4b579e48c72e/logo-raf.jpg?q=80&fit=crop&dpr=1&w=200&h=80&crop=1309%2C1000%2C0%2C0"
+                },
+                {
+                  "id":4,
+                  "title": "TFSG by Code for Romania",
+                  "link": "https://tfsg.code4.ro/ro/",
+                  "logo": "https://code4.ro/img/e906b7f2-af18-4388-933e-e365173c7e35/logo-tfsg-01.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=2084%2C1178%2C0%2C0"
+                }
+              ]
             },
             {
               "id":4,
@@ -2220,8 +2272,33 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/environment4ro-rohelp.png'),
-              "adopted":false,
-              "adopted_by":[]
+              "adopted":true,
+              "adopted_by":[
+                {
+                  "id":1,
+                  "title": "ING",
+                  "link": "https://ing.ro/persoane-fizice",
+                  "logo": "https://code4.ro/img/9dc5ce5d-08b5-4b33-a065-aec64cda7b42/ing-primary-logo-rgb.png?q=80&fit=crop&dpr=1&w=200&h=80&crop=1621%2C662%2C0%2C0"
+                },
+                {
+                  "id":2,
+                  "title": "Fundația Vodafone România",
+                  "link": "https://www.fundatia-vodafone.ro/",
+                  "logo": "https://code4.ro/img/fundatia-vodafone.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=500%2C500%2C0%2C0"
+                },
+                {
+                  "id":3,
+                  "title": "Romanian-American Foundation",
+                  "link": "https://www.rafonline.org/",
+                  "logo": "https://code4.ro/img/80ca17d3-88ed-40a1-bad8-4b579e48c72e/logo-raf.jpg?q=80&fit=crop&dpr=1&w=200&h=80&crop=1309%2C1000%2C0%2C0"
+                },
+                {
+                  "id":4,
+                  "title": "TFSG by Code for Romania",
+                  "link": "https://tfsg.code4.ro/ro/",
+                  "logo": "https://code4.ro/img/e906b7f2-af18-4388-933e-e365173c7e35/logo-tfsg-01.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=2084%2C1178%2C0%2C0"
+                }
+              ]
             },
             {
               "id":5,
@@ -2232,8 +2309,33 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/environment4ro-sprijin-diaspora.png'),
-              "adopted":false,
-              "adopted_by":[]
+              "adopted":true,
+              "adopted_by":[
+                {
+                  "id":1,
+                  "title": "ING",
+                  "link": "https://ing.ro/persoane-fizice",
+                  "logo": "https://code4.ro/img/9dc5ce5d-08b5-4b33-a065-aec64cda7b42/ing-primary-logo-rgb.png?q=80&fit=crop&dpr=1&w=200&h=80&crop=1621%2C662%2C0%2C0"
+                },
+                {
+                  "id":2,
+                  "title": "Fundația Vodafone România",
+                  "link": "https://www.fundatia-vodafone.ro/",
+                  "logo": "https://code4.ro/img/fundatia-vodafone.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=500%2C500%2C0%2C0"
+                },
+                {
+                  "id":3,
+                  "title": "Romanian-American Foundation",
+                  "link": "https://www.rafonline.org/",
+                  "logo": "https://code4.ro/img/80ca17d3-88ed-40a1-bad8-4b579e48c72e/logo-raf.jpg?q=80&fit=crop&dpr=1&w=200&h=80&crop=1309%2C1000%2C0%2C0"
+                },
+                {
+                  "id":4,
+                  "title": "TFSG by Code for Romania",
+                  "link": "https://tfsg.code4.ro/ro/",
+                  "logo": "https://code4.ro/img/e906b7f2-af18-4388-933e-e365173c7e35/logo-tfsg-01.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=2084%2C1178%2C0%2C0"
+                }
+              ]
             },
             {
               "id":6,
@@ -2244,8 +2346,33 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/environment4ro-jurnal-medical.png'),
-              "adopted":false,
-              "adopted_by":[]
+              "adopted":true,
+              "adopted_by":[
+                {
+                  "id":1,
+                  "title": "ING",
+                  "link": "https://ing.ro/persoane-fizice",
+                  "logo": "https://code4.ro/img/9dc5ce5d-08b5-4b33-a065-aec64cda7b42/ing-primary-logo-rgb.png?q=80&fit=crop&dpr=1&w=200&h=80&crop=1621%2C662%2C0%2C0"
+                },
+                {
+                  "id":2,
+                  "title": "Fundația Vodafone România",
+                  "link": "https://www.fundatia-vodafone.ro/",
+                  "logo": "https://code4.ro/img/fundatia-vodafone.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=500%2C500%2C0%2C0"
+                },
+                {
+                  "id":3,
+                  "title": "Romanian-American Foundation",
+                  "link": "https://www.rafonline.org/",
+                  "logo": "https://code4.ro/img/80ca17d3-88ed-40a1-bad8-4b579e48c72e/logo-raf.jpg?q=80&fit=crop&dpr=1&w=200&h=80&crop=1309%2C1000%2C0%2C0"
+                },
+                {
+                  "id":4,
+                  "title": "TFSG by Code for Romania",
+                  "link": "https://tfsg.code4.ro/ro/",
+                  "logo": "https://code4.ro/img/e906b7f2-af18-4388-933e-e365173c7e35/logo-tfsg-01.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=2084%2C1178%2C0%2C0"
+                }
+              ]
             },
             {
               "id":7,
@@ -2256,8 +2383,33 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/environment4ro-ce-trebuie-sa-fac.png'),
-              "adopted":false,
-              "adopted_by":[]
+              "adopted":true,
+              "adopted_by":[
+                {
+                  "id":1,
+                  "title": "ING",
+                  "link": "https://ing.ro/persoane-fizice",
+                  "logo": "https://code4.ro/img/9dc5ce5d-08b5-4b33-a065-aec64cda7b42/ing-primary-logo-rgb.png?q=80&fit=crop&dpr=1&w=200&h=80&crop=1621%2C662%2C0%2C0"
+                },
+                {
+                  "id":2,
+                  "title": "Fundația Vodafone România",
+                  "link": "https://www.fundatia-vodafone.ro/",
+                  "logo": "https://code4.ro/img/fundatia-vodafone.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=500%2C500%2C0%2C0"
+                },
+                {
+                  "id":3,
+                  "title": "Romanian-American Foundation",
+                  "link": "https://www.rafonline.org/",
+                  "logo": "https://code4.ro/img/80ca17d3-88ed-40a1-bad8-4b579e48c72e/logo-raf.jpg?q=80&fit=crop&dpr=1&w=200&h=80&crop=1309%2C1000%2C0%2C0"
+                },
+                {
+                  "id":4,
+                  "title": "TFSG by Code for Romania",
+                  "link": "https://tfsg.code4.ro/ro/",
+                  "logo": "https://code4.ro/img/e906b7f2-af18-4388-933e-e365173c7e35/logo-tfsg-01.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=2084%2C1178%2C0%2C0"
+                }
+              ]
             },
             {
               "id":8,
@@ -2268,8 +2420,33 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/environment4ro-date-la-zi.png'),
-              "adopted":false,
-              "adopted_by":[]
+              "adopted":true,
+              "adopted_by":[
+                {
+                  "id":1,
+                  "title": "ING",
+                  "link": "https://ing.ro/persoane-fizice",
+                  "logo": "https://code4.ro/img/9dc5ce5d-08b5-4b33-a065-aec64cda7b42/ing-primary-logo-rgb.png?q=80&fit=crop&dpr=1&w=200&h=80&crop=1621%2C662%2C0%2C0"
+                },
+                {
+                  "id":2,
+                  "title": "Fundația Vodafone România",
+                  "link": "https://www.fundatia-vodafone.ro/",
+                  "logo": "https://code4.ro/img/fundatia-vodafone.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=500%2C500%2C0%2C0"
+                },
+                {
+                  "id":3,
+                  "title": "Romanian-American Foundation",
+                  "link": "https://www.rafonline.org/",
+                  "logo": "https://code4.ro/img/80ca17d3-88ed-40a1-bad8-4b579e48c72e/logo-raf.jpg?q=80&fit=crop&dpr=1&w=200&h=80&crop=1309%2C1000%2C0%2C0"
+                },
+                {
+                  "id":4,
+                  "title": "TFSG by Code for Romania",
+                  "link": "https://tfsg.code4.ro/ro/",
+                  "logo": "https://code4.ro/img/e906b7f2-af18-4388-933e-e365173c7e35/logo-tfsg-01.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=2084%2C1178%2C0%2C0"
+                }
+              ]
             },
             {
               "id":9,
@@ -2280,8 +2457,15 @@ const data = {
               "link":"",
               "link_text":"Vezi soluția",
               "icon":require('../assets/images/projects/environment4ro-cine-ce-face.png'),
-              "adopted":false,
-              "adopted_by":[]
+              "adopted":true,
+              "adopted_by":[
+                {
+                  "id":1,
+                  "title": "Patria Bank",
+                  "link": "https://www.patriabank.ro/",
+                  "logo": "https://code4.ro/img/85ebcd58-6304-4862-9529-037e20d98d57/patria-bank-1.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=500%2C500%2C0%2C0"
+                }
+              ]
             },
             {
               "id":10,
@@ -2327,7 +2511,8 @@ const data = {
               "description":"<p>O parte uriașă a patrimoniului cultural din România ar putea fi distrusă în urma unui seism major. Pentru a putea aduce acest subiect pe agenda publică și pentru a putea evalua dimensiunea reală a pierderilor dacă acest lucru s-ar întâmpla, avem nevoie de un loc în care toate aceste clădiri sau monumente să poată fi indexate, centralizate și evaluate ca importanță. Alertă Patrimoniu este un website dedicat centralizării acestor clădiri și a informațiilor relevante despre ele într-o manieră interactivă, simplu de parcurs, cu date ușor de înțeles și vizualizat pentru a crește interesul media, dar și al publicului larg care poate să acționeze pentru a le salva de la dezastru.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/environment4ro-alerta-patrimoniu.png'),              "adopted":false,
+              "icon":require('../assets/images/projects/environment4ro-alerta-patrimoniu.png'),
+              "adopted":false,
               "adopted_by":[]
             },
           ]

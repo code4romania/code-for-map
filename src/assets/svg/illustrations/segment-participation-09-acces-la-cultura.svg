@@ -39,7 +39,7 @@
 <path id="Vector_35" d="M652.436 536.01C653.447 536.425 654.362 537.042 655.122 537.822C655.882 538.603 656.473 539.53 656.856 540.546" stroke="#00B4CC" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
 <path id="Vector_36" d="M642.987 533.402C641.909 533.243 640.808 533.301 639.753 533.572C638.697 533.844 637.708 534.324 636.844 534.983" stroke="#00B4CC" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text class="btn-project" cursor="pointer" projectid="1" id="Theater Hub" fill="#404366" xml:space="preserve" style="white-space: pre" font-family="Titillium Web" font-size="20" font-weight="600" letter-spacing="0px"><tspan x="427.975" y="429.206">Theater Hub</tspan></text>
+<text class="btn-project" cursor="pointer" cursor="pointer" projectid="1" id="Theater Hub" fill="#404366" xml:space="preserve" style="white-space: pre" font-family="Titillium Web" font-size="20" font-weight="600" letter-spacing="0px"><tspan x="427.975" y="429.206">Theater Hub</tspan></text>
 <text id="Acces la cultura" fill="#1E1E1E" xml:space="preserve" style="white-space: pre" font-family="Titillium Web" font-size="40" font-weight="600" letter-spacing="0px"><tspan x="680.756" y="543.656">Acces la </tspan><tspan x="680.756" y="583.656">cultura</tspan></text>
 </g>
 </g>
