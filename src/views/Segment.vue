@@ -27,6 +27,7 @@
           v-for="(project, index) in segmentObject.projects"
           :key="index"
           tag="div"
+          class="ListItem"
           :to="{
             name: 'ProjectModal',
             params: {
@@ -35,7 +36,7 @@
           }"
         >
           <div
-            class="d-flex align-items-center justify-content-between ListItem"
+            class="d-flex align-items-center justify-content-between"
             @click="mobileProjectClicked"
           >
             <i
@@ -201,7 +202,7 @@ export default {
       this.modalTop = '100px'
     },
     mobileProjectClicked(event) {
-      let position = event.target.getBoundingClientRect().top - (event.target.getBoundingClientRect().top / 2)
+      let position = event.target.getBoundingClientRect().top - (event.target.getBoundingClientRect().top * 4 / 5)
 
       this.modalTop = position + 'px'
     },
