@@ -165,7 +165,10 @@
               <p>{{ data.partners.description }}</p>
             </div>
             <div class="Partners-list">
-              <PartnersList :list="data.partners.main" />
+              <PartnersList
+                :list="data.partners.main"
+                :col="3"
+              />
               <PartnersList
                 :list="data.partners.secondary"
                 :col="4"
@@ -176,7 +179,7 @@
       </b-row>
 
       <p class="Disclaimer">
-        <small><strong>*</strong> Valoarea Donaţiei este de 4 EUR/lună. Suma alocată cauzei este de 4 Euro. Nu se percepe TVA pentru donaţiile de pe abonament. În reţelele Digi Mobil, Orange şi Telekom România Mobile, pentru cartelele preplătite, TVA-ul a fost reţinut la achiziţionarea creditului. Pentru donaţiile de pe cartele preplătite, în reţeaua Vodafone utilizatorii nu plătesc TVA.Campanie realizată cu sprijinul Digi Mobil, Orange Romania, Telekom Romania Mobile şi Vodafone Romania.</small>
+        <small><strong>*</strong> {{data.sms.disclaimer}}</small>
       </p>
     </b-container>
   </div>
