@@ -34,6 +34,12 @@ module.exports = {
         return options
       })
 
+    config.module
+      .rule('html')
+      .test(/\.html$/)
+      .use('html-loader')
+      .loader('html-loader')
+
     const svgRule = config.module.rule('svg')
     svgRule.uses.clear()
 

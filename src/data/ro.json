@@ -1625,7 +1625,7 @@
               "description": "<p>Fiecare cadru didactic, odată ajuns în învățământ, este pe cont propriu și își construiește lecțiile folosindu-se de resurse pe care le descoperă și adaptează singur, unica îndrumare venind de la alte cadre didactice tot la inițiativa independentă a profesorului. Resurse profesori este un set de instrumente de folosit la clasă pe care să și-l configureze și descarce din platformă orice profesor. Răspunzând la câteva întrebări legate de mediul în care predă, profesorul își poate personaliza un pachet de bază de resurse utile pentru predatul de zi cu zi. În același timp, aplicația poate recomanda o serie de alte instrumente administrative utile în managementul cursurilor: instrumente de monitorizare a progresului elevilor, de management personal al timpului, cataloage digitale etc.</p>",
               "link": "",
               "icon": "education4ro-resurse-profesori",
-              "adopted": true,
+              "adopted": false,
               "adopted_by": []
             },
             {
@@ -1636,7 +1636,7 @@
               "description": "<p>O problemă foarte mare în sistemul educațional din România e faptul că mentoratul și pregătirea inițială a cadrelor didactice nu asigură însușirea competențelor care permit mai apoi gestiunea socio-emoțională a copiilor și a tinerilor. În lipsa unui sistem funcțional de mentorat, cadrele didactice începătoare sunt lăsate pe cont propriu cu foarte puțin ghidaj din partea colegilor lor.</p> <p>Classroom Demo este o platformă care oferă acces la o colecție de materiale video pentru profesorii și învățătorii începători care au nevoie de ghidaj pentru a deveni mai buni la clasă. Materialele vor fi de mai multe tipuri - ore deja înregistrate de profesori metodiști pentru a permite începătorilor să analizeze desfășurarea unei ore la clasă, alături de alte materiale video utile construite de cadre didactice experimentate. În plus, platforma poate conține și materiale video în alte limbi, subtitrate în limba română.</p>",
               "link": "",
               "icon": "education4ro-classroom-demo",
-              "adopted": true,
+              "adopted": false,
               "adopted_by": []
             },
             {
@@ -1647,7 +1647,7 @@
               "description": "<p>Educatorii joacă un rol covârșitor în dezvoltarea noastră, de aceea este important să înțelegem în profunzime cum putem să îi ajutăm și să îi echipăm cu toate instrumentele necesare ca ei să poată avea grijă de noi și de copiii noștri. Formarea inițială nu asigură însușirea competențelor care permit mai apoi gestiunea socio-emoțională a copiilor și a tinerilor. </p> <p>Teacher workout este o aplicație care oferă acces la cursuri scurte, interactive, pe subiecte care acoperă o gamă largă de tematici de la identificarea cu ușurință a copiilor cu dificultăți de învățare, până la gestiunea situațiilor complicate de la clasă, integrarea copiilor cu nevoi speciale în colectivul clasei și multe alte micro-cursuri de formare de obiceiuri pozitive pentru profesor.</p>",
               "link": "",
               "icon": "education4ro-teacher-workout",
-              "adopted": true,
+              "adopted": false,
               "adopted_by": []
             },
             {
@@ -1676,7 +1676,7 @@
               "description": "<p>Copiii care sunt internați pentru mult timp rămân în urmă cu materiile predate în școală, ceea ce înseamnă că vor fi reintegrați în colectiv mult mai greu atunci când vor reveni în sala de clasă. Profesorii nu sunt pregătiți pentru astfel de situații și pentru mulți dintre ei ar fi extrem de dificil să se deplaseze să lucreze cu acești copii în spital. Platforma Profesor în spital centralizează ONG-urile care derulează programe de școală în spital. Datele sunt dispuse pe județe și orașe, iar pe pagina dedicată fiecărui ONG, un spital sau un părinte poate să aplice pentru a beneficia, în măsura disponibilității ONG-ului, de acest tip de serviciu. Platforma identifică inclusiv acele orașe în care în acest moment nu există ONG-uri active, dar unde apare această nevoie de sprijin educațional. În același timp, pentru a susține activitatea ONG-urilor, platforma este integrată și cu un sistem de plăți pentru a le oferi acestora posibilitatea de a strânge fonduri pentru extinderea programelor lor.</p>",
               "link": "",
               "icon": "education4ro-profesor-spital",
-              "adopted": true,
+              "adopted": false,
               "adopted_by": []
             },
             {
@@ -2226,8 +2226,15 @@
               "description": "<p>Gradul de interes cu privire la consolidarea clădirilor cu grad mare de risc este redus, ceea ce face mobilizarea proprietarilor foarte dificilă de către administratorii asociațiilor de locatari. În prezent, nu este clar pentru toți cei implicați ce eforturi trebuie făcute, la această situație contribuind și multe mituri care se învârt în jurul proceselor de consolidare care sporesc nivelul de dezinformare. Seismic Risc este o platformă de colectare și vizualizare de date despre clădirile cu risc seismic. Oferă detalii despre gradul de ocupare, informații utile despre consolidare, informații dedicate asociațiilor de proprietari și legislație explicată pe înțelesul tuturor.</p>",
               "link": "https://www.code4.ro/ro/seismic-risc",
               "icon": "environment4ro-rvm",
-              "adopted": false,
-              "adopted_by": []
+              "adopted": true,
+              "adopted_by": [
+                {
+                  "id": 4,
+                  "title": "TFSG by Code for Romania",
+                  "link": "https://tfsg.code4.ro/ro/",
+                  "logo": "https://code4.ro/img/e906b7f2-af18-4388-933e-e365173c7e35/logo-tfsg-01.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=2084%2C1178%2C0%2C0"
+                }
+              ]
             },
             {
               "id": 3,
