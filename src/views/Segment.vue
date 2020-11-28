@@ -15,12 +15,17 @@
         :description="segmentObject.description"
       />
 
-      <div class="ProjectsList" v-if="segmentObject.projects.length">
+      <div
+        v-if="segmentObject.projects.length"
+        class="ProjectsList"
+      >
         <SegmentLegend
           :status="data.segment_legend"
           :color="code4ro_map.color"
         />
         <router-link
+          v-for="(project, index) in segmentObject.projects"
+          :key="index"
           tag="div"
           :to="{
             name: 'ProjectModal',
@@ -28,21 +33,21 @@
               solution: project.projectSlug,
             },
           }"
-          v-for="(project, index) in segmentObject.projects"
-          :key="index"
         >
           <div
-            @click="mobileProjectClicked"
             class="d-flex align-items-center justify-content-between ListItem"
+            @click="mobileProjectClicked"
           >
             <i
               class="icon icon-circle"
               :class="
                 project.adopted ? 'border-' + code4ro_map.color : 'border-gray'
               "
-            ></i>
-            <div class="flex-fill mx-2">{{ project.title }}</div>
-            <svg class="icon"><use xlink:href="#chevron-right"></use></svg>
+            />
+            <div class="flex-fill mx-2">
+              {{ project.title }}
+            </div>
+            <svg class="icon"><use xlink:href="#chevron-right" /></svg>
           </div>
         </router-link>
       </div>
@@ -56,7 +61,7 @@
         >
           <div class="d-flex align-items-center">
             <svg class="icon icon-md">
-              <use xlink:href="#chevron-left"></use>
+              <use xlink:href="#chevron-left" />
             </svg>
             <div class="ml-2 text-primary border-bottom border-primary">
               {{ data.general.back_to_map }}
@@ -65,33 +70,42 @@
         </router-link>
         <div class="SegmentVisual">
           <svg class="segment">
-            <use :xlink:href="'#' + segmentObject.segment_visual"></use>
+            <use :xlink:href="'#' + segmentObject.segment_visual" />
           </svg>
         </div>
       </div>
 
       <div class="Segment-info d-none d-lg-block mt-4">
         <b-row>
-          <b-col cols="10" offset="1">
-            <div class="lead" v-html="segmentObject.description" />
+          <b-col
+            cols="10"
+            offset="1"
+          >
+            <div
+              class="lead"
+              v-html="segmentObject.description"
+            />
           </b-col>
         </b-row>
       </div>
     </div>
 
-    <div v-if="showModal" class="modal-route">
+    <div
+      v-if="showModal"
+      class="modal-route"
+    >
       <div
         id="projectModal"
         class="modal-content"
-        v-bind:style="{ top: modalTop, left: modalLeft }"
+        :style="{ top: modalTop, left: modalLeft }"
       >
         <router-view
           :data="data"
-          :code4ro_map="code4ro_map"
-          :segmentObject="segmentObject"
+          :highway-map="code4ro_map"
+          :segment-object="segmentObject"
           :slug="slug"
-          :segmentSlug="segmentSlug"
-        ></router-view>
+          :segment-slug="segmentSlug"
+        />
       </div>
     </div>
   </div>
@@ -106,15 +120,16 @@ import SegmentLegend from '../components/map/SegmentLegend'
 
 export default {
   name: 'Segment',
-  props: {
-    data: {
-      type: Object,
-    },
-  },
   components: {
     HighwayHeader,
     SegmentHeader,
     SegmentLegend,
+  },
+  props: {
+    data: {
+      type: Object,
+      default: () => {}
+    },
   },
   data() {
     return {
@@ -126,6 +141,14 @@ export default {
       modalTop: 0,
       modalLeft: '50%',
     }
+  },
+  watch: {
+    $route: {
+      immediate: true,
+      handler: function(to) {
+        this.showModal = to.meta && to.meta.showModal
+      },
+    },
   },
   /** Vue created life cycle initialize data for this route. */
   created() {
@@ -153,14 +176,6 @@ export default {
     //     });
     //   });
     // });
-  },
-  watch: {
-    $route: {
-      immediate: true,
-      handler: function(to) {
-        this.showModal = to.meta && to.meta.showModal
-      },
-    },
   },
   mounted() {
     postMessage({ height: document.documentElement.scrollHeight })

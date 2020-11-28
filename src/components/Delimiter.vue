@@ -1,6 +1,6 @@
 <template>
   <div class="Delimiter my-4">
-    <svg class="delimiter"><use :xlink:href="'#delimiter-' + color ? color : 'default'"></use></svg>
+    <svg class="delimiter"><use :xlink:href="'#delimiter-' + color ? color : 'default'" /></svg>
   </div>
 </template>
 
@@ -8,7 +8,10 @@
 export default {
   name: "Delimiter",
   props: {
-    color: String
+    color: {
+      type: String,
+      default: "strong-blue"
+    }
   }
 };
 </script>

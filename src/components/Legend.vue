@@ -1,32 +1,34 @@
 <template>
   <div class="Legend d-none d-lg-block">
-    <h3 class="mb-2">{{ legend.title }}</h3>
+    <h3 class="mb-2">
+      {{ legend.title }}
+    </h3>
     <div class="d-flex align-items-center my-2">
-      <div class="drum-continuu"></div>
+      <div class="drum-continuu" />
       <span class="ml-2 display-4">{{ legend.drum_executat }}</span>
     </div>
     <div class="d-flex align-items-center my-2">
-      <div class="drum-proiectat"></div>
+      <div class="drum-proiectat" />
       <span class="ml-2 display-4">{{ legend.drum_proiectat }}</span>
     </div>
     <div class="d-flex align-items-center my-2">
-      <div class="drum-planificat"></div>
+      <div class="drum-planificat" />
       <span class="ml-2 display-4">{{ legend.drum_planificat }}</span>
     </div>
     <div class="d-flex align-items-center my-2">
-      <div class="drum-circle-full"></div>
+      <div class="drum-circle-full" />
       <span class="ml-2 display-4">{{ legend.destinatie }}</span>
     </div>
     <div class="d-flex align-items-center my-2">
-      <div class="drum-circle-empty"></div>
+      <div class="drum-circle-empty" />
       <span class="ml-2 display-4">{{ legend.tema }}</span>
     </div>
     <div class="d-flex align-items-center my-2">
-      <div class="drum-circle-empty-small"></div>
+      <div class="drum-circle-empty-small" />
       <span class="ml-2 display-4">{{ legend.realizat }}</span>
     </div>
     <div class="d-flex align-items-center my-2">
-      <div class="drum-circle-full-small"></div>
+      <div class="drum-circle-full-small" />
       <span class="ml-2 display-4">{{ legend.planificat }}</span>
     </div>
   </div>
@@ -37,7 +39,8 @@ export default {
   name: "Legend",
   props: {
     legend: {
-      type: Object
+      type: Object,
+      default: () => {}
     }
   }
 };

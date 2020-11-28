@@ -1,15 +1,27 @@
 <template>
   <div class="Share d-flex">
-    <a @click="facebookLink" href="#" class="mr-4">
-      <svg class="icon icon-lg"><use xlink:href="#share-fb"></use></svg>
+    <a
+      href="#"
+      class="mr-4"
+      @click="facebookLink"
+    >
+      <svg class="icon icon-lg"><use xlink:href="#share-fb" /></svg>
     </a>
 
-    <a @click="twitterLink" href="#" class="mr-4">
-      <svg class="icon icon-lg"><use xlink:href="#share-tw"></use></svg>
+    <a
+      href="#"
+      class="mr-4"
+      @click="twitterLink"
+    >
+      <svg class="icon icon-lg"><use xlink:href="#share-tw" /></svg>
     </a>
 
-    <a @click="linkedinLink" href="#" class="mr-4">
-      <svg class="icon icon-lg"><use xlink:href="#share-li"></use></svg>
+    <a
+      href="#"
+      class="mr-4"
+      @click="linkedinLink"
+    >
+      <svg class="icon icon-lg"><use xlink:href="#share-li" /></svg>
     </a>
   </div>
 </template>
@@ -20,7 +32,10 @@ import objectToGetParams from "../utils/objectToGetParams";
 export default {
   name: "Share",
   props: {
-    share: Object,
+    share: {
+      type: Object,
+      default: () => {}
+    },
   },
   data() {
     return {

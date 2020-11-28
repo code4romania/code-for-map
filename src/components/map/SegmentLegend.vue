@@ -4,15 +4,17 @@
 
     <div class="d-flex justify-content-start mb-4">
       <div class="SegmentLegend-status d-flex align-items-center mr-4">
-        <i class="icon icon-circle" :class="'border-' + color"></i>
-        {{status.done}}
+        <i
+          class="icon icon-circle"
+          :class="'border-' + color"
+        />
+        {{ status.done }}
       </div>
       <div class="SegmentLegend-status d-flex align-items-center">
-        <i class="icon icon-circle"></i>
-        {{status.designed}}
+        <i class="icon icon-circle" />
+        {{ status.designed }}
       </div>
     </div>
-
   </div>
 </template>
 
@@ -21,10 +23,12 @@ export default {
   name: "SegmentLegend",
   props: {
     status: {
-      type: Object
+      type: Object,
+      default: () => {}
     },
     color: {
-      type: String
+      type: String,
+      default: "strong-blue"
     }
   }
 };

@@ -9,19 +9,25 @@
     }"
     class="badge-pill btn bg-white d-none d-lg-block HighwayButton"
     :class="`btn-outline-${color} ${hasProjects ? 'HighwayButton-hasProjects' : ''}`"
-    :style="{ top: segment_button.btn.top, left: segment_button.btn.left }"
+    :style="{ top: segmentButton.btn.top, left: segmentButton.btn.left }"
   >
-    <div class="d-flex align-items-center" v-if="segment_button.icon_left">
-      <svg class="icon"><use :xlink:href="'#icon-' + segment_button.segmentSlug"></use></svg>
+    <div
+      v-if="segmentButton.icon_left"
+      class="d-flex align-items-center"
+    >
+      <svg class="icon"><use :xlink:href="'#icon-' + segmentButton.segmentSlug" /></svg>
       <div class="text-dark text-left ml-2">
-        {{ segment_button.title }}
+        {{ segmentButton.title }}
       </div>
     </div>
-    <div class="d-flex align-items-center" v-else>
+    <div
+      v-else
+      class="d-flex align-items-center"
+    >
       <div class="text-dark text-right mr-2">
-        {{ segment_button.title }}
+        {{ segmentButton.title }}
       </div>
-      <svg class="icon"><use :xlink:href="'#icon-' + segment_button.segmentSlug"></use></svg>
+      <svg class="icon"><use :xlink:href="'#icon-' + segmentButton.segmentSlug" /></svg>
     </div>
   </router-link>
 </template>
@@ -32,11 +38,26 @@ export default {
   name: "HighwayButton",
   /** Recived props. */
   props: {
-    segment_button: Object,
-    slug: String,
-    segmentSlug: String,
-    color: String,
-    hasProjects: Boolean
+    segmentButton: {
+      type: Object,
+      default: () => {}
+    },
+    slug: {
+      type: String,
+      default: ""
+    },
+    segmentSlug: {
+      type: String,
+      default: ""
+    },
+    color: {
+      type: String,
+      default: ""
+    },
+    hasProjects: {
+      type: Boolean,
+      default: false
+    }
   }
 };
 </script>
