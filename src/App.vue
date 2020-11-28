@@ -45,13 +45,19 @@
       <b-row class="mb-5">
         <b-col
           xs="12"
-          lg="3"
+          lg="5"
+          class="mb-4"
         >
-          some text goes here
+          <h1 class="text-strong-blue mb-4">
+            {{ data.more_info.title }}
+          </h1>
+          <p class="pr-5">
+            {{ data.more_info.description }}
+          </p>
         </b-col>
         <b-col
           xs="12"
-          lg="9"
+          lg="7"
         >
           <div class="embed-responsive embed-responsive-16by9 Video">
             <iframe
@@ -65,7 +71,7 @@
         </b-col>
       </b-row>
 
-      <h1 class="text-strong-blue mb-5">
+      <h1 class="text-strong-blue mb-4">
         {{ data.more_info.work.title }}
       </h1>
 
@@ -83,9 +89,9 @@
           <div class="HowWeWork">
             <div class="d-flex align-items-center justify-content-start mb-4">
               <svg class="icon icon-xl mr-4"><use :xlink:href="'#icon-' + step.icon" /></svg>
-              <h2 class="text-primary">
+              <h1 class="text-primary">
                 {{ step.title }}
-              </h2>
+              </h1>
             </div>
             <p>{{ step.content }}</p>
           </div>
@@ -102,7 +108,7 @@
         </b-col>
       </b-row>
 
-      <h1 class="text-strong-blue mb-5">
+      <h1 class="text-strong-blue mb-4">
         {{ data.more_info.how.title }}
       </h1>
 
@@ -170,9 +176,9 @@
           lg="6"
         >
           <div class="Partners-title mb-4">
-            <h3 class="text-strong-blue">
+            <h1 class="text-strong-blue">
               {{ data.partners.title }}
-            </h3>
+            </h1>
             <p>{{ data.partners.description }}</p>
           </div>
         </b-col>
@@ -186,13 +192,23 @@
             :col="3"
           />
         </b-col>
+      </b-row>
+      <b-row>
         <b-col
           xs="12"
-          lg="6"
+          lg="8"
         >
           <PartnersList
             :list="data.partners.secondary"
             :col="4"
+          />
+        </b-col>
+      </b-row>
+      <b-row>
+        <b-col>
+          <PartnersList
+            :list="data.partners.others"
+            :col="6"
           />
         </b-col>
       </b-row>

@@ -4,12 +4,6 @@
   font-size: $h1-font-size;
 }
 
-.Partners {
-  h3 {
-    font-size: $h1-font-size;
-  }
-}
-
 .PartnersList-itemWrap {
   background: #fff;
   padding-bottom: 100%;
@@ -116,4 +110,8 @@
     height: 100%;
     padding: 20px 40px;
   }
+}
+
+.mb-5 {
+  margin-bottom: 80px !important;
 }

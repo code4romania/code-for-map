@@ -77,12 +77,16 @@
       </div>
     </div>
 
-    <div class="Segment-info d-none d-lg-block w-75">
-      <div
-        class="lead"
-        v-html="segmentObject.description"
-      />
-    </div>
+    <b-row>
+      <b-col offset-lg="2">
+        <div class="Segment-info d-none d-lg-block w-75">
+          <div
+            class="lead"
+            v-html="segmentObject.description"
+          />
+        </div>
+      </b-col>
+    </b-row>
 
     <div
       v-if="showModal"

@@ -78,6 +78,8 @@
   "more_info": {
     "download_pdf_cta": "Descarcă planul nostru",
     "download_pdf_link": "",
+    "title": "Promisiunea noastră pentru următorii 5 ani",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
     "youtube": "https://www.youtube.com/watch?v=tyYNP9IzfEY&ab_channel=MorningGlorycuR%C4%83zvanExarhu",
     "work": {
       "title": "Cum lucrăm",
@@ -159,7 +161,9 @@
         "name": "3Pillar Global",
         "link": "https://www.3pillarglobal.com/",
         "logo": "https://code4.ro/img/3pillar.png?q=80&fit=crop&dpr=1&w=200&h=80&crop=500%2C500%2C0%2C0"
-      },
+      }
+    ],
+    "others": [
       {
         "id": 5,
         "name": "Sustainalytics",
