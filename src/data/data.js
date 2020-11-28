@@ -78,7 +78,6 @@ const data = {
     "download_pdf_cta": "Descarcă planul nostru",
     "download_pdf_link": "",
     "youtube": "https://www.youtube.com/watch?v=tyYNP9IzfEY&ab_channel=MorningGlorycuR%C4%83zvanExarhu",
-    "thumbnail": require('../assets/images/fpo.png'),
     "work": {
       "title": "Cum lucrăm",
       "steps": [
@@ -427,58 +426,7 @@ const data = {
             }
           ]
         },
-        {
-          "id": 2,
-          "segmentSlug": "sanse-pentru-persoanele-cu-dizabilitati",
-          "segment_visual": "segment-care-05-sanse-pentru-persoane-cu-disabilitati",
-          "title": "Șanse pentru persoanele cu dizabilități",
-          "description": "<p>Infrastructura României în ceea ce privește persoanele cu dizabilități este una deficitară, așa că îmbunătățirea calității vieții acestei categorii sociale defavorizate este un proces complicat și lent.</p><p>Spectrul dizabilităților este unul larg, iar lipsurile și atitudinile cu care aceștia se confruntă îi împiedică să trăiască într-un mediu sigur, tolerant și prietenos.</p><p>Trebuie să construim o țară, comunități și orașe accesibile tuturor, motiv pentru care ne îndreptăm atenția către persoanele care suferă de dizabilități variate și relația dintre acestea și modul în care le sunt, sau nu, facilitate anumite procese.</p>",
-          "btn": {
-            "top": "12%",
-            "left": "18%"
-          },
-          "icon_left":true,
-          "projects":[]
-        },
-        {
-          "id": 3,
-          "segmentSlug": "o-viata-buna-pentru-copiii-abandonati",
-          "segment_visual": "segment-care-06-o-viata-buna-pentru-copiii-adoptati",
-          "title": "O viață bună pentru copiii abandonați",
-          "description": "<p>În România, problema abandonului și a instituționalizării copiilor reprezintă o lungă luptă de a oferi o șansă la familie copiilor abandonați. Studiile arată că abandonul în primii ani după naștere poate duce la dificultăţi din punct de vedere al dezvoltării emoţionale şi comportamentale pe tot parcursul vieții.</p><p>Toți avem nevoie de ancora unei familii în viața noastră. Însă pentru cei care la început de drum nu au parte de ea, întreaga comunitate trebuie să constituie sprijinul necesar în lipsa unei familii. Susținem și dezvoltăm activ soluții tehnologice care să poată ameliora calitatea vieții și dezvoltarea acestora.</p>",
-          "btn": {
-            "top": "30%",
-            "left": "38%"
-          },
-          "icon_left":true,
-          "projects":[]
-        },
-        {
-          "id": 4,
-          "segmentSlug": "fara-discriminare-impotriva-etniei-rome",
-          "segment_visual": "segment-care-04-fara-discriminare-impotriva-etniei-rome",
-          "title": "Fără discriminare împotriva etniei rome",
-          "description": "<p>Discriminarea etnică a romilor este unul din principalele obstacole pentru integrarea lor în societate ca cetățeni cu drepturi depline, iar oferirea de șanse egale reprezintă o problemă structurală și istorică a României.</p><p>Nu putem avea o țară sănătoasă și prosperă decât dacă toți cetățenii ei sunt acceptați, sprijiniți și au acces la toate șansele posibile de dezvoltare. Din păcate, problemele generale ale societății românești sunt acutizate în cazul minorității rome, iar discriminarea duce la excluderea unor membri care pot aduce valoare întregii societăți.</p><p>Audităm toate aceste probleme și aducem în fața publicului larg soluții care sprijină integrarea comunității rome în colectivitate.</p>",
-          "btn": {
-            "top": "21%",
-            "left": "2%"
-          },
-          "icon_left":false,
-          "projects":[]
-        },
-        {
-          "id": 5,
-          "segmentSlug": "incluziune-pentru-persoanele-lgbtq",
-          "segment_visual": "segment-care-03-incluziune-pentru-persoanele-lgbtq",
-          "title": "Incluziune pentru persoanele LGBTQ+",
-          "description": "<p>Au trecut doar 20 de ani de când statul român pedepsea cu închisoarea relațiile de dragoste dintre persoanele de același sex. De atunci și până acum, societatea civilă luptă continuu pentru drepturilor și libertăților persoanelor LGBTQ+.</p><p>Deși lucrurile se îmbunătățesc într-un ritm lent, acceptarea și integrarea lor încă reprezintă o problemă în spațiul public, iar consecințele au un impact sever pentru membrii comunității, dar și pentru întreaga societate.</p><p>Ne uităm atent la fenomenul discriminării pe criterii de orientare sexuală și identitate de gen în vederea dezvoltării unor soluții de tehnologie civică menite să sprijine aceste comunități.</p>",
-          "btn": {
-            "top": "31%",
-            "left": "4%"
-          },
-          "icon_left":false,
-          "projects":[]
-        },
+
         {
           "id": 6,
           "segmentSlug": "diaspora-mai-aproape-de-casa",
@@ -541,6 +489,63 @@ const data = {
             }
           ]
         },
+
+        {
+          "id": 5,
+          "segmentSlug": "incluziune-pentru-persoanele-lgbtq",
+          "segment_visual": "segment-care-03-incluziune-pentru-persoanele-lgbtq",
+          "title": "Incluziune pentru persoanele LGBTQ+",
+          "description": "<p>Au trecut doar 20 de ani de când statul român pedepsea cu închisoarea relațiile de dragoste dintre persoanele de același sex. De atunci și până acum, societatea civilă luptă continuu pentru drepturilor și libertăților persoanelor LGBTQ+.</p><p>Deși lucrurile se îmbunătățesc într-un ritm lent, acceptarea și integrarea lor încă reprezintă o problemă în spațiul public, iar consecințele au un impact sever pentru membrii comunității, dar și pentru întreaga societate.</p><p>Ne uităm atent la fenomenul discriminării pe criterii de orientare sexuală și identitate de gen în vederea dezvoltării unor soluții de tehnologie civică menite să sprijine aceste comunități.</p>",
+          "btn": {
+            "top": "31%",
+            "left": "4%"
+          },
+          "icon_left":false,
+          "projects":[]
+        },
+
+        {
+          "id": 4,
+          "segmentSlug": "fara-discriminare-impotriva-etniei-rome",
+          "segment_visual": "segment-care-04-fara-discriminare-impotriva-etniei-rome",
+          "title": "Fără discriminare împotriva etniei rome",
+          "description": "<p>Discriminarea etnică a romilor este unul din principalele obstacole pentru integrarea lor în societate ca cetățeni cu drepturi depline, iar oferirea de șanse egale reprezintă o problemă structurală și istorică a României.</p><p>Nu putem avea o țară sănătoasă și prosperă decât dacă toți cetățenii ei sunt acceptați, sprijiniți și au acces la toate șansele posibile de dezvoltare. Din păcate, problemele generale ale societății românești sunt acutizate în cazul minorității rome, iar discriminarea duce la excluderea unor membri care pot aduce valoare întregii societăți.</p><p>Audităm toate aceste probleme și aducem în fața publicului larg soluții care sprijină integrarea comunității rome în colectivitate.</p>",
+          "btn": {
+            "top": "21%",
+            "left": "2%"
+          },
+          "icon_left":false,
+          "projects":[]
+        },
+
+        {
+          "id": 2,
+          "segmentSlug": "sanse-pentru-persoanele-cu-dizabilitati",
+          "segment_visual": "segment-care-05-sanse-pentru-persoane-cu-disabilitati",
+          "title": "Șanse pentru persoanele cu dizabilități",
+          "description": "<p>Infrastructura României în ceea ce privește persoanele cu dizabilități este una deficitară, așa că îmbunătățirea calității vieții acestei categorii sociale defavorizate este un proces complicat și lent.</p><p>Spectrul dizabilităților este unul larg, iar lipsurile și atitudinile cu care aceștia se confruntă îi împiedică să trăiască într-un mediu sigur, tolerant și prietenos.</p><p>Trebuie să construim o țară, comunități și orașe accesibile tuturor, motiv pentru care ne îndreptăm atenția către persoanele care suferă de dizabilități variate și relația dintre acestea și modul în care le sunt, sau nu, facilitate anumite procese.</p>",
+          "btn": {
+            "top": "12%",
+            "left": "18%"
+          },
+          "icon_left":true,
+          "projects":[]
+        },
+
+        {
+          "id": 3,
+          "segmentSlug": "o-viata-buna-pentru-copiii-abandonati",
+          "segment_visual": "segment-care-06-o-viata-buna-pentru-copiii-adoptati",
+          "title": "O viață bună pentru copiii abandonați",
+          "description": "<p>În România, problema abandonului și a instituționalizării copiilor reprezintă o lungă luptă de a oferi o șansă la familie copiilor abandonați. Studiile arată că abandonul în primii ani după naștere poate duce la dificultăţi din punct de vedere al dezvoltării emoţionale şi comportamentale pe tot parcursul vieții.</p><p>Toți avem nevoie de ancora unei familii în viața noastră. Însă pentru cei care la început de drum nu au parte de ea, întreaga comunitate trebuie să constituie sprijinul necesar în lipsa unei familii. Susținem și dezvoltăm activ soluții tehnologice care să poată ameliora calitatea vieții și dezvoltarea acestora.</p>",
+          "btn": {
+            "top": "30%",
+            "left": "38%"
+          },
+          "icon_left":true,
+          "projects":[]
+        },
+
         {
           "id": 7,
           "segmentSlug": "fara-trafic-de-persoane",
@@ -576,144 +581,6 @@ const data = {
       "color": "red",
       "highway_bg": "highway-health",
       "highway_segments": [
-        {
-          "id": 1,
-          "segmentSlug": "sanatate-mentala-pentru-toti",
-          "segment_visual": "segment-health-06-sanatate-mentala-pentru-toti",
-          "title": "Sanatate mintala pentru toti",
-          "description": "<p>Grija pentru sănătatea mintală ar trebui să fie la fel de firească precum preocuparea pentru un corp sănătos prin exerciții fizice și o alimentație corespunzătoare.</p><p>La nivel național, însă, infrastructura de prevenție și tratare a bolilor psihice este deficitară atât în ceea ce privește starea de bine a psihicului de zi cu zi, cât și pentru probleme grave și tot mai des întâlnite precum depresia, anxietatea sau afecțiunile psihiatrice.</p><p>Ne propunem să combatem stigmatul bolilor mintale și să apelăm la soluții digitale care să îmbunătățească fluxurile dintre instituțiile abilitate și pacienți.</p>",
-          "btn": {
-            "top": "29%",
-            "left": "60.5%"
-          },
-          "icon_left":false,
-          "projects":[]
-        },
-        {
-          "id": 2,
-          "segmentSlug": "sprijin-nu-pedeapsa-pentru-dependenti",
-          "segment_visual": "segment-health-05-sprijin-nu-pedeapsa-pentru-dependenti",
-          "title": "Sprijin nu pedeapsa pentru dependenti",
-          "description": "<p>Persoanele dependente au nevoie de sprijin pe termen lung, de înțelegere din partea comunității și de încredere în cei la care apelează.</p><p>Tulburările din sfera dependenței nu ar trebui să definească persoanele care trec prin astfel de greutăți, însă, scăpate de sub control, ele pot ajunge să le acapareze viața și să îi afecteze pe cei din jur.</p><p>Este o problemă deosebit de frecventă și, din păcate, foarte puțin înțeleasă. Dependența trebuie privită ca o tulburare mentală, nu ca o slăbiciune morală sau lipsă de voință, astfel că ne concentrăm atenția pe aspectele care pot fi schimbate și îmbunătățite în abordarea și tratarea dependenților.</p>",
-          "btn": {
-            "top": "42%",
-            "left": "75%"
-          },
-          "icon_left":true,
-          "projects":[]
-        },
-        {
-          "id": 3,
-          "segmentSlug": "spitale-functionale",
-          "segment_visual": "segment-health-04-spitale-functionale",
-          "title": "Spitale funcționale",
-          "description": "<p>Managementul spitalelor reprezintă o provocare instituțională complexă de ale cărei rezultate depinde buna tratare a pacienților. Un sistem funcțional este cel care poate prelua și trata eficient atât cazurile de zi cu zi, cât și situațiile critice apărute în urma producerii unui dezastru de orice natură.</p><p>Eficiența sistemului medical este o consecință firească a unor fluxuri interne corect executate care au loc dincolo de interfața cu pacientul.</p><p>În România, drumul către o asemenea eficacitate este unul anevoios și perfectibil, astfel că ne asumăm responsabilitatea de a cerceta și de a veni în sprijinul autorităților și al pacienților cu produse tehnologice destinate unei mai bune organizări între instituțiile sanitare.</p>",
-          "btn": {
-            "top": "38%",
-            "left": "51%"
-          },
-          "icon_left":false,
-          "projects":[]
-        },
-        {
-          "id": 4,
-          "segmentSlug": "servicii-de-sanatate-eficiente",
-          "segment_visual": "segment-health-03-servicii-de-sanatate-eficiente",
-          "title": "Servicii de sănătate eficiente",
-          "description": "<p>Accesul la servicii funcționale de sănătate reprezintă o nevoie fundamentală a oricărei societăți, indiferent că discutăm despre nivelul de prevenție, intervențiile de urgență sau tratamentele anevoioase pe termen lung.</p><p>În plan local, comunitățile au de parcurs un drum dificil chiar și în ceea ce privește accesul la servicii medicale de bază. Barierele geografice, financiare și de cunoaștere împiedică membri ai societății să beneficieze de servicii ce intră sub incidența drepturilor fiecărui cetățean.</p><p>Ne uităm la toate aceste aspecte și dezvoltăm instrumente tehnologice care să funcționeze în sprijinul pacienților pentru a fluidiza întregul sistem.</p>",
-          "btn": {
-            "top": "46%",
-            "left": "43%"
-          },
-          "icon_left":true,
-          "projects":[]
-        },
-        {
-          "id": 5,
-          "segmentSlug": "sprijin-pentru-cei-grav-bolnavi",
-          "segment_visual": "segment-health-02-sprijin-pentru-cei-grav-bolnavi",
-          "title": "Sprijin pentru cei grav bolnavi",
-          "description": "<p>Persoanele care suferă de boli cronice, cum ar fi diabetul, cancerul, hepatita sau bolile cardiovasculare au nevoie de asistență medicală de lungă durată și de monitorizare permanentă. Specificul acestor boli și gravitatea simptomelor schimbă configurația vieții celor care suferă de ele, dar și a familiilor lor, ceea ce duce la vulnerabilități din punct de vedere psihic, emoțional și financiar. Analizăm întreaga infrastructură sanitară care se adresează nevoilor lor și ne propunem să aducem în discuție nevoia de resurse umane bine pregătite și necesitatea unor mecanisme funcționale și la îndemâna pacienților.</p>",
-          "btn": {
-            "top": "62.68%",
-            "left": "46.58%"
-          },
-          "icon_left":true,
-          "projects":[
-            {
-              "id":1,
-              "projectSlug":"prim-ajutor",
-              "title":"Prim ajutor",
-              "subtitle":"O hartă a defibrilatoarelor, pentru a salva rapid vieți",
-              "description":"<p>Stopul cardiorespirator este una dintre principalele cauze de deces prematur, dar cu intervenții imediate, multe vieți pot fi salvate. Atunci când ritmul electric care controlează inima este înlocuit de un ritm haotic dezorganizat electric numit fibrilație ventriculară, cu cât mai repede se intervine printr-un defibrilator, cu atât sunt mai mari șansele de resuscitare cu succes. Secundele contează, iar serviciul de ambulanță este puțin probabil să ajungă suficient de repede pentru a resuscita majoritatea victimelor. De aceea, aplicația <em>Prim ajutor</em> va oferi tuturor o hartă a defibrilatoarelor din România, astfel încât va fi ușor pentru oricine să vadă care este cel mai apropiat defibrilator și să primească indicații despre cum poate fi corect folosit un astfel de instrument.</p>",
-              "link":"",
-              "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/health4ro-prim-ajutor.png'),
-              "adopted":false,
-              "adopted_by":[]
-            },
-            {
-              "id":2,
-              "projectSlug":"asistent-comunitar",
-              "title":"Asistent comunitar",
-              "subtitle":"Instrument de management de caz pentru asistenții comunitari",
-              "description":"<p>Asistenții comunitari oferă  servicii medicale pentru a compensa lipsa asistenței medicale și accesul pacienților la acest fel de servicii medicale în zonele și regiunile care au cel mai mult nevoie de acestea (de ex. zonele rurale, izolate sau în care nu există un dispensar sau o policlinică etc.). În prezent nu există un mod simplu și eficient de a urmări activitatea asistenților comunitari și de a urmări impactul acestora în zonele vulnerabile. Soluția <em>Asistent comunitar</em> este un instrument de management de caz, fiind în același timp un instrument de management al asistenților comunitari.</p>",
-              "link":"",
-              "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/health4ro-asistent-comunitar.png'),
-              "adopted":false,
-              "adopted_by":[]
-            },
-            {
-              "id":3,
-              "projectSlug":"s-move",
-              "title":"SMove",
-              "subtitle":"Sprijin pentru exercițiile de recuperare ale celor care suferă de scleroză multiplă",
-              "description":"<p>Scleroza multiplă este o boală progresivă, care afecteaza sistemul nervos central și care nu poate fi vindecată, dar persoanele diagnosticate pot ține simptomele bolii sub control, dacă urmează tratamentul corect, care adesea include exerciții de recuperare. SMove este o aplicație mobilă prin care persoanele care suferă de scleroză multiplă pot primi indicații pentru a face exercițiile recomandate de medic, în funcție de vârsta fiecăruia și de tipul afecțiunii.</p>",
-              "link":"",
-              "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/health4ro-smove.png'),
-              "adopted":false,
-              "adopted_by":[]
-            },
-            {
-              "id":4,
-              "projectSlug":"recuper-app",
-              "title":"RecuperApp",
-              "subtitle":"Exerciții de recuperare ghidate prin telefonul mobil",
-              "description":"<p>RecuperApp este o aplicație mobilă destinată celor ce, în urma unor varii accidente, au nevoie de ședințe de recuperare care să le mențină funcțiile motorii active sau chiar să le amelioreze. Fără a părăsi confortul propriei case și fără a plăti sesiuni de recuperare în instituții medicale, utilizatorii pot beneficia printr-o simplă aplicație de o gamă variată de exerciții împărțite în categorii de vârstă și atribuite diverselor leziuni ale organismului. Aplicația oferă și conectivitate între useri astfel încât aceștia să poată relaționa și exersa împreună în funcție de programul personal disponibil. </p>",
-              "link":"",
-              "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/health4ro-recuperapp.png'),
-              "adopted":false,
-              "adopted_by":[]
-            },
-            {
-              "id":5,
-              "projectSlug":"actiuni-prioritare",
-              "title":"Acțiuni prioritare",
-              "subtitle":"Un instrument digital pentru managementul acțiunilor prioritare",
-              "description":"<p>Acțiunile prioritare se referă la totalitatea bolilor și a evenimentelor cu risc crescut de pericol care au loc brusc în viața unei persoane (e.g. marii arși) și pentru care e nevoie de îngrijire urgentă. Din cauza specificului imprevizibil al acestor situații, instituțiile nu pot trece prin fluxul de proceduri obișnuite pentru procurarea medicamentelor și a echipamentelor medicale necesare, motiv pentru care în aceste cazuri se fac excepții care să urgenteze intrarea în posesia necesarului cerut. Astfel de excepții, însă, lasă locul unui risc mai ridicat de corupție în ceea ce privește achizițiile. Acțiuni prioritare este o platformă digitală destinată Ministerului Sănătății, Institutului Național de Sănătate Publică (INSP) și tuturor spitalelor din țară care să faciliteze comunicarea între instituții și urmărirea parcursului pacientului din momentul în care acesta intră în spital. Platforma va exporta date direct din sistemele de management ale spitalelor astfel încât ele să ajungă la INSP și Ministerul Sănătății în timp real. Transparentizarea acestor date va ajuta organele abilitate să poată verifica validitatea situației din spitale, dar și să confrunte datele cu cele de la casele de asigurări pentru a putea urmări ce achiziții sunt făcute și în ce mod.</p>",
-              "link":"",
-              "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/health4ro-actiuni-prioritare.png'),
-              "adopted":false,
-              "adopted_by":[]
-            },
-            {
-              "id":6,
-              "projectSlug":"sanatos",
-              "title":"Sănătos",
-              "subtitle":"Dosarul la zi a stării tale de sănătate",
-              "description":"<p>Orice vizită la medic, indiferent că vorbim de medicii de familie sau de spitale, lasă în urmă o serie de documente reieșite în urma investigațiilor și a recomandărilor din partea doctorilor: radiografii, trimiteri, buletine de analize, rețete etc.  Fără o rigurozitate în procesul de clasificare și păstrare a acestor documente în format fizic, pacienții pierd un istoric important cu privire la sănătatea lor.</p><p>Sănătos este o aplicație mobilă prin care fiecare pacient își poate ține singur evidența stării de sănătate și a tuturor investigațiilor și rezultatelor reieșite în urma vizitelor la medic, într-un singur loc. Aplicația funcționează de asemenea și ca un reminder pentru o serie de investigații de rutină pe care cu toții trebuie să le repetăm ocazional astfel încât să prevenim posibile afecțiuni de sănătate.</p>",
-              "link":"",
-              "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/health4ro-sanatos.png'),
-              "adopted":false,
-              "adopted_by":[]
-            },
-          ]
-        },
         {
           "id": 6,
           "segmentSlug": "grija-pentru-sanatatea-mamei-si-a-copilului",
@@ -873,7 +740,150 @@ const data = {
               "adopted_by":[]
             }
           ]
-        }
+        },
+
+        {
+          "id": 5,
+          "segmentSlug": "sprijin-pentru-cei-grav-bolnavi",
+          "segment_visual": "segment-health-02-sprijin-pentru-cei-grav-bolnavi",
+          "title": "Sprijin pentru cei grav bolnavi",
+          "description": "<p>Persoanele care suferă de boli cronice, cum ar fi diabetul, cancerul, hepatita sau bolile cardiovasculare au nevoie de asistență medicală de lungă durată și de monitorizare permanentă. Specificul acestor boli și gravitatea simptomelor schimbă configurația vieții celor care suferă de ele, dar și a familiilor lor, ceea ce duce la vulnerabilități din punct de vedere psihic, emoțional și financiar. Analizăm întreaga infrastructură sanitară care se adresează nevoilor lor și ne propunem să aducem în discuție nevoia de resurse umane bine pregătite și necesitatea unor mecanisme funcționale și la îndemâna pacienților.</p>",
+          "btn": {
+            "top": "62.68%",
+            "left": "46.58%"
+          },
+          "icon_left":true,
+          "projects":[
+            {
+              "id":1,
+              "projectSlug":"prim-ajutor",
+              "title":"Prim ajutor",
+              "subtitle":"O hartă a defibrilatoarelor, pentru a salva rapid vieți",
+              "description":"<p>Stopul cardiorespirator este una dintre principalele cauze de deces prematur, dar cu intervenții imediate, multe vieți pot fi salvate. Atunci când ritmul electric care controlează inima este înlocuit de un ritm haotic dezorganizat electric numit fibrilație ventriculară, cu cât mai repede se intervine printr-un defibrilator, cu atât sunt mai mari șansele de resuscitare cu succes. Secundele contează, iar serviciul de ambulanță este puțin probabil să ajungă suficient de repede pentru a resuscita majoritatea victimelor. De aceea, aplicația <em>Prim ajutor</em> va oferi tuturor o hartă a defibrilatoarelor din România, astfel încât va fi ușor pentru oricine să vadă care este cel mai apropiat defibrilator și să primească indicații despre cum poate fi corect folosit un astfel de instrument.</p>",
+              "link":"",
+              "link_text":"Vezi soluția",
+              "icon":require('../assets/images/projects/health4ro-prim-ajutor.png'),
+              "adopted":false,
+              "adopted_by":[]
+            },
+            {
+              "id":2,
+              "projectSlug":"asistent-comunitar",
+              "title":"Asistent comunitar",
+              "subtitle":"Instrument de management de caz pentru asistenții comunitari",
+              "description":"<p>Asistenții comunitari oferă  servicii medicale pentru a compensa lipsa asistenței medicale și accesul pacienților la acest fel de servicii medicale în zonele și regiunile care au cel mai mult nevoie de acestea (de ex. zonele rurale, izolate sau în care nu există un dispensar sau o policlinică etc.). În prezent nu există un mod simplu și eficient de a urmări activitatea asistenților comunitari și de a urmări impactul acestora în zonele vulnerabile. Soluția <em>Asistent comunitar</em> este un instrument de management de caz, fiind în același timp un instrument de management al asistenților comunitari.</p>",
+              "link":"",
+              "link_text":"Vezi soluția",
+              "icon":require('../assets/images/projects/health4ro-asistent-comunitar.png'),
+              "adopted":false,
+              "adopted_by":[]
+            },
+            {
+              "id":3,
+              "projectSlug":"s-move",
+              "title":"SMove",
+              "subtitle":"Sprijin pentru exercițiile de recuperare ale celor care suferă de scleroză multiplă",
+              "description":"<p>Scleroza multiplă este o boală progresivă, care afecteaza sistemul nervos central și care nu poate fi vindecată, dar persoanele diagnosticate pot ține simptomele bolii sub control, dacă urmează tratamentul corect, care adesea include exerciții de recuperare. SMove este o aplicație mobilă prin care persoanele care suferă de scleroză multiplă pot primi indicații pentru a face exercițiile recomandate de medic, în funcție de vârsta fiecăruia și de tipul afecțiunii.</p>",
+              "link":"",
+              "link_text":"Vezi soluția",
+              "icon":require('../assets/images/projects/health4ro-smove.png'),
+              "adopted":false,
+              "adopted_by":[]
+            },
+            {
+              "id":4,
+              "projectSlug":"recuper-app",
+              "title":"RecuperApp",
+              "subtitle":"Exerciții de recuperare ghidate prin telefonul mobil",
+              "description":"<p>RecuperApp este o aplicație mobilă destinată celor ce, în urma unor varii accidente, au nevoie de ședințe de recuperare care să le mențină funcțiile motorii active sau chiar să le amelioreze. Fără a părăsi confortul propriei case și fără a plăti sesiuni de recuperare în instituții medicale, utilizatorii pot beneficia printr-o simplă aplicație de o gamă variată de exerciții împărțite în categorii de vârstă și atribuite diverselor leziuni ale organismului. Aplicația oferă și conectivitate între useri astfel încât aceștia să poată relaționa și exersa împreună în funcție de programul personal disponibil. </p>",
+              "link":"",
+              "link_text":"Vezi soluția",
+              "icon":require('../assets/images/projects/health4ro-recuperapp.png'),
+              "adopted":false,
+              "adopted_by":[]
+            },
+            {
+              "id":5,
+              "projectSlug":"actiuni-prioritare",
+              "title":"Acțiuni prioritare",
+              "subtitle":"Un instrument digital pentru managementul acțiunilor prioritare",
+              "description":"<p>Acțiunile prioritare se referă la totalitatea bolilor și a evenimentelor cu risc crescut de pericol care au loc brusc în viața unei persoane (e.g. marii arși) și pentru care e nevoie de îngrijire urgentă. Din cauza specificului imprevizibil al acestor situații, instituțiile nu pot trece prin fluxul de proceduri obișnuite pentru procurarea medicamentelor și a echipamentelor medicale necesare, motiv pentru care în aceste cazuri se fac excepții care să urgenteze intrarea în posesia necesarului cerut. Astfel de excepții, însă, lasă locul unui risc mai ridicat de corupție în ceea ce privește achizițiile. Acțiuni prioritare este o platformă digitală destinată Ministerului Sănătății, Institutului Național de Sănătate Publică (INSP) și tuturor spitalelor din țară care să faciliteze comunicarea între instituții și urmărirea parcursului pacientului din momentul în care acesta intră în spital. Platforma va exporta date direct din sistemele de management ale spitalelor astfel încât ele să ajungă la INSP și Ministerul Sănătății în timp real. Transparentizarea acestor date va ajuta organele abilitate să poată verifica validitatea situației din spitale, dar și să confrunte datele cu cele de la casele de asigurări pentru a putea urmări ce achiziții sunt făcute și în ce mod.</p>",
+              "link":"",
+              "link_text":"Vezi soluția",
+              "icon":require('../assets/images/projects/health4ro-actiuni-prioritare.png'),
+              "adopted":false,
+              "adopted_by":[]
+            },
+            {
+              "id":6,
+              "projectSlug":"sanatos",
+              "title":"Sănătos",
+              "subtitle":"Dosarul la zi a stării tale de sănătate",
+              "description":"<p>Orice vizită la medic, indiferent că vorbim de medicii de familie sau de spitale, lasă în urmă o serie de documente reieșite în urma investigațiilor și a recomandărilor din partea doctorilor: radiografii, trimiteri, buletine de analize, rețete etc.  Fără o rigurozitate în procesul de clasificare și păstrare a acestor documente în format fizic, pacienții pierd un istoric important cu privire la sănătatea lor.</p><p>Sănătos este o aplicație mobilă prin care fiecare pacient își poate ține singur evidența stării de sănătate și a tuturor investigațiilor și rezultatelor reieșite în urma vizitelor la medic, într-un singur loc. Aplicația funcționează de asemenea și ca un reminder pentru o serie de investigații de rutină pe care cu toții trebuie să le repetăm ocazional astfel încât să prevenim posibile afecțiuni de sănătate.</p>",
+              "link":"",
+              "link_text":"Vezi soluția",
+              "icon":require('../assets/images/projects/health4ro-sanatos.png'),
+              "adopted":false,
+              "adopted_by":[]
+            },
+          ]
+        },
+
+        {
+          "id": 4,
+          "segmentSlug": "servicii-de-sanatate-eficiente",
+          "segment_visual": "segment-health-03-servicii-de-sanatate-eficiente",
+          "title": "Servicii de sănătate eficiente",
+          "description": "<p>Accesul la servicii funcționale de sănătate reprezintă o nevoie fundamentală a oricărei societăți, indiferent că discutăm despre nivelul de prevenție, intervențiile de urgență sau tratamentele anevoioase pe termen lung.</p><p>În plan local, comunitățile au de parcurs un drum dificil chiar și în ceea ce privește accesul la servicii medicale de bază. Barierele geografice, financiare și de cunoaștere împiedică membri ai societății să beneficieze de servicii ce intră sub incidența drepturilor fiecărui cetățean.</p><p>Ne uităm la toate aceste aspecte și dezvoltăm instrumente tehnologice care să funcționeze în sprijinul pacienților pentru a fluidiza întregul sistem.</p>",
+          "btn": {
+            "top": "46%",
+            "left": "43%"
+          },
+          "icon_left":true,
+          "projects":[]
+        },
+
+        {
+          "id": 3,
+          "segmentSlug": "spitale-functionale",
+          "segment_visual": "segment-health-04-spitale-functionale",
+          "title": "Spitale funcționale",
+          "description": "<p>Managementul spitalelor reprezintă o provocare instituțională complexă de ale cărei rezultate depinde buna tratare a pacienților. Un sistem funcțional este cel care poate prelua și trata eficient atât cazurile de zi cu zi, cât și situațiile critice apărute în urma producerii unui dezastru de orice natură.</p><p>Eficiența sistemului medical este o consecință firească a unor fluxuri interne corect executate care au loc dincolo de interfața cu pacientul.</p><p>În România, drumul către o asemenea eficacitate este unul anevoios și perfectibil, astfel că ne asumăm responsabilitatea de a cerceta și de a veni în sprijinul autorităților și al pacienților cu produse tehnologice destinate unei mai bune organizări între instituțiile sanitare.</p>",
+          "btn": {
+            "top": "38%",
+            "left": "51%"
+          },
+          "icon_left":false,
+          "projects":[]
+        },
+
+        {
+          "id": 2,
+          "segmentSlug": "sprijin-nu-pedeapsa-pentru-dependenti",
+          "segment_visual": "segment-health-05-sprijin-nu-pedeapsa-pentru-dependenti",
+          "title": "Sprijin nu pedeapsa pentru dependenti",
+          "description": "<p>Persoanele dependente au nevoie de sprijin pe termen lung, de înțelegere din partea comunității și de încredere în cei la care apelează.</p><p>Tulburările din sfera dependenței nu ar trebui să definească persoanele care trec prin astfel de greutăți, însă, scăpate de sub control, ele pot ajunge să le acapareze viața și să îi afecteze pe cei din jur.</p><p>Este o problemă deosebit de frecventă și, din păcate, foarte puțin înțeleasă. Dependența trebuie privită ca o tulburare mentală, nu ca o slăbiciune morală sau lipsă de voință, astfel că ne concentrăm atenția pe aspectele care pot fi schimbate și îmbunătățite în abordarea și tratarea dependenților.</p>",
+          "btn": {
+            "top": "42%",
+            "left": "75%"
+          },
+          "icon_left":true,
+          "projects":[]
+        },
+
+        {
+          "id": 1,
+          "segmentSlug": "sanatate-mentala-pentru-toti",
+          "segment_visual": "segment-health-06-sanatate-mentala-pentru-toti",
+          "title": "Sanatate mintala pentru toti",
+          "description": "<p>Grija pentru sănătatea mintală ar trebui să fie la fel de firească precum preocuparea pentru un corp sănătos prin exerciții fizice și o alimentație corespunzătoare.</p><p>La nivel național, însă, infrastructura de prevenție și tratare a bolilor psihice este deficitară atât în ceea ce privește starea de bine a psihicului de zi cu zi, cât și pentru probleme grave și tot mai des întâlnite precum depresia, anxietatea sau afecțiunile psihiatrice.</p><p>Ne propunem să combatem stigmatul bolilor mintale și să apelăm la soluții digitale care să îmbunătățească fluxurile dintre instituțiile abilitate și pacienți.</p>",
+          "btn": {
+            "top": "29%",
+            "left": "60.5%"
+          },
+          "icon_left":false,
+          "projects":[]
+        }    
       ]
     },
     {
@@ -893,26 +903,26 @@ const data = {
       "highway_bg": "highway-participation",
       "highway_segments": [
         {
-          "id": 1,
-          "segmentSlug": "acces-la-cultura",
-          "segment_visual": "segment-participation-09-acces-la-cultura",
-          "title": "Acces la cultura",
-          "description": "<p>Cultura este un factor determinant în creșterea calității vieții, făcând-o mai plină de sens, mai frumoasă și mai armonioasă. Pentru creatori, uneltele digitale pot să asigure o gestionare mai bună a resurselor, în timp ce pentru consumatorii de cultură, tehnologia poate reprezenta o cale ușoară prin care pot avea acces la producții artistice.</p>",
+          "id": 8,
+          "segmentSlug": "alegeri-corecte-alegatori-informati",
+          "segment_visual": "segment-participation-01-alegeri-corecte-alegatori-informati",
+          "title": "Alegeri corecte. Alegători informați.",
+          "description": "<p>Dacă vrem o democrație funcțională și reprezentativă, avem nevoie de o participare semnificativă și informată a unui număr cât mai mare de cetățeni la un proces transparent și corect de alegeri. Iar tehnologia poate oferi soluții care să asigure buna desfășurare a procesului de votare, precum și o mai bună informare a alegătorilor.</p><p>Fără alegeri libere și corecte, nu există democrație.</p>",
           "btn": {
-            "top": "80%",
-            "left": "82%"
+            "top": "15.77%",
+            "left": "15.25%"
           },
           "icon_left":true,
           "projects":[
             {
               "id":1,
-              "projectSlug":"theater-hub",
-              "title":"Theater Hub",
-              "subtitle":"Spațiu virtual pentru profesioniștii teatrului",
-              "description":"<p>Theater Hub este o platformă online pentru scena de teatru din România. Acest spațiu virtual îi susţine pe actori să îşi creeze o prezență online şi să își promoveze spectacolele, încurajând şi alți tineri să își urmeze pasiunea pentru arta teatrală. Mai mult, platforma își propune să reducă distanța dintre public și actori și să îi ajute să colaboreze. Actorii și trupele de teatru independent pot cere ajutor dacă au nevoie de specialiști în promovare, de resurse, decoruri etc., pentru a încuraja oamenii de business și freelancerii să contribuie activ la susținerea inițiativelor culturale. Prin integrarea cu alte platforme dezvoltate de Code for Romania, Theater Hub își dorește ca pe viitor să ofere și informații utile pentru profesioniștii din domeniul actoriei, cum ar fi resurse legislative sau referitoare la finanțări europene.</p>",
+              "projectSlug":"vot-romania",
+              "title":"Vot România",
+              "subtitle":"Ghidul complet al alegătorului din România",
+              "description":"<p>Vot România este o platformă care facilitează accesul cetățenilor la informațiile privind alegerile, contribuind la o mai mare transparență a procesului electoral. Accesând votromania.ro toți cetățenii pot să verifice, alături de documentele și procedurile necesare pentru a vota, și care este secția la care sunt arondați în funcție de statutul fiecăruia. Website-ul va fi disponibil cu informații actualizate la fiecare nouă rundă electorală. Conținutul prezent pe platforma Vot România este realizat în parteneriat cu experții electorali ai Observatorului Electoral.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/participation4ro-theater-hub.png'),
+              "icon":require('../assets/images/projects/participation4ro-vot-romania.png'),
               "adopted":true,
               "adopted_by":[
                 {
@@ -922,30 +932,16 @@ const data = {
                   "logo": "https://code4.ro/img/e906b7f2-af18-4388-933e-e365173c7e35/logo-tfsg-01.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=2084%2C1178%2C0%2C0"
                 }
               ]
-            }
-          ]
-        },
-        {
-          "id": 2,
-          "segmentSlug": "jurnalisti-eficienti",
-          "segment_visual": "segment-participation-08-jurnalisti-eficienti",
-          "title": "Jurnalisti eficienti",
-          "description": "<p>Rolul fundamental al presei este acela de a monitoriza acțiunile factorilor de decizie, observând neregulile și informând publicul. 'Câinele de pază al democrației' trece în ultimii ani printr-o perioadă de transformare și reinventare, fiind în căutarea acelor instrumente digitale prin care să poată răspunde exigențelor actuale.</p>",
-          "btn": {
-            "top": "70%",
-            "left": "61%"
-          },
-          "icon_left":false,
-          "projects":[
+            },
             {
-              "id":1,
-              "projectSlug":"romania-incognito",
-              "title":"România Incognito",
-              "subtitle":"Comunicare securizată între jurnaliști și sursele lor protejate",
-              "description":"<p>Lipsa unui canal de comunicare securizat,  care ar putea oferi anonimatul tuturor celor care doresc să trimită informații sensibile către mass-media, a descurajat sursele din România, făcându-i pe oameni să fie reticenți în raportarea faptelor de corupție sau a fraudelor. </p> <p>Romania Incognito este o platformă care funcționează ca o adresă de e-mail electronică securizată între surse și media sau ONG-ul către care se dorește trimiterea de informații. Nimeni, dacă nu se decide altfel, nu poate urmări activitatea unui cetățean în platformă. Singura persoană care deține cheia de comunicare cu jurnaliștii sau diversele ONG-uri este inițiatorul care poate fi contactat numai dacă el decide să continue conversația. Sperăm că, făcând acest instrument disponibil, mai mulți oameni, care nu sunt suficient de pricepuți pentru a utiliza metode complexe de criptare, vor raporta acum despre probleme grave. Încurajăm și jurnaliștii și ONG-urile să își protejeze sursele prin utilizarea Incognito. </p>",
-              "link":"",
-              "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/participation4ro-romania-incognito.png'),
+              "id": 2,
+              "projectSlug": "vot-diaspora",
+              "title": "Vot Diaspora",
+              "subtitle": "Ghidul complet al alegătorului din diaspora",
+              "description": "<p>Vot Diaspora este un tutorial online de informare a românilor din străinătate cu privire la regulile de înscriere pentru a vota la alegerile parlamentare, prezidențiale și europarlamentare. Vot Diaspora a apărut din dorința de a prezenta într-o formă simplă și interactivă pașii pe care trebuie să îi urmeze românii pentru a putea vota din străinătate. La alegerile europarlamentare din 2019, aplicația a fost utilizată de mai mult de 25% din totalul alegătorilor din diaspora, iar la ultima rundă a alegerilor prezidențiale, peste 185.000 alegători s-au informat via votdiaspora.ro. Prin platformă, toți cetățenii vor putea să verifice documentele și procedurile necesare pentru a vota în secție sau prin corespondență dacă se află în afara țării, dar și care este secția la care sunt arondați în funcție de statutul fiecăruia. Website-ul va fi disponibil cu informații actualizate la fiecare nouă rundă electorală.</p>",
+              "link": "",
+              "link_text": "Vezi soluția",
+              "icon": require('../assets/images/projects/participation4ro-vot-diaspora.png'),
               "adopted":true,
               "adopted_by":[
                 {
@@ -955,133 +951,307 @@ const data = {
                   "logo": "https://code4.ro/img/e906b7f2-af18-4388-933e-e365173c7e35/logo-tfsg-01.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=2084%2C1178%2C0%2C0"
                 }
               ]
+            },
+            {
+              "id": 3,
+              "projectSlug": "count-us-in",
+              "title": "Count Us In",
+              "subtitle": "O estimare precisă a numărului românilor din diaspora",
+              "description": "<p>Probabil cea mai mare criză a democrației românești din ultimii ani este incapacitatea statului de a asigura dreptul la vot al românilor care locuiesc în străinătate. Atât alegerile prezidențiale din 2014, cât și alegerile europarlamentare din 2019 au arătat cum români care trăiau în Europa au stat la coadă ore în șir pentru a vota la secțiile de votare înființate în țările lor de reședință, unora fiindu-le refuzat dreptul de vot din cauza lipsei de capacitate a secțiilor. Cauza fundamentală a acestui fenomen, indicată de majoritatea funcționarilor și instituțiilor publice, este incapacitatea statului de a evalua numărul potențialilor alegători care trăiesc în străinătate. Count Us In este o aplicație web care va realiza o estimare mult mai precisă a numărului românilor din diaspora, printr-un proces de crowdsourcing care vizează datele oficiale din fiecare localitate.</p>",
+              "link": "",
+              "link_text": "Vezi soluția",
+              "icon": require('../assets/images/projects/participation4ro-count-us-in.png'),
+              "adopted": false,
+              "adopted_by": []
+            },
+            {
+              "id": 4,
+              "projectSlug": "monitorizare-vot",
+              "title": "Monitorizare Vot",
+              "subtitle": "Digitalizarea procesului de observare a alegerilor",
+              "description": "<p>Participarea politică e fundamentul reprezentării, care este la rândul său fundamentul unui stat care își respectă cetățenii. Vrem o lume în care fiecare vot e numărat și în care fiecare vot contează. De aceea credem că trebuie să avem întotdeauna soluțiile optime pentru a face sistemul de vot sigur și de încredere. Monitorizare Vot este soluția tehnologică utilizată de către aproape toți observatorii independenți acreditați începând cu alegerile din 2016. O soluție care a transformat felul în care sunt observate alegerile din România și care ne ajută să stăm cu ochii pe alegeri pentru a reacționa la prima sesizare de fraudă în ziua votului.</p>",
+              "link": "",
+              "link_text": "Vezi soluția",
+              "icon": require('../assets/images/projects/participation4ro-monitorizare-vot.png'),
+              "adopted":true,
+              "adopted_by":[
+                {
+                  "id":4,
+                  "title": "TFSG by Code for Romania",
+                  "link": "https://tfsg.code4.ro/ro/",
+                  "logo": "https://code4.ro/img/e906b7f2-af18-4388-933e-e365173c7e35/logo-tfsg-01.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=2084%2C1178%2C0%2C0"
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "projectSlug": "ochii-pe-vot",
+              "title": "Ochii pe vot",
+              "subtitle": "Un instrument pentru alegătorii care vor să raporteze nereguli în procesul de vot",
+              "description": "<p>Cetățenii din România nu au un grad ridicat de implicare în procesul de votare, cei mai mulți fiind interesați și atenți doar în jurul campaniei electorale fără a depune un efort real de informare cu privire la opțiunile pe care le au la dispoziție. Ochii pe vot este o platformă dedicată cetățenilor români din țară și din diaspora prin care pot să raporteze nereguli cu privire la orice runda de alegeri atât în ziua votului, cât și în campania electorala. Utilizatorii vor primi informații complete și corecte, având posibilitatea de a face ușor sesizări. Scopul platformei este de a crește gradul de implicare al cetățenilor în procesul de votare și de atragere a unui număr cât mai mare de observatori pentru alegeri, extinzând monitorizarea corectitudinii întregului proces pe durata campaniei electorale.</p>",
+              "link": "",
+              "link_text": "Vezi soluția",
+              "icon": require('../assets/images/projects/participation4ro-ochii-pe-vot.png'),
+              "adopted": false,
+              "adopted_by": []
+            },
+            {
+              "id": 6,
+              "projectSlug": "rezultate-vot",
+              "title": "Rezultate Vot",
+              "subtitle": "Rezultate puse în context pentru fiecare rundă electorală",
+              "description": "<p>O democrație se sprijină pe cetățeni critici și informați. Rezultate Vot își propune să informeze și să dezvolte spiritul critic al alegătorilor prin contextualizarea informației electorale însoțite de analize apartinice ale acesteia. Această platformă este locul în care oricine poate accesa toate informațiile relevante ale alegerilor din România. Platforma conține: hărți detaliate cu prezența la vot la nivelul țării/județului, rezultatele parțiale ale alegerilor după închiderea urnelor, pe măsură ce ele sunt comunicate de autorități, informații din sistemul de monitorizare digitală a alegerilor, respectiv Monitorizare Vot, istoricul electoral al României pentru toate rundele de alegeri începând cu anul 1992 și un flux live de comentarii și analize realizate de sociologi din marile centre universitare din România.</p>",
+              "link": "",
+              "link_text": "Vezi soluția",
+              "icon": require('../assets/images/projects/participation4ro-rezultate-vot.png'),
+              "adopted":true,
+              "adopted_by":[
+                {
+                  "id":4,
+                  "title": "TFSG by Code for Romania",
+                  "link": "https://tfsg.code4.ro/ro/",
+                  "logo": "https://code4.ro/img/e906b7f2-af18-4388-933e-e365173c7e35/logo-tfsg-01.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=2084%2C1178%2C0%2C0"
+                }
+              ]
+            },
+            {
+              "id": 7,
+              "projectSlug": "catalog-politic",
+              "title": "Catalog Politic",
+              "subtitle": "Catalogul persoanelor din funcții publice din România",
+              "description": "<p>Catalog Politic este o platformă online care centralizează informațiile existente despre persoanele din funcții publice înalte din România. Scopul este de a pune la dispoziția cetățenilor datele din declarațiile de avere și interese, date despre activitatea politică și cele din cazierul juridic, prezentate într-un format ușor de vizualizat și pus în context. Mai mult, prin baze de date complete și ușor de utilizat, proiectul oferă jurnaliștilor și cercetătorilor suport în activitățile de documentare. Sursele datelor sunt: ANI, DNA, site-urile candidaților și site-urile instituțiilor statului precum și date culese manual.</p>",
+              "link": "",
+              "link_text": "Vezi soluția",
+              "icon": require('../assets/images/projects/participation4ro-catalog-politic.png'),
+              "adopted": false,
+              "adopted_by": [
+
+              ]
+            },
+            {
+              "id": 8,
+              "projectSlug": "swipe-politics",
+              "title": "Swipe Politics",
+              "subtitle": "Vezi cine sunt politicienii din orașul tău",
+              "description": "<p>Pe modelul aplicațiilor de tip matchmaking, propunem construirea unei aplicații mobile prin care, în funcție de locație, să primești date despre politicienii din orașul în care te afli. De exemplu, o persoană care se află în Bacău va putea vedea fișe de politicieni locali sau naționali relevanți, date despre activitatea lor politică/administrativă și vor putea naviga din aplicație către alte platforme cu informații relevante. Scopul acestui proiect este de a stimula implicarea cetățenilor cât mai mult în viața de zi cu zi a orașului lor și de a monitoriza facil politicienii care îi reprezintă aducând subiecte de interes către ei prin intermediul acestui <em>joc</em> de matchmaking.</p>",
+              "link": "",
+              "link_text": "Vezi soluția",
+              "icon": require('../assets/images/projects/participation4ro-swipe-politics.png'),
+              "adopted": false,
+              "adopted_by": [
+
+              ]
             }
           ]
         },
+
         {
-          "id": 3,
-          "segmentSlug": "primarii-functionale",
-          "segment_visual": "segment-participation-07-primarii-functionale",
-          "title": "Primării funcționale",
-          "description": "<p>Primăriile și celelalte autorități locale sunt printre primele instituții cu care cetățenii au contact în relația lor cu statul. Nevoia bunei funcționări prin procese interne este cu atât mai intens resimțită. Funcționarea bună, în primul rând la nivel intern, va face în mod natural ca interacțiuni dificile ale cetățenilor cu primăriile să devină mai ușoare și mai eficiente.</p>",
+          "id": 9,
+          "segmentSlug": "date-deschise",
+          "segment_visual": "segment-participation-02-date-deschise",
+          "title": "Date deschise",
+          "description": "<p>Transparența presupune, în primul rând acces liber și neîngrădit la date de interes public. Fără acces la date nu îi putem verifica pe cei care ne conduc. La rândul lor, cei care elaborează politici publice nu o pot face fără a înțelege cu adevărat fenomenele pe care vrem să le corectăm. Deciziile bune se iau pe baza accesului la date și informații , fie că este vorba despre cetățeni obișnuiți, de primari sau miniștri.</p> <p>Ne propunem să echipăm societatea civilă, comunitățile și administrația publică cu acele instrumente digitale care să îi ajute să ia cele mai bune decizii pentru orașele în care locuiesc. Pentru a le face cu adevărat utile, traducem datele în informație ușor de înțeles și îmbunătățim sistemele de colectare de date.</p>",
           "btn": {
-            "top": "80%",
-            "left": "52%"
+            "top": "26%",
+            "left": "14%"
           },
           "icon_left":false,
-          "projects":[]
-        },
-        {
-          "id": 4,
-          "segmentSlug": "institutii-centrale-functionale",
-          "segment_visual": "segment-participation-06-institutii-centrale-functionale",
-          "title": "Institutii centrale functionale",
-          "description": "<p>Pentru a putea răspunde nevoilor cetățenilor și a oferi servicii publice de calitate, instituțiile centrale trebuie să aibă întâi procese clare și eficiente prin care să își gestioneze activitatea internă. Digitalizarea poate îmbunătăți felul în care instituțiile funcționează și comunică unele cu altele, făcându-le nu doar mai transparente, ci și mai apropiate de nevoile reale ale cetățenilor.</p>",
-          "btn": {
-            "top": "68.07%",
-            "left": "32%"
-          },
-          "icon_left":false,
-          "projects":[]
-        },
-        {
-          "id": 6,
-          "segmentSlug": "o-mai-buna-relatie-cetatean-stat",
-          "segment_visual": "segment-participation-05-o-mai-buna-relatie-cetatean-stat",
-          "title": "O mai buna relatie cetetean-stat",
-          "description": "<p>În relația cu statul care ar trebui să le servească interesele, mulți cetățeni se confruntă cu un sentiment de frustrare, generat adesea de ineficiența cu care autoritățile  își îndeplinesc misiunea misiunea.</p> <p>Pentru a avea un stat mai deschis și mai operativ în apărarea intereselor cetățenilor, ne propunem să digitalizăm procesele care, depinzând de procese bazate pe hârtie și dosare cu șină, consumă timp și resurse, deteriorînd relația dintre cetățeni și instituțiile statului</p>.",
-          "btn": {
-            "top": "57%",
-            "left": "40%"
-          },
-          "icon_left":true,
           "projects":[
             {
               "id":1,
-              "projectSlug":"website-builder-minister",
-              "title":"Website Builder Minister",
-              "subtitle":"Site-uri ușor de construit pentru toate ministerele",
-              "description":"<p>În România, deși există standarde cu privire la conținutul obligatoriu, majoritatea website-urilor guvernamentale sunt greu de utilizat, făcând dificil accesul la informațiile și serviciile necesare cetățenilor. Website builder minister este soluția care va oferi tuturor ministerelor posibilitatea de a-și construi un site care să conțină informațiile esențiale și relevante la nivel național pentru o bună comunicare cu cetățenii.</p>",
+              "projectSlug":"data-portal",
+              "title":"Data Portal",
+              "subtitle":"Platformă de date deschise  și vizualizare de seturi de date",
+              "description":"<p>Data Portal este o platformă de date deschise care își propune să digitalizeze și automatizeze seturile de date din societatea civilă pentru a crește gradul de informare al cetățenilor, pentru a putea încuraja dezvoltarea de proiecte și programe comunitare având la bază seturi de date corecte și coerente. Venim în sprijinul mass-media cu date transformate în informații pentru a construi o platformă unică de stocare a informațiilor utile pentru cetățeni.</p> <p>Platforma este ușor replicabilă la nivel de instituții locale și/sau centrale și permite customizarea importului seturilor de date specifice fiecărui actor care dorește să deschidă date publice.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/participation4ro-website-builder-minister.png'),
-              "adopted":false,
-              "adopted_by":[]
+              "icon":require('../assets/images/projects/participation4ro-data-portal.png'),
+              "adopted":true,
+              "adopted_by":[
+                {
+                  "id":4,
+                  "title": "TFSG by Code for Romania",
+                  "link": "https://tfsg.code4.ro/ro/",
+                  "logo": "https://code4.ro/img/e906b7f2-af18-4388-933e-e365173c7e35/logo-tfsg-01.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=2084%2C1178%2C0%2C0"
+                }
+              ]
             },
             {
               "id":2,
-              "projectSlug":"website-builder-primarie",
-              "title":"Website Builder Primărie",
-              "subtitle":"Site-uri ușor de construit pentru toate primăriile din România",
-              "description":"<p>În România, deși există standarde cu privire la conținutul obligatoriu, majoritatea website-urilor primăriilor sunt greu de utilizat, făcând dificil accesul la informațiile și serviciile necesare cetățenilor.  Website builder primărie este soluția care va oferi tuturor primăriilor posibilitatea de a-și construi un site care să conțină informațiile esențiale și relevante la nivel local pentru o bună comunicare cu cetățenii.</p>",
+              "projectSlug":"data-scientists-hub",
+              "title":"Data Scientists Hub",
+              "subtitle":"Platformă colaborativă dedicată specialiștilor în analiza de date",
+              "description":"<p>În prezent nu există o comunitate de specialiști în lucrul cu date în România. Cu atât mai puțin grupuri care să se implice în curățarea de date de interes public de care ar putea beneficia, în egală măsură, mediul de business, cetățenii obișnuiți și administrația publică. Acești specialiști sunt prezenți în universități, companii de consultanță sau companii IT, dar nu au o platformă dedicată unde să lucreze împreună la proiecte relevante.</p> <p>Data Scientists Hub este o platformă specializată, care facilitează dezvoltarea unei comunități de analiști de date în România, loc în care aceștia să poată lucra împreună pe analizarea, curățarea și publicarea de seturi de date prin colaborarea în redactarea de politici și lucrări de specialitate.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/participation4ro-website-builder-primarie.png'),
+              "icon":require('../assets/images/projects/participation4ro-data-scientists-hub.png'),
               "adopted":false,
               "adopted_by":[]
             },
             {
               "id":3,
-              "projectSlug":"acces-544",
-              "title":"Acces 544",
-              "subtitle":"Acces ușor la informații publice",
-              "description":"<p>Accesul la informații publice prin legea 544 este una dintre marile victorii din istoria recentă în efortul de transparentizare a instituțiilor din România. Cu toate acestea, accesarea acestor informații poate fi în continuare o problemă, pentru cetățeni, procesul fiind unul dificil inclusiv pentru funcționarii care trebuie să le pună la dispoziție. în lipsa unei soluții unice care să transparentizeze și să eficientizeze procesul de cerere și livrare a acestor informații. Acces 544 este soluția care va îmbunătăți accesul cetățenilor la informațiile publice prevăzute de lege.</p>",
+              "projectSlug":"declaratii-de-avere",
+              "title":"Declarații de Avere",
+              "subtitle":"Digitalizare prin crowdsourcing a declarațiilor de avere",
+              "description":"<p>Platforma Declarații de avere este un proiect care își propune să digitalizeze întreaga arhivă de declarații de avere ale politicienilor care ocupă funcții importante. Cu ajutorul unor mecanisme interactive și cu sprijinul unor instrumente de colectare de date, cetățenii vor putea contribui la digitalizarea întregii arhive de declarații din România. Mecanismul de validare a datelor colectate este construit astfel încât să putem colecta date cât mai curate într-o bază de date complexă care poate fi integrată apoi cu multiple metode de vizualizare.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/participation4ro-acces-544.png'),
+              "icon":require('../assets/images/projects/participation4ro-declaratii-de-avere.png'),
               "adopted":false,
               "adopted_by":[]
             },
             {
               "id":4,
-              "projectSlug":"biroul-de-propuneri",
-              "title":"Biroul de Propuneri",
-              "subtitle":"Portalul unde cetățenii pot trimite sugestii administrației locale",
-              "description":"<p>Pentru cetățenii care vor să se implice în viața societății și să mențină o legătură cu autoritățile locale,  modalitatea și locul în care pot trimite în scris propuneri, sugestii, opinii cu valoare de recomandare nu sunt mereu la îndemână. Biroul de propuneri este platforma prin care cetățenii vor putea trimite sugestii de îmbunătățire a activității pentru administrația locală, le vor putea urmări și vor putea interacționa și dezbate propunerile făcute până în acel moment. Soluția urmărește modelul <em>Consul</em>, implementat deja în 135 de orașe din 35 de țări.</p>",
+              "projectSlug":"banii-din-politica",
+              "title":"Banii din Politică",
+              "subtitle":"Vizualizare interactivă de date pe bugetele partidelor",
+              "description":"<p>Conform legii, partidele politice sunt obligate să își deschidă datele cu privire la execuția lor bugetară. Aceste date sunt disponibile în Monitorul Oficial și pot fi consultate cu mare dificultate de cei interesați să le analizeze și să facă studii pe subiecte conexe. Banii din politică este un instrument de vizualizare de date prin care orice utilizator poate consulta toate informațiile disponibile public cu privire la bugetele partidelor și cum au fost cheltuite, în special în perioadele de campanie electorală. Proiectul va putea fi deschis pentru toți politicienii sau partidele care doresc să deschidă și mai multe informații către publicul larg.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/participation4ro-biroul-de-propuneri.png'),
-              "adopted":false,
-              "adopted_by":[]
-            },
-            {
-              "id":5,
-              "projectSlug":"bugetare-participativa",
-              "title":"Bugetare Participativă",
-              "subtitle":"Portalul unde cetățenii au un cuvânt de spus privind bugetul local",
-              "description":"<p>Bugetul participativ permite cetăţenilor să se implice în mod direct în deciziile luate privind dezvoltarea localităţii lor. În fiecare an, primăria poate aloca o parte din bugetul anual al localității, după care toți locuitorii pot veni cu propuneri de utilizare a acestor sume. Bugetare Participativă va fi o platformă deschisă tuturor primăriilor care vor să își implice cetățenii în luarea acestor decizii importante. Soluția urmărește modelul <em>Consul</em>, implementat deja în 135 de orașe din 35 de țări.</p>",
-              "link":"",
-              "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/participation4ro-bugetare-participativa.png'),
-              "adopted":false,
-              "adopted_by":[]
-            },
-            {
-              "id":6,
-              "projectSlug":"public-report",
-              "title":"Public Report",
-              "subtitle":"Semnalare de probleme către autoritățile locale",
-              "description":"<p>Deși multe dintre autoritățile locale se declară deschise raportării problemelor întâlnite de către cetățeni, în majoritatea localităților nu există un mod simplu și transparent prin care cetățenii pot semnala probleme și urmări răspunsul și stadiul soluționării problemei semnalate.  Public Report este aplicația web și mobilă prin care cetățenii vor putea semnala, printr-un ticket system, problemele întâmpinate către autoritățile locale. Câteva localități din România au implementat propriile soluții cu acest scop, dar ele pot fi îmbunătățite și transformate în instrumente mult mai puternice. Public Report urmărește modelul primăriei New York.</p>",
-              "link":"",
-              "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/participation4ro-pubic-report.png'),
-              "adopted":false,
-              "adopted_by":[]
-            },
-            {
-              "id":7,
-              "projectSlug":"te-reprezinta",
-              "title":"Te reprezintă",
-              "subtitle":"Află cine sunt toți reprezentanții tăi și intră în legătură cu ei",
-              "description":"<p>Pentru a putea avea o relație reală cu cei care îi reprezintă, este necesar ca, în primul rând, fiecare cetățean să poată vedea, plecând de la localitatea sa, care sunt reprezentanții săi în funcții publice. Te Reprezintă va fi locul unde fiecare va putea vedea cine sunt autoritățile care îl reprezintă de la nivel local până la cel mai înalt nivel. Tot aici, cei interesați vor putea să îi contacteze, să vadă programul lor și chiar să se înscrie pentru o audiență.</p>",
-              "link":"",
-              "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/participation4ro-te-reprezinta.png'),
+              "icon":require('../assets/images/projects/participation4ro-banii-din-politica.png'),
               "adopted":false,
               "adopted_by":[]
             }
           ]
         },
+
+        {
+          "id": 10,
+          "segmentSlug": "legislatie-accesibila",
+          "segment_visual": "segment-participation-03-legislatie-accesibila",
+          "title": "Acces la legislație",
+          "description": "<p>Relația dintre stat și cetățean are la baza respectarea unui set de reguli, dar acest lucru nu se poate întâmpla în practică fără cunoașterea și înțelegerea legilor.</p> <p>Accesul liber la legislație este o nevoie, dar și un drept al cetățenilor. În același timp, simplul acces nu este suficient. Înțelegerea textului legii, deconstruirea procesului legislativ pentru publicul larg, creșterea transparenței și a gradului de participare a oamenilor la consultările publice, toate reprezintă  componente esențiale pentru un stat sănătos. Tehnologia ne poate ajuta pe toți să fim mai aproape de cei care construiesc sistemul și să înțelegem mai bine cum ne influențează viața și ce instrumente avem la dispoziție pentru a ne implica în luarea deciziilor la nivel legislativ.</p>",
+          "btn": {
+            "top": "29.05%",
+            "left": "33%"
+          },
+          "icon_left":false,
+          "projects":[
+            {
+              "id":1,
+              "projectSlug":"draft-legislativ",
+              "title":"Draft Legislativ",
+              "subtitle":"Editare colaborativă și documentare în realizarea legilor",
+              "description":"<p>Platforma Draft Legislativ este un instrument care are rolul de a ajuta instituțiile sau grupurile de experți în elaborarea de documente în mod colaborativ, de obținere facilă a avizărilor necesare, de a formata documentul după normele redactării de documente legislative și de publicare în formate multiple adecvate mai multor medii de stocare. Platforma poate fi integrată cu alte portaluri de legislație locală sau de consultare publică asigurând astfel rapiditate și ușurință în publicarea actelor normative.</p>",
+              "link":"",
+              "link_text":"Vezi soluția",
+              "icon":require('../assets/images/projects/participation4ro-draft-legislativ.png'),
+              "adopted":false,
+              "adopted_by":[]
+            },
+            {
+              "id":2,
+              "projectSlug":"consultare-publica",
+              "title":"Consultare Publică",
+              "subtitle":"Consultare publică eficientă cu toți cetățenii unui oraș",
+              "description":"<p>Platforma de consultare publică este un instrument digital care asigură participarea cetățenilor în procesul de elaborare de acte normative. Dincolo de posibilitatea de a transmite opinii și a dezbate online pe marginea propunerilor legislative, platforma integrează și un modul de urmărire a dezbaterilor publice cu transmisii live ale ședințelor de consultare, transcrierile discuțiilor și alte observații direct legate de subiectele aflate în atenția publicului. Din punct de vedere al administratorului platformei, aceasta este prevăzută cu mecanisme de centralizare și de informații primite pentru a ușura procesul de consolidare.</p>",
+              "link":"",
+              "link_text":"Vezi soluția",
+              "icon":require('../assets/images/projects/participation4ro-consultare-publica.png'),
+              "adopted":false,
+              "adopted_by":[]
+            },
+            {
+              "id":3,
+              "projectSlug":"expert-consultation",
+              "title":"Expert Consultation",
+              "subtitle":"Proces accesibil și eficient de consultare cu grupuri de experți",
+              "description":"<p>Expert Consultation este un instrument digital care le permite grupurilor de experți să lucreze direct pe textul de lege, să contribuie cu feedback, propuneri, comentarii, să voteze și să amendeze anumite propuneri, articole sau comentarii ale altor participanți și apoi să consolideze automat documentul final. Acest instrument va permite astfel eficientizarea consultării cu experți dând timp suficient tuturor să își exprime opinia, eliminând birocrația inutilă și permițând accesul în timp real la aceeași informație pentru mii de oameni care altfel ar dialoga exclusiv cu un singur punct de contact. În același timp elimină și toată perioadă petrecută pe formatarea textului de lege, pe consolidarea comentariilor similare și eliminarea celor inutile sau irelevante.</p> <p>Mai mult, pentru a putea emite păreri avizate și documentate, instrumentul digital le permite contributorilor consultarea altor legi relevante direct în platformă.</p>",
+              "link":"",
+              "link_text":"Vezi soluția",
+              "icon":require('../assets/images/projects/participation4ro-expert-consultation.png'),
+              "adopted":true,
+              "adopted_by":[
+                {
+                  "id":4,
+                  "title": "TFSG by Code for Romania",
+                  "link": "https://tfsg.code4.ro/ro/",
+                  "logo": "https://code4.ro/img/e906b7f2-af18-4388-933e-e365173c7e35/logo-tfsg-01.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=2084%2C1178%2C0%2C0"
+                }
+              ]
+            },
+            {
+              "id":4,
+              "projectSlug":"legi-in-lucru",
+              "title":"Legi în Lucru",
+              "subtitle":"Urmărirea proiectelor de lege, accesibilă fiecărui cetățean",
+              "description":"<p>Legi în Lucru e o aplicație web gândită să ajute cetățenii interesați de procesul legislativ. Cu ajutorul aplicației, utilizatorii pot urmări felul în care legea evoluează, de la momentul în care e propusă și până la varianta promulgată. Astfel devine mult mai ușor de monitorizat cum evoluează legile pe parcursul procesului legislativ prin identificarea eventualelor probleme înainte ca o propunere legislativă să devină lege.</p> <p>Platforma permite utilizatorului să se aboneze la anumite instituții inițiatoare sau să urmărească una sau mai multe legi prin procesul legislativ. Acesta va fi notificat cu privire la orice schimbări aduse și va putea să fie la curent cu momentele în care un proiect de lege intră în dezbatere publică sau este aprobat sau respins.</p>",
+              "link":"",
+              "link_text":"Vezi soluția",
+              "icon":require('../assets/images/projects/participation4ro-legi-in-lucru.png'),
+              "adopted":false,
+              "adopted_by":[]
+            },
+            {
+              "id": 5,
+              "projectSlug": "platforma-legislatie-locala",
+              "title": "Platforma de legislație locală",
+              "subtitle": "Legislația de zi cu zi, accesibilă întregii comunități",
+              "description": "<p>Platforma de legislație locală este un portal de vizualizare și comunicare de informații care poate fi implementat la nivelul fiecărei primării pentru a crește accesul cetățenilor la normativele locale și la alte documente de interes local emise de autorități. Aceasta ajută de asemenea în corelarea documentelor legislative, construind astfel în timp și o arhivă de legislație locală care ulterior poate fi integrată cu alte sisteme naționale. Accesul facil la legislația locală, într-un mod structurat și interconectat va permite cetățenilor să rămână la zi cu reglementările din orașul de domiciliu sau reședință.</p>",
+              "link": "",
+              "link_text": "Vezi soluția",
+              "icon": require('../assets/images/projects/participation4ro-platforme-de-legislatie-locala.png'),
+              "adopted":false,
+              "adopted_by":[]
+            },
+            {
+              "id":6,
+              "projectSlug":"legea-pe-bune",
+              "title":"Legea(Pe Bune)",
+              "subtitle":"Dicționar simplu de legislație pentru toți cetățenii",
+              "description":"<p>Legea pe bune este un website în care orice cetățean poate căuta explicații traduse pe înțelesul tuturor pentru termeni comuni legislativi. Baza de date a aplicației pleacă de la un set construit deja de termeni explicați de un grup de voluntari specializați, iar platforma permite publicului să contribuie la rândul lui cu definții care apoi sunt validate de experți și adăugate în platformă. Cu ajutorul eforturilor de crowdsourcing și a contribuției voluntare a comunităților de specialiști în legislație, acest website va putea să se îmbogățească în timp și va veni în sprijinul tuturor celor care se confruntă cu nevoia de a înțelege expresii complexe din legislația curentă.</p> <p>Participarea experților este esențială pentru a ne asigura că termenii sunt 'traduși' corect și sunt accesibili publicului larg, ca aceștia să poată să navigheze cu ușurință prin problemele comune cu care se confruntă.</p>",
+              "link":"",
+              "link_text":"Vezi soluția",
+              "icon":require('../assets/images/projects/participation4ro-legea-pe-bune.png'),
+              "adopted":false,
+              "adopted_by":[]
+            },
+            {
+              "id":7,
+              "projectSlug":"ce-zice-legea",
+              "title":"Ce zice Legea",
+              "subtitle":"Informații accesibile despre legile care ne influențează viața",
+              "description":"<p>Proiectul își propune să reducă distanța dintre legislație și cetățeni, cauzată de dificultatea cu care la acest moment pot fi accesate și înțelese textele juridice care îi vizează în mod direct. Prin accesibilizarea acestor informații, Ce zice legea urmărește să crească interesul oamenilor pentru procesul legislativ, dar și să îi convingă să se implice în dezbaterile cu privire la legislația propusă. Utilizatorii vor avea acces la informațiile prezentate de Ce zice legea prin intermediul unei aplicații mobile  și a unei platforme web.</p>",
+              "link":"",
+              "link_text":"Vezi soluția",
+              "icon":require('../assets/images/projects/participation4ro-ce-zice-legea.png'),
+              "adopted":false,
+              "adopted_by":[]
+            },
+            {
+              "id":8,
+              "projectSlug":"edulex",
+              "title":"EduLex",
+              "subtitle":"Educație juridică și ajutor legal pentru adolescenți",
+              "description":"<p>Majoritatea tinerilor au o bază de cunoștințe juridice insuficientă pentru soluționarea diferitelor situații cu care s-ar putea confrunta (e.g. nedreptățirea de către profesori, răspunderea penală a minorilor, violența în familie, fenomenul de bullying etc.), motiv pentru care nu cunosc mijloacele legale de apărare pe care legea le pune la dispoziție. Prin EduLex, fiecare elev care are acces la un smartphone cu internet va avea un prieten digital, care să-l informeze corect și să-l îndrume atunci când are o problemă de natură juridică. În același timp, proiectul urmărește să construiască o bază de cunoștințe solidă pentru acești tineri, cu ajutorul unor activități interactive (inclusiv jocuri cu tematică juridică) și materiale de comunicare adaptate lor, pentru a-i familiariza într-o manieră atractivă cu concepte de drept și justiție.</p>",
+              "link":"",
+              "link_text":"Vezi soluția",
+              "icon":require('../assets/images/projects/participation4ro-edulex.png'),
+              "adopted":true,
+              "adopted_by":[
+                {
+                  "id":1,
+                  "title":"Finastra",
+                  "link":"https://www.finastra.com/",
+                  "logo":"https://code4.ro/img/46d28102-8f0e-46c8-97ae-ad6aef101c25/finastra-logo.png?q=60&fit=crop&dpr=1&w=100&h=100&crop=1000%2C505%2C0%2C0"
+                }
+              ]
+            },
+            {
+              "id":9,
+              "projectSlug":"zi-de-zi",
+              "title":"Zi de Zi",
+              "subtitle":"Platformă de storytelling pentru implicare civică",
+              "description":"<p>O problemă pe care am depistat-o în rândul populației largi este lipsa de implicare în viața comunității și lipsa de reacție la legislația în dezbatere sau în vigoare. Acest lucru se datorează în special faptului că oamenii nu cunosc modul în care legile, administrația publică și instituțiile diverse ale statului au un impact direct asupra fiecărui aspect al vieții lor. Ca urmare a limbajului greoi și a informației disparate, nu realizăm cât de mult din deciziile legislative sau din activitatea administrației publice ne afectează în mod direct. ZideZi își propune să traducă pe înțelesul cetățenilor care este legislația care guvernează relaţia oricărei persoane cu furnizorii de servicii şi utilităţi publice. De asemenea, proiectul oferă o vizualizare interactivă a momentelor zilnice de intersecție cu serviciile și utilitățile publice. Construită ca o poveste în care fiecare utilizator își alege personajul cel mai similar cu sine însuși, aplicația web îi explică oricărei persoane care sunt drepturile și obligațiile sale în raport cu furnizorii de servicii și utilități publice, care este corpul legislativ responsabil de reglementarea contextului în care el beneficiază de aceste servicii și utilități, care sunt legile care îl influențează în mod direct și care este tipul acestora.</p>",
+              "link":"",
+              "link_text":"Vezi soluția",
+              "icon":require('../assets/images/projects/participation4ro-zi-de-zi.png'),
+              "adopted":false,
+              "adopted_by":[]
+            }
+          ]
+        },
+
         {
           "id": 7,
           "segmentSlug": "o-societate-civila-puternica",
@@ -1280,350 +1450,198 @@ const data = {
             }
           ]
         },
+
         {
-          "id": 8,
-          "segmentSlug": "alegeri-corecte-alegatori-informati",
-          "segment_visual": "segment-participation-01-alegeri-corecte-alegatori-informati",
-          "title": "Alegeri corecte. Alegători informați.",
-          "description": "<p>Dacă vrem o democrație funcțională și reprezentativă, avem nevoie de o participare semnificativă și informată a unui număr cât mai mare de cetățeni la un proces transparent și corect de alegeri. Iar tehnologia poate oferi soluții care să asigure buna desfășurare a procesului de votare, precum și o mai bună informare a alegătorilor.</p><p>Fără alegeri libere și corecte, nu există democrație.</p>",
+          "id": 6,
+          "segmentSlug": "o-mai-buna-relatie-cetatean-stat",
+          "segment_visual": "segment-participation-05-o-mai-buna-relatie-cetatean-stat",
+          "title": "O mai buna relatie cetetean-stat",
+          "description": "<p>În relația cu statul care ar trebui să le servească interesele, mulți cetățeni se confruntă cu un sentiment de frustrare, generat adesea de ineficiența cu care autoritățile  își îndeplinesc misiunea misiunea.</p> <p>Pentru a avea un stat mai deschis și mai operativ în apărarea intereselor cetățenilor, ne propunem să digitalizăm procesele care, depinzând de procese bazate pe hârtie și dosare cu șină, consumă timp și resurse, deteriorînd relația dintre cetățeni și instituțiile statului</p>.",
           "btn": {
-            "top": "29.05%",
-            "left": "33%"
+            "top": "57%",
+            "left": "40%"
           },
           "icon_left":true,
           "projects":[
             {
               "id":1,
-              "projectSlug":"vot-romania",
-              "title":"Vot România",
-              "subtitle":"Ghidul complet al alegătorului din România",
-              "description":"<p>Vot România este o platformă care facilitează accesul cetățenilor la informațiile privind alegerile, contribuind la o mai mare transparență a procesului electoral. Accesând votromania.ro toți cetățenii pot să verifice, alături de documentele și procedurile necesare pentru a vota, și care este secția la care sunt arondați în funcție de statutul fiecăruia. Website-ul va fi disponibil cu informații actualizate la fiecare nouă rundă electorală. Conținutul prezent pe platforma Vot România este realizat în parteneriat cu experții electorali ai Observatorului Electoral.</p>",
+              "projectSlug":"website-builder-minister",
+              "title":"Website Builder Minister",
+              "subtitle":"Site-uri ușor de construit pentru toate ministerele",
+              "description":"<p>În România, deși există standarde cu privire la conținutul obligatoriu, majoritatea website-urilor guvernamentale sunt greu de utilizat, făcând dificil accesul la informațiile și serviciile necesare cetățenilor. Website builder minister este soluția care va oferi tuturor ministerelor posibilitatea de a-și construi un site care să conțină informațiile esențiale și relevante la nivel național pentru o bună comunicare cu cetățenii.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/participation4ro-vot-romania.png'),
-              "adopted":true,
-              "adopted_by":[
-                {
-                  "id":4,
-                  "title": "TFSG by Code for Romania",
-                  "link": "https://tfsg.code4.ro/ro/",
-                  "logo": "https://code4.ro/img/e906b7f2-af18-4388-933e-e365173c7e35/logo-tfsg-01.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=2084%2C1178%2C0%2C0"
-                }
-              ]
-            },
-            {
-              "id": 2,
-              "projectSlug": "vot-diaspora",
-              "title": "Vot Diaspora",
-              "subtitle": "Ghidul complet al alegătorului din diaspora",
-              "description": "<p>Vot Diaspora este un tutorial online de informare a românilor din străinătate cu privire la regulile de înscriere pentru a vota la alegerile parlamentare, prezidențiale și europarlamentare. Vot Diaspora a apărut din dorința de a prezenta într-o formă simplă și interactivă pașii pe care trebuie să îi urmeze românii pentru a putea vota din străinătate. La alegerile europarlamentare din 2019, aplicația a fost utilizată de mai mult de 25% din totalul alegătorilor din diaspora, iar la ultima rundă a alegerilor prezidențiale, peste 185.000 alegători s-au informat via votdiaspora.ro. Prin platformă, toți cetățenii vor putea să verifice documentele și procedurile necesare pentru a vota în secție sau prin corespondență dacă se află în afara țării, dar și care este secția la care sunt arondați în funcție de statutul fiecăruia. Website-ul va fi disponibil cu informații actualizate la fiecare nouă rundă electorală.</p>",
-              "link": "",
-              "link_text": "Vezi soluția",
-              "icon": require('../assets/images/projects/participation4ro-vot-diaspora.png'),
-              "adopted":true,
-              "adopted_by":[
-                {
-                  "id":4,
-                  "title": "TFSG by Code for Romania",
-                  "link": "https://tfsg.code4.ro/ro/",
-                  "logo": "https://code4.ro/img/e906b7f2-af18-4388-933e-e365173c7e35/logo-tfsg-01.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=2084%2C1178%2C0%2C0"
-                }
-              ]
-            },
-            {
-              "id": 3,
-              "projectSlug": "count-us-in",
-              "title": "Count Us In",
-              "subtitle": "O estimare precisă a numărului românilor din diaspora",
-              "description": "<p>Probabil cea mai mare criză a democrației românești din ultimii ani este incapacitatea statului de a asigura dreptul la vot al românilor care locuiesc în străinătate. Atât alegerile prezidențiale din 2014, cât și alegerile europarlamentare din 2019 au arătat cum români care trăiau în Europa au stat la coadă ore în șir pentru a vota la secțiile de votare înființate în țările lor de reședință, unora fiindu-le refuzat dreptul de vot din cauza lipsei de capacitate a secțiilor. Cauza fundamentală a acestui fenomen, indicată de majoritatea funcționarilor și instituțiilor publice, este incapacitatea statului de a evalua numărul potențialilor alegători care trăiesc în străinătate. Count Us In este o aplicație web care va realiza o estimare mult mai precisă a numărului românilor din diaspora, printr-un proces de crowdsourcing care vizează datele oficiale din fiecare localitate.</p>",
-              "link": "",
-              "link_text": "Vezi soluția",
-              "icon": require('../assets/images/projects/participation4ro-count-us-in.png'),
-              "adopted": false,
-              "adopted_by": []
-            },
-            {
-              "id": 4,
-              "projectSlug": "monitorizare-vot",
-              "title": "Monitorizare Vot",
-              "subtitle": "Digitalizarea procesului de observare a alegerilor",
-              "description": "<p>Participarea politică e fundamentul reprezentării, care este la rândul său fundamentul unui stat care își respectă cetățenii. Vrem o lume în care fiecare vot e numărat și în care fiecare vot contează. De aceea credem că trebuie să avem întotdeauna soluțiile optime pentru a face sistemul de vot sigur și de încredere. Monitorizare Vot este soluția tehnologică utilizată de către aproape toți observatorii independenți acreditați începând cu alegerile din 2016. O soluție care a transformat felul în care sunt observate alegerile din România și care ne ajută să stăm cu ochii pe alegeri pentru a reacționa la prima sesizare de fraudă în ziua votului.</p>",
-              "link": "",
-              "link_text": "Vezi soluția",
-              "icon": require('../assets/images/projects/participation4ro-monitorizare-vot.png'),
-              "adopted":true,
-              "adopted_by":[
-                {
-                  "id":4,
-                  "title": "TFSG by Code for Romania",
-                  "link": "https://tfsg.code4.ro/ro/",
-                  "logo": "https://code4.ro/img/e906b7f2-af18-4388-933e-e365173c7e35/logo-tfsg-01.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=2084%2C1178%2C0%2C0"
-                }
-              ]
-            },
-            {
-              "id": 5,
-              "projectSlug": "ochii-pe-vot",
-              "title": "Ochii pe vot",
-              "subtitle": "Un instrument pentru alegătorii care vor să raporteze nereguli în procesul de vot",
-              "description": "<p>Cetățenii din România nu au un grad ridicat de implicare în procesul de votare, cei mai mulți fiind interesați și atenți doar în jurul campaniei electorale fără a depune un efort real de informare cu privire la opțiunile pe care le au la dispoziție. Ochii pe vot este o platformă dedicată cetățenilor români din țară și din diaspora prin care pot să raporteze nereguli cu privire la orice runda de alegeri atât în ziua votului, cât și în campania electorala. Utilizatorii vor primi informații complete și corecte, având posibilitatea de a face ușor sesizări. Scopul platformei este de a crește gradul de implicare al cetățenilor în procesul de votare și de atragere a unui număr cât mai mare de observatori pentru alegeri, extinzând monitorizarea corectitudinii întregului proces pe durata campaniei electorale.</p>",
-              "link": "",
-              "link_text": "Vezi soluția",
-              "icon": require('../assets/images/projects/participation4ro-ochii-pe-vot.png'),
-              "adopted": false,
-              "adopted_by": []
-            },
-            {
-              "id": 6,
-              "projectSlug": "rezultate-vot",
-              "title": "Rezultate Vot",
-              "subtitle": "Rezultate puse în context pentru fiecare rundă electorală",
-              "description": "<p>O democrație se sprijină pe cetățeni critici și informați. Rezultate Vot își propune să informeze și să dezvolte spiritul critic al alegătorilor prin contextualizarea informației electorale însoțite de analize apartinice ale acesteia. Această platformă este locul în care oricine poate accesa toate informațiile relevante ale alegerilor din România. Platforma conține: hărți detaliate cu prezența la vot la nivelul țării/județului, rezultatele parțiale ale alegerilor după închiderea urnelor, pe măsură ce ele sunt comunicate de autorități, informații din sistemul de monitorizare digitală a alegerilor, respectiv Monitorizare Vot, istoricul electoral al României pentru toate rundele de alegeri începând cu anul 1992 și un flux live de comentarii și analize realizate de sociologi din marile centre universitare din România.</p>",
-              "link": "",
-              "link_text": "Vezi soluția",
-              "icon": require('../assets/images/projects/participation4ro-rezultate-vot.png'),
-              "adopted":true,
-              "adopted_by":[
-                {
-                  "id":4,
-                  "title": "TFSG by Code for Romania",
-                  "link": "https://tfsg.code4.ro/ro/",
-                  "logo": "https://code4.ro/img/e906b7f2-af18-4388-933e-e365173c7e35/logo-tfsg-01.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=2084%2C1178%2C0%2C0"
-                }
-              ]
-            },
-            {
-              "id": 7,
-              "projectSlug": "catalog-politic",
-              "title": "Catalog Politic",
-              "subtitle": "Catalogul persoanelor din funcții publice din România",
-              "description": "<p>Catalog Politic este o platformă online care centralizează informațiile existente despre persoanele din funcții publice înalte din România. Scopul este de a pune la dispoziția cetățenilor datele din declarațiile de avere și interese, date despre activitatea politică și cele din cazierul juridic, prezentate într-un format ușor de vizualizat și pus în context. Mai mult, prin baze de date complete și ușor de utilizat, proiectul oferă jurnaliștilor și cercetătorilor suport în activitățile de documentare. Sursele datelor sunt: ANI, DNA, site-urile candidaților și site-urile instituțiilor statului precum și date culese manual.</p>",
-              "link": "",
-              "link_text": "Vezi soluția",
-              "icon": require('../assets/images/projects/participation4ro-catalog-politic.png'),
-              "adopted": false,
-              "adopted_by": [
-
-              ]
-            },
-            {
-              "id": 8,
-              "projectSlug": "swipe-politics",
-              "title": "Swipe Politics",
-              "subtitle": "Vezi cine sunt politicienii din orașul tău",
-              "description": "<p>Pe modelul aplicațiilor de tip matchmaking, propunem construirea unei aplicații mobile prin care, în funcție de locație, să primești date despre politicienii din orașul în care te afli. De exemplu, o persoană care se află în Bacău va putea vedea fișe de politicieni locali sau naționali relevanți, date despre activitatea lor politică/administrativă și vor putea naviga din aplicație către alte platforme cu informații relevante. Scopul acestui proiect este de a stimula implicarea cetățenilor cât mai mult în viața de zi cu zi a orașului lor și de a monitoriza facil politicienii care îi reprezintă aducând subiecte de interes către ei prin intermediul acestui <em>joc</em> de matchmaking.</p>",
-              "link": "",
-              "link_text": "Vezi soluția",
-              "icon": require('../assets/images/projects/participation4ro-swipe-politics.png'),
-              "adopted": false,
-              "adopted_by": [
-
-              ]
-            }
-          ]
-        },
-        {
-          "id": 9,
-          "segmentSlug": "date-deschise",
-          "segment_visual": "segment-participation-02-date-deschise",
-          "title": "Date deschise",
-          "description": "<p>Transparența presupune, în primul rând acces liber și neîngrădit la date de interes public. Fără acces la date nu îi putem verifica pe cei care ne conduc. La rândul lor, cei care elaborează politici publice nu o pot face fără a înțelege cu adevărat fenomenele pe care vrem să le corectăm. Deciziile bune se iau pe baza accesului la date și informații , fie că este vorba despre cetățeni obișnuiți, de primari sau miniștri.</p> <p>Ne propunem să echipăm societatea civilă, comunitățile și administrația publică cu acele instrumente digitale care să îi ajute să ia cele mai bune decizii pentru orașele în care locuiesc. Pentru a le face cu adevărat utile, traducem datele în informație ușor de înțeles și îmbunătățim sistemele de colectare de date.</p>",
-          "btn": {
-            "top": "26%",
-            "left": "14%"
-          },
-          "icon_left":false,
-          "projects":[
-            {
-              "id":1,
-              "projectSlug":"data-portal",
-              "title":"Data Portal",
-              "subtitle":"Platformă de date deschise  și vizualizare de seturi de date",
-              "description":"<p>Data Portal este o platformă de date deschise care își propune să digitalizeze și automatizeze seturile de date din societatea civilă pentru a crește gradul de informare al cetățenilor, pentru a putea încuraja dezvoltarea de proiecte și programe comunitare având la bază seturi de date corecte și coerente. Venim în sprijinul mass-media cu date transformate în informații pentru a construi o platformă unică de stocare a informațiilor utile pentru cetățeni.</p> <p>Platforma este ușor replicabilă la nivel de instituții locale și/sau centrale și permite customizarea importului seturilor de date specifice fiecărui actor care dorește să deschidă date publice.</p>",
-              "link":"",
-              "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/participation4ro-data-portal.png'),
-              "adopted":true,
-              "adopted_by":[
-                {
-                  "id":4,
-                  "title": "TFSG by Code for Romania",
-                  "link": "https://tfsg.code4.ro/ro/",
-                  "logo": "https://code4.ro/img/e906b7f2-af18-4388-933e-e365173c7e35/logo-tfsg-01.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=2084%2C1178%2C0%2C0"
-                }
-              ]
-            },
-            {
-              "id":2,
-              "projectSlug":"data-scientists-hub",
-              "title":"Data Scientists Hub",
-              "subtitle":"Platformă colaborativă dedicată specialiștilor în analiza de date",
-              "description":"<p>În prezent nu există o comunitate de specialiști în lucrul cu date în România. Cu atât mai puțin grupuri care să se implice în curățarea de date de interes public de care ar putea beneficia, în egală măsură, mediul de business, cetățenii obișnuiți și administrația publică. Acești specialiști sunt prezenți în universități, companii de consultanță sau companii IT, dar nu au o platformă dedicată unde să lucreze împreună la proiecte relevante.</p> <p>Data Scientists Hub este o platformă specializată, care facilitează dezvoltarea unei comunități de analiști de date în România, loc în care aceștia să poată lucra împreună pe analizarea, curățarea și publicarea de seturi de date prin colaborarea în redactarea de politici și lucrări de specialitate.</p>",
-              "link":"",
-              "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/participation4ro-data-scientists-hub.png'),
-              "adopted":false,
-              "adopted_by":[]
-            },
-            {
-              "id":3,
-              "projectSlug":"declaratii-de-avere",
-              "title":"Declarații de Avere",
-              "subtitle":"Digitalizare prin crowdsourcing a declarațiilor de avere",
-              "description":"<p>Platforma Declarații de avere este un proiect care își propune să digitalizeze întreaga arhivă de declarații de avere ale politicienilor care ocupă funcții importante. Cu ajutorul unor mecanisme interactive și cu sprijinul unor instrumente de colectare de date, cetățenii vor putea contribui la digitalizarea întregii arhive de declarații din România. Mecanismul de validare a datelor colectate este construit astfel încât să putem colecta date cât mai curate într-o bază de date complexă care poate fi integrată apoi cu multiple metode de vizualizare.</p>",
-              "link":"",
-              "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/participation4ro-declaratii-de-avere.png'),
-              "adopted":false,
-              "adopted_by":[]
-            },
-            {
-              "id":4,
-              "projectSlug":"banii-din-politica",
-              "title":"Banii din Politică",
-              "subtitle":"Vizualizare interactivă de date pe bugetele partidelor",
-              "description":"<p>Conform legii, partidele politice sunt obligate să își deschidă datele cu privire la execuția lor bugetară. Aceste date sunt disponibile în Monitorul Oficial și pot fi consultate cu mare dificultate de cei interesați să le analizeze și să facă studii pe subiecte conexe. Banii din politică este un instrument de vizualizare de date prin care orice utilizator poate consulta toate informațiile disponibile public cu privire la bugetele partidelor și cum au fost cheltuite, în special în perioadele de campanie electorală. Proiectul va putea fi deschis pentru toți politicienii sau partidele care doresc să deschidă și mai multe informații către publicul larg.</p>",
-              "link":"",
-              "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/participation4ro-banii-din-politica.png'),
-              "adopted":false,
-              "adopted_by":[]
-            }
-          ]
-        },
-        {
-          "id": 10,
-          "segmentSlug": "legislatie-accesibila",
-          "segment_visual": "segment-participation-03-legislatie-accesibila",
-          "title": "Acces la legislație",
-          "description": "<p>Relația dintre stat și cetățean are la baza respectarea unui set de reguli, dar acest lucru nu se poate întâmpla în practică fără cunoașterea și înțelegerea legilor.</p> <p>Accesul liber la legislație este o nevoie, dar și un drept al cetățenilor. În același timp, simplul acces nu este suficient. Înțelegerea textului legii, deconstruirea procesului legislativ pentru publicul larg, creșterea transparenței și a gradului de participare a oamenilor la consultările publice, toate reprezintă  componente esențiale pentru un stat sănătos. Tehnologia ne poate ajuta pe toți să fim mai aproape de cei care construiesc sistemul și să înțelegem mai bine cum ne influențează viața și ce instrumente avem la dispoziție pentru a ne implica în luarea deciziilor la nivel legislativ.</p>",
-          "btn": {
-            "top": "15.77%",
-            "left": "15.25%"
-          },
-          "icon_left":false,
-          "projects":[
-            {
-              "id":1,
-              "projectSlug":"draft-legislativ",
-              "title":"Draft Legislativ",
-              "subtitle":"Editare colaborativă și documentare în realizarea legilor",
-              "description":"<p>Platforma Draft Legislativ este un instrument care are rolul de a ajuta instituțiile sau grupurile de experți în elaborarea de documente în mod colaborativ, de obținere facilă a avizărilor necesare, de a formata documentul după normele redactării de documente legislative și de publicare în formate multiple adecvate mai multor medii de stocare. Platforma poate fi integrată cu alte portaluri de legislație locală sau de consultare publică asigurând astfel rapiditate și ușurință în publicarea actelor normative.</p>",
-              "link":"",
-              "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/participation4ro-draft-legislativ.png'),
+              "icon":require('../assets/images/projects/participation4ro-website-builder-minister.png'),
               "adopted":false,
               "adopted_by":[]
             },
             {
               "id":2,
-              "projectSlug":"consultare-publica",
-              "title":"Consultare Publică",
-              "subtitle":"Consultare publică eficientă cu toți cetățenii unui oraș",
-              "description":"<p>Platforma de consultare publică este un instrument digital care asigură participarea cetățenilor în procesul de elaborare de acte normative. Dincolo de posibilitatea de a transmite opinii și a dezbate online pe marginea propunerilor legislative, platforma integrează și un modul de urmărire a dezbaterilor publice cu transmisii live ale ședințelor de consultare, transcrierile discuțiilor și alte observații direct legate de subiectele aflate în atenția publicului. Din punct de vedere al administratorului platformei, aceasta este prevăzută cu mecanisme de centralizare și de informații primite pentru a ușura procesul de consolidare.</p>",
+              "projectSlug":"website-builder-primarie",
+              "title":"Website Builder Primărie",
+              "subtitle":"Site-uri ușor de construit pentru toate primăriile din România",
+              "description":"<p>În România, deși există standarde cu privire la conținutul obligatoriu, majoritatea website-urilor primăriilor sunt greu de utilizat, făcând dificil accesul la informațiile și serviciile necesare cetățenilor.  Website builder primărie este soluția care va oferi tuturor primăriilor posibilitatea de a-și construi un site care să conțină informațiile esențiale și relevante la nivel local pentru o bună comunicare cu cetățenii.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/participation4ro-consultare-publica.png'),
+              "icon":require('../assets/images/projects/participation4ro-website-builder-primarie.png'),
               "adopted":false,
               "adopted_by":[]
             },
             {
               "id":3,
-              "projectSlug":"expert-consultation",
-              "title":"Expert Consultation",
-              "subtitle":"Proces accesibil și eficient de consultare cu grupuri de experți",
-              "description":"<p>Expert Consultation este un instrument digital care le permite grupurilor de experți să lucreze direct pe textul de lege, să contribuie cu feedback, propuneri, comentarii, să voteze și să amendeze anumite propuneri, articole sau comentarii ale altor participanți și apoi să consolideze automat documentul final. Acest instrument va permite astfel eficientizarea consultării cu experți dând timp suficient tuturor să își exprime opinia, eliminând birocrația inutilă și permițând accesul în timp real la aceeași informație pentru mii de oameni care altfel ar dialoga exclusiv cu un singur punct de contact. În același timp elimină și toată perioadă petrecută pe formatarea textului de lege, pe consolidarea comentariilor similare și eliminarea celor inutile sau irelevante.</p> <p>Mai mult, pentru a putea emite păreri avizate și documentate, instrumentul digital le permite contributorilor consultarea altor legi relevante direct în platformă.</p>",
+              "projectSlug":"acces-544",
+              "title":"Acces 544",
+              "subtitle":"Acces ușor la informații publice",
+              "description":"<p>Accesul la informații publice prin legea 544 este una dintre marile victorii din istoria recentă în efortul de transparentizare a instituțiilor din România. Cu toate acestea, accesarea acestor informații poate fi în continuare o problemă, pentru cetățeni, procesul fiind unul dificil inclusiv pentru funcționarii care trebuie să le pună la dispoziție. în lipsa unei soluții unice care să transparentizeze și să eficientizeze procesul de cerere și livrare a acestor informații. Acces 544 este soluția care va îmbunătăți accesul cetățenilor la informațiile publice prevăzute de lege.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/participation4ro-expert-consultation.png'),
-              "adopted":true,
-              "adopted_by":[
-                {
-                  "id":4,
-                  "title": "TFSG by Code for Romania",
-                  "link": "https://tfsg.code4.ro/ro/",
-                  "logo": "https://code4.ro/img/e906b7f2-af18-4388-933e-e365173c7e35/logo-tfsg-01.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=2084%2C1178%2C0%2C0"
-                }
-              ]
-            },
-            {
-              "id":4,
-              "projectSlug":"legi-in-lucru",
-              "title":"Legi în Lucru",
-              "subtitle":"Urmărirea proiectelor de lege, accesibilă fiecărui cetățean",
-              "description":"<p>Legi în Lucru e o aplicație web gândită să ajute cetățenii interesați de procesul legislativ. Cu ajutorul aplicației, utilizatorii pot urmări felul în care legea evoluează, de la momentul în care e propusă și până la varianta promulgată. Astfel devine mult mai ușor de monitorizat cum evoluează legile pe parcursul procesului legislativ prin identificarea eventualelor probleme înainte ca o propunere legislativă să devină lege.</p> <p>Platforma permite utilizatorului să se aboneze la anumite instituții inițiatoare sau să urmărească una sau mai multe legi prin procesul legislativ. Acesta va fi notificat cu privire la orice schimbări aduse și va putea să fie la curent cu momentele în care un proiect de lege intră în dezbatere publică sau este aprobat sau respins.</p>",
-              "link":"",
-              "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/participation4ro-legi-in-lucru.png'),
+              "icon":require('../assets/images/projects/participation4ro-acces-544.png'),
               "adopted":false,
               "adopted_by":[]
             },
             {
-              "id": 5,
-              "projectSlug": "platforma-legislatie-locala",
-              "title": "Platforma de legislație locală",
-              "subtitle": "Legislația de zi cu zi, accesibilă întregii comunități",
-              "description": "<p>Platforma de legislație locală este un portal de vizualizare și comunicare de informații care poate fi implementat la nivelul fiecărei primării pentru a crește accesul cetățenilor la normativele locale și la alte documente de interes local emise de autorități. Aceasta ajută de asemenea în corelarea documentelor legislative, construind astfel în timp și o arhivă de legislație locală care ulterior poate fi integrată cu alte sisteme naționale. Accesul facil la legislația locală, într-un mod structurat și interconectat va permite cetățenilor să rămână la zi cu reglementările din orașul de domiciliu sau reședință.</p>",
-              "link": "",
-              "link_text": "Vezi soluția",
-              "icon": require('../assets/images/projects/participation4ro-platforme-de-legislatie-locala.png'),
+              "id":4,
+              "projectSlug":"biroul-de-propuneri",
+              "title":"Biroul de Propuneri",
+              "subtitle":"Portalul unde cetățenii pot trimite sugestii administrației locale",
+              "description":"<p>Pentru cetățenii care vor să se implice în viața societății și să mențină o legătură cu autoritățile locale,  modalitatea și locul în care pot trimite în scris propuneri, sugestii, opinii cu valoare de recomandare nu sunt mereu la îndemână. Biroul de propuneri este platforma prin care cetățenii vor putea trimite sugestii de îmbunătățire a activității pentru administrația locală, le vor putea urmări și vor putea interacționa și dezbate propunerile făcute până în acel moment. Soluția urmărește modelul <em>Consul</em>, implementat deja în 135 de orașe din 35 de țări.</p>",
+              "link":"",
+              "link_text":"Vezi soluția",
+              "icon":require('../assets/images/projects/participation4ro-biroul-de-propuneri.png'),
+              "adopted":false,
+              "adopted_by":[]
+            },
+            {
+              "id":5,
+              "projectSlug":"bugetare-participativa",
+              "title":"Bugetare Participativă",
+              "subtitle":"Portalul unde cetățenii au un cuvânt de spus privind bugetul local",
+              "description":"<p>Bugetul participativ permite cetăţenilor să se implice în mod direct în deciziile luate privind dezvoltarea localităţii lor. În fiecare an, primăria poate aloca o parte din bugetul anual al localității, după care toți locuitorii pot veni cu propuneri de utilizare a acestor sume. Bugetare Participativă va fi o platformă deschisă tuturor primăriilor care vor să își implice cetățenii în luarea acestor decizii importante. Soluția urmărește modelul <em>Consul</em>, implementat deja în 135 de orașe din 35 de țări.</p>",
+              "link":"",
+              "link_text":"Vezi soluția",
+              "icon":require('../assets/images/projects/participation4ro-bugetare-participativa.png'),
               "adopted":false,
               "adopted_by":[]
             },
             {
               "id":6,
-              "projectSlug":"legea-pe-bune",
-              "title":"Legea(Pe Bune)",
-              "subtitle":"Dicționar simplu de legislație pentru toți cetățenii",
-              "description":"<p>Legea pe bune este un website în care orice cetățean poate căuta explicații traduse pe înțelesul tuturor pentru termeni comuni legislativi. Baza de date a aplicației pleacă de la un set construit deja de termeni explicați de un grup de voluntari specializați, iar platforma permite publicului să contribuie la rândul lui cu definții care apoi sunt validate de experți și adăugate în platformă. Cu ajutorul eforturilor de crowdsourcing și a contribuției voluntare a comunităților de specialiști în legislație, acest website va putea să se îmbogățească în timp și va veni în sprijinul tuturor celor care se confruntă cu nevoia de a înțelege expresii complexe din legislația curentă.</p> <p>Participarea experților este esențială pentru a ne asigura că termenii sunt 'traduși' corect și sunt accesibili publicului larg, ca aceștia să poată să navigheze cu ușurință prin problemele comune cu care se confruntă.</p>",
+              "projectSlug":"public-report",
+              "title":"Public Report",
+              "subtitle":"Semnalare de probleme către autoritățile locale",
+              "description":"<p>Deși multe dintre autoritățile locale se declară deschise raportării problemelor întâlnite de către cetățeni, în majoritatea localităților nu există un mod simplu și transparent prin care cetățenii pot semnala probleme și urmări răspunsul și stadiul soluționării problemei semnalate.  Public Report este aplicația web și mobilă prin care cetățenii vor putea semnala, printr-un ticket system, problemele întâmpinate către autoritățile locale. Câteva localități din România au implementat propriile soluții cu acest scop, dar ele pot fi îmbunătățite și transformate în instrumente mult mai puternice. Public Report urmărește modelul primăriei New York.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/participation4ro-legea-pe-bune.png'),
+              "icon":require('../assets/images/projects/participation4ro-pubic-report.png'),
               "adopted":false,
               "adopted_by":[]
             },
             {
               "id":7,
-              "projectSlug":"ce-zice-legea",
-              "title":"Ce zice Legea",
-              "subtitle":"Informații accesibile despre legile care ne influențează viața",
-              "description":"<p>Proiectul își propune să reducă distanța dintre legislație și cetățeni, cauzată de dificultatea cu care la acest moment pot fi accesate și înțelese textele juridice care îi vizează în mod direct. Prin accesibilizarea acestor informații, Ce zice legea urmărește să crească interesul oamenilor pentru procesul legislativ, dar și să îi convingă să se implice în dezbaterile cu privire la legislația propusă. Utilizatorii vor avea acces la informațiile prezentate de Ce zice legea prin intermediul unei aplicații mobile  și a unei platforme web.</p>",
+              "projectSlug":"te-reprezinta",
+              "title":"Te reprezintă",
+              "subtitle":"Află cine sunt toți reprezentanții tăi și intră în legătură cu ei",
+              "description":"<p>Pentru a putea avea o relație reală cu cei care îi reprezintă, este necesar ca, în primul rând, fiecare cetățean să poată vedea, plecând de la localitatea sa, care sunt reprezentanții săi în funcții publice. Te Reprezintă va fi locul unde fiecare va putea vedea cine sunt autoritățile care îl reprezintă de la nivel local până la cel mai înalt nivel. Tot aici, cei interesați vor putea să îi contacteze, să vadă programul lor și chiar să se înscrie pentru o audiență.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/participation4ro-ce-zice-legea.png'),
+              "icon":require('../assets/images/projects/participation4ro-te-reprezinta.png'),
               "adopted":false,
               "adopted_by":[]
-            },
+            }
+          ]
+        },
+
+        {
+          "id": 4,
+          "segmentSlug": "institutii-centrale-functionale",
+          "segment_visual": "segment-participation-06-institutii-centrale-functionale",
+          "title": "Institutii centrale functionale",
+          "description": "<p>Pentru a putea răspunde nevoilor cetățenilor și a oferi servicii publice de calitate, instituțiile centrale trebuie să aibă întâi procese clare și eficiente prin care să își gestioneze activitatea internă. Digitalizarea poate îmbunătăți felul în care instituțiile funcționează și comunică unele cu altele, făcându-le nu doar mai transparente, ci și mai apropiate de nevoile reale ale cetățenilor.</p>",
+          "btn": {
+            "top": "68.07%",
+            "left": "32%"
+          },
+          "icon_left":false,
+          "projects":[]
+        },
+
+        {
+          "id": 3,
+          "segmentSlug": "primarii-functionale",
+          "segment_visual": "segment-participation-07-primarii-functionale",
+          "title": "Primării funcționale",
+          "description": "<p>Primăriile și celelalte autorități locale sunt printre primele instituții cu care cetățenii au contact în relația lor cu statul. Nevoia bunei funcționări prin procese interne este cu atât mai intens resimțită. Funcționarea bună, în primul rând la nivel intern, va face în mod natural ca interacțiuni dificile ale cetățenilor cu primăriile să devină mai ușoare și mai eficiente.</p>",
+          "btn": {
+            "top": "80%",
+            "left": "52%"
+          },
+          "icon_left":false,
+          "projects":[]
+        },
+
+        {
+          "id": 2,
+          "segmentSlug": "jurnalisti-eficienti",
+          "segment_visual": "segment-participation-08-jurnalisti-eficienti",
+          "title": "Jurnalisti eficienti",
+          "description": "<p>Rolul fundamental al presei este acela de a monitoriza acțiunile factorilor de decizie, observând neregulile și informând publicul. 'Câinele de pază al democrației' trece în ultimii ani printr-o perioadă de transformare și reinventare, fiind în căutarea acelor instrumente digitale prin care să poată răspunde exigențelor actuale.</p>",
+          "btn": {
+            "top": "70%",
+            "left": "61%"
+          },
+          "icon_left":false,
+          "projects":[
             {
-              "id":8,
-              "projectSlug":"edulex",
-              "title":"EduLex",
-              "subtitle":"Educație juridică și ajutor legal pentru adolescenți",
-              "description":"<p>Majoritatea tinerilor au o bază de cunoștințe juridice insuficientă pentru soluționarea diferitelor situații cu care s-ar putea confrunta (e.g. nedreptățirea de către profesori, răspunderea penală a minorilor, violența în familie, fenomenul de bullying etc.), motiv pentru care nu cunosc mijloacele legale de apărare pe care legea le pune la dispoziție. Prin EduLex, fiecare elev care are acces la un smartphone cu internet va avea un prieten digital, care să-l informeze corect și să-l îndrume atunci când are o problemă de natură juridică. În același timp, proiectul urmărește să construiască o bază de cunoștințe solidă pentru acești tineri, cu ajutorul unor activități interactive (inclusiv jocuri cu tematică juridică) și materiale de comunicare adaptate lor, pentru a-i familiariza într-o manieră atractivă cu concepte de drept și justiție.</p>",
+              "id":1,
+              "projectSlug":"romania-incognito",
+              "title":"România Incognito",
+              "subtitle":"Comunicare securizată între jurnaliști și sursele lor protejate",
+              "description":"<p>Lipsa unui canal de comunicare securizat,  care ar putea oferi anonimatul tuturor celor care doresc să trimită informații sensibile către mass-media, a descurajat sursele din România, făcându-i pe oameni să fie reticenți în raportarea faptelor de corupție sau a fraudelor. </p> <p>Romania Incognito este o platformă care funcționează ca o adresă de e-mail electronică securizată între surse și media sau ONG-ul către care se dorește trimiterea de informații. Nimeni, dacă nu se decide altfel, nu poate urmări activitatea unui cetățean în platformă. Singura persoană care deține cheia de comunicare cu jurnaliștii sau diversele ONG-uri este inițiatorul care poate fi contactat numai dacă el decide să continue conversația. Sperăm că, făcând acest instrument disponibil, mai mulți oameni, care nu sunt suficient de pricepuți pentru a utiliza metode complexe de criptare, vor raporta acum despre probleme grave. Încurajăm și jurnaliștii și ONG-urile să își protejeze sursele prin utilizarea Incognito. </p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/participation4ro-edulex.png'),
+              "icon":require('../assets/images/projects/participation4ro-romania-incognito.png'),
               "adopted":true,
               "adopted_by":[
                 {
-                  "id":1,
-                  "title":"Finastra",
-                  "link":"https://www.finastra.com/",
-                  "logo":"https://code4.ro/img/46d28102-8f0e-46c8-97ae-ad6aef101c25/finastra-logo.png?q=60&fit=crop&dpr=1&w=100&h=100&crop=1000%2C505%2C0%2C0"
+                  "id":4,
+                  "title": "TFSG by Code for Romania",
+                  "link": "https://tfsg.code4.ro/ro/",
+                  "logo": "https://code4.ro/img/e906b7f2-af18-4388-933e-e365173c7e35/logo-tfsg-01.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=2084%2C1178%2C0%2C0"
                 }
               ]
-            },
+            }
+          ]
+        },
+
+        {
+          "id": 1,
+          "segmentSlug": "acces-la-cultura",
+          "segment_visual": "segment-participation-09-acces-la-cultura",
+          "title": "Acces la cultura",
+          "description": "<p>Cultura este un factor determinant în creșterea calității vieții, făcând-o mai plină de sens, mai frumoasă și mai armonioasă. Pentru creatori, uneltele digitale pot să asigure o gestionare mai bună a resurselor, în timp ce pentru consumatorii de cultură, tehnologia poate reprezenta o cale ușoară prin care pot avea acces la producții artistice.</p>",
+          "btn": {
+            "top": "80%",
+            "left": "82%"
+          },
+          "icon_left":true,
+          "projects":[
             {
-              "id":9,
-              "projectSlug":"zi-de-zi",
-              "title":"Zi de Zi",
-              "subtitle":"Platformă de storytelling pentru implicare civică",
-              "description":"<p>O problemă pe care am depistat-o în rândul populației largi este lipsa de implicare în viața comunității și lipsa de reacție la legislația în dezbatere sau în vigoare. Acest lucru se datorează în special faptului că oamenii nu cunosc modul în care legile, administrația publică și instituțiile diverse ale statului au un impact direct asupra fiecărui aspect al vieții lor. Ca urmare a limbajului greoi și a informației disparate, nu realizăm cât de mult din deciziile legislative sau din activitatea administrației publice ne afectează în mod direct. ZideZi își propune să traducă pe înțelesul cetățenilor care este legislația care guvernează relaţia oricărei persoane cu furnizorii de servicii şi utilităţi publice. De asemenea, proiectul oferă o vizualizare interactivă a momentelor zilnice de intersecție cu serviciile și utilitățile publice. Construită ca o poveste în care fiecare utilizator își alege personajul cel mai similar cu sine însuși, aplicația web îi explică oricărei persoane care sunt drepturile și obligațiile sale în raport cu furnizorii de servicii și utilități publice, care este corpul legislativ responsabil de reglementarea contextului în care el beneficiază de aceste servicii și utilități, care sunt legile care îl influențează în mod direct și care este tipul acestora.</p>",
+              "id":1,
+              "projectSlug":"theater-hub",
+              "title":"Theater Hub",
+              "subtitle":"Spațiu virtual pentru profesioniștii teatrului",
+              "description":"<p>Theater Hub este o platformă online pentru scena de teatru din România. Acest spațiu virtual îi susţine pe actori să îşi creeze o prezență online şi să își promoveze spectacolele, încurajând şi alți tineri să își urmeze pasiunea pentru arta teatrală. Mai mult, platforma își propune să reducă distanța dintre public și actori și să îi ajute să colaboreze. Actorii și trupele de teatru independent pot cere ajutor dacă au nevoie de specialiști în promovare, de resurse, decoruri etc., pentru a încuraja oamenii de business și freelancerii să contribuie activ la susținerea inițiativelor culturale. Prin integrarea cu alte platforme dezvoltate de Code for Romania, Theater Hub își dorește ca pe viitor să ofere și informații utile pentru profesioniștii din domeniul actoriei, cum ar fi resurse legislative sau referitoare la finanțări europene.</p>",
               "link":"",
               "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/participation4ro-zi-de-zi.png'),
-              "adopted":false,
-              "adopted_by":[]
+              "icon":require('../assets/images/projects/participation4ro-theater-hub.png'),
+              "adopted":true,
+              "adopted_by":[
+                {
+                  "id":4,
+                  "title": "TFSG by Code for Romania",
+                  "link": "https://tfsg.code4.ro/ro/",
+                  "logo": "https://code4.ro/img/e906b7f2-af18-4388-933e-e365173c7e35/logo-tfsg-01.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=2084%2C1178%2C0%2C0"
+                }
+              ]
             }
           ]
         }
@@ -1649,144 +1667,6 @@ const data = {
       "color": "yellow",
       "highway_bg": "highway-education",
       "highway_segments": [
-        {
-          "id": 1,
-          "segmentSlug": "scoli-sigure-si-bine-administrate",
-          "segment_visual": "segment-education-06-scoli-sigure-si-bine-administrate",
-          "title": "Școli sigure și bine administrate",
-          "description": "Mediul în care un elev se formează are o importanță determinantă pentru viitorul lui, nu doar prin ceea ce se întâmplă la ore ci și prin felul în care școala trebuie să reprezinte un loc sigur, adecvat și gândit pentru a sprijini procesul de învățare. Felul în care școlile sunt administrate poate fi îmbunătățit cu ajutorul tehnologiei, pentru a le face să fie spații mai sigure, ferite de amenințări pentru elevi, în care bullying-ul nu este tolerat, iar atmosfera generală încurajează învățarea în spirit colegial.",
-          "btn": {
-            "top": "65.34%",
-            "left": "14.5%"
-          },
-          "icon_left":true,
-          "projects":[]
-        },
-        {
-          "id": 2,
-          "segmentSlug": "invatamant-universitar-de-calitate",
-          "segment_visual": "segment-education-05-invatamant-universitar-de-calitate",
-          "title": "Învățământ universitar de calitate",
-          "description": "Universitățile din România pregătesc generațiile noi de profesioniști care construiesc societatea românească. Tehnologia poate aduce un plus de valoare în procesul de învățare, de cercetare sau în activitățile practice desfășurate în facultate, oferind acces ușor la resurse și crescând calitatea actului formator.",
-          "btn": {
-            "top": "45.26%",
-            "left": "15.75%"
-          },
-          "icon_left":false,
-          "projects":[]
-        },
-        {
-          "id": 3,
-          "segmentSlug": "invatamant-preuniversitar-de-calitate",
-          "segment_visual": "segment-education-04-invatamant-preuniversitar-de-calitate",
-          "title": "Învățământ preuniverisitar de calitate",
-          "description": "Tehnologia poate aduce un suflu nou în felul în care sunt predate în școli și licee materiile din programele școlare. Pentru multe dintre disciplinele studiate, putem găsi metode îmbunătățite, diversificate, interactive și atractive de predare cu ajutorul tehnologiei.",
-          "btn": {
-            "top": "36.82%",
-            "left": "35.67%"
-          },
-          "icon_left":true,
-          "projects":[]
-        },
-        {
-          "id": 4,
-          "segmentSlug": "acces-la-educatie",
-          "segment_visual": "segment-education-03-acces-la-educatie",
-          "title": "Acces la educație",
-          "description": "Accesul tuturor copiilor la sistemul de educație, deși este prevăzut în documentele și statisticile instituționale, nu este o realitate pentru mulți dintre copiii României. Acest lucru se întâmplă fie pentru că resursa umană este deficitară sau insuficient pregătită, fie pentru că în multe zone defavorizate, infrastructura proastă sau inexistentă e o piedică în calea actului educațional. Pentru foarte mulți copii, accesul la educație și la infrastructura educațională necesară (inclusiv consiliere psihologică sau educațională) este doar formal. Anul 2020 a arătat cu atât mai mult că sistemul educațional nu este pregătit să ofere tuturor elevilor acces la servicii educaționale de calitate.",
-          "btn": {
-            "top": "29.45%",
-            "left": "43.67%"
-          },
-          "icon_left":false,
-          "projects":[]
-        },
-        {
-          "id": 5,
-          "segmentSlug": "abilitati-pentru-viata-reala",
-          "segment_visual": "segment-education-02-abilitati-pentru-viata-reala",
-          "title": "Abilități pentru viața reală",
-          "description": "Rolul sistemului educațional este de a ne face cunoștință cu lumea, pentru a funcționa bine în ea și a o îmbunătăți și îmbogăți apoi la rândul nostru. Cu toate acestea, la noi, școala se concentrează aproape exclusiv pe științe și arte, nu și pe abilități. Multe dintre nevoile elevilor de a înțelege lumea nu se regăsesc în programele școlare (educație digitală, media, sanitară, financiară, sau pentru dezvoltarea de soft skills).",
-          "btn": {
-            "top": "20.62%",
-            "left": "53%"
-          },
-          "icon_left":false,
-          "projects":[
-            {
-              "id":1,
-              "projectSlug":"ce-ma-fac",
-              "title":"Ce Mă Fac",
-              "subtitle":"O mână de ajutor în planificarea viitoarei cariere pentru elevi",
-              "description":"<p>Pregătirea pentru cariera profesională de după terminarea studiilor trebuie să înceapă din timpul anilor de școală. Fiecare elev are abilități diferite, dar descoperirea și valorificarea acestora poate fi un proces dificil în condițiile în care serviciile de consiliere pentru carieră nu sunt accesibile tuturor. Ce mă fac este o platformă prin care elevii vor putea înțelege ce presupune fiecare opțiune de carieră. Detaliile care țin de responsabilități și previziuni financiare sunt însoțite de prezentarea beneficiilor și dezavantajelor posibile din fiecare tip de carieră propusă. Toate informațiile sunt prezentate prin tehnici de storytelling atrăgător categoriilor de vârstă cărora li se adresează această soluție.</p>",
-              "link":"",
-              "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/education4ro-ce-ma-fac.png'),
-              "adopted":false,
-              "adopted_by":[]
-            },
-            {
-              "id":2,
-              "projectSlug":"micii-cetateni",
-              "title":"Micii Cetățeni",
-              "subtitle":"Povești despre cum putem construi o societate mai bună pentru toți",
-              "description":"<p>Copiii învață prea târziu sau prea puțin în școală despre locul lor în societate, despre felul în care aceasta funcționează sau despre beneficiile pe care implicarea fiecăruia le poate aduce în viața tuturor. Pentru că felul în care cei mici învață cel mai bine este prin povești, am construit un portal care conține cărți de povești pentru grupele de vârstă preșcolare, din care să poată deprinde noțiuni care țin de civism și formarea unor cetățeni buni și implicați.</p>",
-              "link":"",
-              "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/education4ro-micii-cetateni.png'),
-              "adopted":false,
-              "adopted_by":[]
-            },
-            {
-              "id":3,
-              "projectSlug":"civic-fitness",
-              "title":"Civic Fitness",
-              "subtitle":"Exerciții scurte pentru dezvoltarea de abilități civice și socio-emoționale",
-              "description":"<p>Educația pe tot parcursul vieții este puțin răspândită și, în general, concentrată pe noțiuni ce țin de dezvoltarea punctuală a unor abilități profesionale. Civic Fitness este o aplicație mobilă care oferă adulților cu un ritm de viață alert posibilitatea de a dobândi, prin lecții sau exerciții scurte, abilități utile în  dezvoltarea lor continuă. Pe lângă abilități socio-emoționale utile în diverse contexte, aplicația oferă informații, cunoștințe și valori care să responsabilizeze utilizatorii și să îi pregătească pentru implicarea democratică informată în problemele societății.</p>",
-              "link":"",
-              "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/education4ro-civic-fitness.png'),
-              "adopted":false,
-              "adopted_by":[]
-            },
-            {
-              "id":4,
-              "projectSlug":"descurca-tech",
-              "title":"Descurcă-tech",
-              "subtitle":"Sprijin pentru cei care fac primii pași în utilizarea tehnologiei",
-              "description":"<p>O mare parte din populație, fie din cauza vârstei sau a condiției sociale, nu are noțiuni de bază de utilizare a tehnologiei. Pentru a beneficia de avantajele aduse de progresul tehnologic, mulți dintre ei au nevoie de sprijinul celor apropiați. Descurcă-tech este o platformă care oferă resurse celor care se oferă să îi învețe pe aceia care încă nu au astfel de abilități cum să folosească mai bine tehnologia în folosul lor. De exemplu, cei care vor să își învețe bunicii cum să folosească un smartphone pot primi aici resursele necesare, în diferite formate, inclusiv printabile, pentru a fi ușor înțelese și asimilate. În plus, platforma va pune la dispoziția celor care învață cum să utilizeze tehnologia un helpline prin care aceștia vor putea obține consiliere și sprijin rapid.</p>",
-              "link":"",
-              "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/education4ro-descurca-tech.png'),
-              "adopted":false,
-              "adopted_by":[]
-            },
-            {
-              "id":5,
-              "projectSlug":"evalueaza-tech",
-              "title":"Evaluează-tech",
-              "subtitle":"Evaluarea competențelor digitale de bază",
-              "description":"<p>Pentru a putea construi și dezvolta abilități digitale, e nevoie de o evaluare corectă a celor deja existente. Evaluează-tech este o platformă care oferă posibilitatea evaluării competențelor digitale de bază adresată în primul rând celor care lucrează în instituții publice, fiind însă deschisă tuturor. Pe lângă abilitățile de bază, platforma va evalua inclusiv optimizarea fluxurilor și eficientizarea lucrului cu instrumente digitale.</p>",
-              "link":"",
-              "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/education4ro-evalueaza-tech.png'),
-              "adopted":false,
-              "adopted_by":[]
-            },
-            {
-              "id":6,
-              "projectSlug":"invata-tech",
-              "title":"Învață-tech",
-              "subtitle":"Platforma care dezvoltă competențe digitale",
-              "description":"<p>Abilitățile digitale au devenit o cerință fundamentală pentru orice persoană cre vrea să își desfășoare în bune condiții activitatea profesională sau personală. Învață-tech este o platformă cuprinzătoare care va ajuta utilizatorii să își dezvolte competențele digitale. Învățarea se va desfășura pe baza programului internațional dezvoltat de Mozilla Foundation (Mozilla Foundation Web Literacy), cuprinzând componente ce țin de  creativitate, colaborare, rezolvare de probleme, comunicare și siguranță pe internet. Pe lângă componenta de învățare, platforma va oferi accesibilizarea unor unelte digitale existente, oferind interfețe în limba română pentru acestea.</p>",
-              "link":"",
-              "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/education4ro-invata-tech.png'),
-              "adopted":false,
-              "adopted_by":[]
-            }
-          ]
-        },
         {
           "id": 6,
           "segmentSlug": "profesori-bine-pregatiti",
@@ -1905,6 +1785,149 @@ const data = {
               ]
             }
           ]
+        },
+
+        {
+          "id": 5,
+          "segmentSlug": "abilitati-pentru-viata-reala",
+          "segment_visual": "segment-education-02-abilitati-pentru-viata-reala",
+          "title": "Abilități pentru viața reală",
+          "description": "Rolul sistemului educațional este de a ne face cunoștință cu lumea, pentru a funcționa bine în ea și a o îmbunătăți și îmbogăți apoi la rândul nostru. Cu toate acestea, la noi, școala se concentrează aproape exclusiv pe științe și arte, nu și pe abilități. Multe dintre nevoile elevilor de a înțelege lumea nu se regăsesc în programele școlare (educație digitală, media, sanitară, financiară, sau pentru dezvoltarea de soft skills).",
+          "btn": {
+            "top": "20.62%",
+            "left": "53%"
+          },
+          "icon_left":false,
+          "projects":[
+            {
+              "id":1,
+              "projectSlug":"ce-ma-fac",
+              "title":"Ce Mă Fac",
+              "subtitle":"O mână de ajutor în planificarea viitoarei cariere pentru elevi",
+              "description":"<p>Pregătirea pentru cariera profesională de după terminarea studiilor trebuie să înceapă din timpul anilor de școală. Fiecare elev are abilități diferite, dar descoperirea și valorificarea acestora poate fi un proces dificil în condițiile în care serviciile de consiliere pentru carieră nu sunt accesibile tuturor. Ce mă fac este o platformă prin care elevii vor putea înțelege ce presupune fiecare opțiune de carieră. Detaliile care țin de responsabilități și previziuni financiare sunt însoțite de prezentarea beneficiilor și dezavantajelor posibile din fiecare tip de carieră propusă. Toate informațiile sunt prezentate prin tehnici de storytelling atrăgător categoriilor de vârstă cărora li se adresează această soluție.</p>",
+              "link":"",
+              "link_text":"Vezi soluția",
+              "icon":require('../assets/images/projects/education4ro-ce-ma-fac.png'),
+              "adopted":false,
+              "adopted_by":[]
+            },
+            {
+              "id":2,
+              "projectSlug":"micii-cetateni",
+              "title":"Micii Cetățeni",
+              "subtitle":"Povești despre cum putem construi o societate mai bună pentru toți",
+              "description":"<p>Copiii învață prea târziu sau prea puțin în școală despre locul lor în societate, despre felul în care aceasta funcționează sau despre beneficiile pe care implicarea fiecăruia le poate aduce în viața tuturor. Pentru că felul în care cei mici învață cel mai bine este prin povești, am construit un portal care conține cărți de povești pentru grupele de vârstă preșcolare, din care să poată deprinde noțiuni care țin de civism și formarea unor cetățeni buni și implicați.</p>",
+              "link":"",
+              "link_text":"Vezi soluția",
+              "icon":require('../assets/images/projects/education4ro-micii-cetateni.png'),
+              "adopted":false,
+              "adopted_by":[]
+            },
+            {
+              "id":3,
+              "projectSlug":"civic-fitness",
+              "title":"Civic Fitness",
+              "subtitle":"Exerciții scurte pentru dezvoltarea de abilități civice și socio-emoționale",
+              "description":"<p>Educația pe tot parcursul vieții este puțin răspândită și, în general, concentrată pe noțiuni ce țin de dezvoltarea punctuală a unor abilități profesionale. Civic Fitness este o aplicație mobilă care oferă adulților cu un ritm de viață alert posibilitatea de a dobândi, prin lecții sau exerciții scurte, abilități utile în  dezvoltarea lor continuă. Pe lângă abilități socio-emoționale utile în diverse contexte, aplicația oferă informații, cunoștințe și valori care să responsabilizeze utilizatorii și să îi pregătească pentru implicarea democratică informată în problemele societății.</p>",
+              "link":"",
+              "link_text":"Vezi soluția",
+              "icon":require('../assets/images/projects/education4ro-civic-fitness.png'),
+              "adopted":false,
+              "adopted_by":[]
+            },
+            {
+              "id":4,
+              "projectSlug":"descurca-tech",
+              "title":"Descurcă-tech",
+              "subtitle":"Sprijin pentru cei care fac primii pași în utilizarea tehnologiei",
+              "description":"<p>O mare parte din populație, fie din cauza vârstei sau a condiției sociale, nu are noțiuni de bază de utilizare a tehnologiei. Pentru a beneficia de avantajele aduse de progresul tehnologic, mulți dintre ei au nevoie de sprijinul celor apropiați. Descurcă-tech este o platformă care oferă resurse celor care se oferă să îi învețe pe aceia care încă nu au astfel de abilități cum să folosească mai bine tehnologia în folosul lor. De exemplu, cei care vor să își învețe bunicii cum să folosească un smartphone pot primi aici resursele necesare, în diferite formate, inclusiv printabile, pentru a fi ușor înțelese și asimilate. În plus, platforma va pune la dispoziția celor care învață cum să utilizeze tehnologia un helpline prin care aceștia vor putea obține consiliere și sprijin rapid.</p>",
+              "link":"",
+              "link_text":"Vezi soluția",
+              "icon":require('../assets/images/projects/education4ro-descurca-tech.png'),
+              "adopted":false,
+              "adopted_by":[]
+            },
+            {
+              "id":5,
+              "projectSlug":"evalueaza-tech",
+              "title":"Evaluează-tech",
+              "subtitle":"Evaluarea competențelor digitale de bază",
+              "description":"<p>Pentru a putea construi și dezvolta abilități digitale, e nevoie de o evaluare corectă a celor deja existente. Evaluează-tech este o platformă care oferă posibilitatea evaluării competențelor digitale de bază adresată în primul rând celor care lucrează în instituții publice, fiind însă deschisă tuturor. Pe lângă abilitățile de bază, platforma va evalua inclusiv optimizarea fluxurilor și eficientizarea lucrului cu instrumente digitale.</p>",
+              "link":"",
+              "link_text":"Vezi soluția",
+              "icon":require('../assets/images/projects/education4ro-evalueaza-tech.png'),
+              "adopted":false,
+              "adopted_by":[]
+            },
+            {
+              "id":6,
+              "projectSlug":"invata-tech",
+              "title":"Învață-tech",
+              "subtitle":"Platforma care dezvoltă competențe digitale",
+              "description":"<p>Abilitățile digitale au devenit o cerință fundamentală pentru orice persoană cre vrea să își desfășoare în bune condiții activitatea profesională sau personală. Învață-tech este o platformă cuprinzătoare care va ajuta utilizatorii să își dezvolte competențele digitale. Învățarea se va desfășura pe baza programului internațional dezvoltat de Mozilla Foundation (Mozilla Foundation Web Literacy), cuprinzând componente ce țin de  creativitate, colaborare, rezolvare de probleme, comunicare și siguranță pe internet. Pe lângă componenta de învățare, platforma va oferi accesibilizarea unor unelte digitale existente, oferind interfețe în limba română pentru acestea.</p>",
+              "link":"",
+              "link_text":"Vezi soluția",
+              "icon":require('../assets/images/projects/education4ro-invata-tech.png'),
+              "adopted":false,
+              "adopted_by":[]
+            }
+          ]
+        },
+
+        {
+          "id": 4,
+          "segmentSlug": "acces-la-educatie",
+          "segment_visual": "segment-education-03-acces-la-educatie",
+          "title": "Acces la educație",
+          "description": "Accesul tuturor copiilor la sistemul de educație, deși este prevăzut în documentele și statisticile instituționale, nu este o realitate pentru mulți dintre copiii României. Acest lucru se întâmplă fie pentru că resursa umană este deficitară sau insuficient pregătită, fie pentru că în multe zone defavorizate, infrastructura proastă sau inexistentă e o piedică în calea actului educațional. Pentru foarte mulți copii, accesul la educație și la infrastructura educațională necesară (inclusiv consiliere psihologică sau educațională) este doar formal. Anul 2020 a arătat cu atât mai mult că sistemul educațional nu este pregătit să ofere tuturor elevilor acces la servicii educaționale de calitate.",
+          "btn": {
+            "top": "29.45%",
+            "left": "43.67%"
+          },
+          "icon_left":false,
+          "projects":[]
+        },
+
+        {
+          "id": 3,
+          "segmentSlug": "invatamant-preuniversitar-de-calitate",
+          "segment_visual": "segment-education-04-invatamant-preuniversitar-de-calitate",
+          "title": "Învățământ preuniverisitar de calitate",
+          "description": "Tehnologia poate aduce un suflu nou în felul în care sunt predate în școli și licee materiile din programele școlare. Pentru multe dintre disciplinele studiate, putem găsi metode îmbunătățite, diversificate, interactive și atractive de predare cu ajutorul tehnologiei.",
+          "btn": {
+            "top": "36.82%",
+            "left": "35.67%"
+          },
+          "icon_left":true,
+          "projects":[]
+        },
+
+        {
+          "id": 2,
+          "segmentSlug": "invatamant-universitar-de-calitate",
+          "segment_visual": "segment-education-05-invatamant-universitar-de-calitate",
+          "title": "Învățământ universitar de calitate",
+          "description": "Universitățile din România pregătesc generațiile noi de profesioniști care construiesc societatea românească. Tehnologia poate aduce un plus de valoare în procesul de învățare, de cercetare sau în activitățile practice desfășurate în facultate, oferind acces ușor la resurse și crescând calitatea actului formator.",
+          "btn": {
+            "top": "45.26%",
+            "left": "15.75%"
+          },
+          "icon_left":false,
+          "projects":[]
+        },
+
+        {
+          "id": 1,
+          "segmentSlug": "scoli-sigure-si-bine-administrate",
+          "segment_visual": "segment-education-06-scoli-sigure-si-bine-administrate",
+          "title": "Școli sigure și bine administrate",
+          "description": "Mediul în care un elev se formează are o importanță determinantă pentru viitorul lui, nu doar prin ceea ce se întâmplă la ore ci și prin felul în care școala trebuie să reprezinte un loc sigur, adecvat și gândit pentru a sprijini procesul de învățare. Felul în care școlile sunt administrate poate fi îmbunătățit cu ajutorul tehnologiei, pentru a le face să fie spații mai sigure, ferite de amenințări pentru elevi, în care bullying-ul nu este tolerat, iar atmosfera generală încurajează învățarea în spirit colegial.",
+          "btn": {
+            "top": "65.34%",
+            "left": "14.5%"
+          },
+          "icon_left":true,
+          "projects":[]
         }
       ]
     },
@@ -1929,252 +1952,6 @@ const data = {
       "color": "green",
       "highway_bg": "highway-environment",
       "highway_segments": [
-        {
-          "id": 1,
-          "segmentSlug": "paduri-protejate-si-sanatoase",
-          "segment_visual": "segment-environment-09-paduri-protejate-si-sanatoase",
-          "title": "Păduri protejate și sănătoase",
-          "description": "<p>Pădurile sunt una dintre cele mai importante resurse pe care România le deține. Dar sănătatea pădurilor este amenințată de exploatări forestiere ilegale care pun sub asediu zone care ar trebui, de altfel, să fie protejate prin lege.</p><p>Mutilarea pădurilor are efecte de durată asupra mediului, sănătății și siguranței populației. În plus, discutăm despre o resursă foarte prețioasă al cărei proces de regenerare durează zeci de ani, în timp ce defrișările ilegale pun la pământ sute de copaci în doar câteva zile.</p><p>Ne propunem să generăm soluții digitale care să contribuie la menținerea și protejarea pădurilor din România astfel încât să diminuăm riscul dispariției teritoriului împădurit al țării.</p>",
-          "btn": {
-            "top": "54.09%",
-            "left": "-3.67%"
-          },
-          "icon_left":false,
-          "projects":[]
-        },
-        {
-          "id": 2,
-          "segmentSlug": "protectia-naturii",
-          "segment_visual": "segment-environment-08-protectia-naturii",
-          "title": "Protectia naturii",
-          "description": "<p>România are una dintre cele mai bogate biodiversități din Europa, iar datorită poziției geografice beneficiem de un capital natural impresionant. Cu toate astea, perioada de dezvoltare și tranziție economică pe care o parcurgem prezintă un risc în lipsa unei strategii coerente și asumate de protecție a naturii.</p><p>Stilul de viață actual și deciziile cu privire la ocrotirea mediului înconjurător influențează negativ patrimoniul natural al țării, având consecințe pe termen lung care vizează direct generațiile viitoare.</p><p>Alături de instituțiile responsabile, de partenerii și voluntarii noștri, căutăm să reducem impactul nociv al degradării mediului înconjurător prin dezvoltarea unor unelte digitale care să contribuie la protejarea naturii în toate formele ei.</p>",
-          "btn": {
-            "top": "61.53%",
-            "left": "20.92%"
-          },
-          "icon_left":true,
-          "projects":[]
-        },
-        {
-          "id": 3,
-          "segmentSlug": "sate-dezvoltate",
-          "segment_visual": "segment-environment-07-sate-dezvoltate",
-          "title": "Sate dezvoltate",
-          "description": "<p>Peste jumătate din populația României locuiește în mediul rural sau în condiții echivalente traiului în mediul rural.</p><p>Calitatea vieții la sate se măsoară atât prin veniturile pe cap de locuitor, cât și prin accesul populației la condiții de trai civilizate, aliniate cu cele din mediul urban. Tocmai de aceea, nu poate exista o strategie de dezvoltare a României care să nu includă intervenții în tot ceea ce intră sub incidența infrastructurii rurale. De aceea, căutăm soluții de tehnologie civică menite să îmbunătățească nivelul de trai și indicii de progres.</p>",
-          "btn": {
-            "top": "71.21%",
-            "left": "10.67%"
-          },
-          "icon_left":false,
-          "projects":[]
-        },
-        {
-          "id": 4,
-          "segmentSlug": "orase-prietenoase",
-          "segment_visual": "segment-environment-06-orase-prietenoase",
-          "title": "Orașe prietenoase",
-          "description": "<p>Deși dezvoltarea orașelor are ca prim obiectiv deservirea locuitorilor, în România zona urbană nu a fost concepută având în minte cetățenii. Mai mult decât atât, ne lovim tot mai des de improvizații care nu sunt sustenabile sau decizii care afectează și chiar înrăutățesc calitatea vieții.</p><p>Tehnologia este unul dintre cele mai eficiente instrumente care pot fi utilizate în transformarea orașelor în spații locuibile, accesibile și prietenoase, dezvoltate în mod responsabil și inteligent.</p>",
-          "btn": {
-            "top": "70%",
-            "left": "31%"
-          },
-          "icon_left":true,
-          "projects":[]
-        },
-        {
-          "id": 5,
-          "segmentSlug": "reciclarea-si-managementul-deseurilor",
-          "segment_visual": "segment-environment-05-reciclarea-si-managementul-deseurilor",
-          "title": "Reciclarea și managementul deșeurilor",
-          "description": "<p>În 2019, umanitatea a produs un număr record de deșeuri dintre care nici măcar un sfert nu au fost reciclate. Practic, am produs o cantitate de deșeuri care, cumulată, este mai mare decât greutatea tuturor oamenilor adulți din Europa.</p><p>Sustenabilitatea vieții pe pământ depinde în mod direct de identificarea celor mai bune metode de reciclare și management al deșeurilor și gunoiului.</p><p>Este probabil una dintre cele mai mari provocări ale generației noastre, motiv pentru care ne propunem să contribuim prin instrumente digitale la procesele de reciclare și administrare a deșeurilor rezultate în urma reciclării.</p>",
-          "btn": {
-            "top": "84%",
-            "left": "24%"
-          },
-          "icon_left":false,
-          "projects":[]
-        },
-        {
-          "id": 6,
-          "segmentSlug": "reducerea-poluarii",
-          "segment_visual": "segment-environment-04-reducerea-poluarii",
-          "title": "Reducerea poluarii",
-          "description": "<p>Reducerea poluării este una dintre cele mai mari provocări cu care umanitatea se confruntă în ultimele zeci de ani. Diminuarea efectelor nocive asupra planetei și a calității vieții este un demers care poate fi aplicat cu succes doar dacă se implementează măsuri concrete de control și reducere a factorilor poluanți.</p><p>Studiem diferitele tipuri de reducere a nivelului de poluare precum: procese de repunere în uz, producție curată, eficiență energetică, eficiență în infrastructura de transport sau reducerea deșeurilor și generăm soluții cu impact la nivel sistemic pentru combaterea efectelor pe termen lung.</p>",
-          "btn": {
-            "top": "92.89%",
-            "left": "48.92%"
-          },
-          "icon_left":true,
-          "projects":[
-            {
-              "id":1,
-              "projectSlug":"footprint-calculator",
-              "title":"Footprint calculator",
-              "subtitle":"Responsabilitate pentru mediu prin calcularea amprentei de carbon a produselor consumate",
-              "description":"<p>În ultimii ani, mulți oameni își doresc să-și adapteze comportamentul de consum în așa fel încât să reducă amprenta de carbon reprezentată de totalul emisiilor de gaze cu efect de seră realizate pentru a produce bunurile consumate. Reducerea, compensarea sau neutralizarea amprentei de carbon (CO2) reprezintă acțiuni de schimbare a atitudinii față de societate și de creștere a responsabilității sociale. Footprint calculator este o aplicație mobilă prin care orice consumator va putea, scanând codul de bare de pe un produs, să afle amprenta de carbon a produsului respectiv. În felul acesta, fiecare va putea să aleagă să consume produse mai puțin dăunătoare pentru mediu. </p>",
-              "link":"",
-              "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/environment4ro-footprint-calculator.png'),
-              "adopted":false,
-              "adopted_by":[]
-            }
-          ]
-        },
-        {
-          "id": 7,
-          "segmentSlug": "masurarea-poluarii",
-          "segment_visual": "segment-environment-03-masurarea-poluarii",
-          "title": "Măsurarea poluării",
-          "description": "<p>România este una dintre țările cu cele mai multe victime provocate de poluare din Uniunea Europeană. Singura modalitate de a acționa împotriva acestei amenințări este să înțelegem magnitudinea fenomenului prin extragerea și analizarea unor date corecte și complete legate de modul în care aceasta se manifestă la nivel național.</p><p>Cercetăm extensiv și dezvoltăm soluții tehnologice care să vizeze toate sursele de poluare care pot afecta serios mediul înconjurător, dar și calitatea vieții: poluarea aerului, a apei, a solului, poluarea fonică și luminoasă.</p>",
-          "btn": {
-            "top": "80.81%",
-            "left": "52.33%"
-          },
-          "icon_left":true,
-          "projects":[
-            {
-              "id":1,
-              "projectSlug":"reteaua-anti-poluare-aer",
-              "title":"Rețeaua anti-poluare: aer",
-              "subtitle":"O rețea de senzori low-cost, open source, disponibili oricui",
-              "description":"<p>Pentru a putea lua decizii bune pentru diminuarea poluării aerului, avem nevoie de date corecte și consistente. Deși în ultimii ani au apărut numeroase inițiative de monitorizare a poluării aerului, ele se adresează doar anumitor localități și utilizează un număr redus de senzori. Rețeaua anti-poluare: aer propune extinderea acestor sisteme printr-o rețea de senzori low-cost, open source, după modelul <strong>Sensor Community</strong>, care vor putea oferi mai multe date din mai multe zone geografice, astfel încât să avem o imagine clară asupra poluării aerului pe care îl respirăm.</p>",
-              "link":"",
-              "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/environment4ro-reteaua-antipoluare-aer.png'),
-              "adopted":false,
-              "adopted_by":[]
-            },
-            {
-              "id":2,
-              "projectSlug":"reteaua-anti-poluare-zgomot",
-              "title":"Rețeaua anti-poluare: zgomot",
-              "subtitle":"Rețea de senzori low cost pentru măsurarea poluării sonore",
-              "description":"<p>Pentru a putea lua decizii bune pentru diminuarea poluării sonore, avem nevoie de date corecte și consistente. Deși este un concept mai nou, poluarea sonoră reprezintă o realitate periculoasă în prezent, când zgomotul din trafic, transportul public și peisajul urban este omniprezent și poate avea un impact masiv asupra auzului și stării de sănătate în general. Rețeaua anti-poluare: zgomot propune realizarea unei rețele de senzori low-cost, open source, după modelul <strong>Sensor Community</strong>, care vor putea oferi mai multe date din mai multe zone geografice, astfel încât să avem o imagine clară asupra poluării sonore care ne poate afecta sănătatea.</p>",
-              "link":"",
-              "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/environment4ro-reteaua-antipoluare-zgomot.png'),
-              "adopted":false,
-              "adopted_by":[]
-            },
-            {
-              "id":3,
-              "projectSlug":"date-poluare",
-              "title":"DatePoluare",
-              "subtitle":"Informații complete despre poluarea din România",
-              "description":"<p>Politicile publice care au în vedere reducerea poluării se bazează pe datele din teren, care uneori sunt incomplete, alteori nu sunt de încredere și în cele mai multe cazuri sunt greu de găsit și pus în context. DatePoluare va fi platforma care aduce într-un singur loc date și vizualizări despre poluarea din România, astfel încât acestea să fie ușor accesibile oricui și să prezinte o imagine completă și corectă a problemei, pentru a putea mai apoi, pe baze solide, construi soluția potrivită.</p>",
-              "link":"",
-              "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/environment4ro-date-poluare.png'),
-              "adopted":false,
-              "adopted_by":[]
-            }
-          ]
-        },
-        {
-          "id": 8,
-          "segmentSlug": "pregatiti-pentru-urmatorul-cutremur",
-          "segment_visual": "segment-environment-02-pregatiti-pentru-urmatorul-cutremur",
-          "title": "Pregătiți pentru următorul cutremur",
-          "description": "<p>Un cutremur în România nu reprezintă un pericol ipotetic, ci o certitudine. Și despre el știm un singur lucru: este cel mai imprevizibil dezastru de amploare care ni se poate întâmpla.</p><p>Am ales să ne îndreptăm atenția spre domeniul pregătirii și răspunsului în caz de seism deoarece ne dorim să înțelegem concret care este capacitatea noastră de a răspunde unui asemenea eveniment și cât de pregătiți suntem, la nivel individual, să facem față unui cutremur.</p>",
-          "btn": {
-            "top": "71%",
-            "left": "54%"
-          },
-          "icon_left":false,
-          "projects":[
-            {
-              "id":1,
-              "projectSlug":"e-cutremur",
-              "title":"eCutremur",
-              "subtitle":"Punct unic de căutare și de centralizare a tuturor informațiilor în caz de cutremur.",
-              "description":"<p>În momentele imediat următoare unui dezastru major se va instala panica. Va deveni foarte dificil pentru orice persoană să își amintească pe ce website sau pe ce platformă ar putea găsi informații despre punctele de adunare, unde să meargă pentru a primi ajutor, cu ce autorități pot vorbi etc. Victimele au nevoie de un instrument simplu, la îndemână, care să le permită să caute tot ce le trebuie și să primească informații simple, concise sau liste clare de ONG-uri, autorități sau alte entități care le pot oferi ajutor. eCutremur este un centralizator de resurse utile organizate în jurul unui motor de căutare care va ajuta pe oricine să găsească informații utile în caz de dezastru - de la spitale, centre de ajutor, adăposturi, proceduri legale, informații legate de eforturile de intervenție, alte aplicații digitale utile etc</p>",
-              "link":"",
-              "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/environment4ro-rvm.png'),
-              "adopted":true,
-              "adopted_by":[
-                {
-                  "id":4,
-                  "title": "Fundatia Comunitara Bucuresti",
-                  "link": "https://fundatiacomunitarabucuresti.ro/",
-                  "logo": "https://code4.ro/img/962e0a9a-2eb0-41f9-b2ae-daed710c1d23/fundatia-comunitara-bucuresti.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=240%2C227%2C0%2C0"
-                }
-              ]
-            },
-            {
-              "id":2,
-              "projectSlug":"seismic-risc",
-              "title":"Seismic Risc",
-              "subtitle":"Harta clădirilor cu grad ridicat de risc și resurse utile pentru consolidare",
-              "description":"<p>Gradul de interes cu privire la consolidarea clădirilor cu grad mare de risc este redus, ceea ce face mobilizarea proprietarilor foarte dificilă de către administratorii asociațiilor de locatari. În prezent, nu este clar pentru toți cei implicați ce eforturi trebuie făcute, la această situație contribuind și multe mituri care se învârt în jurul proceselor de consolidare care sporesc nivelul de dezinformare. Seismic Risc este o platformă de colectare și vizualizare de date despre clădirile cu risc seismic. Oferă detalii despre gradul de ocupare, informații utile despre consolidare, informații dedicate asociațiilor de proprietari și legislație explicată pe înțelesul tuturor.</p>",
-              "link":"",
-              "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/environment4ro-rvm.png'),
-              "adopted":false,
-              "adopted_by":[]
-            },
-            {
-              "id":3,
-              "projectSlug":"expertizare-digitala",
-              "title":"Expertizare Digitală",
-              "subtitle":"Colectare de date din teren despre situația clădirilor după seism",
-              "description":"<p>Resursa umană de expertizare este una redusă, iar procesul de evaluare al clădirilor și marcarea lor este unul anevoios care va dura mult timp după un cutremur. Procesul este acum analog, iar populația de experți este redusă, în special la nivelul orașelor mici. Expertizare Digitală este o aplicație cu două componente, una mobilă și un web app prin care orice instituție care are nevoie să colecteze date pe baza unor formulare standardizate pot să o facă cu ușurință. Un administrator poate să creeze formularele de colectare și poate atribui conturi de agent pentru orice persoană care va face evaluarea în teritoriu.</p>",
-              "link":"",
-              "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/environment4ro-expertizare-digitala.png'),
-              "adopted":false,
-              "adopted_by":[]
-            },
-            {
-              "id":4,
-              "projectSlug":"stay-togather",
-              "title":"Stay Together",
-              "subtitle":"Plan familial de urgență și educație pentru răspuns în caz de cutremur",
-              "description":"<p>În cazul unui cutremur, majoritatea familiilor sau a grupurilor de prieteni care locuiesc în orașele vulnerabile, nu au pregătit un plan de urgență sau măcar un rucsac de supraviețuire care le-ar permite să aibă un minim de resurse în cazul unui dezastru. Stay Together este o aplicație mobilă care te ajută să îți construiești un plan de urgență împreună cu cei apropiați, să ții evidența produselor din rucsac și a termenelor lor de valabilitate, oferă printr-un sistem de notificări și de puncte posibilitatea de a repeta informațiile cele mai utile în caz de cutremur sau altă calamitate și îți pune la dispoziție lista oficială a punctelor de întâlnire.</p>",
-              "link":"",
-              "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/environment4ro-stay-together.png'),
-              "adopted":false,
-              "adopted_by":[]
-            },
-            {
-              "id":5,
-              "projectSlug":"shelter-people-database",
-              "title":"Shelter People Database",
-              "subtitle":"Motor de căutare pentru persoanele dispărute după un seism major",
-              "description":"<p>Mai multe simulări spun că, în cazul unui seism major, în București, vor exista aproximativ 9.000 de potențiali răniți, dintre care aproximativ 4.000 vor fi direcționați spre serviciile de primiri urgențe. A găsi o persoană care a ajuns în oricare dintre aceste puncte sau într-un adăpost este imposibil pentru cetățeanul obișnuit imediat după un seism. Shelter People Database este o bază de date de imagini cu oamenii din adăposturi și spitale de campanie. La înregistrarea în adăpost pot fi montate camere de luat vederi care să fotografieze persoanele care intră și să le indexeze în baza de date. Utilizatorii care caută persoane apropiate dispărute vor putea accesa interfața web a aplicației. Aplicația va avea asociat un modul de căutare de imagini care va putea identifica, pe baza unei fotografii încărcate de către utilizator, poze similare aflate în baza de date.</p>",
-              "link":"",
-              "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/environment4ro-shelter-people-database.png'),
-              "adopted":false,
-              "adopted_by":[]
-            },
-            {
-              "id":6,
-              "projectSlug":"brigada-de-evacuare",
-              "title":"Brigada de Evaluare",
-              "subtitle":"Colectare de informații din teren imediat după un cutremur major",
-              "description":"<p>n eventualitatea unui seism puternic una dintre problemele directe de care societatea se va lovi este lipsa unei infrastructuri de comunicare și absența unei evaluări rapide a infrastructurii. Brigada de Evaluare este o aplicație web cu ajutorul căreia oamenii vor putea transmite imagini foto și video din teren. Informațiile centralizate vor putea genera o serie de hărți care pot indica ce drumuri sunt blocate sau în pericol de colaps și ce clădiri sunt avariate sever.</p>",
-              "link":"",
-              "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/environment4ro-brigada-de-evaluare.png'),
-              "adopted":false,
-              "adopted_by":[]
-            },
-            {
-              "id":7,
-              "projectSlug":"seismic-watchdog",
-              "title":"Seismic Watchdog",
-              "subtitle":"Platformă de monitorizare a efectelor post-seism",
-              "description":"<p>Conceptul de <i>data-driven activism </i> este abia la început, dar va deveni curând unul dintre cele mai importante instrumente în monitorizare și în creșterea gradului de implicare al populației în acțiuni comunitare. Pentru cei care își asumă rolul de analiști din societatea civilă în varii domenii, a avea suficiente date la dispoziție este esențial în formularea de propuneri și sesizări. Seismic Watchdog este o platformă de vizualizare de date care va urmări implementarea planurilor de intervenție și a celor de reconstrucție și de revenire la starea de normalitate după un cutremur puternic. Administratorul platformei va monitoriza, colecta și analiza răspunsul în caz de seism pe termen mediu și lung. Platforma web permite colectarea de informații și procesarea datelor cu privire la subiecte precum distribuția ajutoarelor financiare și materiale în teren, eforturile de salvare, reconstrucția clădirilor de patrimoniu și a celor rezidențiale etc. Aceste informații vor putea fi vizualizate simplu și pe înțelesul tuturor pentru a putea urmări implementarea acestor acțiuni.</p>",
-              "link":"",
-              "link_text":"Vezi soluția",
-              "icon":require('../assets/images/projects/environment4ro-seismic-watchdog.png'),
-              "adopted":false,
-              "adopted_by":[]
-            }
-          ]
-        },
         {
           "id": 9,
           "segmentSlug": "pregatiti-pentru-urmatorul-dezastru-natural",
@@ -2515,6 +2292,260 @@ const data = {
               "adopted_by":[]
             },
           ]
+        },
+
+        {
+          "id": 8,
+          "segmentSlug": "pregatiti-pentru-urmatorul-cutremur",
+          "segment_visual": "segment-environment-02-pregatiti-pentru-urmatorul-cutremur",
+          "title": "Pregătiți pentru următorul cutremur",
+          "description": "<p>Un cutremur în România nu reprezintă un pericol ipotetic, ci o certitudine. Și despre el știm un singur lucru: este cel mai imprevizibil dezastru de amploare care ni se poate întâmpla.</p><p>Am ales să ne îndreptăm atenția spre domeniul pregătirii și răspunsului în caz de seism deoarece ne dorim să înțelegem concret care este capacitatea noastră de a răspunde unui asemenea eveniment și cât de pregătiți suntem, la nivel individual, să facem față unui cutremur.</p>",
+          "btn": {
+            "top": "71%",
+            "left": "54%"
+          },
+          "icon_left":false,
+          "projects":[
+            {
+              "id":1,
+              "projectSlug":"e-cutremur",
+              "title":"eCutremur",
+              "subtitle":"Punct unic de căutare și de centralizare a tuturor informațiilor în caz de cutremur.",
+              "description":"<p>În momentele imediat următoare unui dezastru major se va instala panica. Va deveni foarte dificil pentru orice persoană să își amintească pe ce website sau pe ce platformă ar putea găsi informații despre punctele de adunare, unde să meargă pentru a primi ajutor, cu ce autorități pot vorbi etc. Victimele au nevoie de un instrument simplu, la îndemână, care să le permită să caute tot ce le trebuie și să primească informații simple, concise sau liste clare de ONG-uri, autorități sau alte entități care le pot oferi ajutor. eCutremur este un centralizator de resurse utile organizate în jurul unui motor de căutare care va ajuta pe oricine să găsească informații utile în caz de dezastru - de la spitale, centre de ajutor, adăposturi, proceduri legale, informații legate de eforturile de intervenție, alte aplicații digitale utile etc</p>",
+              "link":"",
+              "link_text":"Vezi soluția",
+              "icon":require('../assets/images/projects/environment4ro-rvm.png'),
+              "adopted":true,
+              "adopted_by":[
+                {
+                  "id":4,
+                  "title": "Fundatia Comunitara Bucuresti",
+                  "link": "https://fundatiacomunitarabucuresti.ro/",
+                  "logo": "https://code4.ro/img/962e0a9a-2eb0-41f9-b2ae-daed710c1d23/fundatia-comunitara-bucuresti.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=240%2C227%2C0%2C0"
+                }
+              ]
+            },
+            {
+              "id":2,
+              "projectSlug":"seismic-risc",
+              "title":"Seismic Risc",
+              "subtitle":"Harta clădirilor cu grad ridicat de risc și resurse utile pentru consolidare",
+              "description":"<p>Gradul de interes cu privire la consolidarea clădirilor cu grad mare de risc este redus, ceea ce face mobilizarea proprietarilor foarte dificilă de către administratorii asociațiilor de locatari. În prezent, nu este clar pentru toți cei implicați ce eforturi trebuie făcute, la această situație contribuind și multe mituri care se învârt în jurul proceselor de consolidare care sporesc nivelul de dezinformare. Seismic Risc este o platformă de colectare și vizualizare de date despre clădirile cu risc seismic. Oferă detalii despre gradul de ocupare, informații utile despre consolidare, informații dedicate asociațiilor de proprietari și legislație explicată pe înțelesul tuturor.</p>",
+              "link":"",
+              "link_text":"Vezi soluția",
+              "icon":require('../assets/images/projects/environment4ro-rvm.png'),
+              "adopted":false,
+              "adopted_by":[]
+            },
+            {
+              "id":3,
+              "projectSlug":"expertizare-digitala",
+              "title":"Expertizare Digitală",
+              "subtitle":"Colectare de date din teren despre situația clădirilor după seism",
+              "description":"<p>Resursa umană de expertizare este una redusă, iar procesul de evaluare al clădirilor și marcarea lor este unul anevoios care va dura mult timp după un cutremur. Procesul este acum analog, iar populația de experți este redusă, în special la nivelul orașelor mici. Expertizare Digitală este o aplicație cu două componente, una mobilă și un web app prin care orice instituție care are nevoie să colecteze date pe baza unor formulare standardizate pot să o facă cu ușurință. Un administrator poate să creeze formularele de colectare și poate atribui conturi de agent pentru orice persoană care va face evaluarea în teritoriu.</p>",
+              "link":"",
+              "link_text":"Vezi soluția",
+              "icon":require('../assets/images/projects/environment4ro-expertizare-digitala.png'),
+              "adopted":false,
+              "adopted_by":[]
+            },
+            {
+              "id":4,
+              "projectSlug":"stay-togather",
+              "title":"Stay Together",
+              "subtitle":"Plan familial de urgență și educație pentru răspuns în caz de cutremur",
+              "description":"<p>În cazul unui cutremur, majoritatea familiilor sau a grupurilor de prieteni care locuiesc în orașele vulnerabile, nu au pregătit un plan de urgență sau măcar un rucsac de supraviețuire care le-ar permite să aibă un minim de resurse în cazul unui dezastru. Stay Together este o aplicație mobilă care te ajută să îți construiești un plan de urgență împreună cu cei apropiați, să ții evidența produselor din rucsac și a termenelor lor de valabilitate, oferă printr-un sistem de notificări și de puncte posibilitatea de a repeta informațiile cele mai utile în caz de cutremur sau altă calamitate și îți pune la dispoziție lista oficială a punctelor de întâlnire.</p>",
+              "link":"",
+              "link_text":"Vezi soluția",
+              "icon":require('../assets/images/projects/environment4ro-stay-together.png'),
+              "adopted":false,
+              "adopted_by":[]
+            },
+            {
+              "id":5,
+              "projectSlug":"shelter-people-database",
+              "title":"Shelter People Database",
+              "subtitle":"Motor de căutare pentru persoanele dispărute după un seism major",
+              "description":"<p>Mai multe simulări spun că, în cazul unui seism major, în București, vor exista aproximativ 9.000 de potențiali răniți, dintre care aproximativ 4.000 vor fi direcționați spre serviciile de primiri urgențe. A găsi o persoană care a ajuns în oricare dintre aceste puncte sau într-un adăpost este imposibil pentru cetățeanul obișnuit imediat după un seism. Shelter People Database este o bază de date de imagini cu oamenii din adăposturi și spitale de campanie. La înregistrarea în adăpost pot fi montate camere de luat vederi care să fotografieze persoanele care intră și să le indexeze în baza de date. Utilizatorii care caută persoane apropiate dispărute vor putea accesa interfața web a aplicației. Aplicația va avea asociat un modul de căutare de imagini care va putea identifica, pe baza unei fotografii încărcate de către utilizator, poze similare aflate în baza de date.</p>",
+              "link":"",
+              "link_text":"Vezi soluția",
+              "icon":require('../assets/images/projects/environment4ro-shelter-people-database.png'),
+              "adopted":false,
+              "adopted_by":[]
+            },
+            {
+              "id":6,
+              "projectSlug":"brigada-de-evacuare",
+              "title":"Brigada de Evaluare",
+              "subtitle":"Colectare de informații din teren imediat după un cutremur major",
+              "description":"<p>n eventualitatea unui seism puternic una dintre problemele directe de care societatea se va lovi este lipsa unei infrastructuri de comunicare și absența unei evaluări rapide a infrastructurii. Brigada de Evaluare este o aplicație web cu ajutorul căreia oamenii vor putea transmite imagini foto și video din teren. Informațiile centralizate vor putea genera o serie de hărți care pot indica ce drumuri sunt blocate sau în pericol de colaps și ce clădiri sunt avariate sever.</p>",
+              "link":"",
+              "link_text":"Vezi soluția",
+              "icon":require('../assets/images/projects/environment4ro-brigada-de-evaluare.png'),
+              "adopted":false,
+              "adopted_by":[]
+            },
+            {
+              "id":7,
+              "projectSlug":"seismic-watchdog",
+              "title":"Seismic Watchdog",
+              "subtitle":"Platformă de monitorizare a efectelor post-seism",
+              "description":"<p>Conceptul de <i>data-driven activism </i> este abia la început, dar va deveni curând unul dintre cele mai importante instrumente în monitorizare și în creșterea gradului de implicare al populației în acțiuni comunitare. Pentru cei care își asumă rolul de analiști din societatea civilă în varii domenii, a avea suficiente date la dispoziție este esențial în formularea de propuneri și sesizări. Seismic Watchdog este o platformă de vizualizare de date care va urmări implementarea planurilor de intervenție și a celor de reconstrucție și de revenire la starea de normalitate după un cutremur puternic. Administratorul platformei va monitoriza, colecta și analiza răspunsul în caz de seism pe termen mediu și lung. Platforma web permite colectarea de informații și procesarea datelor cu privire la subiecte precum distribuția ajutoarelor financiare și materiale în teren, eforturile de salvare, reconstrucția clădirilor de patrimoniu și a celor rezidențiale etc. Aceste informații vor putea fi vizualizate simplu și pe înțelesul tuturor pentru a putea urmări implementarea acestor acțiuni.</p>",
+              "link":"",
+              "link_text":"Vezi soluția",
+              "icon":require('../assets/images/projects/environment4ro-seismic-watchdog.png'),
+              "adopted":false,
+              "adopted_by":[]
+            }
+          ]
+        },
+
+        {
+          "id": 7,
+          "segmentSlug": "masurarea-poluarii",
+          "segment_visual": "segment-environment-03-masurarea-poluarii",
+          "title": "Măsurarea poluării",
+          "description": "<p>România este una dintre țările cu cele mai multe victime provocate de poluare din Uniunea Europeană. Singura modalitate de a acționa împotriva acestei amenințări este să înțelegem magnitudinea fenomenului prin extragerea și analizarea unor date corecte și complete legate de modul în care aceasta se manifestă la nivel național.</p><p>Cercetăm extensiv și dezvoltăm soluții tehnologice care să vizeze toate sursele de poluare care pot afecta serios mediul înconjurător, dar și calitatea vieții: poluarea aerului, a apei, a solului, poluarea fonică și luminoasă.</p>",
+          "btn": {
+            "top": "80.81%",
+            "left": "52.33%"
+          },
+          "icon_left":true,
+          "projects":[
+            {
+              "id":1,
+              "projectSlug":"reteaua-anti-poluare-aer",
+              "title":"Rețeaua anti-poluare: aer",
+              "subtitle":"O rețea de senzori low-cost, open source, disponibili oricui",
+              "description":"<p>Pentru a putea lua decizii bune pentru diminuarea poluării aerului, avem nevoie de date corecte și consistente. Deși în ultimii ani au apărut numeroase inițiative de monitorizare a poluării aerului, ele se adresează doar anumitor localități și utilizează un număr redus de senzori. Rețeaua anti-poluare: aer propune extinderea acestor sisteme printr-o rețea de senzori low-cost, open source, după modelul <strong>Sensor Community</strong>, care vor putea oferi mai multe date din mai multe zone geografice, astfel încât să avem o imagine clară asupra poluării aerului pe care îl respirăm.</p>",
+              "link":"",
+              "link_text":"Vezi soluția",
+              "icon":require('../assets/images/projects/environment4ro-reteaua-antipoluare-aer.png'),
+              "adopted":false,
+              "adopted_by":[]
+            },
+            {
+              "id":2,
+              "projectSlug":"reteaua-anti-poluare-zgomot",
+              "title":"Rețeaua anti-poluare: zgomot",
+              "subtitle":"Rețea de senzori low cost pentru măsurarea poluării sonore",
+              "description":"<p>Pentru a putea lua decizii bune pentru diminuarea poluării sonore, avem nevoie de date corecte și consistente. Deși este un concept mai nou, poluarea sonoră reprezintă o realitate periculoasă în prezent, când zgomotul din trafic, transportul public și peisajul urban este omniprezent și poate avea un impact masiv asupra auzului și stării de sănătate în general. Rețeaua anti-poluare: zgomot propune realizarea unei rețele de senzori low-cost, open source, după modelul <strong>Sensor Community</strong>, care vor putea oferi mai multe date din mai multe zone geografice, astfel încât să avem o imagine clară asupra poluării sonore care ne poate afecta sănătatea.</p>",
+              "link":"",
+              "link_text":"Vezi soluția",
+              "icon":require('../assets/images/projects/environment4ro-reteaua-antipoluare-zgomot.png'),
+              "adopted":false,
+              "adopted_by":[]
+            },
+            {
+              "id":3,
+              "projectSlug":"date-poluare",
+              "title":"DatePoluare",
+              "subtitle":"Informații complete despre poluarea din România",
+              "description":"<p>Politicile publice care au în vedere reducerea poluării se bazează pe datele din teren, care uneori sunt incomplete, alteori nu sunt de încredere și în cele mai multe cazuri sunt greu de găsit și pus în context. DatePoluare va fi platforma care aduce într-un singur loc date și vizualizări despre poluarea din România, astfel încât acestea să fie ușor accesibile oricui și să prezinte o imagine completă și corectă a problemei, pentru a putea mai apoi, pe baze solide, construi soluția potrivită.</p>",
+              "link":"",
+              "link_text":"Vezi soluția",
+              "icon":require('../assets/images/projects/environment4ro-date-poluare.png'),
+              "adopted":false,
+              "adopted_by":[]
+            }
+          ]
+        },
+
+        {
+          "id": 6,
+          "segmentSlug": "reducerea-poluarii",
+          "segment_visual": "segment-environment-04-reducerea-poluarii",
+          "title": "Reducerea poluarii",
+          "description": "<p>Reducerea poluării este una dintre cele mai mari provocări cu care umanitatea se confruntă în ultimele zeci de ani. Diminuarea efectelor nocive asupra planetei și a calității vieții este un demers care poate fi aplicat cu succes doar dacă se implementează măsuri concrete de control și reducere a factorilor poluanți.</p><p>Studiem diferitele tipuri de reducere a nivelului de poluare precum: procese de repunere în uz, producție curată, eficiență energetică, eficiență în infrastructura de transport sau reducerea deșeurilor și generăm soluții cu impact la nivel sistemic pentru combaterea efectelor pe termen lung.</p>",
+          "btn": {
+            "top": "92.89%",
+            "left": "48.92%"
+          },
+          "icon_left":true,
+          "projects":[
+            {
+              "id":1,
+              "projectSlug":"footprint-calculator",
+              "title":"Footprint calculator",
+              "subtitle":"Responsabilitate pentru mediu prin calcularea amprentei de carbon a produselor consumate",
+              "description":"<p>În ultimii ani, mulți oameni își doresc să-și adapteze comportamentul de consum în așa fel încât să reducă amprenta de carbon reprezentată de totalul emisiilor de gaze cu efect de seră realizate pentru a produce bunurile consumate. Reducerea, compensarea sau neutralizarea amprentei de carbon (CO2) reprezintă acțiuni de schimbare a atitudinii față de societate și de creștere a responsabilității sociale. Footprint calculator este o aplicație mobilă prin care orice consumator va putea, scanând codul de bare de pe un produs, să afle amprenta de carbon a produsului respectiv. În felul acesta, fiecare va putea să aleagă să consume produse mai puțin dăunătoare pentru mediu. </p>",
+              "link":"",
+              "link_text":"Vezi soluția",
+              "icon":require('../assets/images/projects/environment4ro-footprint-calculator.png'),
+              "adopted":false,
+              "adopted_by":[]
+            }
+          ]
+        },
+
+        {
+          "id": 5,
+          "segmentSlug": "reciclarea-si-managementul-deseurilor",
+          "segment_visual": "segment-environment-05-reciclarea-si-managementul-deseurilor",
+          "title": "Reciclarea și managementul deșeurilor",
+          "description": "<p>În 2019, umanitatea a produs un număr record de deșeuri dintre care nici măcar un sfert nu au fost reciclate. Practic, am produs o cantitate de deșeuri care, cumulată, este mai mare decât greutatea tuturor oamenilor adulți din Europa.</p><p>Sustenabilitatea vieții pe pământ depinde în mod direct de identificarea celor mai bune metode de reciclare și management al deșeurilor și gunoiului.</p><p>Este probabil una dintre cele mai mari provocări ale generației noastre, motiv pentru care ne propunem să contribuim prin instrumente digitale la procesele de reciclare și administrare a deșeurilor rezultate în urma reciclării.</p>",
+          "btn": {
+            "top": "84%",
+            "left": "24%"
+          },
+          "icon_left":false,
+          "projects":[]
+        },
+
+        {
+          "id": 4,
+          "segmentSlug": "orase-prietenoase",
+          "segment_visual": "segment-environment-06-orase-prietenoase",
+          "title": "Orașe prietenoase",
+          "description": "<p>Deși dezvoltarea orașelor are ca prim obiectiv deservirea locuitorilor, în România zona urbană nu a fost concepută având în minte cetățenii. Mai mult decât atât, ne lovim tot mai des de improvizații care nu sunt sustenabile sau decizii care afectează și chiar înrăutățesc calitatea vieții.</p><p>Tehnologia este unul dintre cele mai eficiente instrumente care pot fi utilizate în transformarea orașelor în spații locuibile, accesibile și prietenoase, dezvoltate în mod responsabil și inteligent.</p>",
+          "btn": {
+            "top": "70%",
+            "left": "31%"
+          },
+          "icon_left":true,
+          "projects":[]
+        },
+
+        {
+          "id": 3,
+          "segmentSlug": "sate-dezvoltate",
+          "segment_visual": "segment-environment-07-sate-dezvoltate",
+          "title": "Sate dezvoltate",
+          "description": "<p>Peste jumătate din populația României locuiește în mediul rural sau în condiții echivalente traiului în mediul rural.</p><p>Calitatea vieții la sate se măsoară atât prin veniturile pe cap de locuitor, cât și prin accesul populației la condiții de trai civilizate, aliniate cu cele din mediul urban. Tocmai de aceea, nu poate exista o strategie de dezvoltare a României care să nu includă intervenții în tot ceea ce intră sub incidența infrastructurii rurale. De aceea, căutăm soluții de tehnologie civică menite să îmbunătățească nivelul de trai și indicii de progres.</p>",
+          "btn": {
+            "top": "71.21%",
+            "left": "10.67%"
+          },
+          "icon_left":false,
+          "projects":[]
+        },
+
+        {
+          "id": 2,
+          "segmentSlug": "protectia-naturii",
+          "segment_visual": "segment-environment-08-protectia-naturii",
+          "title": "Protectia naturii",
+          "description": "<p>România are una dintre cele mai bogate biodiversități din Europa, iar datorită poziției geografice beneficiem de un capital natural impresionant. Cu toate astea, perioada de dezvoltare și tranziție economică pe care o parcurgem prezintă un risc în lipsa unei strategii coerente și asumate de protecție a naturii.</p><p>Stilul de viață actual și deciziile cu privire la ocrotirea mediului înconjurător influențează negativ patrimoniul natural al țării, având consecințe pe termen lung care vizează direct generațiile viitoare.</p><p>Alături de instituțiile responsabile, de partenerii și voluntarii noștri, căutăm să reducem impactul nociv al degradării mediului înconjurător prin dezvoltarea unor unelte digitale care să contribuie la protejarea naturii în toate formele ei.</p>",
+          "btn": {
+            "top": "61.53%",
+            "left": "20.92%"
+          },
+          "icon_left":true,
+          "projects":[]
+        },
+
+        {
+          "id": 1,
+          "segmentSlug": "paduri-protejate-si-sanatoase",
+          "segment_visual": "segment-environment-09-paduri-protejate-si-sanatoase",
+          "title": "Păduri protejate și sănătoase",
+          "description": "<p>Pădurile sunt una dintre cele mai importante resurse pe care România le deține. Dar sănătatea pădurilor este amenințată de exploatări forestiere ilegale care pun sub asediu zone care ar trebui, de altfel, să fie protejate prin lege.</p><p>Mutilarea pădurilor are efecte de durată asupra mediului, sănătății și siguranței populației. În plus, discutăm despre o resursă foarte prețioasă al cărei proces de regenerare durează zeci de ani, în timp ce defrișările ilegale pun la pământ sute de copaci în doar câteva zile.</p><p>Ne propunem să generăm soluții digitale care să contribuie la menținerea și protejarea pădurilor din România astfel încât să diminuăm riscul dispariției teritoriului împădurit al țării.</p>",
+          "btn": {
+            "top": "54.09%",
+            "left": "-3.67%"
+          },
+          "icon_left":false,
+          "projects":[]
         }
       ]
     }
