@@ -45,10 +45,9 @@ const data = {
     "description": "Și contribuie la digitalizarea Romaniei. Cu un SMS recurent de <strong>4 EUR*</strong> pe lună ajuți la construirea și menținerea infrastructurii digitale de care avem nevoie in secolul XXI."
   },
   "call_to_action": {
-    "description": "This is a placeholder text that should act as a call to action to help people understant why they need to be joining us in our journey.",
     "donate": {
       "spacer": "sau",
-      "title": "Donează",
+      "title": "Donează cât vrei",
       "link": "https://code4.ro/ro/doneaza"
     },
     "partner": {
@@ -917,10 +916,10 @@ const data = {
               "adopted":true,
               "adopted_by":[
                 {
-                  "id":1,
-                  "title":"Code for Romania",
-                  "link":"https://code4.ro/",
-                  "logo":require('../assets/images/code4.png')
+                  "id":4,
+                  "title": "TFSG by Code for Romania",
+                  "link": "https://tfsg.code4.ro/ro/",
+                  "logo": "https://code4.ro/img/e906b7f2-af18-4388-933e-e365173c7e35/logo-tfsg-01.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=2084%2C1178%2C0%2C0"
                 }
               ]
             }
@@ -950,10 +949,10 @@ const data = {
               "adopted":true,
               "adopted_by":[
                 {
-                  "id":1,
-                  "title":"Code for Romania",
-                  "link":"https://code4.ro/",
-                  "logo":require('../assets/images/code4.png')
+                  "id":4,
+                  "title": "TFSG by Code for Romania",
+                  "link": "https://tfsg.code4.ro/ro/",
+                  "logo": "https://code4.ro/img/e906b7f2-af18-4388-933e-e365173c7e35/logo-tfsg-01.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=2084%2C1178%2C0%2C0"
                 }
               ]
             }
@@ -1143,10 +1142,10 @@ const data = {
               "adopted":true,
               "adopted_by":[
                 {
-                  "id":1,
-                  "title":"Code for Romania",
-                  "link":"https://code4.ro/",
-                  "logo":require('../assets/images/code4.png')
+                  "id":4,
+                  "title": "TFSG by Code for Romania",
+                  "link": "https://tfsg.code4.ro/ro/",
+                  "logo": "https://code4.ro/img/e906b7f2-af18-4388-933e-e365173c7e35/logo-tfsg-01.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=2084%2C1178%2C0%2C0"
                 }
               ]
             },
@@ -1305,10 +1304,10 @@ const data = {
               "adopted":true,
               "adopted_by":[
                 {
-                  "id":1,
-                  "title":"Code for Romania",
-                  "link":"https://code4.ro/",
-                  "logo":require('../assets/images/code4.png')
+                  "id":4,
+                  "title": "TFSG by Code for Romania",
+                  "link": "https://tfsg.code4.ro/ro/",
+                  "logo": "https://code4.ro/img/e906b7f2-af18-4388-933e-e365173c7e35/logo-tfsg-01.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=2084%2C1178%2C0%2C0"
                 }
               ]
             },
@@ -1324,10 +1323,10 @@ const data = {
               "adopted":true,
               "adopted_by":[
                 {
-                  "id":1,
-                  "title":"Code for Romania",
-                  "link":"https://code4.ro/",
-                  "logo":require('../assets/images/code4.png')
+                  "id":4,
+                  "title": "TFSG by Code for Romania",
+                  "link": "https://tfsg.code4.ro/ro/",
+                  "logo": "https://code4.ro/img/e906b7f2-af18-4388-933e-e365173c7e35/logo-tfsg-01.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=2084%2C1178%2C0%2C0"
                 }
               ]
             },
@@ -1355,10 +1354,10 @@ const data = {
               "adopted":true,
               "adopted_by":[
                 {
-                  "id":1,
-                  "title":"Code for Romania",
-                  "link":"https://code4.ro/",
-                  "logo":require('../assets/images/code4.png')
+                  "id":4,
+                  "title": "TFSG by Code for Romania",
+                  "link": "https://tfsg.code4.ro/ro/",
+                  "logo": "https://code4.ro/img/e906b7f2-af18-4388-933e-e365173c7e35/logo-tfsg-01.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=2084%2C1178%2C0%2C0"
                 }
               ]
             },
@@ -1386,10 +1385,10 @@ const data = {
               "adopted":true,
               "adopted_by":[
                 {
-                  "id":1,
-                  "title":"Code for Romania",
-                  "link":"https://code4.ro/",
-                  "logo":require('../assets/images/code4.png')
+                  "id":4,
+                  "title": "TFSG by Code for Romania",
+                  "link": "https://tfsg.code4.ro/ro/",
+                  "logo": "https://code4.ro/img/e906b7f2-af18-4388-933e-e365173c7e35/logo-tfsg-01.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=2084%2C1178%2C0%2C0"
                 }
               ]
             },
@@ -1447,10 +1446,10 @@ const data = {
               "adopted":true,
               "adopted_by":[
                 {
-                  "id":1,
-                  "title":"Code for Romania",
-                  "link":"https://code4.ro/",
-                  "logo":require('../assets/images/code4.png')
+                  "id":4,
+                  "title": "TFSG by Code for Romania",
+                  "link": "https://tfsg.code4.ro/ro/",
+                  "logo": "https://code4.ro/img/e906b7f2-af18-4388-933e-e365173c7e35/logo-tfsg-01.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=2084%2C1178%2C0%2C0"
                 }
               ]
             },
@@ -1540,10 +1539,10 @@ const data = {
               "adopted":true,
               "adopted_by":[
                 {
-                  "id":1,
-                  "title":"Code for Romania",
-                  "link":"https://code4.ro/",
-                  "logo":require('../assets/images/code4.png')
+                  "id":4,
+                  "title": "TFSG by Code for Romania",
+                  "link": "https://tfsg.code4.ro/ro/",
+                  "logo": "https://code4.ro/img/e906b7f2-af18-4388-933e-e365173c7e35/logo-tfsg-01.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=2084%2C1178%2C0%2C0"
                 }
               ]
             },

@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div v-if="project">
     <div class="py-1" :class="`bg-` + code4ro_map.color"></div>
 
     <div class="ProjectModal px-2 px-lg-4 pb-3">
