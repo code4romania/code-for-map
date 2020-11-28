@@ -23,7 +23,7 @@
 <path id="Vector_17" d="M357.265 654.517L328 683.782L333.644 689.426L362.909 660.161L357.265 654.517Z" fill="#1B771B"/>
 </g>
 <text id="Reducerea polu&#196;&#131;rii" fill="#1E1E1E" xml:space="preserve" style="white-space: pre" font-family="Titillium Web" font-size="40" font-weight="600" letter-spacing="0px"><tspan x="477" y="642.9">Reducerea polu&#x103;rii</tspan></text>
-<text class="btn-project" cursor="pointer" projectid="1" id="Footprint calculator" fill="#1E1E1E" xml:space="preserve" style="white-space: pre" font-family="Titillium Web" font-size="20" font-weight="600" letter-spacing="0px"><tspan x="700" y="366.45">Footprint&#13;calculator&#13;</tspan></text>
+<text class="btn-project" text-decoration="underline" cursor="pointer" projectid="1" id="Footprint calculator" fill="#1E1E1E" xml:space="preserve" style="white-space: pre" font-family="Titillium Web" font-size="20" font-weight="600" letter-spacing="0px"><tspan x="700" y="366.45">Footprint&#13;calculator&#13;</tspan></text>
 </g>
 </g>
 <defs>

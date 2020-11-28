@@ -53,17 +53,17 @@
         <b-col xs="12" md="6" xl="3" class="mb-4">
           <SendSMS :data="data.sms" />
           <div class="mb-3">{{data.call_to_action.donate.spacer}}</div>
-          <a :href="data.call_to_action.donate.link" class="btn btn-lg btn-green px-5">{{data.call_to_action.donate.title}}</a>
+          <a :href="data.call_to_action.donate.link" class="btn btn-lg btn-green px-5" target="_parent">{{data.call_to_action.donate.title}}</a>
         </b-col>
         <b-col xs="12" md="6" xl="3" class="mb-4">
           <h3 class="text-primary mb-4">{{data.call_to_action.partner.title}}</h3>
           <div v-html="data.call_to_action.partner.content" />
-          <a :href="data.call_to_action.partner.link" class="btn btn-lg btn-primary px-5">{{data.call_to_action.partner.label}}</a>
+          <a :href="data.call_to_action.partner.link" class="btn btn-lg btn-primary px-5" target="_parent">{{data.call_to_action.partner.label}}</a>
         </b-col>
         <b-col xs="12" md="6" xl="3" class="mb-4">
           <h3 class="text-primary mb-4">{{data.call_to_action.sponsor.title}}</h3>
           <div v-html="data.call_to_action.sponsor.content" />
-          <a :href="data.call_to_action.sponsor.link" class="btn btn-lg btn-primary px-5">{{data.call_to_action.sponsor.label}}</a>
+          <a :href="data.call_to_action.sponsor.link" class="btn btn-lg btn-primary px-5" target="_parent">{{data.call_to_action.sponsor.label}}</a>
         </b-col>
         <b-col xs="12" md="6" xl="3" class="mb-4">
           <h3 class="text-primary mb-4">{{data.call_to_action.share.title}}</h3>
