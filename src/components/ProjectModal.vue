@@ -32,20 +32,23 @@
         </router-link>
       </div>
 
-      <div class="d-flex align-items-center justify-content-between my-4">
+      <div class="ProjectModal-header my-4">
         <div>
           <h3>{{ project.title }}</h3>
           <p class="lead">
             {{ project.subtitle }}
           </p>
         </div>
-
-        <!-- <a :href="project.link" v-if="project.link">
-          <svg class="icon icon-sm">
-            <use xlink:href="#icon-redirect"></use>
-          </svg>
-          {{ project.link_text }}
-        </a> -->
+        <div>
+          <a
+            v-if="project.link"
+            :href="project.link"
+            :class="'btn btn-' + highwayMap.color + ' px-4'"
+            target="_blank"
+          >
+            {{ data.general.view_project }}
+          </a>
+        </div>
       </div>
 
       <b-row>
@@ -53,11 +56,13 @@
           xs="12"
           md="4"
         >
-          <div class="text-center border border-gray mb-3">
-            <img
-              class="img-fluid"
-              :src="projectIcon"
-            >
+          <div class="ProjectModal-visual text-center border border-gray mb-3">
+            <div>
+              <img
+                class="img-fluid"
+                :src="projectIcon"
+              >
+            </div>
           </div>
         </b-col>
         <b-col

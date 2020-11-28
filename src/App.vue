@@ -179,7 +179,7 @@
       </b-row>
 
       <p class="Disclaimer">
-        <small><strong>*</strong> {{data.sms.disclaimer}}</small>
+        <small><strong>*</strong> {{ data.sms.disclaimer }}</small>
       </p>
     </b-container>
   </div>

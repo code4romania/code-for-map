@@ -198,10 +198,12 @@ export default {
           solution: this.segmentObject.projects[index - 1].projectSlug,
         },
       })
-      this.modalTop = '0px'
+      this.modalTop = '100px'
     },
     mobileProjectClicked(event) {
-      this.modalTop = event.target.getBoundingClientRect().top + 'px'
+      let position = event.target.getBoundingClientRect().top - (event.target.getBoundingClientRect().top / 2)
+
+      this.modalTop = position + 'px'
     },
   },
 }

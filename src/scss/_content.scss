@@ -68,16 +68,46 @@
   background: rgba(0, 0, 0, 0.6);
   z-index: 10000;
   overflow-y: scroll;
+
   @include respond-above(lg){
-    padding-right: 17px;
     box-sizing: content-box;
   }
 }
+
 .modal-content {
   position: absolute;
   width: 100%;
   max-width: 1024px;
-  // top: 0;
-  // left: 50%;
   transform: translate(-50%, 0);
+  border-radius: 0;
+}
+
+.ProjectModal-header {
+  @include respond-above(md) {
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+  }
+}
+
+.ProjectModal-visual {
+  height: 0;
+  padding-bottom: 75%;
+  position: relative;
+
+  @include respond-above(md) {
+    padding-bottom: 100%;
+  }
+
+  > div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  img {
+    height: 100%;
+  }
 }
