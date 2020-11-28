@@ -31,7 +31,6 @@
             </router-link>
             <Legend
               :legend="data.map_legend"
-              class="mt-4"
             />
           </div>
         </b-col>

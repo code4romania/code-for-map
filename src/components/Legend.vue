@@ -47,8 +47,13 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.Legend {
+  margin: 100px 0 0;
+}
+
 .Legend h3 {
   text-transform: uppercase;
+  font-size: 18px;
 }
 .drum-continuu {
   width: 20%;

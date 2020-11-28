@@ -110,6 +110,9 @@
       "steps": []
     }
   },
+  "faqs": {
+
+  },
   "partners": {
     "title": "Împreună",
     "description": "Ei sunt arhitecții, constructorii și administratorii care ni s-au alăturat până acum în dezvoltarea infrastructurii digitale a României.",
@@ -1650,17 +1653,6 @@
             },
             {
               "id": 5,
-              "projectSlug": "profesor-in-spital",
-              "title": "Profesor în Spital",
-              "subtitle": "Acces la educație pentru copiii internați în spitale",
-              "description": "<p>Copiii care sunt internați pentru mult timp rămân în urmă cu materiile predate în școală, ceea ce înseamnă că vor fi reintegrați în colectiv mult mai greu atunci când vor reveni în sala de clasă. Profesorii nu sunt pregătiți pentru astfel de situații și pentru mulți dintre ei ar fi extrem de dificil să se deplaseze să lucreze cu acești copii în spital. Platforma Profesor în spital centralizează ONG-urile care derulează programe de școală în spital. Datele sunt dispuse pe județe și orașe, iar pe pagina dedicată fiecărui ONG, un spital sau un părinte poate să aplice pentru a beneficia, în măsura disponibilității ONG-ului, de acest tip de serviciu. Platforma identifică inclusiv acele orașe în care în acest moment nu există ONG-uri active, dar unde apare această nevoie de sprijin educațional. În același timp, pentru a susține activitatea ONG-urilor, platforma este integrată și cu un sistem de plăți pentru a le oferi acestora posibilitatea de a strânge fonduri pentru extinderea programelor lor.</p>",
-              "link": "",
-              "icon": "education4ro-profesor-spital",
-              "adopted": true,
-              "adopted_by": []
-            },
-            {
-              "id": 6,
               "projectSlug": "acces",
               "title": "Acces",
               "subtitle": "Resurse educaționale gratuite pentru profesorii care lucrează cu copii cu CES",
@@ -1676,6 +1668,17 @@
                   "logo": "https://code4.ro/img/fundatia-vodafone.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=500%2C500%2C0%2C0"
                 }
               ]
+            },
+            {
+              "id": 6,
+              "projectSlug": "profesor-in-spital",
+              "title": "Profesor în Spital",
+              "subtitle": "Acces la educație pentru copiii internați în spitale",
+              "description": "<p>Copiii care sunt internați pentru mult timp rămân în urmă cu materiile predate în școală, ceea ce înseamnă că vor fi reintegrați în colectiv mult mai greu atunci când vor reveni în sala de clasă. Profesorii nu sunt pregătiți pentru astfel de situații și pentru mulți dintre ei ar fi extrem de dificil să se deplaseze să lucreze cu acești copii în spital. Platforma Profesor în spital centralizează ONG-urile care derulează programe de școală în spital. Datele sunt dispuse pe județe și orașe, iar pe pagina dedicată fiecărui ONG, un spital sau un părinte poate să aplice pentru a beneficia, în măsura disponibilității ONG-ului, de acest tip de serviciu. Platforma identifică inclusiv acele orașe în care în acest moment nu există ONG-uri active, dar unde apare această nevoie de sprijin educațional. În același timp, pentru a susține activitatea ONG-urilor, platforma este integrată și cu un sistem de plăți pentru a le oferi acestora posibilitatea de a strânge fonduri pentru extinderea programelor lor.</p>",
+              "link": "",
+              "icon": "education4ro-profesor-spital",
+              "adopted": true,
+              "adopted_by": []
             },
             {
               "id": 7,
