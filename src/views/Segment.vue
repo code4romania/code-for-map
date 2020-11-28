@@ -75,20 +75,13 @@
           </svg>
         </div>
       </div>
+    </div>
 
-      <div class="Segment-info d-none d-lg-block mt-4">
-        <b-row>
-          <b-col
-            cols="10"
-            offset="1"
-          >
-            <div
-              class="lead"
-              v-html="segmentObject.description"
-            />
-          </b-col>
-        </b-row>
-      </div>
+    <div class="Segment-info d-none d-lg-block w-75">
+      <div
+        class="lead"
+        v-html="segmentObject.description"
+      />
     </div>
 
     <div

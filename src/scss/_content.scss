@@ -29,13 +29,9 @@
   justify-content: center;
 }
 
-.Video {
-  width: 100%;
-  margin: 80px auto;
-
-  @include respond-above(md) {
-    width: 75%;
-  }
+.SendSMS {
+  border: 2px dashed $green;
+  padding: 20px;
 }
 
 .Disclaimer {
@@ -109,5 +105,15 @@
 
   img {
     height: 100%;
+  }
+}
+
+.HowWeWork {
+  border: 2px dashed $primary;
+  padding: 10px 20px;
+  
+  @include respond-above(md) {
+    height: 100%;
+    padding: 20px 40px;
   }
 }

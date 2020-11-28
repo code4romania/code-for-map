@@ -6,7 +6,7 @@
       :description="code4ro_map.description"
     />
 
-    <div class="Highway-wrap">
+    <div class="Highway-wrap mb-5">
       <div class="HighwayContainer">
         <div class="Highway">
           <div

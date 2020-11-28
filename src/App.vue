@@ -2,7 +2,7 @@
   <div id="app">
     <b-container fluid>
       <b-row
-        class="Header-wrap"
+        class="Header-wrap mb-5"
         no-gutters
       >
         <b-col
@@ -42,39 +42,57 @@
         </b-col>
       </b-row>
 
-      <div class="embed-responsive embed-responsive-16by9 Video">
-        <iframe
-          class="embed-responsive-item"
-          src="https://www.youtube.com/embed/XHVvEhmrlkA"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        />
-      </div>
+      <b-row class="mb-5">
+        <b-col
+          xs="12"
+          lg="3"
+        >
+          some text goes here
+        </b-col>
+        <b-col
+          xs="12"
+          lg="9"
+        >
+          <div class="embed-responsive embed-responsive-16by9 Video">
+            <iframe
+              class="embed-responsive-item"
+              src="https://www.youtube.com/embed/XHVvEhmrlkA"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            />
+          </div>
+        </b-col>
+      </b-row>
 
-      <h1 class="text-strong-blue text-center mb-5">
+      <h1 class="text-strong-blue mb-5">
         {{ data.more_info.work.title }}
       </h1>
 
-      <b-row class="mb-5">
+      <b-row
+        class="mb-5"
+        align-v="stretch"
+      >
         <b-col
           v-for="(step, index) in data.more_info.work.steps"
           :key="'item-' + index"
           xs="12"
           md="6"
-          class="mb-4"
+          class="mb-4 HowWeWork-wrap"
         >
-          <div class="d-flex align-items-center justify-content-start mb-4">
-            <svg class="icon icon-xl mr-4"><use :xlink:href="'#icon-' + step.icon" /></svg>
-            <h2 class="text-primary">
-              {{ step.title }}
-            </h2>
+          <div class="HowWeWork">
+            <div class="d-flex align-items-center justify-content-start mb-4">
+              <svg class="icon icon-xl mr-4"><use :xlink:href="'#icon-' + step.icon" /></svg>
+              <h2 class="text-primary">
+                {{ step.title }}
+              </h2>
+            </div>
+            <p>{{ step.content }}</p>
           </div>
-          <p>{{ step.content }}</p>
         </b-col>
         <b-col
           cols="12"
-          class="text-center my-5"
+          class="my-5 text-center"
         >
           <a
             class="btn btn-strong-blue btn-lg px-5"
@@ -84,7 +102,7 @@
         </b-col>
       </b-row>
 
-      <h1 class="text-strong-blue text-center mb-5">
+      <h1 class="text-strong-blue mb-5">
         {{ data.more_info.how.title }}
       </h1>
 
@@ -95,15 +113,10 @@
           xl="3"
           class="mb-4"
         >
-          <SendSMS :data="data.sms" />
-          <div class="mb-3">
-            {{ data.call_to_action.donate.spacer }}
-          </div>
-          <a
-            :href="data.call_to_action.donate.link"
-            class="btn btn-lg btn-green px-5"
-            target="_parent"
-          >{{ data.call_to_action.donate.title }}</a>
+          <SendSMS
+            :data="data.sms"
+            :call-to-action="data.call_to_action"
+          />
         </b-col>
         <b-col
           xs="12"
@@ -156,24 +169,31 @@
           xs="12"
           lg="6"
         >
-          <div class="Partners">
-            <div class="Partners-title mb-4">
-              <h3 class="text-strong-blue">
-                {{ data.partners.title }}
-              </h3>
-              <p>{{ data.partners.description }}</p>
-            </div>
-            <div class="Partners-list">
-              <PartnersList
-                :list="data.partners.main"
-                :col="3"
-              />
-              <PartnersList
-                :list="data.partners.secondary"
-                :col="4"
-              />
-            </div>
+          <div class="Partners-title mb-4">
+            <h3 class="text-strong-blue">
+              {{ data.partners.title }}
+            </h3>
+            <p>{{ data.partners.description }}</p>
           </div>
+        </b-col>
+        <div class="w-100" />
+        <b-col
+          xs="12"
+          lg="6"
+        >
+          <PartnersList
+            :list="data.partners.main"
+            :col="3"
+          />
+        </b-col>
+        <b-col
+          xs="12"
+          lg="6"
+        >
+          <PartnersList
+            :list="data.partners.secondary"
+            :col="4"
+          />
         </b-col>
       </b-row>
 
