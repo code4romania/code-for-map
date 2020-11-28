@@ -96,7 +96,7 @@
 <script>
 import debouce from "lodash.debounce"
 
-import data from "./data/data.js";
+import data from "./data/ro.json";
 
 import postMessage from "./utils/postMessage";
 

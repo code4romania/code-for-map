@@ -3,14 +3,22 @@
     <div class="py-1" :class="`bg-` + code4ro_map.color"></div>
 
     <div class="ProjectModal px-2 px-lg-4 pb-3">
-      <div class="d-flex align-items-center justify-content-between my-4 px-2 p-lg-0">
+      <div
+        class="d-flex align-items-center justify-content-between my-4 px-2 p-lg-0"
+      >
         <div class="SegmentLegend-status d-flex align-items-center">
           <i
             class="icon icon-circle"
-            :class="project.adopted ? 'border-' + code4ro_map.color : 'border-gray'"
+            :class="
+              project.adopted ? 'border-' + code4ro_map.color : 'border-gray'
+            "
           ></i>
 
-          {{ project.adopted ? data.segment_legend.done : data.segment_legend.designed }}
+          {{
+            project.adopted
+              ? data.segment_legend.done
+              : data.segment_legend.designed
+          }}
         </div>
         <router-link
           :to="{
@@ -39,7 +47,7 @@
       <b-row>
         <b-col xs="12" lg="6">
           <div class="border border-gray mb-3">
-            <img class="img-fluid" :src="project.icon" />
+            <img class="img-fluid" :src="projectIcon" />
           </div>
           <div class="d-none d-lg-block">
             <div class="w-75 d-flex align-items-center">
@@ -57,7 +65,11 @@
                 <b-row class="my-3" v-if="project.adopted">
                   <template v-for="(partner, index) in project.adopted_by">
                     <b-col cols="3" :key="index">
-                      <a :href="partner.link" target="_blank" class="d-block border border-gray PartnersList-itemWrap">
+                      <a
+                        :href="partner.link"
+                        target="_blank"
+                        class="d-block border border-gray PartnersList-itemWrap"
+                      >
                         <div class="PartnersList-item">
                           <img :src="partner.logo" class="img-fluid" />
                         </div>
@@ -97,7 +109,11 @@
               <b-row class="my-3" v-if="project.adopted">
                 <template v-for="(partner, index) in project.adopted_by">
                   <b-col cols="3" :key="index">
-                    <a :href="partner.link" target="_blank" class="d-block border border-gray PartnersList-itemWrap">
+                    <a
+                      :href="partner.link"
+                      target="_blank"
+                      class="d-block border border-gray PartnersList-itemWrap"
+                    >
                       <div class="PartnersList-item">
                         <img :src="partner.logo" class="img-fluid" />
                       </div>
@@ -132,8 +148,15 @@
                 },
               }"
             > -->
-            <a href="#" @click.prevent="previous" v-if="segmentObject.projects.length > 1" class="ProjectModal-nav">
-              <svg class="icon icon-md"><use xlink:href="#chevron-left"></use></svg>
+            <a
+              href="#"
+              @click.prevent="previous"
+              v-if="segmentObject.projects.length > 1"
+              class="ProjectModal-nav"
+            >
+              <svg class="icon icon-md">
+                <use xlink:href="#chevron-left"></use>
+              </svg>
               <span class="ml-lg-2 text-primary border-bottom border-primary">
                 {{ data.general.modal.previous.text }}
               </span>
@@ -146,11 +169,18 @@
                 params: { __slug: segment.projects[next_index].project_slug },
               }"
             > -->
-            <a href="#" @click.prevent="next" v-if="segmentObject.projects.length > 1" class="ProjectModal-nav">
+            <a
+              href="#"
+              @click.prevent="next"
+              v-if="segmentObject.projects.length > 1"
+              class="ProjectModal-nav"
+            >
               <span class="mr-lg-2 text-primary border-bottom border-primary">
                 {{ data.general.modal.next.text }}
               </span>
-              <svg class="icon icon-md"><use xlink:href="#chevron-right"></use></svg>
+              <svg class="icon icon-md">
+                <use xlink:href="#chevron-right"></use>
+              </svg>
             </a>
             <!-- </router-link> -->
 
@@ -169,7 +199,7 @@
 
 <script>
 export default {
-  name: "ProjectModal",
+  name: 'ProjectModal',
   props: {
     data: Object,
     code4ro_map: Object,
@@ -178,6 +208,7 @@ export default {
     segmentSlug: String,
     // active_index: Number
   },
+  test: "test",
   data() {
     return {
       solution_slug: this.$route.params.solution,
@@ -185,7 +216,8 @@ export default {
       active_index: null,
       previous_index: null,
       next_index: null,
-    };
+      projectIcon: '',
+    }
   },
   created() {
     /** Extract the current active project index. */
@@ -193,8 +225,8 @@ export default {
       if (
         this.segmentObject.projects[index].projectSlug == this.solution_slug
       ) {
-        this.active_index = index;
-        break;
+        this.active_index = index
+        break
       }
     }
 
@@ -202,25 +234,33 @@ export default {
     this.previous_index =
       0 == this.active_index
         ? this.segmentObject.projects.length - 1
-        : this.active_index - 1;
+        : this.active_index - 1
 
     /** Extarct the next project. */
     this.next_index =
       this.segmentObject.projects.length - 1 == this.active_index
         ? 0
-        : this.active_index + 1;
+        : this.active_index + 1
   },
   mounted() {
     this.project = this.segmentObject.projects.find(
-      (item) => item.projectSlug == this.solution_slug
-    );
+      item => item.projectSlug == this.solution_slug
+    )
+
+    this.projectIcon = require('../assets/images/projects/' +
+      this.project.icon +
+      '.png')
   },
   watch: {
     $route(to) {
       if (this.solution_slug != to.params.solution) {
         this.project = this.segmentObject.projects.find(
-          (item) => item.projectSlug == to.params.solution
-        );
+          item => item.projectSlug == to.params.solution
+        )
+
+        this.projectIcon = require('../assets/images/projects/' +
+          this.project.icon +
+          '.png')
       }
     },
   },
@@ -230,54 +270,54 @@ export default {
       this.active_index =
         this.active_index + 1 == this.segmentObject.projects.length
           ? 0
-          : this.active_index + 1;
+          : this.active_index + 1
 
       /** Extarct the previous project. */
       this.previous_index =
         0 == this.active_index
           ? this.segmentObject.projects.length - 1
-          : this.active_index - 1;
+          : this.active_index - 1
 
       /** Extarct the next project. */
       this.next_index =
         this.segmentObject.projects.length - 1 == this.active_index
           ? 0
-          : this.active_index + 1;
+          : this.active_index + 1
 
       this.$router.push({
-        name: "ProjectModal",
+        name: 'ProjectModal',
         params: {
           solution: this.segmentObject.projects[this.next_index].projectSlug,
         },
-      });
+      })
     },
     previous() {
       /** Move to the previous index. */
       this.active_index =
         this.active_index - 1 < 0
           ? this.segmentObject.projects.length - 1
-          : this.active_index - 1;
+          : this.active_index - 1
 
       /** Extarct the previous project. */
       this.previous_index =
         0 == this.active_index
           ? this.segmentObject.projects.length - 1
-          : this.active_index - 1;
+          : this.active_index - 1
 
       /** Extarct the next project. */
       this.next_index =
         this.segmentObject.projects.length - 1 == this.active_index
           ? 0
-          : this.active_index + 1;
+          : this.active_index + 1
 
       this.$router.push({
-        name: "ProjectModal",
+        name: 'ProjectModal',
         params: {
           solution: this.segmentObject.projects[this.previous_index]
             .projectSlug,
         },
-      });
+      })
     },
   },
-};
+}
 </script>

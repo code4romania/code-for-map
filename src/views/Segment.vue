@@ -98,96 +98,96 @@
 </template>
 
 <script>
-  import postMessage from "../utils/postMessage";
+import postMessage from '../utils/postMessage'
 
-  import HighwayHeader from "../components/map/HighwayHeader";
-  import SegmentHeader from "../components/map/SegmentHeader";
-  import SegmentLegend from "../components/map/SegmentLegend";
+import HighwayHeader from '../components/map/HighwayHeader'
+import SegmentHeader from '../components/map/SegmentHeader'
+import SegmentLegend from '../components/map/SegmentLegend'
 
-  export default {
-    name: "Segment",
-    props: {
-      data: {
-        type: Object,
+export default {
+  name: 'Segment',
+  props: {
+    data: {
+      type: Object,
+    },
+  },
+  components: {
+    HighwayHeader,
+    SegmentHeader,
+    SegmentLegend,
+  },
+  data() {
+    return {
+      slug: this.$route.params.slug,
+      segmentSlug: this.$route.params.segment,
+      code4ro_map: [],
+      segmentObject: [],
+      showModal: false,
+      modalTop: 0,
+      modalLeft: '50%',
+    }
+  },
+  /** Vue created life cycle initialize data for this route. */
+  created() {
+    this.code4ro_map = this.data.code4ro_map.find(
+      item => item.slug == this.slug
+    )
+    this.segmentObject = this.code4ro_map.highway_segments.find(
+      item => item.segmentSlug == this.segmentSlug
+    )
+
+    this.data.back_to_map.visible = true
+
+    // const segmentProjects = document.getElementsByClassName("btn-project");
+    // segmentProjects.forEach((segmentProject) => {
+    //   segmentProject.addEventListener("click", () => {
+    //     const projectId = segmentProject.getAttribute("projectid");
+    //     const project = this.segmentObject.projects.find(
+    //       (segmentProject) => segmentProject.id == projectId
+    //     );
+    //     this.$router.push({
+    //       name: "ProjectModal",
+    //       params: {
+    //         solution: project.projectSlug,
+    //       },
+    //     });
+    //   });
+    // });
+  },
+  watch: {
+    $route: {
+      immediate: true,
+      handler: function(to) {
+        this.showModal = to.meta && to.meta.showModal
       },
     },
-    components: {
-      HighwayHeader,
-      SegmentHeader,
-      SegmentLegend,
-    },
-    data() {
-      return {
-        slug: this.$route.params.slug,
-        segmentSlug: this.$route.params.segment,
-        code4ro_map: [],
-        segmentObject: [],
-        showModal: false,
-        modalTop: 0,
-        modalLeft: "50%",
-      };
-    },
-    /** Vue created life cycle initialize data for this route. */
-    created() {
-      this.code4ro_map = this.data.code4ro_map.find(
-        (item) => item.slug == this.slug
-      );
-      this.segmentObject = this.code4ro_map.highway_segments.find(
-        (item) => item.segmentSlug == this.segmentSlug
-      );
+  },
+  mounted() {
+    postMessage({ height: document.documentElement.scrollHeight })
 
-      this.data.back_to_map.visible = true;
+    const projects = document.getElementsByClassName('btn-project')
 
-      // const segmentProjects = document.getElementsByClassName("btn-project");
-      // segmentProjects.forEach((segmentProject) => {
-      //   segmentProject.addEventListener("click", () => {
-      //     const projectId = segmentProject.getAttribute("projectid");
-      //     const project = this.segmentObject.projects.find(
-      //       (segmentProject) => segmentProject.id == projectId
-      //     );
-      //     this.$router.push({
-      //       name: "ProjectModal",
-      //       params: {
-      //         solution: project.projectSlug,
-      //       },
-      //     });
-      //   });
-      // });
-    },
-    watch: {
-      $route: {
-        immediate: true,
-        handler: function (to) {
-          this.showModal = to.meta && to.meta.showModal;
+    projects.forEach(project => {
+      project.addEventListener('click', () => {
+        this.projectClicked(parseInt(project.getAttribute('projectid'), 10))
+      })
+    })
+  },
+  methods: {
+    projectClicked(index) {
+      this.$router.push({
+        name: 'ProjectModal',
+        params: {
+          slug: this.slug,
+          segment: this.segmentSlug,
+          solution: this.segmentObject.projects[index - 1].projectSlug,
         },
-      },
+      })
+      this.modalTop = '0px'
     },
-    mounted() {
-      postMessage({ height: document.documentElement.scrollHeight });
-
-      const projects = document.getElementsByClassName("btn-project");
-
-      projects.forEach((project) => {
-        project.addEventListener("click", () => {
-          this.projectClicked(parseInt(project.getAttribute("projectid"), 10));
-        });
-      });
+    mobileProjectClicked(event) {
+      this.modalTop = event.target.getBoundingClientRect().top + 'px'
     },
-    methods: {
-      projectClicked(index) {
-        this.$router.push({
-          name: "ProjectModal",
-          params: {
-            slug: this.slug,
-            segment: this.segmentSlug,
-            solution: this.segmentObject.projects[index - 1].projectSlug,
-          },
-        });
-        this.modalTop = "0px";
-      },
-      mobileProjectClicked(event) {
-        this.modalTop = event.target.getBoundingClientRect().top + "px";
-      },
-    },
-  };
+  },
+}
 </script>
