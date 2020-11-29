@@ -1,20 +1,22 @@
 <template>
-  <div
-    class="MapButton-wrap"
-    :style="{ top: top, left: left }"
-  >
+  <div class="MapButton-wrap" :style="{ top: top, left: left }">
     <!-- Main map button links to highway -->
     <router-link
       :to="{ name: 'Highway', params: { slug: highway.slug }, hash: '#map' }"
       class="badge-pill btn bg-white scale MapButton"
-      :class="[`btn-outline-${highway.color}`, $route.name != 'Map' ? 'btn-opacity' : '']"
+      :class="[
+        `btn-outline-${highway.color}`,
+        $route.name != 'Map' ? 'btn-opacity' : '',
+      ]"
     >
-      <div
-        class="d-flex align-items-center"
-        @click="updateIframe()"
-      >
-        <svg class="icon"><use :xlink:href="'#logo-' + highway.slug" /></svg>
-        <div class="text-dark font-weight-bold text-left d-block ml-2 MapButton-label">
+      <div class="d-flex align-items-center" @click="updateIframe()">
+        <img
+          class="icon"
+          :src="require(`../../assets/svg/icons/logo-${highway.slug}.svg`)"
+        />
+        <div
+          class="text-dark font-weight-bold text-left d-block ml-2 MapButton-label"
+        >
           {{ highway.title }}
         </div>
       </div>
@@ -30,26 +32,26 @@ export default {
   props: {
     highway: {
       type: Object,
-      default: () => {}
+      default: () => {},
     },
     top: {
       type: String,
-      default: ""
+      default: "",
     },
     left: {
       type: String,
-      default: ""
+      default: "",
     },
     color: {
       type: String,
-      default: ""
-    }
+      default: "",
+    },
   },
   methods: {
     updateIframe() {
       postMessage({ height: document.documentElement.scrollHeight });
-    }
-  }
+    },
+  },
 };
 </script>
 

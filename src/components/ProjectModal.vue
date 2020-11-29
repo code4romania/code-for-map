@@ -1,9 +1,6 @@
 <template>
   <div v-if="project">
-    <div
-      class="py-1"
-      :class="`bg-` + highwayMap.color"
-    />
+    <div class="py-1" :class="`bg-` + highwayMap.color" />
 
     <div class="ProjectModal px-4">
       <div class="mt-4 d-flex align-items-center justify-content-between">
@@ -14,9 +11,10 @@
             class="ProjectModal-nav"
             @click.prevent="previous"
           >
-            <svg class="icon icon-md">
-              <use xlink:href="#chevron-left" />
-            </svg>
+            <img
+              class="icon icon-md"
+              src="../assets/svg/icons/chevron-left.svg"
+            />
             <span class="ml-lg-2 text-primary border-bottom border-primary">
               {{ data.general.modal.previous.text }}
             </span>
@@ -30,9 +28,10 @@
             <span class="mr-lg-2 text-primary border-bottom border-primary">
               {{ data.general.modal.next.text }}
             </span>
-            <svg class="icon icon-md">
-              <use xlink:href="#chevron-right" />
-            </svg>
+            <img
+              class="icon icon-md"
+              src="../assets/svg/icons/chevron-right.svg"
+            />
           </a>
         </div>
         <div>
@@ -42,7 +41,7 @@
               params: { slug: slug, segment: segmentSlug },
             }"
           >
-            <svg class="icon"><use xlink:href="#close" /></svg>
+            <img class="icon icon-md" src="../assets/svg/icons/close.svg" />
           </router-link>
         </div>
       </div>
@@ -67,23 +66,14 @@
       </div>
 
       <b-row class="mb-4">
-        <b-col
-          xs="12"
-          md="4"
-        >
+        <b-col xs="12" md="4">
           <div class="ProjectModal-visual text-center border border-gray mb-3">
             <div>
-              <img
-                class="img-fluid"
-                :src="projectIcon"
-              >
+              <img class="img-fluid" :src="projectIcon" />
             </div>
           </div>
         </b-col>
-        <b-col
-          xs="12"
-          md="8"
-        >
+        <b-col xs="12" md="8">
           <div class="SegmentLegend-status d-flex align-items-center mb-3">
             <i
               class="icon icon-circle"
@@ -97,14 +87,12 @@
                 : data.segment_legend.designed
             }}
           </div>
-          <div
-            class="mb-4"
-            v-html="project.description"
-          />
+          <div class="mb-4" v-html="project.description" />
           <div class="d-flex align-items-center mb-2">
-            <svg class="icon icon-md mr-2">
-              <use xlink:href="#icon-heart" />
-            </svg>
+            <img
+              class="icon icon-md mr-2"
+              src="../assets/svg/icons/icon-heart.svg"
+            />
             <span v-if="project.adopted">{{
               data.segment_legend.adopted
             }}</span>
@@ -115,20 +103,14 @@
             <b-col cols="12">
               <b-row v-if="project.adopted">
                 <template v-for="(partner, index) in project.adopted_by">
-                  <b-col
-                    :key="index"
-                    cols="3"
-                  >
+                  <b-col :key="index" cols="3">
                     <a
                       :href="partner.link"
                       target="_blank"
                       class="d-block border border-gray PartnersList-itemWrap"
                     >
                       <div class="PartnersList-item">
-                        <img
-                          :src="partner.logo"
-                          class="img-fluid"
-                        >
+                        <img :src="partner.logo" class="img-fluid" />
                       </div>
                     </a>
                   </b-col>
@@ -155,27 +137,27 @@
 
 <script>
 export default {
-  name: 'ProjectModal',
+  name: "ProjectModal",
   props: {
     data: {
       type: Object,
-      default: () => {}
+      default: () => {},
     },
     highwayMap: {
       type: Object,
-      default: () => {}
+      default: () => {},
     },
     segmentObject: {
       type: Object,
-      default: () => {}
+      default: () => {},
     },
     slug: {
       type: String,
-      default: ""
+      default: "",
     },
     segmentSlug: {
       type: String,
-      default: ""
+      default: "",
     },
     // active_index: Number
   },
@@ -185,76 +167,78 @@ export default {
       solutionSlug: this.$route.params.solution,
       project: {},
       active_index: null,
-      projectIcon: '',
-    }
+      projectIcon: "",
+    };
   },
   watch: {
     $route(to) {
       this.project = this.segmentObject.projects.find(
-        item => item.projectSlug == to.params.solution
-      )
+        (item) => item.projectSlug == to.params.solution
+      );
 
-      this.projectIcon = require('../assets/images/projects/' +
+      this.projectIcon = require("../assets/images/projects/" +
         this.project.icon +
-        '.png')
+        ".png");
 
-      const pageTitle = to.params.slug + ' - ' +
-        to.params.segment ? to.params.segment : '' + ' - '+
-        to.params.solution ? to.params.solution : ''
+      const pageTitle =
+        to.params.slug + " - " + to.params.segment
+          ? to.params.segment
+          : "" + " - " + to.params.solution
+          ? to.params.solution
+          : "";
 
       this.$gtag.pageview({
         page_title: pageTitle,
-        page_path: to.path
-      })
+        page_path: to.path,
+      });
     },
   },
   created() {
     /** Extract the current active project index. */
     for (let index = 0; index < this.segmentObject.projects.length; index++) {
-      if (
-        this.segmentObject.projects[index].projectSlug == this.solutionSlug
-      ) {
-        this.active_index = index
-        break
+      if (this.segmentObject.projects[index].projectSlug == this.solutionSlug) {
+        this.active_index = index;
+        break;
       }
     }
   },
   mounted() {
     this.project = this.segmentObject.projects.find(
-      item => item.projectSlug == this.solutionSlug
-    )
+      (item) => item.projectSlug == this.solutionSlug
+    );
 
-    this.projectIcon = require('../assets/images/projects/' +
+    this.projectIcon = require("../assets/images/projects/" +
       this.project.icon +
-      '.png')
+      ".png");
   },
   methods: {
     next() {
       /** Move to the next index. */
-      this.active_index = this.active_index + 1 < this.segmentObject.projects.length
-        ? this.active_index + 1
-        : 0
+      this.active_index =
+        this.active_index + 1 < this.segmentObject.projects.length
+          ? this.active_index + 1
+          : 0;
 
       this.$router.push({
-        name: 'ProjectModal',
+        name: "ProjectModal",
         params: {
           solution: this.segmentObject.projects[this.active_index].projectSlug,
         },
-      })
+      });
     },
     previous() {
-      this.active_index = this.active_index - 1 >= 0
-        ? this.active_index - 1
-        : this.segmentObject.projects.length - 1
+      this.active_index =
+        this.active_index - 1 >= 0
+          ? this.active_index - 1
+          : this.segmentObject.projects.length - 1;
 
       this.$router.push({
-        name: 'ProjectModal',
+        name: "ProjectModal",
         params: {
-          solution: this.segmentObject.projects[this.active_index]
-            .projectSlug,
+          solution: this.segmentObject.projects[this.active_index].projectSlug,
         },
-      })
+      });
     },
   },
-}
+};
 </script>

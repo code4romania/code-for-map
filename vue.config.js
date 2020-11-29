@@ -1,49 +1,34 @@
-/* eslint-disable */
-const SpriteLoaderPlugin = require('svg-sprite-loader/plugin')
-const webpack = require('webpack')
-
 module.exports = {
   lintOnSave: true,
   css: {
-    sourceMap: true
+    sourceMap: true,
   },
   publicPath: "/",
   outputDir: "dist",
   assetsDir: "",
   runtimeCompiler: false,
   productionSourceMap: false,
-  configureWebpack: config => {
-    config.plugins.push(
-      new SpriteLoaderPlugin({
-        plainSprite: true,
-        spriteAttrs: {
-          style: 'position: absolute; width: 0; height: 0;'
-        }
-      })
-    )
 
-    config.entry.app.push('./src/injectSVG.js')
-  },
-  chainWebpack: config => {
-    config.module
-      .rule('vue')
-      .use('vue-loader')
-      .loader('vue-loader')
-      .tap(options => {
-        options.compilerOptions.whitespace = 'condense'
-        return options
-      })
+  chainWebpack: (config) => {
+    const svgRule = config.module.rule("svg");
 
-    const svgRule = config.module.rule('svg')
-    svgRule.uses.clear()
+    svgRule.uses.clear();
 
     svgRule
-      .use('svg-sprite-loader')
-      .loader('svg-sprite-loader')
+      .oneOf("inline")
+      .resourceQuery(/inline/)
+      .use("babel-loader")
+      .loader("babel-loader")
+      .end()
+      .use("vue-svg-loader")
+      .loader("vue-svg-loader")
+      .end()
+      .end()
+      .oneOf("external")
+      .use("file-loader")
+      .loader("file-loader")
       .options({
-        symbolId: '[name]',
-        extract: true,
-        spriteFilename: 'sprite.svg'
-      })
-  }
+        name: "assets/[name].[hash:8].[ext]",
+      });
+  },
 };

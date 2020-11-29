@@ -1,7 +1,10 @@
 <template>
   <div class="MapContainer-wrap">
     <div class="MapContainer">
-      <svg class="w-100 h-100"><use xlink:href="#map-color" /></svg>
+      <img
+        class="w-100 h-100"
+        src="../assets/svg/illustrations/map-color.svg"
+      />
     </div>
 
     <template v-for="highway in data.code4ro_map">
@@ -32,19 +35,19 @@ export default {
   name: "Map",
   /** Registered components. */
   components: {
-    MapButton
+    MapButton,
   },
   /** Recived props. */
   props: {
     data: {
       type: Object,
-      default: () => {}
-    }
+      default: () => {},
+    },
   },
   mounted() {
     postMessage({ height: document.documentElement.scrollHeight });
 
     this.data.back_to_map.visible = false;
-  }
+  },
 };
 </script>

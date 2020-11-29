@@ -1,16 +1,15 @@
 <template>
   <div class="HighwayHeader d-lg-none">
     <div class="d-flex align-items-center HighwayHeader-logo mb-3">
-      <svg class="icon icon-lg"><use :xlink:href="'#logo-' + logo" /></svg>
+      <img
+        class="icon icon-lg"
+        :src="require(`../../assets/svg/icons/logo-${logo}.svg`)"
+      />
       <h2 class="ml-3 mb-0">
         {{ title }}
       </h2>
     </div>
-    <p
-      v-if="description"
-      class="d-lg-none mb-4"
-      v-html="description"
-    />
+    <p v-if="description" class="d-lg-none mb-4" v-html="description" />
   </div>
 </template>
 
@@ -20,16 +19,16 @@ export default {
   props: {
     logo: {
       type: String,
-      default: ""
+      default: "",
     },
     title: {
       type: String,
-      default: ""
+      default: "",
     },
     description: {
       type: String,
-      default: ""
-    }
-  }
+      default: "",
+    },
+  },
 };
 </script>

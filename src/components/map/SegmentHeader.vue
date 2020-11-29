@@ -4,27 +4,20 @@
       :to="{ name: 'Highway', params: { slug: slug } }"
       class="SegmentHeader-close"
     >
-      <svg class="icon icon-sm"><use xlink:href="#close" /></svg>
+      <img class="icon icon-sm" src="../../assets/svg/icons/close.svg" />
     </router-link>
 
-    <svg class="icon icon-yuge"><use :xlink:href="'#icon-' + icon" /></svg>
+    <img
+      class="icon"
+      :src="require(`../../assets/svg/icons/icon-${icon}.svg`)"
+    />
     <div class="text-center">
-      <div
-        class="badge badge-primary Segment-status mt-3"
-        v-html="status"
-      />
-      <h2
-        class="text-center font-weight-light"
-        :class="`text-${color}`"
-      >
+      <div class="badge badge-primary Segment-status mt-3" v-html="status" />
+      <h2 class="text-center font-weight-light" :class="`text-${color}`">
         {{ title }}
       </h2>
     </div>
-    <div
-      v-if="description"
-      class="SegmentHeader-desc"
-      v-html="description"
-    />
+    <div v-if="description" class="SegmentHeader-desc" v-html="description" />
   </div>
 </template>
 
@@ -34,29 +27,29 @@ export default {
   props: {
     icon: {
       type: String,
-      default: ""
+      default: "",
     },
     slug: {
       type: String,
-      default: ""
+      default: "",
     },
     color: {
       type: String,
-      default: ""
+      default: "",
     },
     title: {
       type: String,
-      default: ""
+      default: "",
     },
     description: {
       type: String,
-      default: ""
+      default: "",
     },
     status: {
       type: String,
-      default: ""
-    }
-  }
+      default: "",
+    },
+  },
 };
 </script>
 

@@ -4,19 +4,22 @@
       name: 'Segment',
       params: {
         slug: slug,
-        segment: segmentSlug
+        segment: segmentSlug,
       },
       hash: '#map'
     }"
     class="d-lg-none d-flex justify-content-between align-items-center SegmentButton ListItem"
   >
     <div class="SegmentButton-icon">
-      <svg class="icon icon-md"><use :xlink:href="'#icon-' + segmentSlug" /></svg>
+      <img
+        class="icon icon-md"
+        :src="require(`../../assets/svg/icons/icon-${segmentSlug}.svg`)"
+      />
     </div>
     <div class="flex-fill mx-2">
       {{ title }}
     </div>
-    <svg class="icon"><use xlink:href="#chevron-right" /></svg>
+    <img class="icon" src="../../assets/svg/icons/chevron-right.svg" />
   </router-link>
 </template>
 
@@ -26,16 +29,16 @@ export default {
   props: {
     slug: {
       type: String,
-      default: ""
+      default: "",
     },
     segmentSlug: {
       type: String,
-      default: ""
+      default: "",
     },
     title: {
       type: String,
-      default: ""
-    }
-  }
+      default: "",
+    },
+  },
 };
 </script>
