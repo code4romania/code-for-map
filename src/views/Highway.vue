@@ -116,7 +116,7 @@
 </template>
 
 <script>
-import postMessage from "../utils/postMessage";
+import { postMessageHeight } from "../utils/postMessage";
 
 import MapButton from "../components/map/MapButton";
 import HighwayButton from "../components/map/HighwayButton";
@@ -170,7 +170,7 @@ export default {
     this.highway = this.data.code4ro_map.find((item) => item.slug == this.slug);
     this.data.back_to_map.visible = true;
 
-    postMessage({ height: document.documentElement.scrollHeight });
+    postMessageHeight();
   },
 };
 </script>
