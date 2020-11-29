@@ -6,7 +6,7 @@
         {{ title }}
       </h2>
     </div>
-    <div
+    <p
       v-if="description"
       class="d-lg-none mb-4"
       v-html="description"

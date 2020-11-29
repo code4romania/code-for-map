@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <b-container fluid>
-      <div class="MapHero">
+      <div class="MapHero mb-5">
         <b-row
           no-gutters
           class="Header-wrap"
@@ -37,15 +37,18 @@
           align-v="end"
           class="MapHero-wrap"
         >
-          <b-col
-            lg="3"
+          <!-- <b-col
+            lg="2"
           >
             <Legend
               :legend="data.map_legend"
             />
-          </b-col>
+          </b-col> -->
           <b-col
             lg="9"
+            offset-lg="3"
+            xl="10"
+            offset-xl="2"
             class="MapHero-map"
           >
             <router-view :data="data" />
@@ -112,7 +115,7 @@
             class="btn btn-strong-blue btn-lg px-5"
             :href="data.more_info.download_pdf_link"
             target="_blank"
-            download
+            @click.prevent="downloadPlan()"
           >{{ data.more_info.download_pdf_cta }}</a>
         </b-col>
       </b-row>
@@ -232,7 +235,8 @@
 </template>
 
 <script>
-import debouce from "lodash.debounce"
+import debouce from "lodash.debounce";
+import { saveAs } from 'file-saver';
 
 import data from "./data/ro.json";
 
@@ -265,6 +269,22 @@ export default {
     window.onresize = debouce(() => {
       postMessage({ height: document.documentElement.scrollHeight });
     }, 500);
+  },
+  methods: {
+    downloadPlan() {
+      const request = new XMLHttpRequest();
+
+      request.open("GET", this.data.more_info.download_pdf_link, true);
+      request.responseType = "blob";
+
+      request.onload = () => {
+        const file = new Blob([request.response], { type: "application/pdf" });
+
+        saveAs(blob, "Code_4_Romania_-_Digitalizam_Romania_impreuna.pdf");
+      }
+
+      request.send();
+    }
   }
 };
 </script>

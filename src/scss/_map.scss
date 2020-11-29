@@ -1,5 +1,7 @@
 .MapHero-wrap {
-  min-height: 700px;
+  @include respond-above(lg) {
+    min-height: 700px;
+  }
 }
 
 .MapHero-map {

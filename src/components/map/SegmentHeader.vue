@@ -8,12 +8,18 @@
     </router-link>
 
     <svg class="icon icon-yuge"><use :xlink:href="'#icon-' + icon" /></svg>
-    <h2
-      class="text-center font-weight-light py-3"
-      :class="`text-${color}`"
-    >
-      {{ title }}
-    </h2>
+    <div class="text-center">
+      <div
+        class="badge badge-primary Segment-status"
+        v-html="status"
+      />
+      <h2
+        class="text-center font-weight-light"
+        :class="`text-${color}`"
+      >
+        {{ title }}
+      </h2>
+    </div>
     <div
       v-if="description"
       class="SegmentHeader-desc"
@@ -43,6 +49,10 @@ export default {
       default: ""
     },
     description: {
+      type: String,
+      default: ""
+    },
+    status: {
       type: String,
       default: ""
     }

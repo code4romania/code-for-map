@@ -83,7 +83,7 @@
             lg="10"
           >
             <p
-              class="lead my-4"
+              class="my-4"
               v-html="highway.description"
             />
           </b-col>

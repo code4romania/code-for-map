@@ -247,6 +247,7 @@
           "id": 1,
           "segmentSlug": "fara-violenta-acasa",
           "segment_visual": "segment-care-01-fara-violenta-acasa",
+          "status": "Proiectare finalizată",
           "title": "Fără violență acasă",
           "description": "<p>Pentru prea multe familii, acasă nu mai reprezintă locul în care găsesc echilibrul necesar și un refugiu în fața grijilor, iar nesiguranța resimțită în propria casă este un sentiment pe care nimeni nu ar trebui să-l trăiască.</p><p>Violența domestică, fie că vizează relația de cuplu, copiii sau persoanele în vârstă, are un trecut bogat în România, iar urmele lăsate în viața victimelor sunt greu de remediat.</p><p>Indiferent că vorbim despre violență verbală, psihologică, fizică, sexuală sau economică, am ales să analizăm acest domeniu pentru a  ne concentra  atenția asupra unui fenomen vitregit de atenția care i se cuvine, într-o societate care continuă să îl normalizeze.</p>",
           "btn": {
@@ -423,6 +424,7 @@
           "id": 6,
           "segmentSlug": "diaspora-mai-aproape-de-casa",
           "segment_visual": "segment-care-02-diaspora-mai-aproape-de-casa",
+          "status": "Proiectare în desfășurare",
           "title": "Diaspora mai aproape de casă",
           "description": "<p>Statisticile recente ne pun față în față cu o realitate dură: peste 1 din 5 cetățeni români nu mai locuiesc în țară. Poate și mai îngrijorător este faptul că mulți dintre românii care au emigrat au luat această decizie în urma lipsurilor și a condițiilor de trai precare.</p><p>Ne îndreptăm atenția asupra unor fenomene des întâlnite precum: fragmentarea familiilor care duce inevitabil la vulnerabilitate din punct de vedere economic, social sau psihologic, dar și la limitarea accesului românilor din diaspora la serviciile statutului și protecția oferită de acesta.</p>",
           "btn": {
@@ -482,6 +484,7 @@
           "id": 5,
           "segmentSlug": "incluziune-pentru-persoanele-lgbtq",
           "segment_visual": "segment-care-03-incluziune-pentru-persoanele-lgbtq",
+          "status": "Începe în martie 2021",
           "title": "Incluziune pentru persoanele LGBTQ+",
           "description": "<p>Au trecut doar 20 de ani de când statul român pedepsea cu închisoarea relațiile de dragoste dintre persoanele de același sex. De atunci și până acum, societatea civilă luptă continuu pentru drepturilor și libertăților persoanelor LGBTQ+.</p><p>Deși lucrurile se îmbunătățesc într-un ritm lent, acceptarea și integrarea lor încă reprezintă o problemă în spațiul public, iar consecințele au un impact sever pentru membrii comunității, dar și pentru întreaga societate.</p><p>Ne uităm atent la fenomenul discriminării pe criterii de orientare sexuală și identitate de gen în vederea dezvoltării unor soluții de tehnologie civică menite să sprijine aceste comunități.</p>",
           "btn": {
@@ -496,6 +499,7 @@
           "id": 4,
           "segmentSlug": "fara-discriminare-impotriva-etniei-rome",
           "segment_visual": "segment-care-04-fara-discriminare-impotriva-etniei-rome",
+          "status": "Începe în martie 2022",
           "title": "Fără discriminare împotriva etniei rome",
           "description": "<p>Discriminarea etnică a romilor este unul din principalele obstacole pentru integrarea lor în societate ca cetățeni cu drepturi depline, iar oferirea de șanse egale reprezintă o problemă structurală și istorică a României.</p><p>Nu putem avea o țară sănătoasă și prosperă decât dacă toți cetățenii ei sunt acceptați, sprijiniți și au acces la toate șansele posibile de dezvoltare. Din păcate, problemele generale ale societății românești sunt acutizate în cazul minorității rome, iar discriminarea duce la excluderea unor membri care pot aduce valoare întregii societăți.</p><p>Audităm toate aceste probleme și aducem în fața publicului larg soluții care sprijină integrarea comunității rome în colectivitate.</p>",
           "btn": {
@@ -510,6 +514,7 @@
           "id": 2,
           "segmentSlug": "sanse-pentru-persoanele-cu-dizabilitati",
           "segment_visual": "segment-care-05-sanse-pentru-persoane-cu-disabilitati",
+          "status": "Începe în martie 2023",
           "title": "Șanse pentru persoanele cu dizabilități",
           "description": "<p>Infrastructura României în ceea ce privește persoanele cu dizabilități este una deficitară, așa că îmbunătățirea calității vieții acestei categorii sociale defavorizate este un proces complicat și lent.</p><p>Spectrul dizabilităților este unul larg, iar lipsurile și atitudinile cu care aceștia se confruntă îi împiedică să trăiască într-un mediu sigur, tolerant și prietenos.</p><p>Trebuie să construim o țară, comunități și orașe accesibile tuturor, motiv pentru care ne îndreptăm atenția către persoanele care suferă de dizabilități variate și relația dintre acestea și modul în care le sunt, sau nu, facilitate anumite procese.</p>",
           "btn": {
@@ -524,6 +529,7 @@
           "id": 3,
           "segmentSlug": "o-viata-buna-pentru-copiii-abandonati",
           "segment_visual": "segment-care-06-o-viata-buna-pentru-copiii-adoptati",
+          "status": "Începe în martie 2024",
           "title": "O viață bună pentru copiii abandonați",
           "description": "<p>În România, problema abandonului și a instituționalizării copiilor reprezintă o lungă luptă de a oferi o șansă la familie copiilor abandonați. Studiile arată că abandonul în primii ani după naștere poate duce la dificultăţi din punct de vedere al dezvoltării emoţionale şi comportamentale pe tot parcursul vieții.</p><p>Toți avem nevoie de ancora unei familii în viața noastră. Însă pentru cei care la început de drum nu au parte de ea, întreaga comunitate trebuie să constituie sprijinul necesar în lipsa unei familii. Susținem și dezvoltăm activ soluții tehnologice care să poată ameliora calitatea vieții și dezvoltarea acestora.</p>",
           "btn": {
@@ -538,6 +544,7 @@
           "id": 7,
           "segmentSlug": "fara-trafic-de-persoane",
           "segment_visual": "segment-care-07-fara-trafic-de-persoane",
+          "status": "Începe în martie 2024",
           "title": "Fără trafic de persoane",
           "description": "<p>România rămâne o sursă primară de victime ale traficului în scopuri sexuale și de muncă, aspect ce ne-a plasat pe locul I într-un clasament ce vizează țările din Europa.</p><p>În timp ce datoria de bază a oricărei comunități este să ofere și să apere siguranța membrilor ei în fața oricăror amenințări, victimele traficului de persoane nu sunt protejate, iar eforturile de combatere a acestui fenomen sunt prea puțin semnificative.</p><p>Urmărim indicatori de trafic de persoane în rândul comunităților vulnerabile și modalități prin care împreună, prin intermediul tehnologiei, putem stopa creșterea numărului de victime, dar și construi pârghii pentru ocrotirea acestora.</p>",
           "btn": {
@@ -573,6 +580,7 @@
           "id": 6,
           "segmentSlug": "grija-pentru-sanatatea-mamei-si-a-copilului",
           "segment_visual": "segment-health-01-grija-pentru-sanatatea-mamei-si-a-copilului",
+          "status": "Proiectare finalizată",
           "title": "Grija pentru sanatatea mamei si a copilului",
           "description": "<p>Sarcina și primele luni de viață ale unui copil reprezintă momente-cheie în viața oricărui părinte la început de drum. Provocările sunt numeroase: de la perioada de învățare accelerată pentru părinți și riscuri medicale până la vulnerabilități psihologice și financiare.</p><p>Sistemul sanitar ne-a pus adesea în fața unor imagini dezolante, însă lucrurile pot fi schimbate cu dedicare și cu soluții bine implementate care să ofere sprijinul și îndrumarea necesare pentru a remedia punctele cele mai dureroase pentru toți actorii implicați.</p>",
           "btn": {
@@ -723,6 +731,7 @@
           "id": 5,
           "segmentSlug": "sprijin-pentru-cei-grav-bolnavi",
           "segment_visual": "segment-health-02-sprijin-pentru-cei-grav-bolnavi",
+          "status": "Proiectare în desfășurare",
           "title": "Sprijin pentru cei grav bolnavi",
           "description": "<p>Persoanele care suferă de boli cronice, cum ar fi diabetul, cancerul, hepatita sau bolile cardiovasculare au nevoie de asistență medicală de lungă durată și de monitorizare permanentă. Specificul acestor boli și gravitatea simptomelor schimbă configurația vieții celor care suferă de ele, dar și a familiilor lor, ceea ce duce la vulnerabilități din punct de vedere psihic, emoțional și financiar. Analizăm întreaga infrastructură sanitară care se adresează nevoilor lor și ne propunem să aducem în discuție nevoia de resurse umane bine pregătite și necesitatea unor mecanisme funcționale și la îndemâna pacienților.</p>",
           "btn": {
@@ -804,6 +813,7 @@
           "id": 4,
           "segmentSlug": "servicii-de-sanatate-eficiente",
           "segment_visual": "segment-health-03-servicii-de-sanatate-eficiente",
+          "status": "Începe în martie 2021",
           "title": "Servicii de sănătate eficiente",
           "description": "<p>Accesul la servicii funcționale de sănătate reprezintă o nevoie fundamentală a oricărei societăți, indiferent că discutăm despre nivelul de prevenție, intervențiile de urgență sau tratamentele anevoioase pe termen lung.</p><p>În plan local, comunitățile au de parcurs un drum dificil chiar și în ceea ce privește accesul la servicii medicale de bază. Barierele geografice, financiare și de cunoaștere împiedică membri ai societății să beneficieze de servicii ce intră sub incidența drepturilor fiecărui cetățean.</p><p>Ne uităm la toate aceste aspecte și dezvoltăm instrumente tehnologice care să funcționeze în sprijinul pacienților pentru a fluidiza întregul sistem.</p>",
           "btn": {
@@ -818,6 +828,7 @@
           "id": 3,
           "segmentSlug": "spitale-functionale",
           "segment_visual": "segment-health-04-spitale-functionale",
+          "status": "Începe în martie 2022",
           "title": "Spitale funcționale",
           "description": "<p>Managementul spitalelor reprezintă o provocare instituțională complexă de ale cărei rezultate depinde buna tratare a pacienților. Un sistem funcțional este cel care poate prelua și trata eficient atât cazurile de zi cu zi, cât și situațiile critice apărute în urma producerii unui dezastru de orice natură.</p><p>Eficiența sistemului medical este o consecință firească a unor fluxuri interne corect executate care au loc dincolo de interfața cu pacientul.</p><p>În România, drumul către o asemenea eficacitate este unul anevoios și perfectibil, astfel că ne asumăm responsabilitatea de a cerceta și de a veni în sprijinul autorităților și al pacienților cu produse tehnologice destinate unei mai bune organizări între instituțiile sanitare.</p>",
           "btn": {
@@ -832,6 +843,7 @@
           "id": 2,
           "segmentSlug": "sprijin-nu-pedeapsa-pentru-dependenti",
           "segment_visual": "segment-health-05-sprijin-nu-pedeapsa-pentru-dependenti",
+          "status": "Începe în martie 2023",
           "title": "Sprijin nu pedeapsa pentru dependenti",
           "description": "<p>Persoanele dependente au nevoie de sprijin pe termen lung, de înțelegere din partea comunității și de încredere în cei la care apelează.</p><p>Tulburările din sfera dependenței nu ar trebui să definească persoanele care trec prin astfel de greutăți, însă, scăpate de sub control, ele pot ajunge să le acapareze viața și să îi afecteze pe cei din jur.</p><p>Este o problemă deosebit de frecventă și, din păcate, foarte puțin înțeleasă. Dependența trebuie privită ca o tulburare mentală, nu ca o slăbiciune morală sau lipsă de voință, astfel că ne concentrăm atenția pe aspectele care pot fi schimbate și îmbunătățite în abordarea și tratarea dependenților.</p>",
           "btn": {
@@ -846,6 +858,7 @@
           "id": 1,
           "segmentSlug": "sanatate-mentala-pentru-toti",
           "segment_visual": "segment-health-06-sanatate-mentala-pentru-toti",
+          "status": "Începe în martie 2024",
           "title": "Sanatate mintala pentru toti",
           "description": "<p>Grija pentru sănătatea mintală ar trebui să fie la fel de firească precum preocuparea pentru un corp sănătos prin exerciții fizice și o alimentație corespunzătoare.</p><p>La nivel național, însă, infrastructura de prevenție și tratare a bolilor psihice este deficitară atât în ceea ce privește starea de bine a psihicului de zi cu zi, cât și pentru probleme grave și tot mai des întâlnite precum depresia, anxietatea sau afecțiunile psihiatrice.</p><p>Ne propunem să combatem stigmatul bolilor mintale și să apelăm la soluții digitale care să îmbunătățească fluxurile dintre instituțiile abilitate și pacienți.</p>",
           "btn": {
@@ -877,6 +890,7 @@
           "id": 8,
           "segmentSlug": "alegeri-corecte-alegatori-informati",
           "segment_visual": "segment-participation-01-alegeri-corecte-alegatori-informati",
+          "status": "Proiectare finalizată",
           "title": "Alegeri corecte. Alegători informați.",
           "description": "<p>Dacă vrem o democrație funcțională și reprezentativă, avem nevoie de o participare semnificativă și informată a unui număr cât mai mare de cetățeni la un proces transparent și corect de alegeri. Iar tehnologia poate oferi soluții care să asigure buna desfășurare a procesului de votare, precum și o mai bună informare a alegătorilor.</p><p>Fără alegeri libere și corecte, nu există democrație.</p>",
           "btn": {
@@ -1008,6 +1022,7 @@
           "id": 9,
           "segmentSlug": "date-deschise",
           "segment_visual": "segment-participation-02-date-deschise",
+          "status": "Proiectare finalizată",
           "title": "Date deschise",
           "description": "<p>Transparența presupune, în primul rând acces liber și neîngrădit la date de interes public. Fără acces la date nu îi putem verifica pe cei care ne conduc. La rândul lor, cei care elaborează politici publice nu o pot face fără a înțelege cu adevărat fenomenele pe care vrem să le corectăm. Deciziile bune se iau pe baza accesului la date și informații , fie că este vorba despre cetățeni obișnuiți, de primari sau miniștri.</p> <p>Ne propunem să echipăm societatea civilă, comunitățile și administrația publică cu acele instrumente digitale care să îi ajute să ia cele mai bune decizii pentru orașele în care locuiesc. Pentru a le face cu adevărat utile, traducem datele în informație ușor de înțeles și îmbunătățim sistemele de colectare de date.</p>",
           "btn": {
@@ -1074,6 +1089,7 @@
           "id": 10,
           "segmentSlug": "legislatie-accesibila",
           "segment_visual": "segment-participation-03-legislatie-accesibila",
+          "status": "Proiectare finalizată",
           "title": "Acces la legislație",
           "description": "<p>Relația dintre stat și cetățean are la baza respectarea unui set de reguli, dar acest lucru nu se poate întâmpla în practică fără cunoașterea și înțelegerea legilor.</p> <p>Accesul liber la legislație este o nevoie, dar și un drept al cetățenilor. În același timp, simplul acces nu este suficient. Înțelegerea textului legii, deconstruirea procesului legislativ pentru publicul larg, creșterea transparenței și a gradului de participare a oamenilor la consultările publice, toate reprezintă  componente esențiale pentru un stat sănătos. Tehnologia ne poate ajuta pe toți să fim mai aproape de cei care construiesc sistemul și să înțelegem mai bine cum ne influențează viața și ce instrumente avem la dispoziție pentru a ne implica în luarea deciziilor la nivel legislativ.</p>",
           "btn": {
@@ -1202,6 +1218,7 @@
           "id": 7,
           "segmentSlug": "o-societate-civila-puternica",
           "segment_visual": "segment-participation-04-societate-civila-puternica",
+          "status": "Proiectare în desfășurare",
           "title": "O societate civila puternica",
           "description": "<p>ONG-urile lucrează zi de zi pentru ca societatea în care trăim să fie mai funcțională. Orice problemă a lor devine, implicit și o problemă a noastră. Instrumentele digitale pot veni în sprijinul societății civile, oferind nu doar eficiență, ci și transparență și reprezentativitate sectorului ONG.</p><p>Pe lângă îmbunătățirea proceselor interne ale asociațiilor și organizațiilor din societatea civilă, tehnologia poate facilita și accesul tuturor la serviciile oferite de către acestea.</p>",
           "btn": {
@@ -1388,8 +1405,9 @@
           "id": 6,
           "segmentSlug": "o-mai-buna-relatie-cetatean-stat",
           "segment_visual": "segment-participation-05-o-mai-buna-relatie-cetatean-stat",
+          "status": "Proiectare în desfășurare",
           "title": "O mai buna relatie cetetean-stat",
-          "description": "<p>În relația cu statul care ar trebui să le servească interesele, mulți cetățeni se confruntă cu un sentiment de frustrare, generat adesea de ineficiența cu care autoritățile  își îndeplinesc misiunea misiunea.</p> <p>Pentru a avea un stat mai deschis și mai operativ în apărarea intereselor cetățenilor, ne propunem să digitalizăm procesele care, depinzând de procese bazate pe hârtie și dosare cu șină, consumă timp și resurse, deteriorînd relația dintre cetățeni și instituțiile statului</p>.",
+          "description": "<p>În relația cu statul care ar trebui să le servească interesele, mulți cetățeni se confruntă cu un sentiment de frustrare, generat adesea de ineficiența cu care autoritățile  își îndeplinesc misiunea misiunea.</p> <p>Pentru a avea un stat mai deschis și mai operativ în apărarea intereselor cetățenilor, ne propunem să digitalizăm procesele care, depinzând de procese bazate pe hârtie și dosare cu șină, consumă timp și resurse, deteriorînd relația dintre cetățeni și instituțiile statului.</p>",
           "btn": {
             "top": "57%",
             "left": "40%"
@@ -1480,6 +1498,7 @@
           "id": 4,
           "segmentSlug": "institutii-centrale-functionale",
           "segment_visual": "segment-participation-06-institutii-centrale-functionale",
+          "status": "Începe în martie 2021",
           "title": "Institutii centrale functionale",
           "description": "<p>Pentru a putea răspunde nevoilor cetățenilor și a oferi servicii publice de calitate, instituțiile centrale trebuie să aibă întâi procese clare și eficiente prin care să își gestioneze activitatea internă. Digitalizarea poate îmbunătăți felul în care instituțiile funcționează și comunică unele cu altele, făcându-le nu doar mai transparente, ci și mai apropiate de nevoile reale ale cetățenilor.</p>",
           "btn": {
@@ -1494,6 +1513,7 @@
           "id": 3,
           "segmentSlug": "primarii-functionale",
           "segment_visual": "segment-participation-07-primarii-functionale",
+          "status": "Începe în martie 2022",
           "title": "Primării funcționale",
           "description": "<p>Primăriile și celelalte autorități locale sunt printre primele instituții cu care cetățenii au contact în relația lor cu statul. Nevoia bunei funcționări prin procese interne este cu atât mai intens resimțită. Funcționarea bună, în primul rând la nivel intern, va face în mod natural ca interacțiuni dificile ale cetățenilor cu primăriile să devină mai ușoare și mai eficiente.</p>",
           "btn": {
@@ -1508,6 +1528,7 @@
           "id": 2,
           "segmentSlug": "jurnalisti-eficienti",
           "segment_visual": "segment-participation-08-jurnalisti-eficienti",
+          "status": "Începe în martie 2023",
           "title": "Jurnalisti eficienti",
           "description": "<p>Rolul fundamental al presei este acela de a monitoriza acțiunile factorilor de decizie, observând neregulile și informând publicul. 'Câinele de pază al democrației' trece în ultimii ani printr-o perioadă de transformare și reinventare, fiind în căutarea acelor instrumente digitale prin care să poată răspunde exigențelor actuale.</p>",
           "btn": {
@@ -1541,6 +1562,7 @@
           "id": 1,
           "segmentSlug": "acces-la-cultura",
           "segment_visual": "segment-participation-09-acces-la-cultura",
+          "status": "Începe în martie 2024",
           "title": "Acces la cultura",
           "description": "<p>Cultura este un factor determinant în creșterea calității vieții, făcând-o mai plină de sens, mai frumoasă și mai armonioasă. Pentru creatori, uneltele digitale pot să asigure o gestionare mai bună a resurselor, în timp ce pentru consumatorii de cultură, tehnologia poate reprezenta o cale ușoară prin care pot avea acces la producții artistice.</p>",
           "btn": {
@@ -1595,6 +1617,7 @@
           "id": 6,
           "segmentSlug": "profesori-bine-pregatiti",
           "segment_visual": "segment-education-01-profesori-bine-pregatiti",
+          "status": "Proiectare finalizată",
           "title": "Profesori bine pregatiti",
           "description": "România nu poate avea un sistem educațional funcțional fără profesori bine pregătiți. Cu cât vom avea profesori mai buni, vom avea elevi mai performanți, pasionați și bine instruiți. Indiferent dacă predau în ciclurile pre-universitare sau în învățământul superior, profesorii sunt repere, fiind principala interfață dintre sistemul educațional și elev. Drumul nostru începe cu ei, pentru că profesorii sunt factori multiplicatori. Mai mulți profesori bine pregătiți înseamnă de zeci de ori mai mulți elevi care primesc o educație de calitate.",
           "btn": {
@@ -1708,6 +1731,7 @@
           "id": 5,
           "segmentSlug": "abilitati-pentru-viata-reala",
           "segment_visual": "segment-education-02-abilitati-pentru-viata-reala",
+          "status": "Proiectare în desfășurare",
           "title": "Abilități pentru viața reală",
           "description": "Rolul sistemului educațional este de a ne face cunoștință cu lumea, pentru a funcționa bine în ea și a o îmbunătăți și îmbogăți apoi la rândul nostru. Cu toate acestea, la noi, școala se concentrează aproape exclusiv pe științe și arte, nu și pe abilități. Multe dintre nevoile elevilor de a înțelege lumea nu se regăsesc în programele școlare (educație digitală, media, sanitară, financiară, sau pentru dezvoltarea de soft skills).",
           "btn": {
@@ -1789,6 +1813,7 @@
           "id": 4,
           "segmentSlug": "acces-la-educatie",
           "segment_visual": "segment-education-03-acces-la-educatie",
+          "status": "Începe în martie 2021",
           "title": "Acces la educație",
           "description": "Accesul tuturor copiilor la sistemul de educație, deși este prevăzut în documentele și statisticile instituționale, nu este o realitate pentru mulți dintre copiii României. Acest lucru se întâmplă fie pentru că resursa umană este deficitară sau insuficient pregătită, fie pentru că în multe zone defavorizate, infrastructura proastă sau inexistentă e o piedică în calea actului educațional. Pentru foarte mulți copii, accesul la educație și la infrastructura educațională necesară (inclusiv consiliere psihologică sau educațională) este doar formal. Anul 2020 a arătat cu atât mai mult că sistemul educațional nu este pregătit să ofere tuturor elevilor acces la servicii educaționale de calitate.",
           "btn": {
@@ -1803,6 +1828,7 @@
           "id": 3,
           "segmentSlug": "invatamant-preuniversitar-de-calitate",
           "segment_visual": "segment-education-04-invatamant-preuniversitar-de-calitate",
+          "status": "Începe în martie 2022",
           "title": "Învățământ preuniverisitar de calitate",
           "description": "Tehnologia poate aduce un suflu nou în felul în care sunt predate în școli și licee materiile din programele școlare. Pentru multe dintre disciplinele studiate, putem găsi metode îmbunătățite, diversificate, interactive și atractive de predare cu ajutorul tehnologiei.",
           "btn": {
@@ -1817,6 +1843,7 @@
           "id": 2,
           "segmentSlug": "invatamant-universitar-de-calitate",
           "segment_visual": "segment-education-05-invatamant-universitar-de-calitate",
+          "status": "Începe în martie 2023",
           "title": "Învățământ universitar de calitate",
           "description": "Universitățile din România pregătesc generațiile noi de profesioniști care construiesc societatea românească. Tehnologia poate aduce un plus de valoare în procesul de învățare, de cercetare sau în activitățile practice desfășurate în facultate, oferind acces ușor la resurse și crescând calitatea actului formator.",
           "btn": {
@@ -1831,6 +1858,7 @@
           "id": 1,
           "segmentSlug": "scoli-sigure-si-bine-administrate",
           "segment_visual": "segment-education-06-scoli-sigure-si-bine-administrate",
+          "status": "Începe în martie 2024",
           "title": "Școli sigure și bine administrate",
           "description": "Mediul în care un elev se formează are o importanță determinantă pentru viitorul lui, nu doar prin ceea ce se întâmplă la ore ci și prin felul în care școala trebuie să reprezinte un loc sigur, adecvat și gândit pentru a sprijini procesul de învățare. Felul în care școlile sunt administrate poate fi îmbunătățit cu ajutorul tehnologiei, pentru a le face să fie spații mai sigure, ferite de amenințări pentru elevi, în care bullying-ul nu este tolerat, iar atmosfera generală încurajează învățarea în spirit colegial.",
           "btn": {
@@ -1867,6 +1895,7 @@
           "id": 9,
           "segmentSlug": "pregatiti-pentru-urmatorul-dezastru-natural",
           "segment_visual": "segment-environment-01-pregatiti-pentru-urmatorul-dezastru-natural",
+          "status": "Proiectare finalizată",
           "title": "Pregătiți pentru următorul dezastru natural",
           "description": "<p>În fața dezastrelor naturale suntem vulnerabili, unele dintre daunele și pierderile de vieți cauzate de acestea fiind inevitabile. În schimb, pagubele cauzate de dezastrele imprevizibile pot fi multiplicate de neștiința și lipsa noastră de pregătire. Tehnologia ne poate face mai siguri pe noi, sprijinindu-ne în momentele în care panica pune stăpânire pe noi sau ajutându-ne să ne organizăm eficient și să răspundem nevoilor de ajutor cât de repede cu putință.</p>",
           "btn": {
@@ -2196,6 +2225,7 @@
           "id": 8,
           "segmentSlug": "pregatiti-pentru-urmatorul-cutremur",
           "segment_visual": "segment-environment-02-pregatiti-pentru-urmatorul-cutremur",
+          "status": "Proiectare finalizată",
           "title": "Pregătiți pentru următorul cutremur",
           "description": "<p>Un cutremur în România nu reprezintă un pericol ipotetic, ci o certitudine. Și despre el știm un singur lucru: este cel mai imprevizibil dezastru de amploare care ni se poate întâmpla.</p><p>Am ales să ne îndreptăm atenția spre domeniul pregătirii și răspunsului în caz de seism deoarece ne dorim să înțelegem concret care este capacitatea noastră de a răspunde unui asemenea eveniment și cât de pregătiți suntem, la nivel individual, să facem față unui cutremur.</p>",
           "btn": {
@@ -2302,6 +2332,7 @@
           "id": 7,
           "segmentSlug": "masurarea-poluarii",
           "segment_visual": "segment-environment-03-masurarea-poluarii",
+          "status": "Proiectare în desfășurare",
           "title": "Măsurarea poluării",
           "description": "<p>România este una dintre țările cu cele mai multe victime provocate de poluare din Uniunea Europeană. Singura modalitate de a acționa împotriva acestei amenințări este să înțelegem magnitudinea fenomenului prin extragerea și analizarea unor date corecte și complete legate de modul în care aceasta se manifestă la nivel național.</p><p>Cercetăm extensiv și dezvoltăm soluții tehnologice care să vizeze toate sursele de poluare care pot afecta serios mediul înconjurător, dar și calitatea vieții: poluarea aerului, a apei, a solului, poluarea fonică și luminoasă.</p>",
           "btn": {
@@ -2350,6 +2381,7 @@
           "id": 6,
           "segmentSlug": "reducerea-poluarii",
           "segment_visual": "segment-environment-04-reducerea-poluarii",
+          "status": "Proiectare în desfășurare",
           "title": "Reducerea poluarii",
           "description": "<p>Reducerea poluării este una dintre cele mai mari provocări cu care umanitatea se confruntă în ultimele zeci de ani. Diminuarea efectelor nocive asupra planetei și a calității vieții este un demers care poate fi aplicat cu succes doar dacă se implementează măsuri concrete de control și reducere a factorilor poluanți.</p><p>Studiem diferitele tipuri de reducere a nivelului de poluare precum: procese de repunere în uz, producție curată, eficiență energetică, eficiență în infrastructura de transport sau reducerea deșeurilor și generăm soluții cu impact la nivel sistemic pentru combaterea efectelor pe termen lung.</p>",
           "btn": {
@@ -2376,6 +2408,7 @@
           "id": 5,
           "segmentSlug": "reciclarea-si-managementul-deseurilor",
           "segment_visual": "segment-environment-05-reciclarea-si-managementul-deseurilor",
+          "status": "Începe în martie 2021",
           "title": "Reciclarea și managementul deșeurilor",
           "description": "<p>În 2019, umanitatea a produs un număr record de deșeuri dintre care nici măcar un sfert nu au fost reciclate. Practic, am produs o cantitate de deșeuri care, cumulată, este mai mare decât greutatea tuturor oamenilor adulți din Europa.</p><p>Sustenabilitatea vieții pe pământ depinde în mod direct de identificarea celor mai bune metode de reciclare și management al deșeurilor și gunoiului.</p><p>Este probabil una dintre cele mai mari provocări ale generației noastre, motiv pentru care ne propunem să contribuim prin instrumente digitale la procesele de reciclare și administrare a deșeurilor rezultate în urma reciclării.</p>",
           "btn": {
@@ -2390,6 +2423,7 @@
           "id": 4,
           "segmentSlug": "orase-prietenoase",
           "segment_visual": "segment-environment-06-orase-prietenoase",
+          "status": "Începe în martie 2022",
           "title": "Orașe prietenoase",
           "description": "<p>Deși dezvoltarea orașelor are ca prim obiectiv deservirea locuitorilor, în România zona urbană nu a fost concepută având în minte cetățenii. Mai mult decât atât, ne lovim tot mai des de improvizații care nu sunt sustenabile sau decizii care afectează și chiar înrăutățesc calitatea vieții.</p><p>Tehnologia este unul dintre cele mai eficiente instrumente care pot fi utilizate în transformarea orașelor în spații locuibile, accesibile și prietenoase, dezvoltate în mod responsabil și inteligent.</p>",
           "btn": {
@@ -2404,6 +2438,7 @@
           "id": 3,
           "segmentSlug": "sate-dezvoltate",
           "segment_visual": "segment-environment-07-sate-dezvoltate",
+          "status": "Începe în martie 2023",
           "title": "Sate dezvoltate",
           "description": "<p>Peste jumătate din populația României locuiește în mediul rural sau în condiții echivalente traiului în mediul rural.</p><p>Calitatea vieții la sate se măsoară atât prin veniturile pe cap de locuitor, cât și prin accesul populației la condiții de trai civilizate, aliniate cu cele din mediul urban. Tocmai de aceea, nu poate exista o strategie de dezvoltare a României care să nu includă intervenții în tot ceea ce intră sub incidența infrastructurii rurale. De aceea, căutăm soluții de tehnologie civică menite să îmbunătățească nivelul de trai și indicii de progres.</p>",
           "btn": {
@@ -2418,6 +2453,7 @@
           "id": 2,
           "segmentSlug": "protectia-naturii",
           "segment_visual": "segment-environment-08-protectia-naturii",
+          "status": "Începe în martie 2024",
           "title": "Protectia naturii",
           "description": "<p>România are una dintre cele mai bogate biodiversități din Europa, iar datorită poziției geografice beneficiem de un capital natural impresionant. Cu toate astea, perioada de dezvoltare și tranziție economică pe care o parcurgem prezintă un risc în lipsa unei strategii coerente și asumate de protecție a naturii.</p><p>Stilul de viață actual și deciziile cu privire la ocrotirea mediului înconjurător influențează negativ patrimoniul natural al țării, având consecințe pe termen lung care vizează direct generațiile viitoare.</p><p>Alături de instituțiile responsabile, de partenerii și voluntarii noștri, căutăm să reducem impactul nociv al degradării mediului înconjurător prin dezvoltarea unor unelte digitale care să contribuie la protejarea naturii în toate formele ei.</p>",
           "btn": {
@@ -2432,6 +2468,7 @@
           "id": 1,
           "segmentSlug": "paduri-protejate-si-sanatoase",
           "segment_visual": "segment-environment-09-paduri-protejate-si-sanatoase",
+          "status": "Începe în martie 2024",
           "title": "Păduri protejate și sănătoase",
           "description": "<p>Pădurile sunt una dintre cele mai importante resurse pe care România le deține. Dar sănătatea pădurilor este amenințată de exploatări forestiere ilegale care pun sub asediu zone care ar trebui, de altfel, să fie protejate prin lege.</p><p>Mutilarea pădurilor are efecte de durată asupra mediului, sănătății și siguranței populației. În plus, discutăm despre o resursă foarte prețioasă al cărei proces de regenerare durează zeci de ani, în timp ce defrișările ilegale pun la pământ sute de copaci în doar câteva zile.</p><p>Ne propunem să generăm soluții digitale care să contribuie la menținerea și protejarea pădurilor din România astfel încât să diminuăm riscul dispariției teritoriului împădurit al țării.</p>",
           "btn": {
