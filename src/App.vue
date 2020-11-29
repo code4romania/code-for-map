@@ -36,6 +36,7 @@
           </b-col>
         </b-row>
         <b-row
+          id="map"
           no-gutters
           align-v="end"
           class="MapHero-wrap"
