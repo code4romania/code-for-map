@@ -48,7 +48,7 @@ export default {
 
 <style scoped lang="scss">
 .Legend {
-  margin: 100px 0 0;
+  // margin: 100px 0 0;
 }
 
 .Legend h3 {

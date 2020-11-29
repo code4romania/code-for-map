@@ -76,4 +76,44 @@
   }
 }
 
-.ProjectModal {}
+.ListItem {
+  border-top: 1px solid $light-gray;
+  padding: 15px 0;
+  cursor: pointer;
+  
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  &:last-child {
+    border-bottom: 1px solid $light-gray;
+  }
+}
+
+.SegmentProjects {
+  position: relative;
+
+  .ListItem {
+    .icon {
+      z-index: $z-index-highway;
+      background: #fff;
+    }
+  
+    &::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 10px;
+      width: 4px;
+      height: 100%;
+      background: $gray;
+      z-index: $z-index-map;
+  
+      @include respond-above(lg) {
+        display: none;
+      }
+    }
+  }
+}
+

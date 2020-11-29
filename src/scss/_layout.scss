@@ -16,9 +16,16 @@ body {
   }
 }
 
+.MapHero {
+  position: relative;
+}
+
 .Header-wrap {
-  // margin-bottom: 80px;
-  // padding-top: 80px;
+  @include respond-above(lg) {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
 }
 
 p {

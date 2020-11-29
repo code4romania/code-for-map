@@ -23,34 +23,36 @@
           :status="data.segment_legend"
           :color="code4ro_map.color"
         />
-        <router-link
-          v-for="(project, index) in segmentObject.projects"
-          :key="index"
-          tag="div"
-          class="ListItem"
-          :to="{
-            name: 'ProjectModal',
-            params: {
-              solution: project.projectSlug,
-            },
-          }"
-        >
-          <div
-            class="d-flex align-items-center justify-content-between"
-            @click="mobileProjectClicked"
+        <div class="SegmentProjects">
+          <router-link
+            v-for="(project, index) in segmentObject.projects"
+            :key="index"
+            tag="div"
+            class="ListItem"
+            :to="{
+              name: 'ProjectModal',
+              params: {
+                solution: project.projectSlug,
+              },
+            }"
           >
-            <i
-              class="icon icon-circle"
-              :class="
-                project.adopted ? 'border-' + code4ro_map.color : 'border-gray'
-              "
-            />
-            <div class="flex-fill mx-2">
-              {{ project.title }}
+            <div
+              class="d-flex align-items-center justify-content-between"
+              @click="mobileProjectClicked"
+            >
+              <i
+                class="icon icon-circle"
+                :class="
+                  project.adopted ? 'border-' + code4ro_map.color : 'border-gray'
+                "
+              />
+              <div class="flex-fill mx-2">
+                {{ project.title }}
+              </div>
+              <svg class="icon"><use xlink:href="#chevron-right" /></svg>
             </div>
-            <svg class="icon"><use xlink:href="#chevron-right" /></svg>
-          </div>
-        </router-link>
+          </router-link>
+        </div>
       </div>
     </div>
 

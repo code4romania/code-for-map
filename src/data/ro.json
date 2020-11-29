@@ -17,7 +17,7 @@
   },
   "header": {
     "title": "Digitalizăm România împreună",
-    "description": "Navighează prin planul nostru de digitalizare a României cu ajutorul hărții de mai jos. Dă click pe oricare dintre destinațiile de mai jos pentru a descoperi soluțiile de care avem nevoie pentru a avea o țară funcțională. "
+    "description": "Am imaginat cinci 'autostrăzi' care conectează probleme majore ale societății românești, pentru a vedea unde poate digitalizarea să facă bine. Urmărește pe hartă fiecare drum, vezi ce am proiectat și construit deja și câte putem transforma în realitate împreună în următorii cinci ani."
   },
   "map_legend": {
     "title": "Legendă",
@@ -55,13 +55,13 @@
       "title": "Adoptă o porțiune de drum!",
       "content": "<p>Investești într-o soluție digitală care va produce schimbare sustenabilă.</p><p>Primești proiectul soluției pe care o alegi 'la cheie', deja realizat de Code for Romania.</p><p>Oferim consultare ONG-ului care va administra soluția aleasă de tine.</p><p>Te sprijinim monitorizând implementarea soluției.</p>",
       "label": "Adoptă o soluție",
-      "link": "mailto:contact@code4.ro"
+      "link": "mailto:putem@code4.ro"
     },
     "sponsor": {
       "title": "Fii partenerul nostru",
       "content": "<p>Devii unul dintre sponsorii strategici ai programelor Code for Romania.</p><p>Sau poți fi unul dintre sponsorii domeniilor noastre - Educație, Sănătate, Grupuri Vulnerabile, Mediu, Participare civică.</p>",
       "label": "Scrie-ne un e-mail",
-      "link": "mailto:contact@code4.ro"
+      "link": "mailto:putem@code4.ro"
     },
     "share": {
       "title": "Dă vestea mai departe",
@@ -72,13 +72,13 @@
     "finance": {
       "title": "Trimite-ne un e-mail",
       "color": "success",
-      "link": "mailto:contact@code4.ro"
+      "link": "mailto:putem@code4.ro"
     }
   },
   "more_info": {
     "download_pdf_cta": "Descarcă planul nostru",
-    "download_pdf_link": "",
-    "title": "Promisiunea noastră pentru următorii 5 ani",
+    "download_pdf_link": "https://code4.ro/storage/uploads/dd7d4d9a-2198-4032-a177-84ca042890fa/Condi%C8%9Bii-de-livrare---Code-for-Romania.pdf",
+    "title": "Următorii 5 ani",
     "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
     "youtube": "https://www.youtube.com/watch?v=tyYNP9IzfEY&ab_channel=MorningGlorycuR%C4%83zvanExarhu",
     "work": {
@@ -276,7 +276,7 @@
             {
               "id": 2,
               "projectSlug": "sunshine",
-              "title": "Colectare eficientă de date, comunicare securizată între instituții și management digital de caz de violență domestică",
+              "title": "Sunshine - Software de management de caz integrat",
               "subtitle": "Colectare eficientă de date, comunicare securizată între instituții și management digital de caz de violență domestică",
               "description": "Institutul Est European pentru Sănătatea Reproducerii, organizație acreditată în oferirea de servicii pentru victimele violenței domestice, a pilotat un sistem informatic cu participarea tuturor actorilor relevanți la nivelul județului Mureș. Acest sistem a permis unificarea documentelor asociate unui caz de violență domestică între instituții și ONG precum și standardizarea raportării. Programul s-a derulat cu succes pentru o perioadă lungă de timp, dar a fost întrerupt din motive de mentenanță tehnică. Reconstruirea acestui sistem software și implementarea sa la nivel de județ, vor putea servi drept model și caz de referință pentru implementarea sa la nivel național. Soluția este modulară, cu componente dedicate fiecărui actor potențial, ceea ce oferă o flexibilitate foarte mare la nivelul fiecărui județ de a utiliza modulele în funcție de disponibilitatea și capacitatea instituțiilor și a organizațiilor de a utiliza acest instrument digital pentru o mai bună acoperire a cazurilor.",
               "link": "",
@@ -1954,7 +1954,7 @@
               "subtitle": "Colectare coerentă și în siguranță a ajutoarelor pentru ONG-urile care luptă cu pandemia.",
               "description": "<p>HelpRo este o platformă digitală completă pusă la dispoziția organizațiilor implicate activ în limitarea efectelor epidemiei de Covid-19 pentru a colecta resursele de care acestea au mare nevoie. Cu ajutorul acestei platforme utilizatorii pot vedea care sunt cele mai presante nevoi ale organizațiilor de pe teritoriul țării și pot putea alege către ce cauză să doneze sau la ce eforturi să contribuie. </p>",
               "link": "https://www.code4.ro/ro/helpro",
-              "icon": "environment4ro-rohelp",
+              "icon": "environment4ro-helpro",
               "adopted": true,
               "adopted_by": [
                 {
@@ -2211,7 +2211,7 @@
               "subtitle": "Punct unic de căutare și de centralizare a tuturor informațiilor în caz de cutremur.",
               "description": "<p>În momentele imediat următoare unui dezastru major se va instala panica. Va deveni foarte dificil pentru orice persoană să își amintească pe ce website sau pe ce platformă ar putea găsi informații despre punctele de adunare, unde să meargă pentru a primi ajutor, cu ce autorități pot vorbi etc. Victimele au nevoie de un instrument simplu, la îndemână, care să le permită să caute tot ce le trebuie și să primească informații simple, concise sau liste clare de ONG-uri, autorități sau alte entități care le pot oferi ajutor. eCutremur este un centralizator de resurse utile organizate în jurul unui motor de căutare care va ajuta pe oricine să găsească informații utile în caz de dezastru - de la spitale, centre de ajutor, adăposturi, proceduri legale, informații legate de eforturile de intervenție, alte aplicații digitale utile etc</p>",
               "link": "https://www.code4.ro/ro/ecutremur",
-              "icon": "environment4ro-rvm",
+              "icon": "environment4ro-ecutremur",
               "adopted": true,
               "adopted_by": [
                 {
@@ -2229,7 +2229,7 @@
               "subtitle": "Harta clădirilor cu grad ridicat de risc și resurse utile pentru consolidare",
               "description": "<p>Gradul de interes cu privire la consolidarea clădirilor cu grad mare de risc este redus, ceea ce face mobilizarea proprietarilor foarte dificilă de către administratorii asociațiilor de locatari. În prezent, nu este clar pentru toți cei implicați ce eforturi trebuie făcute, la această situație contribuind și multe mituri care se învârt în jurul proceselor de consolidare care sporesc nivelul de dezinformare. Seismic Risc este o platformă de colectare și vizualizare de date despre clădirile cu risc seismic. Oferă detalii despre gradul de ocupare, informații utile despre consolidare, informații dedicate asociațiilor de proprietari și legislație explicată pe înțelesul tuturor.</p>",
               "link": "https://www.code4.ro/ro/seismic-risc",
-              "icon": "environment4ro-rvm",
+              "icon": "environment4ro-seismic-risc",
               "adopted": true,
               "adopted_by": [
                 {

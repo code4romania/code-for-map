@@ -1,51 +1,61 @@
 <template>
   <div id="app">
     <b-container fluid>
-      <b-row
-        class="Header-wrap mb-5"
-        no-gutters
-      >
-        <b-col
-          xs="12"
-          lg="3"
+      <div class="MapHero">
+        <b-row
+          no-gutters
+          class="Header-wrap"
         >
-          <div class="Info">
-            <div class="Header">
-              <h1
-                class="text-strong-blue mb-3"
-                v-html="data.header.title"
-              />
-              <p v-html="data.header.description" />
-            </div>
-            <router-link
-              v-if="data.back_to_map.visible"
-              :to="{ name: 'Map' }"
-              class="BackToMap mb-4 d-inline-block d-lg-none"
-            >
-              <div class="d-flex align-items-center">
-                <svg class="icon"><use xlink:href="#chevron-left" /></svg>
-                <div class="ml-2 text-primary border-bottom border-primary">
-                  {{ data.general.back_to_map }}
-                </div>
+          <b-col
+            lg="3"
+          >
+            <div class="Info">
+              <div class="Header">
+                <h1
+                  class="text-strong-blue mb-3"
+                  v-html="data.header.title"
+                />
+                <p v-html="data.header.description" />
               </div>
-            </router-link>
+              <router-link
+                v-if="data.back_to_map.visible"
+                :to="{ name: 'Map' }"
+                class="BackToMap mb-4 d-inline-block d-lg-none"
+              >
+                <div class="d-flex align-items-center">
+                  <svg class="icon"><use xlink:href="#chevron-left" /></svg>
+                  <div class="ml-2 text-primary border-bottom border-primary">
+                    {{ data.general.back_to_map }}
+                  </div>
+                </div>
+              </router-link>
+            </div>
+          </b-col>
+        </b-row>
+        <b-row
+          no-gutters
+          align-v="end"
+          class="MapHero-wrap"
+        >
+          <b-col
+            lg="3"
+          >
             <Legend
               :legend="data.map_legend"
             />
-          </div>
-        </b-col>
-        <b-col
-          xs="12"
-          lg="9"
-        >
-          <router-view :data="data" />
-        </b-col>
-      </b-row>
+          </b-col>
+          <b-col
+            lg="9"
+            class="MapHero-map"
+          >
+            <router-view :data="data" />
+          </b-col>
+        </b-row>
+      </div>
 
       <b-row class="mb-5">
         <b-col
-          xs="12"
-          lg="5"
+          lg="4"
           class="mb-4"
         >
           <h1 class="text-strong-blue mb-4">
@@ -56,8 +66,7 @@
           </p>
         </b-col>
         <b-col
-          xs="12"
-          lg="7"
+          lg="8"
         >
           <div class="embed-responsive embed-responsive-16by9 Video">
             <iframe
@@ -82,16 +91,15 @@
         <b-col
           v-for="(step, index) in data.more_info.work.steps"
           :key="'item-' + index"
-          xs="12"
           md="6"
           class="mb-4 HowWeWork-wrap"
         >
           <div class="HowWeWork">
             <div class="d-flex align-items-center justify-content-start mb-4">
               <svg class="icon icon-xl mr-4"><use :xlink:href="'#icon-' + step.icon" /></svg>
-              <h1 class="text-primary">
+              <h2 class="text-primary">
                 {{ step.title }}
-              </h1>
+              </h2>
             </div>
             <p>{{ step.content }}</p>
           </div>
@@ -104,6 +112,7 @@
             class="btn btn-strong-blue btn-lg px-5"
             :href="data.more_info.download_pdf_link"
             target="_blank"
+            download
           >{{ data.more_info.download_pdf_cta }}</a>
         </b-col>
       </b-row>
@@ -112,9 +121,11 @@
         {{ data.more_info.how.title }}
       </h1>
 
-      <b-row class="mb-5">
+      <b-row
+        class="mb-5 mt-5 HowWeDigi"
+        align-v="stretch"
+      >
         <b-col
-          xs="12"
           md="6"
           xl="3"
           class="mb-4"
@@ -125,54 +136,56 @@
           />
         </b-col>
         <b-col
-          xs="12"
           md="6"
           xl="3"
           class="mb-4"
         >
-          <h3 class="text-primary mb-4">
-            {{ data.call_to_action.partner.title }}
-          </h3>
-          <div v-html="data.call_to_action.partner.content" />
-          <a
-            :href="data.call_to_action.partner.link"
-            class="btn btn-lg btn-primary px-5"
-            target="_parent"
-          >{{ data.call_to_action.partner.label }}</a>
+          <div>
+            <h3 class="text-primary mb-4">
+              {{ data.call_to_action.partner.title }}
+            </h3>
+            <div v-html="data.call_to_action.partner.content" />
+            <a
+              :href="data.call_to_action.partner.link"
+              class="btn btn-lg btn-primary px-5"
+              target="_parent"
+            >{{ data.call_to_action.partner.label }}</a>
+          </div>
         </b-col>
         <b-col
-          xs="12"
           md="6"
           xl="3"
           class="mb-4"
         >
-          <h3 class="text-primary mb-4">
-            {{ data.call_to_action.sponsor.title }}
-          </h3>
-          <div v-html="data.call_to_action.sponsor.content" />
-          <a
-            :href="data.call_to_action.sponsor.link"
-            class="btn btn-lg btn-primary px-5"
-            target="_parent"
-          >{{ data.call_to_action.sponsor.label }}</a>
+          <div>
+            <h3 class="text-primary mb-4">
+              {{ data.call_to_action.sponsor.title }}
+            </h3>
+            <div v-html="data.call_to_action.sponsor.content" />
+            <a
+              :href="data.call_to_action.sponsor.link"
+              class="btn btn-lg btn-primary px-5"
+              target="_parent"
+            >{{ data.call_to_action.sponsor.label }}</a>
+          </div>
         </b-col>
         <b-col
-          xs="12"
           md="6"
           xl="3"
           class="mb-4"
         >
-          <h3 class="text-primary mb-4">
-            {{ data.call_to_action.share.title }}
-          </h3>
-          <div v-html="data.call_to_action.share.content" />
-          <Share :share="data.call_to_action.share" />
+          <div>
+            <h3 class="text-primary mb-4">
+              {{ data.call_to_action.share.title }}
+            </h3>
+            <div v-html="data.call_to_action.share.content" />
+            <Share :share="data.call_to_action.share" />
+          </div>
         </b-col>
       </b-row>
 
       <b-row>
         <b-col
-          xs="12"
           lg="6"
         >
           <div class="Partners-title mb-4">
@@ -184,7 +197,6 @@
         </b-col>
         <div class="w-100" />
         <b-col
-          xs="12"
           lg="6"
         >
           <PartnersList
@@ -195,7 +207,6 @@
       </b-row>
       <b-row>
         <b-col
-          xs="12"
           lg="8"
         >
           <PartnersList
