@@ -302,6 +302,10 @@ export default {
         const blob = new Blob([request.response], { type: "application/pdf" });
 
         saveAs(blob, "Code_4_Romania_-_Digitalizam_Romania_impreuna.pdf");
+
+        this.$gtag.event("download", {
+          'event_label': "plan downloaded"
+        });
       }
 
       request.send();
