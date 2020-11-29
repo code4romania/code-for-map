@@ -4,20 +4,33 @@
       :to="{ name: 'Highway', params: { slug: slug } }"
       class="SegmentHeader-close"
     >
-      <img class="icon icon-sm" src="../../assets/svg/icons/close.svg" />
+      <img
+        class="icon icon-sm"
+        src="../../assets/svg/icons/close.svg"
+      >
     </router-link>
 
     <img
       class="icon"
       :src="require(`../../assets/svg/icons/icon-${icon}.svg`)"
-    />
+    >
     <div class="text-center">
-      <div class="badge badge-primary Segment-status mt-3" v-html="status" />
-      <h2 class="text-center font-weight-light" :class="`text-${color}`">
+      <div
+        class="badge badge-primary Segment-status mt-3"
+        v-html="status"
+      />
+      <h2
+        class="text-center font-weight-light"
+        :class="`text-${color}`"
+      >
         {{ title }}
       </h2>
     </div>
-    <div v-if="description" class="SegmentHeader-desc" v-html="description" />
+    <div
+      v-if="description"
+      class="SegmentHeader-desc"
+      v-html="description"
+    />
   </div>
 </template>
 

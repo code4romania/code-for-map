@@ -14,18 +14,24 @@
     "
     :style="{ top: segmentButton.btn.top, left: segmentButton.btn.left }"
   >
-    <div v-if="segmentButton.icon_left" class="d-flex align-items-center">
+    <div
+      v-if="segmentButton.icon_left"
+      class="d-flex align-items-center"
+    >
       <img
         class="icon"
         :src="
           require(`../../assets/svg/icons/icon-${segmentButton.segmentSlug}.svg`)
         "
-      />
+      >
       <div class="text-dark text-left ml-2">
         {{ segmentButton.title }}
       </div>
     </div>
-    <div v-else class="d-flex align-items-center">
+    <div
+      v-else
+      class="d-flex align-items-center"
+    >
       <div class="text-dark text-right mr-2">
         {{ segmentButton.title }}
       </div>
@@ -34,7 +40,7 @@
         :src="
           require(`../../assets/svg/icons/icon-${segmentButton.segmentSlug}.svg`)
         "
-      />
+      >
     </div>
   </router-link>
 </template>

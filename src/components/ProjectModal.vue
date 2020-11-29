@@ -1,6 +1,9 @@
 <template>
   <div v-if="project">
-    <div class="py-1" :class="`bg-` + highwayMap.color" />
+    <div
+      class="py-1"
+      :class="`bg-` + highwayMap.color"
+    />
 
     <div class="ProjectModal px-4">
       <div class="mt-4 d-flex align-items-center justify-content-between">
@@ -14,7 +17,7 @@
             <img
               class="icon icon-md"
               src="../assets/svg/icons/chevron-left.svg"
-            />
+            >
             <span class="ml-lg-2 text-primary border-bottom border-primary">
               {{ data.general.modal.previous.text }}
             </span>
@@ -31,7 +34,7 @@
             <img
               class="icon icon-md"
               src="../assets/svg/icons/chevron-right.svg"
-            />
+            >
           </a>
         </div>
         <div>
@@ -41,7 +44,10 @@
               params: { slug: slug, segment: segmentSlug },
             }"
           >
-            <img class="icon icon-md" src="../assets/svg/icons/close.svg" />
+            <img
+              class="icon icon-md"
+              src="../assets/svg/icons/close.svg"
+            >
           </router-link>
         </div>
       </div>
@@ -66,14 +72,23 @@
       </div>
 
       <b-row class="mb-4">
-        <b-col xs="12" md="4">
+        <b-col
+          xs="12"
+          md="4"
+        >
           <div class="ProjectModal-visual text-center border border-gray mb-3">
             <div>
-              <img class="img-fluid" :src="projectIcon" />
+              <img
+                class="img-fluid"
+                :src="projectIcon"
+              >
             </div>
           </div>
         </b-col>
-        <b-col xs="12" md="8">
+        <b-col
+          xs="12"
+          md="8"
+        >
           <div class="SegmentLegend-status d-flex align-items-center mb-3">
             <i
               class="icon icon-circle"
@@ -87,12 +102,15 @@
                 : data.segment_legend.designed
             }}
           </div>
-          <div class="mb-4" v-html="project.description" />
+          <div
+            class="mb-4"
+            v-html="project.description"
+          />
           <div class="d-flex align-items-center mb-2">
             <img
               class="icon icon-md mr-2"
               src="../assets/svg/icons/icon-heart.svg"
-            />
+            >
             <span v-if="project.adopted">{{
               data.segment_legend.adopted
             }}</span>
@@ -103,14 +121,20 @@
             <b-col cols="12">
               <b-row v-if="project.adopted">
                 <template v-for="(partner, index) in project.adopted_by">
-                  <b-col :key="index" cols="3">
+                  <b-col
+                    :key="index"
+                    cols="3"
+                  >
                     <a
                       :href="partner.link"
                       target="_blank"
                       class="d-block border border-gray PartnersList-itemWrap"
                     >
                       <div class="PartnersList-item">
-                        <img :src="partner.logo" class="img-fluid" />
+                        <img
+                          :src="partner.logo"
+                          class="img-fluid"
+                        >
                       </div>
                     </a>
                   </b-col>

@@ -6,7 +6,10 @@
       target="_blank"
       class="mr-4"
     >
-      <img class="icon icon-lg" src="../assets/svg/icons/share-fb.svg" />
+      <img
+        class="icon icon-lg"
+        src="../assets/svg/icons/share-fb.svg"
+      >
     </a>
 
     <a
@@ -15,7 +18,10 @@
       target="_blank"
       class="mr-4"
     >
-      <img class="icon icon-lg" src="../assets/svg/icons/share-tw.svg" />
+      <img
+        class="icon icon-lg"
+        src="../assets/svg/icons/share-tw.svg"
+      >
     </a>
 
     <a
@@ -24,7 +30,10 @@
       target="_blank"
       class="mr-4"
     >
-      <img class="icon icon-lg" src="../assets/svg/icons/share-li.svg" />
+      <img
+        class="icon icon-lg"
+        src="../assets/svg/icons/share-li.svg"
+      >
     </a>
   </div>
 </template>

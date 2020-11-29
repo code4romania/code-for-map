@@ -7,7 +7,7 @@
                     ${color ? color : 'default'}
                     .svg`)
       "
-    />
+    >
   </div>
 </template>
 

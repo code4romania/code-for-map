@@ -1,5 +1,8 @@
 <template>
-  <div class="MapButton-wrap" :style="{ top: top, left: left }">
+  <div
+    class="MapButton-wrap"
+    :style="{ top: top, left: left }"
+  >
     <!-- Main map button links to highway -->
     <router-link
       :to="{ name: 'Highway', params: { slug: highway.slug }, hash: '#map' }"
@@ -9,11 +12,14 @@
         $route.name != 'Map' ? 'btn-opacity' : '',
       ]"
     >
-      <div class="d-flex align-items-center" @click="updateIframe()">
+      <div
+        class="d-flex align-items-center"
+        @click="updateIframe()"
+      >
         <img
           class="icon"
           :src="require(`../../assets/svg/icons/logo-${highway.slug}.svg`)"
-        />
+        >
         <div
           class="text-dark font-weight-bold text-left d-block ml-2 MapButton-label"
         >

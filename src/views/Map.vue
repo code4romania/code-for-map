@@ -4,7 +4,7 @@
       <img
         class="w-100 h-100"
         src="../assets/svg/illustrations/map-color.svg"
-      />
+      >
     </div>
 
     <template v-for="highway in data.code4ro_map">

@@ -6,7 +6,10 @@
       :description="highway.description"
     />
 
-    <div v-if="highway.sponsor" class="Highway-partner my-4 d-lg-none">
+    <div
+      v-if="highway.sponsor"
+      class="Highway-partner my-4 d-lg-none"
+    >
       <div class="d-inline-block mb-2">
         {{ data.general.financed_by }}
       </div>
@@ -15,7 +18,10 @@
         target="_blank"
         class="d-block border border-gray"
       >
-        <img :src="highway.sponsor.logo" class="img-fluid" />
+        <img
+          :src="highway.sponsor.logo"
+          class="img-fluid"
+        >
       </a>
     </div>
 
@@ -27,18 +33,21 @@
               <img
                 class="w-100 h-100"
                 src="../assets/svg/illustrations/map-bw.svg"
-              />
+              >
             </div>
           </div>
 
-          <router-link :to="{ name: 'Map' }" class="d-none d-lg-block">
+          <router-link
+            :to="{ name: 'Map' }"
+            class="d-none d-lg-block"
+          >
             <div class="MapContainer">
               <img
                 class="w-100 h-100"
                 :src="
                   require(`../assets/svg/illustrations/${highway.highway_bg}.svg`)
                 "
-              />
+              >
             </div>
           </router-link>
 
@@ -74,7 +83,10 @@
         <div class="d-none d-lg-block">
           <b-row>
             <b-col lg="2">
-              <div v-if="highway.sponsor" class="Highway-partner m-0">
+              <div
+                v-if="highway.sponsor"
+                class="Highway-partner m-0"
+              >
                 <div class="d-inline-block mb-2">
                   {{ data.general.financed_by }}
                 </div>
@@ -83,12 +95,18 @@
                   target="_blank"
                   class="d-block border border-gray"
                 >
-                  <img :src="highway.sponsor.logo" class="img-fluid" />
+                  <img
+                    :src="highway.sponsor.logo"
+                    class="img-fluid"
+                  >
                 </a>
               </div>
             </b-col>
             <b-col lg="10">
-              <p class="lead text-right my-4" v-html="highway.description" />
+              <p
+                class="lead text-right my-4"
+                v-html="highway.description"
+              />
             </b-col>
           </b-row>
         </div>

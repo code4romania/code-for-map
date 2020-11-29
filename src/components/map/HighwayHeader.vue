@@ -4,12 +4,16 @@
       <img
         class="icon icon-lg"
         :src="require(`../../assets/svg/icons/logo-${logo}.svg`)"
-      />
+      >
       <h2 class="ml-3 mb-0">
         {{ title }}
       </h2>
     </div>
-    <p v-if="description" class="d-lg-none mb-4" v-html="description" />
+    <p
+      v-if="description"
+      class="d-lg-none mb-4"
+      v-html="description"
+    />
   </div>
 </template>
 

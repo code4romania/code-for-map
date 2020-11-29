@@ -16,7 +16,10 @@
         :status="segmentObject.status"
       />
 
-      <div v-if="segmentObject.projects.length" class="ProjectsList">
+      <div
+        v-if="segmentObject.projects.length"
+        class="ProjectsList"
+      >
         <SegmentLegend
           :status="data.segment_legend"
           :color="code4ro_map.color"
@@ -49,7 +52,10 @@
               <div class="flex-fill mx-2">
                 {{ project.title }}
               </div>
-              <img class="icon" src="../assets/svg/icons/chevron-right.svg" />
+              <img
+                class="icon"
+                src="../assets/svg/icons/chevron-right.svg"
+              >
             </div>
           </router-link>
         </div>
@@ -63,7 +69,10 @@
           class="SegmentVisual-close d-inline-block"
         >
           <div class="d-flex align-items-center">
-            <img class="icon" src="../assets/svg/icons/chevron-left.svg" />
+            <img
+              class="icon"
+              src="../assets/svg/icons/chevron-left.svg"
+            >
             <div class="ml-2 text-primary border-bottom border-primary">
               {{ data.general.back_to_map }}
             </div>
@@ -88,12 +97,18 @@
           <div class="badge badge-primary Segment-status mb-3">
             {{ segmentObject.status }}
           </div>
-          <div class="lead" v-html="segmentObject.description" />
+          <div
+            class="lead"
+            v-html="segmentObject.description"
+          />
         </div>
       </b-col>
     </b-row>
 
-    <div v-if="showModal" class="modal-route">
+    <div
+      v-if="showModal"
+      class="modal-route"
+    >
       <div
         id="projectModal"
         class="modal-content"

@@ -14,12 +14,15 @@
       <img
         class="icon icon-md"
         :src="require(`../../assets/svg/icons/icon-${segmentSlug}.svg`)"
-      />
+      >
     </div>
     <div class="flex-fill mx-2">
       {{ title }}
     </div>
-    <img class="icon" src="../../assets/svg/icons/chevron-right.svg" />
+    <img
+      class="icon"
+      src="../../assets/svg/icons/chevron-right.svg"
+    >
   </router-link>
 </template>
 
