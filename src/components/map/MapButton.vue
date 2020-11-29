@@ -9,7 +9,10 @@
       class="badge-pill btn bg-white scale MapButton"
       :class="[`btn-outline-${highway.color}`, $route.name != 'Map' ? 'btn-opacity' : '']"
     >
-      <div class="d-flex align-items-center">
+      <div
+        class="d-flex align-items-center"
+        @click="updateIframe()"
+      >
         <svg class="icon"><use :xlink:href="'#logo-' + highway.slug" /></svg>
         <div class="text-dark font-weight-bold text-left d-block ml-2 MapButton-label">
           {{ highway.title }}
@@ -20,10 +23,10 @@
 </template>
 
 <script>
+import postMessage from "../../utils/postMessage";
+
 export default {
-  /** Component name. */
   name: "MapButton",
-  /** Recived props. */
   props: {
     highway: {
       type: Object,
@@ -40,6 +43,11 @@ export default {
     color: {
       type: String,
       default: ""
+    }
+  },
+  methods: {
+    updateIframe() {
+      postMessage({ height: document.documentElement.scrollHeight });
     }
   }
 };
