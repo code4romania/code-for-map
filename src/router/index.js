@@ -60,12 +60,7 @@ const router = new VueRouter({
     const elementToScroll = document.getElementById(locationHash);
 
     if (elementToScroll) {
-      postMessage({
-        navigate: {
-          to,
-          from,
-        },
-      });
+      postMessage({ navigate: true });
       const topPosition =
         elementToScroll.getBoundingClientRect().top + window.pageYOffset;
       return {
