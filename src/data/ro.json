@@ -17,7 +17,7 @@
   },
   "header": {
     "title": "Digitalizăm România împreună",
-    "description": "Am imaginat cinci 'autostrăzi' care conectează probleme majore ale societății românești, pentru a vedea unde poate digitalizarea să facă bine. Urmărește pe hartă fiecare drum, vezi ce am proiectat și construit deja și câte putem transforma în realitate împreună în următorii cinci ani."
+    "description": "Am imaginat cinci &ldquo;autostrăzi&ldquo; care conectează probleme majore ale societății românești, pentru a vedea unde poate digitalizarea să facă bine. Urmărește pe hartă fiecare drum, vezi ce am proiectat și construit deja și câte putem transforma în realitate împreună în următorii cinci ani."
   },
   "map_legend": {
     "title": "Legendă",
@@ -53,13 +53,13 @@
     },
     "partner": {
       "title": "Adoptă o porțiune de drum!",
-      "content": "<p>Investești într-o soluție digitală care va produce schimbare sustenabilă.</p><p>Primești proiectul soluției pe care o alegi 'la cheie', deja realizat de Code for Romania.</p><p>Oferim consultare ONG-ului care va administra soluția aleasă de tine.</p><p>Te sprijinim monitorizând implementarea soluției.</p>",
+      "content": "<p>Finanțând o porțiune de drum, investești într-o soluție digitală pentru care primești proiectul &ldquo;la cheie&ldquo;. ONG-ul care o va administra va fi consultat de noi, iar pe tot parcursul primului an monitorizăm atent implementarea.</p>",
       "label": "Adoptă o soluție",
       "link": "mailto:putem@code4.ro"
     },
     "sponsor": {
       "title": "Fii partenerul nostru",
-      "content": "<p>Devii unul dintre sponsorii strategici ai programelor Code for Romania.</p><p>Sau poți fi unul dintre sponsorii domeniilor noastre - Educație, Sănătate, Grupuri Vulnerabile, Mediu, Participare civică.</p>",
+      "content": "<p>Devino unul dintre sponsorii strategici ai programelor Code for Romania.</p><p>Sau poți fi unul dintre sponsorii domeniilor noastre - Educație, Sănătate, Grupuri Vulnerabile, Mediu, Participare civică.</p>",
       "label": "Scrie-ne un e-mail",
       "link": "mailto:putem@code4.ro"
     },
@@ -67,7 +67,7 @@
       "title": "Dă vestea mai departe",
       "cta": "Distribuie",
       "color": "strong-blue",
-      "content": "<p>Dacă suntem destul de mulți, putem găsi soluții la problemele sistemice ale societății românești.</p><p>Scrie despre noi, vorbește despre planul nostru prietenilor sau colegilor tăi, du povestea noastră la următorul nivel.</p>"
+      "content": "<p>Dacă suntem destul de mulți, putem găsi soluții la problemele societății românești.</p><p>Scrie despre noi, vorbește despre planul nostru prietenilor sau colegilor tăi, du povestea noastră la următorul nivel.</p>"
     },
     "finance": {
       "title": "Trimite-ne un e-mail",
@@ -87,22 +87,22 @@
         {
           "title": "PROIECTĂM",
           "icon": "design",
-          "content": "Fiecare porțiune de drum este o soluție care, prin programul Civic Labs, a trecut prin luni de cercetare calitativă și cantitativă făcută de oameni de research cu experiență în zeci de interviuri în profunzime cu toți stakeholderii domeniului respectiv, cu seturi de date analizate și măcinate în detaliu. După ce identificăm problemele cu care se confruntă fiecare domeniu, urmează o etapă de sesiuni de ideație și apoi de prototipare prin care răspundem problemelor identificate cu soluții digitale. Gândim, imaginăm și propunem aplicații care să rezolve problemele respective. Nu oferim doar răspunsuri sumare, ci dezvoltăm prototipuri ale aplicațiilor propriu-zise. Fiecare prototip este testat cu grupuri de utilizatori reali și este însoțit de specificații tehnice detaliate. În acest punct, planul este clar, drumul mai trebuie doar construit. Doar proiectând corect, putem avea mai apoi drumuri bune."
+          "content": "<p>Fiecare porțiune de drum este o soluție care, prin programul <strong>Civic Labs</strong>, a trecut prin luni de cercetare calitativă și cantitativă făcută de oameni de research cu experiență. Pentru fiecare obiectiv, facem zeci de interviuri cu toți stakeholderii implicați, analizând seturi de date în detaliu.</p><p>După ce identificăm problemele, urmează o etapă de sesiuni de ideație prin care gândim, imaginăm și propunem aplicații care să rezolve problemele respective. Nu oferim doar răspunsuri sumare, ci dezvoltăm <strong>prototipuri</strong> testate cu grupuri de utilizatori reali, însoțite de specificații tehnice detaliate.</p><p>Doar proiectând corect, putem avea drumuri bune care ajung la destinație.</p>"
         },
         {
           "title": "CONSTRUIM",
           "icon": "build",
-          "content": "Aproape 2000 de voluntari ai Code for Romania oferă din timpul și talentul lor pentru a construi soluțiile deja proiectate de noi. Implicarea lor în programul Tech for social Good a produs rezultate care ar fi însemnat investiții de milioane de euro. În plus, fiecare soluție propusă poate fi adoptată de un partener care susține dezvoltarea propriu-zisă a aplicațiilor (finanțator sau dezvoltator). Identificăm apoi partenerii potriviți din societatea civilă care să administreze soluțiile rezultate. Împreună, putem face ca planul nostru să se transforme în realitate."
+          "content": "<p>Aproape 2000 de voluntari ai Code for Romania oferă din timpul și talentul lor pentru a construi soluțiile deja proiectate de noi. Implicarea lor în programul <strong>Tech for Social Good</strong> a produs rezultate care ar fi însemnat investiții de milioane de euro.</p><p>În plus, fiecare soluție propusă poate fi adoptată de un <strong>partener</strong> care susține dezvoltarea propriu-zisă a aplicațiilor (finanțator sau dezvoltator). Identificăm apoi partenerii potriviți din societatea civilă alături de care să administrăm soluțiile rezultate.</p><p>Împreună, putem face ca planul nostru să se transforme în realitate.</p>"
         },
         {
           "title": "ADMINISTRĂM",
           "icon": "manage",
-          "content": "Drumul deja construit trebuie întreținut. Code for Romania se asigură că toate soluțiile executate rămân funcționale, că ajung la utilizatorii finali, își realizează potențialul și se dezvoltă. Prin programul Critical Civic Infrastructure ne asumăm responsabilitatea pentru toate aceste soluții de tehnologie civică, pe care nu doar le administrăm, dar le creștem de la an la an pentru a le multiplica efectul pozitiv. Dacă avem grijă de segmentele de drum executate, putem fi siguri că ele vor produce schimbare reală pe această hartă."
+          "content": "<p>Drumul deja construit trebuie întreținut. Code for Romania se asigură că toate soluțiile executate rămân funcționale, că ajung la utilizatorii finali, își realizează potențialul și se dezvoltă. Prin programul <strong>Critical Civic Infrastructure</strong> ne asumăm responsabilitatea pentru toate aceste soluții de tehnologie civică, pe care nu doar le administrăm, dar le creștem de la an la an pentru a le multiplica efectul pozitiv.</p><p>Dacă avem grijă de segmentele de drum executate, putem fi siguri că ele vor produce <strong>schimbare reală</strong> pe această hartă.</p>"
         },
         {
           "title": "PREGĂTIM",
           "icon": "prepare",
-          "content": "Pe lângă faptul că ajutăm societatea civilă să implementeze proiecte digitale care vin însoțite de un ghid de implementare și de sprijin specializat pe parcursul proiectului, le oferim asistență celor care se confruntă cu probleme tehnice prin programul Civic Tech 911. Consultanță și sprijin oferim inclusiv instituțiilor publice prin programul Update Romania. Împreună, putem da mai multă putere societății civile."
+          "content": "<p>Pe lângă faptul că ajutăm societatea civilă să implementeze proiecte digitale care vin însoțite de un ghid de implementare și de sprijin specializat pe parcursul proiectului, le oferim asistență celor care se confruntă cu probleme tehnice prin programul <strong>Civic Tech 911</strong>. Consultanță și sprijin oferim inclusiv instituțiilor publice prin programul <strong>Update Romania</strong>.</p><p>Împreună, putem da mai multă putere societății civile.</p>"
         }
       ]
     },
@@ -367,7 +367,7 @@
               "projectSlug": "Daily-Assessment-Kit-scoli",
               "title": "Daily Assessment Kit - școli",
               "subtitle": "Instrument de evaluare și prevenție a potențialelor cazuri de violență domestică pentru școli",
-              "description": "Identificarea cazurilor de violență domestică poate fi un proces dificil, mai ales dacă vorbim de forma de violență de tip social sau psihologică. Pentru potențialii martori semnele nu sunt evidente, iar aceștia nu au parte de nici un fel de instruire să recunoască semnele. Cel mai adesea, copiii sunt cei care sunt afectați de situațiile tensionate din casă și care, deși simt că ceva nu este în regulă, fie se tem, fie nu știu cum să vorbească despre asta. Daily Assessment Kit este un sistem care poate fi folosit de orice școală cu rol de early warning system. De exemplu, printr-o suită simplă de întrebări de tipul 'cum te simți astăzi' sau altele care au ca scop monitorizarea stării psihice a unui copil, se pot identifica acele pattern-uri care ar putea indica probleme în familie, tulburări emoționale și un consilier psihologic ar putea aborda elevul care dă semne că ar fi într-o situație dificilă pentru a-i putea oferi ajutor.",
+              "description": "Identificarea cazurilor de violență domestică poate fi un proces dificil, mai ales dacă vorbim de forma de violență de tip social sau psihologică. Pentru potențialii martori semnele nu sunt evidente, iar aceștia nu au parte de nici un fel de instruire să recunoască semnele. Cel mai adesea, copiii sunt cei care sunt afectați de situațiile tensionate din casă și care, deși simt că ceva nu este în regulă, fie se tem, fie nu știu cum să vorbească despre asta. Daily Assessment Kit este un sistem care poate fi folosit de orice școală cu rol de early warning system. De exemplu, printr-o suită simplă de întrebări de tipul &ldquo;cum te simți astăzi&ldquo; sau altele care au ca scop monitorizarea stării psihice a unui copil, se pot identifica acele pattern-uri care ar putea indica probleme în familie, tulburări emoționale și un consilier psihologic ar putea aborda elevul care dă semne că ar fi într-o situație dificilă pentru a-i putea oferi ajutor.",
               "link": "",
               "icon": "care4ro-daily-assessment-kit-schools",
               "adopted": false,
@@ -378,7 +378,7 @@
               "projectSlug": "Daily-Assessment-Kit-angajatori",
               "title": "Daily Assessment Kit - angajatori",
               "subtitle": "Instrument de evaluare și prevenție a potențialelor cazuri de violență domestică pentru companii și organizații",
-              "description": "Identificarea cazurilor de violență domestică poate fi un proces dificil, mai ales dacă vorbim de forma de violență de tip social sau psihologică. Pentru potențialii martori semnele nu sunt evidente, iar aceștia nu au parte de nici un fel de instruire să recunoască semnele. Daily Assessment Kit este un sistem care poate fi folosit de orice angajator cu rol de early warning system. De exemplu, printr-o suită simplă de întrebări de tipul 'cum te simți astăzi' sau altele care au ca scop monitorizarea stării psihice a angajaților, se pot identifica acele pattern-uri care ar putea indica probleme în familie, tulburări emoționale și un consilier de resurse umane ar putea aborda angajatul care dă semne că ar fi într-o situație dificilă pentru a-i putea oferi ajutor. ",
+              "description": "Identificarea cazurilor de violență domestică poate fi un proces dificil, mai ales dacă vorbim de forma de violență de tip social sau psihologică. Pentru potențialii martori semnele nu sunt evidente, iar aceștia nu au parte de nici un fel de instruire să recunoască semnele. Daily Assessment Kit este un sistem care poate fi folosit de orice angajator cu rol de early warning system. De exemplu, printr-o suită simplă de întrebări de tipul &ldquo;cum te simți astăzi&ldquo; sau altele care au ca scop monitorizarea stării psihice a angajaților, se pot identifica acele pattern-uri care ar putea indica probleme în familie, tulburări emoționale și un consilier de resurse umane ar putea aborda angajatul care dă semne că ar fi într-o situație dificilă pentru a-i putea oferi ajutor. ",
               "link": "",
               "icon": "care4ro-daily-assessment-kit-angajator",
               "adopted": false,
@@ -389,7 +389,7 @@
               "projectSlug": "Personal-Assessment-Kit-couples",
               "title": "Personal-Assessment-Kit-couples",
               "subtitle": "Instrument de evaluare și prevenție a potențialelor cazuri de violență domestică pentru cupluri",
-              "description": "Identificarea cazurilor de violență domestică poate fi un proces dificil, mai ales dacă vorbim de forma de violență de tip social sau psihologică. Pentru potențialii martori semnele nu sunt evidente, iar aceștia nu au parte de nici un fel de instruire să recunoască semnele. Daily Assessment Kit este un sistem care poate fi folosit de orice angajator cu rol de early warning system. De exemplu, printr-o suită simplă de întrebări de tipul 'cum te simți astăzi' sau altele care au ca scop monitorizarea stării psihice a angajaților, se pot identifica acele pattern-uri care ar putea indica probleme în familie, tulburări emoționale și un consilier de resurse umane ar putea aborda angajatul care dă semne că ar fi într-o situație dificilă pentru a-i putea oferi ajutor. ",
+              "description": "Identificarea cazurilor de violență domestică poate fi un proces dificil, mai ales dacă vorbim de forma de violență de tip social sau psihologică. Pentru potențialii martori semnele nu sunt evidente, iar aceștia nu au parte de nici un fel de instruire să recunoască semnele. Daily Assessment Kit este un sistem care poate fi folosit de orice angajator cu rol de early warning system. De exemplu, printr-o suită simplă de întrebări de tipul &ldquo;cum te simți astăzi&ldquo; sau altele care au ca scop monitorizarea stării psihice a angajaților, se pot identifica acele pattern-uri care ar putea indica probleme în familie, tulburări emoționale și un consilier de resurse umane ar putea aborda angajatul care dă semne că ar fi într-o situație dificilă pentru a-i putea oferi ajutor. ",
               "link": "",
               "icon": "care4ro-personal-assessment-kit",
               "adopted": false,
@@ -1165,7 +1165,7 @@
               "projectSlug": "legea-pe-bune",
               "title": "Legea(Pe Bune)",
               "subtitle": "Dicționar simplu de legislație pentru toți cetățenii",
-              "description": "<p>Legea pe bune este un website în care orice cetățean poate căuta explicații traduse pe înțelesul tuturor pentru termeni comuni legislativi. Baza de date a aplicației pleacă de la un set construit deja de termeni explicați de un grup de voluntari specializați, iar platforma permite publicului să contribuie la rândul lui cu definții care apoi sunt validate de experți și adăugate în platformă. Cu ajutorul eforturilor de crowdsourcing și a contribuției voluntare a comunităților de specialiști în legislație, acest website va putea să se îmbogățească în timp și va veni în sprijinul tuturor celor care se confruntă cu nevoia de a înțelege expresii complexe din legislația curentă.</p> <p>Participarea experților este esențială pentru a ne asigura că termenii sunt 'traduși' corect și sunt accesibili publicului larg, ca aceștia să poată să navigheze cu ușurință prin problemele comune cu care se confruntă.</p>",
+              "description": "<p>Legea pe bune este un website în care orice cetățean poate căuta explicații traduse pe înțelesul tuturor pentru termeni comuni legislativi. Baza de date a aplicației pleacă de la un set construit deja de termeni explicați de un grup de voluntari specializați, iar platforma permite publicului să contribuie la rândul lui cu definții care apoi sunt validate de experți și adăugate în platformă. Cu ajutorul eforturilor de crowdsourcing și a contribuției voluntare a comunităților de specialiști în legislație, acest website va putea să se îmbogățească în timp și va veni în sprijinul tuturor celor care se confruntă cu nevoia de a înțelege expresii complexe din legislația curentă.</p> <p>Participarea experților este esențială pentru a ne asigura că termenii sunt &ldquo;traduși&ldquo; corect și sunt accesibili publicului larg, ca aceștia să poată să navigheze cu ușurință prin problemele comune cu care se confruntă.</p>",
               "link": "",
               "icon": "participation4ro-legea-pe-bune",
               "adopted": false,
@@ -1530,7 +1530,7 @@
           "segment_visual": "segment-participation-08-jurnalisti-eficienti",
           "status": "Începe în martie 2023",
           "title": "Jurnalisti eficienti",
-          "description": "<p>Rolul fundamental al presei este acela de a monitoriza acțiunile factorilor de decizie, observând neregulile și informând publicul. 'Câinele de pază al democrației' trece în ultimii ani printr-o perioadă de transformare și reinventare, fiind în căutarea acelor instrumente digitale prin care să poată răspunde exigențelor actuale.</p>",
+          "description": "<p>Rolul fundamental al presei este acela de a monitoriza acțiunile factorilor de decizie, observând neregulile și informând publicul. &ldquo;Câinele de pază al democrației&ldquo; trece în ultimii ani printr-o perioadă de transformare și reinventare, fiind în căutarea acelor instrumente digitale prin care să poată răspunde exigențelor actuale.</p>",
           "btn": {
             "top": "70%",
             "left": "61%"

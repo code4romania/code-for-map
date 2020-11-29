@@ -52,7 +52,10 @@
         </b-row>
       </div>
 
-      <b-row class="mb-5" align-v="center">
+      <b-row
+        class="mb-5"
+        align-v="center"
+      >
         <b-col
           lg="4"
           class="mb-4"
@@ -70,7 +73,7 @@
           <div class="embed-responsive embed-responsive-16by9 Video">
             <iframe
               class="embed-responsive-item"
-              src="https://www.youtube.com/embed/XHVvEhmrlkA"
+              src="https://www.youtube.com/embed/XHVvEhmrlkA?modestbranding=1&autohide=2&showinfo=0&controls=0"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
@@ -96,11 +99,11 @@
           <div class="HowWeWork">
             <div class="d-flex align-items-center justify-content-start mb-4">
               <svg class="icon icon-xl mr-4"><use :xlink:href="'#icon-' + step.icon" /></svg>
-              <h2 class="text-primary">
+              <h2 class="text-strong-blue">
                 {{ step.title }}
               </h2>
             </div>
-            <p>{{ step.content }}</p>
+            <div v-html="step.content" />
           </div>
         </b-col>
         <b-col
@@ -129,26 +132,18 @@
           xl="3"
           class="mb-4"
         >
-          <SendSMS
-            :data="data.sms"
-            :call-to-action="data.call_to_action"
-          />
-        </b-col>
-        <b-col
-          md="6"
-          xl="3"
-          class="mb-4"
-        >
-          <div>
-            <h3 class="text-primary mb-4">
-              {{ data.call_to_action.partner.title }}
-            </h3>
-            <div v-html="data.call_to_action.partner.content" />
-            <a
-              :href="data.call_to_action.partner.link"
-              class="btn btn-lg btn-primary px-5"
-              target="_parent"
-            >{{ data.call_to_action.partner.label }}</a>
+          <div class="d-flex flex-column justify-content-between">
+            <SendSMS
+              :data="data.sms"
+              :call-to-action="data.call_to_action"
+            />
+            <div>
+              <a
+                :href="data.call_to_action.donate.link"
+                class="btn btn-lg btn-green px-4"
+                target="_parent"
+              >{{ data.call_to_action.donate.title }}</a>
+            </div>
           </div>
         </b-col>
         <b-col
@@ -156,16 +151,20 @@
           xl="3"
           class="mb-4"
         >
-          <div>
-            <h3 class="text-primary mb-4">
-              {{ data.call_to_action.sponsor.title }}
-            </h3>
-            <div v-html="data.call_to_action.sponsor.content" />
-            <a
-              :href="data.call_to_action.sponsor.link"
-              class="btn btn-lg btn-primary px-5"
-              target="_parent"
-            >{{ data.call_to_action.sponsor.label }}</a>
+          <div class="d-flex flex-column justify-content-between">
+            <div>
+              <h3 class="text-primary mb-4">
+                {{ data.call_to_action.partner.title }}
+              </h3>
+              <div v-html="data.call_to_action.partner.content" />
+            </div>
+            <div>
+              <a
+                :href="data.call_to_action.partner.link"
+                class="btn btn-lg btn-primary px-4"
+                target="_parent"
+              >{{ data.call_to_action.partner.label }}</a>
+            </div>
           </div>
         </b-col>
         <b-col
@@ -173,12 +172,37 @@
           xl="3"
           class="mb-4"
         >
-          <div>
-            <h3 class="text-primary mb-4">
-              {{ data.call_to_action.share.title }}
-            </h3>
-            <div v-html="data.call_to_action.share.content" />
-            <Share :share="data.call_to_action.share" />
+          <div class="d-flex flex-column justify-content-between">
+            <div>
+              <h3 class="text-primary mb-4">
+                {{ data.call_to_action.sponsor.title }}
+              </h3>
+              <div v-html="data.call_to_action.sponsor.content" />
+            </div>
+            <div>
+              <a
+                :href="data.call_to_action.sponsor.link"
+                class="btn btn-lg btn-primary px-4"
+                target="_parent"
+              >{{ data.call_to_action.sponsor.label }}</a>
+            </div>
+          </div>
+        </b-col>
+        <b-col
+          md="6"
+          xl="3"
+          class="mb-4"
+        >
+          <div class="d-flex flex-column justify-content-between">
+            <div>
+              <h3 class="text-primary mb-4">
+                {{ data.call_to_action.share.title }}
+              </h3>
+              <div v-html="data.call_to_action.share.content" />
+            </div>
+            <div>
+              <Share :share="data.call_to_action.share" />
+            </div>
           </div>
         </b-col>
       </b-row>

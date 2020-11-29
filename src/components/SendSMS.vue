@@ -8,11 +8,6 @@
     <div class="mb-4">
       {{ callToAction.donate.spacer }}
     </div>
-    <a
-      :href="callToAction.donate.link"
-      class="btn btn-lg btn-green px-5"
-      target="_parent"
-    >{{ callToAction.donate.title }}</a>
   </div>
 </template>
 
