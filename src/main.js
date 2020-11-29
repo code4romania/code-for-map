@@ -1,7 +1,9 @@
 /* eslint-disable */
 
 import Vue from "vue";
-import VueScrollTo from "vue-scrollto";
+import VueGtag from "vue-gtag";
+
+// import VueScrollTo from "vue-scrollto";
 
 import { BootstrapVue } from "bootstrap-vue";
 
@@ -12,7 +14,13 @@ import "./scss/app.scss";
 
 Vue.config.productionTip = false;
 
-Vue.use(VueScrollTo)
+Vue.use(VueGtag, {
+  config: {
+    id: 'G-951ZZD09FJ'
+  }
+}, router);
+
+// Vue.use(VueScrollTo)
 Vue.use(BootstrapVue);
 
 new Vue({
