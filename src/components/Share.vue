@@ -1,27 +1,39 @@
 <template>
   <div class="Share d-flex">
     <a
-      href="#"
+      :href="'https://www.facebook.com/sharer/sharer.php?u=' + mapURL"
+      rel="noreferrer noopener"
+      target="_blank"
       class="mr-4"
-      @click="facebookLink"
     >
-      <svg class="icon icon-lg"><use xlink:href="#share-fb" /></svg>
+      <img
+        class="icon icon-lg"
+        src="../assets/svg/icons/share-fb.svg"
+      >
     </a>
 
     <a
-      href="#"
+      :href="'https://www.twitter.com/share?url=' + mapURL"
+      rel="noreferrer noopener"
+      target="_blank"
       class="mr-4"
-      @click="twitterLink"
     >
-      <svg class="icon icon-lg"><use xlink:href="#share-tw" /></svg>
+      <img
+        class="icon icon-lg"
+        src="../assets/svg/icons/share-tw.svg"
+      >
     </a>
 
     <a
-      href="#"
+      :href="'https://linkedin.com/shareArticle?mini=true&url=' + mapURL"
+      rel="noreferrer noopener"
+      target="_blank"
       class="mr-4"
-      @click="linkedinLink"
     >
-      <svg class="icon icon-lg"><use xlink:href="#share-li" /></svg>
+      <img
+        class="icon icon-lg"
+        src="../assets/svg/icons/share-li.svg"
+      >
     </a>
   </div>
 </template>
@@ -31,44 +43,10 @@ import objectToGetParams from "../utils/objectToGetParams";
 
 export default {
   name: "Share",
-  props: {
-    share: {
-      type: Object,
-      default: () => {}
-    },
-  },
   data() {
     return {
-      pageURL: location.href,
-      mapURL: "https://code4.ro/putem"
+      mapURL: "https://code4.ro/putem",
     };
-  },
-  methods: {
-    facebookLink() {
-      window.open(
-        "https://www.facebook.com/sharer/sharer.php" +
-          objectToGetParams({
-            u: this.mapURL,
-          })
-      );
-    },
-    linkedinLink() {
-      window.open(
-        "https://linkedin.com/shareArticle" +
-          objectToGetParams({
-            mini: true,
-            url: this.mapURL,
-          })
-      );
-    },
-    twitterLink() {
-      window.open(
-        "https://www.twitter.com/share" +
-          objectToGetParams({
-            url: this.mapURL,
-          })
-      );
-    },
   },
 };
 </script>

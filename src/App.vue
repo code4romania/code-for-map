@@ -6,9 +6,7 @@
           no-gutters
           class="Header-wrap"
         >
-          <b-col
-            lg="3"
-          >
+          <b-col lg="3">
             <div class="Info">
               <div class="Header">
                 <h1
@@ -17,9 +15,7 @@
                 />
                 <p v-html="data.header.description" />
               </div>
-              <Legend
-                :legend="data.map_legend"
-              />
+              <Legend :legend="data.map_legend" />
             </div>
           </b-col>
         </b-row>
@@ -42,7 +38,10 @@
               class="BackToMap mb-4 d-inline-block d-lg-none"
             >
               <div class="d-flex align-items-center">
-                <svg class="icon"><use xlink:href="#chevron-left" /></svg>
+                <img
+                  class="icon icon-md"
+                  src="./assets/svg/icons/chevron-left.svg"
+                >
                 <div class="ml-2 text-primary border-bottom border-primary">
                   {{ data.general.back_to_map }}
                 </div>
@@ -68,9 +67,7 @@
             {{ data.more_info.description }}
           </p>
         </b-col>
-        <b-col
-          lg="8"
-        >
+        <b-col lg="8">
           <div class="embed-responsive embed-responsive-16by9 Video">
             <iframe
               class="embed-responsive-item"
@@ -99,7 +96,10 @@
         >
           <div class="HowWeWork">
             <div class="d-flex align-items-center justify-content-start mb-4">
-              <svg class="icon icon-xl mr-4"><use :xlink:href="'#icon-' + step.icon" /></svg>
+              <img
+                class="icon icon-xl mr-4"
+                :src="require(`./assets/svg/icons/icon-${step.icon}.svg`)"
+              >
               <h2 class="text-strong-blue">
                 {{ step.title }}
               </h2>
@@ -209,9 +209,7 @@
       </b-row>
 
       <b-row>
-        <b-col
-          lg="6"
-        >
+        <b-col lg="6">
           <div class="Partners-title mb-4">
             <h1 class="text-strong-blue">
               {{ data.partners.title }}
@@ -220,9 +218,7 @@
           </div>
         </b-col>
         <div class="w-100" />
-        <b-col
-          lg="6"
-        >
+        <b-col lg="6">
           <PartnersList
             :list="data.partners.main"
             :col="3"
@@ -230,9 +226,7 @@
         </b-col>
       </b-row>
       <b-row>
-        <b-col
-          lg="8"
-        >
+        <b-col lg="8">
           <PartnersList
             :list="data.partners.secondary"
             :col="4"
@@ -257,7 +251,7 @@
 
 <script>
 import debouce from "lodash.debounce";
-import { saveAs } from 'file-saver';
+import { saveAs } from "file-saver";
 
 import data from "./data/ro.json";
 
@@ -274,11 +268,11 @@ export default {
     Legend,
     PartnersList,
     SendSMS,
-    Share
+    Share,
   },
   data() {
     return {
-      data: {}
+      data: {},
     };
   },
   created() {
@@ -304,12 +298,12 @@ export default {
         saveAs(blob, "Code_4_Romania_-_Digitalizam_Romania_impreuna.pdf");
 
         this.$gtag.event("download", {
-          'event_label': "plan downloaded"
+          event_label: "plan downloaded",
         });
-      }
+      };
 
       request.send();
-    }
-  }
+    },
+  },
 };
 </script>

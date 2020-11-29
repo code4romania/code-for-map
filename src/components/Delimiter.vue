@@ -1,6 +1,13 @@
 <template>
   <div class="Delimiter my-4">
-    <svg class="delimiter"><use :xlink:href="'#delimiter-' + color ? color : 'default'" /></svg>
+    <img
+      class="icon icon-lg"
+      :src="
+        require(`../../assets/svg/illustrations/
+                    ${color ? color : 'default'}
+                    .svg`)
+      "
+    >
   </div>
 </template>
 
@@ -10,9 +17,9 @@ export default {
   props: {
     color: {
       type: String,
-      default: "strong-blue"
-    }
-  }
+      default: "strong-blue",
+    },
+  },
 };
 </script>
 
