@@ -1,12 +1,10 @@
-# Project name
+# Code for Romania Map
 
-[![GitHub contributors](https://img.shields.io/github/contributors/code4romania/standard-repo-template.svg?style=for-the-badge)](https://github.com/code4romania/standard-repo-template/graphs/contributors) [![GitHub last commit](https://img.shields.io/github/last-commit/code4romania/standard-repo-template.svg?style=for-the-badge)](https://github.com/code4romania/standard-repo-template/commits/master) [![License: MPL 2.0](https://img.shields.io/badge/license-MPL%202.0-brightgreen.svg?style=for-the-badge)](https://opensource.org/licenses/MPL-2.0)
+[![GitHub contributors](https://img.shields.io/github/contributors/code4romania/code-for-map.svg?style=for-the-badge)](https://github.com/code4romania/code-for-map/graphs/contributors) [![GitHub last commit](https://img.shields.io/github/last-commit/code4romania/code-for-map.svg?style=for-the-badge)](https://github.com/code4romania/code-for-map/commits/master) [![License: MPL 2.0](https://img.shields.io/badge/license-MPL%202.0-brightgreen.svg?style=for-the-badge)](https://opensource.org/licenses/MPL-2.0)
 
-Insert bullets description of the project if available.
+[See the project live](http://code4.ro/putem)
 
-[See the project live](insert_link_here)
-
-Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project.
+The Code for Romania Map is a simple Vue application that presents our digital strategy for Romania for the following 5 years.
 
 [Contributing](#contributing) | [Built with](#built-with) | [Repos and projects](#repos-and-projects) | [Deployment](#deployment) | [Feedback](#feedback) | [License](#license) | [About Code4Ro](#about-code4ro)
 
