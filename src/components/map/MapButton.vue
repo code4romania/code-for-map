@@ -5,7 +5,7 @@
   >
     <!-- Main map button links to highway -->
     <router-link
-      :to="{ name: 'Highway', params: { slug: highway.slug } }"
+      :to="{ name: 'Highway', params: { slug: highway.slug }, hash: '#map' }"
       class="badge-pill btn bg-white scale MapButton"
       :class="[`btn-outline-${highway.color}`, $route.name != 'Map' ? 'btn-opacity' : '']"
     >
