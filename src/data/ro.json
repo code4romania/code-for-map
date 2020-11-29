@@ -86,22 +86,22 @@
       "title": "Cum lucrăm",
       "steps": [
         {
-          "title": "PROIECTĂM",
+          "title": "Proiectăm",
           "icon": "design",
           "content": "<p>Fiecare porțiune de drum este o soluție care, prin programul <strong>Civic Labs</strong>, a trecut prin luni de cercetare calitativă și cantitativă făcută de oameni de research cu experiență. Pentru fiecare obiectiv, facem zeci de interviuri cu toți stakeholderii implicați, analizând seturi de date în detaliu.</p><p>După ce identificăm problemele, urmează o etapă de sesiuni de ideație prin care gândim, imaginăm și propunem aplicații care să rezolve problemele respective. Nu oferim doar răspunsuri sumare, ci dezvoltăm <strong>prototipuri</strong> testate cu grupuri de utilizatori reali, însoțite de specificații tehnice detaliate.</p><p>Doar proiectând corect, putem avea drumuri bune care ajung la destinație.</p>"
         },
         {
-          "title": "CONSTRUIM",
+          "title": "Construim",
           "icon": "build",
           "content": "<p>Aproape 2000 de voluntari ai Code for Romania oferă din timpul și talentul lor pentru a construi soluțiile deja proiectate de noi. Implicarea lor în programul <strong>Tech for Social Good</strong> a produs rezultate care ar fi însemnat investiții de milioane de euro.</p><p>În plus, fiecare soluție propusă poate fi adoptată de un <strong>partener</strong> care susține dezvoltarea propriu-zisă a aplicațiilor (finanțator sau dezvoltator). Identificăm apoi partenerii potriviți din societatea civilă alături de care să administrăm soluțiile rezultate.</p><p>Împreună, putem face ca planul nostru să se transforme în realitate.</p>"
         },
         {
-          "title": "ADMINISTRĂM",
+          "title": "Administrăm",
           "icon": "manage",
           "content": "<p>Drumul deja construit trebuie întreținut. Code for Romania se asigură că toate soluțiile executate rămân funcționale, că ajung la utilizatorii finali, își realizează potențialul și se dezvoltă. Prin programul <strong>Critical Civic Infrastructure</strong> ne asumăm responsabilitatea pentru toate aceste soluții de tehnologie civică, pe care nu doar le administrăm, dar le creștem de la an la an pentru a le multiplica efectul pozitiv.</p><p>Dacă avem grijă de segmentele de drum executate, putem fi siguri că ele vor produce <strong>schimbare reală</strong> pe această hartă.</p>"
         },
         {
-          "title": "PREGĂTIM",
+          "title": "Pregătim",
           "icon": "prepare",
           "content": "<p>Pe lângă faptul că ajutăm societatea civilă să implementeze proiecte digitale care vin însoțite de un ghid de implementare și de sprijin specializat pe parcursul proiectului, le oferim asistență celor care se confruntă cu probleme tehnice prin programul <strong>Civic Tech 911</strong>. Consultanță și sprijin oferim inclusiv instituțiilor publice prin programul <strong>Update Romania</strong>.</p><p>Împreună, putem da mai multă putere societății civile.</p>"
         }

@@ -208,7 +208,7 @@
         </b-col>
       </b-row>
 
-      <h1 class="text-strong-blue mb-4">
+      <!-- <h1 class="text-strong-blue mb-4">
         {{ data.more_info.faqs_title }}
       </h1>
 
@@ -231,7 +231,7 @@
             <div v-html="question.answer" />
           </div>
         </b-col>
-      </b-row>
+      </b-row> -->
 
       <b-row>
         <b-col lg="6">
