@@ -6,7 +6,6 @@
         slug: slug,
         segment: segmentSlug
       },
-      hash: '#BackToMap'
     }"
     class="d-lg-none d-flex justify-content-between align-items-center SegmentButton ListItem"
   >

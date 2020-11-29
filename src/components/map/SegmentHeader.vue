@@ -10,7 +10,7 @@
     <svg class="icon icon-yuge"><use :xlink:href="'#icon-' + icon" /></svg>
     <div class="text-center">
       <div
-        class="badge badge-primary Segment-status"
+        class="badge badge-primary Segment-status mt-3"
         v-html="status"
       />
       <h2

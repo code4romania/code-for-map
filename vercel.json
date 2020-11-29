@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/download",
+      "destination": "https://code4.ro/storage/uploads/dd7d4d9a-2198-4032-a177-84ca042890fa/Condi%C8%9Bii-de-livrare---Code-for-Romania.pdf"
+    }
+  ]
+}

@@ -52,7 +52,7 @@
         </b-row>
       </div>
 
-      <b-row class="mb-5">
+      <b-row class="mb-5" align-v="center">
         <b-col
           lg="4"
           class="mb-4"

@@ -47,8 +47,11 @@ const router = new VueRouter({
   base: process.env.BASE_URL,
   routes,
   scrollBehavior (to, from) {
-    return {
-      x: 0, y: 0
+    if (document.body.clientWidth < 1024) {
+      return {
+        x: 0,
+        y: 0
+      }
     }
   }
 });
