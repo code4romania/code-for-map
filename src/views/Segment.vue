@@ -63,21 +63,21 @@
     </div>
 
     <div class="Segment d-none d-lg-block">
-      <div class="SegmentVisual-wrap mt-4">
-        <router-link
-          :to="{ name: 'Highway', params: { slug: slug } }"
-          class="SegmentVisual-close d-inline-block"
-        >
-          <div class="d-flex align-items-center">
-            <img
-              class="icon"
-              src="../assets/svg/icons/chevron-left.svg"
-            >
-            <div class="ml-2 text-primary border-bottom border-primary">
-              {{ data.general.back_to_map }}
-            </div>
+      <router-link
+        :to="{ name: 'Highway', params: { slug: slug } }"
+        class="SegmentVisual-close d-inline-block"
+      >
+        <div class="d-flex align-items-center">
+          <img
+            class="icon"
+            src="../assets/svg/icons/chevron-left.svg"
+          >
+          <div class="ml-2 text-primary border-bottom border-primary">
+            {{ data.general.back_to_map }}
           </div>
-        </router-link>
+        </div>
+      </router-link>
+      <div class="SegmentVisual-wrap">
         <div class="SegmentVisual">
           <component
             :is="

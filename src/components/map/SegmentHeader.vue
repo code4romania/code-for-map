@@ -11,7 +11,7 @@
     </router-link>
 
     <img
-      class="icon"
+      class="icon icon-yuge"
       :src="require(`../../assets/svg/icons/icon-${icon}.svg`)"
     >
     <div class="text-center">

@@ -45,14 +45,14 @@
             }"
           >
             <img
-              class="icon icon-md"
+              class="icon icon-sm"
               src="../assets/svg/icons/close.svg"
             >
           </router-link>
         </div>
       </div>
 
-      <div class="ProjectModal-header mt-4 mb-2">
+      <div class="ProjectModal-header mt-4">
         <div>
           <h3>{{ project.title }}</h3>
           <p class="lead">

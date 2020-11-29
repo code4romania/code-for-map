@@ -6,10 +6,6 @@
 
 .MapHero-map {
   align-self: flex-start;
-
-  @include respond-above(lg) {
-    margin-top: 40px;
-  }
 }
 
 .MapContainer-wrap {
