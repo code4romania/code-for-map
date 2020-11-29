@@ -151,6 +151,15 @@ export default {
       immediate: true,
       handler: function(to) {
         this.showModal = to.meta && to.meta.showModal
+
+        const pageTitle = to.params.slug + ' - ' +
+          to.params.segment ? to.params.segment : '' + ' - '+
+          to.params.solution ? to.params.solution : ''
+
+        this.$gtag.pageview({
+          page_title: pageTitle,
+          page_path: to.path
+        })
       },
     },
   },

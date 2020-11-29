@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <b-container fluid>
-      <div class="MapHero mb-5">
+      <div class="MapHero mb-5 mt-4">
         <b-row
           no-gutters
           class="Header-wrap"

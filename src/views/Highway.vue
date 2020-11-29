@@ -152,6 +152,15 @@ export default {
           (item) => item.slug == to.params.slug
         );
       }
+
+      const pageTitle = to.params.slug + ' - ' +
+        to.params.segment ? to.params.segment : '' + ' - '+
+        to.params.solution ? to.params.solution : ''
+
+      this.$gtag.pageview({
+        page_title: pageTitle,
+        page_path: to.path
+      })
     },
   },
   /** Vue mounted life cycle initialize data for this route. */

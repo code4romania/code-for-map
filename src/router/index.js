@@ -46,16 +46,6 @@ const routes = [
 Vue.use(VueGtag, {
   config: {
     id: 'G-951ZZD09FJ',
-    pageTrackerTemplate(to) {
-      const pageTitle = to.params.slug + ' - ' +
-        to.params.segment ? to.params.segment : '' + ' - '+
-        to.params.solution ? to.params.solution : ''
-
-      return {
-        page_title: pageTitle,
-        page_path: to.path
-      }
-    }
   }
 }, router);
 

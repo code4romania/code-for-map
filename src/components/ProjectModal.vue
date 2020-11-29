@@ -47,25 +47,12 @@
         </div>
       </div>
 
-      <div class="ProjectModal-header my-4">
+      <div class="ProjectModal-header mt-4 mb-2">
         <div>
           <h3>{{ project.title }}</h3>
           <p class="lead">
             {{ project.subtitle }}
           </p>
-          <div class="SegmentLegend-status d-flex align-items-center">
-            <i
-              class="icon icon-circle"
-              :class="
-                project.adopted ? 'border-' + highwayMap.color : 'border-gray'
-              "
-            />
-            {{
-              project.adopted
-                ? data.segment_legend.done
-                : data.segment_legend.designed
-            }}
-          </div>
         </div>
         <div>
           <a
@@ -97,6 +84,19 @@
           xs="12"
           md="8"
         >
+          <div class="SegmentLegend-status d-flex align-items-center mb-3">
+            <i
+              class="icon icon-circle"
+              :class="
+                project.adopted ? 'border-' + highwayMap.color : 'border-gray'
+              "
+            />
+            {{
+              project.adopted
+                ? data.segment_legend.done
+                : data.segment_legend.designed
+            }}
+          </div>
           <div
             class="mb-4"
             v-html="project.description"
@@ -197,6 +197,15 @@ export default {
       this.projectIcon = require('../assets/images/projects/' +
         this.project.icon +
         '.png')
+
+      const pageTitle = to.params.slug + ' - ' +
+        to.params.segment ? to.params.segment : '' + ' - '+
+        to.params.solution ? to.params.solution : ''
+
+      this.$gtag.pageview({
+        page_title: pageTitle,
+        page_path: to.path
+      })
     },
   },
   created() {
