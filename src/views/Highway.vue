@@ -30,7 +30,10 @@
         <div class="Highway">
           <div class="MapContainer-wrap d-none d-lg-block">
             <div class="MapContainer Map-bw">
-              <svg class="w-100 h-100"><use xlink:href="#map-bw" /></svg>
+              <img
+                class="w-100 h-100"
+                src="../assets/svg/illustrations/map-bw.svg"
+              >
             </div>
           </div>
 
@@ -39,9 +42,12 @@
             class="d-none d-lg-block"
           >
             <div class="MapContainer">
-              <svg class="w-100 h-100">
-                <use :xlink:href="'#' + highway.highway_bg" />
-              </svg>
+              <img
+                class="w-100 h-100"
+                :src="
+                  require(`../assets/svg/illustrations/${highway.highway_bg}.svg`)
+                "
+              >
             </div>
           </router-link>
 
@@ -76,9 +82,7 @@
 
         <div class="d-none d-lg-block">
           <b-row>
-            <b-col
-              lg="2"
-            >
+            <b-col lg="2">
               <div
                 v-if="highway.sponsor"
                 class="Highway-partner m-0"
@@ -98,9 +102,7 @@
                 </a>
               </div>
             </b-col>
-            <b-col
-              lg="10"
-            >
+            <b-col lg="10">
               <p
                 class="lead text-right my-4"
                 v-html="highway.description"
@@ -135,7 +137,7 @@ export default {
   props: {
     data: {
       type: Object,
-      default: () => {}
+      default: () => {},
     },
   },
   /** Component state. */
@@ -163,12 +165,9 @@ export default {
       })
     },
   },
-  /** Vue mounted life cycle initialize data for this route. */
-  mounted() {
-    this.highway = this.data.code4ro_map.find(
-      (item) => item.slug == this.slug
-    );
 
+  created() {
+    this.highway = this.data.code4ro_map.find((item) => item.slug == this.slug);
     this.data.back_to_map.visible = true;
 
     postMessage({ height: document.documentElement.scrollHeight });
