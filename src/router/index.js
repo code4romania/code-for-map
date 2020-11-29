@@ -4,6 +4,8 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import VueGtag from "vue-gtag";
 
+import postMessage from "../utils/postMessage";
+
 import Map from "../views/Map.vue";
 import Highway from "../views/Highway.vue";
 import Segment from "../views/Segment.vue";
@@ -56,7 +58,14 @@ const router = new VueRouter({
   scrollBehavior(to, from) {
     const locationHash = document.location.hash.slice(1);
     const elementToScroll = document.getElementById(locationHash);
+
     if (elementToScroll) {
+      postMessage({
+        navigate: {
+          to,
+          from,
+        },
+      });
       const topPosition =
         elementToScroll.getBoundingClientRect().top + window.pageYOffset;
       return {
