@@ -255,7 +255,7 @@ import { saveAs } from "file-saver";
 
 import data from "./data/ro.json";
 
-import postMessage from "./utils/postMessage";
+import { postMessageHeight } from "./utils/postMessage";
 
 import Legend from "./components/Legend";
 import PartnersList from "./components/PartnersList";
@@ -279,10 +279,10 @@ export default {
     this.data = data;
   },
   mounted() {
-    postMessage({ height: document.documentElement.scrollHeight });
+    postMessageHeight();
 
     window.onresize = debouce(() => {
-      postMessage({ height: document.documentElement.scrollHeight });
+      postMessageHeight();
     }, 500);
   },
   methods: {

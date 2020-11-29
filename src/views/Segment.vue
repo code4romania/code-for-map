@@ -127,7 +127,7 @@
 </template>
 
 <script>
-import postMessage from "../utils/postMessage";
+import { postMessageHeight } from "../utils/postMessage";
 
 import HighwayHeader from "../components/map/HighwayHeader";
 import SegmentHeader from "../components/map/SegmentHeader";
@@ -189,7 +189,7 @@ export default {
     this.data.back_to_map.visible = true;
   },
   mounted() {
-    postMessage({ height: document.documentElement.scrollHeight });
+    postMessageHeight();
   },
   methods: {
     projectClick(event) {

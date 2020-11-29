@@ -27,7 +27,7 @@
 </template>
 
 <script>
-import postMessage from "../utils/postMessage";
+import { postMessageHeight } from "../utils/postMessage";
 import MapButton from "../components/map/MapButton";
 
 export default {
@@ -45,7 +45,7 @@ export default {
     },
   },
   mounted() {
-    postMessage({ height: document.documentElement.scrollHeight });
+    postMessageHeight();
 
     this.data.back_to_map.visible = false;
   },

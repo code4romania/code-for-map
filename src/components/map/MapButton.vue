@@ -31,7 +31,7 @@
 </template>
 
 <script>
-import postMessage from "../../utils/postMessage";
+import { postMessageHeight } from "../../utils/postMessage";
 
 export default {
   name: "MapButton",
@@ -55,9 +55,9 @@ export default {
   },
   methods: {
     updateIframe() {
-      postMessage({ height: document.documentElement.scrollHeight });
-    },
-  },
+      postMessageHeight();
+    }
+  }
 };
 </script>
 
