@@ -68,10 +68,23 @@
           </p>
         </b-col>
         <b-col lg="8">
-          <div class="embed-responsive embed-responsive-16by9 Video">
+          <button
+            v-if="!showVideo"
+            class="btn btn-link"
+            @click.prevent="playYT()"
+          >
+            <img
+              class="img-fluid"
+              :src="coverYT"
+            >
+          </button>
+          <div
+            v-else
+            class="embed-responsive embed-responsive-16by9 Video"
+          >
             <iframe
               class="embed-responsive-item"
-              src="https://www.youtube.com/embed/XHVvEhmrlkA?modestbranding=1&autohide=2&showinfo=0&controls=0"
+              src="https://www.youtube.com/embed/XHVvEhmrlkA?modestbranding=1&autohide=2&showinfo=0&autoplay=1"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
@@ -298,6 +311,8 @@ export default {
   data() {
     return {
       data: {},
+      coverYT: "",
+      showVideo: false
     };
   },
   created() {
@@ -309,6 +324,8 @@ export default {
     window.onresize = debouce(() => {
       postMessageHeight();
     }, 500);
+
+    this.coverYT = require("./assets/images/cover-yt.png");
   },
   methods: {
     downloadPlan() {
@@ -328,6 +345,9 @@ export default {
       };
 
       request.send();
+    },
+    playYT() {
+      this.showVideo = true
     },
   },
 };
