@@ -33,11 +33,8 @@
 
 .BackToMap,
 .ProjectModal-nav {
-  font-size: 18px;
-
-  @include respond-below(lg){
-    font-size: 15px;
-  }
+  font-size: 15px;
+  margin-right: 15px;
 
   &:hover {
     text-decoration: none;

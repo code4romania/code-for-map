@@ -5,31 +5,46 @@
       :class="`bg-` + highwayMap.color"
     />
 
-    <div class="ProjectModal px-2 px-lg-4 pb-3">
-      <div
-        class="d-flex align-items-center justify-content-between my-4 px-2 p-lg-0"
-      >
-        <div class="SegmentLegend-status d-flex align-items-center">
-          <i
-            class="icon icon-circle"
-            :class="
-              project.adopted ? 'border-' + highwayMap.color : 'border-gray'
-            "
-          />
-          {{
-            project.adopted
-              ? data.segment_legend.done
-              : data.segment_legend.designed
-          }}
+    <div class="ProjectModal px-4">
+      <div class="mt-4 d-flex align-items-center justify-content-between">
+        <div>
+          <a
+            v-if="segmentObject.projects.length > 1"
+            href="#"
+            class="ProjectModal-nav"
+            @click.prevent="previous"
+          >
+            <svg class="icon icon-md">
+              <use xlink:href="#chevron-left" />
+            </svg>
+            <span class="ml-lg-2 text-primary border-bottom border-primary">
+              {{ data.general.modal.previous.text }}
+            </span>
+          </a>
+          <a
+            v-if="segmentObject.projects.length > 1"
+            href="#"
+            class="ProjectModal-nav"
+            @click.prevent="next"
+          >
+            <span class="mr-lg-2 text-primary border-bottom border-primary">
+              {{ data.general.modal.next.text }}
+            </span>
+            <svg class="icon icon-md">
+              <use xlink:href="#chevron-right" />
+            </svg>
+          </a>
         </div>
-        <router-link
-          :to="{
-            name: 'Segment',
-            params: { slug: slug, segment: segmentSlug },
-          }"
-        >
-          <svg class="icon"><use xlink:href="#close" /></svg>
-        </router-link>
+        <div>
+          <router-link
+            :to="{
+              name: 'Segment',
+              params: { slug: slug, segment: segmentSlug },
+            }"
+          >
+            <svg class="icon"><use xlink:href="#close" /></svg>
+          </router-link>
+        </div>
       </div>
 
       <div class="ProjectModal-header my-4">
@@ -38,6 +53,19 @@
           <p class="lead">
             {{ project.subtitle }}
           </p>
+          <div class="SegmentLegend-status d-flex align-items-center">
+            <i
+              class="icon icon-circle"
+              :class="
+                project.adopted ? 'border-' + highwayMap.color : 'border-gray'
+              "
+            />
+            {{
+              project.adopted
+                ? data.segment_legend.done
+                : data.segment_legend.designed
+            }}
+          </div>
         </div>
         <div>
           <a
@@ -51,7 +79,7 @@
         </div>
       </div>
 
-      <b-row>
+      <b-row class="mb-4">
         <b-col
           xs="12"
           md="4"
@@ -119,66 +147,6 @@
               </a>
             </b-col>
           </b-row>
-        </b-col>
-      </b-row>
-
-      <b-row>
-        <b-col
-          cols="12"
-          class="mt-5 mb-3"
-        >
-          <div class="d-flex align-items-center justify-content-between">
-            <!-- <router-link
-              :to="{
-                name: 'ProjectModal',
-                params: {
-                  __slug: segment.projects[previous_index].project_slug,
-                },
-              }"
-            > -->
-            <a
-              v-if="segmentObject.projects.length > 1"
-              href="#"
-              class="ProjectModal-nav"
-              @click.prevent="previous"
-            >
-              <svg class="icon icon-md">
-                <use xlink:href="#chevron-left" />
-              </svg>
-              <span class="ml-lg-2 text-primary border-bottom border-primary">
-                {{ data.general.modal.previous.text }}
-              </span>
-            </a>
-            <!-- </router-link> -->
-
-            <!-- <router-link
-              :to="{
-                name: 'ProjectModal',
-                params: { __slug: segment.projects[next_index].project_slug },
-              }"
-            > -->
-            <a
-              v-if="segmentObject.projects.length > 1"
-              href="#"
-              class="ProjectModal-nav"
-              @click.prevent="next"
-            >
-              <span class="mr-lg-2 text-primary border-bottom border-primary">
-                {{ data.general.modal.next.text }}
-              </span>
-              <svg class="icon icon-md">
-                <use xlink:href="#chevron-right" />
-              </svg>
-            </a>
-            <!-- </router-link> -->
-
-            <!-- <span v-if="segment.projects.length > 1" @click="goToNextRoute">
-              {{ data.general.modal.next.text }}
-              <svg class="icon icon-sm">
-                <use xlink:href="#chevron-right"></use>
-              </svg>
-            </span> -->
-          </div>
         </b-col>
       </b-row>
     </div>
