@@ -61,7 +61,7 @@
       <div class="SegmentVisual-wrap mt-4">
         <router-link
           :to="{ name: 'Highway', params: { slug: slug } }"
-          class="SegmentVisual-close mb-4 d-inline-block"
+          class="SegmentVisual-close d-inline-block"
         >
           <div class="d-flex align-items-center">
             <svg class="icon icon-md">
@@ -82,9 +82,9 @@
 
     <b-row>
       <b-col offset-lg="2">
-        <div class="Segment-info d-none d-lg-block">
+        <div class="Segment-info d-none d-lg-block text-right">
           <div class="badge badge-primary Segment-status mb-3">{{ segmentObject.status }}</div>
-          <div v-html="segmentObject.description" />
+          <div class="lead" v-html="segmentObject.description" />
         </div>
       </b-col>
     </b-row>

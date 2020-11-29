@@ -6,6 +6,25 @@
       :description="highway.description"
     />
 
+    <div
+      v-if="highway.sponsor"
+      class="Highway-partner my-4 d-lg-none"
+    >
+      <div class="d-inline-block mb-2">
+        {{ data.general.financed_by }}
+      </div>
+      <a
+        :href="highway.sponsor.link"
+        target="_blank"
+        class="d-block border border-gray"
+      >
+        <img
+          :src="highway.sponsor.logo"
+          class="img-fluid"
+        >
+      </a>
+    </div>
+
     <div class="Highway-wrap">
       <div class="HighwayContainer">
         <div class="Highway">
@@ -55,39 +74,40 @@
           </template>
         </div>
 
-        <b-row>
-          <b-col
-            lg="2"
-          >
-            <div
-              v-if="highway.sponsor"
-              class="Highway-partner"
+        <div class="d-none d-lg-block">
+          <b-row>
+            <b-col
+              lg="2"
             >
-              <div class="d-inline-block mb-2">
-                {{ data.general.financed_by }}
-              </div>
-              <a
-                :href="highway.sponsor.link"
-                target="_blank"
-                class="d-block border border-gray"
+              <div
+                v-if="highway.sponsor"
+                class="Highway-partner m-0"
               >
-                <img
-                  :src="highway.sponsor.logo"
-                  class="img-fluid"
+                <div class="d-inline-block mb-2">
+                  {{ data.general.financed_by }}
+                </div>
+                <a
+                  :href="highway.sponsor.link"
+                  target="_blank"
+                  class="d-block border border-gray"
                 >
-              </a>
-            </div>
-          </b-col>
-          <b-col
-            class="d-none d-lg-block"
-            lg="10"
-          >
-            <p
-              class="my-4"
-              v-html="highway.description"
-            />
-          </b-col>
-        </b-row>
+                  <img
+                    :src="highway.sponsor.logo"
+                    class="img-fluid"
+                  >
+                </a>
+              </div>
+            </b-col>
+            <b-col
+              lg="10"
+            >
+              <p
+                class="lead text-right my-4"
+                v-html="highway.description"
+              />
+            </b-col>
+          </b-row>
+        </div>
       </div>
     </div>
   </div>

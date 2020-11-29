@@ -17,6 +17,9 @@
                 />
                 <p v-html="data.header.description" />
               </div>
+              <Legend
+                :legend="data.map_legend"
+              />
               <router-link
                 v-if="data.back_to_map.visible"
                 :to="{ name: 'Map' }"
@@ -37,13 +40,6 @@
           align-v="end"
           class="MapHero-wrap"
         >
-          <!-- <b-col
-            lg="2"
-          >
-            <Legend
-              :legend="data.map_legend"
-            />
-          </b-col> -->
           <b-col
             lg="9"
             offset-lg="3"
