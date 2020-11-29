@@ -274,7 +274,7 @@ export default {
       request.responseType = "blob";
 
       request.onload = () => {
-        const file = new Blob([request.response], { type: "application/pdf" });
+        const blob = new Blob([request.response], { type: "application/pdf" });
 
         saveAs(blob, "Code_4_Romania_-_Digitalizam_Romania_impreuna.pdf");
       }
