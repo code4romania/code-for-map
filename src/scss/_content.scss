@@ -107,8 +107,8 @@
   }
 }
 
-.HowWeWork {
-  border: 2px dashed $primary;
+.BorderBox {
+  border: 2px dashed $strong-blue;
   padding: 10px 20px;
   
   @include respond-above(md) {
@@ -126,9 +126,9 @@
     height: 100%;
     border: 2px dashed $primary;
     padding: 20px;
+  }
 
-    &.SendSMS {
-      border: 2px dashed $green;
-    }
+  .SendSMS-wrap {
+    border: 2px dashed $green;
   }
 }

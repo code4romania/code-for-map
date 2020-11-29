@@ -92,9 +92,9 @@
           v-for="(step, index) in data.more_info.work.steps"
           :key="'item-' + index"
           md="6"
-          class="mb-4 HowWeWork-wrap"
+          class="mb-4 BorderBox-wrap"
         >
-          <div class="HowWeWork">
+          <div class="BorderBox">
             <div class="d-flex align-items-center justify-content-start mb-4">
               <img
                 class="icon icon-xl mr-4"
@@ -133,7 +133,7 @@
           xl="3"
           class="mb-4"
         >
-          <div class="d-flex flex-column justify-content-between">
+          <div class="d-flex flex-column justify-content-between SendSMS-wrap">
             <SendSMS
               :data="data.sms"
               :call-to-action="data.call_to_action"
@@ -204,6 +204,31 @@
             <div>
               <Share :share="data.call_to_action.share" />
             </div>
+          </div>
+        </b-col>
+      </b-row>
+
+      <h1 class="text-strong-blue mb-4">
+        {{ data.more_info.faqs_title }}
+      </h1>
+
+      <b-row
+        class="mb-5 mt-5"
+        align-v="stretch"
+      >
+        <b-col
+          v-for="(question, index) in data.more_info.faqs"
+          :key="'item-' + index"
+          md="6"
+          class="mb-4 BorderBox-wrap"
+        >
+          <div class="BorderBox">
+            <div class="d-flex align-items-center justify-content-start mb-4">
+              <h2 class="text-strong-blue">
+                {{ question.question }}
+              </h2>
+            </div>
+            <div v-html="question.answer" />
           </div>
         </b-col>
       </b-row>

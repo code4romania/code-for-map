@@ -108,12 +108,23 @@
       ]
     },
     "how": {
-      "title": "Cum putem digitaliza România împreună",
-      "steps": []
-    }
-  },
-  "faqs": {
-
+      "title": "Cum putem digitaliza România împreună"
+    },
+    "faqs_title": "Întrebări frecvente",
+    "faqs": [
+      {
+        "question": "Cum devin aceste soluții realitate?",
+        "answer": "<p>Odată finalizat procesul de cercetare și prototipare al soluțiilor, ele au nevoie de un cuplu de părinți pentru a putea funcționa corespunzător și a putea fi lansate: un finanțator care să poată susține dezvoltarea soluției digitale și un ONG sau, în unele cazuri, o instituție de stat care să o adopte și să o administreze pe viitor.</p><p>Multe dintre aceste soluții sunt dezvoltate și administrate chiar de noi, în interiorul organizației, prin programul Tech For Social Good, însă capacitatea de a duce la bun sfârșit mai multe proiecte deodată este limitată.</p>"
+      },
+      {
+        "question": "Cât costă toate aceste proiecte?",
+        "answer": "<p>Fiecare soluție digitală are în spate o estimare de cost care acoperă tot ce înseamnă dezvoltarea și administrarea ei pe mai departe. Costurile reflectă gradele diferite de complexitate ale acestor proiecte în funcție de specificul lor tehnic, așadar ele diferă destul de mult.</p><p>Folosim întotdeauna cod în regim open-source, astfel încât pe viitor să reutilizăm liniile de cod ale unor aplicații pentru a crea altele într-un mod eficient și cu niște costuri reduse. Cu cât construim mai mult, vom putea construi mai ușor și mai mult.</p>"
+      },
+      {
+        "question": "Ce ați făcut până acum?",
+        "answer": "<p>Încă din 2016, ne-am asumat misiunea de a rezolva pro-bono problemele societății actuale prin soluții IT. În timp, am dezvoltat programe prin care mapăm cele mai presante probleme sociale și identificăm cele mai bune soluții digitale pentru ele sau oferim asistență ONG-urilor care au dificultăți tehnologice în activitatea lor.</p><p>Unele dintre soluțiile digitale gândite de noi au ajuns în managementul Departamentului pentru Situații de Urgență, Ministerului Sănătății sau al diverselor ONG-uri cu care am colaborat de-a lungul timpului.</p><p>Prin dialogul deschis cu Guvernul și diferite instituții ale statului vrem să ne asigurăm că lupta noastră primește susținerea necesară din partea administrației și că planul nostru de digitalizare este sprijinit și la nivel oficial.</p>"
+      }
+    ]
   },
   "partners": {
     "title": "Împreună",
