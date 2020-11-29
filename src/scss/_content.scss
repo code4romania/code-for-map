@@ -1,3 +1,9 @@
+.Header {
+  @include respond-above(lg) {
+    padding-top: 10px;
+  }
+}
+
 .SendSMS-msg,
 .SendSMS-no {
   color: $strong-blue;
