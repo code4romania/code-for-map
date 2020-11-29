@@ -20,18 +20,6 @@
               <Legend
                 :legend="data.map_legend"
               />
-              <router-link
-                v-if="data.back_to_map.visible"
-                :to="{ name: 'Map' }"
-                class="BackToMap mb-4 d-inline-block d-lg-none"
-              >
-                <div class="d-flex align-items-center">
-                  <svg class="icon"><use xlink:href="#chevron-left" /></svg>
-                  <div class="ml-2 text-primary border-bottom border-primary">
-                    {{ data.general.back_to_map }}
-                  </div>
-                </div>
-              </router-link>
             </div>
           </b-col>
         </b-row>
@@ -48,6 +36,18 @@
             offset-xl="2"
             class="MapHero-map"
           >
+            <router-link
+              v-if="data.back_to_map.visible"
+              :to="{ name: 'Map' }"
+              class="BackToMap mb-4 d-inline-block d-lg-none"
+            >
+              <div class="d-flex align-items-center">
+                <svg class="icon"><use xlink:href="#chevron-left" /></svg>
+                <div class="ml-2 text-primary border-bottom border-primary">
+                  {{ data.general.back_to_map }}
+                </div>
+              </div>
+            </router-link>
             <router-view :data="data" />
           </b-col>
         </b-row>
