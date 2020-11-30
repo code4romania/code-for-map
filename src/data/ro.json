@@ -78,7 +78,8 @@
   },
   "more_info": {
     "download_pdf_cta": "Descarcă planul nostru",
-    "download_pdf_link": "/download",
+    "download_link": "/download",
+    "download_pdf_link": "https://civiclabs-prod-media.s3.eu-west-1.amazonaws.com/e03f66e6-f9ae-45fa-a240-45d894377a05/PlanCode4Map.pdf",
     "title": "Următorii 5 ani",
     "description": "Pentru o țară funcțională, avem nevoie de o infrastructură digitală ca de aer. Sau ca de drumuri. De patru ani, Code for Romania construiește soluții digitale acolo unde nu făcuse nimeni nici un drum. Am desenat pe o hartă toate drumurile pe care le putem construi împreună în următorii 5 ani. Sunt multe probleme pe harta României, dar am arătat că putem găsi soluții pentru multe dintre ele.",
     "youtube": "https://www.youtube.com/watch?v=tyYNP9IzfEY&ab_channel=MorningGlorycuR%C4%83zvanExarhu",
