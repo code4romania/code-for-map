@@ -63,9 +63,21 @@
           <h1 class="text-strong-blue mb-4">
             {{ data.more_info.title }}
           </h1>
-          <p class="pr-5">
-            {{ data.more_info.description }}
-          </p>
+          <p
+            class="mb-4 pr-lg-3"
+            v-html="data.more_info.description"
+          />
+          <!-- <a
+            class="btn btn-strong-blue btn-lg px-5 d-none d-lg-inline-block"
+            :href="data.more_info.download_link"
+            @click.prevent="downloadPlan()"
+          >{{ data.more_info.download_pdf_cta }}</a> -->
+          <a
+            class="btn btn-strong-blue btn-lg px-5"
+            :href="data.more_info.download_pdf_link"
+            target="_blank"
+            @click="trackDownload()"
+          >{{ data.more_info.download_pdf_cta }}</a>
         </b-col>
         <b-col lg="8">
           <button
@@ -119,22 +131,6 @@
             </div>
             <div v-html="step.content" />
           </div>
-        </b-col>
-        <b-col
-          cols="12"
-          class="my-5 text-center"
-        >
-          <!-- <a
-            class="btn btn-strong-blue btn-lg px-5 d-none d-lg-inline-block"
-            :href="data.more_info.download_link"
-            @click.prevent="downloadPlan()"
-          >{{ data.more_info.download_pdf_cta }}</a> -->
-          <a
-            class="btn btn-strong-blue btn-lg px-5"
-            :href="data.more_info.download_pdf_link"
-            target="_blank"
-            @click="trackDownload()"
-          >{{ data.more_info.download_pdf_cta }}</a>
         </b-col>
       </b-row>
 
