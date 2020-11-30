@@ -126,7 +126,7 @@
         >
           <a
             class="btn btn-strong-blue btn-lg px-5 d-none d-lg-inline-block"
-            :href="data.more_info.download_pdf_link"
+            :href="data.more_info.download_link"
             @click.prevent="downloadPlan()"
           >{{ data.more_info.download_pdf_cta }}</a>
           <a
