@@ -124,13 +124,13 @@
           cols="12"
           class="my-5 text-center"
         >
-          <a
+          <!-- <a
             class="btn btn-strong-blue btn-lg px-5 d-none d-lg-inline-block"
             :href="data.more_info.download_link"
             @click.prevent="downloadPlan()"
-          >{{ data.more_info.download_pdf_cta }}</a>
+          >{{ data.more_info.download_pdf_cta }}</a> -->
           <a
-            class="btn btn-strong-blue btn-lg px-5 d-lg-none"
+            class="btn btn-strong-blue btn-lg px-5"
             :href="data.more_info.download_pdf_link"
             target="_blank"
             @click="trackDownload()"
