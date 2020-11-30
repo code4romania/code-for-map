@@ -204,16 +204,8 @@ export default {
         this.project.icon +
         ".png");
 
-      const pageTitle =
-        to.params.slug + " - " + to.params.segment
-          ? to.params.segment
-          : "" + " - " + to.params.solution
-          ? to.params.solution
-          : "";
-
       this.$gtag.pageview({
-        page_title: pageTitle,
-        page_path: to.path,
+        page_title: this.project.projectSlug,
       });
     },
   },
@@ -234,6 +226,10 @@ export default {
     this.projectIcon = require("../assets/images/projects/" +
       this.project.icon +
       ".png");
+
+    this.$gtag.pageview({
+      page_title: this.project.projectSlug,
+    });
   },
   methods: {
     next() {

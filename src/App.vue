@@ -133,6 +133,7 @@
             class="btn btn-strong-blue btn-lg px-5 d-lg-none"
             :href="data.more_info.download_pdf_link"
             target="_blank"
+            @click="trackDownload()"
           >{{ data.more_info.download_pdf_cta }}</a>
         </b-col>
       </b-row>
@@ -343,9 +344,7 @@ export default {
 
         saveAs(blob, "Code_4_Romania_-_Digitalizam_Romania_impreuna.pdf");
 
-        this.$gtag.event("download", {
-          event_label: "plan downloaded",
-        });
+        this.trackDownload();
       };
 
       request.send();
@@ -353,6 +352,11 @@ export default {
     playYT() {
       this.showVideo = true
     },
+    trackDownload() {
+      this.$gtag.event("download", {
+        event_label: "plan-downloaded",
+      });
+    }
   },
 };
 </script>

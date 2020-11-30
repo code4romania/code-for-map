@@ -155,14 +155,9 @@ export default {
         );
       }
 
-      const pageTitle = to.params.slug + ' - ' +
-        to.params.segment ? to.params.segment : '' + ' - '+
-        to.params.solution ? to.params.solution : ''
-
       this.$gtag.pageview({
-        page_title: pageTitle,
-        page_path: to.path
-      })
+        page_title: this.slug,
+      });
     },
   },
 
