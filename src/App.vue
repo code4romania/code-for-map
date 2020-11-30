@@ -347,8 +347,10 @@ export default {
       this.showVideo = true
     },
     trackDownload() {
-      this.$gtag.event("download", {
+      this.$gtag.event("plan-download", {
+        event_category: "download",
         event_label: "plan-downloaded",
+        value: "downloaded"
       });
     }
   },

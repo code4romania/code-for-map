@@ -157,6 +157,7 @@ export default {
 
       this.$gtag.pageview({
         page_title: this.slug,
+        page_path: window.location.href,
       });
     },
   },

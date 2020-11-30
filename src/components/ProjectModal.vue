@@ -206,6 +206,7 @@ export default {
 
       this.$gtag.pageview({
         page_title: this.project.projectSlug,
+        page_path: window.location.href,
       });
     },
   },
@@ -229,6 +230,7 @@ export default {
 
     this.$gtag.pageview({
       page_title: this.project.projectSlug,
+      page_path: window.location.href,
     });
   },
   methods: {

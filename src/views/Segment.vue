@@ -165,6 +165,7 @@ export default {
 
         this.$gtag.pageview({
           page_title: this.segmentSlug,
+          page_path: window.location.href,
         });
       },
     },

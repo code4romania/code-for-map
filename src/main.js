@@ -17,8 +17,6 @@ Vue.config.productionTip = false;
 Vue.use(VueGtag, {
   config: {
     id: 'G-951ZZD09FJ',
-    appName: "code-for-map",
-    pageTrackerScreenviewEnabled: true
   }
 }, router);
 
