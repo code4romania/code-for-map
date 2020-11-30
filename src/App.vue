@@ -181,7 +181,6 @@
               <a
                 :href="data.call_to_action.partner.link"
                 class="btn btn-lg btn-primary px-4"
-                target="_parent"
               >{{ data.call_to_action.partner.label }}</a>
             </div>
           </div>
@@ -202,7 +201,6 @@
               <a
                 :href="data.call_to_action.sponsor.link"
                 class="btn btn-lg btn-primary px-4"
-                target="_parent"
               >{{ data.call_to_action.sponsor.label }}</a>
             </div>
           </div>
