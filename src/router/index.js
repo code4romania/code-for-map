@@ -2,7 +2,6 @@
 
 import Vue from "vue";
 import VueRouter from "vue-router";
-import VueGtag from "vue-gtag";
 
 import postMessage from "../utils/postMessage";
 
@@ -44,14 +43,6 @@ const routes = [
     ]
   }
 ];
-
-Vue.use(VueGtag, {
-  config: {
-    id: 'G-951ZZD09FJ',
-    appName: "code-for-map",
-    pageTrackerScreenviewEnabled: true
-  }
-}, router);
 
 const router = new VueRouter({
   mode: "history",
