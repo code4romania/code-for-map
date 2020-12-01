@@ -178,6 +178,12 @@
     ],
     "others": [
       {
+        "id": 18,
+        "name": "Romanian United Fund",
+        "link": "https://www.romanianunitedfund.org/",
+        "logo": "https://code4.ro/img/93c178b9-e4ad-4152-a4db-348fd34d6268/putem-10.png?q=60&fit=max&dpr=1&h=200"
+      },
+      {
         "id": 5,
         "name": "Sustainalytics",
         "link": "https://www.sustainalytics.com/about-us/",
@@ -245,6 +251,10 @@
       "slug": "care4ro",
       "title": "Care for Romania",
       "description": "În jurul câte unui eveniment tragic, atenția societății se îndreaptă trecător spre problemele unor categorii sociale care au nevoie de sprijin. Dar incluziunea socială a persoanelor vulnerabile nu este o problemă care se tratează cu intenții pozitive punctuale, ci cu eforturi susținute și planuri bine gândite pentru viitor. Sărăcia, copiii instituționalizați, persoanele cu dizabilități, minoritățile, sunt zone vulnerabile ale societății românești.",
+      "sponsor": {
+        "link": "https://www.romanianunitedfund.org/",
+        "logo": "https://code4.ro/img/93c178b9-e4ad-4152-a4db-348fd34d6268/putem-10.png?q=60&fit=max&dpr=1&h=200"
+      },
       "btn": {
         "top": "9%",
         "left": "49.78%"
