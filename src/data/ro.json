@@ -161,7 +161,7 @@
         "id": 2,
         "name": "Jysk",
         "link": "http://jysk.ro/",
-        "logo": "https://code4.ro/img/ebfcbce8-a473-4af3-b8cf-70da1f770e51/jysk.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=500%2C500%2C0%2C0"
+        "logo": "https://code4.ro/img/8e09071c-bce4-4144-ab7f-5434576de667/jysk.png"
       },
       {
         "id": 3,
@@ -223,7 +223,7 @@
         "id": 11,
         "name": "Systematic",
         "link": "https://systematic.com/contact/offices/romania/",
-        "logo": "https://code4.ro/img/bf815744-9a4e-4420-bf6e-26da91458250/systematic-bucuresti-tfsg.png?q=80&fit=crop&dpr=1&w=200&h=80&crop=400%2C51%2C0%2C0"
+        "logo": "https://code4.ro/img/18b7822a-8388-4f08-8d17-5aca36fde265/systematic.png"
       },
       {
         "id": 12,
@@ -867,7 +867,7 @@
           "segmentSlug": "sprijin-nu-pedeapsa-pentru-dependenti",
           "segment_visual": "segment-health-05-sprijin-nu-pedeapsa-pentru-dependenti",
           "status": "Începe în martie 2023",
-          "title": "Sprijin nu pedeapsa pentru dependenti",
+          "title": "Sprijin nu pedeapsa pentru dependenți",
           "description": "<p>Persoanele dependente au nevoie de sprijin pe termen lung, de înțelegere din partea comunității și de încredere în cei la care apelează.</p><p>Tulburările din sfera dependenței nu ar trebui să definească persoanele care trec prin astfel de greutăți, însă, scăpate de sub control, ele pot ajunge să le acapareze viața și să îi afecteze pe cei din jur.</p><p>Este o problemă deosebit de frecventă și, din păcate, foarte puțin înțeleasă. Dependența trebuie privită ca o tulburare mentală, nu ca o slăbiciune morală sau lipsă de voință, astfel că ne concentrăm atenția pe aspectele care pot fi schimbate și îmbunătățite în abordarea și tratarea dependenților.</p>",
           "btn": {
             "top": "42%",
@@ -882,7 +882,7 @@
           "segmentSlug": "sanatate-mentala-pentru-toti",
           "segment_visual": "segment-health-06-sanatate-mentala-pentru-toti",
           "status": "Începe în martie 2024",
-          "title": "Sanatate mintala pentru toti",
+          "title": "Sănătate mintală pentru toți",
           "description": "<p>Grija pentru sănătatea mintală ar trebui să fie la fel de firească precum preocuparea pentru un corp sănătos prin exerciții fizice și o alimentație corespunzătoare.</p><p>La nivel național, însă, infrastructura de prevenție și tratare a bolilor psihice este deficitară atât în ceea ce privește starea de bine a psihicului de zi cu zi, cât și pentru probleme grave și tot mai des întâlnite precum depresia, anxietatea sau afecțiunile psihiatrice.</p><p>Ne propunem să combatem stigmatul bolilor mintale și să apelăm la soluții digitale care să îmbunătățească fluxurile dintre instituțiile abilitate și pacienți.</p>",
           "btn": {
             "top": "29%",
@@ -1900,7 +1900,7 @@
       "description": "Ca să putem trăi împreună în condiții bune, trebuie să gândim dincolo de noi înșine. Binele fiecăruia dintre noi nu poate fi separat de binele mediului în care trăim și în care planificăm viitorul nostru și al generațiilor de după noi. Pădurile, natura și spațiile verzi sunt primele lucruri la care gândul se duce atunci când vine vorba despre mediu. Dar tot aici vorbim și despre dezvoltarea urbană, infrastructură, zonele protejate, dezastrele naturale și strategii de protecție împotriva poluării de orice tip.În următorii cinci ani, ne uităm cu atenție în jur la problemele mediului și găsim cele mai bune soluții digitale prin care putem, protejând mediul înconjurător, să ne protejăm pe noi înșine.",
       "sponsor": {
         "link": "http://jysk.ro/",
-        "logo": "https://code4.ro/img/ebfcbce8-a473-4af3-b8cf-70da1f770e51/jysk.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=500%2C500%2C0%2C0"
+        "logo": "https://code4.ro/img/8e09071c-bce4-4144-ab7f-5434576de667/jysk.png"
       },
       "btn": {
         "color": "green",
