@@ -17,6 +17,7 @@ Help us out by testing this project in the [staging environment](INSERT_LINK_HER
 If you would like to suggest new functionality, open an Issue and mark it as a __[Feature request]__. Please be specific about why you think this functionality will be of use. If you can, please include some visual description of what you would like the UI to look like, if you are suggesting new UI elements. 
 
 ## Built With
+- Vue 2
 
 ### Programming languages
 
@@ -42,6 +43,12 @@ Guide users through getting your code up and running on their own system. In thi
 
 Describe and show how to build your code and run the tests.
 
+```
+npm i
+npm run serve
+npm run build
+```
+
 ## Feedback
 
 * Request a new feature on GitHub.
@@ -53,7 +60,7 @@ Describe and show how to build your code and run the tests.
 
 This project is licensed under the MPL 2.0 License - see the [LICENSE](LICENSE) file for details
 
-## About Code4Ro
+## About Code for Romania
 
 Started in 2016, Code for Romania is a civic tech NGO, official member of the Code for All network. We have a community of over 500 volunteers (developers, ux/ui, communications, data scientists, graphic designers, devops, it security and more) who work pro-bono for developing digital solutions to solve social problems. #techforsocialgood. If you want to learn more details about our projects [visit our site](https://www.code4.ro/en/) or if you want to talk to one of our staff members, please e-mail us at contact@code4.ro.
 
