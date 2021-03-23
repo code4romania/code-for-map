@@ -1460,8 +1460,15 @@
               "description": "<p>Pentru cetățenii care vor să se implice în viața societății și să mențină o legătură cu autoritățile locale,  modalitatea și locul în care pot trimite în scris propuneri, sugestii, opinii cu valoare de recomandare nu sunt mereu la îndemână. Biroul de propuneri este platforma prin care cetățenii vor putea trimite sugestii de îmbunătățire a activității pentru administrația locală, le vor putea urmări și vor putea interacționa și dezbate propunerile făcute până în acel moment. Soluția urmărește modelul <em>Consul</em>, implementat deja în 135 de orașe din 35 de țări.</p>",
               "link": "",
               "icon": "participation4ro-biroul-de-propuneri",
-              "adopted": false,
-              "adopted_by": []
+              "adopted": true,
+              "adopted_by": [
+                {
+                  "id": 4,
+                  "title": "Vitas Romania",
+                  "link": "https://vitasromania.ro/",
+                  "logo": "https://code4.ro/img/8b623ae2-7deb-4b1a-97e6-60e558d49401/logo-vitas.png?q=60&fit=max&dpr=1&h=256"
+                }
+              ]
             },
             {
               "id": 5,
@@ -1471,8 +1478,15 @@
               "description": "<p>Bugetul participativ permite cetăţenilor să se implice în mod direct în deciziile luate privind dezvoltarea localităţii lor. În fiecare an, primăria poate aloca o parte din bugetul anual al localității, după care toți locuitorii pot veni cu propuneri de utilizare a acestor sume. Bugetare Participativă va fi o platformă deschisă tuturor primăriilor care vor să își implice cetățenii în luarea acestor decizii importante. Soluția urmărește modelul <em>Consul</em>, implementat deja în 135 de orașe din 35 de țări.</p>",
               "link": "",
               "icon": "participation4ro-bugetare-participativa",
-              "adopted": false,
-              "adopted_by": []
+              "adopted": true,
+              "adopted_by": [
+                {
+                  "id": 4,
+                  "title": "Vitas Romania",
+                  "link": "https://vitasromania.ro/",
+                  "logo": "https://code4.ro/img/8b623ae2-7deb-4b1a-97e6-60e558d49401/logo-vitas.png?q=60&fit=max&dpr=1&h=256"
+                }
+              ]
             },
             {
               "id": 6,
