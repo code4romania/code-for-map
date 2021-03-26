@@ -224,6 +224,18 @@
         "name": "Unifiedpost",
         "link": "https://www.unifiedpost.com/",
         "logo": "https://code4.ro/img/85ebcd58-6304-4862-9529-037e20d98d57/unified-post.png?q=80&fit=crop&dpr=1&w=200&h=80&crop=500%2C500%2C0%2C0"
+      },
+      {
+        "id": 15,
+        "name": "Wolfpack",
+        "link": "https://www.wolfpack-digital.com",
+        "logo": "https://code4.ro/img/4e2d07ea-2aa4-494d-a130-701bec2efc3f/wolfpack.png?q=80&fit=max&crop=631%2C411%2C0%2C0&w=400"
+      },
+      {
+        "id": 16,
+        "name": "Mambu",
+        "link": "https://www.mambu.com",
+        "logo": "https://code4.ro/img/f24ec8c5-ddbd-4abd-b555-2a19aae0e57b/mambu.jpg?q=80&fit=max&crop=1599%2C391%2C0%2C0&w=400"
       }
     ]
   },
