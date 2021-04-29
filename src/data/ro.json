@@ -236,6 +236,12 @@
         "name": "Mambu",
         "link": "https://www.mambu.com",
         "logo": "https://code4.ro/img/f24ec8c5-ddbd-4abd-b555-2a19aae0e57b/mambu.jpg?q=80&fit=max&crop=1599%2C391%2C0%2C0&w=400"
+      },
+      {
+        "id": 16,
+        "name": "Garmin",
+        "link": "https://www.garmin.com/ro-RO/",
+        "logo": "https://code4.ro/img/aafd60d3-7477-4b19-8709-00903c95d2dd/garmin.png?q=80&fit=max&crop=4167%2C599%2C0%2C0&w=400"
       }
     ]
   },
