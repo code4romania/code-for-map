@@ -6,7 +6,6 @@
         slug: slug,
         segment: segmentSlug,
       },
-      hash: '#map',
     }"
     class="badge-pill btn bg-white d-none d-lg-block HighwayButton"
     :class="

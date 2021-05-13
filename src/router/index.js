@@ -48,20 +48,6 @@ const router = new VueRouter({
   mode: "history",
   base: process.env.BASE_URL,
   routes,
-  scrollBehavior(to, from) {
-    const locationHash = document.location.hash.slice(1);
-    const elementToScroll = document.getElementById(locationHash);
-
-    if (elementToScroll) {
-      const topPosition =
-        elementToScroll.getBoundingClientRect().top + window.pageYOffset;
-      postMessage({ navigate: topPosition });
-      return {
-        x: 0,
-        y: topPosition,
-      };
-    }
-  },
 });
 
 export default router;
