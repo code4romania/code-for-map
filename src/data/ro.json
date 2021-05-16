@@ -412,7 +412,7 @@
               "projectSlug": "Personal-Assessment-Kit-couples",
               "title": "Personal-Assessment-Kit-couples",
               "subtitle": "Instrument de evaluare și prevenție a potențialelor cazuri de violență domestică pentru cupluri",
-              "description": "Identificarea cazurilor de violență domestică poate fi un proces dificil, mai ales dacă vorbim de forma de violență de tip social sau psihologică. Pentru potențialii martori semnele nu sunt evidente, iar aceștia nu au parte de nici un fel de instruire să recunoască semnele. Daily Assessment Kit este un sistem care poate fi folosit de orice angajator cu rol de early warning system. De exemplu, printr-o suită simplă de întrebări de tipul &ldquo;cum te simți astăzi&ldquo; sau altele care au ca scop monitorizarea stării psihice a angajaților, se pot identifica acele pattern-uri care ar putea indica probleme în familie, tulburări emoționale și un consilier de resurse umane ar putea aborda angajatul care dă semne că ar fi într-o situație dificilă pentru a-i putea oferi ajutor. ",
+              "description": "Personal Assessment Kit este un instrument digital care ajută orice persoană să fie cât mai în siguranță alături de partener și sprijină un cuplu atunci când ajunge în situații conflictuale care ar putea duce la violență. Aplicația monitorizează starea fiecăruia dintre parteneri și îi informează pe fiecare, după preferințe, despre starea de spirit a celuilalt. În același timp, cu ajutorul unor exerciții simple, aceștia pot comunica mai bine și pot să se sprijine reciproc pentru a găsi cele mai bune soluții în momentele tensionate. Integrând exerciții de menținere a calmului, managementul furiei, ghiduri de conversație, activități comune și informații utile, acest instrument poate să ajute cuplurile să prevină certurile și discuțiile în contradictoriu.",
               "link": "",
               "icon": "care4ro-personal-assessment-kit",
               "adopted": false,
@@ -482,7 +482,8 @@
               "id": 3,
               "projectSlug": "sprijin-diaspora",
               "title": "Sprijin Diaspora",
-              "subtitle": "Orice cetățean român care locuiește în străinătate care într-un context dificil sau într-o situație de urgență are nevoie de ajutor, poate găsi, cu ajutorul unui chestionar simplu în care configurează ce nevoi are, ajutor specific din partea grupurilor informale sau organizațiilor neguvernamentale înscrise în platformă. Mecanismul construit pune în legătură comunitățile de români pentru a-i aduce împreună și a-i ajuta să se sprijine în momente critice. Soluția curentă reunește deja peste 450 de grupuri de inițiativă, asociații și grupuri de sprijin care au oferit ajutor pe durata pandemiei Covid-19 pentru cetățenii români care au nevoie de medicamente, mâncare, sprijin financiar, traduceri sau adăpost. În condiții normale, Sprijin Diaspora acționează ca un centru care facilitează comunicarea, solicitarea și oferirea de servicii în interiorul comunității de români din țările în care se află aceștia. De exemplu, o persoană cu pregătire didactică ar putea oferi lecții de limbă română pentru copiii din comunitate sau unele persoane pot organiza mici evenimente recurente pentru tineri sau pentru românii care se află departe de casă.",
+              "subtitle": "Consolidarea comunităților de români din diaspora și facilitarea sprijinului în situații de urgență",
+              "description": "Orice cetățean român care locuiește în străinătate care într-un context dificil sau într-o situație de urgență are nevoie de ajutor, poate găsi, cu ajutorul unui chestionar simplu în care configurează ce nevoi are, ajutor specific din partea grupurilor informale sau organizațiilor neguvernamentale înscrise în platformă. Mecanismul construit pune în legătură comunitățile de români pentru a-i aduce împreună și a-i ajuta să se sprijine în momente critice. Soluția curentă reunește deja peste 450 de grupuri de inițiativă, asociații și grupuri de sprijin care au oferit ajutor pe durata pandemiei Covid-19 pentru cetățenii români care au nevoie de medicamente, mâncare, sprijin financiar, traduceri sau adăpost. În condiții normale, Sprijin Diaspora acționează ca un centru care facilitează comunicarea, solicitarea și oferirea de servicii în interiorul comunității de români din țările în care se află aceștia. De exemplu, o persoană cu pregătire didactică ar putea oferi lecții de limbă română pentru copiii din comunitate sau unele persoane pot organiza mici evenimente recurente pentru tineri sau pentru românii care se află departe de casă.",
               "link": "",
               "icon": "care4ro-sprijin-diaspora",
               "adopted": false,
@@ -513,8 +514,8 @@
             {
               "id": 6,
               "projectSlug": "in-afara",
-              "title": "ÎnAfară",
-              "subtitle": "<p>Soluție digitală de informare sau integrare pentru orice cetățean care călătorește sau se stabilește în altă țară",
+              "title": "În Afară",
+              "subtitle": "Soluție digitală de informare sau integrare pentru orice cetățean care călătorește sau se stabilește în altă țară",
               "description": "În majoritatea statelor, autoritățile pun la dispoziția cetățenilor lor informații complete și utile care să îi ajute în momentul în care părăsesc țara, fie pentru călătorii de relaxare, deplasări și rezidență temporară în alte state precum și migrarea permanentă. Astfel că dintr-un punct unic de acces orice cetățean poate să afle toate detaliile esențiale despre viitorul loc în care va pleca. De la informații referitoare la legislație, educație, servicii publice, informații despre taxe și impozite locale, reguli de călătorie, servicii medicale etc, toate aceste detalii sunt puse la dispoziția oricărei persoane. ÎnAfară este o platformă de centralizare și standardizare de informații pentru orice persoană care plănuiește o călătorie sau mutarea temporară sau permanentă într-un alt stat. În plus, aplicația pune cetățeanul în contact cu serviciile consulare din statul în care se află în tranzit sau ca rezident. </p> <p>Soluție care poate fi implementată doar cu participarea administrației centrale</p>",
               "link": "",
               "icon": "care4ro-in-afara",
@@ -858,13 +859,13 @@
               "description": "<p>Asistenții comunitari oferă servicii medicale pentru a compensa lipsa asistenței medicale și accesul pacienților la acest fel de servicii medicale în zonele și regiunile care au cel mai mult nevoie de acestea (de ex. zonele rurale, izolate sau în care nu există un dispensar sau o policlinică etc.). În prezent nu există un mod simplu și eficient de a urmări activitatea asistenților comunitari și de a urmări impactul acestora în zonele vulnerabile. Soluția Asistent comunitar este un instrument de management de caz, fiind în același timp un instrument de management al asistenților comunitari și de formare continuă a acestora. </p> <p>Soluție care poate fi implementată doar cu sprijinul administrației publice. </p>",
               "link": "",
               "icon": "health4ro-asistent-comunitar",
-              "adopted": false,
+              "adopted": true,
               "adopted_by": [
                 {
                   "id": 1,
                   "title": "Unicef",
-                  "link": "",
-                  "logo": ""
+                  "link": "https://www.unicef.org/romania/ro/Nicolas",
+                  "logo": "https://code4.ro/img/f17963d9-7fb7-4f67-9825-cf3cec73a9fe/unicef.png?q=60&fit=max&dpr=1&h=256"
                 }
               ]
             },
@@ -1544,14 +1545,14 @@
               "subtitle": "Prima platformă de date deschise despre finanțările din România",
               "description": "<p>Platforma Donatorilor își propune să aducă o mai mare claritate asupra investițiilor strategice în sectorul non-profit devenind astfel un punct esențial de informare cu privire la alocarea sprijinului financiar în domenii specifice de intervenție, identificarea de noi oportunități de finanțare în domenii încă neexplorate, crearea de mecanisme de co-finanțare și descoperirea de noi actori neguvernamentali și proiectele acestora. Sectorul neguvernamental și publicul larg vor avea acces la un punct central de informare cu date actualizate și standardizate, urmând o taxonomie comună și o mecanică simplă de colectare, permanentă și consistentă. Până în luna aprilie 2021, în Platforma Donatorilor s-au deschis date din partea a 15 finanțatori și 19 Fundații Comunitare, reprezentând granturi în valoare totală de 45,7 milioane de euro.</p>",
               "link": "",
-              "icon": "",
+              "icon": "participation4ro-platforma-donatorilor",
               "adopted": true,
               "adopted_by": [
                 {
                   "id": 4,
                   "title": "Coaliție de finanțatori",
-                  "link": "",
-                  "logo": ""
+                  "link": "#",
+                  "logo": "https://code4.ro/img/97e011aa-d3ac-472c-b4bd-60bcd15d8700/coalitie-de-finantatori.png?q=60&fit=max&dpr=1&h=256"
                 }
               ]
             },
@@ -1563,7 +1564,7 @@
               "description": "<p>Mulți dintre finanțatorii care organizează call-uri de finanțare își construiesc sau administrează platforme complexe care au doar acest scop, unele dintre ele nefiind complet funcționale sau prezentând breșe de funcționare. Funding Call va fi o platformă de call-uri de finanțare deschisă oricărui finanțator, prin care aceștia vor putea, cu un minim de costuri, să organizeze aceste call-uri de în mod simplu, fără să fie nevoie să își construiască propriile soluții costisitoare și având la dispoziție toate funcționalitățile de care au nevoie. Funding Call permite finanțatorilor să publice regulamentele rundelor de finanțare, să configureze formulare de aplicare, să aloce un juriu, să seteze un mecanism de calcul al scorurilor și apoi să selecteze toate aplicațiile primite și declarate câștigătoare. ONG-urile pot accesa toate rundele active simplu și pot aplica ușor la call-uri direct prin platformă. </p>",
               "link": "",
               "icon": "participation4ro-funding-call",
-              "adopted": true,
+              "adopted": false,
               "adopted_by": []
             },
             {
@@ -1924,7 +1925,7 @@
             {
               "id": 5,
               "projectSlug": "Eduacces",
-              "title": "Acces",
+              "title": "Eduacces",
               "subtitle": "Resurse educaționale gratuite pentru profesorii care lucrează cu copii cu CES",
               "description": "<p>Resursele disponibile online pentru lucrul cu elevi în situații de risc sau pentru integrarea copiilor cu cerințe educaționale speciale adesea nu sunt relevante sau nu sunt în limba română și nu sunt adaptate la realitatea din România. AcCES este un centralizator digital de resurse educaționale gratuite pentru profesorii care lucrează cu copii cu CES, integrată și cu un helpline asigurat de psihologi cu care profesorii pot veni în contact pentru a discuta cazuri speciale și a obține sfaturi și ajutor. Platforma va deschide resursele pentru toți profesorii, iar pentru a intra în contact cu un terapeut, aceștia vor trebui să își creeze un cont și să posteze o cerere de ajutor pentru a putea fi preluați de un specialist.</p>",
               "link": "https://www.code4.ro/ro/acces",
@@ -1964,7 +1965,7 @@
                   "id": 1,
                   "title": "Fundația Orange",
                   "link": "https://www.fundatiaorange.ro/",
-                  "logo": "https://code4.ro/img/0445a784-b1d7-43bf-a5ef-b72528c03181/logo-fundatia-orange.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=160%2C60%2C0%2C0"
+                  "logo": "https://code4.ro/img/77c4010c-351c-41c2-baaa-edeb316f4b3d/fundatia-orange.png?q=60&fit=max&dpr=1&h=256"
                 }
               ]
             }
@@ -1986,8 +1987,8 @@
           "projects": [
             {
               "id": 1,
-              "projectSlug": "18 ani de-acasă",
-              "title": "Ce Mă Fac",
+              "projectSlug": "18-ani-de-acasă",
+              "title": "18 ani de acasă",
               "subtitle": "Ghid interactiv de asistență educațională pentru părinți",
               "description": "<p>DOMENIU: Abilități pentru viața reală (preșcolari, școlari, liceeni) </p> <p> DESPRE SOLUȚIE: Educația unui copil începe de la primele sale momente petrecute alături de părinți până când acesta devine independent. Pentru tinerii părinți și nu numai poate fi destul de dificil să navigheze prin nevoile educaționale distincte ale copilului lor în varii etape de dezvoltare. 18 ani de-acasă este este o aplicație care ajută părinții să identifice și să își învețe copilul o serie de abilități care îl pregătesc pentru viața reală la momentele potrivite pentru acesta. Aplicația va fi compusă din numeroase secțiuni cu resurse utile pentru părinți pentru fiecare tip de informații specifice, adaptate vârstei copilului. De exemplu, cu ajutorul aplicației, părintele va putea identifica jocuri potrivite pentru a explica noțiuni de educație financiară sau educație emoțională piciului de 5 sau 6 ani, adecvate pentru acesta. </p>",
               "link": "",
@@ -2002,7 +2003,7 @@
               "subtitle": "Povești despre cum putem construi o societate mai bună pentru toți",
               "description": "<p>DOMENIU: Abilități pentru viața reală, educație civică (preșcolari) </p> <p> DESPRE SOLUȚIE: Copiii învață prea târziu sau prea puțin în școală despre locul lor în societate, despre felul în care aceasta funcționează sau despre beneficiile pe care implicarea fiecăruia le poate aduce în viața tuturor. Pentru că felul în care cei mici învață cel mai bine este prin povești, am proiectat un portal care conține cărți de povești pentru grupele de vârstă preșcolare, din care să poată deprinde noțiuni care țin de civism și formarea unor cetățeni buni și implicați.</p>",
               "link": "",
-              "icon": "education4ro-micii-cetateni#",
+              "icon": "education4ro-micii-cetateni",
               "adopted": false,
               "adopted_by": []
             },
@@ -2032,8 +2033,8 @@
               "id": 5,
               "projectSlug": "designated-buddy",
               "title": "Designated Buddy",
-              "subtitle": "Evaluarea competențelor digitale de bază",
-              "description": "<p>Pentru a putea construi și dezvolta abilități digitale, e nevoie de o evaluare corectă a celor deja existente. Evaluează-tech este o platformă care oferă posibilitatea evaluării competențelor digitale de bază adresată în primul rând celor care lucrează în instituții publice, fiind însă deschisă tuturor. Pe lângă abilitățile de bază, platforma va evalua inclusiv optimizarea fluxurilor și eficientizarea lucrului cu instrumente digitale.</p>",
+              "subtitle": "Matching cu un student-mentor în primul an de facultate",
+              "description": "<p>DOMENIU: Abilități pentru viața reală (studenți)</p><p>DESPRE SOLUȚIE: Pentru majoritatea studenților, primul an de facultate poate fi foarte dificil, în special pentru cei care părăsesc orașul natal și se mută într-un centru universitar. De la navigarea prin birocrația necesară în raport cu facultatea până la adaptarea la noul oraș, la construirea unui set de bune practici de învățare și pregătire pentru examene etc, acești tineri au nevoie de ajutor de la persoane cu care se pot simți confortabil. Designated Buddy este un modul pe care îl pot folosi universitățile pentru a desemna un număr de studenți din ani superiori care să asigure un sistem de sprijin pentru noii veniți. Un student în primul an poate intra pe site-ul facultății să solicite sprijin și un ”Buddy” îi va fi alocat pentru a-l ajuta să se descurce.</p>",
               "link": "",
               "icon": "education4ro-designated-buddy",
               "adopted": false,
@@ -2054,8 +2055,8 @@
               "id": 7,
               "projectSlug": "invata-tech",
               "title": "Învață-tech",
-              "subtitle": "Matching cu un student-mentor în primul an de facultate",
-              "description": "<p>DOMENIU: Abilități pentru viața reală (studenți)</p> <p> DESPRE SOLUȚIE: Pentru majoritatea studenților, primul an de facultate poate fi foarte dificil, în special pentru cei care părăsesc orașul natal și se mută într-un centru universitar. De la navigarea prin birocrația necesară în raport cu facultatea până la adaptarea la noul oraș, la construirea unui set de bune practici de învățare și pregătire pentru examene etc, acești tineri au nevoie de ajutor de la persoane cu care se pot simți confortabil. Designated Buddy este un modul pe care îl pot folosi universitățile pentru a desemna un număr de studenți din ani superiori care să asigure un sistem de sprijin pentru noii veniți. Un student în primul an poate intra pe site-ul facultății să solicite sprijin și un ”Buddy” îi va fi alocat pentru a-l ajuta să se descurce. </p>",
+              "subtitle": "Platforma care dezvoltă competențe digitale",
+              "description": "<p>DOMENIU: Abilități pentru viața reală (toate grupele de vârstă)</p> <p>DESPRE SOLUȚIE: Abilitățile digitale au devenit o cerință fundamentală pentru orice persoană care vrea să își desfășoare în bune condiții activitatea școlară, profesională sau personală. Învață-tech este o platformă cuprinzătoare care va ajuta utilizatorii să își dezvolte competențele digitale. Învățarea se va desfășura pe baza programului internațional dezvoltat de Mozilla Foundation (Mozilla Foundation Web Literacy), cuprinzând componente ce țin de creativitate, colaborare, rezolvare de probleme, comunicare și siguranță pe internet. Pe lângă componenta de învățare, platforma va oferi accesibilizarea unor unelte digitale existente, oferind interfețe în limba română pentru acestea.</p>",
               "link": "",
               "icon": "education4ro-invata-tech",
               "adopted": false,
@@ -2636,7 +2637,7 @@
               "projectSlug": "cine-ce-face",
               "title": "Cine ce face",
               "subtitle": "Informații clare despre rolul fiecărei instituții în situații de urgență",
-              "description": "<p>Accesul la date din surse oficiale ce descriu evoluția cazurilor de COVID-19 în România este esențial în adoptarea măsurilor de sănătate publică împotriva pandemiei. Platforma Date la zi vine în sprijinul publicului și al mass-media din România prin accesibilizarea datelor punându-le într-o formă grafică ușor de parcurs, urmând modelul portalului de informare din Singapore. Infografiile se actualizează periodic și sunt centralizate în grafice.</p>",
+              "description": "\"Cine ce face\" este un proiect de informare prin care cetățenii pot obține o imagine cât mai clară și corectă asupra rolurilor diverșilor actori din societate într-o situație de urgență. Identificarea rolului fiecărei instituții poate fi dificilă pentru populația generală, în special după o calamitate, îngreunând accesul la servicii și resurse importante.Accesul la date din surse oficiale ce descriu evoluția cazurilor de COVID-19 în România este esențial în adoptarea măsurilor de sănătate publică împotriva pandemiei. Platforma Date la zi vine în sprijinul publicului și al mass-media din România prin accesibilizarea datelor punându-le într-o formă grafică ușor de parcurs, urmând modelul portalului de informare din Singapore. Infografiile se actualizează periodic și sunt centralizate în grafice.",
               "link": "https://www.code4.ro/ro/cine-ce-face",
               "icon": "environment4ro-cine-ce-face",
               "adopted": true,
@@ -2730,7 +2731,7 @@
             {
               "id": 2,
               "projectSlug": "seismic-risc",
-              "title": "Bulina roșie",
+              "title": "Seismic risc",
               "subtitle": "Harta clădirilor cu grad ridicat de risc și resurse utile pentru consolidare",
               "description": "<p>Gradul de interes cu privire la consolidarea clădirilor cu grad mare de risc este redus, ceea ce face mobilizarea proprietarilor foarte dificilă de către administratorii asociațiilor de locatari. În prezent, nu este clar pentru toți cei implicați ce eforturi trebuie făcute, la această situație contribuind și multe mituri care se învârt în jurul proceselor de consolidare care sporesc nivelul de dezinformare. Seismic Risc este o platformă de colectare și vizualizare de date despre clădirile cu risc seismic. Oferă detalii despre gradul de ocupare, informații utile despre consolidare, informații dedicate asociațiilor de proprietari și legislație explicată pe înțelesul tuturor.</p>",
               "link": "https://www.code4.ro/ro/seismic-risc",
@@ -2761,10 +2762,10 @@
               "projectSlug": "de-urgenta",
               "title": "De Urgență",
               "subtitle": "Plan familial de urgență și educație pentru răspuns în caz de cutremur",
-              "description": "<p>În cazul unui cutremur, majoritatea familiilor sau a grupurilor de prieteni care locuiesc în orașele vulnerabile, nu au pregătit un plan de urgență sau măcar un rucsac de supraviețuire care le-ar permite să aibă un minim de resurse în cazul unui dezastru. Stay Together este o aplicație mobilă care te ajută să îți construiești un plan de urgență împreună cu cei apropiați, să ții evidența produselor din rucsac și a termenelor lor de valabilitate, oferă printr-un sistem de notificări și de puncte posibilitatea de a repeta informațiile cele mai utile în caz de cutremur sau altă calamitate și îți pune la dispoziție lista oficială a punctelor de întâlnire.</p>",
+              "description": "<p>În cazul unui cutremur, majoritatea familiilor sau a grupurilor de prieteni care locuiesc în orașele vulnerabile, nu au pregătit un plan de urgență sau măcar un rucsac de supraviețuire care le-ar permite să aibă un minim de resurse în cazul unui dezastru. De urgență este o aplicație mobilă care te ajută să îți construiești un plan de urgență împreună cu cei apropiați, să ții evidența produselor din rucsac și a termenelor lor de valabilitate, oferă printr-un sistem de notificări și de puncte posibilitatea de a repeta informațiile cele mai utile în caz de cutremur sau altă calamitate și îți pune la dispoziție lista oficială a punctelor de întâlnire.</p>",
               "link": "",
               "icon": "environment4ro-de-urgenta",
-              "adopted": false,
+              "adopted": true,
               "adopted_by": [
                 {
                   "id": 4,
@@ -2790,7 +2791,7 @@
               "projectSlug": "brigada-de-evacuare",
               "title": "Brigada de Evaluare",
               "subtitle": "Colectare de informații din teren imediat după un cutremur major",
-              "description": "<p>n eventualitatea unui seism puternic una dintre problemele directe de care societatea se va lovi este lipsa unei infrastructuri de comunicare și absența unei evaluări rapide a infrastructurii. Brigada de Evaluare este o aplicație web cu ajutorul căreia oamenii vor putea transmite imagini foto și video din teren. Informațiile centralizate vor putea genera o serie de hărți care pot indica ce drumuri sunt blocate sau în pericol de colaps și ce clădiri sunt avariate sever.</p>",
+              "description": "<p>În eventualitatea unui seism puternic una dintre problemele directe de care societatea se va lovi este lipsa unei infrastructuri de comunicare și absența unei evaluări rapide a infrastructurii. Brigada de Evaluare este o aplicație web cu ajutorul căreia oamenii vor putea transmite imagini foto și video din teren. Informațiile centralizate vor putea genera o serie de hărți care pot indica ce drumuri sunt blocate sau în pericol de colaps și ce clădiri sunt avariate sever.</p>",
               "link": "",
               "icon": "environment4ro-brigada-de-evaluare",
               "adopted": false,
