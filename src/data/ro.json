@@ -1527,7 +1527,7 @@
               "adopted_by": []
             },
             {
-              "id": 12,
+              "id": 13,
               "projectSlug": "dateONG",
               "title": "DateONG",
               "subtitle": "Toate informațiile despre sectorul ONG din România",
@@ -1538,7 +1538,7 @@
               "adopted_by": []
             },
             {
-              "id": 13,
+              "id": 14,
               "projectSlug": "platforma-donatorilor",
               "title": "Platforma Donatorilor",
               "subtitle": "Prima platformă de date deschise despre finanțările din România",
@@ -1556,7 +1556,7 @@
               ]
             },
             {
-              "id": 14,
+              "id": 15,
               "projectSlug": "funding-call",
               "title": "Funding call",
               "subtitle": "Platformă de call-uri de finanțare deschisă tuturor",
@@ -1567,7 +1567,7 @@
               "adopted_by": []
             },
             {
-              "id": 15,
+              "id": 16,
               "projectSlug": "finantari-publice",
               "title": "Finanțări Publice",
               "subtitle": "Platformă de call-uri de finanțare deschisă instituțiilor publice",
@@ -2006,7 +2006,7 @@
               "adopted": false,
               "adopted_by": []
             },
-                        {
+            {
               "id": 3,
               "projectSlug": "civic-fitness",
               "title": "Civic Fitness",
@@ -2271,7 +2271,7 @@
               "adopted_by": []
             },
             {
-              "id": 6,
+              "id": 27,
               "projectSlug": "update-edu",
               "title": "Update EDU",
               "subtitle": "Platformă de advocacy pentru dezvoltarea sectorului educațional",
@@ -2730,7 +2730,7 @@
             {
               "id": 2,
               "projectSlug": "seismic-risc",
-              "title": "Seismic Risc",
+              "title": "Bulina roșie",
               "subtitle": "Harta clădirilor cu grad ridicat de risc și resurse utile pentru consolidare",
               "description": "<p>Gradul de interes cu privire la consolidarea clădirilor cu grad mare de risc este redus, ceea ce face mobilizarea proprietarilor foarte dificilă de către administratorii asociațiilor de locatari. În prezent, nu este clar pentru toți cei implicați ce eforturi trebuie făcute, la această situație contribuind și multe mituri care se învârt în jurul proceselor de consolidare care sporesc nivelul de dezinformare. Seismic Risc este o platformă de colectare și vizualizare de date despre clădirile cu risc seismic. Oferă detalii despre gradul de ocupare, informații utile despre consolidare, informații dedicate asociațiilor de proprietari și legislație explicată pe înțelesul tuturor.</p>",
               "link": "https://www.code4.ro/ro/seismic-risc",
