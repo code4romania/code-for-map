@@ -1,34 +1,30 @@
 <svg viewBox="0 0 1200 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g id="segment-participation-02-date-deschise">
-<g id="Group 1169">
-<g id="Group 1117">
-<path id="Vector" d="M562.294 558.869C560.749 570.237 557.632 580.977 552.34 590.616C548.228 598.082 544.142 605.285 540.291 612.358" stroke="#C8CEDB" stroke-width="9.82781" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector_2" d="M560.514 504.516C563.369 522.983 564.652 541.659 562.321 558.895" stroke="#C8CEDB" stroke-width="9.82781" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector_3" d="M478.158 239.745C479.992 244.25 481.878 248.756 483.083 253.366C486.567 266.646 493.01 279.482 498.354 292.945C502.676 303.842 514.097 311.15 517.79 322.65C524.81 344.496 531.647 367.704 534.947 390.44C537.41 407.44 542.544 423.602 546.551 440.419C551.083 459.41 557.003 481.806 560.513 504.516" stroke="#C8CEDB" stroke-width="9.82781" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector_4" d="M479.704 179C475.749 187.094 473.208 195.764 472.841 204.094C472.527 211.455 471.898 219.889 473.68 226.962C474.754 231.284 476.456 235.501 478.159 239.744" stroke="#00B4CC" stroke-width="9.82781" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector_5" d="M537.436 634.177C548.243 634.177 557.003 625.417 557.003 614.61C557.003 603.803 548.243 595.043 537.436 595.043C526.63 595.043 517.869 603.803 517.869 614.61C517.869 625.417 526.63 634.177 537.436 634.177Z" fill="white" stroke="#00B4CC" stroke-width="9.82781" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector_6" d="M563.526 550.565C568.951 550.565 573.349 546.168 573.349 540.743C573.349 535.318 568.951 530.92 563.526 530.92C558.101 530.92 553.703 535.318 553.703 540.743C553.703 546.168 558.101 550.565 563.526 550.565Z" fill="#404366"/>
-<path id="Vector_7" d="M517.267 336.14C522.692 336.14 527.09 331.742 527.09 326.317C527.09 320.892 522.692 316.494 517.267 316.494C511.842 316.494 507.444 320.892 507.444 326.317C507.444 331.742 511.842 336.14 517.267 336.14Z" fill="#404366"/>
-<path id="Vector_8" d="M492.591 292.5C498.016 292.5 502.414 288.102 502.414 282.677C502.414 277.252 498.016 272.854 492.591 272.854C487.166 272.854 482.769 277.252 482.769 282.677C482.769 288.102 487.166 292.5 492.591 292.5Z" fill="#404366"/>
-<path id="Vector_9" d="M476.823 249.096C482.248 249.096 486.646 244.698 486.646 239.273C486.646 233.848 482.248 229.45 476.823 229.45C471.398 229.45 467 233.848 467 239.273C467 244.698 471.398 249.096 476.823 249.096Z" fill="#404366"/>
-</g>
-<text class="btn-project" text-decoration="underline" cursor="pointer" data-projectid="4" id="Banii din politica" fill="#1E1E1E" xml:space="preserve" style="white-space: pre" font-family="Titillium Web" font-size="28" font-weight="600" letter-spacing="0px"><tspan x="340" y="548">Banii din politica</tspan></text>
-<text class="btn-project" text-decoration="underline" cursor="pointer" data-projectid="3" id="Declaratii de avere" fill="#1E1E1E" xml:space="preserve" style="white-space: pre" font-family="Titillium Web" font-size="28" font-weight="600" letter-spacing="0px"><tspan x="270" y="338">Declaratii de avere</tspan></text>
-<text class="btn-project" text-decoration="underline" cursor="pointer" data-projectid="2" id="Data Scientists Hub" fill="#1E1E1E" xml:space="preserve" style="white-space: pre" font-family="Titillium Web" font-size="28" font-weight="600" letter-spacing="0px"><tspan x="517" y="275">Data Scientists Hub</tspan></text>
-<text class="btn-project" text-decoration="underline" cursor="pointer" data-projectid="1" id="Data Portal" fill="#1E1E1E" xml:space="preserve" style="white-space: pre" font-family="Titillium Web" font-size="28" font-weight="600" letter-spacing="0px"><tspan x="315" y="249">Data Portal</tspan></text>
+<g id="Group 1198">
+<text class="btn-project" text-decoration="underline" cursor="pointer" data-projectid="3" id="Declaratii de avere" fill="#1E1E1E" xml:space="preserve" style="white-space: pre" font-family="Titillium Web" font-size="20" font-weight="600" letter-spacing="0px"><tspan x="300" y="517.45">Declaratii de avere&#13;</tspan></text>
+<text class="btn-project" text-decoration="underline" cursor="pointer" data-projectid="2" id="Data Scientists Hub" fill="#1E1E1E" xml:space="preserve" style="white-space: pre" font-family="Titillium Web" font-size="20" font-weight="600" letter-spacing="0px"><tspan x="243" y="461.45">Data Scientists Hub&#13;</tspan></text>
+<text class="btn-project" text-decoration="underline" cursor="pointer" data-projectid="1" id="Data Portal" fill="#1E1E1E" xml:space="preserve" style="white-space: pre" font-family="Titillium Web" font-size="20" font-weight="600" letter-spacing="0px"><tspan x="439" y="402.45">Data Portal&#13;</tspan></text>
 <g id="icon-date-deschise 1">
-<path id="Vector_10" d="M549.08 817.574L526.421 794.914V702.927L548.927 680.421L549.08 817.574Z" stroke="#00B4CC" stroke-width="4.06579" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector_11" d="M554.331 680.421V817.574" stroke="#00B4CC" stroke-width="4.06579" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector_12" d="M554.331 700.565H613.896V803.606H554.331" stroke="#00B4CC" stroke-width="4.06579" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector_13" d="M619.421 707.071V809.406H573.305" stroke="#00B4CC" stroke-width="4.06579" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector_14" d="M601.645 750.884H554.331" stroke="#00B4CC" stroke-width="4.06579" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector_15" d="M601.645 761.695H554.331" stroke="#00B4CC" stroke-width="4.06579" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector_16" d="M601.645 772.5H554.331" stroke="#00B4CC" stroke-width="4.06579" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector_17" d="M601.645 783.31H554.331" stroke="#00B4CC" stroke-width="4.06579" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector_18" d="M554.484 741.154C555.558 739.473 556.473 737.694 557.217 735.843C558.194 733.097 559.767 730.601 561.823 728.535C565.353 726.017 567.288 733.386 570.788 729.61C571.74 728.535 572.477 726.877 574.257 727.307C576.038 727.737 576.836 729.886 578.004 730.869C579.876 732.465 582.363 733.417 584.328 731.483C586.293 729.548 586.692 725.342 587.552 722.487C588.105 720.583 588.473 718.526 590.315 717.513C591.627 716.902 592.97 716.359 594.338 715.885C596.18 715.087 597.654 713.92 599.404 712.969" stroke="#00B4CC" stroke-width="4.06579" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector_19" d="M595.751 711.094L600.664 712.538L599.282 717.297" stroke="#00B4CC" stroke-width="4.06579" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector" d="M626.08 647.574L603.421 624.914V532.927L625.927 510.421L626.08 647.574Z" stroke="#00B4CC" stroke-width="4.06579" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_2" d="M631.331 510.421V647.574" stroke="#00B4CC" stroke-width="4.06579" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_3" d="M631.331 530.565H690.896V633.606H631.331" stroke="#00B4CC" stroke-width="4.06579" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M696.421 537.071V639.406H650.305" stroke="#00B4CC" stroke-width="4.06579" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_5" d="M678.645 580.884H631.331" stroke="#00B4CC" stroke-width="4.06579" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_6" d="M678.645 591.695H631.331" stroke="#00B4CC" stroke-width="4.06579" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_7" d="M678.645 602.5H631.331" stroke="#00B4CC" stroke-width="4.06579" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_8" d="M678.645 613.31H631.331" stroke="#00B4CC" stroke-width="4.06579" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_9" d="M631.484 571.154C632.558 569.473 633.473 567.694 634.217 565.843C635.194 563.097 636.767 560.601 638.823 558.535C642.353 556.017 644.288 563.386 647.788 559.61C648.74 558.535 649.477 556.877 651.257 557.307C653.038 557.737 653.836 559.886 655.004 560.869C656.876 562.465 659.363 563.417 661.328 561.483C663.293 559.548 663.692 555.342 664.552 552.487C665.105 550.583 665.473 548.526 667.315 547.513C668.627 546.902 669.97 546.359 671.338 545.885C673.18 545.087 674.654 543.92 676.404 542.969" stroke="#00B4CC" stroke-width="4.06579" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_10" d="M672.751 541.094L677.664 542.538L676.283 547.297" stroke="#00B4CC" stroke-width="4.06579" stroke-linecap="round" stroke-linejoin="round"/>
 </g>
-<text id="Date deschise" fill="#1E1E1E" xml:space="preserve" style="white-space: pre" font-family="Titillium Web" font-size="40" font-weight="600" letter-spacing="0px"><tspan x="641" y="761.9">Date deschise</tspan></text>
+<text id="Date deschise" fill="#1E1E1E" xml:space="preserve" style="white-space: pre" font-family="Titillium Web" font-size="40" font-weight="600" letter-spacing="0px"><tspan x="718" y="591.9">Date deschise</tspan></text>
+<g id="Group 1197">
+<path id="Vector_11" d="M623.034 447.755C612.363 445.976 602.245 445.159 589.171 447.731C582.73 448.98 576.914 451.191 571.338 453.739C559.898 458.954 549.467 465.636 536.705 468.688C533.893 469.361 531.057 470.13 528.173 470.971C522.141 472.726 515.988 474.696 509.787 476.355C498.299 479.407 486.691 481.354 475.564 478.614C475.035 478.494 474.506 478.349 473.977 478.181C469.964 477.028 466.575 475.706 463.643 474.168C451.914 468.087 447.66 459.074 440.234 447.418C439.249 445.88 438.191 444.27 437.086 442.635C428.914 430.715 421.079 424.634 415.311 413.026" stroke="#C8CEDB" stroke-width="9.0172" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_12" d="M395.458 349C398.367 358.71 400.866 368.563 404.087 378.201C405.096 381.253 414.085 410.598 415.286 413.026" stroke="#00B4CC" stroke-width="9.0172" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_13" d="M636.18 468.711C646.095 468.711 654.133 460.673 654.133 450.758C654.133 440.843 646.095 432.805 636.18 432.805C626.264 432.805 618.227 440.843 618.227 450.758C618.227 460.673 626.264 468.711 636.18 468.711Z" fill="white" stroke="#00B4CC" stroke-width="9.0172" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_14" d="M414.589 420.211C419.567 420.211 423.602 416.176 423.602 411.199C423.602 406.221 419.567 402.186 414.589 402.186C409.612 402.186 405.577 406.221 405.577 411.199C405.577 416.176 409.612 420.211 414.589 420.211Z" fill="white" stroke="#00B4CC" stroke-width="4.80674" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_15" d="M438.648 456.021C443.625 456.021 447.661 451.986 447.661 447.009C447.661 442.031 443.625 437.996 438.648 437.996C433.67 437.996 429.635 442.031 429.635 447.009C429.635 451.986 433.67 456.021 438.648 456.021Z" fill="#404366"/>
+<path id="Vector_16" d="M463.138 483.54C468.115 483.54 472.15 479.505 472.15 474.528C472.15 469.55 468.115 465.515 463.138 465.515C458.16 465.515 454.125 469.55 454.125 474.528C454.125 479.505 458.16 483.54 463.138 483.54Z" fill="#404366"/>
+</g>
 </g>
 </g>
 </svg>
