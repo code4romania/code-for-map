@@ -1544,14 +1544,14 @@
               "title": "Platforma Donatorilor",
               "subtitle": "Prima platformă de date deschise despre finanțările din România",
               "description": "<p>Platforma Donatorilor își propune să aducă o mai mare claritate asupra investițiilor strategice în sectorul non-profit devenind astfel un punct esențial de informare cu privire la alocarea sprijinului financiar în domenii specifice de intervenție, identificarea de noi oportunități de finanțare în domenii încă neexplorate, crearea de mecanisme de co-finanțare și descoperirea de noi actori neguvernamentali și proiectele acestora. Sectorul neguvernamental și publicul larg vor avea acces la un punct central de informare cu date actualizate și standardizate, urmând o taxonomie comună și o mecanică simplă de colectare, permanentă și consistentă. Până în luna aprilie 2021, în Platforma Donatorilor s-au deschis date din partea a 15 finanțatori și 19 Fundații Comunitare, reprezentând granturi în valoare totală de 45,7 milioane de euro.</p>",
-              "link": "",
+              "link": "code4.ro/ro/platforma-donatorilor",
               "icon": "participation4ro-platforma-donatorilor",
               "adopted": true,
               "adopted_by": [
                 {
                   "id": 4,
                   "title": "Coaliție de finanțatori",
-                  "link": "",
+                  "link": "https://platformadonatorilor.ro/ro/about",
                   "logo": "https://code4.ro/img/97e011aa-d3ac-472c-b4bd-60bcd15d8700/coalitie-de-finantatori.png?q=60&fit=max&dpr=1&h=256"
                 }
               ]
