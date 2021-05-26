@@ -1,12 +1,16 @@
 @import url('//fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap&subset=latin-ext');
 
-@import "variables";
-@import "mixins";
+// @import "variables";
+// @import "mixins";
 
-@import "utils";
-@import "icons";
+// @import "utils";
+// @import "icons";
 
-@import "layout";
-@import "content";
-@import "map";
-@import "segment";
+// @import "layout";
+// @import "content";
+// @import "map";
+// @import "segment";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
