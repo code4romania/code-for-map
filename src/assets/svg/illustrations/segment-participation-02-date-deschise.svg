@@ -1,8 +1,8 @@
 <svg viewBox="0 0 1200 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g id="segment-participation-02-date-deschise">
 <g id="Group 1198">
-<text class="btn-project" text-decoration="underline" cursor="pointer" data-projectid="1" id="Declaratii de avere" fill="#1E1E1E" xml:space="preserve" style="white-space: pre" font-family="Titillium Web" font-size="20" font-weight="600" letter-spacing="0px"><tspan x="300" y="517.45">Declaratii de avere&#13;</tspan></text>
-<text class="btn-project" text-decoration="underline" cursor="pointer" data-projectid="1" id="Data Scientists Hub" fill="#1E1E1E" xml:space="preserve" style="white-space: pre" font-family="Titillium Web" font-size="20" font-weight="600" letter-spacing="0px"><tspan x="243" y="461.45">Data Scientists Hub&#13;</tspan></text>
+<text class="btn-project" text-decoration="underline" cursor="pointer" data-projectid="3" id="Declaratii de avere" fill="#1E1E1E" xml:space="preserve" style="white-space: pre" font-family="Titillium Web" font-size="20" font-weight="600" letter-spacing="0px"><tspan x="300" y="517.45">Declaratii de avere&#13;</tspan></text>
+<text class="btn-project" text-decoration="underline" cursor="pointer" data-projectid="2" id="Data Scientists Hub" fill="#1E1E1E" xml:space="preserve" style="white-space: pre" font-family="Titillium Web" font-size="20" font-weight="600" letter-spacing="0px"><tspan x="243" y="461.45">Data Scientists Hub&#13;</tspan></text>
 <text class="btn-project" text-decoration="underline" cursor="pointer" data-projectid="1" id="Data Portal" fill="#1E1E1E" xml:space="preserve" style="white-space: pre" font-family="Titillium Web" font-size="20" font-weight="600" letter-spacing="0px"><tspan x="439" y="402.45">Data Portal&#13;</tspan></text>
 <g id="icon-date-deschise 1">
 <path id="Vector" d="M626.08 647.574L603.421 624.914V532.927L625.927 510.421L626.08 647.574Z" stroke="#00B4CC" stroke-width="4.06579" stroke-linecap="round" stroke-linejoin="round"/>
