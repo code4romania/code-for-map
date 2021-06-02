@@ -1027,14 +1027,14 @@
       "title": "Participation for Romania",
       "description": "Implicarea în viața comunității ne face pe toți mai bogați, mai împliniți și mai puternici. Implicându-ne, învățăm unii de la ceilalți și oferim ce avem mai bun, fiecare dintre noi, pentru mai binele tuturor. Dacă dorim sisteme puternice de educație, sănătate, protecția celor vulnerabili și a mediului, trebuie să fim conștienți de faptul că toate acestea nu sunt posibile fără o implicare reală a tuturor în viața societății. În plus, momentele de implicare sunt ferestre prin care vedem cât de puternici putem deveni atunci când suntem împreună. Ne continuăm misiunea de a încuraja participarea cetățenească în viața societății scoțând la iveală cele mai bune instrumente digitale pentru asta.",
       "btn": {
-        "top": "65.97%",
-        "left": "80.61%"
+        "top": "69%",
+        "left": "74%"
       },
       "mobile_btn": {
         "top": "52%",
         "left": "53%"
       },
-      "color": "blue",
+      "color": "light-blue",
       "highway_bg": "highway-participation",
       "highway_segments": [
         {

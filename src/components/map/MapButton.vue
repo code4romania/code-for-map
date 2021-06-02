@@ -1,19 +1,19 @@
 <template>
   <div
-    class="MapButton-wrap"
+    class="absolute"
     :style="{ top: top, left: left }"
   >
     <!-- Main map button links to highway -->
     <router-link
       :to="{ name: 'Highway', params: { slug: highway.slug } }"
-      class="badge-pill btn bg-white scale MapButton"
+      class="py-1 px-4 border-4 block rounded-full bg-white transition-transform transform relative hover:scale-110 hover:z-20 lg:py-2"
       :class="[
-        `btn-outline-${highway.color}`,
-        $route.name != 'Map' ? 'btn-opacity' : '',
+        `border-${highway.color}-500`,
+        $route.name != 'Map' ? 'opacity-30 hover:opacity-100' : '',
       ]"
     >
       <div
-        class="d-flex align-items-center"
+        class="flex items-center"
         @click="updateIframe()"
       >
         <img
@@ -21,7 +21,7 @@
           :src="require(`../../assets/svg/icons/logo-${highway.slug}.svg`)"
         >
         <div
-          class="text-dark font-weight-bold text-left d-block ml-2 MapButton-label"
+          class="block ml-2 font-bold text-sm leading-4 lg:text-lg lg:leading-none"
         >
           {{ highway.title }}
         </div>

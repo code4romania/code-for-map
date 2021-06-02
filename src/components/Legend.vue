@@ -1,5 +1,5 @@
 <template>
-  <div class="Legend d-none d-lg-block">
+  <div class="Legend hidden lg:block">
     <h3 class="mb-2">
       {{ legend.title }}
     </h3>
@@ -47,10 +47,6 @@ export default {
 </script>
 
 <style scoped lang="scss">
-.Legend {
-  margin: 80px 0 0;
-}
-
 .Legend h3 {
   text-transform: uppercase;
   font-size: 18px;

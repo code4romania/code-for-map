@@ -2,14 +2,14 @@
   <div id="app">
     <Navigation />
 
-    <div class="container mx-auto lg:pt-16">
+    <div class="container px-4 mx-auto lg:pt-16">
       <div class="relative">
-        <div class="grid grid-cols-8 gap-4 px-4 lg:absolute lg:top-0 lg:left-0 lg:z-10">
-          <div class="col-span-12 lg:col-span-2">
-            <div class="flex flex-col">
-              <div>
+        <div class="grid grid-cols-8 gap-4 lg:absolute lg:top-0 lg:left-0 lg:z-10 lg:h-full">
+          <div class="col-span-8 lg:col-span-2">
+            <div class="flex flex-col lg:justify-between lg:h-full">
+              <div class="mb-8">
                 <h1
-                  class="text-6xl font-bold text-blue-500 mb-6"
+                  class="text-6xl font-bold text-blue-500 mb-4"
                   v-html="data.header.title"
                 />
                 <p v-html="data.header.description" />
@@ -21,9 +21,9 @@
 
         <div
           id="map"
-          class="grid grid-cols-8 gap-4 xl:py-8"
+          class="grid grid-cols-8 gap-4"
         >
-          <div class="col-span-8 lg:col-span-8 lg:col-start-3 xl:col-start-2">
+          <div class="col-span-8 lg:col-start-3 xl:col-start-2">
             <router-link
               v-if="data.back_to_map.visible"
               :to="{ name: 'Map' }"
@@ -201,20 +201,9 @@
       </h1>
       <p>{{ data.partners.description }}</p>
 
-      <div class="grid grid-cols-12 gap-4 px-4">
-        <PartnersList
-          :list="data.partners.main"
-          :col="3"
-        />
-        <PartnersList
-          :list="data.partners.secondary"
-          :col="4"
-        />
-        <PartnersList
-          :list="data.partners.others"
-          :col="6"
-        />
-      </div>
+      <PartnersList :list="data.partners.main" />
+      <PartnersList :list="data.partners.secondary" />
+      <PartnersList :list="data.partners.others" />
 
       <p class="Disclaimer">
         <small><strong>*</strong> {{ data.sms.disclaimer }}</small>

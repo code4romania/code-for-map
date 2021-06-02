@@ -1,12 +1,12 @@
 <template>
-  <b-row :class="col ? 'row-cols-3 row-cols-md-' + col : ''">
+  <div class="grid grid-cols-6 gap-4 px-4">
     <template v-for="partner in list">
-      <b-col :key="'partner-' + partner.id">
+      <div :key="'partner-' + partner.id">
         <a
           :href="partner.link"
           target="_blank"
           :title="partner.name"
-          class="PartnersList-itemWrap d-block border border-gray mb-4"
+          class="PartnersList-itemWrap block border mb-4"
         >
           <div class="PartnersList-item">
             <img
@@ -16,9 +16,9 @@
             >
           </div>
         </a>
-      </b-col>
+      </div>
     </template>
-  </b-row>
+  </div>
 </template>
 
 <script>
@@ -28,10 +28,6 @@ export default {
     list: {
       type: Array,
       default: () => []
-    },
-    col: {
-      type: Number,
-      default: 1
     }
   }
 };

@@ -28,10 +28,9 @@
     <div class="Highway-wrap">
       <div class="HighwayContainer">
         <div class="Highway">
-          <div class="MapContainer-wrap d-none d-lg-block">
+          <div class=" relative h-0 w-full hidden lg:block">
             <div class="MapContainer Map-bw">
               <img
-                class="w-100 h-100"
                 src="../assets/svg/illustrations/map-bw.svg"
               >
             </div>
@@ -39,11 +38,10 @@
 
           <router-link
             :to="{ name: 'Map' }"
-            class="d-none d-lg-block"
+            class="hidden lg:block"
           >
             <div class="MapContainer">
               <img
-                class="w-100 h-100"
                 :src="
                   require(`../assets/svg/illustrations/${highway.highway_bg}.svg`)
                 "

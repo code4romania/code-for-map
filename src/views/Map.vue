@@ -1,8 +1,12 @@
 <template>
-  <div class="MapContainer-wrap">
+  <!-- padding height image ratio (h/w) -->
+  <div
+    class="relative h-0 w-full z-20 lg:-right-8 lg:top-8"
+    :style="{ 'padding-bottom': (526/748) * 100 + '%'}"
+  >
     <div class="MapContainer">
       <img
-        class="w-100 h-100"
+        class="w-full h-full"
         src="../assets/svg/illustrations/map-color.svg"
       >
     </div>
@@ -13,14 +17,14 @@
         :highway="highway"
         :top="highway.btn.top"
         :left="highway.btn.left"
-        class="d-none d-md-block"
+        class="hidden lg:block"
       />
       <MapButton
         :key="'map-btn-' + highway.id"
         :highway="highway"
         :top="highway.mobile_btn.top"
         :left="highway.mobile_btn.left"
-        class="d-md-none"
+        class="lg:hidden"
       />
     </template>
   </div>
