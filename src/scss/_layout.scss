@@ -2,29 +2,30 @@ body {
   background: url(../assets/images/bg.png) top center no-repeat;
 }
 
-#app {
-  position: relative;
-  padding: 3.5rem 0;
-}
-
-.container-fluid {
-  max-width: 1440px !important;
-}
-
-.Info {
+.MapHero-wrap {
   @include respond-above(lg) {
-    max-height: 700px;
+    min-height: 700px;
   }
 }
 
-.MapHero {
-  position: relative;
-}
+// .container-fluid {
+//   max-width: 1440px !important;
+// }
 
-.Header-wrap {
-  @include respond-above(lg) {
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
-}
+// .Info {
+//   @include respond-above(lg) {
+//     max-height: 700px;
+//   }
+// }
+
+// .MapHero {
+//   position: relative;
+// }
+
+// .Header-wrap {
+//   @include respond-above(lg) {
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//   }
+// }

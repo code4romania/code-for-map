@@ -1,37 +1,29 @@
 <template>
   <div id="app">
-    <b-container fluid>
-      <div class="MapHero mb-5 mt-4">
-        <b-row
-          no-gutters
-          class="Header-wrap"
-        >
-          <b-col lg="3">
-            <div class="Info">
-              <div class="Header">
+    <Navigation />
+
+    <div class="container mx-auto lg:pt-16">
+      <div class="relative">
+        <div class="grid grid-cols-8 gap-4 px-4 lg:absolute lg:top-0 lg:left-0 lg:z-10">
+          <div class="col-span-12 lg:col-span-2">
+            <div class="flex flex-col">
+              <div>
                 <h1
-                  class="text-strong-blue mb-3"
+                  class="text-6xl font-bold text-blue-500 mb-6"
                   v-html="data.header.title"
                 />
                 <p v-html="data.header.description" />
               </div>
               <Legend :legend="data.map_legend" />
             </div>
-          </b-col>
-        </b-row>
-        <b-row
+          </div>
+        </div>
+
+        <div
           id="map"
-          no-gutters
-          align-v="end"
-          class="MapHero-wrap"
+          class="grid grid-cols-8 gap-4 xl:py-8"
         >
-          <b-col
-            lg="9"
-            offset-lg="3"
-            xl="10"
-            offset-xl="2"
-            class="MapHero-map"
-          >
+          <div class="col-span-8 lg:col-span-8 lg:col-start-3 xl:col-start-2">
             <router-link
               v-if="data.back_to_map.visible"
               :to="{ name: 'Map' }"
@@ -48,38 +40,35 @@
               </div>
             </router-link>
             <router-view :data="data" />
-          </b-col>
-        </b-row>
+          </div>
+        </div>
       </div>
 
-      <b-row
-        class="mb-5"
-        align-v="center"
-      >
-        <b-col
-          lg="4"
-          class="mb-4"
-        >
+      <div class="grid grid-cols-12 gap-4 px-4">
+        <div class="col-span-12 lg:col-span-4">
           <h1 class="text-strong-blue mb-4">
             {{ data.more_info.title }}
           </h1>
           <p
-            class="mb-4 pr-lg-3"
+            class="mb-4 lg:pr-3"
             v-html="data.more_info.description"
           />
           <!-- <a
-            class="btn btn-strong-blue btn-lg px-5 d-none d-lg-inline-block"
+            class=" d-none d-lg-inline-block"
             :href="data.more_info.download_link"
             @click.prevent="downloadPlan()"
           >{{ data.more_info.download_pdf_cta }}</a> -->
           <a
-            class="btn btn-strong-blue btn-lg px-5"
+            class=""
             :href="data.more_info.download_pdf_link"
             target="_blank"
             @click="trackDownload()"
-          >{{ data.more_info.download_pdf_cta }}</a>
-        </b-col>
-        <b-col lg="8">
+          >
+            {{ data.more_info.download_pdf_cta }}
+          </a>
+        </div>
+
+        <div class="col-span-12 lg:col-span-4">
           <button
             v-if="!showVideo"
             class="btn btn-link"
@@ -102,18 +91,15 @@
               allowfullscreen
             />
           </div>
-        </b-col>
-      </b-row>
+        </div>
+      </div>
 
       <h1 class="text-strong-blue mb-4">
         {{ data.more_info.work.title }}
       </h1>
 
-      <b-row
-        class="mb-5"
-        align-v="stretch"
-      >
-        <b-col
+      <div class="grid grid-cols-4 gap-4 px-4">
+        <div
           v-for="(step, index) in data.more_info.work.steps"
           :key="'item-' + index"
           md="6"
@@ -131,23 +117,16 @@
             </div>
             <div v-html="step.content" />
           </div>
-        </b-col>
-      </b-row>
+        </div>
+      </div>
 
       <h1 class="text-strong-blue mb-4">
         {{ data.more_info.how.title }}
       </h1>
 
-      <b-row
-        class="mb-5 mt-5 HowWeDigi"
-        align-v="stretch"
-      >
-        <b-col
-          md="6"
-          xl="3"
-          class="mb-4"
-        >
-          <div class="d-flex flex-column justify-content-between SendSMS-wrap">
+      <div class="grid grid-cols-4 gap-4 px-4">
+        <div>
+          <div>
             <SendSMS
               :data="data.sms"
               :call-to-action="data.call_to_action"
@@ -157,16 +136,15 @@
                 :href="data.call_to_action.donate.link"
                 class="btn btn-lg btn-green px-4"
                 target="_parent"
-              >{{ data.call_to_action.donate.title }}</a>
+              >
+                {{ data.call_to_action.donate.title }}
+              </a>
             </div>
           </div>
-        </b-col>
-        <b-col
-          md="6"
-          xl="3"
-          class="mb-4"
-        >
-          <div class="d-flex flex-column justify-content-between">
+        </div>
+
+        <div>
+          <div>
             <div>
               <h3 class="text-primary mb-4">
                 {{ data.call_to_action.partner.title }}
@@ -177,16 +155,15 @@
               <a
                 :href="data.call_to_action.partner.link"
                 class="btn btn-lg btn-primary px-4"
-              >{{ data.call_to_action.partner.label }}</a>
+              >
+                {{ data.call_to_action.partner.label }}
+              </a>
             </div>
           </div>
-        </b-col>
-        <b-col
-          md="6"
-          xl="3"
-          class="mb-4"
-        >
-          <div class="d-flex flex-column justify-content-between">
+        </div>
+
+        <div>
+          <div>
             <div>
               <h3 class="text-primary mb-4">
                 {{ data.call_to_action.sponsor.title }}
@@ -197,16 +174,15 @@
               <a
                 :href="data.call_to_action.sponsor.link"
                 class="btn btn-lg btn-primary px-4"
-              >{{ data.call_to_action.sponsor.label }}</a>
+              >
+                {{ data.call_to_action.sponsor.label }}
+              </a>
             </div>
           </div>
-        </b-col>
-        <b-col
-          md="6"
-          xl="3"
-          class="mb-4"
-        >
-          <div class="d-flex flex-column justify-content-between">
+        </div>
+
+        <div>
+          <div>
             <div>
               <h3 class="text-primary mb-4">
                 {{ data.call_to_action.share.title }}
@@ -217,72 +193,33 @@
               <Share :share="data.call_to_action.share" />
             </div>
           </div>
-        </b-col>
-      </b-row>
+        </div>
+      </div>
 
-      <!-- <h1 class="text-strong-blue mb-4">
-        {{ data.more_info.faqs_title }}
+      <h1 class="text-strong-blue">
+        {{ data.partners.title }}
       </h1>
+      <p>{{ data.partners.description }}</p>
 
-      <b-row
-        class="mb-5 mt-5"
-        align-v="stretch"
-      >
-        <b-col
-          v-for="(question, index) in data.more_info.faqs"
-          :key="'item-' + index"
-          md="6"
-          class="mb-4 BorderBox-wrap"
-        >
-          <div class="BorderBox">
-            <div class="d-flex align-items-center justify-content-start mb-4">
-              <h2 class="text-strong-blue">
-                {{ question.question }}
-              </h2>
-            </div>
-            <div v-html="question.answer" />
-          </div>
-        </b-col>
-      </b-row> -->
-
-      <b-row>
-        <b-col lg="6">
-          <div class="Partners-title mb-4">
-            <h1 class="text-strong-blue">
-              {{ data.partners.title }}
-            </h1>
-            <p>{{ data.partners.description }}</p>
-          </div>
-        </b-col>
-        <div class="w-100" />
-        <b-col lg="6">
-          <PartnersList
-            :list="data.partners.main"
-            :col="3"
-          />
-        </b-col>
-      </b-row>
-      <b-row>
-        <b-col lg="8">
-          <PartnersList
-            :list="data.partners.secondary"
-            :col="4"
-          />
-        </b-col>
-      </b-row>
-      <b-row>
-        <b-col>
-          <PartnersList
-            :list="data.partners.others"
-            :col="6"
-          />
-        </b-col>
-      </b-row>
+      <div class="grid grid-cols-12 gap-4 px-4">
+        <PartnersList
+          :list="data.partners.main"
+          :col="3"
+        />
+        <PartnersList
+          :list="data.partners.secondary"
+          :col="4"
+        />
+        <PartnersList
+          :list="data.partners.others"
+          :col="6"
+        />
+      </div>
 
       <p class="Disclaimer">
         <small><strong>*</strong> {{ data.sms.disclaimer }}</small>
       </p>
-    </b-container>
+    </div>
   </div>
 </template>
 
@@ -294,6 +231,7 @@ import data from "./data/ro.json";
 
 import { postMessageHeight } from "./utils/postMessage";
 
+import Navigation from "./components/Navigation";
 import Legend from "./components/Legend";
 import PartnersList from "./components/PartnersList";
 import SendSMS from "./components/SendSMS";
@@ -302,6 +240,7 @@ import Share from "./components/Share";
 export default {
   name: "App",
   components: {
+    Navigation,
     Legend,
     PartnersList,
     SendSMS,
@@ -311,7 +250,7 @@ export default {
     return {
       data: {},
       coverYT: "",
-      showVideo: false
+      showVideo: false,
     };
   },
   created() {
@@ -344,15 +283,15 @@ export default {
       request.send();
     },
     playYT() {
-      this.showVideo = true
+      this.showVideo = true;
     },
     trackDownload() {
       this.$gtag.event("plan-download", {
         event_category: "download",
         event_label: "plan-downloaded",
-        value: "downloaded"
+        value: "downloaded",
       });
-    }
+    },
   },
 };
 </script>
