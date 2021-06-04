@@ -263,10 +263,10 @@
         </b-col>
       </b-row>
       <b-row>
-        <b-col lg="8">
+        <b-col>
           <PartnersList
             :list="data.partners.secondary"
-            :col="4"
+            :col="6"
           />
         </b-col>
       </b-row>

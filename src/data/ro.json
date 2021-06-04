@@ -153,9 +153,15 @@
     "secondary": [
       {
         "id": 1,
-        "name": "Fundația Vodafone România",
-        "link": "https://www.fundatia-vodafone.ro/",
-        "logo": "https://code4.ro/img/9137628e-789e-4af1-af4e-af30c16394c6/fundatia-vodafone.png"
+        "name": "AstraZeneca",
+        "link": "https://www.astrazeneca.com/",
+        "logo": "https://code4.ro/img/cb48e145-b67a-47fa-b0d3-ba8fa2d4a90e/untitled-design-9.png?q=60&fit=crop&dpr=1&w=500&h=500"
+      },
+      {
+        "id": 1,
+        "name": "Globalworth",
+        "link": "https://www.globalworth.com/",
+        "logo": "https://code4.ro/img/8e139713-aecc-402a-a95b-2b40b6954487/untitled-design-11.png?q=60&fit=crop&dpr=1&w=500&h=500https://code4.ro/img/9137628e-789e-4af1-af4e-af30c16394c6/fundatia-vodafone.png"
       },
       {
         "id": 2,
@@ -242,6 +248,12 @@
         "name": "Garmin",
         "link": "https://www.garmin.com/ro-RO/",
         "logo": "https://code4.ro/img/aafd60d3-7477-4b19-8709-00903c95d2dd/garmin.png?q=80&fit=max&crop=4167%2C599%2C0%2C0&w=400"
+      },
+      {
+        "id": 17,
+        "name": "FintechOS",
+        "link": "https://fintechos.com/",
+        "logo": "https://code4.ro/img/c6596c60-6ba5-444a-ac1b-a077ca70f15e/fintechos.png?q=60&fit=max&dpr=1&h=256"
       }
     ]
   },
