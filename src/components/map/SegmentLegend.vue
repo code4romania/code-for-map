@@ -3,14 +3,14 @@
     <p>{{ status.text }}</p>
 
     <div class="d-flex justify-content-start mb-4">
-      <div class="SegmentLegend-status d-flex align-items-center mr-4">
+      <div class="SegmentLegend-status flex items-center mr-4">
         <i
           class="icon icon-circle"
           :class="'border-' + color"
         />
         {{ status.done }}
       </div>
-      <div class="SegmentLegend-status d-flex align-items-center">
+      <div class="SegmentLegend-status flex items-center">
         <i class="icon icon-circle" />
         {{ status.designed }}
       </div>

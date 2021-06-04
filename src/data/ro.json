@@ -257,11 +257,11 @@
       },
       "btn": {
         "top": "9%",
-        "left": "49.78%"
+        "left": "50%"
       },
       "mobile_btn": {
-        "top": "13%",
-        "left": "22%"
+        "top": "7%",
+        "left": "30%"
       },
       "color": "purple",
       "highway_bg": "highway-care",
@@ -666,12 +666,12 @@
         "logo": "https://code4.ro/img/cb48e145-b67a-47fa-b0d3-ba8fa2d4a90e/untitled-design-9.png?q=60&fit=crop&dpr=1&w=500&h=500"
       },
       "btn": {
-        "top": "17.26%",
-        "left": "69.36%"
+        "top": "17%",
+        "left": "69%"
       },
       "mobile_btn": {
-        "top": "31%",
-        "left": "48%"
+        "top": "10%",
+        "left": "65%"
       },
       "color": "red",
       "highway_bg": "highway-health",
@@ -1028,11 +1028,11 @@
       "description": "Implicarea în viața comunității ne face pe toți mai bogați, mai împliniți și mai puternici. Implicându-ne, învățăm unii de la ceilalți și oferim ce avem mai bun, fiecare dintre noi, pentru mai binele tuturor. Dacă dorim sisteme puternice de educație, sănătate, protecția celor vulnerabili și a mediului, trebuie să fim conștienți de faptul că toate acestea nu sunt posibile fără o implicare reală a tuturor în viața societății. În plus, momentele de implicare sunt ferestre prin care vedem cât de puternici putem deveni atunci când suntem împreună. Ne continuăm misiunea de a încuraja participarea cetățenească în viața societății scoțând la iveală cele mai bune instrumente digitale pentru asta.",
       "btn": {
         "top": "69%",
-        "left": "74%"
+        "left": "72%"
       },
       "mobile_btn": {
-        "top": "52%",
-        "left": "53%"
+        "top": "70%",
+        "left": "55%"
       },
       "color": "light-blue",
       "highway_bg": "highway-participation",
@@ -1590,7 +1590,7 @@
           "description": "<p>În relația cu statul care ar trebui să le servească interesele, mulți cetățeni se confruntă cu un sentiment de frustrare, generat adesea de ineficiența cu care autoritățile  își îndeplinesc misiunea misiunea.</p> <p>Pentru a avea un stat mai deschis și mai operativ în apărarea intereselor cetățenilor, ne propunem să digitalizăm procesele care, depinzând de procese bazate pe hârtie și dosare cu șină, consumă timp și resurse, deteriorînd relația dintre cetățeni și instituțiile statului.</p>",
           "btn": {
             "top": "57%",
-            "left": "40%"
+            "left": "50%"
           },
           "icon_left": true,
           "projects": [
@@ -1848,12 +1848,12 @@
         "logo": "https://code4.ro/img/8e139713-aecc-402a-a95b-2b40b6954487/untitled-design-11.png?q=60&fit=crop&dpr=1&w=500&h=500https://code4.ro/img/9137628e-789e-4af1-af4e-af30c16394c6/fundatia-vodafone.png"
       },
       "btn": {
-        "top": "54.61%",
-        "left": "35.36%"
+        "top": "55%",
+        "left": "35%"
       },
       "mobile_btn": {
-        "top": "73%",
-        "left": "31%"
+        "top": "53%",
+        "left": "36%"
       },
       "color": "yellow",
       "highway_bg": "highway-education",
@@ -2357,12 +2357,12 @@
       },
       "btn": {
         "color": "green",
-        "top": "42.91%",
-        "left": "2.75%"
+        "top": "43%",
+        "left": "3%"
       },
       "mobile_btn": {
-        "top": "47%",
-        "left": "15%"
+        "top": "37%",
+        "left": "7%"
       },
       "color": "green",
       "highway_bg": "highway-environment",

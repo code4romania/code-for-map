@@ -6,7 +6,7 @@
     />
 
     <div class="ProjectModal px-4">
-      <div class="mt-4 d-flex align-items-center justify-content-between">
+      <div class="mt-4 flex items-center justify-content-between">
         <div>
           <a
             v-if="segmentObject.projects.length > 1"
@@ -89,7 +89,7 @@
           xs="12"
           md="8"
         >
-          <div class="SegmentLegend-status d-flex align-items-center mb-3">
+          <div class="SegmentLegend-status flex items-center mb-3">
             <i
               class="icon icon-circle"
               :class="
@@ -106,7 +106,7 @@
             class="mb-4"
             v-html="project.description"
           />
-          <div class="d-flex align-items-center mb-2">
+          <div class="flex items-center mb-2">
             <img
               class="icon icon-md mr-2"
               src="../assets/svg/icons/icon-heart.svg"

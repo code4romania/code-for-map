@@ -38,7 +38,7 @@
             }"
           >
             <div
-              class="d-flex align-items-center justify-content-between"
+              class="flex items-center justify-content-between"
               @click="mobileProjectClicked"
             >
               <i
@@ -62,12 +62,12 @@
       </div>
     </div>
 
-    <div class="Segment d-none d-lg-block">
+    <div class="Segment hidden lg:block">
       <router-link
         :to="{ name: 'Highway', params: { slug: slug } }"
         class="SegmentVisual-close d-inline-block"
       >
-        <div class="d-flex align-items-center">
+        <div class="flex items-center">
           <img
             class="icon"
             src="../assets/svg/icons/chevron-left.svg"
@@ -93,7 +93,7 @@
 
     <b-row>
       <b-col offset-lg="2">
-        <div class="Segment-info d-none d-lg-block text-right">
+        <div class="Segment-info hidden lg:block text-right">
           <div class="badge badge-primary Segment-status mb-3">
             {{ segmentObject.status }}
           </div>

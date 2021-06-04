@@ -1,5 +1,5 @@
 <template>
-  <div class="grid grid-cols-6 gap-4 px-4">
+  <div class="grid grid-cols-6 gap-4">
     <template v-for="partner in list">
       <div :key="'partner-' + partner.id">
         <a

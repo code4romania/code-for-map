@@ -7,15 +7,13 @@
         segment: segmentSlug,
       },
     }"
-    class="d-lg-none d-flex justify-content-between align-items-center SegmentButton ListItem"
+    class="lg:hidden flex justify-between items-center border-t-2 py-4 bg-white border-gray-50"
   >
-    <div class="SegmentButton-icon">
+    <div class="flex items-center gap-4">
       <img
-        class="icon icon-md"
+        class="w-12 h-12"
         :src="require(`../../assets/svg/icons/icon-${segmentSlug}.svg`)"
       >
-    </div>
-    <div class="flex-fill mx-2">
       {{ title }}
     </div>
     <img

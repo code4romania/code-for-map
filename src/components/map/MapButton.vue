@@ -1,12 +1,12 @@
 <template>
   <div
-    class="absolute"
+    class="absolute z-30"
     :style="{ top: top, left: left }"
   >
     <!-- Main map button links to highway -->
     <router-link
       :to="{ name: 'Highway', params: { slug: highway.slug } }"
-      class="py-1 px-4 border-4 block rounded-full bg-white transition-transform transform relative hover:scale-110 hover:z-20 lg:py-2"
+      class="py-1 px-4 border-4 block rounded-full bg-white transition-transform transform relative hover:scale-110 lg:py-2 z-20 hover:z-30"
       :class="[
         `border-${highway.color}-500`,
         $route.name != 'Map' ? 'opacity-30 hover:opacity-100' : '',
@@ -22,9 +22,8 @@
         >
         <div
           class="block ml-2 font-bold text-sm leading-4 lg:text-lg lg:leading-none"
-        >
-          {{ highway.title }}
-        </div>
+          v-html="highwayTitle"
+        />
       </div>
     </router-link>
   </div>
@@ -52,6 +51,12 @@ export default {
       type: String,
       default: "",
     },
+  },
+  computed: {
+    highwayTitle() {
+      const subs = this.highway.title.split(' ')
+      return "<div>" + subs[0] + " " + subs[1] + "</div>" + subs[2]
+    }
   },
   methods: {
     updateIframe() {

@@ -1,17 +1,17 @@
 <template>
-  <div class="HighwayHeader d-lg-none">
-    <div class="d-flex align-items-center HighwayHeader-logo mb-3">
+  <div class="lg:hidden">
+    <div class="flex items-center mb-3">
       <img
-        class="icon icon-lg"
+        class="w-16 h-16"
         :src="require(`../../assets/svg/icons/logo-${logo}.svg`)"
       >
-      <h2 class="ml-3 mb-0">
+      <h2 class="ml-4 font-bold text-4xl">
         {{ title }}
       </h2>
     </div>
     <p
       v-if="description"
-      class="d-lg-none mb-4"
+      class="mb-8"
       v-html="description"
     />
   </div>

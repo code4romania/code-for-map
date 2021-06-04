@@ -4,11 +4,24 @@ module.exports = {
   theme: {
     extend: {},
     fontFamily: {
-      sans: "'Titillium Web', sans-serif"
+      sans: "'Titillium Web', sans-serif",
     },
     colors: {
       white: "#FFFFFF",
       black: "#000000",
+      gray: {
+        DEFAULT: "#404366",
+        "50": "#F1F1F6",
+        "100": "#DBDCE8",
+        "200": "#AFB2CD",
+        "300": "#8387B1",
+        "400": "#5C6092",
+        "500": "#404366",
+        "600": "#323550",
+        "700": "#24263A",
+        "800": "#171824",
+        "900": "#09090E",
+      },
       blue: {
         DEFAULT: "#0000FF",
         "50": "#E5E5FF",
@@ -91,7 +104,7 @@ module.exports = {
   },
   variants: {
     extend: {
-      zIndex: ['hover']
+      zIndex: ["hover"],
     },
   },
   plugins: [],

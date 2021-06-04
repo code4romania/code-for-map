@@ -7,7 +7,7 @@
         <div class="grid grid-cols-8 gap-4 lg:absolute lg:top-0 lg:left-0 lg:z-10 lg:h-full">
           <div class="col-span-8 lg:col-span-2">
             <div class="flex flex-col lg:justify-between lg:h-full">
-              <div class="mb-8">
+              <div class="my-8 lg:-mt-4">
                 <h1
                   class="text-6xl font-bold text-blue-500 mb-4"
                   v-html="data.header.title"
@@ -27,16 +27,14 @@
             <router-link
               v-if="data.back_to_map.visible"
               :to="{ name: 'Map' }"
-              class="BackToMap mb-4 d-inline-block d-lg-none"
+              class="mb-8 inline-flex items-center lg:hidden"
             >
-              <div class="d-flex align-items-center">
-                <img
-                  class="icon icon-md"
-                  src="./assets/svg/icons/chevron-left.svg"
-                >
-                <div class="ml-2 text-primary border-bottom border-primary">
-                  {{ data.general.back_to_map }}
-                </div>
+              <img
+                class="w-8 h-8"
+                src="./assets/svg/icons/chevron-left.svg"
+              >
+              <div class="ml-2 border-b-2 border-gray-500 text-gray-500">
+                {{ data.general.back_to_map }}
               </div>
             </router-link>
             <router-view :data="data" />
@@ -44,7 +42,7 @@
         </div>
       </div>
 
-      <div class="grid grid-cols-12 gap-4 px-4">
+      <div class="grid grid-cols-12 gap-4">
         <div class="col-span-12 lg:col-span-4">
           <h1 class="text-strong-blue mb-4">
             {{ data.more_info.title }}
@@ -98,7 +96,7 @@
         {{ data.more_info.work.title }}
       </h1>
 
-      <div class="grid grid-cols-4 gap-4 px-4">
+      <div class="grid grid-cols-4 gap-4">
         <div
           v-for="(step, index) in data.more_info.work.steps"
           :key="'item-' + index"
@@ -106,7 +104,7 @@
           class="mb-4 BorderBox-wrap"
         >
           <div class="BorderBox">
-            <div class="d-flex align-items-center justify-content-start mb-4">
+            <div class="flex items-center justify-content-start mb-4">
               <img
                 class="icon icon-xl mr-4"
                 :src="require(`./assets/svg/icons/icon-${step.icon}.svg`)"
@@ -124,7 +122,7 @@
         {{ data.more_info.how.title }}
       </h1>
 
-      <div class="grid grid-cols-4 gap-4 px-4">
+      <div class="grid grid-cols-4 gap-4">
         <div>
           <div>
             <SendSMS

@@ -2,11 +2,15 @@ body {
   background: url(../assets/images/bg.png) top center no-repeat;
 }
 
-.MapHero-wrap {
-  @include respond-above(lg) {
-    min-height: 700px;
-  }
+.router-link-exact-active {
+  opacity: 1 !important;
 }
+
+// .MapHero-wrap {
+//   @include respond-above(lg) {
+//     min-height: 700px;
+//   }
+// }
 
 // .container-fluid {
 //   max-width: 1440px !important;

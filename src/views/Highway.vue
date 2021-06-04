@@ -8,107 +8,106 @@
 
     <div
       v-if="highway.sponsor"
-      class="Highway-partner my-4 d-lg-none"
+      class="mb-8 lg:hidden"
     >
-      <div class="d-inline-block mb-2">
+      <div class="inline-block mb-2">
         {{ data.general.financed_by }}
       </div>
       <a
         :href="highway.sponsor.link"
         target="_blank"
-        class="d-block border border-gray"
+        class="block border border-gray-100 bg-white w-32"
       >
-        <img
-          :src="highway.sponsor.logo"
-          class="img-fluid"
-        >
+        <img :src="highway.sponsor.logo">
       </a>
     </div>
 
-    <div class="Highway-wrap">
-      <div class="HighwayContainer">
-        <div class="Highway">
-          <div class=" relative h-0 w-full hidden lg:block">
-            <div class="MapContainer Map-bw">
-              <img
-                src="../assets/svg/illustrations/map-bw.svg"
-              >
-            </div>
-          </div>
-
-          <router-link
-            :to="{ name: 'Map' }"
-            class="hidden lg:block"
+    <div class="relative lg:top-8">
+      <div
+        class="h-0 w-full hidden lg:block"
+        :style="{ 'padding-bottom': (526/748) * 100 + '%'}"
+      >
+        <div class="absolute top-0 left-0 w-full h-full opacity-80">
+          <img
+            class="w-full h-full"
+            src="../assets/svg/illustrations/map-bw.svg"
           >
-            <div class="MapContainer">
-              <img
-                :src="
-                  require(`../assets/svg/illustrations/${highway.highway_bg}.svg`)
-                "
-              >
-            </div>
-          </router-link>
-
-          <template v-for="motorway in data.code4ro_map">
-            <MapButton
-              :key="motorway.slug"
-              class="d-none d-lg-block"
-              :highway="motorway"
-              :top="motorway.btn.top"
-              :left="motorway.btn.left"
-            />
-          </template>
-
-          <template v-for="segmentButton in highway.highway_segments">
-            <HighwayButton
-              :key="'highway-btn-lg-' + segmentButton.id"
-              :slug="highway.slug"
-              :segment-slug="segmentButton.segmentSlug"
-              :segment-button="segmentButton"
-              :color="highway.color"
-              :has-projects="segmentButton.projects.length > 0"
-            />
-
-            <SegmentButton
-              :key="'highway-btn-' + segmentButton.id"
-              :slug="highway.slug"
-              :segment-slug="segmentButton.segmentSlug"
-              :title="segmentButton.title"
-            />
-          </template>
-        </div>
-
-        <div class="d-none d-lg-block">
-          <b-row>
-            <b-col lg="2">
-              <div
-                v-if="highway.sponsor"
-                class="Highway-partner m-0"
-              >
-                <div class="d-inline-block mb-2">
-                  {{ data.general.financed_by }}
-                </div>
-                <a
-                  :href="highway.sponsor.link"
-                  target="_blank"
-                  class="d-block border border-gray"
-                >
-                  <img
-                    :src="highway.sponsor.logo"
-                    class="img-fluid"
-                  >
-                </a>
-              </div>
-            </b-col>
-            <b-col lg="10">
-              <p
-                class="lead text-right my-4"
-                v-html="highway.description"
-              />
-            </b-col>
-          </b-row>
         </div>
       </div>
+
+      <router-link
+        :to="{ name: 'Map' }"
+        class="absolute top-0 left-0 h-0 w-full z-20 hidden lg:block"
+        :style="{ 'padding-bottom': (526/748) * 100 + '%'}"
+      >
+        <div>
+          <img
+            class="w-full h-full"
+            :src="
+              require(`../assets/svg/illustrations/${highway.highway_bg}.svg`)
+            "
+          >
+        </div>
+      </router-link>
+
+      <template v-for="motorway in data.code4ro_map">
+        <MapButton
+          :key="motorway.slug"
+          class="hidden lg:block"
+          :highway="motorway"
+          :top="motorway.btn.top"
+          :left="motorway.btn.left"
+        />
+      </template>
+
+      <template v-for="segmentButton in highway.highway_segments">
+        <HighwayButton
+          :key="'highway-btn-lg-' + segmentButton.id"
+          :slug="highway.slug"
+          :segment-slug="segmentButton.segmentSlug"
+          :segment-button="segmentButton"
+          :color="highway.color"
+          :has-projects="segmentButton.projects.length > 0"
+        />
+
+        <SegmentButton
+          :key="'highway-btn-' + segmentButton.id"
+          :slug="highway.slug"
+          :segment-slug="segmentButton.segmentSlug"
+          :title="segmentButton.title"
+        />
+      </template>
+    </div>
+
+    <div class="hidden lg:block">
+      <b-row>
+        <b-col lg="2">
+          <div
+            v-if="highway.sponsor"
+            class="Highway-partner m-0"
+          >
+            <div class="d-inline-block mb-2">
+              {{ data.general.financed_by }}
+            </div>
+            <a
+              :href="highway.sponsor.link"
+              target="_blank"
+              class="d-block border border-gray"
+            >
+              <img
+                :src="highway.sponsor.logo"
+                class="img-fluid"
+              >
+            </a>
+          </div>
+        </b-col>
+        <b-col lg="10">
+          <p
+            class="lead text-right my-4"
+            v-html="highway.description"
+          />
+        </b-col>
+      </b-row>
     </div>
   </div>
 </template>

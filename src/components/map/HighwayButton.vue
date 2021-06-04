@@ -7,31 +7,31 @@
         segment: segmentSlug,
       },
     }"
-    class="badge-pill btn bg-white d-none d-lg-block HighwayButton"
+    class="bg-white hidden lg:block border-2 py-1 px-3 absolute z-30 rounded-full opacity-60 hover:opacity-100"
     :class="
-      `btn-outline-${color} ${hasProjects ? 'HighwayButton-hasProjects' : ''}`
+      `border-${color}-500 ${hasProjects ? 'opacity-100' : ''}`
     "
     :style="{ top: segmentButton.btn.top, left: segmentButton.btn.left }"
   >
     <div
       v-if="segmentButton.icon_left"
-      class="d-flex align-items-center"
+      class="flex items-center"
     >
       <img
-        class="icon"
+        class="w-8 h-8"
         :src="
           require(`../../assets/svg/icons/icon-${segmentButton.segmentSlug}.svg`)
         "
       >
-      <div class="text-dark text-left ml-2">
+      <div class="text-left font-bold leading-5 ml-2">
         {{ segmentButton.title }}
       </div>
     </div>
     <div
       v-else
-      class="d-flex align-items-center"
+      class="flex items-center"
     >
-      <div class="text-dark text-right mr-2">
+      <div class="text-right font-bold leading-5 mr-2">
         {{ segmentButton.title }}
       </div>
       <img

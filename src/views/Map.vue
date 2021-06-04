@@ -1,10 +1,10 @@
 <template>
   <!-- padding height image ratio (h/w) -->
   <div
-    class="relative h-0 w-full z-20 lg:-right-8 lg:top-8"
+    class="relative h-0 w-full lg:top-8"
     :style="{ 'padding-bottom': (526/748) * 100 + '%'}"
   >
-    <div class="MapContainer">
+    <div>
       <img
         class="w-full h-full"
         src="../assets/svg/illustrations/map-color.svg"
