@@ -4,7 +4,9 @@
 
     <div class="container px-4 mx-auto lg:pt-16">
       <div class="relative">
-        <div class="grid grid-cols-8 gap-4 lg:absolute lg:top-0 lg:left-0 lg:z-10 lg:h-full">
+        <div
+          class="grid grid-cols-8 gap-4 lg:absolute lg:top-0 lg:left-0 lg:z-10 lg:h-full"
+        >
           <div class="col-span-8 lg:col-span-2">
             <div class="flex flex-col lg:justify-between lg:h-full">
               <div class="my-8 lg:-mt-4">
@@ -42,55 +44,13 @@
         </div>
       </div>
 
-      <div class="grid grid-cols-12 gap-4">
-        <div class="col-span-12 lg:col-span-4">
-          <h1 class="text-strong-blue mb-4">
-            {{ data.more_info.title }}
-          </h1>
-          <p
-            class="mb-4 lg:pr-3"
-            v-html="data.more_info.description"
-          />
-          <!-- <a
-            class=" d-none d-lg-inline-block"
-            :href="data.more_info.download_link"
-            @click.prevent="downloadPlan()"
-          >{{ data.more_info.download_pdf_cta }}</a> -->
-          <a
-            class=""
-            :href="data.more_info.download_pdf_link"
-            target="_blank"
-            @click="trackDownload()"
-          >
-            {{ data.more_info.download_pdf_cta }}
-          </a>
-        </div>
-
-        <div class="col-span-12 lg:col-span-4">
-          <button
-            v-if="!showVideo"
-            class="btn btn-link"
-            @click.prevent="playYT()"
-          >
-            <img
-              class="img-fluid"
-              :src="coverYT"
-            >
-          </button>
-          <div
-            v-else
-            class="embed-responsive embed-responsive-16by9 Video"
-          >
-            <iframe
-              class="embed-responsive-item"
-              src="https://www.youtube.com/embed/XHVvEhmrlkA?modestbranding=1&autohide=2&showinfo=0&autoplay=1"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            />
-          </div>
-        </div>
-      </div>
+      <VideoBanner
+        :title="data.more_info.title"
+        :description="data.more_info.description"
+        :download-pdf-link="data.more_info.download_pdf_link"
+        :download-pdf-cta="data.more_info.download_pdf_cta"
+        @onClickCTA="trackDownload"
+      />
 
       <h1 class="text-strong-blue mb-4">
         {{ data.more_info.work.title }}
@@ -223,6 +183,7 @@ import Legend from "./components/Legend";
 import PartnersList from "./components/PartnersList";
 import SendSMS from "./components/SendSMS";
 import Share from "./components/Share";
+import VideoBanner from "./components/VideoBanner";
 
 export default {
   name: "App",
@@ -232,12 +193,11 @@ export default {
     PartnersList,
     SendSMS,
     Share,
+    VideoBanner,
   },
   data() {
     return {
       data: {},
-      coverYT: "",
-      showVideo: false,
     };
   },
   created() {
@@ -249,8 +209,6 @@ export default {
     window.onresize = debouce(() => {
       postMessageHeight();
     }, 500);
-
-    this.coverYT = require("./assets/images/cover-yt.png");
   },
   methods: {
     downloadPlan() {
@@ -268,9 +226,6 @@ export default {
       };
 
       request.send();
-    },
-    playYT() {
-      this.showVideo = true;
     },
     trackDownload() {
       this.$gtag.event("plan-download", {

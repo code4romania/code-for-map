@@ -107,5 +107,5 @@ module.exports = {
       zIndex: ["hover"],
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/aspect-ratio")],
 };
