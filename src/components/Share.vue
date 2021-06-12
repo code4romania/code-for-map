@@ -1,5 +1,5 @@
 <template>
-  <div class="Share d-flex">
+  <div class="flex">
     <a
       :href="'https://www.facebook.com/sharer/sharer.php?u=' + mapURL"
       rel="noreferrer noopener"
@@ -7,7 +7,7 @@
       class="mr-4"
     >
       <img
-        class="icon icon-lg"
+        class="h-12 w-12"
         src="../assets/svg/icons/share-fb.svg"
       >
     </a>
@@ -19,7 +19,7 @@
       class="mr-4"
     >
       <img
-        class="icon icon-lg"
+        class="h-12 w-12"
         src="../assets/svg/icons/share-tw.svg"
       >
     </a>
@@ -31,7 +31,7 @@
       class="mr-4"
     >
       <img
-        class="icon icon-lg"
+        class="h-12 w-12"
         src="../assets/svg/icons/share-li.svg"
       >
     </a>

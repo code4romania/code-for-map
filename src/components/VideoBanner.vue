@@ -13,26 +13,17 @@
             :href="data.more_info.download_link"
             @click.prevent="downloadPlan()"
           >{{ data.more_info.download_pdf_cta }}</a> -->
-      <a
-        class="
-          inline-block
-          bg-blue-500
-          text-white
-          px-12
-          py-2
-          text-xl
-          font-normal
-          rounded
-          hover:bg-blue-600
-        "
-        :href="downloadPdfLink"
-        target="_blank"
-        @click="handleClickCTA()"
-      >
-        {{ downloadPdfCta }}
-      </a>
+      <div class="flex flex-wrap">
+        <t-button
+          :href="downloadPdfLink"
+          color="blue"
+          target="_blank"
+          @click="handleClickCTA()"
+        >
+          {{ downloadPdfCta }}
+        </t-button>
+      </div>
     </div>
-
     <div class="w-full lg:w-2/3">
       <button
         v-if="!showVideo"
@@ -61,8 +52,13 @@
 </template>
 
 <script>
+import TButton from "./Button.vue";
+
 export default {
   name: "VideoBanner",
+  components: {
+    TButton,
+  },
   props: {
     title: {
       type: String,
