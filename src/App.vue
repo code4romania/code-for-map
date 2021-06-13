@@ -61,24 +61,25 @@
           :level="1"
           v-html="data.more_info.work.title"
         />
-        <div class="grid grid-cols-2 gap-4">
+        <div class="grid md:grid-cols-2 gap-x-8 gap-y-6">
           <div
             v-for="(step, index) in data.more_info.work.steps"
             :key="'item-' + index"
-            md="6"
-            class="mb-4 BorderBox-wrap"
           >
-            <CardBorderDashed>
-              <div class="flex items-center justify-content-start mb-4">
+            <CardBorderDashed class="px-10">
+              <div class="flex items-center mb-4">
                 <img
-                  class="icon icon-xl mr-4"
+                  class="w-20 h-20 mr-6"
                   :src="require(`./assets/svg/icons/icon-${step.icon}.svg`)"
                 >
                 <Heading :level="2">
                   {{ step.title }}
                 </Heading>
               </div>
-              <div v-html="step.content" />
+              <div
+                class="flex flex-col space-y-4"
+                v-html="step.content"
+              />
             </CardBorderDashed>
           </div>
         </div>
@@ -90,8 +91,11 @@
           :level="1"
           v-html="data.more_info.how.title"
         />
-        <div class="grid grid-cols-2 gap-4">
-          <CardBorderDashed color="green">
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4 my-12">
+          <CardBorderDashed
+            class="flex flex-col justify-between"
+            color="green"
+          >
             <SendSMS
               :title="data.sms.title"
               :description="data.sms.description"
@@ -100,6 +104,7 @@
             <div class="flex flex-wrap">
               <t-button
                 color="green"
+                size="lg"
                 :href="data.call_to_action.donate.link"
                 target="_parent"
               >
@@ -108,58 +113,72 @@
             </div>
           </CardBorderDashed>
 
-          <CardBorderDashed color="gray">
+          <CardBorderDashed
+            class="flex flex-col justify-between"
+            color="gray"
+          >
             <div>
-              <div>
-                <Heading :level="3">
-                  {{ data.call_to_action.partner.title }}
-                </Heading>
-                <div v-html="data.call_to_action.partner.content" />
-              </div>
-              <div>
-                <div class="flex flex-wrap">
-                  <t-button
-                    color="gray"
-                    :href="data.call_to_action.partner.link"
-                  >
-                    {{ data.call_to_action.partner.label }}
-                  </t-button>
-                </div>
-              </div>
+              <Heading
+                :level="3"
+                class="mb-6"
+              >
+                {{ data.call_to_action.partner.title }}
+              </Heading>
+              <div
+                class="space-y-4 mb-4"
+                v-html="data.call_to_action.partner.content"
+              />
+            </div>
+            <div class="flex flex-wrap">
+              <t-button
+                color="gray"
+                size="lg"
+                :href="data.call_to_action.partner.link"
+              >
+                {{ data.call_to_action.partner.label }}
+              </t-button>
             </div>
           </CardBorderDashed>
 
-          <CardBorderDashed color="gray">
-            <div>
-              <div>
-                <Heading :level="3">
-                  {{ data.call_to_action.sponsor.title }}
-                </Heading>
-                <div v-html="data.call_to_action.sponsor.content" />
-              </div>
-              <div class="flex flex-wrap">
-                <t-button
-                  color="gray"
-                  :href="data.call_to_action.sponsor.link"
-                >
-                  {{ data.call_to_action.sponsor.label }}
-                </t-button>
-              </div>
+          <CardBorderDashed
+            class="flex flex-col justify-between"
+            color="gray"
+          >
+            <Heading
+              :level="3"
+              class="mb-6"
+            >
+              {{ data.call_to_action.sponsor.title }}
+            </Heading>
+            <div
+              class="space-y-4 mb-4"
+              v-html="data.call_to_action.sponsor.content"
+            />
+            <div class="flex flex-wrap">
+              <t-button
+                color="gray"
+                size="lg"
+                :href="data.call_to_action.sponsor.link"
+              >
+                {{ data.call_to_action.sponsor.label }}
+              </t-button>
             </div>
           </CardBorderDashed>
 
-          <CardBorderDashed color="gray">
-            <div>
-              <div>
-                <Heading :level="3">
-                  {{ data.call_to_action.share.title }}
-                </Heading>
-                <div v-html="data.call_to_action.share.content" />
-              </div>
-              <div>
-                <Share :share="data.call_to_action.share" />
-              </div>
-            </div>
+          <CardBorderDashed
+            class="flex flex-col justify-between"
+            color="gray"
+          >
+            <Heading
+              :level="3"
+              class="mb-6"
+              v-html="data.call_to_action.share.title"
+            />
+            <div
+              class="space-y-4 mb-4"
+              v-html="data.call_to_action.share.content"
+            />
+            <Share :share="data.call_to_action.share" />
           </CardBorderDashed>
         </div>
       </t-section>
@@ -175,11 +194,14 @@
           </Heading>
           <p>{{ data.partners.description }}</p>
         </div>
-        <PartnersList :list="data.partners.main" />
-        <PartnersList :list="data.partners.secondary" />
-        <PartnersList :list="data.partners.others" />
-
-        <p class="Disclaimer">
+        <div class="space-y-6">
+          <PartnersList
+            :list="data.partners.main"
+          />
+          <PartnersList :list="data.partners.secondary" />
+          <PartnersList :list="data.partners.others" />
+        </div>
+        <p class="mt-20 lg:w-1/2">
           <small><strong>*</strong> {{ data.sms.disclaimer }}</small>
         </p>
       </t-section>

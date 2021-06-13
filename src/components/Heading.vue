@@ -1,7 +1,7 @@
 <template>
   <component
     :is="hType"
-    class="text-bold font-bold mb-6"
+    class="text-bold font-bold"
     :class="hClasses"
   >
     <slot />
@@ -28,9 +28,9 @@ export default {
     },
     sizesClasses() {
       const sizes = {
-        1: 'text-5xl',
-        2: 'text-3xl',
-        3: 'text-xl'
+        1: 'text-5xl mb-6',
+        2: 'text-4xl',
+        3: 'text-2xl'
       };
       return sizes[this.level] || 'text-xl';
     },

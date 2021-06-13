@@ -1,6 +1,6 @@
 <template>
   <div
-    class="border-2  border-dashed py-5 px-10 h-full"
+    class="border-2  border-dashed p-5 h-full"
     :class="colorClasses"
   >
     <slot />

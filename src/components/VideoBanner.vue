@@ -1,9 +1,10 @@
 <template>
-  <div class="flex flex-col lg:flex-row items-center space-x-6">
-    <div class="w-full lg:w-1/3 mb-6">
-      <h1 class="text-5xl text-blue text-bold font-bold mb-6">
+  <!-- <div class="flex flex-col items-center lg:flex-row space-y-6 lg:space-y-0 lg:space-x-6"> -->
+  <div class="grid gap-6 grid-cols-3">
+    <div class="flex flex-col justify-center col-span-3 lg:col-span-1">
+      <Heading :level="1">
         {{ title }}
-      </h1>
+      </Heading>
       <p
         class="mb-6 lg:pr-3"
         v-html="description"
@@ -17,6 +18,7 @@
         <t-button
           :href="downloadPdfLink"
           color="blue"
+          size="lg"
           target="_blank"
           @click="handleClickCTA()"
         >
@@ -24,7 +26,7 @@
         </t-button>
       </div>
     </div>
-    <div class="w-full lg:w-2/3">
+    <div class="col-span-3 lg:col-span-2">
       <button
         v-if="!showVideo"
         class="btn btn-link"
@@ -52,12 +54,14 @@
 </template>
 
 <script>
-import TButton from "./Button.vue";
+import TButton from "./Button";
+import Heading from "./Heading";
 
 export default {
   name: "VideoBanner",
   components: {
     TButton,
+    Heading
   },
   props: {
     title: {

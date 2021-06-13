@@ -56,9 +56,9 @@ export default {
     sizeClasses() {
       const isIcon = this.icon;
       const sizeMappings = {
-        sm: `text-sm py-1 ${isIcon ? "px-2" : "px-4"}`,
-        md: `text-xl py-2 ${isIcon ? "px-10" : "px-12"}`,
-        lg: `text-2xl py-3 ${isIcon ? "px-4" : "px-12"}`,
+        sm: `h-8 text-sm ${isIcon ? "px-2" : "px-4"}`,
+        md: `h-10 ${isIcon ? "px-3" : "px-6"}`,
+        lg: `text-lg h-12 ${isIcon ? "px-4" : "px-12"}`
       };
 
       return sizeMappings[this.size] || sizeMappings.md;
@@ -72,17 +72,6 @@ export default {
         return "a";
       } else {
         return "button";
-        //     <!-- class="
-        //   inline-block
-        //   bg-blue-500
-        //   text-white
-        //   px-12
-        //   py-2
-        //   text-xl
-        //   font-normal
-        //   rounded
-        //   hover:bg-blue-600
-        // " -->
       }
     },
   },
