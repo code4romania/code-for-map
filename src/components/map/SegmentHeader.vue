@@ -1,8 +1,8 @@
 <template>
-  <div class="SegmentHeader">
+  <div class="relative pt-8">
     <router-link
       :to="{ name: 'Highway', params: { slug: slug } }"
-      class="SegmentHeader-close"
+      class="absolute top-0 right-6 w-4"
     >
       <img
         class="icon icon-sm"
@@ -11,32 +11,34 @@
     </router-link>
 
     <img
-      class="icon icon-yuge"
+      class="w-24 mx-auto mb-4"
       :src="require(`../../assets/svg/icons/icon-${icon}.svg`)"
     >
     <div class="text-center">
       <div
-        class="badge badge-primary Segment-status mt-3"
+        class="bg-gray text-white text-lg inline-block px-2 py-1 leading-none mx-auto mb-2 "
         v-html="status"
       />
-      <h2
-        class="text-center font-weight-light"
+      <Heading
+        :level="2"
+        class="mb-5"
         :class="`text-${color}`"
       >
         {{ title }}
-      </h2>
+      </Heading>
     </div>
     <div
       v-if="description"
-      class="SegmentHeader-desc"
       v-html="description"
     />
   </div>
 </template>
 
 <script>
+import Heading from '../Heading.vue';
 export default {
   name: "SegmentHeader",
+  components: { Heading },
   props: {
     icon: {
       type: String,

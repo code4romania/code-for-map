@@ -80,11 +80,11 @@
     </div>
 
     <div class="hidden lg:block">
-      <b-row>
-        <b-col lg="2">
+      <div class="grid grid-cols-12">
+        <div class="col-span-2">
           <div
             v-if="highway.sponsor"
-            class="Highway-partner m-0"
+            class="w-24 Highway-partner m-0"
           >
             <div class="d-inline-block mb-2">
               {{ data.general.financed_by }}
@@ -92,22 +92,21 @@
             <a
               :href="highway.sponsor.link"
               target="_blank"
-              class="d-block border border-gray"
+              class="block border border-gray-100"
             >
               <img
                 :src="highway.sponsor.logo"
-                class="img-fluid"
               >
             </a>
           </div>
-        </b-col>
-        <b-col lg="10">
+        </div>
+        <div class="col-span-10">
           <p
-            class="lead text-right my-4"
+            class="text-xl text-right my-4"
             v-html="highway.description"
           />
-        </b-col>
-      </b-row>
+        </div>
+      </div>
     </div>
   </div>
 </template>

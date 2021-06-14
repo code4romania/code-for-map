@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="Segment d-lg-none">
+    <div class="lg:hidden">
       <HighwayHeader
         :logo="code4ro_map.slug"
         :title="code4ro_map.title"
@@ -8,6 +8,7 @@
       />
 
       <SegmentHeader
+        class="mb-4"
         :icon="segmentObject.segmentSlug"
         :slug="slug"
         :color="code4ro_map.color"
@@ -24,12 +25,12 @@
           :status="data.segment_legend"
           :color="code4ro_map.color"
         />
-        <div class="SegmentProjects">
+        <div class="border-b">
           <router-link
             v-for="(project, index) in segmentObject.projects"
             :key="index"
             tag="div"
-            class="ListItem"
+            class="py-4 border-t ListItem"
             :to="{
               name: 'ProjectModal',
               params: {
@@ -111,7 +112,7 @@
     >
       <div
         id="projectModal"
-        class="modal-content"
+        class="absolute left-0 w-full modal-content"
         :style="{ top: modalTop, left: modalLeft }"
       >
         <router-view
