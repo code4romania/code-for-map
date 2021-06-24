@@ -1,5 +1,5 @@
 <template>
-  <div class="Legend hidden lg:block">
+  <div class="Legend hidden xl:block">
     <h3 class="mb-2">
       {{ legend.title }}
     </h3>

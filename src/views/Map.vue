@@ -1,7 +1,7 @@
 <template>
   <!-- padding height image ratio (h/w) -->
   <div
-    class="relative h-0 w-full lg:top-8"
+    class="relative h-0 w-full"
     :style="{ 'padding-bottom': (526/748) * 100 + '%'}"
   >
     <div>

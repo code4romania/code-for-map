@@ -4,7 +4,7 @@
       <HighwayHeader
         :logo="code4ro_map.slug"
         :title="code4ro_map.title"
-        class="d-block d-lg-none"
+        class="block xl:none"
       />
 
       <SegmentHeader
@@ -66,7 +66,7 @@
     <div class="Segment hidden lg:block">
       <router-link
         :to="{ name: 'Highway', params: { slug: slug } }"
-        class="SegmentVisual-close d-inline-block"
+        class="SegmentVisual-close inline-flex"
       >
         <div class="flex items-center">
           <img
@@ -79,7 +79,9 @@
         </div>
       </router-link>
       <div class="SegmentVisual-wrap">
-        <div class="SegmentVisual">
+        <div
+          :class="`SegementVisual mx-auto lg:-mt-36 lg:-mb-16 ${segmentObject.projects.length > 0 ? '' : 'max-w-2xl'}`"
+        >
           <component
             :is="
               require('./../assets/svg/illustrations/' +
@@ -92,9 +94,9 @@
       </div>
     </div>
 
-    <b-row>
-      <b-col offset-lg="2">
-        <div class="Segment-info hidden lg:block text-right">
+    <div class="grid grid-cols-8">
+      <div class="col-span-8 xl:col-start-2">
+        <div class="Segment-info hidden lg:block">
           <div class="badge badge-primary Segment-status mb-3">
             {{ segmentObject.status }}
           </div>
@@ -103,8 +105,8 @@
             v-html="segmentObject.description"
           />
         </div>
-      </b-col>
-    </b-row>
+      </div>
+    </div>
 
     <div
       v-if="showModal"

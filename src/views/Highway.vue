@@ -22,7 +22,7 @@
       </a>
     </div>
 
-    <div class="relative lg:top-8">
+    <div class="relative mb-8">
       <div
         class="h-0 w-full hidden lg:block"
         :style="{ 'padding-bottom': (526/748) * 100 + '%'}"
@@ -81,9 +81,11 @@
 
     <div class="hidden lg:block">
       <div class="grid grid-cols-12">
-        <div class="col-span-2">
+        <div
+          class="col-span-2"
+          v-if="highway.sponsor"
+        >
           <div
-            v-if="highway.sponsor"
             class="w-24 Highway-partner m-0"
           >
             <div class="d-inline-block mb-2">
@@ -100,9 +102,9 @@
             </a>
           </div>
         </div>
-        <div class="col-span-10">
+        <div class="col-span-12">
           <p
-            class="text-xl text-right my-4"
+            class="text-xl my-4"
             v-html="highway.description"
           />
         </div>
