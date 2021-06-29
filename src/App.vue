@@ -13,13 +13,14 @@
                 <div class="my-8 xl:mb-16">
                   <Heading
                     :level="1"
-                    v-html="data.header.title"
-                  />
-                  <p v-html="data.header.description" />
+                  >
+                    {{ $t('header.title') }}
+                  </Heading>
+                  <p>{{ $t('header.description') }}</p>
                 </div>
                 <Legend
                   class="xl:pt-16"
-                  :legend="data.map_legend"
+                  :legend="$t('map_legend')"
                 />
               </div>
             </div>
@@ -31,7 +32,7 @@
           >
             <div class="col-span-8 xl:col-start-3 xl:z-20">
               <router-link
-                v-if="data.back_to_map.visible"
+                v-if="$t('back_to_map.visible')"
                 :to="{ name: 'Map' }"
                 class="mb-8 inline-flex items-center lg:hidden"
               >
@@ -40,7 +41,7 @@
                   src="./assets/svg/icons/chevron-left.svg"
                 >
                 <div class="ml-2 border-b-2 border-gray-500 text-gray-500">
-                  {{ data.general.back_to_map }}
+                  {{ $t('general.back_to_map') }}
                 </div>
               </router-link>
               <router-view :data="data" />
@@ -51,10 +52,10 @@
 
       <t-section>
         <VideoBanner
-          :title="data.more_info.title"
-          :description="data.more_info.description"
-          :download-pdf-link="data.more_info.download_pdf_link"
-          :download-pdf-cta="data.more_info.download_pdf_cta"
+          :title="$t('more_info.title')"
+          :description="$t('more_info.description')"
+          :download-pdf-link="$t('more_info.download_pdf_link')"
+          :download-pdf-cta="$t('more_info.download_pdf_cta')"
           @onClickCTA="trackDownload"
         />
       </t-section>
@@ -62,11 +63,12 @@
       <t-section>
         <Heading
           :level="1"
-          v-html="data.more_info.work.title"
-        />
+        >
+          {{ $t('more_info.work.title') }}
+        </Heading>
         <div class="grid md:grid-cols-2 gap-x-8 gap-y-6">
           <div
-            v-for="(step, index) in data.more_info.work.steps"
+            v-for="(step, index) in $t('more_info.work.steps')"
             :key="'item-' + index"
           >
             <CardBorderDashed class="px-10">
@@ -92,26 +94,27 @@
       <t-section>
         <Heading
           :level="1"
-          v-html="data.more_info.how.title"
-        />
+        >
+          {{ $t('more_info.how.title') }}
+        </Heading>
         <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4 my-12">
           <CardBorderDashed
             class="flex flex-col justify-between"
             color="green"
           >
             <SendSMS
-              :title="data.sms.title"
-              :description="data.sms.description"
-              :call-to-action="data.call_to_action"
+              :title="$t('sms.title')"
+              :description="$t('sms.description')"
+              :call-to-action="$t('call_to_action')"
             />
             <div class="flex flex-wrap">
               <t-button
                 color="green"
                 size="lg"
-                :href="data.call_to_action.donate.link"
+                :href="$t('call_to_action.donate.link')"
                 target="_parent"
               >
-                {{ data.call_to_action.donate.title }}
+                {{ $t('call_to_action.donate.title') }}
               </t-button>
             </div>
           </CardBorderDashed>
@@ -125,20 +128,21 @@
                 :level="3"
                 class="mb-6"
               >
-                {{ data.call_to_action.partner.title }}
+                {{ $t('call_to_action.partner.title') }}
               </Heading>
               <div
                 class="space-y-4 mb-4"
-                v-html="data.call_to_action.partner.content"
-              />
+              >
+                {{ $t('call_to_action.partner.content') }}
+              </div>
             </div>
             <div class="flex flex-wrap">
               <t-button
                 color="gray"
                 size="lg"
-                :href="data.call_to_action.partner.link"
+                :href="$t('call_to_action.partner.link')"
               >
-                {{ data.call_to_action.partner.label }}
+                {{ $t('call_to_action.partner.label') }}
               </t-button>
             </div>
           </CardBorderDashed>
@@ -151,19 +155,20 @@
               :level="3"
               class="mb-6"
             >
-              {{ data.call_to_action.sponsor.title }}
+              {{ $t('call_to_action.sponsor.title') }}
             </Heading>
             <div
               class="space-y-4 mb-4"
-              v-html="data.call_to_action.sponsor.content"
-            />
+            >
+              {{ $t('call_to_action.sponsor.content') }}
+            </div>
             <div class="flex flex-wrap">
               <t-button
                 color="gray"
                 size="lg"
-                :href="data.call_to_action.sponsor.link"
+                :href="$t('call_to_action.sponsor.link')"
               >
-                {{ data.call_to_action.sponsor.label }}
+                {{ $t('call_to_action.sponsor.label') }}
               </t-button>
             </div>
           </CardBorderDashed>
@@ -175,13 +180,15 @@
             <Heading
               :level="3"
               class="mb-6"
-              v-html="data.call_to_action.share.title"
-            />
+            >
+              {{ $t('call_to_action.share.title') }}
+            </Heading>
             <div
               class="space-y-4 mb-4"
-              v-html="data.call_to_action.share.content"
-            />
-            <Share :share="data.call_to_action.share" />
+            >
+              {{ $t('call_to_action.share.content') }}
+            </div>
+            <Share :share="$t('call_to_action.share')" />
           </CardBorderDashed>
         </div>
       </t-section>
@@ -193,19 +200,19 @@
           <Heading
             :level="1"
           >
-            {{ data.partners.title }}
+            {{ $t('partners.title') }}
           </Heading>
-          <p>{{ data.partners.description }}</p>
+          <p>{{ $t('partners.description') }}</p>
         </div>
         <div class="space-y-6">
           <PartnersList
-            :list="data.partners.main"
+            :list="$t('partners.main')"
           />
-          <PartnersList :list="data.partners.secondary" />
-          <PartnersList :list="data.partners.others" />
+          <PartnersList :list="$t('partners.secondary')" />
+          <PartnersList :list="$t('partners.others')" />
         </div>
         <p class="mt-20 lg:w-1/2">
-          <small><strong>*</strong> {{ data.sms.disclaimer }}</small>
+          <small><strong>*</strong> {{ $t('sms.disclaimer') }}</small>
         </p>
       </t-section>
     </div>
@@ -264,7 +271,7 @@ export default {
     downloadPlan() {
       const request = new XMLHttpRequest();
 
-      request.open("GET", this.data.more_info.download_pdf_link, true);
+      request.open("GET", this.$t('more_info.download_pdf_link'), true);
       request.responseType = "blob";
 
       request.onload = () => {

@@ -1,0 +1,2474 @@
+{
+  "call_to_action": {
+    "donate": {
+      "link": "https://code4.ro/ro/doneaza",
+      "spacer": "or",
+      "title": "Donate as much as you want"
+    },
+    "finance": {
+      "color": "Success",
+      "link": "mailto:putem@ code4.ro",
+      "title": "Send us an email "
+    },
+    "partner": {
+      "content": "",
+      "label": "Adopt a solution",
+      "link": "mailto:putem@ code4.ro",
+      "title": "Adopt a stretch of road!"
+    },
+    "share": {
+      "color": "strong-blue",
+      "content": "",
+      "cta": "Share",
+      "title": "Pass the word on"
+    },
+    "sponsor": {
+      "content": "",
+      "label": "Write us an email",
+      "link": "mailto:putem@ code4.ro",
+      "title": "Be our Partner"
+    }
+  },
+  "code4ro_map": [
+    {
+      "btn": {
+        "left": "50%",
+        "top": "9%"
+      },
+      "color": "Purple",
+      "description": "",
+      "highway_bg": "highway-care",
+      "highway_segments": [
+        {
+          "btn": {
+            "left": "13%",
+            "top": "53%"
+          },
+          "description": "",
+          "projects": [
+            {
+              "adopted_by": [
+                {
+                  "link": "https://tfsg.code4.ro/ro/",
+                  "logo": "https://code4.ro/img/02410f6e-fe21-46d7-8004-2880c8686407/log-code4-tfsg.png?q=60&fit=max&dpr=1&h=200&w=200",
+                  "title": "TFSG by Code for Romania"
+                }
+              ],
+              "description": "",
+              "icon": "care4ro-sunrise",
+              "link": "https://www.code4.ro/ro/sunrise",
+              "projectSlug": "Sunrise",
+              "subtitle": "Centralized data and digital referral system for domestic violence",
+              "title": "Sunrise - Case management software for NGOs"
+            },
+            {
+              "description": "",
+              "icon": "care4ro-sunshine",
+              "link": "",
+              "projectSlug": "Sunshine",
+              "subtitle": "Efficient data collection, secure communication between institutions and digital management of domestic violence",
+              "title": "Sunshine - Integrated case management software"
+            },
+            {
+              "description": "",
+              "icon": "care4ro-hub-vd",
+              "link": "",
+              "projectSlug": "Hub-Domestic Violence",
+              "subtitle": "Guide platform for anyone who needs services or information on cases of domestic violence",
+              "title": "Domestic Violence Hub"
+            },
+            {
+              "description": "",
+              "icon": "care4ro-resource-bank",
+              "link": "",
+              "projectSlug": "Resource bank",
+              "subtitle": "Resource management and allocation platform for victims of domestic violence",
+              "title": "Resource bank"
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            }
+          ],
+          "segmentSlug": "",
+          "segment_visual": "",
+          "status": "",
+          "title": ""
+        },
+        {
+          "btn": {
+            "left": "",
+            "top": ""
+          },
+          "description": "",
+          "projects": [
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            }
+          ],
+          "segmentSlug": "",
+          "segment_visual": "",
+          "status": "",
+          "title": ""
+        },
+        {
+          "btn": {
+            "left": "",
+            "top": ""
+          },
+          "description": "",
+          "segmentSlug": "",
+          "segment_visual": "",
+          "status": "",
+          "title": ""
+        },
+        {
+          "btn": {
+            "left": "",
+            "top": ""
+          },
+          "description": "",
+          "segmentSlug": "",
+          "segment_visual": "",
+          "status": "",
+          "title": ""
+        },
+        {
+          "btn": {
+            "left": "",
+            "top": ""
+          },
+          "description": "",
+          "segmentSlug": "",
+          "segment_visual": "",
+          "status": "",
+          "title": ""
+        },
+        {
+          "btn": {
+            "left": "",
+            "top": ""
+          },
+          "description": "",
+          "segmentSlug": "",
+          "segment_visual": "",
+          "status": "",
+          "title": ""
+        },
+        {
+          "btn": {
+            "left": "",
+            "top": ""
+          },
+          "description": "",
+          "segmentSlug": "",
+          "segment_visual": "",
+          "status": "",
+          "title": ""
+        }
+      ],
+      "mobile_btn": {
+        "left": "",
+        "top": ""
+      },
+      "slug": "",
+      "sponsor": {
+        "link": "",
+        "logo": ""
+      },
+      "title": ""
+    },
+    {
+      "btn": {
+        "left": "",
+        "top": ""
+      },
+      "color": "",
+      "description": "",
+      "highway_bg": "",
+      "highway_segments": [
+        {
+          "btn": {
+            "left": "",
+            "top": ""
+          },
+          "description": "",
+          "projects": [
+            {
+              "adopted_by": [
+                {
+                  "link": "",
+                  "logo": "",
+                  "title": ""
+                }
+              ],
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "adopted_by": [
+                {
+                  "link": "",
+                  "logo": "",
+                  "title": ""
+                }
+              ],
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            }
+          ],
+          "segmentSlug": "",
+          "segment_visual": "",
+          "status": "",
+          "title": ""
+        },
+        {
+          "btn": {
+            "left": "",
+            "top": ""
+          },
+          "description": "",
+          "projects": [
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "adopted_by": [
+                {
+                  "link": "",
+                  "logo": "",
+                  "title": ""
+                }
+              ],
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            }
+          ],
+          "segmentSlug": "",
+          "segment_visual": "",
+          "status": "",
+          "title": ""
+        },
+        {
+          "btn": {
+            "left": "",
+            "top": ""
+          },
+          "description": "",
+          "segmentSlug": "",
+          "segment_visual": "",
+          "status": "",
+          "title": ""
+        },
+        {
+          "btn": {
+            "left": "",
+            "top": ""
+          },
+          "description": "",
+          "segmentSlug": "",
+          "segment_visual": "",
+          "status": "",
+          "title": ""
+        },
+        {
+          "btn": {
+            "left": "",
+            "top": ""
+          },
+          "description": "",
+          "segmentSlug": "",
+          "segment_visual": "",
+          "status": "",
+          "title": ""
+        },
+        {
+          "btn": {
+            "left": "",
+            "top": ""
+          },
+          "description": "",
+          "segmentSlug": "",
+          "segment_visual": "",
+          "status": "",
+          "title": ""
+        }
+      ],
+      "mobile_btn": {
+        "left": "",
+        "top": ""
+      },
+      "slug": "",
+      "sponsor": {
+        "link": "",
+        "logo": ""
+      },
+      "title": ""
+    },
+    {
+      "btn": {
+        "left": "",
+        "top": ""
+      },
+      "color": "",
+      "description": "",
+      "highway_bg": "",
+      "highway_segments": [
+        {
+          "btn": {
+            "left": "",
+            "top": ""
+          },
+          "description": "",
+          "projects": [
+            {
+              "adopted_by": [
+                {
+                  "link": "",
+                  "logo": "",
+                  "title": ""
+                }
+              ],
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "adopted_by": [
+                {
+                  "link": "",
+                  "logo": "",
+                  "title": ""
+                }
+              ],
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "adopted_by": [
+                {
+                  "link": "",
+                  "logo": "",
+                  "title": ""
+                }
+              ],
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "adopted_by": [
+                {
+                  "link": "",
+                  "logo": "",
+                  "title": ""
+                }
+              ],
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            }
+          ],
+          "segmentSlug": "",
+          "segment_visual": "",
+          "status": "",
+          "title": ""
+        },
+        {
+          "btn": {
+            "left": "",
+            "top": ""
+          },
+          "description": "",
+          "projects": [
+            {
+              "adopted_by": [
+                {
+                  "link": "",
+                  "logo": "",
+                  "title": ""
+                }
+              ],
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            }
+          ],
+          "segmentSlug": "",
+          "segment_visual": "",
+          "status": "",
+          "title": ""
+        },
+        {
+          "btn": {
+            "left": "",
+            "top": ""
+          },
+          "description": "",
+          "projects": [
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "adopted_by": [
+                {
+                  "link": "",
+                  "logo": "",
+                  "title": ""
+                }
+              ],
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "adopted_by": [
+                {
+                  "link": "",
+                  "logo": "",
+                  "title": ""
+                }
+              ],
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            }
+          ],
+          "segmentSlug": "",
+          "segment_visual": "",
+          "status": "",
+          "title": ""
+        },
+        {
+          "btn": {
+            "left": "",
+            "top": ""
+          },
+          "description": "",
+          "projects": [
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "adopted_by": [
+                {
+                  "link": "",
+                  "logo": "",
+                  "title": ""
+                }
+              ],
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "adopted_by": [
+                {
+                  "link": "",
+                  "logo": "",
+                  "title": ""
+                }
+              ],
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "adopted_by": [
+                {
+                  "link": "",
+                  "logo": "",
+                  "title": ""
+                }
+              ],
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "adopted_by": [
+                {
+                  "link": "",
+                  "logo": "",
+                  "title": ""
+                }
+              ],
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "adopted_by": [
+                {
+                  "link": "",
+                  "logo": "",
+                  "title": ""
+                }
+              ],
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            }
+          ],
+          "segmentSlug": "",
+          "segment_visual": "",
+          "status": "",
+          "title": ""
+        },
+        {
+          "btn": {
+            "left": "",
+            "top": ""
+          },
+          "description": "",
+          "projects": [
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "adopted_by": [
+                {
+                  "link": "",
+                  "logo": "",
+                  "title": ""
+                }
+              ],
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "adopted_by": [
+                {
+                  "link": "",
+                  "logo": "",
+                  "title": ""
+                }
+              ],
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "adopted_by": [
+                {
+                  "link": "",
+                  "logo": "",
+                  "title": ""
+                }
+              ],
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            }
+          ],
+          "segmentSlug": "",
+          "segment_visual": "",
+          "status": "",
+          "title": ""
+        },
+        {
+          "btn": {
+            "left": "",
+            "top": ""
+          },
+          "description": "",
+          "segmentSlug": "",
+          "segment_visual": "",
+          "status": "",
+          "title": ""
+        },
+        {
+          "btn": {
+            "left": "",
+            "top": ""
+          },
+          "description": "",
+          "segmentSlug": "",
+          "segment_visual": "",
+          "status": "",
+          "title": ""
+        },
+        {
+          "btn": {
+            "left": "",
+            "top": ""
+          },
+          "description": "",
+          "projects": [
+            {
+              "adopted_by": [
+                {
+                  "link": "",
+                  "logo": "",
+                  "title": ""
+                }
+              ],
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            }
+          ],
+          "segmentSlug": "",
+          "segment_visual": "",
+          "status": "",
+          "title": ""
+        },
+        {
+          "btn": {
+            "left": "",
+            "top": ""
+          },
+          "description": "",
+          "projects": [
+            {
+              "adopted_by": [
+                {
+                  "link": "",
+                  "logo": "",
+                  "title": ""
+                }
+              ],
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            }
+          ],
+          "segmentSlug": "",
+          "segment_visual": "",
+          "status": "",
+          "title": ""
+        }
+      ],
+      "mobile_btn": {
+        "left": "",
+        "top": ""
+      },
+      "slug": "",
+      "title": ""
+    },
+    {
+      "btn": {
+        "left": "",
+        "top": ""
+      },
+      "color": "",
+      "description": "",
+      "highway_bg": "",
+      "highway_segments": [
+        {
+          "btn": {
+            "left": "",
+            "top": ""
+          },
+          "description": "",
+          "projects": [
+            {
+              "adopted_by": [
+                {
+                  "link": "",
+                  "logo": "",
+                  "title": ""
+                }
+              ],
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "adopted_by": [
+                {
+                  "link": "",
+                  "logo": "",
+                  "title": ""
+                }
+              ],
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "adopted_by": [
+                {
+                  "link": "",
+                  "logo": "",
+                  "title": ""
+                }
+              ],
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            }
+          ],
+          "segmentSlug": "",
+          "segment_visual": "",
+          "status": "",
+          "title": ""
+        },
+        {
+          "btn": {
+            "left": "",
+            "top": ""
+          },
+          "description": "",
+          "projects": [
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            }
+          ],
+          "segmentSlug": "",
+          "segment_visual": "",
+          "status": "",
+          "title": ""
+        },
+        {
+          "btn": {
+            "left": "",
+            "top": ""
+          },
+          "description": "",
+          "segmentSlug": "",
+          "segment_visual": "",
+          "status": "",
+          "title": ""
+        },
+        {
+          "btn": {
+            "left": "",
+            "top": ""
+          },
+          "description": "",
+          "segmentSlug": "",
+          "segment_visual": "",
+          "status": "",
+          "title": ""
+        },
+        {
+          "btn": {
+            "left": "",
+            "top": ""
+          },
+          "description": "",
+          "segmentSlug": "",
+          "segment_visual": "",
+          "status": "",
+          "title": ""
+        },
+        {
+          "btn": {
+            "left": "",
+            "top": ""
+          },
+          "description": "",
+          "segmentSlug": "",
+          "segment_visual": "",
+          "status": "",
+          "title": ""
+        }
+      ],
+      "mobile_btn": {
+        "left": "",
+        "top": ""
+      },
+      "slug": "",
+      "sponsor": {
+        "link": "",
+        "logo": ""
+      },
+      "title": ""
+    },
+    {
+      "btn": {
+        "color": "",
+        "left": "",
+        "top": ""
+      },
+      "color": "",
+      "description": "",
+      "highway_bg": "",
+      "highway_segments": [
+        {
+          "btn": {
+            "left": "",
+            "top": ""
+          },
+          "description": "",
+          "projects": [
+            {
+              "adopted_by": [
+                {
+                  "link": "",
+                  "logo": "",
+                  "title": ""
+                }
+              ],
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "adopted_by": [
+                {
+                  "link": "",
+                  "logo": "",
+                  "title": ""
+                }
+              ],
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "adopted_by": [
+                {
+                  "link": "",
+                  "logo": "",
+                  "title": ""
+                },
+                {
+                  "link": "",
+                  "logo": "",
+                  "title": ""
+                },
+                {
+                  "link": "",
+                  "logo": "",
+                  "title": ""
+                },
+                {
+                  "link": "",
+                  "logo": "",
+                  "title": ""
+                }
+              ],
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "adopted_by": [
+                {
+                  "link": "",
+                  "logo": "",
+                  "title": ""
+                },
+                {
+                  "link": "",
+                  "logo": "",
+                  "title": ""
+                },
+                {
+                  "link": "",
+                  "logo": "",
+                  "title": ""
+                },
+                {
+                  "link": "",
+                  "logo": "",
+                  "title": ""
+                }
+              ],
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "adopted_by": [
+                {
+                  "link": "",
+                  "logo": "",
+                  "title": ""
+                },
+                {
+                  "link": "",
+                  "logo": "",
+                  "title": ""
+                },
+                {
+                  "link": "",
+                  "logo": "",
+                  "title": ""
+                },
+                {
+                  "link": "",
+                  "logo": "",
+                  "title": ""
+                }
+              ],
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "adopted_by": [
+                {
+                  "link": "",
+                  "logo": "",
+                  "title": ""
+                },
+                {
+                  "link": "",
+                  "logo": "",
+                  "title": ""
+                },
+                {
+                  "link": "",
+                  "logo": "",
+                  "title": ""
+                },
+                {
+                  "link": "",
+                  "logo": "",
+                  "title": ""
+                }
+              ],
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "adopted_by": [
+                {
+                  "link": "",
+                  "logo": "",
+                  "title": ""
+                },
+                {
+                  "link": "",
+                  "logo": "",
+                  "title": ""
+                },
+                {
+                  "link": "",
+                  "logo": "",
+                  "title": ""
+                },
+                {
+                  "link": "",
+                  "logo": "",
+                  "title": ""
+                }
+              ],
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "adopted_by": [
+                {
+                  "link": "",
+                  "logo": "",
+                  "title": ""
+                },
+                {
+                  "link": "",
+                  "logo": "",
+                  "title": ""
+                },
+                {
+                  "link": "",
+                  "logo": "",
+                  "title": ""
+                },
+                {
+                  "link": "",
+                  "logo": "",
+                  "title": ""
+                }
+              ],
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "adopted_by": [
+                {
+                  "link": "",
+                  "logo": "",
+                  "title": ""
+                }
+              ],
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            }
+          ],
+          "segmentSlug": "",
+          "segment_visual": "",
+          "status": "",
+          "title": ""
+        },
+        {
+          "btn": {
+            "left": "",
+            "top": ""
+          },
+          "description": "",
+          "projects": [
+            {
+              "adopted_by": [
+                {
+                  "link": "",
+                  "logo": "",
+                  "title": ""
+                }
+              ],
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "adopted_by": [
+                {
+                  "link": "",
+                  "logo": "",
+                  "title": ""
+                }
+              ],
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "adopted_by": [
+                {
+                  "link": "",
+                  "logo": "",
+                  "title": ""
+                }
+              ],
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            }
+          ],
+          "segmentSlug": "",
+          "segment_visual": "",
+          "status": "",
+          "title": ""
+        },
+        {
+          "btn": {
+            "left": "",
+            "top": ""
+          },
+          "description": "",
+          "projects": [
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            }
+          ],
+          "segmentSlug": "",
+          "segment_visual": "",
+          "status": "",
+          "title": ""
+        },
+        {
+          "btn": {
+            "left": "",
+            "top": ""
+          },
+          "description": "",
+          "projects": [
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            },
+            {
+              "description": "",
+              "icon": "",
+              "link": "",
+              "projectSlug": "",
+              "subtitle": "",
+              "title": ""
+            }
+          ],
+          "segmentSlug": "",
+          "segment_visual": "",
+          "status": "",
+          "title": ""
+        },
+        {
+          "btn": {
+            "left": "",
+            "top": ""
+          },
+          "description": "",
+          "segmentSlug": "",
+          "segment_visual": "",
+          "status": "",
+          "title": ""
+        },
+        {
+          "btn": {
+            "left": "",
+            "top": ""
+          },
+          "description": "",
+          "segmentSlug": "",
+          "segment_visual": "",
+          "status": "",
+          "title": ""
+        },
+        {
+          "btn": {
+            "left": "",
+            "top": ""
+          },
+          "description": "",
+          "segmentSlug": "",
+          "segment_visual": "",
+          "status": "",
+          "title": ""
+        },
+        {
+          "btn": {
+            "left": "",
+            "top": ""
+          },
+          "description": "",
+          "segmentSlug": "",
+          "segment_visual": "",
+          "status": "",
+          "title": ""
+        },
+        {
+          "btn": {
+            "left": "",
+            "top": ""
+          },
+          "description": "",
+          "segmentSlug": "",
+          "segment_visual": "",
+          "status": "",
+          "title": ""
+        }
+      ],
+      "mobile_btn": {
+        "left": "",
+        "top": ""
+      },
+      "slug": "",
+      "sponsor": {
+        "link": "",
+        "logo": ""
+      },
+      "title": ""
+    }
+  ],
+  "general": {
+    "back_to_map": "Back to the map",
+    "financed_by": "Supported by:",
+    "modal": {
+      "next": {
+        "text": "The next solution"
+      },
+      "previous": {
+        "text": "The previous solution"
+      }
+    },
+    "view_project": "See the solution"
+  },
+  "header": {
+    "description": "",
+    "title": "We digitize Romania together"
+  },
+  "map_legend": {
+    "destinatie": "Destination",
+    "drum_executat": "Road executed",
+    "drum_planificat": "Planned road",
+    "drum_proiectat": "Designed road",
+    "planificat": "Designed solution",
+    "realizat": "Solution achieved",
+    "tema": "Objective",
+    "title": "The legend"
+  },
+  "more_info": {
+    "description": "",
+    "download_link": "/ download",
+    "download_pdf_cta": "Download our plan",
+    "download_pdf_link": "https://drive.google.com/file/d/1_zs8h4ao3REIETBKcV1zLMI47u8AhpmM/view?usp=sharing",
+    "faqs": [
+      {
+        "answer": "",
+        "question": "How do these solutions become a reality?"
+      },
+      {
+        "answer": "",
+        "question": "How much do all these projects cost?"
+      },
+      {
+        "answer": "",
+        "question": "What have you done so far?"
+      }
+    ],
+    "faqs_title": "Frequent questions",
+    "how": {
+      "title": "How can we digitize Romania together"
+    },
+    "title": "The next 5 years",
+    "work": {
+      "steps": [
+        {
+          "content": "",
+          "icon": "design",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "title": ""
+        },
+        {
+          "content": "",
+          "icon": "",
+          "title": ""
+        }
+      ],
+      "title": ""
+    },
+    "youtube": ""
+  },
+  "partners": {
+    "description": "They are the architects, builders and administrators who have joined us so far in the development of Romania's digital infrastructure.",
+    "main": [
+      {
+        "link": "https://www.rafonline.org/",
+        "logo": "https://code4.ro/img/80ca17d3-88ed-40a1-bad8-4b579e48c72e/logo-raf.jpg?q=80&fit=crop&dpr=1&w=200&h=80&crop=1309%2C1000%2C0%2C0",
+        "name": "Romanian-American Foundation"
+      },
+      {
+        "link": "https://ing.ro/persoane-fizice",
+        "logo": "https://code4.ro/img/9dc5ce5d-08b5-4b33-a065-aec64cda7b42/ing-primary-logo-rgb.png?q=80&fit=crop&dpr=1&w=200&h=80&crop=1621%2C662%2C0%2C0",
+        "name": "ING"
+      },
+      {
+        "link": "https://www.lidl.ro/",
+        "logo": "https://code4.ro/img/67236b19-5a95-444a-8d7e-28ae8d75d1b8/lidl.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=500%2C500%2C0%2C0",
+        "name": "Lidl"
+      }
+    ],
+    "others": [
+      {
+        "link": "https://www.romanianunitedfund.org/",
+        "logo": "https://code4.ro/img/93c178b9-e4ad-4152-a4db-348fd34d6268/putem-10.png?q=60&fit=max&dpr=1&h=200",
+        "name": "Romanian United Fund"
+      },
+      {
+        "link": "https://www.sustainalytics.com/about-us/",
+        "logo": "https://code4.ro/img/sustainalytics.png?q=80&fit=crop&dpr=1&w=200&h=80&crop=500%2C500%2C0%2C0",
+        "name": ""
+      },
+      {
+        "link": "",
+        "logo": "",
+        "name": ""
+      },
+      {
+        "link": "",
+        "logo": "",
+        "name": ""
+      },
+      {
+        "link": "",
+        "logo": "",
+        "name": ""
+      },
+      {
+        "link": "",
+        "logo": "",
+        "name": ""
+      },
+      {
+        "link": "",
+        "logo": "",
+        "name": ""
+      },
+      {
+        "link": "",
+        "logo": "",
+        "name": ""
+      },
+      {
+        "link": "",
+        "logo": "",
+        "name": ""
+      },
+      {
+        "link": "",
+        "logo": "",
+        "name": ""
+      },
+      {
+        "link": "",
+        "logo": "",
+        "name": ""
+      }
+    ],
+    "secondary": [
+      {
+        "link": "",
+        "logo": "",
+        "name": ""
+      },
+      {
+        "link": "",
+        "logo": "",
+        "name": ""
+      },
+      {
+        "link": "",
+        "logo": "",
+        "name": ""
+      },
+      {
+        "link": "",
+        "logo": "",
+        "name": ""
+      }
+    ],
+    "title": ""
+  },
+  "segment_legend": {
+    "adopted": "Road segment adopted by:",
+    "designed": "Designed solution",
+    "done": "Solution achieved",
+    "neadoptat": "Do you want to finance this solution?",
+    "text": "Find out below which segments of our path to digitization are already made and what we have designed."
+  },
+  "sms": {
+    "description": "and donates 4 Euro per month for Code for Romania",
+    "disclaimer": "",
+    "title": {
+      "text_1": "Send SMS with",
+      "text_2": "Can",
+      "text_3": "to",
+      "text_4": "8864"
+    }
+  }
+}

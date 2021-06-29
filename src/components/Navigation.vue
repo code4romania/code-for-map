@@ -374,7 +374,8 @@
             </div>
 
             <!-- :class="{ 'lg:hidden': !open }" -->
-            <div class="pl-5 lg:shadow-xs lg:pl-0 lg:absolute lg:right-0 lg:mt-2 lg:w-48 lg:origin-top-right lg:bg-white lg:hidden">
+            <LocaleSwitcher />
+            <div class="pl-5 lg:shadow-xs lg:pl-0 lg:absolute lg:right-0 lg:mt-2 lg:w-48 lg:origin-top-right lg:bg-white">
               <ul class="lg:shadow-lg">
                 <li>
                   <a
@@ -405,9 +406,13 @@
 
 <script>
 // import objectToGetParams from "../utils/objectToGetParams";
+import LocaleSwitcher from './LocaleSwitcher'
 
 export default {
   name: "Navigation",
+  components: {
+    LocaleSwitcher
+  },
   data() {
     return {
       some: "data",
