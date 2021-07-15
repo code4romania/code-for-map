@@ -22,7 +22,7 @@
       </a>
     </div>
 
-    <div class="relative mb-8">
+    <div class="relative">
       <div
         class="h-0 w-full hidden lg:block"
         :style="{ 'padding-bottom': (526/748) * 100 + '%'}"
@@ -82,13 +82,13 @@
     <div class="hidden lg:block">
       <div class="grid grid-cols-12">
         <div
-          class="col-span-2"
           v-if="highway.sponsor"
+          class="col-span-2"
         >
           <div
-            class="w-24 Highway-partner m-0"
+            class="w-24 m-0"
           >
-            <div class="d-inline-block mb-2">
+            <div class="inline-block mb-2">
               {{ data.general.financed_by }}
             </div>
             <a

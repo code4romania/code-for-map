@@ -6,7 +6,7 @@
       "title": "Donate as much as you want"
     },
     "finance": {
-      "color": "Success",
+      "color": "green",
       "link": "mailto:putem@ code4.ro",
       "title": "Send us an email "
     },
@@ -17,7 +17,7 @@
       "title": "Adopt a stretch of road!"
     },
     "share": {
-      "color": "strong-blue",
+      "color": "blue",
       "content": "",
       "cta": "Share",
       "title": "Pass the word on"

@@ -40,7 +40,7 @@
                   class="w-8 h-8"
                   src="./assets/svg/icons/chevron-left.svg"
                 >
-                <div class="ml-2 border-b-2 border-gray-500 text-gray-500">
+                <div class="ml-2 border-b border-gray-500 text-gray-500 text-lg">
                   {{ $t('general.back_to_map') }}
                 </div>
               </router-link>
@@ -66,7 +66,7 @@
         >
           {{ $t('more_info.work.title') }}
         </Heading>
-        <div class="grid md:grid-cols-2 gap-x-8 gap-y-6">
+        <div class="grid lg:grid-cols-2 gap-x-8 gap-y-6">
           <div
             v-for="(step, index) in $t('more_info.work.steps')"
             :key="'item-' + index"

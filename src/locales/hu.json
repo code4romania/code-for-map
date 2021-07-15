@@ -6,7 +6,7 @@
 			"title": "Adományozz, amennyit csak akarsz"
 		},
 		"finance": {
-			"color": "Siker",
+			"color": "green",
 			"link": "mailto:putem@ code4.ro",
 			"title": "Küldjön nekünk egy e-mailt"
 		},
@@ -17,7 +17,7 @@
 			"title": "Fogadjon el egy útszakaszt!"
 		},
 		"share": {
-			"color": "erős-kék",
+			"color": "blue",
 			"content": "",
 			"cta": "Ossza meg",
 			"title": "Adja tovább a szót"

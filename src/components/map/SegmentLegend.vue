@@ -1,18 +1,24 @@
 <template>
-  <div class="SegmentLegend">
-    <p>{{ status.text }}</p>
+  <div class="mb-8">
+    <p class="mb-4">
+      {{ status.text }}
+    </p>
 
-    <div class="d-flex justify-content-start mb-4">
-      <div class="SegmentLegend-status flex items-center mr-4">
+    <div class="flex justify-start">
+      <div class="flex items-center mr-4">
         <i
-          class="icon icon-circle"
+          class="w-6 h-6 rounded-full border-4 mr-2"
           :class="'border-' + color"
         />
-        {{ status.done }}
+        <div class="font-bold uppercase text-sm tracking-wider">
+          {{ status.done }}
+        </div>
       </div>
-      <div class="SegmentLegend-status flex items-center">
-        <i class="icon icon-circle" />
-        {{ status.designed }}
+      <div class="flex items-center">
+        <i class="w-6 h-6 rounded-full border-4 mr-2" />
+        <div class="font-bold uppercase text-sm tracking-wider">
+          {{ status.designed }}
+        </div>
       </div>
     </div>
   </div>
@@ -28,7 +34,7 @@ export default {
     },
     color: {
       type: String,
-      default: "strong-blue"
+      default: "blue"
     }
   }
 };

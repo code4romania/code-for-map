@@ -67,12 +67,12 @@
     "share": {
       "title": "Dă vestea mai departe",
       "cta": "Distribuie",
-      "color": "strong-blue",
+      "color": "blue",
       "content": "<p>Dacă suntem destul de mulți, putem găsi soluții la problemele societății românești.</p><p>Scrie despre noi, vorbește despre planul nostru prietenilor sau colegilor tăi, du povestea noastră la următorul nivel.</p>"
     },
     "finance": {
       "title": "Trimite-ne un e-mail",
-      "color": "success",
+      "color": "green",
       "link": "mailto:putem@code4.ro"
     }
   },
@@ -2394,7 +2394,7 @@
                   "id": 4,
                   "title": "World Bank",
                   "link": "https://www.worldbank.org/",
-                  "logo": "https://code4.ro/img/0459bbe0-d75b-46ea-95ed-de63135f0fd7/the-world-bank-logo-500x281.png?q=60&fit=max&dpr=1&h=200"
+                  "logo": "https://code4.ro/img/f345821f-40ca-4325-bbff-11ea779af913/world-bank.png?q=60&fit=max&dpr=1&h=500"
                 }
               ]
             },
@@ -2412,7 +2412,7 @@
                   "id": 4,
                   "title": "World Bank",
                   "link": "https://www.worldbank.org/",
-                  "logo": "https://code4.ro/img/0459bbe0-d75b-46ea-95ed-de63135f0fd7/the-world-bank-logo-500x281.png?q=60&fit=max&dpr=1&h=200"
+                  "logo": "https://code4.ro/img/f345821f-40ca-4325-bbff-11ea779af913/world-bank.png?q=60&fit=max&dpr=1&h=500"
                 }
               ]
             },

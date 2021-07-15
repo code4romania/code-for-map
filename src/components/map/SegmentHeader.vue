@@ -16,13 +16,12 @@
     >
     <div class="text-center">
       <div
-        class="bg-gray text-white text-lg inline-block px-2 py-1 leading-none mx-auto mb-2 "
+        class="bg-gray text-white text-lg inline-block px-2 py-1 leading-none mx-auto mb-2"
         v-html="status"
       />
       <Heading
-        :level="2"
+        :level="3"
         class="mb-5"
-        :class="`text-${color}`"
       >
         {{ title }}
       </Heading>

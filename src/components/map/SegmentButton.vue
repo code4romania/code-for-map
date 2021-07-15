@@ -17,7 +17,7 @@
       {{ title }}
     </div>
     <img
-      class="icon"
+      class="w-6 h-6"
       src="../../assets/svg/icons/chevron-right.svg"
     >
   </router-link>

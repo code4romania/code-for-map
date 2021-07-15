@@ -25,12 +25,12 @@
           :status="data.segment_legend"
           :color="code4ro_map.color"
         />
-        <div class="border-b">
+        <div class="border-b border-gray-100">
           <router-link
             v-for="(project, index) in segmentObject.projects"
             :key="index"
             tag="div"
-            class="py-4 border-t ListItem"
+            class="py-4 px-2 border-t border-gray-100 bg-white cursor-pointer relative"
             :to="{
               name: 'ProjectModal',
               params: {
@@ -38,49 +38,49 @@
               },
             }"
           >
-            <div
-              class="flex items-center justify-content-between"
-              @click="mobileProjectClicked"
-            >
+            <div class="flex items-center justify-between">
               <i
-                class="icon icon-circle"
+                class="block w-6 h-6 rounded-full border-4 bg-white z-10"
                 :class="
                   project.adopted
-                    ? 'border-' + code4ro_map.color
-                    : 'border-gray'
+                    ? 'border-' + code4ro_map.color + '-500'
+                    : 'border-gray-200'
                 "
               />
-              <div class="flex-fill mx-2">
+              <div class="flex-grow mx-4 text-lg">
                 {{ project.title }}
               </div>
               <img
-                class="icon"
+                class="w-6 h-6"
                 src="../assets/svg/icons/chevron-right.svg"
               >
             </div>
+            <div class="absolute top-0 left-4 h-full w-2 bg-gray-100" />
           </router-link>
         </div>
       </div>
     </div>
 
-    <div class="Segment hidden lg:block">
-      <router-link
-        :to="{ name: 'Highway', params: { slug: slug } }"
-        class="SegmentVisual-close inline-flex"
-      >
-        <div class="flex items-center">
-          <img
-            class="icon"
-            src="../assets/svg/icons/chevron-left.svg"
-          >
-          <div class="ml-2 text-primary border-bottom border-primary">
-            {{ data.general.back_to_map }}
+    <div class="hidden lg:block">
+      <div class="flex items-center justify-end">
+        <router-link
+          :to="{ name: 'Highway', params: { slug: slug } }"
+          class="inline-flex"
+        >
+          <div class="flex items-center">
+            <img
+              class="w-6 h-6"
+              src="../assets/svg/icons/chevron-left.svg"
+            >
+            <div class="ml-2 border-b border-gray-500 text-gray-500 text-lg">
+              {{ $t('general.back_to_map') }}
+            </div>
           </div>
-        </div>
-      </router-link>
-      <div class="SegmentVisual-wrap">
+        </router-link>
+      </div>
+      <div>
         <div
-          :class="`SegementVisual mx-auto lg:-mt-36 lg:-mb-16 ${segmentObject.projects.length > 0 ? '' : 'max-w-2xl'}`"
+          :class="`mx-auto lg:-mt-24 lg:-mb-8 xl:mb-2 ${segmentObject.projects.length > 0 ? '' : 'max-w-2xl'}`"
         >
           <component
             :is="
@@ -96,12 +96,12 @@
 
     <div class="grid grid-cols-8">
       <div class="col-span-8 xl:col-start-2">
-        <div class="Segment-info hidden lg:block">
-          <div class="badge badge-primary Segment-status mb-3">
+        <div class="hidden lg:block">
+          <div class="bg-gray text-white text-lg inline-block px-2 py-1 leading-none mx-auto mb-2">
             {{ segmentObject.status }}
           </div>
           <div
-            class="lead"
+            class="leading-6"
             v-html="segmentObject.description"
           />
         </div>
@@ -110,13 +110,9 @@
 
     <div
       v-if="showModal"
-      class="modal-route"
+      class="w-full h-full fixed top-0 left-0 z-40 overflow-y-scroll bg-black bg-opacity-50 lg:box-content"
     >
-      <div
-        id="projectModal"
-        class="absolute left-0 w-full modal-content"
-        :style="{ top: modalTop, left: modalLeft }"
-      >
+      <div class="absolute lg:max-w-6xl lg:h-auto w-full bg-white z-50 top-0 lg:top-16 lg:left-1/2 lg:transform lg:-translate-x-1/2">
         <router-view
           :data="data"
           :highway-map="code4ro_map"
@@ -130,8 +126,6 @@
 </template>
 
 <script>
-import { postMessageHeight } from "../utils/postMessage";
-
 import HighwayHeader from "../components/map/HighwayHeader";
 import SegmentHeader from "../components/map/SegmentHeader";
 import SegmentLegend from "../components/map/SegmentLegend";
@@ -156,8 +150,6 @@ export default {
       code4ro_map: [],
       segmentObject: [],
       showModal: false,
-      modalTop: 0,
-      modalLeft: "50%",
     };
   },
   watch: {
@@ -184,9 +176,6 @@ export default {
 
     this.data.back_to_map.visible = true;
   },
-  mounted() {
-    postMessageHeight();
-  },
   methods: {
     projectClick(event) {
       const parentElement = event.target.parentElement;
@@ -203,15 +192,6 @@ export default {
           solution: project.projectSlug,
         },
       });
-
-      this.modalTop = "100px";
-    },
-    mobileProjectClicked(event) {
-      let position =
-        event.target.getBoundingClientRect().top -
-        (event.target.getBoundingClientRect().top * 4) / 5;
-
-      this.modalTop = position + "px";
     },
   },
 };

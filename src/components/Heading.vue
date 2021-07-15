@@ -1,7 +1,7 @@
 <template>
   <component
     :is="hType"
-    class="text-bold font-bold"
+    class="font-bold"
     :class="hClasses"
   >
     <slot />
@@ -22,7 +22,7 @@ export default {
       const sizes = {
         1: 'text-blue',
         2: 'text-blue',
-        3: 'text-gray'
+        3: 'text-black'
       };
       return sizes[this.level];
     },

@@ -2,10 +2,10 @@
   <div class="lg:hidden">
     <div class="flex items-center mb-3">
       <img
-        class="w-16 h-16"
+        class="w-12 h-12"
         :src="require(`../../assets/svg/icons/logo-${logo}.svg`)"
       >
-      <h2 class="ml-4 font-bold text-4xl">
+      <h2 class="ml-4 font-bold text-2xl">
         {{ title }}
       </h2>
     </div>

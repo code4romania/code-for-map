@@ -59,7 +59,7 @@
       x-on:click.away="open = false" -->
       <ul
         id="header-menu"
-        class="relative z-50 items-center justify-end w-full col-span-4 lg:w-auto lg:flex lg:col-span-9 lg:col-start-4 hidden"
+        class="relative items-center justify-end w-full col-span-4 lg:w-auto lg:flex lg:col-span-9 lg:col-start-4 hidden"
       >
         <li class="relative py-2 lg:ml-6">
           <!-- x-data="{ open: false }"

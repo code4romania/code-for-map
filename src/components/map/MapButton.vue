@@ -17,7 +17,7 @@
         @click="updateIframe()"
       >
         <img
-          class="icon"
+          class="w-6 h-6"
           :src="require(`../../assets/svg/icons/logo-${highway.slug}.svg`)"
         >
         <div

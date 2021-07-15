@@ -7,7 +7,7 @@
         segment: segmentSlug,
       },
     }"
-    class="bg-white hidden lg:block border-2 py-1 px-3 absolute z-30 rounded-full opacity-60 hover:opacity-100"
+    class="bg-white hidden lg:block border py-1 px-3 absolute z-30 rounded-full opacity-60 hover:opacity-100"
     :class="
       `border-${color}-500 ${hasProjects ? 'opacity-100' : ''}`
     "
@@ -35,7 +35,7 @@
         {{ segmentButton.title }}
       </div>
       <img
-        class="icon"
+        class="w-6 h-6"
         :src="
           require(`../../assets/svg/icons/icon-${segmentButton.segmentSlug}.svg`)
         "

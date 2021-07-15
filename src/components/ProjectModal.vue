@@ -1,61 +1,62 @@
 <template>
   <div v-if="project">
     <div
-      class="py-1"
+      class="py-4"
       :class="`bg-` + highwayMap.color"
     />
 
-    <div class="ProjectModal px-4">
-      <div class="mt-4 flex items-center justify-content-between">
-        <div>
+    <div class="px-4 lg:px-6 pb-8">
+      <div class="mt-4 flex items-center justify-between">
+        <div class="flex items-center gap-4">
           <a
             v-if="segmentObject.projects.length > 1"
             href="#"
-            class="ProjectModal-nav"
+            class="inline-flex items-center"
             @click.prevent="previous"
           >
             <img
-              class="icon icon-md"
+              class="w-8 h-8"
               src="../assets/svg/icons/chevron-left.svg"
             >
-            <span class="ml-lg-2 text-primary border-bottom border-primary">
+            <span class="hidden lg:block lg:ml-2 border-b border-gray-500 text-gray-500">
               {{ data.general.modal.previous.text }}
             </span>
           </a>
           <a
             v-if="segmentObject.projects.length > 1"
             href="#"
-            class="ProjectModal-nav"
+            class="inline-flex items-center"
             @click.prevent="next"
           >
-            <span class="mr-lg-2 text-primary border-bottom border-primary">
+            <span class="hidden lg:block lg:ml-2 border-b border-gray-500 text-gray-500">
               {{ data.general.modal.next.text }}
             </span>
             <img
-              class="icon icon-md"
+              class="w-8 h-8"
               src="../assets/svg/icons/chevron-right.svg"
             >
           </a>
         </div>
         <div>
-          <router-link
-            :to="{
-              name: 'Segment',
-              params: { slug: slug, segment: segmentSlug },
-            }"
+          <a
+            href="#"
+            class="block"
+            @click.prevent="close()"
           >
             <img
-              class="icon icon-sm"
+              class="w-4 h-4"
               src="../assets/svg/icons/close.svg"
             >
-          </router-link>
+          </a>
         </div>
       </div>
 
-      <div class="ProjectModal-header mt-4">
+      <div class="my-6 lg:flex lg:items-start lg:justify-between">
         <div>
-          <h3>{{ project.title }}</h3>
-          <p class="lead">
+          <h3 class="text-4xl font-bold mb-1">
+            {{ project.title }}
+          </h3>
+          <p class="text-xl leading-8 mb-6 lg:mb-0">
             {{ project.subtitle }}
           </p>
         </div>
@@ -63,98 +64,108 @@
           <a
             v-if="project.link"
             :href="project.link"
-            :class="'btn btn-' + highwayMap.color + ' px-4'"
+            class="inline-flex items-center px-4 py-2 rounded"
+            :class="`text-` + highwayMap.color"
             target="_blank"
           >
-            {{ data.general.view_project }}
+            <span class="font-bold uppercase text-sm tracking-wider">{{ data.general.view_project }}</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-4 w-4 ml-2"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2" 
+                d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+              />
+            </svg>
           </a>
         </div>
       </div>
 
-      <b-row class="mb-4">
-        <b-col
-          xs="12"
-          md="4"
-        >
-          <div class="ProjectModal-visual text-center border border-gray mb-3">
-            <div>
-              <img
-                class="img-fluid"
-                :src="projectIcon"
-              >
-            </div>
+      <div class="grid grid-cols-8 gap-8">
+        <div class="col-span-8 lg:col-span-3">
+          <div class="border border-gray-100 max-h-96">
+            <img
+              class="max-h-96 mx-auto"
+              :src="projectIcon"
+            >
           </div>
-        </b-col>
-        <b-col
-          xs="12"
-          md="8"
-        >
-          <div class="SegmentLegend-status flex items-center mb-3">
+        </div>
+        <div class="col-span-8 lg:col-span-5">
+          <div class="flex items-center mb-3">
             <i
-              class="icon icon-circle"
+              class="w-6 h-6 mr-2 rounded-full border-4"
               :class="
-                project.adopted ? 'border-' + highwayMap.color : 'border-gray'
+                project.adopted ? 'border-' + highwayMap.color + '-500' : 'border-gray-300'
               "
             />
-            {{
-              project.adopted
-                ? data.segment_legend.done
-                : data.segment_legend.designed
-            }}
+            <div class="font-bold uppercase text-sm tracking-wider">
+              {{
+                project.adopted
+                  ? data.segment_legend.done
+                  : data.segment_legend.designed
+              }}
+            </div>
           </div>
           <div
-            class="mb-4"
+            class="mb-6"
             v-html="project.description"
           />
-          <div class="flex items-center mb-2">
+          <div class="flex items-center mb-3">
             <img
               class="icon icon-md mr-2"
               src="../assets/svg/icons/icon-heart.svg"
             >
-            <span v-if="project.adopted">{{
-              data.segment_legend.adopted
-            }}</span>
-            <span v-else>{{ data.segment_legend.neadoptat }}</span>
+            <span
+              v-if="project.adopted"
+              class="font-bold uppercase text-sm tracking-wider"
+            >
+              {{ data.segment_legend.adopted }}
+            </span>
+            <span
+              v-else
+              class="font-bold uppercase text-sm tracking-wider"
+            >
+              {{ data.segment_legend.neadoptat }}
+            </span>
           </div>
 
-          <b-row>
-            <b-col cols="12">
-              <b-row v-if="project.adopted">
-                <template v-for="(partner, index) in project.adopted_by">
-                  <b-col
-                    :key="index"
-                    cols="3"
-                  >
-                    <a
-                      :href="partner.link"
-                      target="_blank"
-                      class="d-block border border-gray PartnersList-itemWrap"
-                    >
-                      <div class="PartnersList-item">
-                        <img
-                          :src="partner.logo"
-                          class="img-fluid"
-                        >
-                      </div>
-                    </a>
-                  </b-col>
-                </template>
-              </b-row>
-              <a
-                v-else
-                :href="data.call_to_action.finance.link"
-                :class="
-                  'btn btn-' +
-                    data.call_to_action.finance.color +
-                    ' btn-green px-5 mx-2 my-2 text-white btn-lg'
-                "
+          <div
+            v-if="project.adopted"
+            class="grid grid-cols-4 gap-4"
+          >
+            <template v-for="(partner, index) in project.adopted_by">
+              <div
+                :key="index"
+                class="border border-gray-100 flex items-center align-middle"
               >
-                {{ data.call_to_action.finance.title }}
-              </a>
-            </b-col>
-          </b-row>
-        </b-col>
-      </b-row>
+                <a
+                  :href="partner.link"
+                  target="_blank"
+                >
+                  <img
+                    class="w-full"
+                    :src="partner.logo"
+                  >
+                </a>
+              </div>
+            </template>
+          </div>
+          <a
+            v-else
+            class="inline-flex items-center px-8 py-4 mx-2 my-2 text-white text-lg rounded"
+            :href="data.call_to_action.finance.link"
+            :class="'bg-' + data.call_to_action.finance.color + '-500'"
+          >
+            {{ data.call_to_action.finance.title }}
+          </a>
+        </div>
+      </div>
     </div>
   </div>
 </template>
@@ -183,7 +194,6 @@ export default {
       type: String,
       default: "",
     },
-    // active_index: Number
   },
   test: "test",
   data() {
@@ -232,6 +242,8 @@ export default {
       page_title: this.project.projectSlug,
       page_path: window.location.href,
     });
+
+    document.body.classList.add("overflow-y-hidden");
   },
   methods: {
     next() {
@@ -261,6 +273,17 @@ export default {
         },
       });
     },
+    close() {
+      this.$router.push({
+        name: "Segment",
+        params: {
+          slug: this.slug,
+          segment: this.segmentSlug
+        },
+      })
+
+      document.body.classList.remove('overflow-y-hidden')
+    }
   },
 };
 </script>
