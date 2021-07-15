@@ -18,7 +18,7 @@
               class="w-8 h-8"
               src="../assets/svg/icons/chevron-left.svg"
             >
-            <span class="hidden lg:block lg:ml-2 border-b border-gray-500 text-gray-500">
+            <span class="hidden lg:block lg:ml-2 border-b border-gray-700 text-gray-700">
               {{ data.general.modal.previous.text }}
             </span>
           </a>
@@ -28,7 +28,7 @@
             class="inline-flex items-center"
             @click.prevent="next"
           >
-            <span class="hidden lg:block lg:ml-2 border-b border-gray-500 text-gray-500">
+            <span class="hidden lg:block lg:ml-2 border-b border-gray-700 text-gray-700">
               {{ data.general.modal.next.text }}
             </span>
             <img
@@ -54,10 +54,10 @@
       <div class="my-6 lg:flex lg:items-start lg:justify-between">
         <div>
           <h3 class="text-4xl font-bold mb-1">
-            {{ project.title }}
+            {{ $t(project.title) }}
           </h3>
           <p class="text-xl leading-8 mb-6 lg:mb-0">
-            {{ project.subtitle }}
+            {{ $t(project.subtitle) }}
           </p>
         </div>
         <div>
@@ -68,7 +68,7 @@
             :class="`text-` + highwayMap.color"
             target="_blank"
           >
-            <span class="font-bold uppercase text-sm tracking-wider">{{ data.general.view_project }}</span>
+            <span class="font-bold uppercase text-sm tracking-wider">{{ $t(data.general.view_project) }}</span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               class="h-4 w-4 ml-2"
@@ -89,7 +89,7 @@
 
       <div class="grid grid-cols-8 gap-8">
         <div class="col-span-8 lg:col-span-3">
-          <div class="border border-gray-100 max-h-96">
+          <div class="border border-gray-300 max-h-96">
             <img
               class="max-h-96 mx-auto"
               :src="projectIcon"
@@ -101,20 +101,20 @@
             <i
               class="w-6 h-6 mr-2 rounded-full border-4"
               :class="
-                project.adopted ? 'border-' + highwayMap.color + '-500' : 'border-gray-300'
+                project.adopted ? 'border-' + highwayMap.color + '-500' : 'border-gray-500'
               "
             />
             <div class="font-bold uppercase text-sm tracking-wider">
               {{
                 project.adopted
-                  ? data.segment_legend.done
-                  : data.segment_legend.designed
+                  ? $t(data.segment_legend.done)
+                  : $t(data.segment_legend.designed)
               }}
             </div>
           </div>
           <div
             class="mb-6"
-            v-html="project.description"
+            v-html="$t(project.description)"
           />
           <div class="flex items-center mb-3">
             <img
@@ -125,13 +125,13 @@
               v-if="project.adopted"
               class="font-bold uppercase text-sm tracking-wider"
             >
-              {{ data.segment_legend.adopted }}
+              {{ $t(data.segment_legend.adopted) }}
             </span>
             <span
               v-else
               class="font-bold uppercase text-sm tracking-wider"
             >
-              {{ data.segment_legend.neadoptat }}
+              {{ $t(data.segment_legend.neadoptat) }}
             </span>
           </div>
 
@@ -142,7 +142,7 @@
             <template v-for="(partner, index) in project.adopted_by">
               <div
                 :key="index"
-                class="border border-gray-100 flex items-center align-middle"
+                class="border border-gray-300 flex items-center align-middle"
               >
                 <a
                   :href="partner.link"
@@ -162,7 +162,7 @@
             :href="data.call_to_action.finance.link"
             :class="'bg-' + data.call_to_action.finance.color + '-500'"
           >
-            {{ data.call_to_action.finance.title }}
+            {{ $t(data.call_to_action.finance.title) }}
           </a>
         </div>
       </div>

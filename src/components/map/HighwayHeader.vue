@@ -6,13 +6,13 @@
         :src="require(`../../assets/svg/icons/logo-${logo}.svg`)"
       >
       <h2 class="ml-4 font-bold text-2xl">
-        {{ title }}
+        {{ $t(title) }}
       </h2>
     </div>
     <p
       v-if="description"
       class="mb-8"
-      v-html="description"
+      v-html="$t(description)"
     />
   </div>
 </template>

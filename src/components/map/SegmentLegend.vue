@@ -11,13 +11,13 @@
           :class="'border-' + color"
         />
         <div class="font-bold uppercase text-sm tracking-wider">
-          {{ status.done }}
+          {{ $t(status.done) }}
         </div>
       </div>
       <div class="flex items-center">
         <i class="w-6 h-6 rounded-full border-4 mr-2" />
         <div class="font-bold uppercase text-sm tracking-wider">
-          {{ status.designed }}
+          {{ $t(status.designed) }}
         </div>
       </div>
     </div>

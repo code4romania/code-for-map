@@ -105,7 +105,7 @@
         <div class="col-span-12">
           <p
             class="text-xl my-4"
-            v-html="highway.description"
+            v-html="$t(highway.description)"
           />
         </div>
       </div>

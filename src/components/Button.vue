@@ -49,8 +49,8 @@ export default {
   computed: {
     colorClasses() {
       const color = this.color;
-      const baseClasses = `bg-${color}-500 text-white border-${color}-500 hover:bg-${color}-600 hover:border-${color}-600 hover:text-white`;
-      const outlineClasses = `border-${color}-500 bg-white text-white hover:bg-${color}-500 hover:border-${color}-500 hover:text-white`;
+      const baseClasses = `bg-${color} text-white border-${color} hover:bg-${color}-700 hover:border-${color}-700 hover:text-white`;
+      const outlineClasses = `border-${color} bg-white text-white hover:bg-${color}-700 hover:border-${color}-700 hover:text-white`;
       return this.outline ? outlineClasses : baseClasses;
     },
     sizeClasses() {

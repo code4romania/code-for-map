@@ -24,7 +24,7 @@
         "
       >
       <div class="text-left font-bold leading-5 ml-2">
-        {{ segmentButton.title }}
+        {{ $t(segmentButton.title) }}
       </div>
     </div>
     <div
@@ -32,7 +32,7 @@
       class="flex items-center"
     >
       <div class="text-right font-bold leading-5 mr-2">
-        {{ segmentButton.title }}
+        {{ $t(segmentButton.title) }}
       </div>
       <img
         class="w-6 h-6"

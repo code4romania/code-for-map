@@ -5,16 +5,18 @@
       class="mb-4"
     >
       <div class="text-gray">
-        {{ title.text_1 }}
+        {{ $t(title.text_1) }}
       </div>
-      <strong class="text-green">{{ title.text_2 }}</strong> <span class="text-gray">{{ title.text_3 }}</span> <strong class="text-green">{{ title.text_4 }}</strong>
+      <strong class="text-green">{{ $t(title.text_2) }}</strong>
+      <span class="text-gray">{{ $t(title.text_3) }}</span>
+      <strong class="text-green">{{ $t(title.text_4) }}</strong>
     </Heading>
     <p
       class="space-y-4 mb-4"
-      v-html="description"
+      v-html="$t(description)"
     />
     <div class="mb-4">
-      {{ callToAction.donate.spacer }}
+      {{ $t(callToAction.donate.spacer) }}
     </div>
   </div>
 </template>

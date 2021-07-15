@@ -38,12 +38,12 @@
         <li
           v-for="locale in locales"
           :key="locale"
-          class="px-3 py-2 rounded hover:bg-gray-100 focus:bg-gray-200 focus:outline-none flex"
+          class="px-3 py-2 rounded hover:bg-gray-100 focus:bg-gray-200 focus:outline-none flex cursor-pointer"
 
           hreflang="en"
           @click="switchLocale(locale)"
         >
-          {{ locale }}
+          {{ $t(locale) }}
         </li>
       </ul>
     </div>

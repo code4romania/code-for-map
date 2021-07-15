@@ -22,7 +22,7 @@
         >
         <div
           class="block ml-2 font-bold text-sm leading-4 lg:text-lg lg:leading-none"
-          v-html="highwayTitle"
+          v-html="$t(highwayTitle)"
         />
       </div>
     </router-link>

@@ -5,7 +5,7 @@
       class="absolute top-0 right-6 w-4"
     >
       <img
-        class="icon icon-sm"
+        class="w-6 h-6"
         src="../../assets/svg/icons/close.svg"
       >
     </router-link>
@@ -17,18 +17,18 @@
     <div class="text-center">
       <div
         class="bg-gray text-white text-lg inline-block px-2 py-1 leading-none mx-auto mb-2"
-        v-html="status"
+        v-html="$t(status)"
       />
       <Heading
         :level="3"
         class="mb-5"
       >
-        {{ title }}
+        {{ $t(title) }}
       </Heading>
     </div>
     <div
       v-if="description"
-      v-html="description"
+      v-html="$t(description)"
     />
   </div>
 </template>

@@ -30,7 +30,7 @@
             v-for="(project, index) in segmentObject.projects"
             :key="index"
             tag="div"
-            class="py-4 px-2 border-t border-gray-100 bg-white cursor-pointer relative"
+            class="py-4 px-2 border-t border-gray-300 bg-white cursor-pointer relative"
             :to="{
               name: 'ProjectModal',
               params: {
@@ -44,7 +44,7 @@
                 :class="
                   project.adopted
                     ? 'border-' + code4ro_map.color + '-500'
-                    : 'border-gray-200'
+                    : 'border-gray-600'
                 "
               />
               <div class="flex-grow mx-4 text-lg">
@@ -55,7 +55,7 @@
                 src="../assets/svg/icons/chevron-right.svg"
               >
             </div>
-            <div class="absolute top-0 left-4 h-full w-2 bg-gray-100" />
+            <div class="absolute top-0 left-4 h-full w-2 bg-gray-300" />
           </router-link>
         </div>
       </div>
@@ -72,7 +72,7 @@
               class="w-6 h-6"
               src="../assets/svg/icons/chevron-left.svg"
             >
-            <div class="ml-2 border-b border-gray-500 text-gray-500 text-lg">
+            <div class="ml-2 border-b border-gray-700 text-gray-700 text-lg">
               {{ $t('general.back_to_map') }}
             </div>
           </div>
@@ -102,7 +102,7 @@
           </div>
           <div
             class="leading-6"
-            v-html="segmentObject.description"
+            v-html="$t(segmentObject.description)"
           />
         </div>
       </div>

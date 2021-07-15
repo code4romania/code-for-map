@@ -14,7 +14,7 @@
         class="w-12 h-12"
         :src="require(`../../assets/svg/icons/icon-${segmentSlug}.svg`)"
       >
-      {{ title }}
+      {{ $t(title) }}
     </div>
     <img
       class="w-6 h-6"

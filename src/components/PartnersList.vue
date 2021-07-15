@@ -8,7 +8,7 @@
           :title="partner.name"
           class="PartnersList-itemWrap block border"
         >
-          <div class="aspect-w-1 aspect-h-1 PartnersList-item">
+          <div class="aspect-w-1 aspect-h-1">
             <div class="flex justify-center align-center">
               <img
                 class="object-contain"

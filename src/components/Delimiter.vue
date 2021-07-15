@@ -3,9 +3,7 @@
     <img
       class="icon icon-lg"
       :src="
-        require(`../../assets/svg/illustrations/
-                    ${color ? color : 'default'}
-                    .svg`)
+        require(`../../assets/svg/illustrations/${color ? color : 'default'}.svg`)
       "
     >
   </div>

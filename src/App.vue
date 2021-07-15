@@ -32,7 +32,7 @@
           >
             <div class="col-span-8 xl:col-start-3 xl:z-20">
               <router-link
-                v-if="$t('back_to_map.visible')"
+                v-if="data.back_to_map.visible"
                 :to="{ name: 'Map' }"
                 class="mb-8 inline-flex items-center lg:hidden"
               >
@@ -40,7 +40,7 @@
                   class="w-8 h-8"
                   src="./assets/svg/icons/chevron-left.svg"
                 >
-                <div class="ml-2 border-b border-gray-500 text-gray-500 text-lg">
+                <div class="ml-2 border-b border-gray-700 text-gray-700 text-lg">
                   {{ $t('general.back_to_map') }}
                 </div>
               </router-link>
@@ -83,13 +83,12 @@
               </div>
               <div
                 class="flex flex-col space-y-4"
-                v-html="step.content"
+                v-html="$t(step.content)"
               />
             </CardBorderDashed>
           </div>
         </div>
       </t-section>
-
 
       <t-section>
         <Heading
@@ -97,7 +96,7 @@
         >
           {{ $t('more_info.how.title') }}
         </Heading>
-        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4 my-12">
+        <div class="grid md:grid-cols-2 xl:grid-cols-4 gap-4 my-12">
           <CardBorderDashed
             class="flex flex-col justify-between"
             color="green"
@@ -126,15 +125,14 @@
             <div>
               <Heading
                 :level="3"
-                class="mb-6"
+                class="mb-6 text-gray"
               >
                 {{ $t('call_to_action.partner.title') }}
               </Heading>
               <div
                 class="space-y-4 mb-4"
-              >
-                {{ $t('call_to_action.partner.content') }}
-              </div>
+                v-html="$t('call_to_action.partner.content')"
+              />
             </div>
             <div class="flex flex-wrap">
               <t-button
@@ -153,15 +151,14 @@
           >
             <Heading
               :level="3"
-              class="mb-6"
+              class="mb-6 text-gray"
             >
               {{ $t('call_to_action.sponsor.title') }}
             </Heading>
             <div
               class="space-y-4 mb-4"
-            >
-              {{ $t('call_to_action.sponsor.content') }}
-            </div>
+              v-html="$t('call_to_action.sponsor.content')"
+            />
             <div class="flex flex-wrap">
               <t-button
                 color="gray"
@@ -179,15 +176,14 @@
           >
             <Heading
               :level="3"
-              class="mb-6"
+              class="mb-6 text-gray"
             >
               {{ $t('call_to_action.share.title') }}
             </Heading>
             <div
               class="space-y-4 mb-4"
-            >
-              {{ $t('call_to_action.share.content') }}
-            </div>
+              v-html="$t('call_to_action.share.content')"
+            />
             <Share :share="$t('call_to_action.share')" />
           </CardBorderDashed>
         </div>
