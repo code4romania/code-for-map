@@ -1,7 +1,7 @@
 <template>
   <div class="grid grid-cols-3 md:grid-cols-6 gap-8">
     <template v-for="partner in list">
-      <div :key="'partner-' + partner.id">
+      <div :key="'partner-' + (partner.id * Math.random() * 10)">
         <a
           :href="partner.link"
           target="_blank"
