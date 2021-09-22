@@ -1,35 +1,35 @@
 <template>
   <div class="Legend hidden xl:block">
     <h3 class="mb-2">
-      {{ $t(legend.title) }}
+      {{ $t("map.legend.title") }}
     </h3>
     <div class="flex items-center my-2">
       <div class="drum-continuu" />
-      <span class="ml-2 display-4">{{ $t(legend.drum_executat) }}</span>
+      <span class="ml-2 display-4">{{ $t("map.legend.road_done") }}</span>
     </div>
     <div class="flex items-center my-2">
       <div class="drum-proiectat" />
-      <span class="ml-2 display-4">{{ $t(legend.drum_proiectat) }}</span>
+      <span class="ml-2 display-4">{{ $t("map.legend.road_designed") }}</span>
     </div>
     <div class="flex items-center my-2">
       <div class="drum-planificat" />
-      <span class="ml-2 display-4">{{ $t(legend.drum_planificat) }}</span>
+      <span class="ml-2 display-4">{{ $t("map.legend.road_planned") }}</span>
     </div>
     <div class="flex items-center my-2">
       <div class="drum-circle-full" />
-      <span class="ml-2 display-4">{{ $t(legend.destinatie) }}</span>
+      <span class="ml-2 display-4">{{ $t("map.legend.destination") }}</span>
     </div>
     <div class="flex items-center my-2">
       <div class="drum-circle-empty" />
-      <span class="ml-2 display-4">{{ $t(legend.tema) }}</span>
+      <span class="ml-2 display-4">{{ $t("map.legend.objective") }}</span>
     </div>
     <div class="flex items-center my-2">
       <div class="drum-circle-empty-small" />
-      <span class="ml-2 display-4">{{ $t(legend.realizat) }}</span>
+      <span class="ml-2 display-4">{{ $t("map.legend.road_done") }}</span>
     </div>
     <div class="flex items-center my-2">
       <div class="drum-circle-full-small" />
-      <span class="ml-2 display-4">{{ $t(legend.planificat) }}</span>
+      <span class="ml-2 display-4">{{ $t("map.legend.road_planned") }}</span>
     </div>
   </div>
 </template>

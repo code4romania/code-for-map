@@ -14,14 +14,11 @@
                   <Heading
                     :level="1"
                   >
-                    {{ $t('header.title') }}
+                    {{ $t("copy.main.title") }}
                   </Heading>
-                  <p>{{ $t('header.description') }}</p>
+                  <p v-html="$t('copy.main.description')" />
                 </div>
-                <Legend
-                  class="xl:pt-16"
-                  :legend="$t('map_legend')"
-                />
+                <Legend class="xl:pt-16" />
               </div>
             </div>
           </div>
@@ -41,7 +38,7 @@
                   src="./assets/svg/icons/chevron-left.svg"
                 >
                 <div class="ml-2 border-b border-gray-700 text-gray-700 text-lg">
-                  {{ $t('general.back_to_map') }}
+                  {{ $t("general.back_to_map") }}
                 </div>
               </router-link>
               <router-view :data="data" />
@@ -219,9 +216,7 @@
 import debouce from "lodash.debounce";
 import { saveAs } from "file-saver";
 
-import data from "./data/ro.json";
-
-import { postMessageHeight } from "./utils/postMessage";
+import data from "./data/data.json";
 
 import Navigation from "./components/Navigation";
 import Legend from "./components/Legend";
@@ -255,13 +250,6 @@ export default {
   },
   created() {
     this.data = data;
-  },
-  mounted() {
-    postMessageHeight();
-
-    window.onresize = debouce(() => {
-      postMessageHeight();
-    }, 500);
   },
   methods: {
     downloadPlan() {

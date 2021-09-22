@@ -21,10 +21,7 @@
         v-if="segmentObject.projects.length"
         class="ProjectsList"
       >
-        <SegmentLegend
-          :status="data.segment_legend"
-          :color="code4ro_map.color"
-        />
+        <SegmentLegend :color="code4ro_map.color" />
         <div class="border-b border-gray-100">
           <router-link
             v-for="(project, index) in segmentObject.projects"

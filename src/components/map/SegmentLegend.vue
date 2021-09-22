@@ -1,7 +1,7 @@
 <template>
   <div class="mb-8">
     <p class="mb-4">
-      {{ status.text }}
+      {{ $t("segement.legend.title") }}
     </p>
 
     <div class="flex justify-start">
@@ -11,13 +11,13 @@
           :class="'border-' + color"
         />
         <div class="font-bold uppercase text-sm tracking-wider">
-          {{ $t(status.done) }}
+          {{ $t("general.solution.done") }}
         </div>
       </div>
       <div class="flex items-center">
         <i class="w-6 h-6 rounded-full border-4 mr-2" />
         <div class="font-bold uppercase text-sm tracking-wider">
-          {{ $t(status.designed) }}
+          {{ $t("general.solution.planned") }}
         </div>
       </div>
     </div>
@@ -28,10 +28,6 @@
 export default {
   name: "SegmentLegend",
   props: {
-    status: {
-      type: Object,
-      default: () => {}
-    },
     color: {
       type: String,
       default: "blue"

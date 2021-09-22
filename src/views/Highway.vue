@@ -11,7 +11,7 @@
       class="mb-8 lg:hidden"
     >
       <div class="inline-block mb-2">
-        {{ data.general.financed_by }}
+        {{ $t("general.financed_by") }}
       </div>
       <a
         :href="highway.sponsor.link"
@@ -89,7 +89,7 @@
             class="w-24 m-0"
           >
             <div class="inline-block mb-2">
-              {{ data.general.financed_by }}
+              {{ $t("general.financed_by") }}
             </div>
             <a
               :href="highway.sponsor.link"

@@ -19,7 +19,7 @@
               src="../assets/svg/icons/chevron-left.svg"
             >
             <span class="hidden lg:block lg:ml-2 border-b border-gray-700 text-gray-700">
-              {{ data.general.modal.previous.text }}
+              {{ $t("general.solution.next") }}
             </span>
           </a>
           <a
@@ -29,7 +29,7 @@
             @click.prevent="next"
           >
             <span class="hidden lg:block lg:ml-2 border-b border-gray-700 text-gray-700">
-              {{ data.general.modal.next.text }}
+              {{ $t("general.solution.prev") }}
             </span>
             <img
               class="w-8 h-8"
@@ -68,7 +68,7 @@
             :class="`text-` + highwayMap.color"
             target="_blank"
           >
-            <span class="font-bold uppercase text-sm tracking-wider">{{ $t(data.general.view_project) }}</span>
+            <span class="font-bold uppercase text-sm tracking-wider">{{ $t("general.solution.view") }}</span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               class="h-4 w-4 ml-2"
@@ -107,8 +107,8 @@
             <div class="font-bold uppercase text-sm tracking-wider">
               {{
                 project.adopted
-                  ? $t(data.segment_legend.done)
-                  : $t(data.segment_legend.designed)
+                  ? $t("general.solution.done")
+                  : $t("general.solution.planned")
               }}
             </div>
           </div>
@@ -125,13 +125,13 @@
               v-if="project.adopted"
               class="font-bold uppercase text-sm tracking-wider"
             >
-              {{ $t(data.segment_legend.adopted) }}
+              {{ $t("segment.legend.adopted") }}
             </span>
             <span
               v-else
               class="font-bold uppercase text-sm tracking-wider"
             >
-              {{ $t(data.segment_legend.neadoptat) }}
+              {{ $t("segment.legend.finance") }}
             </span>
           </div>
 

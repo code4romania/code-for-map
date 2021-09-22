@@ -1,41 +1,61 @@
 {
   "general": {
-    "modal": {
-      "next": {
-        "text": "Soluția următoare"
-      },
-      "previous": {
-        "text": "Soluția anterioară"
-      }
+    "solution": {
+      "next": "Soluția următoare",
+      "prev": "Soluția anterioară",
+      "view": "Vezi soluția",
+      "done": "Soluție realizată",
+      "planned": "Soluție proiectată"
     },
     "financed_by": "Susținut de:",
-    "back_to_map": "Înapoi la hartă",
-    "view_project": "Vezi soluția"
+    "back_to_map": "Înapoi la hartă"
   },
-  "back_to_map": {
-    "visible": false
-  },
-  "header": {
-    "title": "Digitalizăm România împreună",
-    "description": "Am imaginat cinci &ldquo;autostrăzi&ldquo; care conectează probleme majore ale societății românești, pentru a vedea unde poate digitalizarea să facă bine. Urmărește pe hartă fiecare drum, vezi ce am proiectat și construit deja și câte putem transforma în realitate împreună în următorii cinci ani."
-  },
-  "map_legend": {
-    "title": "Legendă",
-    "drum_executat": "Drum executat",
-    "drum_proiectat": "Drum proiectat",
-    "drum_planificat": "Drum planificat",
-    "destinatie": "Destinație",
-    "tema": "Obiectiv",
-    "realizat": "Soluție realizată",
-    "planificat": "Soluție proiectată"
-  },
-  "segment_legend": {
-    "text": "Descoperă mai jos care dintre segmentele din drumul nostru spre digitalizare sunt deja realizate și ce am proiectat.",
-    "designed": "Soluție proiectată",
-    "done": "Soluție realizată",
-    "adopted": "Segment de drum adoptat de:",
-    "neadoptat": "Vrei să finanțezi această soluție?"
-  },
+
+  "copy": {
+    "main": {
+      "title": "Digitalizăm România împreună",
+      "description": "Am imaginat cinci &ldquo;autostrăzi&ldquo; care conectează probleme majore ale societății românești, pentru a vedea unde poate digitalizarea să facă bine. Urmărește pe hartă fiecare drum, vezi ce am proiectat și construit deja și câte putem transforma în realitate împreună în următorii cinci ani."
+    },
+    "next_steps": {
+
+    },
+    "donate": {
+      "title": {
+        
+      }
+    }
+  }
+
+
+  
+
+  "copy.donate.title.part.1": "Trimite SMS cu",
+  "copy.donate.title.part.2": "PUTEM",
+  "copy.donate.title.part.3": "la",
+  "copy.donate.title.part.4": "8864",
+  "copy.donate.description": "și donează 4 Euro lunar pentru Code for Romania",
+  "copy.donate.spacer": "sau",
+  "copy.donate.call_to_action": "Donează cât vrei",
+  "copy.donate.link": "https://code4.ro/ro/doneaza",
+  "copy.donate.disclaimer": "Valoarea Donaţiei este de 4 EUR/lună. Suma alocată cauzei este de 4 Euro. Nu se percepe TVA pentru donaţiile de pe abonament. În reţelele Digi Mobil, Orange şi Telekom România Mobile, pentru cartelele preplătite, TVA-ul a fost reţinut la achiziţionarea creditului. Pentru donaţiile de pe cartele preplătite, în reţeaua Vodafone utilizatorii nu plătesc TVA.Campanie realizată cu sprijinul Digi Mobil, Orange Romania, Telekom Romania Mobile şi Vodafone Romania.",
+
+  "copy.partner.title": "Adoptă o porțiune de drum!",
+  "copy.partner.description": "<p>Finanțând o porțiune de drum, investești într-o soluție digitală pentru care primești proiectul &ldquo;la cheie&ldquo;. ONG-ul care o va administra va fi consultat de noi, iar pe tot parcursul primului an monitorizăm atent implementarea.</p>",
+  "copy.partner.call_to_action": "Adoptă o soluție",
+  "copy.partner.link": "mailto:putem@code4.ro",
+
+  "map.legend.title": "Legendă",
+  "map.legend.road_done": "Drum executat",
+  "map.legend.road_designed": "Drum proiectat",
+  "map.legend.road_planned": "Drum planificat",
+  "map.legend.destination": "Destinație",
+  "map.legend.objective": "Obiectiv",
+
+  "segement.legend.title": "Descoperă mai jos care dintre segmentele din drumul nostru spre digitalizare sunt deja realizate și ce am proiectat.",
+  "segment.legend.adopted": "Segment de drum adoptat de:",
+  "segment.legend.finance": "Vrei să finanțezi această soluție?",
+
+  
   "sms": {
     "title": {
       "text_1": "Trimite SMS cu",

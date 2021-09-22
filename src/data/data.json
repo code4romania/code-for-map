@@ -1,40 +1,6 @@
 {
-  "general": {
-    "modal": {
-      "next": {
-        "text": "Soluția următoare"
-      },
-      "previous": {
-        "text": "Soluția anterioară"
-      }
-    },
-    "financed_by": "Susținut de:",
-    "back_to_map": "Înapoi la hartă",
-    "view_project": "Vezi soluția"
-  },
   "back_to_map": {
     "visible": false
-  },
-  "header": {
-    "title": "Digitalizăm România împreună",
-    "description": "Am imaginat cinci &ldquo;autostrăzi&ldquo; care conectează probleme majore ale societății românești, pentru a vedea unde poate digitalizarea să facă bine. Urmărește pe hartă fiecare drum, vezi ce am proiectat și construit deja și câte putem transforma în realitate împreună în următorii cinci ani."
-  },
-  "map_legend": {
-    "title": "Legendă",
-    "drum_executat": "Drum executat",
-    "drum_proiectat": "Drum proiectat",
-    "drum_planificat": "Drum planificat",
-    "destinatie": "Destinație",
-    "tema": "Obiectiv",
-    "realizat": "Soluție realizată",
-    "planificat": "Soluție proiectată"
-  },
-  "segment_legend": {
-    "text": "Descoperă mai jos care dintre segmentele din drumul nostru spre digitalizare sunt deja realizate și ce am proiectat.",
-    "designed": "Soluție proiectată",
-    "done": "Soluție realizată",
-    "adopted": "Segment de drum adoptat de:",
-    "neadoptat": "Vrei să finanțezi această soluție?"
   },
   "sms": {
     "title": {
@@ -75,57 +41,6 @@
       "color": "green",
       "link": "mailto:putem@code4.ro"
     }
-  },
-  "more_info": {
-    "download_pdf_cta": "Descarcă planul nostru",
-    "download_link": "/download",
-    "download_pdf_link": "https://drive.google.com/file/d/1_zs8h4ao3REIETBKcV1zLMI47u8AhpmM/view?usp=sharing",
-    "title": "Următorii 5 ani",
-    "description": "Pentru o țară funcțională, avem nevoie de o infrastructură digitală ca de aer. Sau ca de drumuri. De patru ani, Code for Romania construiește soluții digitale acolo unde nu făcuse nimeni nici un drum. Am desenat pe o hartă toate drumurile pe care le putem construi împreună în următorii 5 ani. Sunt multe probleme pe harta României, dar am arătat că putem găsi soluții pentru multe dintre ele.",
-    "youtube": "https://www.youtube.com/watch?v=tyYNP9IzfEY&ab_channel=MorningGlorycuR%C4%83zvanExarhu",
-    "work": {
-      "title": "Cum lucrăm",
-      "steps": [
-        {
-          "title": "Proiectăm",
-          "icon": "design",
-          "content": "<p>Fiecare porțiune de drum este o soluție care, prin programul <strong>Civic Labs</strong>, a trecut prin luni de cercetare calitativă și cantitativă făcută de oameni de research cu experiență. Pentru fiecare obiectiv, facem zeci de interviuri cu toți stakeholderii implicați, analizând seturi de date în detaliu.</p><p>După ce identificăm problemele, urmează o etapă de sesiuni de ideație prin care gândim, imaginăm și propunem aplicații care să rezolve problemele respective. Nu oferim doar răspunsuri sumare, ci dezvoltăm <strong>prototipuri</strong> testate cu grupuri de utilizatori reali, însoțite de specificații tehnice detaliate.</p><p>Doar proiectând corect, putem avea drumuri bune care ajung la destinație.</p>"
-        },
-        {
-          "title": "Construim",
-          "icon": "build",
-          "content": "<p>Aproape 2000 de voluntari ai Code for Romania oferă din timpul și talentul lor pentru a construi soluțiile deja proiectate de noi. Implicarea lor în programul <strong>Tech for Social Good</strong> a produs rezultate care ar fi însemnat investiții de milioane de euro.</p><p>În plus, fiecare soluție propusă poate fi adoptată de un <strong>partener</strong> care susține dezvoltarea propriu-zisă a aplicațiilor (finanțator sau dezvoltator). Identificăm apoi partenerii potriviți din societatea civilă alături de care să administrăm soluțiile rezultate.</p><p>Împreună, putem face ca planul nostru să se transforme în realitate.</p>"
-        },
-        {
-          "title": "Administrăm",
-          "icon": "manage",
-          "content": "<p>Drumul deja construit trebuie întreținut. Code for Romania se asigură că toate soluțiile executate rămân funcționale, că ajung la utilizatorii finali, își realizează potențialul și se dezvoltă. Prin programul <strong>Critical Civic Infrastructure</strong> ne asumăm responsabilitatea pentru toate aceste soluții de tehnologie civică, pe care nu doar le administrăm, dar le creștem de la an la an pentru a le multiplica efectul pozitiv.</p><p>Dacă avem grijă de segmentele de drum executate, putem fi siguri că ele vor produce <strong>schimbare reală</strong> pe această hartă.</p>"
-        },
-        {
-          "title": "Pregătim",
-          "icon": "prepare",
-          "content": "<p>Pe lângă faptul că ajutăm societatea civilă să implementeze proiecte digitale care vin însoțite de un ghid de implementare și de sprijin specializat pe parcursul proiectului, le oferim asistență celor care se confruntă cu probleme tehnice prin programul <strong>Civic Tech 911</strong>. Consultanță și sprijin oferim inclusiv instituțiilor publice prin programul <strong>Update Romania</strong>.</p><p>Împreună, putem da mai multă putere societății civile.</p>"
-        }
-      ]
-    },
-    "how": {
-      "title": "Cum putem digitaliza România împreună"
-    },
-    "faqs_title": "Întrebări frecvente",
-    "faqs": [
-      {
-        "question": "Cum devin aceste soluții realitate?",
-        "answer": "<p>Odată finalizat procesul de cercetare și prototipare al soluțiilor, ele au nevoie de un cuplu de părinți pentru a putea funcționa corespunzător și a putea fi lansate: un finanțator care să poată susține dezvoltarea soluției digitale și un ONG sau, în unele cazuri, o instituție de stat care să o adopte și să o administreze pe viitor.</p><p>Multe dintre aceste soluții sunt dezvoltate și administrate chiar de noi, în interiorul organizației, prin programul Tech For Social Good, însă capacitatea de a duce la bun sfârșit mai multe proiecte deodată este limitată.</p>"
-      },
-      {
-        "question": "Cât costă toate aceste proiecte?",
-        "answer": "<p>Fiecare soluție digitală are în spate o estimare de cost care acoperă tot ce înseamnă dezvoltarea și administrarea ei pe mai departe. Costurile reflectă gradele diferite de complexitate ale acestor proiecte în funcție de specificul lor tehnic, așadar ele diferă destul de mult.</p><p>Folosim întotdeauna cod în regim open-source, astfel încât pe viitor să reutilizăm liniile de cod ale unor aplicații pentru a crea altele într-un mod eficient și cu niște costuri reduse. Cu cât construim mai mult, vom putea construi mai ușor și mai mult.</p>"
-      },
-      {
-        "question": "Ce ați făcut până acum?",
-        "answer": "<p>Încă din 2016, ne-am asumat misiunea de a rezolva pro-bono problemele societății actuale prin soluții IT. În timp, am dezvoltat programe prin care mapăm cele mai presante probleme sociale și identificăm cele mai bune soluții digitale pentru ele sau oferim asistență ONG-urilor care au dificultăți tehnologice în activitatea lor.</p><p>Unele dintre soluțiile digitale gândite de noi au ajuns în managementul Departamentului pentru Situații de Urgență, Ministerului Sănătății sau al diverselor ONG-uri cu care am colaborat de-a lungul timpului.</p><p>Prin dialogul deschis cu Guvernul și diferite instituții ale statului vrem să ne asigurăm că lupta noastră primește susținerea necesară din partea administrației și că planul nostru de digitalizare este sprijinit și la nivel oficial.</p>"
-      }
-    ]
   },
   "partners": {
     "title": "Împreună",
