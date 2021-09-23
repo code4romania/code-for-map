@@ -180,6 +180,12 @@
         "name": "3Pillar Global",
         "link": "https://www.3pillarglobal.com/",
         "logo": "https://code4.ro/img/3pillar.png?q=80&fit=crop&dpr=1&w=200&h=80&crop=500%2C500%2C0%2C0"
+      },
+      {
+        "id": 5,
+        "name": "Stefanini",
+        "link": "https://stefanini.com/",
+        "logo": "https://code4.ro/img/22739b75-f545-4dc4-899b-2890f88554ca/is-logo-2021-color.png?q=80&fit=max&crop=1247%2C413%2C0%2C0&w=400"
       }
     ],
     "others": [
