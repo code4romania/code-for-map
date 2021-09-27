@@ -39,7 +39,6 @@
 </template>
 
 <script>
-import objectToGetParams from "../utils/objectToGetParams";
 
 export default {
   name: "Share",

@@ -1,48 +1,42 @@
 <template>
   <div class="Legend hidden xl:block">
     <h3 class="mb-2">
-      {{ $t("map.legend.title") }}
+      {{ $t('general.map.legend') }}
     </h3>
     <div class="flex items-center my-2">
       <div class="drum-continuu" />
-      <span class="ml-2 display-4">{{ $t("map.legend.road_done") }}</span>
+      <span class="ml-2 display-4">{{ $t('general.map.road_done') }}</span>
     </div>
     <div class="flex items-center my-2">
       <div class="drum-proiectat" />
-      <span class="ml-2 display-4">{{ $t("map.legend.road_designed") }}</span>
+      <span class="ml-2 display-4">{{ $t('general.map.road_designed') }}</span>
     </div>
     <div class="flex items-center my-2">
       <div class="drum-planificat" />
-      <span class="ml-2 display-4">{{ $t("map.legend.road_planned") }}</span>
+      <span class="ml-2 display-4">{{ $t('general.map.road_planned') }}</span>
     </div>
     <div class="flex items-center my-2">
       <div class="drum-circle-full" />
-      <span class="ml-2 display-4">{{ $t("map.legend.destination") }}</span>
+      <span class="ml-2 display-4">{{ $t('general.map.destination') }}</span>
     </div>
     <div class="flex items-center my-2">
       <div class="drum-circle-empty" />
-      <span class="ml-2 display-4">{{ $t("map.legend.objective") }}</span>
+      <span class="ml-2 display-4">{{ $t('general.map.objective') }}</span>
     </div>
     <div class="flex items-center my-2">
       <div class="drum-circle-empty-small" />
-      <span class="ml-2 display-4">{{ $t("map.legend.road_done") }}</span>
+      <span class="ml-2 display-4">{{ $t('general.map.road_done') }}</span>
     </div>
     <div class="flex items-center my-2">
       <div class="drum-circle-full-small" />
-      <span class="ml-2 display-4">{{ $t("map.legend.road_planned") }}</span>
+      <span class="ml-2 display-4">{{ $t('general.map.road_planned') }}</span>
     </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: "Legend",
-  props: {
-    legend: {
-      type: Object,
-      default: () => {}
-    }
-  }
+  name: "Legend"
 };
 </script>
 

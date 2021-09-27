@@ -1,17 +1,13 @@
 <template>
   <div>
-    <HighwayHeader
-      :logo="highway.slug"
-      :title="highway.title"
-      :description="highway.description"
-    />
+    <HighwayHeader :slug="highway.slug" />
 
     <div
       v-if="highway.sponsor"
       class="mb-8 lg:hidden"
     >
       <div class="inline-block mb-2">
-        {{ $t("general.financed_by") }}
+        {{ $t('general.financed_by') }}
       </div>
       <a
         :href="highway.sponsor.link"
@@ -104,7 +100,7 @@
         </div>
         <div class="col-span-12">
           <p
-            class="text-xl my-4"
+            class="text-lg my-4"
             v-html="$t(highway.description)"
           />
         </div>

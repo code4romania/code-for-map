@@ -2,49 +2,8 @@
   "back_to_map": {
     "visible": false
   },
-  "sms": {
-    "title": {
-      "text_1": "Trimite SMS cu",
-      "text_2": "PUTEM",
-      "text_3": "la",
-      "text_4": "8864"
-    },
-    "description": "și donează 4 Euro lunar pentru Code for Romania",
-    "disclaimer": "Valoarea Donaţiei este de 4 EUR/lună. Suma alocată cauzei este de 4 Euro. Nu se percepe TVA pentru donaţiile de pe abonament. În reţelele Digi Mobil, Orange şi Telekom România Mobile, pentru cartelele preplătite, TVA-ul a fost reţinut la achiziţionarea creditului. Pentru donaţiile de pe cartele preplătite, în reţeaua Vodafone utilizatorii nu plătesc TVA.Campanie realizată cu sprijinul Digi Mobil, Orange Romania, Telekom Romania Mobile şi Vodafone Romania."
-  },
-  "call_to_action": {
-    "donate": {
-      "spacer": "sau",
-      "title": "Donează cât vrei",
-      "link": "https://code4.ro/ro/doneaza"
-    },
-    "partner": {
-      "title": "Adoptă o porțiune de drum!",
-      "content": "<p>Finanțând o porțiune de drum, investești într-o soluție digitală pentru care primești proiectul &ldquo;la cheie&ldquo;. ONG-ul care o va administra va fi consultat de noi, iar pe tot parcursul primului an monitorizăm atent implementarea.</p>",
-      "label": "Adoptă o soluție",
-      "link": "mailto:putem@code4.ro"
-    },
-    "sponsor": {
-      "title": "Fii partenerul nostru",
-      "content": "<p>Devino unul dintre sponsorii strategici ai programelor Code for Romania.</p><p>Sau poți fi unul dintre sponsorii domeniilor noastre - Educație, Sănătate, Grupuri Vulnerabile, Mediu, Participare civică.</p>",
-      "label": "Scrie-ne un e-mail",
-      "link": "mailto:putem@code4.ro"
-    },
-    "share": {
-      "title": "Dă vestea mai departe",
-      "cta": "Distribuie",
-      "color": "blue",
-      "content": "<p>Dacă suntem destul de mulți, putem găsi soluții la problemele societății românești.</p><p>Scrie despre noi, vorbește despre planul nostru prietenilor sau colegilor tăi, du povestea noastră la următorul nivel.</p>"
-    },
-    "finance": {
-      "title": "Trimite-ne un e-mail",
-      "color": "green",
-      "link": "mailto:putem@code4.ro"
-    }
-  },
+
   "partners": {
-    "title": "Împreună",
-    "description": "Ei sunt arhitecții, constructorii și administratorii care ni s-au alăturat până acum în dezvoltarea infrastructurii digitale a României.",
     "main": [
       {
         "id": 1,
@@ -160,6 +119,7 @@
       }
     ]
   },
+
   "code4ro_map": [
     {
       "id": 1,

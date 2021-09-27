@@ -12,17 +12,14 @@
         $route.name != 'Map' ? 'opacity-30 hover:opacity-100' : '',
       ]"
     >
-      <div
-        class="flex items-center"
-        @click="updateIframe()"
-      >
+      <div class="flex items-center">
         <img
           class="w-6 h-6"
           :src="require(`../../assets/svg/icons/logo-${highway.slug}.svg`)"
         >
         <div
           class="block ml-2 font-bold text-sm leading-4 lg:text-lg lg:leading-none"
-          v-html="$t(highwayTitle)"
+          v-html="highwayTitle"
         />
       </div>
     </router-link>
@@ -30,8 +27,6 @@
 </template>
 
 <script>
-import { postMessageHeight } from "../../utils/postMessage";
-
 export default {
   name: "MapButton",
   props: {
@@ -57,11 +52,6 @@ export default {
       const subs = this.highway.title.split(' ')
       return "<div>" + subs[0] + " " + subs[1] + "</div>" + subs[2]
     }
-  },
-  methods: {
-    updateIframe() {
-      postMessageHeight();
-    }
   }
 };
 </script>
@@ -70,6 +60,7 @@ export default {
 .btn-opacity {
   opacity: 0.35;
 }
+
 .btn-opacity:hover,
 .router-link-active {
   opacity: 1;

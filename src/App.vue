@@ -14,9 +14,9 @@
                   <Heading
                     :level="1"
                   >
-                    {{ $t("copy.main.title") }}
+                    {{ $t('header.title') }}
                   </Heading>
-                  <p v-html="$t('copy.main.description')" />
+                  <p v-html="$t('header.description')" />
                 </div>
                 <Legend class="xl:pt-16" />
               </div>
@@ -38,7 +38,7 @@
                   src="./assets/svg/icons/chevron-left.svg"
                 >
                 <div class="ml-2 border-b border-gray-700 text-gray-700 text-lg">
-                  {{ $t("general.back_to_map") }}
+                  {{ $t('general.back_to_map') }}
                 </div>
               </router-link>
               <router-view :data="data" />
@@ -48,24 +48,19 @@
       </t-section>
 
       <t-section>
-        <VideoBanner
-          :title="$t('more_info.title')"
-          :description="$t('more_info.description')"
-          :download-pdf-link="$t('more_info.download_pdf_link')"
-          :download-pdf-cta="$t('more_info.download_pdf_cta')"
-          @onClickCTA="trackDownload"
-        />
+        <VideoBanner :video="$t('video')" />
       </t-section>
       
       <t-section>
         <Heading
           :level="1"
         >
-          {{ $t('more_info.work.title') }}
+          {{ $t('general.title_how_we_work') }}
         </Heading>
+
         <div class="grid lg:grid-cols-2 gap-x-8 gap-y-6">
           <div
-            v-for="(step, index) in $t('more_info.work.steps')"
+            v-for="(step, index) in $t('how_we_work.steps')"
             :key="'item-' + index"
           >
             <CardBorderDashed class="px-10">
@@ -80,7 +75,7 @@
               </div>
               <div
                 class="flex flex-col space-y-4"
-                v-html="$t(step.content)"
+                v-html="step.content"
               />
             </CardBorderDashed>
           </div>
@@ -91,26 +86,23 @@
         <Heading
           :level="1"
         >
-          {{ $t('more_info.how.title') }}
+          {{ $t('general.title_how_to_help') }}
         </Heading>
+
         <div class="grid md:grid-cols-2 xl:grid-cols-4 gap-4 my-12">
           <CardBorderDashed
             class="flex flex-col justify-between"
             color="green"
           >
-            <SendSMS
-              :title="$t('sms.title')"
-              :description="$t('sms.description')"
-              :call-to-action="$t('call_to_action')"
-            />
+            <SendSMS />
             <div class="flex flex-wrap">
               <t-button
                 color="green"
                 size="lg"
-                :href="$t('call_to_action.donate.link')"
+                :href="$t('sms.call_to_action_link')"
                 target="_parent"
               >
-                {{ $t('call_to_action.donate.title') }}
+                {{ $t('sms.call_to_action') }}
               </t-button>
             </div>
           </CardBorderDashed>
@@ -124,20 +116,20 @@
                 :level="3"
                 class="mb-6 text-gray"
               >
-                {{ $t('call_to_action.partner.title') }}
+                {{ $t('partner.title') }}
               </Heading>
               <div
                 class="space-y-4 mb-4"
-                v-html="$t('call_to_action.partner.content')"
+                v-html="$t('partner.content')"
               />
             </div>
             <div class="flex flex-wrap">
               <t-button
                 color="gray"
                 size="lg"
-                :href="$t('call_to_action.partner.link')"
+                :href="$t('partner.link')"
               >
-                {{ $t('call_to_action.partner.label') }}
+                {{ $t('partner.label') }}
               </t-button>
             </div>
           </CardBorderDashed>
@@ -150,19 +142,19 @@
               :level="3"
               class="mb-6 text-gray"
             >
-              {{ $t('call_to_action.sponsor.title') }}
+              {{ $t('sponsor.title') }}
             </Heading>
             <div
               class="space-y-4 mb-4"
-              v-html="$t('call_to_action.sponsor.content')"
+              v-html="$t('sponsor.content')"
             />
             <div class="flex flex-wrap">
               <t-button
                 color="gray"
                 size="lg"
-                :href="$t('call_to_action.sponsor.link')"
+                :href="$t('sponsor.link')"
               >
-                {{ $t('call_to_action.sponsor.label') }}
+                {{ $t('sponsor.label') }}
               </t-button>
             </div>
           </CardBorderDashed>
@@ -175,13 +167,13 @@
               :level="3"
               class="mb-6 text-gray"
             >
-              {{ $t('call_to_action.share.title') }}
+              {{ $t('share.title') }}
             </Heading>
             <div
               class="space-y-4 mb-4"
-              v-html="$t('call_to_action.share.content')"
+              v-html="$t('share.content')"
             />
-            <Share :share="$t('call_to_action.share')" />
+            <Share />
           </CardBorderDashed>
         </div>
       </t-section>
@@ -199,13 +191,13 @@
         </div>
         <div class="space-y-6">
           <PartnersList
-            :list="$t('partners.main')"
+            :list="data.partners.main"
           />
-          <PartnersList :list="$t('partners.secondary')" />
-          <PartnersList :list="$t('partners.others')" />
+          <PartnersList :list="data.partners.secondary" />
+          <PartnersList :list="data.partners.others" />
         </div>
-        <p class="mt-20 lg:w-1/2">
-          <small><strong>*</strong> {{ $t('sms.disclaimer') }}</small>
+        <p class="mt-20 lg:w-2/3 text-xs">
+          {{ $t('sms.disclaimer') }}
         </p>
       </t-section>
     </div>
@@ -213,8 +205,8 @@
 </template>
 
 <script>
-import debouce from "lodash.debounce";
-import { saveAs } from "file-saver";
+// import debouce from "lodash.debounce";
+// import { saveAs } from "file-saver";
 
 import data from "./data/data.json";
 
@@ -252,29 +244,29 @@ export default {
     this.data = data;
   },
   methods: {
-    downloadPlan() {
-      const request = new XMLHttpRequest();
+    // downloadPlan() {
+    //   const request = new XMLHttpRequest();
 
-      request.open("GET", this.$t('more_info.download_pdf_link'), true);
-      request.responseType = "blob";
+    //   request.open("GET", this.$t('more_info.download_pdf_link'), true);
+    //   request.responseType = "blob";
 
-      request.onload = () => {
-        const blob = new Blob([request.response], { type: "application/pdf" });
+    //   request.onload = () => {
+    //     const blob = new Blob([request.response], { type: "application/pdf" });
 
-        saveAs(blob, "Code_4_Romania_-_Digitalizam_Romania_impreuna.pdf");
+    //     saveAs(blob, "Code_4_Romania_-_Digitalizam_Romania_impreuna.pdf");
 
-        this.trackDownload();
-      };
+    //     this.trackDownload();
+    //   };
 
-      request.send();
-    },
-    trackDownload() {
-      this.$gtag.event("plan-download", {
-        event_category: "download",
-        event_label: "plan-downloaded",
-        value: "downloaded",
-      });
-    },
+    //   request.send();
+    // },
+    // trackDownload() {
+    //   this.$gtag.event("plan-download", {
+    //     event_category: "download",
+    //     event_label: "plan-downloaded",
+    //     value: "downloaded",
+    //   });
+    // },
   },
 };
 </script>

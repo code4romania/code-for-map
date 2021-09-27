@@ -1,28 +1,21 @@
 <template>
-  <!-- <div class="flex flex-col items-center lg:flex-row space-y-6 lg:space-y-0 lg:space-x-6"> -->
   <div class="grid gap-6 grid-cols-3">
     <div class="flex flex-col justify-center col-span-3 lg:col-span-1">
       <Heading :level="1">
-        {{ title }}
+        {{ $t('video.title') }}
       </Heading>
       <p
-        class="mb-6 lg:pr-3"
-        v-html="description"
+        class="mb-6 lg:pr-3 text-lg"
+        v-html="$t('video.description')"
       />
-      <!-- <a
-            class=" d-none d-lg-inline-block"
-            :href="data.more_info.download_link"
-            @click.prevent="downloadPlan()"
-          >{{ data.more_info.download_pdf_cta }}</a> -->
       <div class="flex flex-wrap">
         <t-button
-          :href="downloadPdfLink"
+          :href="$t('video.download_pdf_link')"
           color="blue"
           size="lg"
           target="_blank"
-          @click="handleClickCTA()"
         >
-          {{ downloadPdfCta }}
+          {{ $t('video.download_pdf_cta') }}
         </t-button>
       </div>
     </div>
@@ -42,10 +35,9 @@
         class="aspect-w-16 aspect-h-9"
       >
         <iframe
-          src="https://www.youtube.com/embed/XHVvEhmrlkA?modestbranding=1&autohide=2&showinfo=0&autoplay=1"
+          :src="$t('video.youtube') + '?modestbranding=1&autohide=2&showinfo=0&autoplay=1'"
           frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write;
-            encrypted-media; gyroscope; picture-in-picture"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen
         />
       </div>
@@ -64,21 +56,9 @@ export default {
     Heading
   },
   props: {
-    title: {
-      type: String,
-      default: () => {},
-    },
-    description: {
-      type: String,
-      default: () => {},
-    },
-    downloadPdfCta: {
-      type: String,
-      default: () => {},
-    },
-    downloadPdfLink: {
-      type: String,
-      default: () => {},
+    video: {
+      type: Object,
+      default: () => {}
     },
   },
   data() {
@@ -93,10 +73,7 @@ export default {
   methods: {
     playYT() {
       this.showVideo = true;
-    },
-    handleClickCTA() {
-      this.$emit("onClickCTA");
-    },
+    }
   },
 };
 </script>

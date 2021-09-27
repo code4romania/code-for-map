@@ -1,5 +1,27 @@
 {
+  "call_to_action": {
+    "finance": {
+      "title": "Trimite-ne un e-mail",
+      "color": "green",
+      "link": "mailto:putem@code4.ro"
+    }
+  },
+
+  "segement.legend.title": "Descoperă mai jos care dintre segmentele din drumul nostru spre digitalizare sunt deja realizate și ce am proiectat.",
+  "segment.legend.adopted": "Segment de drum adoptat de:",
+  "segment.legend.finance": "Vrei să finanțezi această soluție?",
+
+
+  "header": {
+    "title": "Digitalizăm România împreună",
+    "description": "Am imaginat cinci &ldquo;autostrăzi&ldquo; care conectează probleme majore ale societății românești, pentru a vedea unde poate digitalizarea să facă bine. Urmărește pe hartă fiecare drum, vezi ce am proiectat și construit deja și câte putem transforma în realitate împreună în următorii cinci ani."
+  },
+
   "general": {
+    "financed_by": "Susținut de:",
+    "back_to_map": "Înapoi la hartă",
+    "title_how_we_work": "Cum lucrăm",
+    "title_how_to_help": "Cum putem digitaliza România împreună",
     "solution": {
       "next": "Soluția următoare",
       "prev": "Soluția anterioară",
@@ -7,304 +29,109 @@
       "done": "Soluție realizată",
       "planned": "Soluție proiectată"
     },
-    "financed_by": "Susținut de:",
-    "back_to_map": "Înapoi la hartă"
-  },
-
-  "copy": {
-    "main": {
-      "title": "Digitalizăm România împreună",
-      "description": "Am imaginat cinci &ldquo;autostrăzi&ldquo; care conectează probleme majore ale societății românești, pentru a vedea unde poate digitalizarea să facă bine. Urmărește pe hartă fiecare drum, vezi ce am proiectat și construit deja și câte putem transforma în realitate împreună în următorii cinci ani."
-    },
-    "next_steps": {
-
-    },
-    "donate": {
-      "title": {
-        
-      }
+    "map": {
+      "legend": "Legendă",
+      "road_done": "Drum executat",
+      "road_designed": "Drum proiectat",
+      "road_planned": "Drum planificat",
+      "destination": "Destinație",
+      "objective": "Obiectiv"
     }
   },
 
-
-  
-
-  "copy.donate.title.part.1": "Trimite SMS cu",
-  "copy.donate.title.part.2": "PUTEM",
-  "copy.donate.title.part.3": "la",
-  "copy.donate.title.part.4": "8864",
-  "copy.donate.description": "și donează 4 Euro lunar pentru Code for Romania",
-  "copy.donate.spacer": "sau",
-  "copy.donate.call_to_action": "Donează cât vrei",
-  "copy.donate.link": "https://code4.ro/ro/doneaza",
-  "copy.donate.disclaimer": "Valoarea Donaţiei este de 4 EUR/lună. Suma alocată cauzei este de 4 Euro. Nu se percepe TVA pentru donaţiile de pe abonament. În reţelele Digi Mobil, Orange şi Telekom România Mobile, pentru cartelele preplătite, TVA-ul a fost reţinut la achiziţionarea creditului. Pentru donaţiile de pe cartele preplătite, în reţeaua Vodafone utilizatorii nu plătesc TVA.Campanie realizată cu sprijinul Digi Mobil, Orange Romania, Telekom Romania Mobile şi Vodafone Romania.",
-
-  "copy.partner.title": "Adoptă o porțiune de drum!",
-  "copy.partner.description": "<p>Finanțând o porțiune de drum, investești într-o soluție digitală pentru care primești proiectul &ldquo;la cheie&ldquo;. ONG-ul care o va administra va fi consultat de noi, iar pe tot parcursul primului an monitorizăm atent implementarea.</p>",
-  "copy.partner.call_to_action": "Adoptă o soluție",
-  "copy.partner.link": "mailto:putem@code4.ro",
-
-  "map.legend.title": "Legendă",
-  "map.legend.road_done": "Drum executat",
-  "map.legend.road_designed": "Drum proiectat",
-  "map.legend.road_planned": "Drum planificat",
-  "map.legend.destination": "Destinație",
-  "map.legend.objective": "Obiectiv",
-
-  "segement.legend.title": "Descoperă mai jos care dintre segmentele din drumul nostru spre digitalizare sunt deja realizate și ce am proiectat.",
-  "segment.legend.adopted": "Segment de drum adoptat de:",
-  "segment.legend.finance": "Vrei să finanțezi această soluție?",
-
-  
-  "sms": {
-    "title": {
-      "text_1": "Trimite SMS cu",
-      "text_2": "PUTEM",
-      "text_3": "la",
-      "text_4": "8864"
-    },
-    "description": "și donează 4 Euro lunar pentru Code for Romania",
-    "disclaimer": "Valoarea Donaţiei este de 4 EUR/lună. Suma alocată cauzei este de 4 Euro. Nu se percepe TVA pentru donaţiile de pe abonament. În reţelele Digi Mobil, Orange şi Telekom România Mobile, pentru cartelele preplătite, TVA-ul a fost reţinut la achiziţionarea creditului. Pentru donaţiile de pe cartele preplătite, în reţeaua Vodafone utilizatorii nu plătesc TVA.Campanie realizată cu sprijinul Digi Mobil, Orange Romania, Telekom Romania Mobile şi Vodafone Romania."
-  },
-  "call_to_action": {
-    "donate": {
-      "spacer": "sau",
-      "title": "Donează cât vrei",
-      "link": "https://code4.ro/ro/doneaza"
-    },
-    "partner": {
-      "title": "Adoptă o porțiune de drum!",
-      "content": "<p>Finanțând o porțiune de drum, investești într-o soluție digitală pentru care primești proiectul &ldquo;la cheie&ldquo;. ONG-ul care o va administra va fi consultat de noi, iar pe tot parcursul primului an monitorizăm atent implementarea.</p>",
-      "label": "Adoptă o soluție",
-      "link": "mailto:putem@code4.ro"
-    },
-    "sponsor": {
-      "title": "Fii partenerul nostru",
-      "content": "<p>Devino unul dintre sponsorii strategici ai programelor Code for Romania.</p><p>Sau poți fi unul dintre sponsorii domeniilor noastre - Educație, Sănătate, Grupuri Vulnerabile, Mediu, Participare civică.</p>",
-      "label": "Scrie-ne un e-mail",
-      "link": "mailto:putem@code4.ro"
-    },
-    "share": {
-      "title": "Dă vestea mai departe",
-      "cta": "Distribuie",
-      "color": "blue",
-      "content": "<p>Dacă suntem destul de mulți, putem găsi soluții la problemele societății românești.</p><p>Scrie despre noi, vorbește despre planul nostru prietenilor sau colegilor tăi, du povestea noastră la următorul nivel.</p>"
-    },
-    "finance": {
-      "title": "Trimite-ne un e-mail",
-      "color": "green",
-      "link": "mailto:putem@code4.ro"
-    }
-  },
-  "more_info": {
-    "download_pdf_cta": "Descarcă planul nostru",
-    "download_link": "/download",
-    "download_pdf_link": "https://drive.google.com/file/d/1_zs8h4ao3REIETBKcV1zLMI47u8AhpmM/view?usp=sharing",
+  "video": {
     "title": "Următorii 5 ani",
     "description": "Pentru o țară funcțională, avem nevoie de o infrastructură digitală ca de aer. Sau ca de drumuri. De patru ani, Code for Romania construiește soluții digitale acolo unde nu făcuse nimeni nici un drum. Am desenat pe o hartă toate drumurile pe care le putem construi împreună în următorii 5 ani. Sunt multe probleme pe harta României, dar am arătat că putem găsi soluții pentru multe dintre ele.",
-    "youtube": "https://www.youtube.com/watch?v=tyYNP9IzfEY&ab_channel=MorningGlorycuR%C4%83zvanExarhu",
-    "work": {
-      "title": "Cum lucrăm",
-      "steps": [
-        {
-          "title": "Proiectăm",
-          "icon": "design",
-          "content": "<p>Fiecare porțiune de drum este o soluție care, prin programul <strong>Civic Labs</strong>, a trecut prin luni de cercetare calitativă și cantitativă făcută de oameni de research cu experiență. Pentru fiecare obiectiv, facem zeci de interviuri cu toți stakeholderii implicați, analizând seturi de date în detaliu.</p><p>După ce identificăm problemele, urmează o etapă de sesiuni de ideație prin care gândim, imaginăm și propunem aplicații care să rezolve problemele respective. Nu oferim doar răspunsuri sumare, ci dezvoltăm <strong>prototipuri</strong> testate cu grupuri de utilizatori reali, însoțite de specificații tehnice detaliate.</p><p>Doar proiectând corect, putem avea drumuri bune care ajung la destinație.</p>"
-        },
-        {
-          "title": "Construim",
-          "icon": "build",
-          "content": "<p>Aproape 2000 de voluntari ai Code for Romania oferă din timpul și talentul lor pentru a construi soluțiile deja proiectate de noi. Implicarea lor în programul <strong>Tech for Social Good</strong> a produs rezultate care ar fi însemnat investiții de milioane de euro.</p><p>În plus, fiecare soluție propusă poate fi adoptată de un <strong>partener</strong> care susține dezvoltarea propriu-zisă a aplicațiilor (finanțator sau dezvoltator). Identificăm apoi partenerii potriviți din societatea civilă alături de care să administrăm soluțiile rezultate.</p><p>Împreună, putem face ca planul nostru să se transforme în realitate.</p>"
-        },
-        {
-          "title": "Administrăm",
-          "icon": "manage",
-          "content": "<p>Drumul deja construit trebuie întreținut. Code for Romania se asigură că toate soluțiile executate rămân funcționale, că ajung la utilizatorii finali, își realizează potențialul și se dezvoltă. Prin programul <strong>Critical Civic Infrastructure</strong> ne asumăm responsabilitatea pentru toate aceste soluții de tehnologie civică, pe care nu doar le administrăm, dar le creștem de la an la an pentru a le multiplica efectul pozitiv.</p><p>Dacă avem grijă de segmentele de drum executate, putem fi siguri că ele vor produce <strong>schimbare reală</strong> pe această hartă.</p>"
-        },
-        {
-          "title": "Pregătim",
-          "icon": "prepare",
-          "content": "<p>Pe lângă faptul că ajutăm societatea civilă să implementeze proiecte digitale care vin însoțite de un ghid de implementare și de sprijin specializat pe parcursul proiectului, le oferim asistență celor care se confruntă cu probleme tehnice prin programul <strong>Civic Tech 911</strong>. Consultanță și sprijin oferim inclusiv instituțiilor publice prin programul <strong>Update Romania</strong>.</p><p>Împreună, putem da mai multă putere societății civile.</p>"
-        }
-      ]
-    },
-    "how": {
-      "title": "Cum putem digitaliza România împreună"
-    },
-    "faqs_title": "Întrebări frecvente",
-    "faqs": [
+    "download_pdf_cta": "Descarcă planul nostru",
+    "download_pdf_link": "https://drive.google.com/file/d/1_zs8h4ao3REIETBKcV1zLMI47u8AhpmM/view?usp=sharing",
+    "youtube": "https://www.youtube.com/embed/XHVvEhmrlkA"
+  },
+
+  "how_we_work": {
+    "steps": [
       {
-        "question": "Cum devin aceste soluții realitate?",
-        "answer": "<p>Odată finalizat procesul de cercetare și prototipare al soluțiilor, ele au nevoie de un cuplu de părinți pentru a putea funcționa corespunzător și a putea fi lansate: un finanțator care să poată susține dezvoltarea soluției digitale și un ONG sau, în unele cazuri, o instituție de stat care să o adopte și să o administreze pe viitor.</p><p>Multe dintre aceste soluții sunt dezvoltate și administrate chiar de noi, în interiorul organizației, prin programul Tech For Social Good, însă capacitatea de a duce la bun sfârșit mai multe proiecte deodată este limitată.</p>"
+        "title": "Proiectăm",
+        "icon": "design",
+        "content": "<p>Fiecare porțiune de drum este o soluție care, prin programul <strong>Civic Labs</strong>, a trecut prin luni de cercetare calitativă și cantitativă făcută de oameni de research cu experiență. Pentru fiecare obiectiv, facem zeci de interviuri cu toți stakeholderii implicați, analizând seturi de date în detaliu.</p><p>După ce identificăm problemele, urmează o etapă de sesiuni de ideație prin care gândim, imaginăm și propunem aplicații care să rezolve problemele respective. Nu oferim doar răspunsuri sumare, ci dezvoltăm <strong>prototipuri</strong> testate cu grupuri de utilizatori reali, însoțite de specificații tehnice detaliate.</p><p>Doar proiectând corect, putem avea drumuri bune care ajung la destinație.</p>"
       },
       {
-        "question": "Cât costă toate aceste proiecte?",
-        "answer": "<p>Fiecare soluție digitală are în spate o estimare de cost care acoperă tot ce înseamnă dezvoltarea și administrarea ei pe mai departe. Costurile reflectă gradele diferite de complexitate ale acestor proiecte în funcție de specificul lor tehnic, așadar ele diferă destul de mult.</p><p>Folosim întotdeauna cod în regim open-source, astfel încât pe viitor să reutilizăm liniile de cod ale unor aplicații pentru a crea altele într-un mod eficient și cu niște costuri reduse. Cu cât construim mai mult, vom putea construi mai ușor și mai mult.</p>"
+        "title": "Construim",
+        "icon": "build",
+        "content": "<p>Aproape 2000 de voluntari ai Code for Romania oferă din timpul și talentul lor pentru a construi soluțiile deja proiectate de noi. Implicarea lor în programul <strong>Tech for Social Good</strong> a produs rezultate care ar fi însemnat investiții de milioane de euro.</p><p>În plus, fiecare soluție propusă poate fi adoptată de un <strong>partener</strong> care susține dezvoltarea propriu-zisă a aplicațiilor (finanțator sau dezvoltator). Identificăm apoi partenerii potriviți din societatea civilă alături de care să administrăm soluțiile rezultate.</p><p>Împreună, putem face ca planul nostru să se transforme în realitate.</p>"
       },
       {
-        "question": "Ce ați făcut până acum?",
-        "answer": "<p>Încă din 2016, ne-am asumat misiunea de a rezolva pro-bono problemele societății actuale prin soluții IT. În timp, am dezvoltat programe prin care mapăm cele mai presante probleme sociale și identificăm cele mai bune soluții digitale pentru ele sau oferim asistență ONG-urilor care au dificultăți tehnologice în activitatea lor.</p><p>Unele dintre soluțiile digitale gândite de noi au ajuns în managementul Departamentului pentru Situații de Urgență, Ministerului Sănătății sau al diverselor ONG-uri cu care am colaborat de-a lungul timpului.</p><p>Prin dialogul deschis cu Guvernul și diferite instituții ale statului vrem să ne asigurăm că lupta noastră primește susținerea necesară din partea administrației și că planul nostru de digitalizare este sprijinit și la nivel oficial.</p>"
+        "title": "Administrăm",
+        "icon": "manage",
+        "content": "<p>Drumul deja construit trebuie întreținut. Code for Romania se asigură că toate soluțiile executate rămân funcționale, că ajung la utilizatorii finali, își realizează potențialul și se dezvoltă. Prin programul <strong>Critical Civic Infrastructure</strong> ne asumăm responsabilitatea pentru toate aceste soluții de tehnologie civică, pe care nu doar le administrăm, dar le creștem de la an la an pentru a le multiplica efectul pozitiv.</p><p>Dacă avem grijă de segmentele de drum executate, putem fi siguri că ele vor produce <strong>schimbare reală</strong> pe această hartă.</p>"
+      },
+      {
+        "title": "Pregătim",
+        "icon": "prepare",
+        "content": "<p>Pe lângă faptul că ajutăm societatea civilă să implementeze proiecte digitale care vin însoțite de un ghid de implementare și de sprijin specializat pe parcursul proiectului, le oferim asistență celor care se confruntă cu probleme tehnice prin programul <strong>Civic Tech 911</strong>. Consultanță și sprijin oferim inclusiv instituțiilor publice prin programul <strong>Update Romania</strong>.</p><p>Împreună, putem da mai multă putere societății civile.</p>"
       }
     ]
   },
+
+  "sms": {
+    "title": {
+      "text_1": "Send an SMS with",
+      "text_2": "PUTEM",
+      "text_3": "to",
+      "text_4": "8864"
+    },
+    "description": "and donate 4 Euros monthly",
+    "spacer": "or",
+    "call_to_action": "Donate one time",
+    "call_to_action_link": "https://code4.ro/ro/doneaza",
+    "disclaimer": "* Valoarea Donaţiei este de 4 EUR/lună. Suma alocată cauzei este de 4 Euro. Nu se percepe TVA pentru donaţiile de pe abonament. În reţelele Digi Mobil, Orange şi Telekom România Mobile, pentru cartelele preplătite, TVA-ul a fost reţinut la achiziţionarea creditului. Pentru donaţiile de pe cartele preplătite, în reţeaua Vodafone utilizatorii nu plătesc TVA.Campanie realizată cu sprijinul Digi Mobil, Orange Romania, Telekom Romania Mobile şi Vodafone Romania."
+  },
+
+  "partner": {
+    "title": "Adoptă o porțiune de drum!",
+    "content": "<p>Finanțând o porțiune de drum, investești într-o soluție digitală pentru care primești proiectul &ldquo;la cheie&ldquo;. ONG-ul care o va administra va fi consultat de noi, iar pe tot parcursul primului an monitorizăm atent implementarea.</p>",
+    "label": "Adoptă o soluție",
+    "link": "mailto:putem@code4.ro"
+  },
+
+  "sponsor": {
+    "title": "Fii partenerul nostru",
+    "content": "<p>Devino unul dintre sponsorii strategici ai programelor Code for Romania.</p><p>Sau poți fi unul dintre sponsorii domeniilor noastre - Educație, Sănătate, Grupuri Vulnerabile, Mediu, Participare civică.</p>",
+    "label": "Scrie-ne un e-mail",
+    "link": "mailto:putem@code4.ro"
+  },
+
+  "share": {
+    "title": "Dă vestea mai departe",
+    "cta": "Distribuie",
+    "color": "blue",
+    "content": "<p>Dacă suntem destul de mulți, putem găsi soluții la problemele societății românești.</p><p>Scrie despre noi, vorbește despre planul nostru prietenilor sau colegilor tăi, du povestea noastră la următorul nivel.</p>"
+  },
+
   "partners": {
     "title": "Împreună",
-    "description": "Ei sunt arhitecții, constructorii și administratorii care ni s-au alăturat până acum în dezvoltarea infrastructurii digitale a României.",
-    "main": [
+    "description": "Ei sunt arhitecții, constructorii și administratorii care ni s-au alăturat până acum în dezvoltarea infrastructurii digitale a României."
+  },
+
+  "care4ro": {
+    "title": "Care for Romania",
+    "description": "În jurul câte unui eveniment tragic, atenția societății se îndreaptă trecător spre problemele unor categorii sociale care au nevoie de sprijin. Dar incluziunea socială a persoanelor vulnerabile nu este o problemă care se tratează cu intenții pozitive punctuale, ci cu eforturi susținute și planuri bine gândite pentru viitor. Sărăcia, copiii instituționalizați, persoanele cu dizabilități, minoritățile, sunt zone vulnerabile ale societății românești.",
+
+    "segments": [
       {
-        "id": 1,
-        "name": "Romanian-American Foundation",
-        "link": "https://www.rafonline.org/",
-        "logo": "https://code4.ro/img/80ca17d3-88ed-40a1-bad8-4b579e48c72e/logo-raf.jpg?q=80&fit=crop&dpr=1&w=200&h=80&crop=1309%2C1000%2C0%2C0"
-      },
-      {
-        "id": 2,
-        "name": "ING",
-        "link": "https://ing.ro/persoane-fizice",
-        "logo": "https://code4.ro/img/9dc5ce5d-08b5-4b33-a065-aec64cda7b42/ing-primary-logo-rgb.png?q=80&fit=crop&dpr=1&w=200&h=80&crop=1621%2C662%2C0%2C0"
-      },
-      {
-        "id": 3,
-        "name": "Lidl",
-        "link": "https://www.lidl.ro/",
-        "logo": "https://code4.ro/img/67236b19-5a95-444a-8d7e-28ae8d75d1b8/lidl.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=500%2C500%2C0%2C0"
-      }
-    ],
-    "secondary": [
-      {
-        "id": 1,
-        "name": "AstraZeneca",
-        "link": "https://www.astrazeneca.com/",
-        "logo": "https://code4.ro/img/cb48e145-b67a-47fa-b0d3-ba8fa2d4a90e/untitled-design-9.png?q=60&fit=crop&dpr=1&w=500&h=500"
-      },
-      {
-        "id": 1,
-        "name": "Globalworth",
-        "link": "https://www.globalworth.com/",
-        "logo": "https://code4.ro/img/8e139713-aecc-402a-a95b-2b40b6954487/untitled-design-11.png?q=60&fit=crop&dpr=1&w=500&h=500https://code4.ro/img/9137628e-789e-4af1-af4e-af30c16394c6/fundatia-vodafone.png"
-      },
-      {
-        "id": 2,
-        "name": "Jysk",
-        "link": "http://jysk.ro/",
-        "logo": "https://code4.ro/img/8e09071c-bce4-4144-ab7f-5434576de667/jysk.png"
-      },
-      {
-        "id": 3,
-        "name": "Cloudflight",
-        "link": "https://www.cloudflight.io/offices/cluj-napoca/",
-        "logo": "https://code4.ro/img/85ebcd58-6304-4862-9529-037e20d98d57/cloudflight.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=500%2C500%2C0%2C0"
-      },
-      {
-        "id": 4,
-        "name": "3Pillar Global",
-        "link": "https://www.3pillarglobal.com/",
-        "logo": "https://code4.ro/img/3pillar.png?q=80&fit=crop&dpr=1&w=200&h=80&crop=500%2C500%2C0%2C0"
-      }
-    ],
-    "others": [
-      {
-        "id": 18,
-        "name": "Romanian United Fund",
-        "link": "https://www.romanianunitedfund.org/",
-        "logo": "https://code4.ro/img/93c178b9-e4ad-4152-a4db-348fd34d6268/putem-10.png?q=60&fit=max&dpr=1&h=200"
-      },
-      {
-        "id": 5,
-        "name": "Sustainalytics",
-        "link": "https://www.sustainalytics.com/about-us/",
-        "logo": "https://code4.ro/img/sustainalytics.png?q=80&fit=crop&dpr=1&w=200&h=80&crop=500%2C500%2C0%2C0"
-      },
-      {
-        "id": 7,
-        "name": "Amazon",
-        "link": "http://romania.amazon.com",
-        "logo": "https://code4.ro/img/85ebcd58-6304-4862-9529-037e20d98d57/amazon.png?q=80&fit=crop&dpr=1&w=200&h=80&crop=500%2C500%2C0%2C0"
-      },
-      {
-        "id": 8,
-        "name": "Evozon",
-        "link": "https://www.evozon.com/",
-        "logo": "https://code4.ro/img/evozon.png?q=80&fit=crop&dpr=1&w=200&h=80&crop=500%2C500%2C0%2C0"
-      },
-      {
-        "id": 11,
-        "name": "Systematic",
-        "link": "https://systematic.com/contact/offices/romania/",
-        "logo": "https://code4.ro/img/18b7822a-8388-4f08-8d17-5aca36fde265/systematic.png"
-      },
-      {
-        "id": 12,
-        "name": "Visma",
-        "link": "https://www.visma.ro/",
-        "logo": "https://code4.ro/img/bf815744-9a4e-4420-bf6e-26da91458250/visma-timisoara-tfsg.png?q=80&fit=crop&dpr=1&w=200&h=80&crop=1920%2C1080%2C0%2C0"
-      },
-      {
-        "id": 13,
-        "name": "Continental",
-        "link": "https://www.continental.com/ro-ro",
-        "logo": "https://code4.ro/img/continental.png?q=80&fit=crop&dpr=1&w=200&h=80&crop=500%2C500%2C0%2C0"
-      },
-      {
-        "id": 14,
-        "name": "Unifiedpost",
-        "link": "https://www.unifiedpost.com/",
-        "logo": "https://code4.ro/img/85ebcd58-6304-4862-9529-037e20d98d57/unified-post.png?q=80&fit=crop&dpr=1&w=200&h=80&crop=500%2C500%2C0%2C0"
-      },
-      {
-        "id": 15,
-        "name": "Wolfpack",
-        "link": "https://www.wolfpack-digital.com",
-        "logo": "https://code4.ro/img/4e2d07ea-2aa4-494d-a130-701bec2efc3f/wolfpack.png?q=80&fit=max&crop=631%2C411%2C0%2C0&w=400"
-      },
-      {
-        "id": 16,
-        "name": "Mambu",
-        "link": "https://www.mambu.com",
-        "logo": "https://code4.ro/img/f24ec8c5-ddbd-4abd-b555-2a19aae0e57b/mambu.jpg?q=80&fit=max&crop=1599%2C391%2C0%2C0&w=400"
-      },
-      {
-        "id": 17,
-        "name": "Garmin",
-        "link": "https://www.garmin.com/ro-RO/",
-        "logo": "https://code4.ro/img/aafd60d3-7477-4b19-8709-00903c95d2dd/garmin.png?q=80&fit=max&crop=4167%2C599%2C0%2C0&w=400"
-      },
-      {
-        "id": 17,
-        "name": "FintechOS",
-        "link": "https://fintechos.com/",
-        "logo": "https://code4.ro/img/c6596c60-6ba5-444a-ac1b-a077ca70f15e/fintechos.png?q=60&fit=max&dpr=1&h=256"
+        "status": "Proiectare finalizată",
+        "title": "Fără violență acasă",
+        "description": "<p>Pentru prea multe familii, acasă nu mai reprezintă locul în care găsesc echilibrul necesar și un refugiu în fața grijilor, iar nesiguranța resimțită în propria casă este un sentiment pe care nimeni nu ar trebui să-l trăiască.</p><p>Violența domestică, fie că vizează relația de cuplu, copiii sau persoanele în vârstă, are un trecut bogat în România, iar urmele lăsate în viața victimelor sunt greu de remediat.</p><p>Indiferent că vorbim despre violență verbală, psihologică, fizică, sexuală sau economică, am ales să analizăm acest domeniu pentru a  ne concentra  atenția asupra unui fenomen vitregit de atenția care i se cuvine, într-o societate care continuă să îl normalizeze.</p>"
       }
     ]
   },
+
   "code4ro_map": [
     {
-      "id": 1,
-      "slug": "care4ro",
-      "title": "Care for Romania",
-      "description": "În jurul câte unui eveniment tragic, atenția societății se îndreaptă trecător spre problemele unor categorii sociale care au nevoie de sprijin. Dar incluziunea socială a persoanelor vulnerabile nu este o problemă care se tratează cu intenții pozitive punctuale, ci cu eforturi susținute și planuri bine gândite pentru viitor. Sărăcia, copiii instituționalizați, persoanele cu dizabilități, minoritățile, sunt zone vulnerabile ale societății românești.",
-      "sponsor": {
-        "link": "https://www.romanianunitedfund.org/",
-        "logo": "https://code4.ro/img/93c178b9-e4ad-4152-a4db-348fd34d6268/putem-10.png?q=60&fit=max&dpr=1&h=200"
-      },
-      "btn": {
-        "top": "9%",
-        "left": "50%"
-      },
-      "mobile_btn": {
-        "top": "7%",
-        "left": "30%"
-      },
-      "color": "purple",
-      "highway_bg": "highway-care",
       "highway_segments": [
         {
           "id": 1,
           "segmentSlug": "fara-violenta-acasa",
           "segment_visual": "segment-care-01-fara-violenta-acasa",
-          "status": "Proiectare finalizată",
-          "title": "Fără violență acasă",
-          "description": "<p>Pentru prea multe familii, acasă nu mai reprezintă locul în care găsesc echilibrul necesar și un refugiu în fața grijilor, iar nesiguranța resimțită în propria casă este un sentiment pe care nimeni nu ar trebui să-l trăiască.</p><p>Violența domestică, fie că vizează relația de cuplu, copiii sau persoanele în vârstă, are un trecut bogat în România, iar urmele lăsate în viața victimelor sunt greu de remediat.</p><p>Indiferent că vorbim despre violență verbală, psihologică, fizică, sexuală sau economică, am ales să analizăm acest domeniu pentru a  ne concentra  atenția asupra unui fenomen vitregit de atenția care i se cuvine, într-o societate care continuă să îl normalizeze.</p>",
           "btn": {
             "top": "53%",
             "left": "13%"
