@@ -1377,7 +1377,7 @@
           "segmentSlug": "o-societate-civila-puternica",
           "segment_visual": "segment-participation-04-societate-civila-puternica",
           "status": "Proiectare finalizată",
-          "title": "O societate civila puternica",
+          "title": "O societate civilă puternică",
           "description": "<p>ONG-urile lucrează zi de zi pentru ca societatea în care trăim să fie mai funcțională. Orice problemă a lor devine, implicit și o problemă a noastră. Instrumentele digitale pot veni în sprijinul societății civile, oferind nu doar eficiență, ci și transparență și reprezentativitate sectorului ONG.</p><p>Pe lângă îmbunătățirea proceselor interne ale asociațiilor și organizațiilor din societatea civilă, tehnologia poate facilita și accesul tuturor la serviciile oferite de către acestea.</p>",
           "btn": {
             "top": "47%",
@@ -1937,8 +1937,15 @@
               "description": "<p>Educatorii joacă un rol covârșitor în dezvoltarea noastră, de aceea este important să înțelegem în profunzime cum putem să îi ajutăm și să îi echipăm cu toate instrumentele necesare ca ei să poată avea grijă de noi și de copiii noștri. Formarea inițială nu asigură însușirea competențelor care permit mai apoi gestiunea socio-emoțională a copiilor și a tinerilor. </p> <p>Teacher workout este o aplicație care oferă acces la cursuri scurte, interactive, pe subiecte care acoperă o gamă largă de tematici de la identificarea cu ușurință a copiilor cu dificultăți de învățare, până la gestiunea situațiilor complicate de la clasă, integrarea copiilor cu nevoi speciale în colectivul clasei și multe alte micro-cursuri de formare de obiceiuri pozitive pentru profesor.</p>",
               "link": "",
               "icon": "education4ro-teacher-workout",
-              "adopted": false,
-              "adopted_by": []
+              "adopted": true,
+              "adopted_by": [
+                {
+                  "id": 4,
+                  "title": "TFSG by Code for Romania",
+                  "link": "https://tfsg.code4.ro/ro/",
+                  "logo": "https://code4.ro/img/02410f6e-fe21-46d7-8004-2880c8686407/log-code4-tfsg.png?q=60&fit=max&dpr=1&h=200&w=200"
+                }
+              ]
             },
             {
               "id": 5,
@@ -2748,12 +2755,12 @@
             },
             {
               "id": 2,
-              "projectSlug": "seismic-risc",
-              "title": "Seismic risc",
+              "projectSlug": "bulina-rosie",
+              "title": "Bulina roșie",
               "subtitle": "Harta clădirilor cu grad ridicat de risc și resurse utile pentru consolidare",
-              "description": "<p>Gradul de interes cu privire la consolidarea clădirilor cu grad mare de risc este redus, ceea ce face mobilizarea proprietarilor foarte dificilă de către administratorii asociațiilor de locatari. În prezent, nu este clar pentru toți cei implicați ce eforturi trebuie făcute, la această situație contribuind și multe mituri care se învârt în jurul proceselor de consolidare care sporesc nivelul de dezinformare. Seismic Risc este o platformă de colectare și vizualizare de date despre clădirile cu risc seismic. Oferă detalii despre gradul de ocupare, informații utile despre consolidare, informații dedicate asociațiilor de proprietari și legislație explicată pe înțelesul tuturor.</p>",
-              "link": "https://www.code4.ro/ro/seismic-risc",
-              "icon": "environment4ro-seismic-risc",
+              "description": "<p>Gradul de interes cu privire la consolidarea clădirilor cu grad mare de risc este redus, ceea ce face mobilizarea proprietarilor foarte dificilă de către administratorii asociațiilor de locatari. În prezent, nu este clar pentru toți cei implicați ce eforturi trebuie făcute, la această situație contribuind și multe mituri care se învârt în jurul proceselor de consolidare care sporesc nivelul de dezinformare. Bulina roșie este o platformă de colectare și vizualizare de date despre clădirile cu risc seismic. Oferă detalii despre gradul de ocupare, informații utile despre consolidare, informații dedicate asociațiilor de proprietari și legislație explicată pe înțelesul tuturor.</p>",
+              "link": "https://www.code4.ro/ro/bulina-rosie",
+              "icon": "environment4ro-bulina-rosie",
               "adopted": true,
               "adopted_by": [
                 {
