@@ -928,8 +928,15 @@
               "description": "<p>La fel ca în cazul legislației, la nivel internațional există recomandări clare ca informațiile care țin de drepturile și obligațiile persoanelor, la fel ca informațiile care sunt esențiale pentru binele lor trebuie să fie prezentate acestora în asemenea manieră încât să fie accesibile ca limbaj luând ca standard un nivel de înțelegere echivalent cu clasa a opta. De aceea constatăm că foarte multe dintre statele profund preocupate de educația pentru sănătate a tinerilor și adulților au construit platforme centralizate cu informații despre sănătate menite să sprijine cetățenii în relația lor cu sistemul sanitar și să îi educe și îndrume spre ajutorul potrivit. Urmând modelele implementate de Statele Unite sau Canada, propunem construirea unei platforme de conținut care să explice pe înțelesul tuturor noțiuni de baza (simptome, manifestare, tratamente) despre afecțiunile comune și despre cele cu cea mai mare incidență în România, să ofere informații la zi despre unitățile medicale (contact, specializări etc) să pună la dispoziție informație utilă care astăzi este distribuită pe multiple platforme și să devină punct unic de informare și educație pentru sănătate.</p>",
               "link": "",
               "icon": "health4ro-centrul-de-sanatate",
-              "adopted": false,
-              "adopted_by": []
+              "adopted": true,
+              "adopted_by": [
+                {
+                  "id": 1,
+                  "title": "Endava",
+                  "link": "https://www.endava.com/",
+                  "logo": "https://code4.ro/img/15d3aaf8-472f-4c26-ad5e-9d1a47fefe0f/endava.png?q=60&fit=max&dpr=1&h=256"
+                }
+              ]
             },
             {
               "id": 7,
@@ -2073,8 +2080,15 @@
               "description": "<p>DOMENIU: Abilități pentru viața reală (studenți) </p> <p>DESPRE SOLUȚIE: Urmând modelul aplicat de universitățile de renume din alte state, propunem crearea unui modul de pregătire pentru cariera profesională pe care orice universitate din România și-l poate construi și conecta la propriul website. Career Center este o platformă prepopulată cu informații utile pentru pregătirea tinerilor care urmează să intre pe piața muncii. Fiecare universitate își poate crea propriul micro-site (de exemplu: unibuc.careercenter.ro) care să conțină, pe lângă informația de bază și alte date specifice profilului său, cum ar fi anunțuri de joburi din domeniu, oportunități de internship și alte materiale utile.  </p>",
               "link": "",
               "icon": "education4ro-career-center",
-              "adopted": false,
-              "adopted_by": []
+              "adopted": true,
+              "adopted_by": [
+                {
+                  "id": 1,
+                  "title": "Endava",
+                  "link": "https://www.endava.com/",
+                  "logo": "https://code4.ro/img/15d3aaf8-472f-4c26-ad5e-9d1a47fefe0f/endava.png?q=60&fit=max&dpr=1&h=256"
+                }
+              ]
             },
             {
               "id": 7,
