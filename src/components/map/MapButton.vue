@@ -49,7 +49,7 @@ export default {
   },
   computed: {
     highwayTitle() {
-      const subs = this.highway.title.split(' ')
+      const subs = this.$t(`${this.highway.slug}` + '.title').split(' ')
       return "<div>" + subs[0] + " " + subs[1] + "</div>" + subs[2]
     }
   }

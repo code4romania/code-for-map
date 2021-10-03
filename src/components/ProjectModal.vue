@@ -213,11 +213,6 @@ export default {
       this.projectIcon = require("../assets/images/projects/" +
         this.project.icon +
         ".png");
-
-      this.$gtag.pageview({
-        page_title: this.project.projectSlug,
-        page_path: window.location.href,
-      });
     },
   },
   created() {
@@ -237,11 +232,6 @@ export default {
     this.projectIcon = require("../assets/images/projects/" +
       this.project.icon +
       ".png");
-
-    this.$gtag.pageview({
-      page_title: this.project.projectSlug,
-      page_path: window.location.href,
-    });
 
     document.body.classList.add("overflow-y-hidden");
   },

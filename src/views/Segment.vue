@@ -7,7 +7,7 @@
         class="block xl:none"
       />
 
-      <SegmentHeader
+      <!-- <SegmentHeader
         class="mb-4"
         :icon="segmentObject.segmentSlug"
         :slug="slug"
@@ -15,9 +15,9 @@
         :title="segmentObject.title"
         :description="segmentObject.description"
         :status="segmentObject.status"
-      />
+      /> -->
 
-      <div
+      <!-- <div
         v-if="segmentObject.projects.length"
         class="ProjectsList"
       >
@@ -55,10 +55,10 @@
             <div class="absolute top-0 left-4 h-full w-2 bg-gray-300" />
           </router-link>
         </div>
-      </div>
+      </div> -->
     </div>
 
-    <div class="hidden lg:block">
+    <!-- <div class="hidden lg:block">
       <div class="flex items-center justify-end">
         <router-link
           :to="{ name: 'Highway', params: { slug: slug } }"
@@ -118,7 +118,7 @@
           :segment-slug="segmentSlug"
         />
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 
@@ -154,11 +154,6 @@ export default {
       immediate: true,
       handler: function(to) {
         this.showModal = to.meta && to.meta.showModal;
-
-        this.$gtag.pageview({
-          page_title: this.segmentSlug,
-          page_path: window.location.href,
-        });
       },
     },
   },
@@ -167,7 +162,8 @@ export default {
     this.code4ro_map = this.data.code4ro_map.find(
       (item) => item.slug == this.slug
     );
-    this.segmentObject = this.code4ro_map.highway_segments.find(
+
+    this.segmentObject = this.code4ro_map.segments.find(
       (item) => item.segmentSlug == this.segmentSlug
     );
 

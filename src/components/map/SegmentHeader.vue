@@ -1,15 +1,5 @@
 <template>
   <div class="relative pt-8">
-    <router-link
-      :to="{ name: 'Highway', params: { slug: slug } }"
-      class="absolute top-0 right-6 w-4"
-    >
-      <img
-        class="w-6 h-6"
-        src="../../assets/svg/icons/close.svg"
-      >
-    </router-link>
-
     <img
       class="w-24 mx-auto mb-4"
       :src="require(`../../assets/svg/icons/icon-${icon}.svg`)"

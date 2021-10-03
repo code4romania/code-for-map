@@ -43,7 +43,7 @@
           hreflang="en"
           @click="switchLocale(locale)"
         >
-          {{ $t(locale) }}
+          {{ locale }}
         </li>
       </ul>
     </div>

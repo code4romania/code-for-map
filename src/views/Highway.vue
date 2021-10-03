@@ -40,7 +40,7 @@
           <img
             class="w-full h-full"
             :src="
-              require(`../assets/svg/illustrations/${highway.highway_bg}.svg`)
+              require(`../assets/svg/illustrations/${highway.background}.svg`)
             "
           >
         </div>
@@ -56,12 +56,11 @@
         />
       </template>
 
-      <template v-for="segmentButton in highway.highway_segments">
+      <template v-for="segmentButton in highway.segments">
         <HighwayButton
           :key="'highway-btn-lg-' + segmentButton.id"
           :slug="highway.slug"
-          :segment-slug="segmentButton.segmentSlug"
-          :segment-button="segmentButton"
+          :segment="segmentButton"
           :color="highway.color"
           :has-projects="segmentButton.projects.length > 0"
         />
@@ -70,7 +69,6 @@
           :key="'highway-btn-' + segmentButton.id"
           :slug="highway.slug"
           :segment-slug="segmentButton.segmentSlug"
-          :title="segmentButton.title"
         />
       </template>
     </div>
@@ -148,11 +146,6 @@ export default {
           (item) => item.slug == to.params.slug
         );
       }
-
-      this.$gtag.pageview({
-        page_title: this.slug,
-        page_path: window.location.href,
-      });
     },
   },
 
@@ -161,6 +154,6 @@ export default {
     this.data.back_to_map.visible = true;
 
     postMessageHeight();
-  },
+  }
 };
 </script>

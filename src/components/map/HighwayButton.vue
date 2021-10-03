@@ -4,27 +4,27 @@
       name: 'Segment',
       params: {
         slug: slug,
-        segment: segmentSlug,
+        segment: segment.segmentSlug,
       },
     }"
     class="bg-white hidden lg:block border py-1 px-3 absolute z-30 rounded-full opacity-60 hover:opacity-100"
     :class="
       `border-${color}-500 ${hasProjects ? 'opacity-100' : ''}`
     "
-    :style="{ top: segmentButton.btn.top, left: segmentButton.btn.left }"
+    :style="{ top: segment.btn.top, left: segment.btn.left }"
   >
     <div
-      v-if="segmentButton.icon_left"
+      v-if="segment.icon_left"
       class="flex items-center"
     >
       <img
         class="w-8 h-8"
         :src="
-          require(`../../assets/svg/icons/icon-${segmentButton.segmentSlug}.svg`)
+          require(`../../assets/svg/icons/icon-${segment.segmentSlug}.svg`)
         "
       >
       <div class="text-left font-bold leading-5 ml-2">
-        {{ $t(segmentButton.title) }}
+        {{ $t(slug + '.segments.' + segment.segmentSlug + '.title') }}
       </div>
     </div>
     <div
@@ -32,12 +32,12 @@
       class="flex items-center"
     >
       <div class="text-right font-bold leading-5 mr-2">
-        {{ $t(segmentButton.title) }}
+        {{ $t(slug + '.segments.' + segment.segmentSlug + '.title') }}
       </div>
       <img
         class="w-6 h-6"
         :src="
-          require(`../../assets/svg/icons/icon-${segmentButton.segmentSlug}.svg`)
+          require(`../../assets/svg/icons/icon-${segment.segmentSlug}.svg`)
         "
       >
     </div>
@@ -46,19 +46,13 @@
 
 <script>
 export default {
-  /** Component name. */
   name: "HighwayButton",
-  /** Recived props. */
   props: {
-    segmentButton: {
+    segment: {
       type: Object,
       default: () => {},
     },
     slug: {
-      type: String,
-      default: "",
-    },
-    segmentSlug: {
       type: String,
       default: "",
     },
