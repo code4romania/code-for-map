@@ -43,7 +43,7 @@
           hreflang="en"
           @click="switchLocale(locale)"
         >
-          {{ locale }}
+          {{ labels[locale] }}
         </li>
       </ul>
     </div>
@@ -58,7 +58,12 @@ export default {
   mixins: [ clickaway ],
   data () {
     return {
-      active: false
+      active: false,
+      labels: {
+        en: "English",
+        ro: "Română",
+        hu: "Magyar",
+      }
     }
   },
   computed: {

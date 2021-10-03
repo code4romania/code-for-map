@@ -9,31 +9,28 @@
 			"prev": "Az előző megoldás",
 			"view": "Lásd a megoldást",
 			"done": "Megoldás elért",
-			"planned": "Tervezett megoldás"
+			"planned": "Soluție proiectată",
+			"adopted_by": "Adoptată de:",
+			"ask_finance": "Vrei să finanțezi această soluție?"
 		},
 		"map": {
-			"legend": "A legenda",
-			"road_done": "Út végrehajtva",
-			"road_designed": "Tervezett út",
-			"road_planned": "Tervezett út",
-			"destination": "Rendeltetési hely",
-			"objective": "Célkitűzés"
-		}
+			"legend": "Legendă",
+			"road_done": "Drum executat",
+			"road_designed": "Drum proiectat",
+			"road_planned": "Drum planificat",
+			"destination": "Destinație",
+			"objective": "Obiectiv"
+		},
+		"send_email": {
+			"title": "Trimite-ne un e-mail",
+			"link": "mailto:putem@code4.ro"
+		},
+		"segment_legend": "Descoperă mai jos care dintre segmentele din drumul nostru spre digitalizare sunt deja realizate și ce am proiectat."
 	},
 	"header": {
 		"title": "Együtt digitalizáljuk Romániát",
 		"description": "Elképzeltem öt \"autópályát\", amelyek összekötik a román társadalom fő problémáit, hogy lássam, hol lehet jó a digitalizáció. Kövesse a térkép minden útját, nézze meg, mit terveztünk és építettünk, és mennyit tudunk együtt valóra váltani a következő öt évben."
 	},
-	"call_to_action": {
-		"finance": {
-			"title": "Küldjön nekünk egy e -mailt",
-			"color": "ZÖLD",
-			"link": "mailto: tudunk@code4.ro"
-		}
-	},
-	"segement.legend.title": "Az alábbiakban megtudhatja, hogy a digitalizáláshoz vezető utunk mely szegmensei készültek el, és mit terveztünk.",
-	"segment.legend.adopted": "Az útszakaszt elfogadta:",
-	"segment.legend.finance": "Szeretné finanszírozni ezt a megoldást?",
 	"video": {
 		"title": "A következő 5 év",
 		"description": "Egy működő országhoz olyan digitális infrastruktúrára van szükségünk, mint a levegő. Vagy mint az utak. A Code for Romania négy éve olyan digitális megoldásokat épít, ahol senki sem jutott messzire. Térképre rajzoltuk az összes utat, amelyet együtt építhetünk a következő 5 évben. Románia térképén sok probléma található, de megmutattuk, hogy sokukra találunk megoldást.",

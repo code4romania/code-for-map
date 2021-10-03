@@ -9,7 +9,9 @@
       "prev": "Soluția anterioară",
       "view": "Vezi soluția",
       "done": "Soluție realizată",
-      "planned": "Soluție proiectată"
+      "planned": "Soluție proiectată",
+      "adopted_by": "Adoptată de:",
+      "ask_finance": "Vrei să finanțezi această soluție?"
     },
     "map": {
       "legend": "Legendă",
@@ -18,25 +20,18 @@
       "road_planned": "Drum planificat",
       "destination": "Destinație",
       "objective": "Obiectiv"
-    }
+    },
+    "send_email": {
+      "title": "Trimite-ne un e-mail",
+      "link": "mailto:putem@code4.ro"
+    },
+    "segment_legend": "Descoperă mai jos care dintre segmentele din drumul nostru spre digitalizare sunt deja realizate și ce am proiectat."
   },
 
   "header": {
     "title": "Digitalizăm România împreună",
     "description": "Am imaginat cinci &ldquo;autostrăzi&ldquo; care conectează probleme majore ale societății românești, pentru a vedea unde poate digitalizarea să facă bine. Urmărește pe hartă fiecare drum, vezi ce am proiectat și construit deja și câte putem transforma în realitate împreună în următorii cinci ani."
   },
-
-  "call_to_action": {
-    "finance": {
-      "title": "Trimite-ne un e-mail",
-      "color": "green",
-      "link": "mailto:putem@code4.ro"
-    }
-  },
-
-  "segement.legend.title": "Descoperă mai jos care dintre segmentele din drumul nostru spre digitalizare sunt deja realizate și ce am proiectat.",
-  "segment.legend.adopted": "Segment de drum adoptat de:",
-  "segment.legend.finance": "Vrei să finanțezi această soluție?",
 
   "video": {
     "title": "Următorii 5 ani",
@@ -291,7 +286,6 @@
   "health4ro": {
     "title": "Health for Romania",
     "description": "În ultimii ani, a devenit tot mai evidentă nevoia unui sistem de sănătate performant, bine organizat, care să fie la dispoziția tuturor cetățenilor. Dreptul la sănătate, educația pentru sănătate, accesul la servicii medicale sunt lucruri care, într-o societate normală, sunt de domeniul firescului. Credem că acolo unde problemele sunt urgente, tehnologia și inovația pot vindeca.",
-
     "segments":{
       "grija-pentru-sanatatea-mamei-si-a-copilului": {
         "status": "Proiectare finalizată",

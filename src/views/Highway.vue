@@ -74,7 +74,7 @@
     </div>
 
     <div class="hidden lg:block">
-      <div class="grid grid-cols-12">
+      <div class="grid grid-cols-12 lg:mt-6">
         <div
           v-if="highway.sponsor"
           class="col-span-2"
@@ -97,9 +97,9 @@
           </div>
         </div>
         <div class="col-span-12">
-          <p
+          <div
             class="text-lg my-4"
-            v-html="$t(highway.description)"
+            v-html="$t(highway.slug + '.description')"
           />
         </div>
       </div>

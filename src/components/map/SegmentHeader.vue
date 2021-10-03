@@ -1,24 +1,32 @@
 <template>
   <div class="relative pt-8">
-    <img
-      class="w-24 mx-auto mb-4"
-      :src="require(`../../assets/svg/icons/icon-${icon}.svg`)"
+    <router-link
+      :to="{ name: 'Highway', params: { slug: slug } }"
+      class="absolute top-0 right-6 w-4"
     >
-    <div class="text-center">
-      <div
-        class="bg-gray text-white text-lg inline-block px-2 py-1 leading-none mx-auto mb-2"
-        v-html="$t(status)"
-      />
+      <img
+        class="w-6 h-6"
+        src="../../assets/svg/icons/close.svg"
+      >
+    </router-link>
+    <div class="flex items-center mb-4">
+      <img
+        class="w-16 h-16"
+        :src="require(`../../assets/svg/icons/icon-${segment.segmentSlug}.svg`)"
+      >
       <Heading
         :level="3"
-        class="mb-5"
+        class="mb-0 ml-4"
       >
-        {{ $t(title) }}
+        {{ $t(slug + '.segments.' + segment.segmentSlug + '.title') }}
       </Heading>
     </div>
     <div
-      v-if="description"
-      v-html="$t(description)"
+      class="bg-gray text-white text-lg inline-block px-2 py-1 leading-none mx-auto mb-2"
+      v-html="$t(slug + '.segments.' + segment.segmentSlug + '.status')"
+    />
+    <div
+      v-html="$t(slug + '.segments.' + segment.segmentSlug + '.description')"
     />
   </div>
 </template>
@@ -33,25 +41,17 @@ export default {
       type: String,
       default: "",
     },
-    slug: {
-      type: String,
-      default: "",
-    },
     color: {
       type: String,
       default: "",
     },
-    title: {
+    slug: {
       type: String,
       default: "",
     },
-    description: {
-      type: String,
-      default: "",
-    },
-    status: {
-      type: String,
-      default: "",
+    segment: {
+      type: Object,
+      default: () => {},
     },
   },
 };

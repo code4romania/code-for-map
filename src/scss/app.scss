@@ -11,3 +11,16 @@ body {
 .router-link-exact-active {
     opacity: 1 !important;
 }
+
+.content-input {
+    p {
+        margin: 0 0 1.25rem;
+    }
+}
+
+.overlay-is-open {
+    #header-menu {
+        z-index: 0;
+        position: static;
+    }
+}

@@ -6,7 +6,7 @@
       <t-section>
         <div class="relative">
           <div
-            class="grid grid-cols-8 gap-4 xl:absolute xl:top-0 xl:left-0 xl:z-10 xl:h-full"
+            class="grid grid-cols-8 gap-4 xl:absolute xl:top-0 xl:left-0 xl:z-20 xl:h-full"
           >
             <div class="col-span-8 lg:col-span-4 xl:col-span-2">
               <div class="flex flex-col">
@@ -27,7 +27,7 @@
             id="map"
             class="grid grid-cols-8 gap-4"
           >
-            <div class="col-span-8 xl:col-start-3 xl:z-20">
+            <div class="col-span-8 xl:col-start-3 xl:z-10">
               <router-link
                 v-if="data.back_to_map.visible"
                 :to="{ name: 'Map' }"

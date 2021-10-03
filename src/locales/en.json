@@ -9,31 +9,28 @@
 			"prev": "The previous solution",
 			"view": "See the solution",
 			"done": "Solution achieved",
-			"planned": "Designed solution"
+			"planned": "Soluție proiectată",
+			"adopted_by": "Adoptată de:",
+			"ask_finance": "Vrei să finanțezi această soluție?"
 		},
 		"map": {
-			"legend": "The legend",
-			"road_done": "Road executed",
-			"road_designed": "Designed road",
-			"road_planned": "Planned road",
-			"destination": "Destination",
-			"objective": "Objective"
-		}
+			"legend": "Legendă",
+			"road_done": "Drum executat",
+			"road_designed": "Drum proiectat",
+			"road_planned": "Drum planificat",
+			"destination": "Destinație",
+			"objective": "Obiectiv"
+		},
+		"send_email": {
+			"title": "Trimite-ne un e-mail",
+			"link": "mailto:putem@code4.ro"
+		},
+		"segment_legend": "Descoperă mai jos care dintre segmentele din drumul nostru spre digitalizare sunt deja realizate și ce am proiectat."
 	},
 	"header": {
 		"title": "We digitize Romania together",
 		"description": "I imagined five \"highways\" that connect major problems of Romanian society, to see where digitalization can do good. Follow each road on the map, see what we have already designed and built and how much we can turn into reality together in the next five years."
 	},
-	"call_to_action": {
-		"finance": {
-			"title": "Send us an email",
-			"color": "GREENE",
-			"link": "mailto: we can@code4.ro"
-		}
-	},
-	"segement.legend.title": "Find out below which of the segments of our path to digitization are already made and what we have designed.",
-	"segment.legend.adopted": "Road segment adopted by:",
-	"segment.legend.finance": "Do you want to finance this solution?",
 	"video": {
 		"title": "The next 5 years",
 		"description": "For a functioning country, we need a digital infrastructure like air. Or like roads. For four years, Code for Romania has been building digital solutions where no one has come a long way. We have drawn on a map all the roads we can build together in the next 5 years. There are many problems on the map of Romania, but we have shown that we can find solutions for many of them.",

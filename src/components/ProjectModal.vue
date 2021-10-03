@@ -54,10 +54,10 @@
       <div class="my-6 lg:flex lg:items-start lg:justify-between">
         <div>
           <h3 class="text-4xl font-bold mb-1">
-            {{ $t(project.title) }}
+            {{ $t(slug + '.segments.' + segmentSlug + '.projects.' + project.projectSlug + '.title') }}
           </h3>
           <p class="text-xl leading-8 mb-6 lg:mb-0">
-            {{ $t(project.subtitle) }}
+            {{ $t(slug + '.segments.' + segmentSlug + '.projects.' + project.projectSlug + '.subtitle') }}
           </p>
         </div>
         <div>
@@ -113,8 +113,8 @@
             </div>
           </div>
           <div
-            class="mb-6"
-            v-html="$t(project.description)"
+            class="mb-6 content-input"
+            v-html="$t(slug + '.segments.' + segmentSlug + '.projects.' + project.projectSlug + '.description')"
           />
           <div class="flex items-center mb-3">
             <img
@@ -125,13 +125,13 @@
               v-if="project.adopted"
               class="font-bold uppercase text-sm tracking-wider"
             >
-              {{ $t("segment.legend.adopted") }}
+              {{ $t("general.solution.adopted_by") }}
             </span>
             <span
               v-else
               class="font-bold uppercase text-sm tracking-wider"
             >
-              {{ $t("segment.legend.finance") }}
+              {{ $t("general.solution.ask_finance") }}
             </span>
           </div>
 
@@ -158,11 +158,10 @@
           </div>
           <a
             v-else
-            class="inline-flex items-center px-8 py-4 mx-2 my-2 text-white text-lg rounded"
-            :href="data.call_to_action.finance.link"
-            :class="'bg-' + data.call_to_action.finance.color + '-500'"
+            class="inline-flex items-center px-8 py-4 mx-2 my-2 bg-green-500 text-white text-lg rounded"
+            :href="$t('general.send_email.link')"
           >
-            {{ $t(data.call_to_action.finance.title) }}
+            {{ $t("general.send_email.title") }}
           </a>
         </div>
       </div>
@@ -233,7 +232,7 @@ export default {
       this.project.icon +
       ".png");
 
-    document.body.classList.add("overflow-y-hidden");
+    document.body.classList.add("overflow-y-hidden", "overlay-is-open");
   },
   methods: {
     next() {
@@ -272,7 +271,7 @@ export default {
         },
       })
 
-      document.body.classList.remove('overflow-y-hidden')
+      document.body.classList.remove("overflow-y-hidden", "overlay-is-open")
     }
   },
 };

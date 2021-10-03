@@ -1,10 +1,10 @@
 <template>
   <div class="mb-8">
     <p class="mb-4">
-      {{ $t("segement.legend.title") }}
+      {{ $t("general.segment_legend") }}
     </p>
 
-    <div class="flex justify-start">
+    <div class="flex justify-start mt-8">
       <div class="flex items-center mr-4">
         <i
           class="w-6 h-6 rounded-full border-4 mr-2"
