@@ -27,7 +27,7 @@
             id="map"
             class="grid grid-cols-8 gap-4"
           >
-            <div class="col-span-8 xl:col-start-3 xl:z-10">
+            <div class="col-span-8 xl:col-start-3 xl:z-20">
               <router-link
                 v-if="data.back_to_map.visible"
                 :to="{ name: 'Map' }"

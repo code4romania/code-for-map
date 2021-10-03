@@ -80,6 +80,8 @@
             <!-- x-on:click="open = !open" -->
             <button
               class="px-3 py-2 rounded hover:bg-gray-100 focus:bg-gray-200 focus:outline-none hidden font-light lg:flex lg:items-center"
+              @click="toggle"
+              v-on-clickaway="away"
             >
               <span>Despre noi</span>
               <svg
@@ -178,7 +180,8 @@
           <div>
             <button
               class="px-3 py-2 rounded hover:bg-gray-100 focus:bg-gray-200 focus:outline-none hidden font-light lg:flex lg:items-center"
-              x-on:click="open = !open"
+              @click="toggle"
+              v-on-clickaway="away"
             >
               <span>Programele noastre</span>
               <svg
@@ -268,7 +271,8 @@
           <div>
             <button
               class="px-3 py-2 rounded hover:bg-gray-100 focus:bg-gray-200 focus:outline-none hidden font-light lg:flex lg:items-center"
-              x-on:click="open = !open"
+              @click="toggle"
+              v-on-clickaway="away"
             >
               <span>Domenii</span>
               <svg
@@ -365,9 +369,11 @@
 <script>
 // import objectToGetParams from "../utils/objectToGetParams";
 import LocaleSwitcher from "./LocaleSwitcher";
+import { mixin as clickaway } from 'vue-clickaway';
 
 export default {
   name: "Navigation",
+  mixins: [ clickaway ],
   components: {
     LocaleSwitcher,
   },
@@ -376,5 +382,15 @@ export default {
       isOpen: false
     };
   },
+  methods: {
+    toggle(){
+      this.isOpen = !this.isOpen;
+
+      console.log("merge?")
+    },
+    away(){
+      this.isOpen = false
+    }
+  }
 };
 </script>
