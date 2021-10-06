@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Navigation />
+    <Navigation :menu="data.navigation.sections" />
 
     <div class="container px-4 mx-auto lg:pt-16">
       <t-section>

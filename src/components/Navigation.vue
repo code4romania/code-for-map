@@ -67,225 +67,35 @@
         </button>
       </div>
 
-      <!-- :class="{ hidden: !open }"
-      x-on:click.away="open = false" -->
       <ul
         id="header-menu"
         class="relative z-30 items-center justify-end w-full col-span-4 lg:w-auto lg:flex lg:col-span-9 lg:col-start-4 hidden"
       >
-        <li class="relative py-2 lg:ml-6">
-          <!-- x-data="{ open: false }"
-          x-on:click.away="open = false" -->
-          <div>
-            <!-- x-on:click="open = !open" -->
-            <button
-              class="px-3 py-2 rounded hover:bg-gray-100 focus:bg-gray-200 focus:outline-none hidden font-light lg:flex lg:items-center"
-              @click="toggle"
-              v-on-clickaway="away"
-            >
-              <span>Despre noi</span>
-              <svg
-                class="fill-current -mr-1 ml-1 h-5 w-5"
-                viewBox="0 0 24 24"
-              >
-                <path d="M12,15,7.8,10.8,9.2,9.3,12,12.2l2.8-2.9,1.4,1.5Z" />
-              </svg>
-            </button>
-
-            <a
-              class="px-3 py-2 rounded hover:bg-gray-100 focus:bg-gray-200 focus:outline-none flex lg:hidden"
-              href=""
-            >
-              Despre noi
-            </a>
-
-            <!-- :class="{ 'lg:hidden': !open }" -->
-            <div
-              class="pl-5 lg:shadow-xs lg:pl-0 lg:absolute lg:right-0 lg:mt-2 lg:w-48 lg:origin-top-right lg:bg-white"
-            >
-              <ul class="lg:shadow-lg">
-                <li>
-                  <a
-                    class="px-3 py-2 rounded hover:bg-gray-100 focus:bg-gray-200 focus:outline-none flex"
-                    href="https://code4.ro/ro/echipa"
-                  >
-                    Echipa
-                  </a>
-                </li>
-                <li>
-                  <a
-                    class="px-3 py-2 rounded hover:bg-gray-100 focus:bg-gray-200 focus:outline-none flex"
-                    href="https://code4.ro/ro/comunitate"
-                  >
-                    Comunitatea
-                  </a>
-                </li>
-                <li>
-                  <a
-                    class="px-3 py-2 rounded hover:bg-gray-100 focus:bg-gray-200 focus:outline-none flex"
-                    href="https://code4.ro/ro/povestea-noastra"
-                  >
-                    Povestea noastră
-                  </a>
-                </li>
-                <li>
-                  <a
-                    class="px-3 py-2 rounded hover:bg-gray-100 focus:bg-gray-200 focus:outline-none flex"
-                    href="https://code4.ro/ro/sustinatori"
-                  >
-                    Susținători
-                  </a>
-                </li>
-                <li>
-                  <a
-                    class="px-3 py-2 rounded hover:bg-gray-100 focus:bg-gray-200 focus:outline-none flex"
-                    href="https://code4.ro/ro/transparenta"
-                  >
-                    Transparență
-                  </a>
-                </li>
-                <li>
-                  <a
-                    class="px-3 py-2 rounded hover:bg-gray-100 focus:bg-gray-200 focus:outline-none flex"
-                    href="https://code4.ro/ro/cum-functionam"
-                  >
-                    Cum funcționăm
-                  </a>
-                </li>
-                <li>
-                  <a
-                    class="px-3 py-2 rounded hover:bg-gray-100 focus:bg-gray-200 focus:outline-none flex"
-                    href="https://code4.ro/ro/solutiile"
-                  >
-                    Soluțiile noastre
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </li>
-
-        <li class="relative py-2 lg:ml-6">
-          <a
-            class="px-3 py-2 rounded hover:bg-gray-100 focus:bg-gray-200 focus:outline-none flex"
-            href="https://code4.ro/putem"
+        <template v-for="section in menu">
+          <li
+            :key="'section-' + section.slug"
+            class="relative py-2 lg:ml-6"
           >
-            Planul nostru
-          </a>
-        </li>
-
-        <li class="relative py-2 lg:ml-6">
-          <!-- x-data="{ open: false }"
-          x-on:click.away="open = false" -->
-          <div>
-            <button
-              class="px-3 py-2 rounded hover:bg-gray-100 focus:bg-gray-200 focus:outline-none hidden font-light lg:flex lg:items-center"
-              @click="toggle"
-              v-on-clickaway="away"
-            >
-              <span>Programele noastre</span>
-              <svg
-                class="fill-current -mr-1 ml-1 h-5 w-5"
-                viewBox="0 0 24 24"
-              >
-                <path d="M12,15,7.8,10.8,9.2,9.3,12,12.2l2.8-2.9,1.4,1.5Z" />
-              </svg>
-            </button>
-
-            <a
-              class="px-3 py-2 rounded hover:bg-gray-100 focus:bg-gray-200 focus:outline-none flex lg:hidden"
-              href=""
-            >
-              Programele noastre
-            </a>
-
-            <!-- :class="{ 'lg:hidden': !open }" -->
-            <div
-              class="pl-5 lg:shadow-xs lg:pl-0 lg:absolute lg:right-0 lg:mt-2 lg:w-48 lg:origin-top-right lg:bg-white"
-            >
-              <ul class="lg:shadow-lg">
-                <li>
-                  <a
-                    class="px-3 py-2 rounded hover:bg-gray-100 focus:bg-gray-200 focus:outline-none flex"
-                    href="https://code4.ro/ro/civic-labs"
-                  >
-                    Civic Labs
-                  </a>
-                </li>
-                <li>
-                  <a
-                    class="px-3 py-2 rounded hover:bg-gray-100 focus:bg-gray-200 focus:outline-none flex"
-                    href="https://tfsg.code4.ro/ro/"
-                  >
-                    Tech for Social Good
-                  </a>
-                </li>
-                <li>
-                  <a
-                    class="px-3 py-2 rounded hover:bg-gray-100 focus:bg-gray-200 focus:outline-none flex"
-                    href="https://code4.ro/ro/critical-civic-infrastructure"
-                  >
-                    Critical Civic Infrastructure
-                  </a>
-                </li>
-                <li>
-                  <a
-                    class="px-3 py-2 rounded hover:bg-gray-100 focus:bg-gray-200 focus:outline-none flex"
-                    href="https://code4.ro/ro/civic-tech-911"
-                  >
-                    Civic Tech 911
-                  </a>
-                </li>
-                <li>
-                  <a
-                    class="px-3 py-2 rounded hover:bg-gray-100 focus:bg-gray-200 focus:outline-none flex"
-                    href="https://code4.ro/ro/update-romania"
-                  >
-                    Update Romania
-                  </a>
-                </li>
-                <li>
-                  <a
-                    class="px-3 py-2 rounded hover:bg-gray-100 focus:bg-gray-200 focus:outline-none flex"
-                    href="https://code4.ro/ro/code-for-romania-task-force"
-                  >
-                    Task Force
-                  </a>
-                </li>
-                <li>
-                  <a
-                    class="px-3 py-2 rounded hover:bg-gray-100 focus:bg-gray-200 focus:outline-none flex"
-                    href="https://code4.ro/ro/prezenta-globala"
-                  >
-                    Prezența globală
-                  </a>
-                </li>
-              </ul>
+            <div v-if="section.items">
+              <NavigationSubmenu :section="section" />
             </div>
-          </div>
-        </li>
-
-        <li class="relative py-2 lg:ml-6">
-          
-          <NavigationSubmenu />
-
-        </li>
-
-        <li class="relative py-2 lg:ml-6">
-          <a
-            class="px-3 py-2 rounded hover:bg-gray-100 focus:bg-gray-200 focus:outline-none flex"
-            href="https://code4.ro/ro/blog"
-          >
-            Blog
-          </a>
-        </li>
+            <div v-else>
+              <a
+                class="px-3 py-2 rounded hover:bg-gray-100 focus:bg-gray-200 focus:outline-none flex"
+                :href="$t('navigation.' + section.slug + '.link')"
+              >
+                {{ $t('navigation.' + section.slug + '.title') }}
+              </a>
+            </div>
+          </li>
+        </template>
 
         <li class="relative py-2 lg:ml-6">
           <a
-            href="https://code4.ro/ro/doneaza"
+            :href="$t('general.donate')"
             class="relative inline-block w-full px-6 py-2 font-semibold leading-snug tracking-wide text-center shadow-md sm:w-auto hover:shadow-lg focus:outline-none focus:shadow-md text-white bg-green-500 focus:bg-green-600"
           >
-            Donează
+            {{ $t('general.donate') }}
           </a>
         </li>
         <!-- :class="{ 'lg:hidden': !open }" -->
@@ -305,25 +115,21 @@ import { mixin as clickaway } from 'vue-clickaway';
 
 export default {
   name: "Navigation",
-  mixins: [ clickaway ],
   components: {
     LocaleSwitcher,
     NavigationSubmenu,
+  },
+  mixins: [ clickaway ],
+  props: {
+    menu: {
+      type: Array,
+      default: () => []
+    }
   },
   data() {
     return {
       isOpen: false
     };
-  },
-  methods: {
-    toggle(){
-      this.isOpen = !this.isOpen;
-
-      console.log("merge?")
-    },
-    away(){
-      this.isOpen = false
-    }
   }
 };
 </script>

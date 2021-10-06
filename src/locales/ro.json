@@ -1,5 +1,104 @@
 {
+  "navigation": {
+    "about-us": {
+      "title": "Despre noi",
+      "items": {
+        "team": {
+          "title": "Echipa",
+          "link": "https://code4.ro"
+        },
+        "community": {
+          "title": "Comunitatea",
+          "link": "https://code4.ro"
+        },
+        "story": {
+          "title": "Povestea",
+          "link": "https://code4.ro"
+        },
+        "supporters": {
+          "title": "Suporteri",
+          "link": "https://code4.ro"
+        },
+        "transparency": {
+          "title": "Transparenta",
+          "link": "https://code4.ro"
+        },
+        "how-we-work": {
+          "title": "Cum lucram",
+          "link": "https://code4.ro"
+        },
+        "solutions": {
+          "title": "Solutii",
+          "link": "https://code4.ro"
+        }
+      }
+    },
+    "our-plan": {
+      "title": "Planul nostru",
+      "link": "https://code4.ro"
+    },
+    "our-work": {
+      "title": "Programele noastre",
+      "items": {
+        "civic-labs": {
+          "title": "Civic labs",
+          "link": "https://code4.ro"
+        },
+        "tfsg": {
+          "title": "tfsg",
+          "link": "https://code4.ro"
+        },
+        "critical-infra": {
+          "title": "Echipa",
+          "link": "https://code4.ro"
+        },
+        "civic-tech-911": {
+          "title": "Echipa",
+          "link": "https://code4.ro"
+        },
+        "update-ro": {
+          "title": "Echipa",
+          "link": "https://code4.ro"
+        },
+        "taskforce": {
+          "title": "Echipa",
+          "link": "https://code4.ro"
+        },
+        "global": {
+          "title": "Echipa",
+          "link": "https://code4.ro"
+        }
+      }
+    },
+    "domains": {
+      "title": "Domenii",
+      "items": {
+        "education": {
+          "title": "Educatie",
+          "link": "#"
+        },
+        "health": {
+          "title": "Sanatate",
+          "link": "#"
+        },
+        "vulnerable-groups": {
+          "title": "grupuri",
+          "link": "#"
+        },
+        "participation": {
+          "title": "partikip",
+          "link": "#"
+        }
+      }
+    },
+    "blog": {
+      "title": "Blog",
+      "link": "https://code4.ro"
+    }
+  },
   "general": {
+    "donate": "Doneză",
+    "donate_link": "https://code4.ro/ro/doneaza",
     "financed_by": "Susținut de:",
     "back_to_map": "Înapoi la hartă",
     "title_how_we_work": "Cum lucrăm",

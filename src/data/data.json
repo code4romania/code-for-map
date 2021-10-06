@@ -3,6 +3,86 @@
     "visible": false
   },
 
+  "navigation": {
+    "sections": [
+      {
+        "slug": "about-us",
+        "items": [
+          {
+            "slug": "team"
+          },
+          {
+            "slug": "community"
+          },
+          {
+            "slug": "story"
+          },
+          {
+            "slug": "supporters"
+          },
+          {
+            "slug": "transparency"
+          },
+          {
+            "slug": "how-we-work"
+          },
+          {
+            "slug": "solutions"
+          }
+        ]
+      },
+      {
+        "slug": "our-plan"
+      },
+      {
+        "slug": "our-work",
+        "items": [
+          {
+            "slug": "civic-labs"
+          },
+          {
+            "slug": "tfsg"
+          },
+          {
+            "slug": "critical-infra"
+          },
+          {
+            "slug": "civic-tech-911"
+          },
+          {
+            "slug": "update-ro"
+          },
+          {
+            "slug": "taskforce"
+          },
+          {
+            "slug": "global"
+          }
+        ]
+      },
+      {
+        "slug": "domains",
+        "items": [
+          {
+            "slug": "education"
+          },
+          {
+            "slug": "health"
+          },
+          {
+            "slug": "vulnerable-groups"
+          },
+          {
+            "slug": "participation"
+          }
+        ]
+      },
+      {
+        "slug": "blog"
+      }
+    ]
+  },
+
   "partners": {
     "main": [
       {

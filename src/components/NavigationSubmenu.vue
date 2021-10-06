@@ -1,14 +1,13 @@
 <template>
   <div>
-
-    <!-- x-data="{ open: false }"
-    x-on:click.away="open = false" -->
     <button
+      v-on-clickaway="away"
       class="px-3 py-2 rounded hover:bg-gray-100 focus:bg-gray-200 focus:outline-none hidden font-light lg:flex lg:items-center"
       @click="toggle"
-      v-on-clickaway="away"
     >
-      <span>Domenii</span>
+      <span>
+        {{ $t('navigation.' + section.slug + '.title') }}
+      </span>
       <svg
         class="fill-current -mr-1 ml-1 h-5 w-5"
         viewBox="0 0 24 24"
@@ -19,60 +18,29 @@
 
     <a
       class="px-3 py-2 rounded hover:bg-gray-100 focus:bg-gray-200 focus:outline-none flex lg:hidden"
-      href=""
     >
-      Domenii
+      {{ $t('navigation.' + section.slug + '.title') }}
     </a>
 
-    <!-- :class="{ 'lg:hidden': !open }" -->
     <div
       v-show="isOpen"
       class="pl-5 lg:shadow-xs lg:pl-0 lg:absolute lg:right-0 lg:mt-2 lg:w-48 lg:origin-top-right lg:bg-white"
     >
       <ul class="lg:shadow-lg">
-        <li>
-          <a
-            class="px-3 py-2 rounded hover:bg-gray-100 focus:bg-gray-200 focus:outline-none flex"
-            href="https://code4.ro/ro/education-for-romania"
+        <template v-for="item in section.items">
+          <li
+            :key="'item-' + item.slug"
           >
-            Educație
-          </a>
-        </li>
-        <li>
-          <a
-            class="px-3 py-2 rounded hover:bg-gray-100 focus:bg-gray-200 focus:outline-none flex"
-            href="https://code4.ro/ro/health-for-romania"
-          >
-            Sănătate
-          </a>
-        </li>
-        <li>
-          <a
-            class="px-3 py-2 rounded hover:bg-gray-100 focus:bg-gray-200 focus:outline-none flex"
-            href="https://code4.ro/ro/environment-for-romania"
-          >
-            Mediu
-          </a>
-        </li>
-        <li>
-          <a
-            class="px-3 py-2 rounded hover:bg-gray-100 focus:bg-gray-200 focus:outline-none flex"
-            href="https://code4.ro/ro/care-for-romania"
-          >
-            Grupuri vulnerabile
-          </a>
-        </li>
-        <li>
-          <a
-            class="px-3 py-2 rounded hover:bg-gray-100 focus:bg-gray-200 focus:outline-none flex"
-            href="https://code4.ro/ro/participation-for-romania"
-          >
-            Participare
-          </a>
-        </li>
+            <a
+              class="px-3 py-2 rounded hover:bg-gray-100 focus:bg-gray-200 focus:outline-none flex"
+              :href="$t('navigation.' + section.slug + '.items.' + item.slug + '.link')"
+            >
+              {{ $t('navigation.' + section.slug + '.items.' + item.slug + '.title') }}
+            </a>
+          </li>
+        </template>
       </ul>
     </div>
-
   </div>
 </template>
 
@@ -82,7 +50,11 @@ import { mixin as clickaway } from 'vue-clickaway';
 export default {
   name: "NavigationSubmenu",
   mixins: [ clickaway ],
-  components: {
+  props: {
+    section: {
+      type: Object,
+      default: () => {},
+    },
   },
   data() {
     return {
@@ -92,8 +64,6 @@ export default {
   methods: {
     toggle(){
       this.isOpen = !this.isOpen;
-
-      console.log("merge?")
     },
     away(){
       this.isOpen = false
