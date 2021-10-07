@@ -168,7 +168,7 @@ export default {
   methods: {
     projectClick(event) {
       const parentElement = event.target.parentElement;
-      if (parentElement.tagName !== "text") {
+      if (parentElement.tagName !== "text" || !parentElement.dataset.projectid) {
         return;
       }
       const projectId = parentElement.dataset.projectid;
