@@ -200,7 +200,7 @@ export default {
       if (parentElement.tagName !== "text" || !parentElement.dataset.projectid) {
         return;
       }
-      const projectId = parentElement.dataset.projectid;
+      const projectId = parseInt(parentElement.dataset.projectid, 10);
       const project = this.segment.projects.find(
         (segmentProject) => segmentProject.id === projectId
       );
