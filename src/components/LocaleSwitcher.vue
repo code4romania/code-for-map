@@ -62,9 +62,6 @@ export default {
       return process.env.VUE_APP_I18N_SUPPORTED_LOCALE.split(",").filter((locale) => locale !== this._i18n.locale);
     },
   },
-  mounted() {
-    console.log(this._i18n.locale)
-  },
   methods: {
     switchLocale(locale) {
       if (this._i18n.locale !== locale) {

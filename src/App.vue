@@ -230,20 +230,32 @@ export default {
     TButton,
     TSection,
     Heading,
-    CardBorderDashed
+    CardBorderDashed,
   },
   data() {
     return {
       data: {},
     };
   },
+  computed: {
+    locales() {
+      return process.env.VUE_APP_I18N_SUPPORTED_LOCALE.split(",");
+    },
+  },
   created() {
     this.data = data;
 
+    if(this.$route.query.locale) {
+      if(this.locales.find((locale) => locale !== this.$route.query.locale)) {
+        this._i18n.locale = this.$route.query.locale;
+        window.sessionStorage.setItem("locale", this.$route.query.locale);
+      }
+    }
+
     if (!window.sessionStorage.getItem("locale")) {
-      window.sessionStorage.setItem("locale", this._i18n.locale)
+      window.sessionStorage.setItem("locale", this._i18n.locale);
     } else {
-      this._i18n.locale = window.sessionStorage.getItem("locale")
+      this._i18n.locale = window.sessionStorage.getItem("locale");
     }
   }
 };
