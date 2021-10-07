@@ -206,7 +206,7 @@ export default {
   watch: {
     $route(to) {
       this.project = this.segmentObject.projects.find(
-        (item) => item.projectSlug == to.params.solution
+        (item) => item.projectSlug === to.params.solution
       );
 
       this.projectIcon = require("../assets/images/projects/" +
@@ -217,7 +217,7 @@ export default {
   created() {
     /** Extract the current active project index. */
     for (let index = 0; index < this.segmentObject.projects.length; index++) {
-      if (this.segmentObject.projects[index].projectSlug == this.solutionSlug) {
+      if (this.segmentObject.projects[index].projectSlug === this.solutionSlug) {
         this.active_index = index;
         break;
       }
@@ -225,7 +225,7 @@ export default {
   },
   mounted() {
     this.project = this.segmentObject.projects.find(
-      (item) => item.projectSlug == this.solutionSlug
+      (item) => item.projectSlug === this.solutionSlug
     );
 
     this.projectIcon = require("../assets/images/projects/" +
@@ -269,9 +269,9 @@ export default {
           slug: this.slug,
           segment: this.segmentSlug
         },
-      })
+      });
 
-      document.body.classList.remove("overflow-y-hidden", "overlay-is-open")
+      document.body.classList.remove("overflow-y-hidden", "overlay-is-open");
     }
   },
 };

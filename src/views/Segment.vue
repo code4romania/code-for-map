@@ -54,23 +54,41 @@
       </div>
     </div>
 
-    <div class="hidden lg:block">
-      <div class="flex items-center justify-end">
-        <router-link
-          :to="{ name: 'Highway', params: { slug: slug } }"
-          class="inline-flex"
+    <div class="hidden lg:block relative">
+      <button
+        :class="'hidden lg:flex absolute top-1/2 left-0 xl:left-16 -m-5 text-' + highway.color + '-500 p-3 rounded hover:bg-gray-50 focus:bg-gray-100 focus:outline-none'"
+        @click="previous"
+      >
+        <svg
+          class="h-10 w-10"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
         >
-          <div class="flex items-center">
-            <img
-              class="w-6 h-6"
-              src="../assets/svg/icons/chevron-left.svg"
-            >
-            <div class="ml-2 border-b border-gray-700 text-gray-700 text-lg">
-              {{ $t('general.back_to_map') }}
-            </div>
-          </div>
-        </router-link>
-      </div>
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M11 17l-5-5m0 0l5-5m-5 5h12"
+          />
+        </svg>
+      </button>
+      <button
+        :class="'hidden lg:flex absolute top-1/2 right-0 -m-5 text-' + highway.color + '-500 p-3 rounded hover:bg-gray-50 focus:bg-gray-100 focus:outline-none'"
+        @click="next"
+      >
+        <svg
+          class="h-10 w-10"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M13 7l5 5m0 0l-5 5m5-5H6"
+          />
+        </svg>
+      </button>
       <div>
         <div
           :class="`mx-auto lg:-mt-24 lg:-mb-8 xl:mb-2 ${segment.projects.length > 0 ? '' : 'max-w-2xl'}`"
@@ -143,6 +161,7 @@ export default {
       highway: {},
       segment: {},
       showModal: false,
+      active_index: null,
     };
   },
   watch: {
@@ -150,17 +169,27 @@ export default {
       immediate: true,
       handler: function(to) {
         this.showModal = to.meta && to.meta.showModal;
+
+        if(this.highway.segments) {
+          this.segment = this.highway.segments.find(
+            (item) => item.segmentSlug === to.params.segment
+          );
+        }
       },
     },
   },
-  /** Vue created life cycle initialize data for this route. */
   created() {
     this.highway = this.data.code4ro_map.find(
-      (item) => item.slug == this.slug
+      (item) => item.slug === this.slug
     );
 
-    this.segment = this.highway.segments.find(
-      (item) => item.segmentSlug == this.segmentSlug
+    this.segment = this.highway.segments.find((item, index) => {
+        if (item.segmentSlug === this.segmentSlug) {
+          this.active_index = index;
+        }
+
+        return item.segmentSlug === this.segmentSlug;
+      }
     );
 
     this.data.back_to_map.visible = true;
@@ -173,12 +202,40 @@ export default {
       }
       const projectId = parentElement.dataset.projectid;
       const project = this.segment.projects.find(
-        (segmentProject) => segmentProject.id == projectId
+        (segmentProject) => segmentProject.id === projectId
       );
       this.$router.push({
         name: "ProjectModal",
         params: {
           solution: project.projectSlug,
+        },
+      });
+    },
+    next() {
+      this.active_index =
+        this.active_index + 1 < this.highway.segments.length
+          ? this.active_index + 1
+          : 0;
+
+      this.$router.push({
+        name: "Segment",
+        params: {
+          slug: this.highway.slug,
+          segment: this.highway.segments[this.active_index].segmentSlug
+        },
+      });
+    },
+    previous() {
+      this.active_index =
+        this.active_index - 1 >= 0
+          ? this.active_index - 1
+          : this.highway.segments.length - 1;
+
+      this.$router.push({
+        name: "Segment",
+        params: {
+          slug: this.highway.slug,
+          segment: this.highway.segments[this.active_index].segmentSlug
         },
       });
     },

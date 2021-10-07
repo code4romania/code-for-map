@@ -143,14 +143,14 @@ export default {
     $route(to) {
       if (this.slug != to) {
         this.highway = this.data.code4ro_map.find(
-          (item) => item.slug == to.params.slug
+          (item) => item.slug === to.params.slug
         );
       }
     },
   },
 
   created() {
-    this.highway = this.data.code4ro_map.find((item) => item.slug == this.slug);
+    this.highway = this.data.code4ro_map.find((item) => item.slug === this.slug);
     this.data.back_to_map.visible = true;
 
     postMessageHeight();

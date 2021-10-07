@@ -9,7 +9,7 @@
             class="grid grid-cols-8 gap-4 xl:absolute xl:top-0 xl:left-0 xl:z-20 xl:h-full"
           >
             <div class="col-span-8 lg:col-span-4 xl:col-span-2">
-              <div class="flex flex-col">
+              <div class="flex flex-col justify-between">
                 <div class="my-8 xl:mb-16">
                   <Heading
                     :level="1"
@@ -17,6 +17,21 @@
                     {{ $t('header.title') }}
                   </Heading>
                   <p v-html="$t('header.description')" />
+                </div>
+                <div class="h-10 mb-8">
+                  <router-link
+                    v-if="data.back_to_map.visible"
+                    :to="{ name: 'Map' }"
+                    class="inline-flex items-center relative z-10"
+                  >
+                    <img
+                      class="w-8 h-8"
+                      src="./assets/svg/icons/chevron-left.svg"
+                    >
+                    <div class="ml-2 border-b border-gray-700 text-gray-700 text-lg">
+                      {{ $t('general.back_to_map') }}
+                    </div>
+                  </router-link>
                 </div>
                 <Legend class="xl:pt-16" />
               </div>
@@ -28,19 +43,6 @@
             class="grid grid-cols-8 gap-4"
           >
             <div class="col-span-8 xl:col-start-3 xl:z-20">
-              <router-link
-                v-if="data.back_to_map.visible"
-                :to="{ name: 'Map' }"
-                class="mb-8 inline-flex items-center lg:hidden"
-              >
-                <img
-                  class="w-8 h-8"
-                  src="./assets/svg/icons/chevron-left.svg"
-                >
-                <div class="ml-2 border-b border-gray-700 text-gray-700 text-lg">
-                  {{ $t('general.back_to_map') }}
-                </div>
-              </router-link>
               <router-view :data="data" />
             </div>
           </div>

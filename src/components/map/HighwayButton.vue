@@ -7,7 +7,7 @@
         segment: segment.segmentSlug,
       },
     }"
-    class="bg-white hidden lg:block border py-1 px-3 absolute z-30 rounded-full opacity-60 hover:opacity-100"
+    class="bg-white hidden lg:block border py-1 px-3 absolute z-30 rounded-full opacity-60 hover:opacity-100 transition transform"
     :class="
       `border-${color}-500 ${hasProjects ? 'opacity-100' : ''}`
     "

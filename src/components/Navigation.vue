@@ -78,7 +78,7 @@
         <template v-for="section in menu">
           <li
             :key="'section-' + section.slug"
-            class="relative py-2 lg:ml-6"
+            class="relative py-2 xl:ml-6"
           >
             <div v-if="section.items">
               <NavigationSubmenu :section="section" />

@@ -6,7 +6,7 @@
     <!-- Main map button links to highway -->
     <router-link
       :to="{ name: 'Highway', params: { slug: highway.slug } }"
-      class="py-1 px-4 border-4 block rounded-full bg-white transition-transform transform relative hover:scale-110 lg:py-2 z-20 hover:z-30"
+      class="py-1 px-4 border-4 block rounded-full bg-white transition-all transform relative hover:scale-110 lg:py-2 z-20 hover:z-30"
       :class="[
         `border-${highway.color}-500`,
         $route.name != 'Map' ? 'opacity-30 hover:opacity-100' : '',
