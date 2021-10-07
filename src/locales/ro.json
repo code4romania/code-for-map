@@ -5,68 +5,72 @@
       "items": {
         "team": {
           "title": "Echipa",
-          "link": "https://code4.ro"
+          "link": "https://code4.ro/ro/echipa"
         },
         "community": {
           "title": "Comunitatea",
-          "link": "https://code4.ro"
+          "link": "https://code4.ro/ro/comunitate"
         },
         "story": {
-          "title": "Povestea",
-          "link": "https://code4.ro"
+          "title": "Povestea noastră",
+          "link": "https://code4.ro/ro/povestea-noastra"
         },
         "supporters": {
-          "title": "Suporteri",
-          "link": "https://code4.ro"
+          "title": "Susținători",
+          "link": "https://code4.ro/ro/sustinatori"
         },
         "transparency": {
-          "title": "Transparenta",
-          "link": "https://code4.ro"
+          "title": "Transparență",
+          "link": "https://code4.ro/ro/transparenta"
         },
         "how-we-work": {
-          "title": "Cum lucram",
-          "link": "https://code4.ro"
+          "title": "Cum funcționăm",
+          "link": "https://code4.ro/ro/cum-functionam"
         },
         "solutions": {
-          "title": "Solutii",
-          "link": "https://code4.ro"
+          "title": "Soluțiile noastre",
+          "link": "https://code4.ro/ro/solutiile"
+        },
+        "institutions": {
+          "title": "Instituții sprijinite",
+          "link": "https://code4.ro/ro/institutii-sprijinite"
         }
       }
     },
     "our-plan": {
       "title": "Planul nostru",
-      "link": "https://code4.ro"
+      "link": "https://putem.code4.ro"
     },
     "our-work": {
       "title": "Programele noastre",
       "items": {
         "civic-labs": {
-          "title": "Civic labs",
-          "link": "https://code4.ro"
+          "title": "Civic Labs",
+          "link": "https://code4.ro/ro/civic-labs"
         },
         "tfsg": {
-          "title": "tfsg",
-          "link": "https://code4.ro"
+          "title": "Tech for Social Good",
+          "link": "https://tfsg.code4.ro/ro/"
         },
         "critical-infra": {
-          "title": "Echipa",
-          "link": "https://code4.ro"
+          "title": "Critical Civic Infrastructure",
+          "link": "https://code4.ro/ro/critical-civic-infrastructure"
         },
         "civic-tech-911": {
-          "title": "Echipa",
-          "link": "https://code4.ro"
+          "title": "Civic Tech 911",
+          "link": "https://code4.ro/ro/civic-tech-911"
         },
         "update-ro": {
-          "title": "Echipa",
-          "link": "https://code4.ro"
+          "title": "Update Romania",
+          "link": "https://code4.ro/ro/update-romania"
         },
         "taskforce": {
-          "title": "Echipa",
-          "link": "https://code4.ro"
+          "title": "Task Force",
+          "link": "https://code4.ro/ro/code-for-romania-task-force"
         },
         "global": {
-          "title": "Echipa",
-          "link": "https://code4.ro"
+          "title": "Prezența globală",
+          "link": "https://code4.ro/ro/prezenta-globala"
         }
       }
     },
@@ -74,26 +78,30 @@
       "title": "Domenii",
       "items": {
         "education": {
-          "title": "Educatie",
-          "link": "#"
+          "title": "Educație",
+          "link": "https://code4.ro/ro/education-for-romania"
         },
         "health": {
-          "title": "Sanatate",
-          "link": "#"
+          "title": "Sănătate",
+          "link": "https://code4.ro/ro/health-for-romania"
+        },
+        "environment": {
+          "title": "Mediu",
+          "link": "https://code4.ro/ro/environment-for-romania"
         },
         "vulnerable-groups": {
-          "title": "grupuri",
-          "link": "#"
+          "title": "Grupuri vulnerabile",
+          "link": "https://code4.ro/ro/care-for-romania"
         },
         "participation": {
-          "title": "partikip",
-          "link": "#"
+          "title": "Participare",
+          "link": "https://code4.ro/ro/participation-for-romania"
         }
       }
     },
     "blog": {
       "title": "Blog",
-      "link": "https://code4.ro"
+      "link": "https://code4.ro/ro/blog"
     }
   },
   "general": {

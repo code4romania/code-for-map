@@ -205,9 +205,6 @@
 </template>
 
 <script>
-// import debouce from "lodash.debounce";
-// import { saveAs } from "file-saver";
-
 import data from "./data/data.json";
 
 import Navigation from "./components/Navigation";
@@ -242,31 +239,12 @@ export default {
   },
   created() {
     this.data = data;
-  },
-  methods: {
-    // downloadPlan() {
-    //   const request = new XMLHttpRequest();
 
-    //   request.open("GET", this.$t('more_info.download_pdf_link'), true);
-    //   request.responseType = "blob";
-
-    //   request.onload = () => {
-    //     const blob = new Blob([request.response], { type: "application/pdf" });
-
-    //     saveAs(blob, "Code_4_Romania_-_Digitalizam_Romania_impreuna.pdf");
-
-    //     this.trackDownload();
-    //   };
-
-    //   request.send();
-    // },
-    // trackDownload() {
-    //   this.$gtag.event("plan-download", {
-    //     event_category: "download",
-    //     event_label: "plan-downloaded",
-    //     value: "downloaded",
-    //   });
-    // },
-  },
+    if (!window.sessionStorage.getItem("locale")) {
+      window.sessionStorage.setItem("locale", this._i18n.locale)
+    } else {
+      this._i18n.locale = window.sessionStorage.getItem("locale")
+    }
+  }
 };
 </script>

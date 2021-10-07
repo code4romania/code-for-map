@@ -2,7 +2,7 @@
   <div>
     <button
       v-on-clickaway="away"
-      class="px-3 py-2 rounded hover:bg-gray-100 focus:bg-gray-200 focus:outline-none hidden font-light lg:flex lg:items-center"
+      class="px-3 py-2 rounded hover:bg-gray-100 focus:bg-gray-200 focus:outline-none font-light w-full lg:w-auto flex items-center justify-between lg:justify-start"
       @click="toggle"
     >
       <span>
@@ -16,11 +16,11 @@
       </svg>
     </button>
 
-    <a
-      class="px-3 py-2 rounded hover:bg-gray-100 focus:bg-gray-200 focus:outline-none flex lg:hidden"
+    <!-- <div
+      class="px-3 py-2 rounded flex lg:hidden"
     >
       {{ $t('navigation.' + section.slug + '.title') }}
-    </a>
+    </div> -->
 
     <div
       v-show="isOpen"

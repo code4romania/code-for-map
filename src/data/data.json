@@ -28,6 +28,9 @@
           },
           {
             "slug": "solutions"
+          },
+          {
+            "slug": "institutions"
           }
         ]
       },
@@ -68,6 +71,9 @@
           },
           {
             "slug": "health"
+          },
+          {
+            "slug": "environment"
           },
           {
             "slug": "vulnerable-groups"

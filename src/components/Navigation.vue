@@ -51,7 +51,10 @@
 
       <div class="flex justify-end col-span-1 lg:hidden">
         <!-- x-on:click="open = !open" -->
-        <button class="p-4 focus:bg-gray-200 focus:outline-none">
+        <button
+          class="p-4 focus:bg-gray-200 focus:outline-none"
+          @click="toggle"
+        >
           <svg
             class="w-4 h-4 fill-current"
             xmlns="http://www.w3.org/2000/svg"
@@ -69,7 +72,8 @@
 
       <ul
         id="header-menu"
-        class="relative z-30 items-center justify-end w-full col-span-4 lg:w-auto lg:flex lg:col-span-9 lg:col-start-4 hidden"
+        class="relative z-30 items-center justify-end w-full col-span-4 lg:w-auto lg:flex lg:col-span-9 lg:col-start-4"
+        :class="{ 'hidden': !isOpen }"
       >
         <template v-for="section in menu">
           <li
@@ -108,10 +112,11 @@
 </template>
 
 <script>
+import { mixin as clickaway } from 'vue-clickaway';
+
 // import objectToGetParams from "../utils/objectToGetParams";
 import LocaleSwitcher from "./LocaleSwitcher";
 import NavigationSubmenu from "./NavigationSubmenu";
-import { mixin as clickaway } from 'vue-clickaway';
 
 export default {
   name: "Navigation",
@@ -130,6 +135,11 @@ export default {
     return {
       isOpen: false
     };
+  },
+  methods: {
+    toggle(){
+      this.isOpen = !this.isOpen;
+    }
   }
 };
 </script>
