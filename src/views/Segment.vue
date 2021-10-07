@@ -91,7 +91,7 @@
       </button>
       <div>
         <div
-          :class="`mx-auto lg:-mt-24 lg:-mb-8 xl:mb-2 ${segment.projects.length > 0 ? '' : 'max-w-2xl'}`"
+          :class="`mx-auto lg:-mt-24 lg:-mb-8 xl:mb-2 lg:mx-w-lg xl:max-w-2xl'}`"
         >
           <component
             :is="

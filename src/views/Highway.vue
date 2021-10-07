@@ -151,7 +151,7 @@ export default {
 
   created() {
     this.highway = this.data.code4ro_map.find((item) => item.slug === this.slug);
-    this.data.back_to_map.visible = true;
+    this.data.back_to_map.visible = false;
 
     postMessageHeight();
   }
