@@ -93,7 +93,7 @@
         <div class="mx-auto lg:-mt-24 lg:-mb-8 xl:mb-2 lg:mx-w-lg">
           <component
             :is="
-              require('./../assets/svg/illustrations/' +
+              require('./../assets/svg/segments/' + $i18n.locale + '/' +
                 segment.segment_visual +
                 '.svg?inline')
             "
