@@ -16,12 +16,6 @@
       </svg>
     </button>
 
-    <!-- <div
-      class="px-3 py-2 rounded flex lg:hidden"
-    >
-      {{ $t('navigation.' + section.slug + '.title') }}
-    </div> -->
-
     <div
       v-show="isOpen"
       class="pl-5 lg:shadow-xs lg:pl-0 lg:absolute lg:right-0 lg:mt-2 lg:w-48 lg:origin-top-right lg:bg-white"

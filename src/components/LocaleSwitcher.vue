@@ -1,6 +1,4 @@
 <template>
-  <!-- x-data="{ open: false }"
-    x-on:click.away="open = false" -->
   <div>
     <button
       v-on-clickaway="away"

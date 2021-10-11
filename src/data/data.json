@@ -27,10 +27,12 @@
             "slug": "how-we-work"
           },
           {
-            "slug": "solutions"
+            "slug": "solutions",
+            "disable": ["en"]
           },
           {
-            "slug": "institutions"
+            "slug": "institutions",
+            "disable": ["hu", "en"]
           }
         ]
       },

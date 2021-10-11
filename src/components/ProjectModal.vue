@@ -263,6 +263,10 @@ export default {
       });
     },
     close() {
+      console.log(this.slug, this.segmentSlug)
+
+      // debugger
+
       this.$router.push({
         name: "Segment",
         params: {

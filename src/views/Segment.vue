@@ -90,9 +90,7 @@
         </svg>
       </button>
       <div>
-        <div
-          :class="`mx-auto lg:-mt-24 lg:-mb-8 xl:mb-2 lg:mx-w-lg xl:max-w-2xl'}`"
-        >
+        <div class="mx-auto lg:-mt-24 lg:-mb-8 xl:mb-2 lg:mx-w-lg">
           <component
             :is="
               require('./../assets/svg/illustrations/' +
