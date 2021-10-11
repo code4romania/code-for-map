@@ -54,10 +54,10 @@
       <div class="my-6 lg:flex lg:items-start lg:justify-between">
         <div>
           <h3 class="text-4xl font-bold mb-1">
-            {{ $t(slug + '.segments.' + segmentSlug + '.projects.' + project.projectSlug + '.title') }}
+            {{ $t(slug + '.segments.' + segmentObject.segmentSlug + '.projects.' + project.projectSlug + '.title') }}
           </h3>
           <p class="text-xl leading-8 mb-6 lg:mb-0">
-            {{ $t(slug + '.segments.' + segmentSlug + '.projects.' + project.projectSlug + '.subtitle') }}
+            {{ $t(slug + '.segments.' + segmentObject.segmentSlug + '.projects.' + project.projectSlug + '.subtitle') }}
           </p>
         </div>
         <div>
@@ -79,7 +79,7 @@
               <path
                 stroke-linecap="round"
                 stroke-linejoin="round"
-                stroke-width="2" 
+                stroke-width="2"
                 d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
               />
             </svg>
@@ -114,7 +114,7 @@
           </div>
           <div
             class="mb-6 content-input"
-            v-html="$t(slug + '.segments.' + segmentSlug + '.projects.' + project.projectSlug + '.description')"
+            v-html="$t(slug + '.segments.' + segmentObject.segmentSlug + '.projects.' + project.projectSlug + '.description')"
           />
           <div class="flex items-center mb-3">
             <img
@@ -271,7 +271,7 @@ export default {
         name: "Segment",
         params: {
           slug: this.slug,
-          segment: this.segmentSlug
+          segment: this.segmentObject.segmentSlug
         },
       });
 
