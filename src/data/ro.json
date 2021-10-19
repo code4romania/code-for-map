@@ -260,6 +260,12 @@
         "name": "FintechOS",
         "link": "https://fintechos.com/",
         "logo": "https://code4.ro/img/c6596c60-6ba5-444a-ac1b-a077ca70f15e/fintechos.png?q=60&fit=max&dpr=1&h=256"
+      },
+      {
+        "id": 18,
+        "name": "CompuGroup Medical",
+        "link": "https://www.cgm.com/rou_en",
+        "logo": "https://code4.ro/img/0190e068-17a3-43a4-b454-4e0b5756e96b/logo-cgm.png?q=60&fit=max&dpr=1&h=256"
       }
     ]
   },
