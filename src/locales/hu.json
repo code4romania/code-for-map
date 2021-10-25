@@ -71,11 +71,11 @@
       "items": {
         "education": {
           "title": "Oktatás",
-          "link": "https://code4.ro/hu/education-for-romania"
+          "link": "https://code4.ro/hu/oktatas"
         },
         "health": {
           "title": "Egészségügy",
-          "link": "https://code4.ro/hu/health-for-romania"
+          "link": "https://code4.ro/hu/egeszsegugy"
         },
         "environment": {
           "title": "Környezet",
@@ -87,7 +87,7 @@
         },
         "participation": {
           "title": "Részvétel",
-          "link": "https://code4.ro/hu/participation-for-romania"
+          "link": "https://code4.ro/hu/reszvetel"
         }
       }
     },
@@ -360,13 +360,13 @@
       "o-viata-buna-pentru-copiii-abandonati": {
         "status": "2024 márciusában kezdünk",
         "title": "Jób életet az árva gyermekek",
-        "description": "<p>Romániában a gyermekek elhagyásának és intézményesítésének kérdése komplikált küzdelem, ashoz hogy esélyt kínáljon a családnak és az elhagyott gyermekeknek. A kutatások azt mutatják, hogy az elhagyás a korai gyerekkorban nehézségekhez és egész életen át tartó érzelmi és viselkedési problémákhoz vezet.</p><p>Mindannyiunknak szüksége van egy család horgonyára az életünkben. De azok számára, akiknek ez nem adatott, az egész közösségnek kell ott lennie a szükséges támogatás nyújtására, a család hiányában. Aktívan támogatjuk és fejlesztjük azokat a technológiai megoldásokat, amelyek javíthatják életminőségüket és fejlődésüket.</p>",
+        "description": "<p>Mindannyiunknak szüksége van egy család horgonyára az életünkben. De azok számára, akiknek ez nem adatott, az egész közösségnek kell ott lennie a szükséges támogatás nyújtására, a család hiányában. Aktívan támogatjuk és fejlesztjük azokat a technológiai megoldásokat, amelyek javíthatják életminőségüket és fejlődésüket.</p><p>Romániában a gyermekek elhagyásának és intézményesítésének kérdése komplikált küzdelem, ashoz hogy esélyt kínáljon a családnak és az elhagyott gyermekeknek. A kutatások azt mutatják, hogy az elhagyás a korai gyerekkorban nehézségekhez és egész életen át tartó érzelmi és viselkedési problémákhoz vezet.</p>",
         "projects": {}
       },
       "fara-trafic-de-persoane": {
         "status": "2024 márciusában kezdünk",
         "title": "Emberkereskedelem nélkül",
-        "description": "<p>Figyelemmel kísérjük a kiszolgáltatott közösségekben tapasztalható emberkereskedelem mutatóit, és azokat a módszereket, amelyek segítségével a technológiával együtt megállíthatjuk az áldozatok számának növekedését, és védelmi eszközöket fejleszthetünk ki számukra.</p><p>Habár bármely közösség alapvető feladata, hogy biztosítsa és megvédje tagjainak biztonságát bármely fenyegetéssel szemben, az emberkereskedelem áldozatai nem éreznek egy cseppet sem ebből a védelemből nem védik, és a jelenség leküzdésére irányuló erőfeszítések túl jelentéktelenek.</p><p>Románia továbbra is a szexuális és munkaügyi célú emberkereskedelem áldozatainak fő forrása, ez a tény egy aggasztó első helyre tesz minket az európai országokat megcélzó rangsorban.</p>",
+        "description": "<p>Románia továbbra is a szexuális és munkaügyi célú emberkereskedelem áldozatainak fő forrása, ez a tény egy aggasztó első helyre tesz minket az európai országokat megcélzó rangsorban.</p><p>Habár bármely közösség alapvető feladata, hogy biztosítsa és megvédje tagjainak biztonságát bármely fenyegetéssel szemben, az emberkereskedelem áldozatai nem éreznek egy cseppet sem ebből a védelemből nem védik, és a jelenség leküzdésére irányuló erőfeszítések túl jelentéktelenek.</p><p>Figyelemmel kísérjük a kiszolgáltatott közösségekben tapasztalható emberkereskedelem mutatóit, és azokat a módszereket, amelyek segítségével a technológiával együtt megállíthatjuk az áldozatok számának növekedését, és védelmi eszközöket fejleszthetünk ki számukra.</p>",
         "projects": {}
       }
     }
@@ -439,7 +439,7 @@
       },
       "sprijin-pentru-cei-grav-bolnavi": {
         "status": "A tervezés befejeződött",
-        "title": "A  súlyosan betegek támogatása",
+        "title": "A súlyosan betegek támogatása",
         "description": "<p>Krónikus betegségekben, például cukorbetegségben, rákban, hepatitisben vagy szív- és érrendszeri betegségekben szenvedő embereknek hosszú távú ellátásra és folyamatos ellenőrzésre van szükségük. Ezeknek a betegségeknek a sajátossága és a tünetek súlyossága megváltoztatja az azoktól szenvedők, de a családjuk életének konfigurációját is, ami mentális, érzelmi és pénzügyi szempontból sebezhetővé teszi őket. Elemezzük az egész számukra fenntartott egészségügyi infrastruktúrát, avval a céllal hogy kihangsúlyozhassuk a jól képzett emberi erőforrásokra való igényt, a jól megtervezett és a betegekhez közel álló megoldások iránt.</p>",
         "projects": {
           "prim-ajutor": {
@@ -497,19 +497,19 @@
       "servicii-de-sanatate-eficiente": {
         "status": "Tervezés folyamatban",
         "title": "Hatékony egészségügyi szolgáltatások",
-        "description": "<p>A funkcionális egészségügyi szolgáltatásokhoz való hozzáférés minden társadalom alapvető igénye, függetlenül attól, hogy a megelőzés szintjéről, sürgősségi beavatkozásokról vagy nehéz, hosszú távú kezelésekről beszélünk.</p><p>Helyileg a közösségek nehéz úton állnak még az alapvető egészségügyi szolgáltatásokhoz való hozzáférés tekintetében is. A földrajzi, pénzügyi és tudásbeli akadályok megakadályozzák, hogy a társadalom tagjai olyan szolgáltatásokban részesüljenek, amelyek minden polgár jogai alá tartoznak.</p><p>Mindezeket a kérdéseket megvizsgáljuk, és olyan technológiai eszközöket fejlesztünk ki, amelyek a betegeket támogatják az egész rendszer egyszerűsítésében.</p>",
+        "description": "<p>Mindezeket a kérdéseket megvizsgáljuk, és olyan technológiai eszközöket fejlesztünk ki, amelyek a betegeket támogatják az egész rendszer egyszerűsítésében.</p><p>Helyileg a közösségek nehéz úton állnak még az alapvető egészségügyi szolgáltatásokhoz való hozzáférés tekintetében is. A földrajzi, pénzügyi és tudásbeli akadályok megakadályozzák, hogy a társadalom tagjai olyan szolgáltatásokban részesüljenek, amelyek minden polgár jogai alá tartoznak.</p><p>A funkcionális egészségügyi szolgáltatásokhoz való hozzáférés minden társadalom alapvető igénye, függetlenül attól, hogy a megelőzés szintjéről, sürgősségi beavatkozásokról vagy nehéz, hosszú távú kezelésekről beszélünk.</p>",
         "projects": {}
       },
       "spitale-functionale": {
         "status": "2022 márciusában kezdünk",
         "title": "Működőkepés kórházak",
-        "description": "<p>A kórházvezetés összetett intézményi kihívás, amelynek eredményeitől függ a jó betegellátás. A funkcionális rendszer hatékonyan képes átvenni és kezelni mindennapi eseteket, és bármilyen típusú katasztrófa során bekövetkezett kritikus helyzetet.</p><p>Romániában az ilyen hatékonysághoz vezető út nehéz és sok kihívásokkal rendelkezik, ezért vállaljuk a felelősséget, hogy kutatást és technológiai termékekkel támogassuk a hatóságokat és a betegeket az egészségügyi intézmények közötti jobb szervezés érdekében.</p><p>Az orvosi rendszer hatékonysága a jól megtervezett és végrehajtatott belső folyamatok és ezeket áramlásainak természetes következménye, amelyek a pácienssel való érintkezésen túl zajlanak.</p>",
+        "description": "<p>A kórházvezetés összetett intézményi kihívás, amelynek eredményeitől függ a jó betegellátás. A funkcionális rendszer hatékonyan képes átvenni és kezelni mindennapi eseteket, és bármilyen típusú katasztrófa során bekövetkezett kritikus helyzetet.</p><p>Az orvosi rendszer hatékonysága a jól megtervezett és végrehajtatott belső folyamatok és ezeket áramlásainak természetes következménye, amelyek a pácienssel való érintkezésen túl zajlanak.</p><p>Romániában az ilyen hatékonysághoz vezető út nehéz és sok kihívásokkal rendelkezik, ezért vállaljuk a felelősséget, hogy kutatást és technológiai termékekkel támogassuk a hatóságokat és a betegeket az egészségügyi intézmények közötti jobb szervezés érdekében.</p>",
         "projects": {}
       },
       "sprijin-nu-pedeapsa-pentru-dependenti": {
         "status": "2023 márciusában kezdünk",
         "title": "Támogatás, nem büntetés a szenvedélybetegek számára",
-        "description": "<p>A függő embereknek hosszú távú támogatásra, a közösség megértésére és bizalomra van szükségük azokban, akikhez fordulnak.</p><p>A függőségi rendellenességeknek nem kéne hogy meghatározzák az ebben szenvedők életét, de kontroll nélkül átvehetik az életük fölötti uralmat, és nagy kihatással vannak a körülöttük élőkre is.</p><p>Nagyon gyakori probléma, és sajnos nagyon kevéssé értik meg. A függőséget mentális rendellenességként kell kezelni, nem pedig erkölcsi gyengeségként vagy akaratlanságként, ezért olyan szempontokra összpontosítunk, amelyek megváltoztathatók és javíthatók a szenvedélybetegek megszólítása és kezelése során.</p>",
+        "description": "<p>Nagyon gyakori probléma, és sajnos nagyon kevéssé értik meg. A függőséget mentális rendellenességként kell kezelni, nem pedig erkölcsi gyengeségként vagy akaratlanságként, ezért olyan szempontokra összpontosítunk, amelyek megváltoztathatók és javíthatók a szenvedélybetegek megszólítása és kezelése során.</p><p>A függőségi rendellenességeknek nem kéne hogy meghatározzák az ebben szenvedők életét, de kontroll nélkül átvehetik az életük fölötti uralmat, és nagy kihatással vannak a körülöttük élőkre is.</p><p>A függő embereknek hosszú távú támogatásra, a közösség megértésére és bizalomra van szükségük azokban, akikhez fordulnak.</p>",
         "projects": {}
       },
       "sanatate-mentala-pentru-toti": {

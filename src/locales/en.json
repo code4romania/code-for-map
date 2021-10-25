@@ -172,7 +172,7 @@
   "sms": {
     "title": {
       "text_1": "Send an SMS with",
-      "text_2": "CAN",
+      "text_2": "PUTEM",
       "text_3": "to",
       "text_4": "8864"
     },
@@ -206,12 +206,12 @@
   },
   "care4ro": {
     "title": "Care for Romania",
-    "description": "Around a tragic event, society's attention is temporarily shifted to the problems of some social categories that need support. But the social inclusion of vulnerable people is not a problem that is treated with punctual positive intentions, but with sustained efforts and well-thought-out plans for the future. Poverty, institutionalized children, people with disabilities, minorities, are vulnerable areas of Romanian society.",
+    "description": "When tragedy strikes, all our attention is temporarily shifted to the problems of those that need immediate support. But the social inclusion of vulnerable groups is not a problem that is treated with quick positive intentions, but with sustained effort and well-thought-out plans for the future. Poverty, institutionalized children, people with disabilities, minorities, are all vulnerable areas of Romanian society.",
     "segments": {
       "fara-violenta-acasa": {
         "status": "Design completed",
         "title": "No violence at home",
-        "description": "<p>Pentru prea multe familii, acasă nu mai reprezintă locul în care găsesc echilibrul necesar și un refugiu în fața grijilor, iar nesiguranța resimțită în propria casă este un sentiment pe care nimeni nu ar trebui să-l trăiască.</p><p>Violența domestică, fie că vizează relația de cuplu, copiii sau persoanele în vârstă, are un trecut bogat în România, iar urmele lăsate în viața victimelor sunt greu de remediat.</p><p>Indiferent că vorbim despre violență verbală, psihologică, fizică, sexuală sau economică, am ales să analizăm acest domeniu pentru a  ne concentra  atenția asupra unui fenomen vitregit de atenția care i se cuvine, într-o societate care continuă să îl normalizeze.</p>",
+        "description": "<p>For too many families, home is no longer the place where they find much-needed balance and a haven from worry - insecurity felt in their own home is a feeling that no one should experience.</p><p>Domestic violence, whether it affects the couples, children or the elderly, has been around for a long time in Romania, and the wounds it leaves in the lives of victims are difficult to heal.</p><p>Whether it be verbal, psychological, physical, sexual or economic violence, we have chosen to take a closer look at this major issue and focus our attention on a phenomenon that does not get the attention it deserves, in a society that continues to normalize it.</p>",
         "projects": {
           "sunrise": {
             "title": "Sunrise - Case management software for NGOs",
@@ -287,8 +287,8 @@
       },
       "diaspora-mai-aproape-de-casa": {
         "status": "Design completed",
-        "title": "Diaspora closer to home",
-        "description": "<p>Statisticile recente ne pun față în față cu o realitate dură: peste 1 din 5 cetățeni români nu mai locuiesc în țară. Poate și mai îngrijorător este faptul că mulți dintre românii care au emigrat au luat această decizie în urma lipsurilor și a condițiilor de trai precare.</p><p>Ne îndreptăm atenția asupra unor fenomene des întâlnite precum: fragmentarea familiilor care duce inevitabil la vulnerabilitate din punct de vedere economic, social sau psihologic, dar și la limitarea accesului românilor din diaspora la serviciile statutului și protecția oferită de acesta.</p>",
+        "title": "A diaspora that is closer to home",
+        "description": "<p>Recent statistics underline a harsh reality: more than 1 in 5 Romanian citizens no longer lives in the country. Perhaps even more worrying is the fact that many of the Romanians who emigrated made this decision due to lack of basic services and precarious living conditions.</p><p>We focus on common phenomena such as: the fragmentation of families that inevitably leads to vulnerability from an economic, social or psychological point of view, but also to the limiting of access of Romanians abroad to the services, status and the protection offered by the state.</p>",
         "projects": {
           "Diaspora-hub": {
             "title": "Diaspora Hub",
@@ -349,44 +349,44 @@
       },
       "incluziune-pentru-persoanele-lgbtq": {
         "status": "Design in progress",
-        "title": "Inclusion for LGBTQ + people",
-        "description": "<p>Au trecut doar 20 de ani de când statul român pedepsea cu închisoarea relațiile de dragoste dintre persoanele de același sex. De atunci și până acum, societatea civilă luptă continuu pentru drepturilor și libertăților persoanelor LGBTQ+.</p><p>Deși lucrurile se îmbunătățesc într-un ritm lent, acceptarea și integrarea lor încă reprezintă o problemă în spațiul public, iar consecințele au un impact sever pentru membrii comunității, dar și pentru întreaga societate.</p><p>Ne uităm atent la fenomenul discriminării pe criterii de orientare sexuală și identitate de gen în vederea dezvoltării unor soluții de tehnologie civică menite să sprijine aceste comunități.</p>",
+        "title": "Inclusion for LGBTQ+ people",
+        "description": "<p>Just 20 years have passed since the Romanian state still prosecuted relationships between people of the same sex. Since then, members of civil society have been constantly fighting for&nbsp; equal rights and freedoms for LGBTQ + people.</p><p>Although things are slowly improving, acceptance and integration is still a problem in public spaces, and this lack of acceptance has a severe impact on community members, as well as on society as a whole.</p><p>We plan to take a thorough look at the phenomenon of discrimination based on sexual orientation and gender identity in order to develop civic technology solutions designed to support these communities.</p>",
         "projects": {}
       },
       "fara-discriminare-impotriva-etniei-rome": {
-        "status": "It starts in March 2022",
-        "title": "Without discrimination against the Roma ethnic group",
-        "description": "<p>Discriminarea etnică a romilor este unul din principalele obstacole pentru integrarea lor în societate ca cetățeni cu drepturi depline, iar oferirea de șanse egale reprezintă o problemă structurală și istorică a României.</p><p>Nu putem avea o țară sănătoasă și prosperă decât dacă toți cetățenii ei sunt acceptați, sprijiniți și au acces la toate șansele posibile de dezvoltare. Din păcate, problemele generale ale societății românești sunt acutizate în cazul minorității rome, iar discriminarea duce la excluderea unor membri care pot aduce valoare întregii societăți.</p><p>Audităm toate aceste probleme și aducem în fața publicului larg soluții care sprijină integrarea comunității rome în colectivitate.</p>",
+        "status": "Starts in March 2022",
+        "title": "No discrimination against the Roma",
+        "description": "<p>Ethnic discrimination against the Roma is one of the main obstacles to their integration into society as full citizens, and providing this group with equal opportunities is a structural and historical problem for Romania.</p><p>We cannot have a healthy and prosperous country unless all its citizens are accepted, supported and have access to all possible opportunities for development. Unfortunately, the general problems of the Romanian society are exacerbated in the case of the Roma minority, and this discrimination leads to the exclusion of citizens who can enrich our whole society.</p><p>We shall audit all these issues and come up with solutions that support the integration of the Roma community.</p>",
         "projects": {}
       },
       "sanse-pentru-persoanele-cu-dizabilitati": {
-        "status": "It starts in March 2023",
-        "title": "Chances for people with disabilities",
-        "description": "<p>Infrastructura României în ceea ce privește persoanele cu dizabilități este una deficitară, așa că îmbunătățirea calității vieții acestei categorii sociale defavorizate este un proces complicat și lent.</p><p>Spectrul dizabilităților este unul larg, iar lipsurile și atitudinile cu care aceștia se confruntă îi împiedică să trăiască într-un mediu sigur, tolerant și prietenos.</p><p>Trebuie să construim o țară, comunități și orașe accesibile tuturor, motiv pentru care ne îndreptăm atenția către persoanele care suferă de dizabilități variate și relația dintre acestea și modul în care le sunt, sau nu, facilitate anumite procese.</p>",
+        "status": "Starts in March 2023",
+        "title": "Equal opportunities for people with disabilities",
+        "description": "<p>The spectrum of disability is wide, and the shortcomings and attitudes people face prevent them from living in a safe, tolerant and friendly environment.</p><p>We need to build a country, communities and cities that are accessible to all, which is why we turn our attention to people with various disabilities and the relationship between them and how they are, or rather are not, helped by certain processes.</p><p>Romania's infrastructure for people with disabilities is grossly deficient, so improving the quality of life of this particular social category is a complicated and slow process.</p>",
         "projects": {}
       },
       "o-viata-buna-pentru-copiii-abandonati": {
-        "status": "It starts in March 2024",
-        "title": "A good life for abandoned children",
-        "description": "<p>În România, problema abandonului și a instituționalizării copiilor reprezintă o lungă luptă de a oferi o șansă la familie copiilor abandonați. Studiile arată că abandonul în primii ani după naștere poate duce la dificultăţi din punct de vedere al dezvoltării emoţionale şi comportamentale pe tot parcursul vieții.</p><p>Toți avem nevoie de ancora unei familii în viața noastră. Însă pentru cei care la început de drum nu au parte de ea, întreaga comunitate trebuie să constituie sprijinul necesar în lipsa unei familii. Susținem și dezvoltăm activ soluții tehnologice care să poată ameliora calitatea vieții și dezvoltarea acestora.</p>",
+        "status": "Starts in March 2024",
+        "title": "A better life for children left behind",
+        "description": "<p>In Romania, the issue of abandonment and institutionalization has been a long struggle to provide these children with a chance at a family. Studies show that abandonment in the first years after birth can lead to difficulties in terms of emotional and behavioral development throughout life.</p><p>We all need the pillar of family in our lives. But for those who do not have it at the beginning of the road, the whole community must be the necessary support in the absence of a family. We actively support and develop technological solutions that can improve their quality of life and development.</p>",
         "projects": {}
       },
       "fara-trafic-de-persoane": {
-        "status": "It starts in March 2024",
-        "title": "No human trafficking",
-        "description": "<p>România rămâne o sursă primară de victime ale traficului în scopuri sexuale și de muncă, aspect ce ne-a plasat pe locul I într-un clasament ce vizează țările din Europa.</p><p>În timp ce datoria de bază a oricărei comunități este să ofere și să apere siguranța membrilor ei în fața oricăror amenințări, victimele traficului de persoane nu sunt protejate, iar eforturile de combatere a acestui fenomen sunt prea puțin semnificative.</p><p>Urmărim indicatori de trafic de persoane în rândul comunităților vulnerabile și modalități prin care împreună, prin intermediul tehnologiei, putem stopa creșterea numărului de victime, dar și construi pârghii pentru ocrotirea acestora.</p>",
+        "status": "Starts in March 2024",
+        "title": "An end to human trafficking",
+        "description": "<p>Romania remains a primary source of victims of trafficking for sexual and labor purposes, our country being the foremost european country of origin according to most studies.</p><p>While the basic duty of any community is to provide and defend the safety of its members against any threats, victims of human trafficking are not protected and efforts to combat this phenomenon are often insignificant.</p><p>We monitor indicators of human trafficking among vulnerable communities and look for ways in which together, through technology, we can decrease in the number of victims, and find tools for their protection.</p>",
         "projects": {}
       }
     }
   },
   "health4ro": {
     "title": "Health for Romania",
-    "description": "In recent years, the need for a high-performance, well-organized health system that is available to all citizens has become increasingly evident. The right to health, health education, access to medical services are things that, in a normal society, are natural. We believe that where problems are urgent, technology and innovation can heal.",
+    "description": "In recent years, the need for a well-performing, well-organized health system that is accesible to all citizens has become increasingly evident. The right to healthcare, health education and access to medical services are things that, in a normal society, are natural. We believe that through technology and innovation we can heal the system’s most pressing ailments.",
     "segments": {
       "grija-pentru-sanatatea-mamei-si-a-copilului": {
         "status": "Design completed",
         "title": "Care for the health of the mother and child",
-        "description": "<p>Sarcina și primele luni de viață ale unui copil reprezintă momente-cheie în viața oricărui părinte la început de drum. Provocările sunt numeroase: de la perioada de învățare accelerată pentru părinți și riscuri medicale până la vulnerabilități psihologice și financiare.</p><p>Sistemul sanitar ne-a pus adesea în fața unor imagini dezolante, însă lucrurile pot fi schimbate cu dedicare și cu soluții bine implementate care să ofere sprijinul și îndrumarea necesare pentru a remedia punctele cele mai dureroase pentru toți actorii implicați.</p>",
+        "description": "<p>The healthcare system has often shown us a bleak picture, but things can change through dedication and well-implemented solutions that provide the support and guidance needed to fix the most pressing problems for all actors involved.</p><p>Pregnancy and the first months of a child's life are key moments in the life of any parent starting out. The challenges are numerous: from parents having to learn things quickly and medical risks to psychological and financial vulnerabilities.</p>",
         "projects": {
           "dosarul-digital": {
             "title": "Digital file",
@@ -448,7 +448,7 @@
       "sprijin-pentru-cei-grav-bolnavi": {
         "status": "Design completed",
         "title": "Support for the seriously ill",
-        "description": "<p>Persoanele care suferă de boli cronice, cum ar fi diabetul, cancerul, hepatita sau bolile cardiovasculare au nevoie de asistență medicală de lungă durată și de monitorizare permanentă. Specificul acestor boli și gravitatea simptomelor schimbă configurația vieții celor care suferă de ele, dar și a familiilor lor, ceea ce duce la vulnerabilități din punct de vedere psihic, emoțional și financiar. Analizăm întreaga infrastructură sanitară care se adresează nevoilor lor și ne propunem să aducem în discuție nevoia de resurse umane bine pregătite și necesitatea unor mecanisme funcționale și la îndemâna pacienților.</p>",
+        "description": "<p>People suffering from chronic diseases such as diabetes, cancer, hepatitis or cardiovascular disease need long-term care and ongoing monitoring. The specificity of these diseases and the severity of the symptoms change the lives of those who suffer from them, but also of their families, which leads to vulnerabilities from  mental, emotional and financial points of view. We analyze the entire health infrastructure and look at how it addresses their needs aiming to focus on the need for better-trained human resources and the need for functional mechanisms available to patients.</p>",
         "projects": {
           "prim-ajutor": {
             "title": "First aid",
@@ -505,37 +505,37 @@
       "servicii-de-sanatate-eficiente": {
         "status": "Design in progress",
         "title": "Efficient health services",
-        "description": "<p>Accesul la servicii funcționale de sănătate reprezintă o nevoie fundamentală a oricărei societăți, indiferent că discutăm despre nivelul de prevenție, intervențiile de urgență sau tratamentele anevoioase pe termen lung.</p><p>În plan local, comunitățile au de parcurs un drum dificil chiar și în ceea ce privește accesul la servicii medicale de bază. Barierele geografice, financiare și de cunoaștere împiedică membri ai societății să beneficieze de servicii ce intră sub incidența drepturilor fiecărui cetățean.</p><p>Ne uităm la toate aceste aspecte și dezvoltăm instrumente tehnologice care să funcționeze în sprijinul pacienților pentru a fluidiza întregul sistem.</p>",
+        "description": "<p>We look at all of these issues and develop technological tools that work to support patients to streamline the entire system.</p><p>At a local level communities have a difficult road ahead, even in terms of access to basic health services. Geographical, financial and knowledge barriers prevent citizens from benefiting from services that are the right of every person.</p><p>Access to functional health services is a fundamental need in any society, whether we are talking about prevention, emergency intervention or difficult long-term treatments.</p>",
         "projects": {}
       },
       "spitale-functionale": {
-        "status": "It starts in March 2022",
+        "status": "Starts in March 2022",
         "title": "Functional hospitals",
-        "description": "<p>Managementul spitalelor reprezintă o provocare instituțională complexă de ale cărei rezultate depinde buna tratare a pacienților. Un sistem funcțional este cel care poate prelua și trata eficient atât cazurile de zi cu zi, cât și situațiile critice apărute în urma producerii unui dezastru de orice natură.</p><p>Eficiența sistemului medical este o consecință firească a unor fluxuri interne corect executate care au loc dincolo de interfața cu pacientul.</p><p>În România, drumul către o asemenea eficacitate este unul anevoios și perfectibil, astfel că ne asumăm responsabilitatea de a cerceta și de a veni în sprijinul autorităților și al pacienților cu produse tehnologice destinate unei mai bune organizări între instituțiile sanitare.</p>",
+        "description": "<p>In Romania, the road to such effectiveness is difficult and perfectible, so we take the responsibility to research and support authorities and patients with technological products for better interaction between health institutions.</p><p>The effectiveness of the medical system is a natural consequence of correctly executed internal flows separate from patient interaction.</p><p>Hospital management is a complex institutional challenge that good patient treatment depends on. A functional system is one that can effectively handle and treat both everyday cases and critical situations arising from a disaster of any kind.</p>",
         "projects": {}
       },
       "sprijin-nu-pedeapsa-pentru-dependenti": {
-        "status": "It starts in March 2023",
-        "title": "Support not punishment for addicts",
-        "description": "<p>Persoanele dependente au nevoie de sprijin pe termen lung, de înțelegere din partea comunității și de încredere în cei la care apelează.</p><p>Tulburările din sfera dependenței nu ar trebui să definească persoanele care trec prin astfel de greutăți, însă, scăpate de sub control, ele pot ajunge să le acapareze viața și să îi afecteze pe cei din jur.</p><p>Este o problemă deosebit de frecventă și, din păcate, foarte puțin înțeleasă. Dependența trebuie privită ca o tulburare mentală, nu ca o slăbiciune morală sau lipsă de voință, astfel că ne concentrăm atenția pe aspectele care pot fi schimbate și îmbunătățite în abordarea și tratarea dependenților.</p>",
+        "status": "Starts in March 2023",
+        "title": "Support, not punishment for addicts",
+        "description": "<p>People with addiction issues need long-term support and understanding from the community and trust in those they turn to.</p><p>Addiction disorders should not define people who go through such hardships, but they can easily take control of people’s lives and affect those around them.</p><p>It is a very common problem and, unfortunately, one that is not easily understood. Addiction should be seen as a mental health issue, not as a moral failing or lack of willpower, so any help should focus on aspects that can be changed and improved in addressing and treating addicts.</p>",
         "projects": {}
       },
       "sanatate-mentala-pentru-toti": {
-        "status": "It starts in March 2024",
+        "status": "Starts in March 2024",
         "title": "Mental health for all",
-        "description": "<p>Grija pentru sănătatea mintală ar trebui să fie la fel de firească precum preocuparea pentru un corp sănătos prin exerciții fizice și o alimentație corespunzătoare.</p><p>La nivel național, însă, infrastructura de prevenție și tratare a bolilor psihice este deficitară atât în ceea ce privește starea de bine a psihicului de zi cu zi, cât și pentru probleme grave și tot mai des întâlnite precum depresia, anxietatea sau afecțiunile psihiatrice.</p><p>Ne propunem să combatem stigmatul bolilor mintale și să apelăm la soluții digitale care să îmbunătățească fluxurile dintre instituțiile abilitate și pacienți.</p>",
+        "description": "<p>We aim to combat the stigma of mental illness and to turn to digital solutions that improve the flows between institutions and patients.</p><p>At the national level, however, the infrastructure for the prevention and treatment of mental illness is deficient both in terms of the fostering of day-to-day well-being, and for serious and increasingly common problems such as depression, anxiety or psychiatric disorders.</p><p>Mental healthcare should be as natural as caring for a healthy body through exercise and proper nutrition.</p>",
         "projects": {}
       }
     }
   },
   "participation4ro": {
     "title": "Participation for Romania",
-    "description": "Involvement in community life makes us all richer, more fulfilled and stronger. By getting involved, we learn from each other and offer what we have best, each of us, for the betterment of all. If we want strong systems of education, health, protection of the vulnerable and the environment, we must be aware that all this is not possible without a real involvement of all in the life of society. In addition, the moments of involvement are windows through which we see how strong we can become when we are together. We continue our mission to encourage citizen participation in the life of society by revealing the best digital tools for this.",
+    "description": "Involvement in the day to day workings of our communities makes us all richer, stronger and more fulfilled. By getting involved, we learn from each other and each offer our best, for the betterment of all. If we want strong education systems, health, protection of the vulnerable and the environment, we have to realize that this can only be achieved through the involvement of all in the day to day life of our society. Furthermore, the moments when we get involved give us glimpses of  how strong we can become, together. We continue our mission to encourage citizen participation by helping shape the best digital tools for this.",
     "segments": {
       "alegeri-corecte-alegatori-informati": {
         "status": "Design completed",
-        "title": "Correct choices. Informed voters.",
-        "description": "<p>Dacă vrem o democrație funcțională și reprezentativă, avem nevoie de o participare semnificativă și informată a unui număr cât mai mare de cetățeni la un proces transparent și corect de alegeri. Iar tehnologia poate oferi soluții care să asigure buna desfășurare a procesului de votare, precum și o mai bună informare a alegătorilor.</p><p>Fără alegeri libere și corecte, nu există democrație.</p>",
+        "title": "Fair elections. Informed voters",
+        "description": "<p>If we want a functional and representative democracy, we need a meaningful and informed participation of as many citizens as possible in a transparent and fair electoral process. And technology can provide solutions to ensure the smooth running of the voting process, as well as better information for voters.</p><p>Without free and fair elections, there is no democracy.</p>",
         "projects": {
           "vot-romania": {
             "title": "Vote Romania",
@@ -582,7 +582,7 @@
       "date-deschise": {
         "status": "Design completed",
         "title": "Open data",
-        "description": "<p>Transparența presupune, în primul rând acces liber și neîngrădit la date de interes public. Fără acces la date nu îi putem verifica pe cei care ne conduc. La rândul lor, cei care elaborează politici publice nu o pot face fără a înțelege cu adevărat fenomenele pe care vrem să le corectăm. Deciziile bune se iau pe baza accesului la date și informații , fie că este vorba despre cetățeni obișnuiți, de primari sau miniștri.</p> <p>Ne propunem să echipăm societatea civilă, comunitățile și administrația publică cu acele instrumente digitale care să îi ajute să ia cele mai bune decizii pentru orașele în care locuiesc. Pentru a le face cu adevărat utile, traducem datele în informație ușor de înțeles și îmbunătățim sistemele de colectare de date.</p>",
+        "description": "<p>Transparency requires, above all, free and unrestricted access to important public data. Without access to data we have no checks and balances on those who lead us. In turn, those who develop public policies cannot do so without truly understanding the phenomena they want to correct. Good decisions are based on access to data and information, whether those deciding&nbsp; are ordinary citizens, mayors or ministers.</p><p>We aim to equip civil society, communities and public administration with those digital tools that help them make the best decisions for the cities in which they live. To make it truly useful, we translate data into easy-to-understand information and improve data collection systems.</p>",
         "projects": {
           "data-portal": {
             "title": "Data Portal",
@@ -604,7 +604,7 @@
       "legislatie-accesibila": {
         "status": "Design completed",
         "title": "Access to legislation",
-        "description": "<p>Relația dintre stat și cetățean are la baza respectarea unui set de reguli, dar acest lucru nu se poate întâmpla în practică fără cunoașterea și înțelegerea legilor.</p> <p>Accesul liber la legislație este o nevoie, dar și un drept al cetățenilor. În același timp, simplul acces nu este suficient. Înțelegerea textului legii, deconstruirea procesului legislativ pentru publicul larg, creșterea transparenței și a gradului de participare a oamenilor la consultările publice, toate reprezintă  componente esențiale pentru un stat sănătos. Tehnologia ne poate ajuta pe toți să fim mai aproape de cei care construiesc sistemul și să înțelegem mai bine cum ne influențează viața și ce instrumente avem la dispoziție pentru a ne implica în luarea deciziilor la nivel legislativ.</p>",
+        "description": "<p>Free access to legislation is a need, but also a right of citizens. At the same time, simple access is not enough. Understanding legal texts, deconstructing the legislative process for the general public, increasing transparency and the participation of people in public consultations are all essential components in a healthy state. Technology can help us all get closer to those who build the system and better understand how they influence our lives and what tools we have at our disposal to get involved in decision-making at the legislative level.</p><p>The relationship between the state and the citizen is based on the observance of a set of rules, but this cannot happen if nobody knows or understands those laws.</p>",
         "projects": {
           "draft-legislativ": {
             "title": "Legislative Draft",
@@ -656,7 +656,7 @@
       "o-societate-civila-puternica": {
         "status": "Design completed",
         "title": "A strong civil society",
-        "description": "<p>ONG-urile lucrează zi de zi pentru ca societatea în care trăim să fie mai funcțională. Orice problemă a lor devine, implicit și o problemă a noastră. Instrumentele digitale pot veni în sprijinul societății civile, oferind nu doar eficiență, ci și transparență și reprezentativitate sectorului ONG.</p><p>Pe lângă îmbunătățirea proceselor interne ale asociațiilor și organizațiilor din societatea civilă, tehnologia poate facilita și accesul tuturor la serviciile oferite de către acestea.</p>",
+        "description": "<p>In addition to improving the internal processes of civil society associations and organizations, technology can also facilitate access to the services they provide for everyone.</span></p><p>NGOs work every day to make the world we live in more functional. Any problem of theirs becomes ours as well. Digital tools can support civil society, providing not only efficiency but also transparency and representation to the NGO sector.</span></p>",
         "projects": {
           "Registrul-ONG": {
             "title": "National NGO Register",
@@ -743,7 +743,7 @@
       "o-mai-buna-relatie-cetatean-stat": {
         "status": "Design completed",
         "title": "A better citizen-state relationship",
-        "description": "<p>În relația cu statul care ar trebui să le servească interesele, mulți cetățeni se confruntă cu un sentiment de frustrare, generat adesea de ineficiența cu care autoritățile  își îndeplinesc misiunea misiunea.</p> <p>Pentru a avea un stat mai deschis și mai operativ în apărarea intereselor cetățenilor, ne propunem să digitalizăm procesele care, depinzând de procese bazate pe hârtie și dosare cu șină, consumă timp și resurse, deteriorînd relația dintre cetățeni și instituțiile statului.</p>",
+        "description": "<p>In their relationship with the state that should serve their interests, many citizens are faced with frustration, often generated by the ineffectiveness of authorities.<br><br>In order to have a more open and operational state, better serving the interests of citizens, we aim to digitize paper-and-folder processes that consume time and resources, deteriorating the relationship between citizens and state institutions.</p>",
         "projects": {
           "registrul-institutiilor-publice": {
             "title": "Register of Public Institutions",
@@ -804,20 +804,20 @@
       },
       "primarii-functionale": {
         "status": "Design in progress",
-        "title": "Functional town halls",
-        "description": "<p>Primăriile și celelalte autorități locale sunt printre primele instituții cu care cetățenii au contact în relația lor cu statul. Nevoia bunei funcționări prin procese interne este cu atât mai intens resimțită. Funcționarea bună, în primul rând la nivel intern, va face în mod natural ca interacțiuni dificile ale cetățenilor cu primăriile să devină mai ușoare și mai eficiente.</p>",
+        "title": "Functional local governance",
+        "description": "<p>City halls and other local authorities are among the first institutions with which citizens interact in their relationship with the state. The need for better functioning internal processes is all the more felt. Functional processes, primarily internal ones, will naturally make the interactions between citizens and local governance easier and more effective.</p>",
         "projects": {}
       },
       "institutii-centrale-functionale": {
-        "status": "It starts in March 2022",
-        "title": "Central functional institutions",
-        "description": "<p>Pentru a putea răspunde nevoilor cetățenilor și a oferi servicii publice de calitate, instituțiile centrale trebuie să aibă întâi procese clare și eficiente prin care să își gestioneze activitatea internă. Digitalizarea poate îmbunătăți felul în care instituțiile funcționează și comunică unele cu altele, făcându-le nu doar mai transparente, ci și mai apropiate de nevoile reale ale cetățenilor.</p>",
+        "status": "Starts in March 2022",
+        "title": "Functional central institutions",
+        "description": "<p>In order to be able to meet the needs of citizens and provide quality public services, central institutions must first have clear and efficient processes through which to manage their internal activity. Digitization can improve the way institutions work and communicate with each other, making them not only more transparent, but also closer to the real needs of citizens.</p>",
         "projects": {}
       },
       "jurnalisti-eficienti": {
-        "status": "It starts in March 2023",
-        "title": "Efficient journalists",
-        "description": "<p>Rolul fundamental al presei este acela de a monitoriza acțiunile factorilor de decizie, observând neregulile și informând publicul. &ldquo;Câinele de pază al democrației&ldquo; trece în ultimii ani printr-o perioadă de transformare și reinventare, fiind în căutarea acelor instrumente digitale prin care să poată răspunde exigențelor actuale.</p>",
+        "status": "Starts in March 2023",
+        "title": "Effective journalism",
+        "description": "<p>The fundamental role of the press is to monitor the actions of decision-makers, observing irregularities and informing the public. The 'watchdog of democracy' has been going through a period of transformation and reinvention in recent years, and is in search of those digital tools through which it can better meet current public requirements.</span></p><p>We aim to develop technological solutions to support journalists, tools that can be used in investigations, tools for more secure communication with sources,&nbsp; and tools for easier data visualization.</span></p>",
         "projects": {
           "romania-incognito": {
             "title": "Romania Incognito",
@@ -827,9 +827,9 @@
         }
       },
       "acces-la-cultura": {
-        "status": "It starts in March 2024",
+        "status": "Starts in March 2024",
         "title": "Access to culture",
-        "description": "<p>Cultura este un factor determinant în creșterea calității vieții, făcând-o mai plină de sens, mai frumoasă și mai armonioasă. Pentru creatori, uneltele digitale pot să asigure o gestionare mai bună a resurselor, în timp ce pentru consumatorii de cultură, tehnologia poate reprezenta o cale ușoară prin care pot avea acces la producții artistice.</p>",
+        "description": "<p>Culture is a determining factor in increasing quality of life, making life more meaningful, more beautiful and more harmonious. For creators, digital tools can provide better resource management, while for consumers of culture, technology can be an easier way to access artistic productions.</p>",
         "projects": {
           "theater-hub": {
             "title": "Theater Hub",
@@ -842,12 +842,12 @@
   },
   "education4ro": {
     "title": "Education for Romania",
-    "description": "The problems of education are not just the problems of those who study or teach in schools and colleges. The more we see education as a priority, the more we understand that the problems of Romanian society need lasting, sustainable solutions, fundamental changes and consistent improvements. In the various stages of the individual's training, interactions with others are essential, but well-used technology can be a tool to increase the value of the educational act.",
+    "description": "The issues of the educational system are not just the problems of those who study or teach in schools and colleges. The more we picture education as a priority, the more we understand that the problems of Romanian society need lasting, sustainable solutions, fundamental changes and consistent improvements. In the various stages of an individual’s formative experiences, interactions with others are essential, but technology, when properly used, can be a tool that increases the value of the educational act.",
     "segments": {
       "profesori-bine-pregatiti": {
         "status": "Design completed",
         "title": "Well-trained teachers",
-        "description": "Romania cannot have a functioning educational system without well-trained teachers. The better teachers we have, the more successful, passionate and well-trained students we will have. Regardless of whether they teach in pre-university cycles or in higher education, teachers are landmarks, being the main interface between the educational system and the student. Our journey begins with them, because teachers are multipliers. More well-trained teachers means dozens of times more students receiving a quality education.",
+        "description": "<p>Romania cannot have a functional educational system without well-trained teachers. The better the teachers we have, the more successful, passionate and well-trained students we will have. Whether they teach primary, secondary or in higher education, teachers are fundamental, as the main interface between the educational system and the student. Our journey begins with them, because teachers are multipliers. Better-trained teachers mean dozens upon dozens of students receiving a quality education.</p>",
         "projects": {
           "scoala-profesorilor": {
             "title": "Teachers' School",
@@ -889,7 +889,7 @@
       "abilitati-pentru-viata-reala": {
         "status": "Design completed",
         "title": "Real life skills",
-        "description": "The role of the educational system is to get to know the world, to function well in it and then improve and enrich it. However, in our country, the school focuses almost exclusively on science and the arts, not on skills. Many of the students' needs to understand the world are not found in school curricula (digital, media, health, financial, or soft skills development).",
+        "description": "<p>The role of the educational system is to help us get to know the world, adapt to it and to set us to improving it. However, in our country, the curricula is focused almost exclusively on science and the arts, not on skills. Many of the students' needs to understand the world are not found in school curricula (digital, media, health, financial education, or  the development of soft skills).</p>",
         "projects": {
           "18-ani-de-acasă": {
             "title": "18 years at home",
@@ -1031,37 +1031,37 @@
       "acces-la-educatie": {
         "status": "Design in progress",
         "title": "Access to education",
-        "description": "The access of all children to the education system, although provided for in institutional documents and statistics, is not a reality for many of Romania's children. This happens either because human resources are deficient or insufficiently prepared, or because in many disadvantaged areas, poor or non-existent infrastructure is an obstacle to the educational act. For many children, access to education and the necessary educational infrastructure (including psychological or educational counseling) is only formal. The year 2020 has shown all the more that the educational system is not ready to offer all students access to quality educational services.",
+        "description": "<p>The equal access of all children to the education system, although guaranteed by institutional documents and statistics, is not a reality for many of Romania's children. This either happens because educators are insufficiently prepared, or because in many disadvantaged areas, poor or non-existent infrastructure is a hindrance to the educational act. For many children, access to education and the necessary educational infrastructure (including psychological or educational counseling) is only on paper. 2020 has shown us all the more that the education system is not ready to offer all students access to quality educational services.</p>",
         "projects": {}
       },
       "invatamant-preuniversitar-de-calitate": {
-        "status": "It starts in March 2022",
+        "status": "Starts in March 2022",
         "title": "Quality pre-university education",
-        "description": "Technology can breathe new life into the way school curricula are taught in schools and high schools. For many of the disciplines studied, we can find improved, diversified, interactive and attractive teaching methods using technology.",
+        "description": "<p>Technology can breathe new life into the way school curricula are taught in schools and high schools. For many of the disciplines studied, we can find improved, diversified, interactive and attractive teaching methods through technology.</p>",
         "projects": {}
       },
       "invatamant-universitar-de-calitate": {
-        "status": "It starts in March 2023",
+        "status": "Starts in March 2023",
         "title": "Quality university education",
-        "description": "Romanian universities are preparing new generations of professionals who are building Romanian society. Technology can add value to the learning process, research or practical activities carried out in college, providing easy access to resources and increasing the quality of the training act.",
+        "description": "<p>Romanian universities are preparing new generations of professionals who are in turn helping to build Romanian society. Technology can improve the learning process, research or practical activities carried out in college, providing easy access to resources and increasing the quality of the educational act.</p>",
         "projects": {}
       },
       "scoli-sigure-si-bine-administrate": {
-        "status": "It starts in March 2024",
+        "status": "Starts in March 2024",
         "title": "Safe and well-run schools",
-        "description": "The environment in which a student is educated has a decisive importance for his future, not only through what happens in class but also through the way the school must represent a safe, adequate and thoughtful place to support the learning process. The way schools are run can be improved with the help of technology, to make them safer spaces, free from threats to students, where bullying is not tolerated and the general atmosphere encourages learning in a collegial spirit.",
+        "description": "<p>The environment in which students are educated is of decisive importance for their future, not only through what happens in classroom but also through how safe and adequate a place the school itself is. The way schools are run can be improved through help of technology, to make them safer spaces, free from threats to students, in which bullying is not tolerated and the general atmosphere is one that encourages learning and collegiality.</p>",
         "projects": {}
       }
     }
   },
   "environment4ro": {
     "title": "Environment for Romania",
-    "description": "In order to live together in good conditions, we must think beyond ourselves. The good of each of us cannot be separated from the good of the environment in which we live and in which we plan our future and that of the generations after us. Forests, nature and green spaces are the first things that come to mind when it comes to the environment. But here we also talk about urban development, infrastructure, protected areas, natural disasters and strategies for protection against pollution of any kind. Over the next five years, we look closely at environmental issues and find the best digital solutions we can use. , protecting the environment, let's protect ourselves.",
+    "description": "In order to live together in harmony, we must think beyond ourselves. The wellbeing of each and everyone of us cannot be separated from the good of the environment around us, for both our sake and that of generations to come. Forests, nature and green spaces are the first things that come to mind when it comes to the environment. But urban development, infrastructure, protected areas, natural disasters and pollution protection strategies of all kinds also factor in. Over the next five years, we will look closely at environmental issues and find the best digital solutions we can use. Let's protect ourselves by protecting the environment around us.",
     "segments": {
       "pregatiti-pentru-urmatorul-dezastru-natural": {
         "status": "Design completed",
-        "title": "Get ready for the next natural disaster",
-        "description": "<p>În fața dezastrelor naturale suntem vulnerabili, unele dintre daunele și pierderile de vieți cauzate de acestea fiind inevitabile. În schimb, pagubele cauzate de dezastrele imprevizibile pot fi multiplicate de neștiința și lipsa noastră de pregătire. Tehnologia ne poate face mai siguri pe noi, sprijinindu-ne în momentele în care panica pune stăpânire pe noi sau ajutându-ne să ne organizăm eficient și să răspundem nevoilor de ajutor cât de repede cu putință.</p>",
+        "title": "Getting ready for the next natural disaster",
+        "description": "<p>We are and have always been vulnerable to natural disasters, with damage and loss of life inevitable. But still, the damage caused by disasters can be multiplied by our ignorance and lack of preparedness. Technology can help us become more confident, support us in times of panic and help us organize effectively and respond to aid requests as quickly as possible.</p>",
         "projects": {
           "RVM": {
             "title": "RVM",
@@ -1132,8 +1132,8 @@
       },
       "pregatiti-pentru-urmatorul-cutremur": {
         "status": "Design completed",
-        "title": "Prepare for the next earthquake",
-        "description": "<p>Un cutremur în România nu reprezintă un pericol ipotetic, ci o certitudine. Și despre el știm un singur lucru: este cel mai imprevizibil dezastru de amploare care ni se poate întâmpla.</p><p>Am ales să ne îndreptăm atenția spre domeniul pregătirii și răspunsului în caz de seism deoarece ne dorim să înțelegem concret care este capacitatea noastră de a răspunde unui asemenea eveniment și cât de pregătiți suntem, la nivel individual, să facem față unui cutremur.</p>",
+        "title": "Being prepared for the next earthquake",
+        "description": "<p>An earthquake in Romania is not a hypothetical danger, but a certainty. And if we know one thing about earthquakes it is that they are the most unpredictable and largest disasters that can strike us.</p><p>We chose to turn our attention to the field of earthquake preparedness and response because we want to understand concretely what our ability to respond to such an event is and how prepared we are, individually, to cope with an earthquake.</p>",
         "projects": {
           "e-cutremur": {
             "title": "eEarthquake",
@@ -1175,7 +1175,7 @@
       "masurarea-poluarii": {
         "status": "Design completed",
         "title": "Pollution measurement",
-        "description": "<p>România este una dintre țările cu cele mai multe victime provocate de poluare din Uniunea Europeană. Singura modalitate de a acționa împotriva acestei amenințări este să înțelegem magnitudinea fenomenului prin extragerea și analizarea unor date corecte și complete legate de modul în care aceasta se manifestă la nivel național.</p><p>Cercetăm extensiv și dezvoltăm soluții tehnologice care să vizeze toate sursele de poluare care pot afecta serios mediul înconjurător, dar și calitatea vieții: poluarea aerului, a apei, a solului, poluarea fonică și luminoasă.</p>",
+        "description": "<p>Romania is one of the countries with the largest number of pollution victims in the European Union. The only way to act against this threat is to understand the magnitude of the phenomenon by extracting and analyzing accurate and complete data on how it manifests itself at the national level.</p><p>We will do comprehensive research and develop technological solutions that target all the sources of pollution that can seriously affect our environment, but more importantly our quality of life: air, water, soil, noise and light pollution.</p>",
         "projects": {
           "date-poluare": {
             "title": "Data Pollution",
@@ -1217,7 +1217,7 @@
       "reducerea-poluarii": {
         "status": "Design completed",
         "title": "Pollution reduction",
-        "description": "<p>Reducerea poluării este una dintre cele mai mari provocări cu care umanitatea se confruntă în ultimele zeci de ani. Diminuarea efectelor nocive asupra planetei și a calității vieții este un demers care poate fi aplicat cu succes doar dacă se implementează măsuri concrete de control și reducere a factorilor poluanți.</p><p>Studiem diferitele tipuri de reducere a nivelului de poluare precum: procese de repunere în uz, producție curată, eficiență energetică, eficiență în infrastructura de transport sau reducerea deșeurilor și generăm soluții cu impact la nivel sistemic pentru combaterea efectelor pe termen lung.</p>",
+        "description": "<p>Reducing pollution is one of the biggest challenges that humanity has been facing. Reducing its harmful effects on both the planet and on our quality of life is something that can be successful only if concrete measures to control and reduce pollutants are implemented.</p><p>We study different types of pollution reduction such as: re-use processes, clean production, energy efficiency, transport infrastructure efficiency or waste reduction and generate solutions with systemic impact to combat long-term effects.</p>",
         "projects": {
           "scoala-pentru-mediu": {
             "title": "School of the Environment",
@@ -1294,31 +1294,31 @@
       "reciclarea-si-managementul-deseurilor": {
         "status": "Design in progress",
         "title": "Recycling and waste management",
-        "description": "<p>În 2019, umanitatea a produs un număr record de deșeuri dintre care nici măcar un sfert nu au fost reciclate. Practic, am produs o cantitate de deșeuri care, cumulată, este mai mare decât greutatea tuturor oamenilor adulți din Europa.</p><p>Sustenabilitatea vieții pe pământ depinde în mod direct de identificarea celor mai bune metode de reciclare și management al deșeurilor și gunoiului.</p><p>Este probabil una dintre cele mai mari provocări ale generației noastre, motiv pentru care ne propunem să contribuim prin instrumente digitale la procesele de reciclare și administrare a deșeurilor rezultate în urma reciclării.</p>",
+        "description": "<p>In 2019, we, as a species produced record amounts of waste, of which only 25% was recycled. Basically, we have produced a quantity of waste that, cumulatively, is greater than the weight of all adults in Europe.</p><p>Sustainability of life on earth depends directly on identifying the best methods of recycling, waste and garbage management.</p><p>It is probably one of the biggest challenges of our generation, which is why we aim to contribute through digital tools to this processes of recycling and waste management.</p>",
         "projects": {}
       },
       "orase-prietenoase": {
-        "status": "It starts in March 2022",
-        "title": "Friendly cities",
-        "description": "<p>Deși dezvoltarea orașelor are ca prim obiectiv deservirea locuitorilor, în România zona urbană nu a fost concepută având în minte cetățenii. Mai mult decât atât, ne lovim tot mai des de improvizații care nu sunt sustenabile sau decizii care afectează și chiar înrăutățesc calitatea vieții.</p><p>Tehnologia este unul dintre cele mai eficiente instrumente care pot fi utilizate în transformarea orașelor în spații locuibile, accesibile și prietenoase, dezvoltate în mod responsabil și inteligent.</p>",
+        "status": "Starts in March 2022",
+        "title": "Friendlier cities",
+        "description": "<p>Although the primary purpose of urban development in general is the increase in living standards for inhabitants, in Romania development has never been done with the citizen’s best interests in mind. We are increasingly faced with unsustainable improvisations or decisions that negatively affect quality of life.</p><p>Technology is one of the most effective tools that can be used to transform cities into livable, accessible and friendly spaces, developed responsibly and intelligently.</p>",
         "projects": {}
       },
       "sate-dezvoltate": {
-        "status": "It starts in March 2023",
+        "status": "Starts in March 2023",
         "title": "Developed villages",
-        "description": "<p>Peste jumătate din populația României locuiește în mediul rural sau în condiții echivalente traiului în mediul rural.</p><p>Calitatea vieții la sate se măsoară atât prin veniturile pe cap de locuitor, cât și prin accesul populației la condiții de trai civilizate, aliniate cu cele din mediul urban. Tocmai de aceea, nu poate exista o strategie de dezvoltare a României care să nu includă intervenții în tot ceea ce intră sub incidența infrastructurii rurale. De aceea, căutăm soluții de tehnologie civică menite să îmbunătățească nivelul de trai și indicii de progres.</p>",
+        "description": "<p>The quality of life in villages is measured both on a per capita income basis and through the population's access to civilized living conditions, similar to those in urban areas. That is why there can be no development strategy for Romania that does not include also focusing on everything that falls under the scope of rural infrastructure. This is why we are looking for civic technology solutions designed to improve living standards and progress indicators in the countryside.</p><p>More than half of Romania's population lives in rural areas or in conditions equivalent to life in rural areas.</p>",
         "projects": {}
       },
       "protectia-naturii": {
-        "status": "It starts in March 2024",
-        "title": "Nature protection",
-        "description": "<p>România are una dintre cele mai bogate biodiversități din Europa, iar datorită poziției geografice beneficiem de un capital natural impresionant. Cu toate astea, perioada de dezvoltare și tranziție economică pe care o parcurgem prezintă un risc în lipsa unei strategii coerente și asumate de protecție a naturii.</p><p>Stilul de viață actual și deciziile cu privire la ocrotirea mediului înconjurător influențează negativ patrimoniul natural al țării, având consecințe pe termen lung care vizează direct generațiile viitoare.</p><p>Alături de instituțiile responsabile, de partenerii și voluntarii noștri, căutăm să reducem impactul nociv al degradării mediului înconjurător prin dezvoltarea unor unelte digitale care să contribuie la protejarea naturii în toate formele ei.</p>",
+        "status": "Starts in March 2024",
+        "title": "Protecting nature",
+        "description": "<p>Romania is one of hte most biodiverse countries in Europe, and thanks to its geographical position it benefits from an impressive natural capital. However, the period of development and economic transition we are going through poses a risk to nature, in the absence of a coherent and assumed nature protection strategy.</p><p>Our current lifestyle and poor decisions on environmental protection negatively influence the country's natural heritage, with long-term consequences that may directly affect future generations.</p><p>Together with the institutions, our partners and volunteers, we seek to reduce the harmful impact of environmental degradation by developing digital tools that contribute to the protection of nature in all its forms.</p>",
         "projects": {}
       },
       "paduri-protejate-si-sanatoase": {
-        "status": "It starts in March 2024",
+        "status": "Starts in March 2024",
         "title": "Protected and healthy forests",
-        "description": "<p>Pădurile sunt una dintre cele mai importante resurse pe care România le deține. Dar sănătatea pădurilor este amenințată de exploatări forestiere ilegale care pun sub asediu zone care ar trebui, de altfel, să fie protejate prin lege.</p><p>Mutilarea pădurilor are efecte de durată asupra mediului, sănătății și siguranței populației. În plus, discutăm despre o resursă foarte prețioasă al cărei proces de regenerare durează zeci de ani, în timp ce defrișările ilegale pun la pământ sute de copaci în doar câteva zile.</p><p>Ne propunem să generăm soluții digitale care să contribuie la menținerea și protejarea pădurilor din România astfel încât să diminuăm riscul dispariției teritoriului împădurit al țării.</p>",
+        "description": "<p>Forests are one of the most important resources that Romania has. But the health of forests is threatened through illegal logging in areas that should otherwise be protected by law.</p><p>The destruction of forests has lasting effects on the environment, as well as the health and safety of the population. Not to mention the fact that forests are a very valuable resource whose regeneration process takes decades, while illegal deforestation can cut down hundreds of trees in just a few days.</p><p>We aim to generate digital solutions that contribute to the maintenance and protection of forests in Romania so as to reduce the risk of the country's forested areas simply vanishing.</p>",
         "projects": {}
       }
     }
