@@ -180,6 +180,12 @@
         "name": "Stefanini",
         "link": "https://stefanini.com/",
         "logo": "https://code4.ro/img/22739b75-f545-4dc4-899b-2890f88554ca/is-logo-2021-color.png?q=80&fit=max&crop=1247%2C413%2C0%2C0&w=400"
+      },
+      {
+        "id": 5,
+        "name": "Cegeka",
+        "link": "https://www.cegeka.com",
+        "logo": "https://code4.ro/img/8c25d864-a4f5-4d84-adc5-9b6205e2470d/cegeka.png?q=80&fit=max&crop=500%2C500%2C0%2C0&w=400"
       }
     ],
     "others": [
@@ -242,6 +248,18 @@
         "name": "CompuGroup Medical",
         "link": "https://www.cgm.com/rou_en",
         "logo": "https://code4.ro/img/0190e068-17a3-43a4-b454-4e0b5756e96b/logo-cgm.png?q=60&fit=max&dpr=1&h=256"
+      },
+      {
+        "id": 19,
+        "name": "Agile Freaks",
+        "link": "https://www.agilefreaks.com/",
+        "logo": "https://code4.ro/img/6e7c8110-50ad-4656-b549-53dc33778a27/agilefreaks.png?q=80&fit=max&crop=501%2C501%2C0%2C0&w=400"
+      },
+      {
+        "id": 20,
+        "name": "Bearing Point",
+        "link": "https://www.bearingpoint.com",
+        "logo": "https://code4.ro/img/503c9d05-c498-44a0-b1ef-74bd6f7bdd0a/bearingpoint.png?q=80&fit=max&crop=4448%2C1320%2C0%2C0&w=400"
       }
     ]
   },
