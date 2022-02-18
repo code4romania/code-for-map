@@ -1451,8 +1451,15 @@
               "description": "<p>În lipsa unor servicii specializate, pentru multe dintre ONG-urile din România, managementul și planificarea bugetelor poate fi o problemă consumatoare de resurse și timp. Alex este asistentul open-source care ajută societatea civilă să își gestioneze mai bine resursele financiare. Fiecare asociație va putea menține separat contabilitatea pentru fiecare contract de sponsorizare, având apoi posibilitatea de a face ușor raportarea cheltuielilor. Structurat luând în calcul diferitele modele de granturi și sponsorizări pe care le primesc organizațiile și integrând modelele standard de extrase de cont, Alex va ajuta organizația să țină o evidență clară a tuturor tranzacțiilor financiare și a disponibiltății fondurilor pe care le administrează.</p>",
               "link": "",
               "icon": "participation4ro-alex",
-              "adopted": false,
-              "adopted_by": []
+              "adopted": true,
+              "adopted_by": [
+                {
+                  "id": 1,
+                  "title": "ING",
+                  "link": "https://ing.ro/persoane-fizice",
+                  "logo": "https://code4.ro/img/9dc5ce5d-08b5-4b33-a065-aec64cda7b42/ing-primary-logo-rgb.png?q=80&fit=crop&dpr=1&w=200&h=80&crop=1621%2C662%2C0%2C0"
+                }
+              ]
             },
             {
               "id": 6,
@@ -1473,8 +1480,15 @@
               "description": "<p>Cel de-al patrulea asistent pentru ONG-uri, alături de Paul, Teo și Alex, Cris este o platformă de e-learning pentru organizațiile din societatea civilă. Un punct unic de învățare, cu resurse solide pentru toate tipurile de organizații, grupate pe categorii de activități și însoțite de materiale suport pentru oricine dorește să se perfecționeze. Platforma web va fi construită ca un centru online de învățare și va putea reda materiale scrise, video-uri, traininguri și cursuri, modele de documente, template-uri predefinite și multe alte resuse utile pentru ONG-uri.</p>",
               "link": "",
               "icon": "participation4ro-cris",
-              "adopted": false,
-              "adopted_by": []
+              "adopted": true,
+              "adopted_by": [
+                {
+                  "id": 1,
+                  "title": "ING",
+                  "link": "https://ing.ro/persoane-fizice",
+                  "logo": "https://code4.ro/img/9dc5ce5d-08b5-4b33-a065-aec64cda7b42/ing-primary-logo-rgb.png?q=80&fit=crop&dpr=1&w=200&h=80&crop=1621%2C662%2C0%2C0"
+                }
+              ]
             },
             {
               "id": 8,
@@ -2703,9 +2717,9 @@
             {
               "id": 11,
               "projectSlug": "house-to-home",
-              "title": "House to Home",
+              "title": "Un acoperiș",
               "subtitle": "Ajutor pentru persoanele rămase fără locuință",
-              "description": "<p>House to Home este un serviciu de tip „AirBnb” care va ajuta persoanele care au rămas fără adăpost să primească sprijin în cazul în care și-au pierdut locuința. În platformă se pot înregistra persoane care pot pune la dispoziție camere sau spații de cazare pentru persoanele care locuiesc în adăposturile puse la dispoziție de autorități. Cei care se înregistrează drept gazde în sistem vor trebui validați de administratorul platformei, care este și cel care aprobă cereri de ajutor și realizează matching-ul dintre actori în funcție de disponibilitatea de spațiu, de timp și de alte criterii legate de preferințele gazdelor sau de nevoile de accesibilizare atunci când este vorba despre persoane cu dizabilități sau care au nevoie de tratamente speciale.</p>",
+              "description": "<p>Un acoperiș este un serviciu de tip „AirBnb” care va ajuta persoanele care au rămas fără adăpost să primească sprijin în cazul în care și-au pierdut locuința. În platformă se pot înregistra persoane care pot pune la dispoziție camere sau spații de cazare pentru persoanele care locuiesc în adăposturile puse la dispoziție de autorități. Cei care se înregistrează drept gazde în sistem vor trebui validați de administratorul platformei, care este și cel care aprobă cereri de ajutor și realizează matching-ul dintre actori în funcție de disponibilitatea de spațiu, de timp și de alte criterii legate de preferințele gazdelor sau de nevoile de accesibilizare atunci când este vorba despre persoane cu dizabilități sau care au nevoie de tratamente speciale.</p>",
               "link": "",
               "icon": "environment4ro-house-to-home",
               "adopted": false,
@@ -3096,8 +3110,15 @@
               "description": "<p>Tranziția de la mașinile care fac uz de combustibili fosili catre mașini care pot funcționa cu energie electrică este foarte importantă pentru reducerea poluării. Această tranziție se află abia la început în România, de aceea avem nevoie de o platformă care să ofere informații complete, accesibile, pe înțelesul tuturor tipurilor de utilizatori, care explică avantajele achiziționării unei mașini electrice și care să ofere potențialilor șoferi o hartă a distribuției stațiilor de încărcare pe teritoriul României.</p>",
               "link": "",
               "icon": "environment4ro-conduc-electric",
-              "adopted": false,
-              "adopted_by": []
+              "adopted": true,
+              "adopted_by": [
+                {
+                  "id": 4,
+                  "title": "Enel",
+                  "link": "https://www.enelx.com/ro/en",
+                  "logo": "https://code4.ro/img/70092fa1-053c-40ac-8bc1-a00e46a9306f/enel.png?q=60&fit=max&dpr=1&h=256"
+                }
+              ]
             },
             {
               "id": 14,
