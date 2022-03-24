@@ -260,6 +260,12 @@
         "name": "Bearing Point",
         "link": "https://www.bearingpoint.com",
         "logo": "https://code4.ro/img/503c9d05-c498-44a0-b1ef-74bd6f7bdd0a/bearingpoint.png?q=80&fit=max&crop=4448%2C1320%2C0%2C0&w=400"
+      },
+      {
+        "id": 21,
+        "name": "Schwarz",
+        "link": "https://it.schwarz/en/it-hubs/romania",
+        "logo": "https://code4.ro/img/8e0a23d8-67d2-41f3-905b-168c4d80047c/scwharz2.png?q=80&fit=max&crop=1024%2C1024%2C0%2C0&w=400"
       }
     ]
   },
@@ -2147,7 +2153,7 @@
               "icon": "education4ro-aoleo",
               "adopted": false,
               "adopted_by": []
-            }, 
+            },
             {
               "id": 11,
               "projectSlug": "pregatiti",
