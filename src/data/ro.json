@@ -135,7 +135,7 @@
         "id": 1,
         "name": "Romanian-American Foundation",
         "link": "https://www.rafonline.org/",
-        "logo": "https://code4.ro/img/80ca17d3-88ed-40a1-bad8-4b579e48c72e/logo-raf.jpg?q=80&fit=crop&dpr=1&w=200&h=80&crop=1309%2C1000%2C0%2C0"
+        "logo": "https://code4.ro/img/1b04912d-ba0f-405b-9169-8a86b624163b/raf.png?q=80&fit=max&crop=500%2C500%2C0%2C0&w=400"
       },
       {
         "id": 2,
@@ -153,47 +153,47 @@
     "secondary": [
       {
         "id": 1,
-        "name": "AstraZeneca",
-        "link": "https://www.astrazeneca.com/",
-        "logo": "https://code4.ro/img/cb48e145-b67a-47fa-b0d3-ba8fa2d4a90e/untitled-design-9.png?q=60&fit=crop&dpr=1&w=500&h=500"
-      },
-      {
-        "id": 1,
-        "name": "Globalworth",
-        "link": "https://www.globalworth.com/",
-        "logo": "https://code4.ro/img/8e139713-aecc-402a-a95b-2b40b6954487/untitled-design-11.png?q=60&fit=crop&dpr=1&w=500&h=500https://code4.ro/img/9137628e-789e-4af1-af4e-af30c16394c6/fundatia-vodafone.png"
-      },
-      {
-        "id": 2,
         "name": "Jysk",
         "link": "http://jysk.ro/",
         "logo": "https://code4.ro/img/8e09071c-bce4-4144-ab7f-5434576de667/jysk.png"
       },
       {
+        "id": 2,
+        "name": "Fundația Bosch România",
+        "link": "https://fundatiabosch.ro/",
+        "logo": "https://code4.ro/img/732a645d-ee8c-4642-8eb6-1208fa411998/logo-fundatia-bosch-update-01.jpg?q=80&fit=max&crop=8000%2C1614%2C0%2C0&w=400"
+      },
+      {
         "id": 3,
-        "name": "Cloudflight",
-        "link": "https://www.cloudflight.io/offices/cluj-napoca/",
-        "logo": "https://code4.ro/img/85ebcd58-6304-4862-9529-037e20d98d57/cloudflight.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=500%2C500%2C0%2C0"
+        "name": "Synevo",
+        "link": "https://www.synevo.ro/",
+        "logo": "https://code4.ro/img/d4349d90-1869-47bc-b6b2-2b3e3ed16686/untitled-design8.png?q=80&fit=max&crop=1920%2C1080%2C0%2C0&w=400"
       },
       {
         "id": 4,
-        "name": "Stefanini",
-        "link": "https://www.stefanini-institute.com/index.php",
-        "logo": "https://code4.ro/img/22739b75-f545-4dc4-899b-2890f88554ca/is-logo-2021-color.png?q=80&fit=max&crop=1247%2C413%2C0%2C0&w=400"
+        "name": "Cloudflight",
+        "link": "https://www.cloudflight.io/offices/cluj-napoca/",
+        "logo": "https://code4.ro/img/85ebcd58-6304-4862-9529-037e20d98d57/cloudflight.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=500%2C500%2C0%2C0"
       },
       {
         "id": 5,
         "name": "Cegeka",
         "link": "https://www.cegeka.com",
         "logo": "https://code4.ro/img/8c25d864-a4f5-4d84-adc5-9b6205e2470d/cegeka.png?q=80&fit=max&crop=500%2C500%2C0%2C0&w=400"
+      },
+      {
+        "id": 12,
+        "name": "Visma",
+        "link": "https://www.visma.ro/",
+        "logo": "https://code4.ro/img/bf815744-9a4e-4420-bf6e-26da91458250/visma-timisoara-tfsg.png?q=80&fit=crop&dpr=1&w=200&h=80&crop=1920%2C1080%2C0%2C0"
       }
     ],
     "others": [
       {
         "id": 5,
-        "name": "Sustainalytics",
+        "name": "Morningstar",
         "link": "https://www.sustainalytics.com/about-us/",
-        "logo": "https://code4.ro/img/sustainalytics.png?q=80&fit=crop&dpr=1&w=200&h=80&crop=500%2C500%2C0%2C0"
+        "logo": "https://code4.ro/img/ec430c1d-4cfb-4b42-bb47-ca90365ed3a8/untitled-design9.png?q=80&fit=max"
       },
       {
         "id": 7,
@@ -201,18 +201,7 @@
         "link": "http://romania.amazon.com",
         "logo": "https://code4.ro/img/85ebcd58-6304-4862-9529-037e20d98d57/amazon.png?q=80&fit=crop&dpr=1&w=200&h=80&crop=500%2C500%2C0%2C0"
       },
-      {
-        "id": 11,
-        "name": "Systematic",
-        "link": "https://systematic.com/contact/offices/romania/",
-        "logo": "https://code4.ro/img/18b7822a-8388-4f08-8d17-5aca36fde265/systematic.png"
-      },
-      {
-        "id": 12,
-        "name": "Visma",
-        "link": "https://www.visma.ro/",
-        "logo": "https://code4.ro/img/bf815744-9a4e-4420-bf6e-26da91458250/visma-timisoara-tfsg.png?q=80&fit=crop&dpr=1&w=200&h=80&crop=1920%2C1080%2C0%2C0"
-      },
+
       {
         "id": 13,
         "name": "Continental",
@@ -224,18 +213,6 @@
         "name": "Unifiedpost",
         "link": "https://www.unifiedpost.com/",
         "logo": "https://code4.ro/img/85ebcd58-6304-4862-9529-037e20d98d57/unified-post.png?q=80&fit=crop&dpr=1&w=200&h=80&crop=500%2C500%2C0%2C0"
-      },
-      {
-        "id": 15,
-        "name": "Wolfpack",
-        "link": "https://www.wolfpack-digital.com",
-        "logo": "https://code4.ro/img/4e2d07ea-2aa4-494d-a130-701bec2efc3f/wolfpack.png?q=80&fit=max&crop=631%2C411%2C0%2C0&w=400"
-      },
-      {
-        "id": 16,
-        "name": "Mambu",
-        "link": "https://www.mambu.com",
-        "logo": "https://code4.ro/img/f24ec8c5-ddbd-4abd-b555-2a19aae0e57b/mambu.jpg?q=80&fit=max&crop=1599%2C391%2C0%2C0&w=400"
       },
       {
         "id": 17,
@@ -266,6 +243,12 @@
         "name": "Schwarz",
         "link": "https://it.schwarz/en/it-hubs/romania",
         "logo": "https://code4.ro/img/8e0a23d8-67d2-41f3-905b-168c4d80047c/scwharz2.png?q=80&fit=max&crop=1024%2C1024%2C0%2C0&w=400"
+      },
+      {
+        "id": 22,
+        "name": "Centric",
+        "link": "https://www.centric.eu/",
+        "logo": "https://code4.ro/img/3fae1964-0143-4346-b064-128eed96cb22/centric.png"
       }
     ]
   },
@@ -275,10 +258,6 @@
       "slug": "care4ro",
       "title": "Care for Romania",
       "description": "În jurul câte unui eveniment tragic, atenția societății se îndreaptă trecător spre problemele unor categorii sociale care au nevoie de sprijin. Dar incluziunea socială a persoanelor vulnerabile nu este o problemă care se tratează cu intenții pozitive punctuale, ci cu eforturi susținute și planuri bine gândite pentru viitor. Sărăcia, copiii instituționalizați, persoanele cu dizabilități, minoritățile, sunt zone vulnerabile ale societății românești.",
-      "sponsor": {
-        "link": "https://www.romanianunitedfund.org/",
-        "logo": "https://code4.ro/img/93c178b9-e4ad-4152-a4db-348fd34d6268/putem-10.png?q=60&fit=max&dpr=1&h=200"
-      },
       "btn": {
         "top": "9%",
         "left": "49.78%"
@@ -686,8 +665,8 @@
       "title": "Health for Romania",
       "description": "În ultimii ani, a devenit tot mai evidentă nevoia unui sistem de sănătate performant, bine organizat, care să fie la dispoziția tuturor cetățenilor. Dreptul la sănătate, educația pentru sănătate, accesul la servicii medicale sunt lucruri care, într-o societate normală, sunt de domeniul firescului. Credem că acolo unde problemele sunt urgente, tehnologia și inovația pot vindeca.",
       "sponsor": {
-        "link": "https://www.astrazeneca.com/",
-        "logo": "https://code4.ro/img/cb48e145-b67a-47fa-b0d3-ba8fa2d4a90e/untitled-design-9.png?q=60&fit=crop&dpr=1&w=500&h=500"
+        "link": "https://www.synevo.ro/",
+        "logo": "https://code4.ro/img/d4349d90-1869-47bc-b6b2-2b3e3ed16686/untitled-design8.png?q=80&fit=max&crop=1920%2C1080%2C0%2C0&w=400"
       },
       "btn": {
         "top": "17.26%",
@@ -1889,8 +1868,8 @@
       "title": "Education for Romania",
       "description": "Problemele educației nu sunt doar problemele celor care învață sau predau în școli și facultăți. Cu cât vedem educația ca pe o prioritate, cu atât înțelegem faptul că problemele societății românești au nevoie de soluții de durată, sustenabile, de schimbări fundamentale și îmbunătățiri consistente. În diferitele etape de formare ale individului, interacțiunile cu ceilalți sunt esențiale, dar tehnologia bine folosită poate reprezenta un instrument care să crească valoarea actului educațional.",
       "sponsor": {
-        "link": "https://www.globalworth.com/",
-        "logo": "https://code4.ro/img/8e139713-aecc-402a-a95b-2b40b6954487/untitled-design-11.png?q=60&fit=crop&dpr=1&w=500&h=500https://code4.ro/img/9137628e-789e-4af1-af4e-af30c16394c6/fundatia-vodafone.png"
+        "link": "https://fundatiabosch.ro/",
+        "logo": "https://code4.ro/img/732a645d-ee8c-4642-8eb6-1208fa411998/logo-fundatia-bosch-update-01.jpg?q=80&fit=max&crop=8000%2C1614%2C0%2C0&w=400"
       },
       "btn": {
         "top": "54.61%",
