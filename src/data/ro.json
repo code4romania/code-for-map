@@ -180,12 +180,6 @@
         "name": "Cegeka",
         "link": "https://www.cegeka.com",
         "logo": "https://code4.ro/img/8c25d864-a4f5-4d84-adc5-9b6205e2470d/cegeka.png?q=80&fit=max&crop=500%2C500%2C0%2C0&w=400"
-      },
-      {
-        "id": 12,
-        "name": "Visma",
-        "link": "https://www.visma.ro/",
-        "logo": "https://code4.ro/img/bf815744-9a4e-4420-bf6e-26da91458250/visma-timisoara-tfsg.png?q=80&fit=crop&dpr=1&w=200&h=80&crop=1920%2C1080%2C0%2C0"
       }
     ],
     "others": [
@@ -215,22 +209,10 @@
         "logo": "https://code4.ro/img/c6596c60-6ba5-444a-ac1b-a077ca70f15e/fintechos.png?q=60&fit=max&dpr=1&h=256"
       },
       {
-        "id": 18,
-        "name": "CompuGroup Medical",
-        "link": "https://www.cgm.com/rou_en",
-        "logo": "https://code4.ro/img/0190e068-17a3-43a4-b454-4e0b5756e96b/logo-cgm.png?q=60&fit=max&dpr=1&h=256"
-      },
-      {
         "id": 19,
         "name": "Agile Freaks",
         "link": "https://www.agilefreaks.com/",
         "logo": "https://code4.ro/img/6e7c8110-50ad-4656-b549-53dc33778a27/agilefreaks.png?q=80&fit=max&crop=501%2C501%2C0%2C0&w=400"
-      },
-      {
-        "id": 20,
-        "name": "Bearing Point",
-        "link": "https://www.bearingpoint.com",
-        "logo": "https://code4.ro/img/503c9d05-c498-44a0-b1ef-74bd6f7bdd0a/bearingpoint.png?q=80&fit=max&crop=4448%2C1320%2C0%2C0&w=400"
       },
       {
         "id": 21,
