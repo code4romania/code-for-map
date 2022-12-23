@@ -132,19 +132,16 @@
     "description": "Ei sunt arhitecții, constructorii și administratorii care ni s-au alăturat până acum în dezvoltarea infrastructurii digitale a României.",
     "main": [
       {
-        "id": 1,
         "name": "Romanian-American Foundation",
         "link": "https://www.rafonline.org/",
         "logo": "https://code4.ro/img/1b04912d-ba0f-405b-9169-8a86b624163b/raf.png?q=80&fit=max&crop=500%2C500%2C0%2C0&w=400"
       },
       {
-        "id": 2,
         "name": "ING",
         "link": "https://ing.ro/persoane-fizice",
         "logo": "https://code4.ro/img/9dc5ce5d-08b5-4b33-a065-aec64cda7b42/ing-primary-logo-rgb.png?q=80&fit=crop&dpr=1&w=200&h=80&crop=1621%2C662%2C0%2C0"
       },
       {
-        "id": 3,
         "name": "Lidl",
         "link": "https://www.lidl.ro/",
         "logo": "https://code4.ro/img/67236b19-5a95-444a-8d7e-28ae8d75d1b8/lidl.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=500%2C500%2C0%2C0"
@@ -152,31 +149,26 @@
     ],
     "secondary": [
       {
-        "id": 1,
         "name": "Jysk",
         "link": "http://jysk.ro/",
         "logo": "https://code4.ro/img/8e09071c-bce4-4144-ab7f-5434576de667/jysk.png"
       },
       {
-        "id": 2,
         "name": "Fundația Bosch România",
         "link": "https://fundatiabosch.ro/",
         "logo": "https://code4.ro/img/732a645d-ee8c-4642-8eb6-1208fa411998/logo-fundatia-bosch-update-01.jpg?q=80&fit=max&crop=8000%2C1614%2C0%2C0&w=400"
       },
       {
-        "id": 3,
         "name": "Synevo",
         "link": "https://www.synevo.ro/",
         "logo": "https://code4.ro/img/d4349d90-1869-47bc-b6b2-2b3e3ed16686/untitled-design8.png?q=80&fit=max&crop=1920%2C1080%2C0%2C0&w=400"
       },
       {
-        "id": 4,
         "name": "Cloudflight",
         "link": "https://www.cloudflight.io/offices/cluj-napoca/",
         "logo": "https://code4.ro/img/85ebcd58-6304-4862-9529-037e20d98d57/cloudflight.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=500%2C500%2C0%2C0"
       },
       {
-        "id": 5,
         "name": "Cegeka",
         "link": "https://www.cegeka.com",
         "logo": "https://code4.ro/img/8c25d864-a4f5-4d84-adc5-9b6205e2470d/cegeka.png?q=80&fit=max&crop=500%2C500%2C0%2C0&w=400"
@@ -184,44 +176,37 @@
     ],
     "others": [
       {
-        "id": 5,
         "name": "Morningstar",
         "link": "https://www.sustainalytics.com/about-us/",
         "logo": "https://code4.ro/img/ec430c1d-4cfb-4b42-bb47-ca90365ed3a8/untitled-design9.png?q=80&fit=max"
       },
       {
-        "id": 7,
         "name": "Amazon",
         "link": "http://romania.amazon.com",
         "logo": "https://code4.ro/img/85ebcd58-6304-4862-9529-037e20d98d57/amazon.png?q=80&fit=crop&dpr=1&w=200&h=80&crop=500%2C500%2C0%2C0"
       },
 
       {
-        "id": 13,
         "name": "Continental",
         "link": "https://www.continental.com/ro-ro",
         "logo": "https://code4.ro/img/continental.png?q=80&fit=crop&dpr=1&w=200&h=80&crop=500%2C500%2C0%2C0"
       },
       {
-        "id": 17,
         "name": "FintechOS",
         "link": "https://fintechos.com/",
         "logo": "https://code4.ro/img/c6596c60-6ba5-444a-ac1b-a077ca70f15e/fintechos.png?q=60&fit=max&dpr=1&h=256"
       },
       {
-        "id": 19,
         "name": "Agile Freaks",
         "link": "https://www.agilefreaks.com/",
         "logo": "https://code4.ro/img/6e7c8110-50ad-4656-b549-53dc33778a27/agilefreaks.png?q=80&fit=max&crop=501%2C501%2C0%2C0&w=400"
       },
       {
-        "id": 21,
         "name": "Schwarz",
         "link": "https://it.schwarz/en/it-hubs/romania",
         "logo": "https://code4.ro/img/8e0a23d8-67d2-41f3-905b-168c4d80047c/scwharz2.png?q=80&fit=max&crop=1024%2C1024%2C0%2C0&w=400"
       },
       {
-        "id": 22,
         "name": "Centric",
         "link": "https://www.centric.eu/",
         "logo": "https://code4.ro/img/3fae1964-0143-4346-b064-128eed96cb22/centric.png"
@@ -269,7 +254,6 @@
               "adopted": true,
               "adopted_by": [
                 {
-                  "id": 4,
                   "title": "TFSG by Code for Romania",
                   "link": "https://tfsg.code4.ro/ro/",
                   "logo": "https://code4.ro/img/02410f6e-fe21-46d7-8004-2880c8686407/log-code4-tfsg.png?q=60&fit=max&dpr=1&h=200&w=200"
@@ -730,7 +714,6 @@
               "adopted": true,
               "adopted_by": [
                 {
-                  "id": 1,
                   "title": "Fundația Vodafone România",
                   "link": "https://www.fundatia-vodafone.ro/",
                   "logo": "https://code4.ro/img/9137628e-789e-4af1-af4e-af30c16394c6/fundatia-vodafone.png"
@@ -841,7 +824,6 @@
               "adopted": true,
               "adopted_by": [
                 {
-                  "id": 1,
                   "title": "Unicef",
                   "link": "https://www.unicef.org/romania/ro/Nicolas",
                   "logo": "https://code4.ro/img/f17963d9-7fb7-4f67-9825-cf3cec73a9fe/unicef.png?q=60&fit=max&dpr=1&h=256"
@@ -892,7 +874,6 @@
               "adopted": true,
               "adopted_by": [
                 {
-                  "id": 1,
                   "title": "Endava",
                   "link": "https://www.endava.com/",
                   "logo": "https://code4.ro/img/15d3aaf8-472f-4c26-ad5e-9d1a47fefe0f/endava.png?q=60&fit=max&dpr=1&h=256"
@@ -1047,7 +1028,6 @@
               "adopted": true,
               "adopted_by": [
                 {
-                  "id": 4,
                   "title": "TFSG by Code for Romania",
                   "link": "https://tfsg.code4.ro/ro/",
                   "logo": "https://code4.ro/img/02410f6e-fe21-46d7-8004-2880c8686407/log-code4-tfsg.png?q=60&fit=max&dpr=1&h=200&w=200"
@@ -1065,7 +1045,6 @@
               "adopted": true,
               "adopted_by": [
                 {
-                  "id": 4,
                   "title": "TFSG by Code for Romania",
                   "link": "https://tfsg.code4.ro/ro/",
                   "logo": "https://code4.ro/img/02410f6e-fe21-46d7-8004-2880c8686407/log-code4-tfsg.png?q=60&fit=max&dpr=1&h=200&w=200"
@@ -1094,7 +1073,6 @@
               "adopted": true,
               "adopted_by": [
                 {
-                  "id": 4,
                   "title": "TFSG by Code for Romania",
                   "link": "https://tfsg.code4.ro/ro/",
                   "logo": "https://code4.ro/img/02410f6e-fe21-46d7-8004-2880c8686407/log-code4-tfsg.png?q=60&fit=max&dpr=1&h=200&w=200"
@@ -1123,7 +1101,6 @@
               "adopted": true,
               "adopted_by": [
                 {
-                  "id": 4,
                   "title": "TFSG by Code for Romania",
                   "link": "https://tfsg.code4.ro/ro/",
                   "logo": "https://code4.ro/img/02410f6e-fe21-46d7-8004-2880c8686407/log-code4-tfsg.png?q=60&fit=max&dpr=1&h=200&w=200"
@@ -1179,7 +1156,6 @@
               "adopted": true,
               "adopted_by": [
                 {
-                  "id": 4,
                   "title": "TFSG by Code for Romania",
                   "link": "https://tfsg.code4.ro/ro/",
                   "logo": "https://code4.ro/img/02410f6e-fe21-46d7-8004-2880c8686407/log-code4-tfsg.png?q=60&fit=max&dpr=1&h=200&w=200"
@@ -1257,7 +1233,6 @@
               "adopted": true,
               "adopted_by": [
                 {
-                  "id": 4,
                   "title": "TFSG by Code for Romania",
                   "link": "https://tfsg.code4.ro/ro/",
                   "logo": "https://code4.ro/img/02410f6e-fe21-46d7-8004-2880c8686407/log-code4-tfsg.png?q=60&fit=max&dpr=1&h=200&w=200"
@@ -1319,7 +1294,6 @@
               "adopted": true,
               "adopted_by": [
                 {
-                  "id": 1,
                   "title": "Finastra",
                   "link": "https://www.finastra.com/",
                   "logo": "https://code4.ro/img/908fb24a-7aee-4849-b3e9-be73cbae28b0/finastra.png?q=60&fit=max&dpr=1&h=200"
@@ -1397,7 +1371,6 @@
               "adopted": true,
               "adopted_by": [
                 {
-                  "id": 1,
                   "title": "DOR",
                   "link": "https://www.dor.ro/",
                   "logo": "https://code4.ro/img/decat-o-revista.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=500%2C500%2C0%2C0"
@@ -1415,7 +1388,6 @@
               "adopted": true,
               "adopted_by": [
                 {
-                  "id": 1,
                   "title": "ING",
                   "link": "https://ing.ro/persoane-fizice",
                   "logo": "https://code4.ro/img/9dc5ce5d-08b5-4b33-a065-aec64cda7b42/ing-primary-logo-rgb.png?q=80&fit=crop&dpr=1&w=200&h=80&crop=1621%2C662%2C0%2C0"
@@ -1444,7 +1416,6 @@
               "adopted": true,
               "adopted_by": [
                 {
-                  "id": 1,
                   "title": "ING",
                   "link": "https://ing.ro/persoane-fizice",
                   "logo": "https://code4.ro/img/9dc5ce5d-08b5-4b33-a065-aec64cda7b42/ing-primary-logo-rgb.png?q=80&fit=crop&dpr=1&w=200&h=80&crop=1621%2C662%2C0%2C0"
@@ -1462,7 +1433,6 @@
               "adopted": true,
               "adopted_by": [
                 {
-                  "id": 4,
                   "title": "TFSG by Code for Romania",
                   "link": "https://tfsg.code4.ro/ro/",
                   "logo": "https://code4.ro/img/02410f6e-fe21-46d7-8004-2880c8686407/log-code4-tfsg.png?q=60&fit=max&dpr=1&h=200&w=200"
@@ -1480,7 +1450,6 @@
               "adopted": true,
               "adopted_by": [
                 {
-                  "id": 4,
                   "title": "TFSG by Code for Romania",
                   "link": "https://tfsg.code4.ro/ro/",
                   "logo": "https://code4.ro/img/02410f6e-fe21-46d7-8004-2880c8686407/log-code4-tfsg.png?q=60&fit=max&dpr=1&h=200&w=200"
@@ -1509,7 +1478,6 @@
               "adopted": true,
               "adopted_by": [
                 {
-                  "id": 4,
                   "title": "TFSG by Code for Romania",
                   "link": "https://tfsg.code4.ro/ro/",
                   "logo": "https://code4.ro/img/02410f6e-fe21-46d7-8004-2880c8686407/log-code4-tfsg.png?q=60&fit=max&dpr=1&h=200&w=200"
@@ -1549,7 +1517,6 @@
               "adopted": true,
               "adopted_by": [
                 {
-                  "id": 4,
                   "title": "Coaliție de finanțatori",
                   "link": "https://platformadonatorilor.ro/ro/about",
                   "logo": "https://code4.ro/img/97e011aa-d3ac-472c-b4bd-60bcd15d8700/coalitie-de-finantatori.png?q=60&fit=max&dpr=1&h=256"
@@ -1614,14 +1581,7 @@
               "link": "",
               "icon": "participation4ro-website-factory-guvern",
               "adopted": false,
-              "adopted_by": [
-                {
-                  "id": 4,
-                  "title": "",
-                  "link": "",
-                  "logo": ""
-                }
-              ]
+              "adopted_by": []
             },
             {
               "id": 3,
@@ -1645,7 +1605,6 @@
               "adopted": true,
               "adopted_by": [
                 {
-                  "id": 4,
                   "title": "Vitas Romania",
                   "link": "https://vitasromania.ro/",
                   "logo": "https://code4.ro/img/8b623ae2-7deb-4b1a-97e6-60e558d49401/logo-vitas.png?q=60&fit=max&dpr=1&h=256"
@@ -1663,7 +1622,6 @@
               "adopted": true,
               "adopted_by": [
                 {
-                  "id": 4,
                   "title": "Vitas Romania",
                   "link": "https://vitasromania.ro/",
                   "logo": "https://code4.ro/img/8b623ae2-7deb-4b1a-97e6-60e558d49401/logo-vitas.png?q=60&fit=max&dpr=1&h=256"
@@ -1793,7 +1751,6 @@
               "adopted": true,
               "adopted_by": [
                 {
-                  "id": 4,
                   "title": "TFSG by Code for Romania",
                   "link": "https://tfsg.code4.ro/ro/",
                   "logo": "https://code4.ro/img/02410f6e-fe21-46d7-8004-2880c8686407/log-code4-tfsg.png?q=80&fit=max&dpr=1&h=200&w=200"
@@ -1827,7 +1784,6 @@
               "adopted": true,
               "adopted_by": [
                 {
-                  "id": 4,
                   "title": "TFSG by Code for Romania",
                   "link": "https://tfsg.code4.ro/ro/",
                   "logo": "https://code4.ro/img/02410f6e-fe21-46d7-8004-2880c8686407/log-code4-tfsg.png?q=60&fit=max&dpr=1&h=200&w=200"
@@ -1882,7 +1838,6 @@
               "adopted": true,
               "adopted_by": [
                 {
-                  "id": 1,
                   "title": "Fundația Vodafone România",
                   "link": "https://www.fundatia-vodafone.ro/",
                   "logo": "https://code4.ro/img/9137628e-789e-4af1-af4e-af30c16394c6/fundatia-vodafone.png"
@@ -1922,7 +1877,6 @@
               "adopted": true,
               "adopted_by": [
                 {
-                  "id": 4,
                   "title": "TFSG by Code for Romania",
                   "link": "https://tfsg.code4.ro/ro/",
                   "logo": "https://code4.ro/img/02410f6e-fe21-46d7-8004-2880c8686407/log-code4-tfsg.png?q=60&fit=max&dpr=1&h=200&w=200"
@@ -1940,7 +1894,6 @@
               "adopted": true,
               "adopted_by": [
                 {
-                  "id": 1,
                   "title": "Fundația Vodafone România",
                   "link": "https://www.fundatia-vodafone.ro/",
                   "logo": "https://code4.ro/img/9137628e-789e-4af1-af4e-af30c16394c6/fundatia-vodafone.png"
@@ -1969,7 +1922,6 @@
               "adopted": true,
               "adopted_by": [
                 {
-                  "id": 1,
                   "title": "Fundația Orange",
                   "link": "https://www.fundatiaorange.ro/",
                   "logo": "https://code4.ro/img/77c4010c-351c-41c2-baaa-edeb316f4b3d/fundatia-orange.png?q=60&fit=max&dpr=1&h=256"
@@ -2058,7 +2010,6 @@
               "adopted": true,
               "adopted_by": [
                 {
-                  "id": 1,
                   "title": "Endava",
                   "link": "https://www.endava.com/",
                   "logo": "https://code4.ro/img/15d3aaf8-472f-4c26-ad5e-9d1a47fefe0f/endava.png?q=60&fit=max&dpr=1&h=256"
@@ -2405,7 +2356,6 @@
               "adopted": true,
               "adopted_by": [
                 {
-                  "id": 4,
                   "title": "World Bank",
                   "link": "https://www.worldbank.org/",
                   "logo": "https://code4.ro/img/0459bbe0-d75b-46ea-95ed-de63135f0fd7/the-world-bank-logo-500x281.png?q=60&fit=max&dpr=1&h=200"
@@ -2423,7 +2373,6 @@
               "adopted": true,
               "adopted_by": [
                 {
-                  "id": 4,
                   "title": "World Bank",
                   "link": "https://www.worldbank.org/",
                   "logo": "https://code4.ro/img/0459bbe0-d75b-46ea-95ed-de63135f0fd7/the-world-bank-logo-500x281.png?q=60&fit=max&dpr=1&h=200"
@@ -2441,25 +2390,21 @@
               "adopted": true,
               "adopted_by": [
                 {
-                  "id": 1,
                   "title": "ING",
                   "link": "https://ing.ro/persoane-fizice",
                   "logo": "https://code4.ro/img/9dc5ce5d-08b5-4b33-a065-aec64cda7b42/ing-primary-logo-rgb.png?q=80&fit=crop&dpr=1&w=200&h=80&crop=1621%2C662%2C0%2C0"
                 },
                 {
-                  "id": 2,
                   "title": "Fundația Vodafone România",
                   "link": "https://www.fundatia-vodafone.ro/",
                   "logo": "https://code4.ro/img/9137628e-789e-4af1-af4e-af30c16394c6/fundatia-vodafone.png"
                 },
                 {
-                  "id": 3,
                   "title": "Romanian-American Foundation",
                   "link": "https://www.rafonline.org/",
                   "logo": "https://code4.ro/img/80ca17d3-88ed-40a1-bad8-4b579e48c72e/logo-raf.jpg?q=80&fit=crop&dpr=1&w=200&h=80&crop=1309%2C1000%2C0%2C0"
                 },
                 {
-                  "id": 4,
                   "title": "TFSG by Code for Romania",
                   "link": "https://tfsg.code4.ro/ro/",
                   "logo": "https://code4.ro/img/02410f6e-fe21-46d7-8004-2880c8686407/log-code4-tfsg.png?q=60&fit=max&dpr=1&h=200&w=200"
@@ -2477,25 +2422,21 @@
               "adopted": true,
               "adopted_by": [
                 {
-                  "id": 1,
                   "title": "ING",
                   "link": "https://ing.ro/persoane-fizice",
                   "logo": "https://code4.ro/img/9dc5ce5d-08b5-4b33-a065-aec64cda7b42/ing-primary-logo-rgb.png?q=80&fit=crop&dpr=1&w=200&h=80&crop=1621%2C662%2C0%2C0"
                 },
                 {
-                  "id": 2,
                   "title": "Fundația Vodafone România",
                   "link": "https://www.fundatia-vodafone.ro/",
                   "logo": "https://code4.ro/img/9137628e-789e-4af1-af4e-af30c16394c6/fundatia-vodafone.png"
                 },
                 {
-                  "id": 3,
                   "title": "Romanian-American Foundation",
                   "link": "https://www.rafonline.org/",
                   "logo": "https://code4.ro/img/80ca17d3-88ed-40a1-bad8-4b579e48c72e/logo-raf.jpg?q=80&fit=crop&dpr=1&w=200&h=80&crop=1309%2C1000%2C0%2C0"
                 },
                 {
-                  "id": 4,
                   "title": "TFSG by Code for Romania",
                   "link": "https://tfsg.code4.ro/ro/",
                   "logo": "https://code4.ro/img/02410f6e-fe21-46d7-8004-2880c8686407/log-code4-tfsg.png?q=60&fit=max&dpr=1&h=200&w=200"
@@ -2513,25 +2454,21 @@
               "adopted": true,
               "adopted_by": [
                 {
-                  "id": 1,
                   "title": "ING",
                   "link": "https://ing.ro/persoane-fizice",
                   "logo": "https://code4.ro/img/9dc5ce5d-08b5-4b33-a065-aec64cda7b42/ing-primary-logo-rgb.png?q=80&fit=crop&dpr=1&w=200&h=80&crop=1621%2C662%2C0%2C0"
                 },
                 {
-                  "id": 2,
                   "title": "Fundația Vodafone România",
                   "link": "https://www.fundatia-vodafone.ro/",
                   "logo": "https://code4.ro/img/9137628e-789e-4af1-af4e-af30c16394c6/fundatia-vodafone.png"
                 },
                 {
-                  "id": 3,
                   "title": "Romanian-American Foundation",
                   "link": "https://www.rafonline.org/",
                   "logo": "https://code4.ro/img/80ca17d3-88ed-40a1-bad8-4b579e48c72e/logo-raf.jpg?q=80&fit=crop&dpr=1&w=200&h=80&crop=1309%2C1000%2C0%2C0"
                 },
                 {
-                  "id": 4,
                   "title": "TFSG by Code for Romania",
                   "link": "https://tfsg.code4.ro/ro/",
                   "logo": "https://code4.ro/img/02410f6e-fe21-46d7-8004-2880c8686407/log-code4-tfsg.png?q=60&fit=max&dpr=1&h=200&w=200"
@@ -2549,25 +2486,21 @@
               "adopted": true,
               "adopted_by": [
                 {
-                  "id": 1,
                   "title": "ING",
                   "link": "https://ing.ro/persoane-fizice",
                   "logo": "https://code4.ro/img/9dc5ce5d-08b5-4b33-a065-aec64cda7b42/ing-primary-logo-rgb.png?q=80&fit=crop&dpr=1&w=200&h=80&crop=1621%2C662%2C0%2C0"
                 },
                 {
-                  "id": 2,
                   "title": "Fundația Vodafone România",
                   "link": "https://www.fundatia-vodafone.ro/",
                   "logo": "https://code4.ro/img/9137628e-789e-4af1-af4e-af30c16394c6/fundatia-vodafone.png"
                 },
                 {
-                  "id": 3,
                   "title": "Romanian-American Foundation",
                   "link": "https://www.rafonline.org/",
                   "logo": "https://code4.ro/img/80ca17d3-88ed-40a1-bad8-4b579e48c72e/logo-raf.jpg?q=80&fit=crop&dpr=1&w=200&h=80&crop=1309%2C1000%2C0%2C0"
                 },
                 {
-                  "id": 4,
                   "title": "TFSG by Code for Romania",
                   "link": "https://tfsg.code4.ro/ro/",
                   "logo": "https://code4.ro/img/02410f6e-fe21-46d7-8004-2880c8686407/log-code4-tfsg.png?q=60&fit=max&dpr=1&h=200&w=200"
@@ -2585,25 +2518,21 @@
               "adopted": true,
               "adopted_by": [
                 {
-                  "id": 1,
                   "title": "ING",
                   "link": "https://ing.ro/persoane-fizice",
                   "logo": "https://code4.ro/img/9dc5ce5d-08b5-4b33-a065-aec64cda7b42/ing-primary-logo-rgb.png?q=80&fit=crop&dpr=1&w=200&h=80&crop=1621%2C662%2C0%2C0"
                 },
                 {
-                  "id": 2,
                   "title": "Fundația Vodafone România",
                   "link": "https://www.fundatia-vodafone.ro/",
                   "logo": "https://code4.ro/img/9137628e-789e-4af1-af4e-af30c16394c6/fundatia-vodafone.png"
                 },
                 {
-                  "id": 3,
                   "title": "Romanian-American Foundation",
                   "link": "https://www.rafonline.org/",
                   "logo": "https://code4.ro/img/80ca17d3-88ed-40a1-bad8-4b579e48c72e/logo-raf.jpg?q=80&fit=crop&dpr=1&w=200&h=80&crop=1309%2C1000%2C0%2C0"
                 },
                 {
-                  "id": 4,
                   "title": "TFSG by Code for Romania",
                   "link": "https://tfsg.code4.ro/ro/",
                   "logo": "https://code4.ro/img/02410f6e-fe21-46d7-8004-2880c8686407/log-code4-tfsg.png?q=60&fit=max&dpr=1&h=200&w=200"
@@ -2621,25 +2550,21 @@
               "adopted": true,
               "adopted_by": [
                 {
-                  "id": 1,
                   "title": "ING",
                   "link": "https://ing.ro/persoane-fizice",
                   "logo": "https://code4.ro/img/9dc5ce5d-08b5-4b33-a065-aec64cda7b42/ing-primary-logo-rgb.png?q=80&fit=crop&dpr=1&w=200&h=80&crop=1621%2C662%2C0%2C0"
                 },
                 {
-                  "id": 2,
                   "title": "Fundația Vodafone România",
                   "link": "https://www.fundatia-vodafone.ro/",
                   "logo": "https://code4.ro/img/9137628e-789e-4af1-af4e-af30c16394c6/fundatia-vodafone.png"
                 },
                 {
-                  "id": 3,
                   "title": "Romanian-American Foundation",
                   "link": "https://www.rafonline.org/",
                   "logo": "https://code4.ro/img/80ca17d3-88ed-40a1-bad8-4b579e48c72e/logo-raf.jpg?q=80&fit=crop&dpr=1&w=200&h=80&crop=1309%2C1000%2C0%2C0"
                 },
                 {
-                  "id": 4,
                   "title": "TFSG by Code for Romania",
                   "link": "https://tfsg.code4.ro/ro/",
                   "logo": "https://code4.ro/img/02410f6e-fe21-46d7-8004-2880c8686407/log-code4-tfsg.png?q=60&fit=max&dpr=1&h=200&w=200"
@@ -2657,7 +2582,6 @@
               "adopted": true,
               "adopted_by": [
                 {
-                  "id": 1,
                   "title": "Patria Bank",
                   "link": "https://www.patriabank.ro/",
                   "logo": "https://code4.ro/img/85ebcd58-6304-4862-9529-037e20d98d57/patria-bank-1.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=500%2C500%2C0%2C0"
@@ -2735,7 +2659,6 @@
               "adopted": true,
               "adopted_by": [
                 {
-                  "id": 4,
                   "title": "Fundatia Comunitara Bucuresti",
                   "link": "https://fundatiacomunitarabucuresti.ro/",
                   "logo": "https://code4.ro/img/962e0a9a-2eb0-41f9-b2ae-daed710c1d23/fundatia-comunitara-bucuresti.png?q=80&fit=crop&dpr=1&w=200&h=200&crop=240%2C227%2C0%2C0"
@@ -2753,7 +2676,6 @@
               "adopted": true,
               "adopted_by": [
                 {
-                  "id": 4,
                   "title": "TFSG by Code for Romania",
                   "link": "https://tfsg.code4.ro/ro/",
                   "logo": "https://code4.ro/img/02410f6e-fe21-46d7-8004-2880c8686407/log-code4-tfsg.png?q=60&fit=max&dpr=1&h=200&w=200"
@@ -2782,7 +2704,6 @@
               "adopted": true,
               "adopted_by": [
                 {
-                  "id": 4,
                   "title": "TFSG by Code for Romania",
                   "link": "https://tfsg.code4.ro/ro/",
                   "logo": "https://code4.ro/img/02410f6e-fe21-46d7-8004-2880c8686407/log-code4-tfsg.png?q=60&fit=max&dpr=1&h=200&w=200"
@@ -3074,7 +2995,6 @@
               "adopted": true,
               "adopted_by": [
                 {
-                  "id": 4,
                   "title": "Enel",
                   "link": "https://www.enelx.com/ro/en",
                   "logo": "https://code4.ro/img/70092fa1-053c-40ac-8bc1-a00e46a9306f/enel.png?q=60&fit=max&dpr=1&h=256"

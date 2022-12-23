@@ -1,7 +1,7 @@
 <template>
   <b-row :class="col ? 'row-cols-3 row-cols-md-' + col : ''">
-    <template v-for="partner in list">
-      <b-col :key="'partner-' + partner.id">
+    <template v-for="(partner, index) in list">
+      <b-col :key="'partner-' + index">
         <a
           :href="partner.link"
           target="_blank"
