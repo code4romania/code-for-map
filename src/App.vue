@@ -9,7 +9,7 @@
                 <h1 class="text-strong-blue mb-3" v-html="page.components[0].title" />
                 <p v-html="page.components[0].description" />
               </div>
-              <Legend :legend="{title: page.components[0].legend_title}" />
+              <Legend :legend="page.components[0].legend" :segment_legend="page.components[0].segment_legend"/>
             </div>
           </b-col>
         </b-row>
@@ -26,7 +26,7 @@
                   src="./assets/svg/icons/chevron-left.svg"
                 />
                 <div class="ml-2 text-primary border-bottom border-primary">
-                  {{ data.general.back_to_map }}
+                  {{ page.components[0].modal.back_to_map }}
                 </div>
               </div>
             </router-link>

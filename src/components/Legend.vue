@@ -5,31 +5,31 @@
     </h3>
     <div class="d-flex align-items-center my-2">
       <div class="drum-continuu" />
-      <span class="ml-2 display-4">{{ legend.drum_executat }}</span>
+      <span class="ml-2 display-4">{{ legend.done }}</span>
     </div>
     <div class="d-flex align-items-center my-2">
       <div class="drum-proiectat" />
-      <span class="ml-2 display-4">{{ legend.drum_proiectat }}</span>
+      <span class="ml-2 display-4">{{ legend.designed }}</span>
     </div>
     <div class="d-flex align-items-center my-2">
       <div class="drum-planificat" />
-      <span class="ml-2 display-4">{{ legend.drum_planificat }}</span>
+      <span class="ml-2 display-4">{{ legend.planned }}</span>
     </div>
     <div class="d-flex align-items-center my-2">
       <div class="drum-circle-full" />
-      <span class="ml-2 display-4">{{ legend.destinatie }}</span>
+      <span class="ml-2 display-4">{{ legend.destination }}</span>
     </div>
     <div class="d-flex align-items-center my-2">
       <div class="drum-circle-empty" />
-      <span class="ml-2 display-4">{{ legend.tema }}</span>
+      <span class="ml-2 display-4">{{ legend.objective }}</span>
     </div>
     <div class="d-flex align-items-center my-2">
       <div class="drum-circle-empty-small" />
-      <span class="ml-2 display-4">{{ legend.realizat }}</span>
+      <span class="ml-2 display-4">{{ segment_legend.done }}</span>
     </div>
     <div class="d-flex align-items-center my-2">
       <div class="drum-circle-full-small" />
-      <span class="ml-2 display-4">{{ legend.planificat }}</span>
+      <span class="ml-2 display-4">{{ segment_legend.designed }}</span>
     </div>
   </div>
 </template>
@@ -39,6 +39,10 @@ export default {
   name: "Legend",
   props: {
     legend: {
+      type: Object,
+      default: () => {}
+    },
+    "segment_legend": {
       type: Object,
       default: () => {}
     }

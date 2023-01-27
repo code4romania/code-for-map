@@ -18,9 +18,9 @@
               class="icon icon-md"
               src="../assets/svg/icons/chevron-left.svg"
             >
-<!--            <span class="ml-lg-2 text-primary border-bottom border-primary">-->
-<!--              {{ data.general.modal.previous.text }}-->
-<!--            </span>-->
+            <span class="ml-lg-2 text-primary border-bottom border-primary">
+              {{ data.modal.previous }}
+            </span>
           </a>
           <a
             v-if="segmentObject.projects.length > 1"
@@ -28,9 +28,9 @@
             class="ProjectModal-nav"
             @click.prevent="next"
           >
-<!--            <span class="mr-lg-2 text-primary border-bottom border-primary">-->
-<!--              {{ data.general.modal.next.text }}-->
-<!--            </span>-->
+            <span class="mr-lg-2 text-primary border-bottom border-primary">
+              {{ data.modal.next }}
+            </span>
             <img
               class="icon icon-md"
               src="../assets/svg/icons/chevron-right.svg"
@@ -59,16 +59,16 @@
             {{ project.subtitle }}
           </p>
         </div>
-<!--        <div>-->
-<!--          <a-->
-<!--            v-if="project.link"-->
-<!--            :href="project.link"-->
-<!--            :class="'btn btn-' + highwayMap.color + ' px-4'"-->
-<!--            target="_blank"-->
-<!--          >-->
-<!--            {{ data.general.view_project }}-->
-<!--          </a>-->
-<!--        </div>-->
+        <div>
+          <a
+            v-if="project.link"
+            :href="project.link"
+            :class="'btn btn-' + highwayMap.color + ' px-4'"
+            target="_blank"
+          >
+            {{ data.modal.view_project }}
+          </a>
+        </div>
       </div>
 
       <b-row class="mb-4">
@@ -96,11 +96,11 @@
                 project.adopted ? 'border-' + highwayMap.color : 'border-gray'
               "
             />
-<!--            {{-->
-<!--              project.adopted-->
-<!--                ? data.segment_legend.done-->
-<!--                : data.segment_legend.designed-->
-<!--            }}-->
+            {{
+              project.adopted
+                ? data.segment_legend.done
+                : data.segment_legend.designed
+            }}
           </div>
           <div
             class="mb-4"
@@ -111,10 +111,10 @@
               class="icon icon-md mr-2"
               src="../assets/svg/icons/icon-heart.svg"
             >
-<!--            <span v-if="project.adopted">{{-->
-<!--              data.segment_legend.adopted-->
-<!--            }}</span>-->
-<!--            <span v-else>{{ data.segment_legend.neadoptat }}</span>-->
+            <span v-if="project.adopted">{{
+              data.segment_legend.adopted
+            }}</span>
+            <span v-else>{{ data.segment_legend.unadopted }}</span>
           </div>
 
           <b-row>
@@ -206,6 +206,8 @@ export default {
     },
   },
   created() {
+    console.log("this", this.data);
+
     /** Extract the current active project index. */
     for (let index = 0; index < this.segmentObject.projects.length; index++) {
       if (this.segmentObject.projects[index].slug == this.solutionSlug) {
