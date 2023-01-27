@@ -6,7 +6,7 @@
     },
     {
       "source": "/strapi-assets/:match*",
-      "destination": "https://d3nrmb4u1g4f18.cloudfront.net/:match*"
+      "destination": "https://d3nrmb4u1g4f18.cloudfront.net/strapi-assets/:match*"
     }
   ]
 }
