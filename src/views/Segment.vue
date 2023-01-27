@@ -73,14 +73,6 @@
           <inline-svg  type='image/svg+xml'
                   :src="segment.image.url.replace('https://d3nrmb4u1g4f18.cloudfront.net','')"
                   @click="projectClick" @load="onLoad"/>
-          <!--          <component-->
-          <!--            :is="-->
-          <!--              require('./../assets/svg/illustrations/' +-->
-          <!--                segmentObject.segment_visual +-->
-          <!--                '.svg?inline')-->
-          <!--            "-->
-          <!--            -->
-          <!--          />-->
         </div>
       </div>
     </div>
@@ -215,16 +207,13 @@ export default {
     },
     projectClick(event) {
       const parentElement = event.target.parentElement;
-      console.log("event", parentElement);
       if (parentElement.tagName !== "text") {
         return;
       }
       const projectId = parentElement.dataset.projectid;
-      console.log('projectId', projectId)
       const project = this.segment.projects.find(
-        (segmentProject) => segmentProject.projectid == projectId
+        (segmentProject) => segmentProject.mapId == projectId
       );
-      console.log('project', project)
       this.$router.push({
         name: "ProjectModal",
         params: {
