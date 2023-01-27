@@ -1,4 +1,12 @@
 module.exports = {
+  devServer: {
+    proxy: {
+      '^/strapi-assets': {
+        target: 'https://d3nrmb4u1g4f18.cloudfront.net',
+        changeOrigin: true,
+      }
+    }
+  },
   lintOnSave: true,
   css: {
     sourceMap: true,

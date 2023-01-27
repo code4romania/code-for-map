@@ -9,38 +9,25 @@
       hash: '#map',
     }"
     class="badge-pill btn bg-white d-none d-lg-block HighwayButton"
-    :class="
-      `btn-outline-${color} ${hasProjects ? 'HighwayButton-hasProjects' : ''}`
-    "
-    :style="{ top: segmentButton.btn.top, left: segmentButton.btn.left }"
+    :class="`btn-outline-${color} ${
+      hasProjects ? 'HighwayButton-hasProjects' : ''
+    }`"
+    :style="{
+      top: `${segmentButton.position.top}%`,
+      left: `${segmentButton.position.left}%`,
+    }"
   >
-    <div
-      v-if="segmentButton.icon_left"
-      class="d-flex align-items-center"
-    >
-      <img
-        class="icon"
-        :src="
-          require(`../../assets/svg/icons/icon-${segmentButton.segmentSlug}.svg`)
-        "
-      >
+    <div v-if="segmentButton.icon_left" class="d-flex align-items-center">
+      <img class="icon" :src="segmentButton.image.url" />
       <div class="text-dark text-left ml-2">
         {{ segmentButton.title }}
       </div>
     </div>
-    <div
-      v-else
-      class="d-flex align-items-center"
-    >
+    <div v-else class="d-flex align-items-center">
       <div class="text-dark text-right mr-2">
         {{ segmentButton.title }}
       </div>
-      <img
-        class="icon"
-        :src="
-          require(`../../assets/svg/icons/icon-${segmentButton.segmentSlug}.svg`)
-        "
-      >
+      <img class="icon" :src="segmentButton.image.url" />
     </div>
   </router-link>
 </template>

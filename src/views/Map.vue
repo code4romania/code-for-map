@@ -3,23 +3,23 @@
     <div class="MapContainer">
       <img
         class="w-100 h-100"
-        src="../assets/svg/illustrations/map-color.svg"
+        :src="page.components[0].background_highways.url"
       >
     </div>
 
-    <template v-for="highway in data.code4ro_map">
+    <template v-for="highway in page.components[0].highways">
       <MapButton
         :key="'map-btn-xl-' + highway.id"
         :highway="highway"
-        :top="highway.btn.top"
-        :left="highway.btn.left"
+        :top="highway.position_desktop.top"
+        :left="highway.position_desktop.left"
         class="d-none d-md-block"
       />
       <MapButton
         :key="'map-btn-' + highway.id"
         :highway="highway"
-        :top="highway.mobile_btn.top"
-        :left="highway.mobile_btn.left"
+        :top="highway.position.top"
+        :left="highway.position.left"
         class="d-md-none"
       />
     </template>
@@ -39,6 +39,10 @@ export default {
   },
   /** Recived props. */
   props: {
+    page: {
+      type: Object,
+      default: () => {},
+    },
     data: {
       type: Object,
       default: () => {},
