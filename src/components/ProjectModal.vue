@@ -140,17 +140,15 @@
                   </b-col>
                 </template>
               </b-row>
-<!--              <a-->
-<!--                v-else-->
-<!--                :href="data.call_to_action.finance.link"-->
-<!--                :class="-->
-<!--                  'btn btn-' +-->
-<!--                    data.call_to_action.finance.color +-->
-<!--                    ' btn-green px-5 mx-2 my-2 text-white btn-lg'-->
-<!--                "-->
-<!--              >-->
-<!--                {{ data.call_to_action.finance.title }}-->
-<!--              </a>-->
+              <a
+                v-else
+                :href="data.modal.finance_cta_link"
+                :class="
+                  'btn btn-success btn-green px-5 mx-2 my-2 text-white btn-lg'
+                "
+              >
+                {{ data.modal.finance_cta_text }}
+              </a>
             </b-col>
           </b-row>
         </b-col>
