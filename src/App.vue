@@ -269,8 +269,9 @@ export default {
   },
   methods: {
     async getData() {
+      const locale = this.$route.params.locale || 'ro';
       const res = await fetch(
-        "https://map-api.heroesof.tech/api/pages/slug/home?locale=ro"
+        `https://map-api.heroesof.tech/api/pages/slug/home?locale=${locale}`
       );
       const { data } = await res.json();
       const [page] = data;

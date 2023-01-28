@@ -74,7 +74,7 @@
               :slug="highway.slug"
               :segment-slug="segmentButton.slug"
               :title="segmentButton.title"
-              :image="segmentButton.image.url"
+              :image="segmentButton.image && segmentButton.image.url"
             />
           </template>
         </div>
