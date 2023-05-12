@@ -6,46 +6,33 @@
       :description="highway.description"
     />
 
-    <div
-      v-if="highway.sponsors"
-      class="Highway-partner my-4 d-lg-none"
-    >
-      <div class="d-inline-block mb-2">
-        {{ data.general.financed_by }}
-      </div>
-      <a
-        :href="highway.sponsor.link"
-        target="_blank"
-        class="d-block border border-gray"
-      >
-        <img
-          :src="highway.sponsor.logo"
-          class="img-fluid"
+    <template v-for="({ sponsor }) in highway.sponsors">
+      <div :key="sponsor.id" class="Highway-partner my-4 d-lg-none">
+        <!--      <div class="d-inline-block mb-2">-->
+        <!--        {{ data.general.financed_by }}-->
+        <!--      </div>-->
+        <a
+          :href="sponsor.link"
+          target="_blank"
+          class="d-block border border-gray"
         >
-      </a>
-    </div>
+          <img :src="sponsor.logo" class="img-fluid" />
+        </a>
+      </div>
+    </template>
 
     <div class="Highway-wrap">
       <div class="HighwayContainer">
         <div class="Highway">
           <div class="MapContainer-wrap d-none d-lg-block">
             <div class="MapContainer Map-bw">
-              <img
-                class="w-100 h-100"
-                :src="data.background_segments.url"
-              >
+              <img class="w-100 h-100" :src="data.background_segments.url" />
             </div>
           </div>
 
-          <router-link
-            :to="{ name: 'Map' }"
-            class="d-none d-lg-block"
-          >
+          <router-link :to="{ name: 'Map' }" class="d-none d-lg-block">
             <div class="MapContainer">
-              <img
-                class="w-100 h-100"
-                :src="highway.image.url"
-              >
+              <img class="w-100 h-100" :src="highway.image.url" />
             </div>
           </router-link>
 
@@ -82,10 +69,7 @@
         <div class="d-none d-lg-block">
           <b-row>
             <b-col lg="2">
-              <div
-                v-if="highway.sponsor"
-                class="Highway-partner m-0"
-              >
+              <div v-if="highway.sponsor" class="Highway-partner m-0">
                 <div class="d-inline-block mb-2">
                   {{ data.general.financed_by }}
                 </div>
@@ -94,18 +78,12 @@
                   target="_blank"
                   class="d-block border border-gray"
                 >
-                  <img
-                    :src="highway.sponsor.logo"
-                    class="img-fluid"
-                  >
+                  <img :src="highway.sponsor.logo" class="img-fluid" />
                 </a>
               </div>
             </b-col>
             <b-col lg="10">
-              <p
-                class="lead text-right my-4"
-                v-html="highway.description"
-              />
+              <p class="lead text-right my-4" v-html="highway.description" />
             </b-col>
           </b-row>
         </div>
@@ -163,7 +141,7 @@ export default {
 
   created() {
     this.highway = this.data.highways.find((item) => item.slug == this.slug);
-    this.data.back_to_map.visible = true;
+    // this.data.back_to_map.visible = true;
 
     postMessageHeight();
   },

@@ -118,36 +118,19 @@
             </div>
           </div>
         </b-col>
-        <b-col md="6" xl="3" class="mb-4">
+        <b-col md="6" xl="3" class="mb-4" v-for="(item) in page.components[3].items">
           <div class="d-flex flex-column justify-content-between">
             <div>
               <h3 class="text-primary mb-4">
-                {{ data.call_to_action.partner.title }}
+                {{ item.title }}
               </h3>
-              <div v-html="data.call_to_action.partner.content" />
+              <div v-html="item.description" />
             </div>
             <div>
               <a
-                :href="data.call_to_action.partner.link"
+                :href="item.buttonUrl"
                 class="btn btn-lg btn-primary px-4"
-                >{{ data.call_to_action.partner.label }}</a
-              >
-            </div>
-          </div>
-        </b-col>
-        <b-col md="6" xl="3" class="mb-4">
-          <div class="d-flex flex-column justify-content-between">
-            <div>
-              <h3 class="text-primary mb-4">
-                {{ data.call_to_action.sponsor.title }}
-              </h3>
-              <div v-html="data.call_to_action.sponsor.content" />
-            </div>
-            <div>
-              <a
-                :href="data.call_to_action.sponsor.link"
-                class="btn btn-lg btn-primary px-4"
-                >{{ data.call_to_action.sponsor.label }}</a
+                >{{ item.buttonText }}</a
               >
             </div>
           </div>
@@ -196,9 +179,9 @@
         <b-col lg="6">
           <div class="Partners-title mb-4">
             <h1 class="text-strong-blue">
-              {{ data.partners.title }}
+              {{ page.components[4].title }}
             </h1>
-            <p>{{ data.partners.description }}</p>
+            <p>{{ page.components[4].description }}</p>
           </div>
         </b-col>
         <div class="w-100" />
