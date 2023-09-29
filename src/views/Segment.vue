@@ -1,10 +1,25 @@
 <template>
   <div>
     <div class="Segment d-lg-none">
+      <router-link
+        :to="{ name: 'Highway', params: { slug: slug } }"
+        class="BackToMap mb-4 d-inline-block d-lg-none"
+      >
+        <div class="d-flex align-items-center">
+          <img
+            class="icon icon-md"
+            src="../assets/svg/icons/chevron-left.svg"
+          >
+          <div class="ml-2 text-primary border-bottom border-primary">
+            {{ data.modal.back_to_map }}
+          </div>
+        </div>
+      </router-link>
+
       <HighwayHeader
         :logo="highway.slug"
         :title="highway.title"
-        class="d-block d-lg-none"
+        class="d-block"
       />
 
       <SegmentHeader
@@ -16,8 +31,14 @@
         :status="segment.status && segment.status.title"
       />
 
-      <div v-if="segment.projects.length" class="ProjectsList">
-        <SegmentLegend :status="data.segment_legend" :color="highway.color" />
+      <div
+        v-if="segment.projects.length"
+        class="ProjectsList"
+      >
+        <SegmentLegend
+          :status="data.segment_legend"
+          :color="highway.color"
+        />
         <div class="SegmentProjects">
           <router-link
             v-for="(project, index) in segment.projects"
@@ -44,7 +65,10 @@
               <div class="flex-fill mx-2">
                 {{ project.title }}
               </div>
-              <img class="icon" src="../assets/svg/icons/chevron-right.svg" />
+              <img
+                class="icon"
+                src="../assets/svg/icons/chevron-right.svg"
+              >
             </div>
           </router-link>
         </div>
@@ -57,7 +81,10 @@
         class="SegmentVisual-close d-inline-block"
       >
         <div class="d-flex align-items-center">
-          <img class="icon" src="../assets/svg/icons/chevron-left.svg" />
+          <img
+            class="icon"
+            src="../assets/svg/icons/chevron-left.svg"
+          >
           <div class="ml-2 text-primary border-bottom border-primary">
             {{ data.modal.back_to_map }}
           </div>
@@ -81,16 +108,28 @@
 
     <b-row>
       <b-col offset-lg="2">
-        <div class="Segment-info d-none d-lg-block text-right">
-          <div v-if="segment.status" class="badge badge-primary Segment-status mb-3">
+        <div class="Segment-info d-none d-lg-block">
+          <div
+            v-if="segment.status"
+            class="badge badge-primary Segment-status"
+          >
             {{ segment.status.title }}
           </div>
-          <div class="lead" v-html="segmentObject.description" />
+
+          <h2 v-text="segment.title" />
+
+          <div
+            class="lead"
+            v-html="segment.description"
+          />
         </div>
       </b-col>
     </b-row>
 
-    <div v-if="showModal" class="modal-route">
+    <div
+      v-if="showModal"
+      class="modal-route"
+    >
       <div
         id="projectModal"
         class="modal-content"
@@ -162,24 +201,36 @@ export default {
     const segment = highway.segments.find(
       (segment) => segment.slug === this.segmentSlug
     );
+
     this.highway = highway;
     this.segment = segment;
 
-    this.data.back_to_map.visible = true;
+    // this.data.back_to_map.visible = true;
   },
   mounted() {
     postMessageHeight();
   },
   methods: {
     projectClick(event) {
-      const parentElement = event.target.parentElement;
-      if (parentElement.tagName !== "text") {
+      const target = event.target.closest('g');
+
+      if (!target?.id.startsWith('marker-')) {
         return;
       }
-      const projectId = parentElement.dataset.projectid;
+
+      const slug = target.id.replace(/^marker-/, '');
+
       const project = this.segment.projects.find(
-        (segmentProject) => segmentProject.mapId == projectId
-      ) || this.segment.projects[+projectId - 1];
+        (project) => project.slug === slug
+      );
+
+
+      if (!project) {
+        console.warn(`Project with slug "${slug}" not found`);
+
+        return;
+      }
+
       this.$router.push({
         name: "ProjectModal",
         params: {
@@ -199,3 +250,17 @@ export default {
   },
 };
 </script>
+
+<style>
+  svg {
+    pointer-events: bounding-box;
+  }
+
+  svg g {
+    cursor: pointer;
+  }
+
+  svg g:hover {
+    opacity: 0.75;
+  }
+</style>

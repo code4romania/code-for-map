@@ -6,7 +6,6 @@
         slug: slug,
         segment: segmentSlug,
       },
-      hash: '#map',
     }"
     class="badge-pill btn bg-white d-none d-lg-block HighwayButton"
     :class="`btn-outline-${color} ${
@@ -17,17 +16,29 @@
       left: `${segmentButton.position.left}%`,
     }"
   >
-    <div v-if="segmentButton.icon_left" class="d-flex align-items-center">
-      <img class="icon" :src="segmentButton.image.url" />
+    <div
+      v-if="segmentButton.icon_left"
+      class="d-flex align-items-center"
+    >
+      <img
+        class="icon"
+        :src="segmentButton.image.url"
+      >
       <div class="text-dark text-left ml-2">
         {{ segmentButton.title }}
       </div>
     </div>
-    <div v-else class="d-flex align-items-center">
+    <div
+      v-else
+      class="d-flex align-items-center"
+    >
       <div class="text-dark text-right mr-2">
         {{ segmentButton.title }}
       </div>
-      <img class="icon" :src="segmentButton.image.url" />
+      <img
+        class="icon"
+        :src="segmentButton.image.url"
+      >
     </div>
   </router-link>
 </template>

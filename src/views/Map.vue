@@ -51,7 +51,7 @@ export default {
   mounted() {
     postMessageHeight();
 
-    this.data.back_to_map.visible = false;
+    // this.data.back_to_map.visible = false;
   },
 };
 </script>

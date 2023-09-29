@@ -1,5 +1,20 @@
 <template>
   <div>
+    <router-link
+      :to="{ name: 'Map' }"
+      class="BackToMap mb-4 d-inline-block d-lg-none"
+    >
+      <div class="d-flex align-items-center">
+        <img
+          class="icon icon-md"
+          src="../assets/svg/icons/chevron-left.svg"
+        >
+        <div class="ml-2 text-primary border-bottom border-primary">
+          {{ data.modal.back_to_map }}
+        </div>
+      </div>
+    </router-link>
+
     <HighwayHeader
       :logo="highway.slug"
       :title="highway.title"
@@ -7,7 +22,10 @@
     />
 
     <template v-for="({ sponsor }) in highway.sponsors">
-      <div :key="sponsor.id" class="Highway-partner my-4 d-lg-none">
+      <div
+        :key="sponsor.id"
+        class="Highway-partner my-4 d-lg-none"
+      >
         <!--      <div class="d-inline-block mb-2">-->
         <!--        {{ data.general.financed_by }}-->
         <!--      </div>-->
@@ -16,7 +34,10 @@
           target="_blank"
           class="d-block border border-gray"
         >
-          <img :src="sponsor.logo" class="img-fluid" />
+          <img
+            :src="sponsor.logo"
+            class="img-fluid"
+          >
         </a>
       </div>
     </template>
@@ -26,13 +47,22 @@
         <div class="Highway">
           <div class="MapContainer-wrap d-none d-lg-block">
             <div class="MapContainer Map-bw">
-              <img class="w-100 h-100" :src="data.background_segments.url" />
+              <img
+                class="w-100 h-100"
+                :src="data.background_segments.url"
+              >
             </div>
           </div>
 
-          <router-link :to="{ name: 'Map' }" class="d-none d-lg-block">
+          <router-link
+            :to="{ name: 'Map' }"
+            class="d-none d-lg-block"
+          >
             <div class="MapContainer">
-              <img class="w-100 h-100" :src="highway.image.url" />
+              <img
+                class="w-100 h-100"
+                :src="highway.image.url"
+              >
             </div>
           </router-link>
 
@@ -69,7 +99,10 @@
         <div class="d-none d-lg-block">
           <b-row>
             <b-col lg="2">
-              <div v-if="highway.sponsor" class="Highway-partner m-0">
+              <div
+                v-if="highway.sponsor"
+                class="Highway-partner m-0"
+              >
                 <div class="d-inline-block mb-2">
                   {{ data.general.financed_by }}
                 </div>
@@ -78,12 +111,18 @@
                   target="_blank"
                   class="d-block border border-gray"
                 >
-                  <img :src="highway.sponsor.logo" class="img-fluid" />
+                  <img
+                    :src="highway.sponsor.logo"
+                    class="img-fluid"
+                  >
                 </a>
               </div>
             </b-col>
             <b-col lg="10">
-              <p class="lead text-right my-4" v-html="highway.description" />
+              <p
+                class="lead text-right my-4"
+                v-html="highway.description"
+              />
             </b-col>
           </b-row>
         </div>
@@ -113,6 +152,10 @@ export default {
   /** Recived props */
   props: {
     data: {
+      type: Object,
+      default: () => {},
+    },
+    page: {
       type: Object,
       default: () => {},
     },

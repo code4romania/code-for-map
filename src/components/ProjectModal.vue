@@ -79,8 +79,10 @@
           <div class="ProjectModal-visual text-center border border-gray mb-3">
             <div>
               <img
+                v-if="project.image"
                 class="img-fluid"
                 :src="project.image.url"
+                style="object-fit: contain"
               >
             </div>
           </div>
@@ -204,9 +206,6 @@ export default {
     },
   },
   created() {
-    console.log("this", this.data);
-
-    /** Extract the current active project index. */
     for (let index = 0; index < this.segmentObject.projects.length; index++) {
       if (this.segmentObject.projects[index].slug == this.solutionSlug) {
         this.active_index = index;

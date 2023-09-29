@@ -1,5 +1,8 @@
 <template>
-  <router-view :page="this.page" :data="this.data" />
+  <router-view
+    :page="page"
+    :data="data"
+  />
 </template>
 
 <script>
@@ -18,10 +21,6 @@ export default {
       default: () => {},
     },
   },
-  mounted() {
-    console.log("Root", this);
 
-    // this.data.back_to_map.visible = false;
-  },
 };
 </script>
