@@ -3,6 +3,10 @@
     {
       "source": "/download",
       "destination": "https://civiclabs-prod-media.s3.eu-west-1.amazonaws.com/e03f66e6-f9ae-45fa-a240-45d894377a05/PlanCode4Map.pdf"
+    },
+    {
+      "source": "/strapi-assets/:match*",
+      "destination": "https://d3nrmb4u1g4f18.cloudfront.net/strapi-assets/:match*"
     }
   ]
 }

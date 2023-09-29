@@ -1,11 +1,11 @@
 <template>
   <div
     class="MapButton-wrap"
-    :style="{ top: top, left: left }"
+    :style="{ top: `${top}%`, left: `${left}%` }"
   >
     <!-- Main map button links to highway -->
     <router-link
-      :to="{ name: 'Highway', params: { slug: highway.slug }, hash: '#map' }"
+      :to="{ name: 'Highway', params: { slug: highway.slug } }"
       class="badge-pill btn bg-white scale MapButton"
       :class="[
         `btn-outline-${highway.color}`,
@@ -41,12 +41,12 @@ export default {
       default: () => {},
     },
     top: {
-      type: String,
-      default: "",
+      type: Number,
+      default: 0,
     },
     left: {
-      type: String,
-      default: "",
+      type: Number,
+      default: null,
     },
     color: {
       type: String,

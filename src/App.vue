@@ -1,6 +1,9 @@
 <template>
   <div id="app">
-    <b-container fluid>
+    <b-container
+      v-if="page"
+      fluid
+    >
       <div class="MapHero mb-5 mt-4">
         <b-row
           no-gutters
@@ -11,11 +14,14 @@
               <div class="Header">
                 <h1
                   class="text-strong-blue mb-3"
-                  v-html="data.header.title"
+                  v-html="page.components[0].title"
                 />
-                <p v-html="data.header.description" />
+                <p v-html="page.components[0].description" />
               </div>
-              <Legend :legend="data.map_legend" />
+              <Legend
+                :legend="page.components[0].legend"
+                :segment_legend="page.components[0].segment_legend"
+              />
             </div>
           </b-col>
         </b-row>
@@ -32,22 +38,10 @@
             offset-xl="2"
             class="MapHero-map"
           >
-            <router-link
-              v-if="data.back_to_map.visible"
-              :to="{ name: 'Map' }"
-              class="BackToMap mb-4 d-inline-block d-lg-none"
-            >
-              <div class="d-flex align-items-center">
-                <img
-                  class="icon icon-md"
-                  src="./assets/svg/icons/chevron-left.svg"
-                >
-                <div class="ml-2 text-primary border-bottom border-primary">
-                  {{ data.general.back_to_map }}
-                </div>
-              </div>
-            </router-link>
-            <router-view :data="data" />
+            <router-view
+              :data="page.components[0]"
+              :page="page"
+            />
           </b-col>
         </b-row>
       </div>
@@ -61,11 +55,11 @@
           class="mb-4"
         >
           <h1 class="text-strong-blue mb-4">
-            {{ data.more_info.title }}
+            {{ page.components[1].title }}
           </h1>
           <p
             class="mb-4 pr-lg-3"
-            v-html="data.more_info.description"
+            v-html="page.components[1].description"
           />
           <!-- <a
             class="btn btn-strong-blue btn-lg px-5 d-none d-lg-inline-block"
@@ -77,7 +71,7 @@
             :href="data.more_info.download_pdf_link"
             target="_blank"
             @click="trackDownload()"
-          >{{ data.more_info.download_pdf_cta }}</a>
+          >{{ page.components[1].buttonText }}</a>
         </b-col>
         <b-col lg="8">
           <button
@@ -96,7 +90,7 @@
           >
             <iframe
               class="embed-responsive-item"
-              src="https://www.youtube.com/embed/XHVvEhmrlkA?modestbranding=1&autohide=2&showinfo=0&autoplay=1"
+              :src="page.components[1].videoUrl"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
@@ -106,7 +100,7 @@
       </b-row>
 
       <h1 class="text-strong-blue mb-4">
-        {{ data.more_info.work.title }}
+        {{ page.components[2].title }}
       </h1>
 
       <b-row
@@ -114,7 +108,7 @@
         align-v="stretch"
       >
         <b-col
-          v-for="(step, index) in data.more_info.work.steps"
+          v-for="(step, index) in page.components[2].items"
           :key="'item-' + index"
           md="6"
           class="mb-4 BorderBox-wrap"
@@ -123,19 +117,19 @@
             <div class="d-flex align-items-center justify-content-start mb-4">
               <img
                 class="icon icon-xl mr-4"
-                :src="require(`./assets/svg/icons/icon-${step.icon}.svg`)"
+                :src="step.image.url"
               >
               <h2 class="text-strong-blue">
                 {{ step.title }}
               </h2>
             </div>
-            <div v-html="step.content" />
+            <div v-html="step.description" />
           </div>
         </b-col>
       </b-row>
 
       <h1 class="text-strong-blue mb-4">
-        {{ data.more_info.how.title }}
+        {{ page.components[3].title }}
       </h1>
 
       <b-row
@@ -162,6 +156,8 @@
           </div>
         </b-col>
         <b-col
+          v-for="(item, index) in page.components[3].items"
+          :key="index"
           md="6"
           xl="3"
           class="mb-4"
@@ -169,35 +165,15 @@
           <div class="d-flex flex-column justify-content-between">
             <div>
               <h3 class="text-primary mb-4">
-                {{ data.call_to_action.partner.title }}
+                {{ item.title }}
               </h3>
-              <div v-html="data.call_to_action.partner.content" />
+              <div v-html="item.description" />
             </div>
             <div>
               <a
-                :href="data.call_to_action.partner.link"
+                :href="item.buttonUrl"
                 class="btn btn-lg btn-primary px-4"
-              >{{ data.call_to_action.partner.label }}</a>
-            </div>
-          </div>
-        </b-col>
-        <b-col
-          md="6"
-          xl="3"
-          class="mb-4"
-        >
-          <div class="d-flex flex-column justify-content-between">
-            <div>
-              <h3 class="text-primary mb-4">
-                {{ data.call_to_action.sponsor.title }}
-              </h3>
-              <div v-html="data.call_to_action.sponsor.content" />
-            </div>
-            <div>
-              <a
-                :href="data.call_to_action.sponsor.link"
-                class="btn btn-lg btn-primary px-4"
-              >{{ data.call_to_action.sponsor.label }}</a>
+              >{{ item.buttonText }}</a>
             </div>
           </div>
         </b-col>
@@ -249,9 +225,9 @@
         <b-col lg="6">
           <div class="Partners-title mb-4">
             <h1 class="text-strong-blue">
-              {{ data.partners.title }}
+              {{ page.components[4].title }}
             </h1>
-            <p>{{ data.partners.description }}</p>
+            <p>{{ page.components[4].description }}</p>
           </div>
         </b-col>
         <div class="w-100" />
@@ -309,15 +285,18 @@ export default {
   },
   data() {
     return {
+      page: null,
       data: {},
       coverYT: "",
-      showVideo: false
+      showVideo: false,
     };
   },
   created() {
     this.data = data;
   },
   mounted() {
+    this.getData();
+
     postMessageHeight();
 
     window.onresize = debouce(() => {
@@ -327,6 +306,15 @@ export default {
     this.coverYT = require("./assets/images/cover-yt.png");
   },
   methods: {
+    async getData() {
+      const locale = this.$route.params.locale || 'ro';
+      const res = await fetch(
+        `https://map-api.heroesof.tech/api/pages/slug/home?locale=${locale}`
+      );
+      const { data } = await res.json();
+      const [page] = data;
+      this.page = page;
+    },
     downloadPlan() {
       const request = new XMLHttpRequest();
 
@@ -344,15 +332,15 @@ export default {
       request.send();
     },
     playYT() {
-      this.showVideo = true
+      this.showVideo = true;
     },
     trackDownload() {
       this.$gtag.event("plan-download", {
         event_category: "download",
         event_label: "plan-downloaded",
-        value: "downloaded"
+        value: "downloaded",
       });
-    }
+    },
   },
 };
 </script>

@@ -6,14 +6,13 @@
         slug: slug,
         segment: segmentSlug,
       },
-      hash: '#map'
     }"
     class="d-lg-none d-flex justify-content-between align-items-center SegmentButton ListItem"
   >
     <div class="SegmentButton-icon">
       <img
         class="icon icon-md"
-        :src="require(`../../assets/svg/icons/icon-${segmentSlug}.svg`)"
+        :src="image"
       >
     </div>
     <div class="flex-fill mx-2">
@@ -42,6 +41,10 @@ export default {
       type: String,
       default: "",
     },
+    image: {
+      type: String,
+      default: ""
+    }
   },
 };
 </script>

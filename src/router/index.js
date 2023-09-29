@@ -5,10 +5,11 @@ import VueRouter from "vue-router";
 
 import postMessage from "../utils/postMessage";
 
+import Root from "./Root.vue";
 import Map from "../views/Map.vue";
 import Highway from "../views/Highway.vue";
 import Segment from "../views/Segment.vue";
-import ProjectModal from "../components/ProjectModal.vue"
+import ProjectModal from "../components/ProjectModal.vue";
 
 Vue.use(VueRouter);
 
@@ -16,32 +17,42 @@ Vue.use(VueRouter);
 const routes = [
   {
     path: "/",
-    name: "Map",
-    component: Map
+    redirect: 'ro',
   },
   {
-    path: "/:slug",
-    name: "Highway",
-    component: Highway,
-    props: true
-  },
-  {
-    path: "/:slug/:segment",
-    name: "Segment",
-    component: Segment,
-    props: true,
+    path: "/:locale",
+    component: Root,
     children: [
       {
-        path: '/:slug/:segment/:solution',
-        name: "ProjectModal",
-        component: ProjectModal,
+        path: '',
+        component: Map,
+        name: 'Map'
+      },
+      {
+        path: ":slug",
+        name: "Highway",
+        component: Highway,
         props: true,
-        meta: {
-          showModal: true
-        }
-      }
-    ]
-  }
+      },
+      {
+        path: ":slug/:segment",
+        name: "Segment",
+        component: Segment,
+        props: true,
+        children: [
+          {
+            path: ":solution",
+            name: "ProjectModal",
+            component: ProjectModal,
+            props: true,
+            meta: {
+              showModal: true,
+            },
+          },
+        ],
+      },
+    ],
+  },
 ];
 
 const router = new VueRouter({

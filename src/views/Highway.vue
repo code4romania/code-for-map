@@ -1,29 +1,46 @@
 <template>
   <div>
+    <router-link
+      :to="{ name: 'Map' }"
+      class="BackToMap mb-4 d-inline-block d-lg-none"
+    >
+      <div class="d-flex align-items-center">
+        <img
+          class="icon icon-md"
+          src="../assets/svg/icons/chevron-left.svg"
+        >
+        <div class="ml-2 text-primary border-bottom border-primary">
+          {{ data.modal.back_to_map }}
+        </div>
+      </div>
+    </router-link>
+
     <HighwayHeader
       :logo="highway.slug"
       :title="highway.title"
       :description="highway.description"
     />
 
-    <div
-      v-if="highway.sponsor"
-      class="Highway-partner my-4 d-lg-none"
-    >
-      <div class="d-inline-block mb-2">
-        {{ data.general.financed_by }}
-      </div>
-      <a
-        :href="highway.sponsor.link"
-        target="_blank"
-        class="d-block border border-gray"
+    <template v-for="({ sponsor }) in highway.sponsors">
+      <div
+        :key="sponsor.id"
+        class="Highway-partner my-4 d-lg-none"
       >
-        <img
-          :src="highway.sponsor.logo"
-          class="img-fluid"
+        <!--      <div class="d-inline-block mb-2">-->
+        <!--        {{ data.general.financed_by }}-->
+        <!--      </div>-->
+        <a
+          :href="sponsor.link"
+          target="_blank"
+          class="d-block border border-gray"
         >
-      </a>
-    </div>
+          <img
+            :src="sponsor.logo"
+            class="img-fluid"
+          >
+        </a>
+      </div>
+    </template>
 
     <div class="Highway-wrap">
       <div class="HighwayContainer">
@@ -32,7 +49,7 @@
             <div class="MapContainer Map-bw">
               <img
                 class="w-100 h-100"
-                src="../assets/svg/illustrations/map-bw.svg"
+                :src="data.background_segments.url"
               >
             </div>
           </div>
@@ -44,28 +61,26 @@
             <div class="MapContainer">
               <img
                 class="w-100 h-100"
-                :src="
-                  require(`../assets/svg/illustrations/${highway.highway_bg}.svg`)
-                "
+                :src="highway.image.url"
               >
             </div>
           </router-link>
 
-          <template v-for="motorway in data.code4ro_map">
+          <template v-for="highway in data.highways">
             <MapButton
-              :key="motorway.slug"
+              :key="highway.slug"
               class="d-none d-lg-block"
-              :highway="motorway"
-              :top="motorway.btn.top"
-              :left="motorway.btn.left"
+              :highway="highway"
+              :top="highway.position_desktop.top"
+              :left="highway.position_desktop.left"
             />
           </template>
 
-          <template v-for="segmentButton in highway.highway_segments">
+          <template v-for="segmentButton in highway.segments">
             <HighwayButton
               :key="'highway-btn-lg-' + segmentButton.id"
               :slug="highway.slug"
-              :segment-slug="segmentButton.segmentSlug"
+              :segment-slug="segmentButton.slug"
               :segment-button="segmentButton"
               :color="highway.color"
               :has-projects="segmentButton.projects.length > 0"
@@ -74,8 +89,9 @@
             <SegmentButton
               :key="'highway-btn-' + segmentButton.id"
               :slug="highway.slug"
-              :segment-slug="segmentButton.segmentSlug"
+              :segment-slug="segmentButton.slug"
               :title="segmentButton.title"
+              :image="segmentButton.image && segmentButton.image.url"
             />
           </template>
         </div>
@@ -139,6 +155,10 @@ export default {
       type: Object,
       default: () => {},
     },
+    page: {
+      type: Object,
+      default: () => {},
+    },
   },
   /** Component state. */
   data() {
@@ -150,7 +170,7 @@ export default {
   watch: {
     $route(to) {
       if (this.slug != to) {
-        this.highway = this.data.code4ro_map.find(
+        this.highway = this.data.highways.find(
           (item) => item.slug == to.params.slug
         );
       }
@@ -163,8 +183,8 @@ export default {
   },
 
   created() {
-    this.highway = this.data.code4ro_map.find((item) => item.slug == this.slug);
-    this.data.back_to_map.visible = true;
+    this.highway = this.data.highways.find((item) => item.slug == this.slug);
+    // this.data.back_to_map.visible = true;
 
     postMessageHeight();
   },

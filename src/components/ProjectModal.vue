@@ -19,7 +19,7 @@
               src="../assets/svg/icons/chevron-left.svg"
             >
             <span class="ml-lg-2 text-primary border-bottom border-primary">
-              {{ data.general.modal.previous.text }}
+              {{ data.modal.previous }}
             </span>
           </a>
           <a
@@ -29,7 +29,7 @@
             @click.prevent="next"
           >
             <span class="mr-lg-2 text-primary border-bottom border-primary">
-              {{ data.general.modal.next.text }}
+              {{ data.modal.next }}
             </span>
             <img
               class="icon icon-md"
@@ -66,7 +66,7 @@
             :class="'btn btn-' + highwayMap.color + ' px-4'"
             target="_blank"
           >
-            {{ data.general.view_project }}
+            {{ data.modal.view_project }}
           </a>
         </div>
       </div>
@@ -79,8 +79,10 @@
           <div class="ProjectModal-visual text-center border border-gray mb-3">
             <div>
               <img
+                v-if="project.image"
                 class="img-fluid"
-                :src="projectIcon"
+                :src="project.image.url"
+                style="object-fit: contain"
               >
             </div>
           </div>
@@ -114,25 +116,25 @@
             <span v-if="project.adopted">{{
               data.segment_legend.adopted
             }}</span>
-            <span v-else>{{ data.segment_legend.neadoptat }}</span>
+            <span v-else>{{ data.segment_legend.unadopted }}</span>
           </div>
 
           <b-row>
             <b-col cols="12">
               <b-row v-if="project.adopted">
-                <template v-for="(partner, index) in project.adopted_by">
+                <template v-for="({sponsor}, index) in project.adopted_by">
                   <b-col
                     :key="index"
                     cols="3"
                   >
                     <a
-                      :href="partner.link"
+                      :href="sponsor.link"
                       target="_blank"
                       class="d-block border border-gray PartnersList-itemWrap"
                     >
                       <div class="PartnersList-item">
                         <img
-                          :src="partner.logo"
+                          :src="sponsor.image.url"
                           class="img-fluid"
                         >
                       </div>
@@ -142,14 +144,12 @@
               </b-row>
               <a
                 v-else
-                :href="data.call_to_action.finance.link"
+                :href="data.modal.finance_cta_link"
                 :class="
-                  'btn btn-' +
-                    data.call_to_action.finance.color +
-                    ' btn-green px-5 mx-2 my-2 text-white btn-lg'
+                  'btn btn-success btn-green px-5 mx-2 my-2 text-white btn-lg'
                 "
               >
-                {{ data.call_to_action.finance.title }}
+                {{ data.modal.finance_cta_text }}
               </a>
             </b-col>
           </b-row>
@@ -191,29 +191,23 @@ export default {
       solutionSlug: this.$route.params.solution,
       project: {},
       active_index: null,
-      projectIcon: "",
     };
   },
   watch: {
     $route(to) {
       this.project = this.segmentObject.projects.find(
-        (item) => item.projectSlug == to.params.solution
+        (item) => item.slug == to.params.solution
       );
 
-      this.projectIcon = require("../assets/images/projects/" +
-        this.project.icon +
-        ".png");
-
       this.$gtag.pageview({
-        page_title: this.project.projectSlug,
+        page_title: this.project.slug,
         page_path: window.location.href,
       });
     },
   },
   created() {
-    /** Extract the current active project index. */
     for (let index = 0; index < this.segmentObject.projects.length; index++) {
-      if (this.segmentObject.projects[index].projectSlug == this.solutionSlug) {
+      if (this.segmentObject.projects[index].slug == this.solutionSlug) {
         this.active_index = index;
         break;
       }
@@ -221,15 +215,11 @@ export default {
   },
   mounted() {
     this.project = this.segmentObject.projects.find(
-      (item) => item.projectSlug == this.solutionSlug
+      (item) => item.slug == this.solutionSlug
     );
 
-    this.projectIcon = require("../assets/images/projects/" +
-      this.project.icon +
-      ".png");
-
     this.$gtag.pageview({
-      page_title: this.project.projectSlug,
+      page_title: this.project.slug,
       page_path: window.location.href,
     });
   },
@@ -244,7 +234,7 @@ export default {
       this.$router.push({
         name: "ProjectModal",
         params: {
-          solution: this.segmentObject.projects[this.active_index].projectSlug,
+          solution: this.segmentObject.projects[this.active_index].slug,
         },
       });
     },
@@ -257,7 +247,7 @@ export default {
       this.$router.push({
         name: "ProjectModal",
         params: {
-          solution: this.segmentObject.projects[this.active_index].projectSlug,
+          solution: this.segmentObject.projects[this.active_index].slug,
         },
       });
     },
