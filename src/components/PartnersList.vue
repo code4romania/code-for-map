@@ -11,7 +11,7 @@
           <div class="PartnersList-item">
             <img
               class="img-fluid"
-              :src="partner.logo"
+              :src="partner.image.url"
               :alt="partner.name"
             >
           </div>
