@@ -233,7 +233,7 @@
         <div class="w-100" />
         <b-col lg="6">
           <PartnersList
-            :list="data.partners.main"
+            :list="page.components[4].sponsors_primary"
             :col="3"
           />
         </b-col>
@@ -241,7 +241,7 @@
       <b-row>
         <b-col>
           <PartnersList
-            :list="data.partners.secondary"
+            :list="page.components[4].sponsors_secondary"
             :col="6"
           />
         </b-col>
@@ -249,7 +249,7 @@
       <b-row>
         <b-col>
           <PartnersList
-            :list="data.partners.others"
+            :list="page.components[4].sponsors_tertiary"
             :col="6"
           />
         </b-col>
@@ -312,6 +312,7 @@ export default {
         `https://map-api.heroesof.tech/api/pages/slug/home?locale=${locale}`
       );
       const { data } = await res.json();
+
       const [page] = data;
       this.page = page;
     },
